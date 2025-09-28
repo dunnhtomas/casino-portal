@@ -1,0 +1,9 @@
+{
+	"id": "mYBH6pyc1EILzWT",
+	"json": "{\"id\":\"mYBH6pyc1EILzWT\",\"url\":\"https://www.robocat.de\",\"loadedUrl\":\"https://www.domainmarkt.de/www.robocat.de\",\"uniqueKey\":\"https://www.robocat.de\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"robocat-de\",\"brand\":\"Robocat\",\"url\":\"https://www.robocat.de\",\"licences\":[\"Spielbehorde Schleswig-Holstein\"],\"restrictedGeos\":[\"All except Germany\"],\"providers\":[\"Pragmatic Play\",\"Evolution Gaming\",\"Play'n GO\",\"Novomatic\",\"Merkur\",\"EYEcon\"],\"payoutSpeedHours\":24,\"banking\":[\"Giropay\",\"Sofort\",\"PayPal\",\"Visa\",\"Mastercard\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€200 + 100 FS\",\"wagering\":\"30x\",\"maxCashout\":200}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.2,\"fairness\":8.58,\"payout\":9.5,\"bonusValue\":8.19,\"games\":9.5,\"support\":7.02,\"reputation\":8.7},\"topTags\":[\"Fast payouts\",\"Mobile-optimized\"],\"logo\":{\"url\":\"https://www.domainmarkt.de/images/logo.gif\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"276x63\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:54.878Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.robocat.de",
+	"url": "https://www.robocat.de"
+}

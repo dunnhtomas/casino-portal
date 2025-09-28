@@ -1,0 +1,9 @@
+{
+	"id": "pl3sxMenNTlDkok",
+	"json": "{\"id\":\"pl3sxMenNTlDkok\",\"url\":\"https://www.moana-casino.com\",\"loadedUrl\":\"https://moana-casino.com/\",\"uniqueKey\":\"https://www.moana-casino.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"moana-casino\",\"brand\":\"Moana Casino\",\"url\":\"https://www.moana-casino.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"Pragmatic Play\",\"Evolution Gaming\",\"Play'n GO\",\"BGaming\",\"Hacksaw Gaming\",\"Relax Gaming\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Cryptocurrencies\",\"Interac\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€750 + 100 FS\",\"wagering\":\"45x\",\"maxCashout\":750}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.03,\"resolvedComplaints\":70,\"termsFlags\":[]},\"ratings\":{\"security\":7,\"fairness\":8.36,\"payout\":8.5,\"bonusValue\":7.9799999999999995,\"games\":10,\"support\":8.36,\"reputation\":6.5},\"topTags\":[\"Quick withdrawals\",\"Great game variety\",\"Crypto-friendly\"],\"logo\":{\"url\":\"https://moana-casino.com/wp-content/uploads/sites/63/2025/03/Moana-Casino-Logo.svg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"215x75\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T20:00:27.711Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.moana-casino.com",
+	"url": "https://www.moana-casino.com"
+}

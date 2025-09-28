@@ -1,0 +1,9 @@
+{
+	"id": "yK1FWRZbMYnWPnx",
+	"json": "{\"id\":\"yK1FWRZbMYnWPnx\",\"url\":\"https://www.skyhills.com/nl\",\"loadedUrl\":\"https://www.skyhills.com/en/nl\",\"uniqueKey\":\"https://www.skyhills.com/nl\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"skyhills-nl-v2\",\"brand\":\"SkyHills\",\"url\":\"https://www.skyhills.com/nl\",\"licences\":[\"Kansspelautoriteit\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"DE\",\"IT\"],\"providers\":[\"NetEnt\",\"Play'n GO\",\"Pragmatic Play\",\"Evolution Gaming\",\"Yggdrasil\"],\"payoutSpeedHours\":24,\"banking\":[\"iDEAL\",\"Bank Transfer\",\"Visa\",\"Mastercard\",\"PayPal\",\"Cards\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 150 FS\",\"wagering\":\"30x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":3,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.5,\"fairness\":9.46,\"payout\":9.5,\"bonusValue\":9,\"games\":9.9,\"support\":9,\"reputation\":9},\"topTags\":[\"Fast payouts\",\"Mobile app\",\"VIP program\"],\"logo\":{\"url\":\"https://www.skyhills.com/cdn/system/logos/c281faa8-1491-47f3-8d4d-6be43cb96db9.png?ts=1732544235339\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"800x800\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:08.729Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.skyhills.com/nl",
+	"url": "https://www.skyhills.com/nl"
+}

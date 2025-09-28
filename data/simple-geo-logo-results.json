@@ -1,0 +1,162 @@
+[
+  {
+    "casino": "slotlair-uk-v2",
+    "brand": "Slotlair",
+    "logoUrl": "https://slotlair.co.uk/wp-content/uploads/2025/06/slot-lair-banner.png",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "274x80",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "samba-slots",
+    "brand": "Samba Slots",
+    "logoUrl": "https://www.sambaslots.com/wp-content/uploads/2025/08/logo-sambaslots.svg",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "100x46",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "skyhills-nl-v2",
+    "brand": "SkyHills",
+    "logoUrl": "https://www.skyhills.com/cdn/system/logos/c281faa8-1491-47f3-8d4d-6be43cb96db9.png?ts=1732544235339",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "800x800",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "kings-chip",
+    "brand": "Kings Chip",
+    "logoUrl": "https://d3tmpsuhcgf0q8.cloudfront.net/The%20Kings%20chip/KingsChip%20logo%20motion.gif",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "450x250",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "spincastle-uk-v2",
+    "brand": "SpinCastle",
+    "logoUrl": "https://spincastle.com/wp-content/uploads/2025/03/SPINCASTLEE-unscreen.gif",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "400x225",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "vegas-nova",
+    "brand": "Vegas Nova",
+    "logoUrl": "https://cms-cdn.vegasnova-tec.com/vegasnova-cms/logo_M_4663880080_7a0e345a9f.svg",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "168x40",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "lyrabet-gr-v2",
+    "brand": "LyraBet",
+    "logoUrl": "https://lyrabet.gr/images/logo.svg",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "150x70",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "pistolo-casino",
+    "brand": "Pistolo Casino",
+    "logoUrl": "https://pistolocasino.com/wp-content/uploads/sites/52/2025/03/Pistolo-Casino-Main-Logo.svg",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "215x75",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "spingranny-at",
+    "brand": "SpinGranny",
+    "logoUrl": "https://spingranny.at/build/8lzoa5tf104x/spingranny.webp",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "900x355",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "orionsbet-uk-v2",
+    "brand": "Orionsbet",
+    "logoUrl": "https://orionsbet.co.uk/wp-content/uploads/2025/08/orionsbet-light-logo.webp",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "210x76",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "vincispin",
+    "brand": "VinciSpin",
+    "logoUrl": "https://cdn.vincistatic.com/images/file/uploads/258168549164468837.svg",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "303x81",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "robocat-de",
+    "brand": "Robocat",
+    "logoUrl": "https://www.domainmarkt.de/images/logo.gif",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "276x63",
+    "brandRelevance": 10
+  },
+  {
+    "casino": "instant-casino",
+    "brand": "Instant Casino",
+    "logoUrl": "https://www.instantcasino.com/wp-content/uploads/2025/07/logo-new.svg",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "180x31",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "golden-panda",
+    "brand": "Golden Panda",
+    "logoUrl": "https://www.goldenpanda.com/wp-content/uploads/2025/07/footer-logo.svg",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "176x33",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "magius-casino",
+    "brand": "Magius Casino",
+    "logoUrl": "https://magiuscasino.com/images/logo.png",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "290x116",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "moana-casino",
+    "brand": "Moana Casino",
+    "logoUrl": "https://moana-casino.com/wp-content/uploads/sites/63/2025/03/Moana-Casino-Logo.svg",
+    "quality": "high",
+    "source": "geo-aware-smart",
+    "country": "CA",
+    "dimensions": "215x75",
+    "brandRelevance": 15
+  }
+]

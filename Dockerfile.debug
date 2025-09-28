@@ -1,0 +1,41 @@
+# Clean Dockerfile for development debugging
+FROM node:20-bullseye-slim
+
+WORKDIR /usr/src/app
+
+# Set environment variables for faster builds
+ENV npm_config_progress=false
+ENV npm_config_loglevel=verbose
+
+# Install system dependencies with progress tracking
+RUN echo "Installing system dependencies..." && \
+    apt-get update && \
+    apt-get install -y build-essential git python3 pkg-config && \
+    rm -rf /var/lib/apt/lists/* && \
+    echo "System dependencies installed successfully"
+
+# Copy package files
+RUN echo "Copying package files..."
+COPY package.json package-lock.json* ./
+
+# Try different npm install approaches
+RUN echo "Starting npm install with optimizations..." && \
+    npm config set registry https://registry.npmjs.org/ && \
+    npm config set fetch-retry-mintimeout 20000 && \
+    npm config set fetch-retry-maxtimeout 120000 && \
+    npm install --no-audit --no-fund --verbose || \
+    (echo "npm install failed, trying ci..." && npm ci --verbose) || \
+    (echo "Both failed, trying basic install..." && npm install --verbose)
+
+RUN echo "Dependencies installed successfully"
+
+# Copy source code
+COPY . ./
+
+RUN echo "Build preparation complete"
+
+# Expose port
+EXPOSE 3000
+
+# Run development server
+CMD ["npm", "run", "dev"]

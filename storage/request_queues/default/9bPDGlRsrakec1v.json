@@ -1,0 +1,9 @@
+{
+	"id": "9bPDGlRsrakec1v",
+	"json": "{\"id\":\"9bPDGlRsrakec1v\",\"url\":\"https://www.spellwin.com/uk\",\"loadedUrl\":\"https://spellwin.com/uk\",\"uniqueKey\":\"https://www.spellwin.com/uk\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"spellwin-uk-v2\",\"brand\":\"SpellWin\",\"url\":\"https://www.spellwin.com/uk\",\"licences\":[\"UK\"],\"restrictedGeos\":[\"US\",\"AU\",\"DE\",\"FR\",\"IT\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Play'n GO\",\"Pragmatic Play\",\"Evolution Gaming\"],\"payoutSpeedHours\":36,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Apple Pay\",\"Trustly\",\"Bank Transfer\",\"E-wallets\",\"Cards\"],\"bonuses\":{\"welcome\":{\"headline\":\"£200 + 100 FS\",\"wagering\":\"35x\",\"maxCashout\":200}},\"safety\":{\"yearsOnline\":3,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.2,\"fairness\":9.02,\"payout\":8.5,\"bonusValue\":8.61,\"games\":9.7,\"support\":9,\"reputation\":8.7},\"topTags\":[\"Quick withdrawals\",\"Premium license\",\"Mobile-optimized\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=spellwin.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:01.775Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.spellwin.com/uk",
+	"url": "https://www.spellwin.com/uk"
+}

@@ -1,0 +1,50 @@
+{
+  "name": "best-casino-portal",
+  "version": "0.1.0",
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "build": "astro build",
+    "dev": "astro dev --host 0.0.0.0 --port 3000",
+    "test": "node tests/RatingManager.test.js",
+    "generate:sitemap": "node scripts/generate-sitemap.js",
+    "verify:prd": "node scripts/verify-prd.js",
+    "seo:optimize": "npm run generate:sitemap && npm run build && npm run verify:prd",
+    "deploy:check": "npm run seo:optimize && echo '✅ Ready for deployment!'",
+    "test:css": "playwright test css-debug --headed --project=chromium",
+    "test:audit": "playwright test homepage-audit --headed --project=chromium",
+    "test:debug": "playwright test --debug --project=chromium",
+    "playwright:install": "playwright install",
+    "fix:mobile": "node scripts/mobile-first-fixes.js",
+    "fix:css": "npm run fix:mobile && npm run build && npm run test:css",
+    "setup:google-api": "node scripts/setup-google-api.js",
+    "fetch:logos": "node scripts/fetch-real-logos.js",
+    "fetch:real-logos": "node scripts/fetch-real-logos-google.js",
+    "logos:setup": "npm run setup:google-api",
+    "logos:fetch": "npm run fetch:real-logos && npm run build",
+    "deploy:with-real-logos": "npm run fetch:real-logos && npm run build && docker build -t casino-real-logos ."
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@googleapis/customsearch": "^6.0.0",
+    "crawlee": "^3.15.1",
+    "playwright": "^1.55.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "sharp": "^0.32.0"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^4.4.0",
+    "@astrojs/tailwind": "^5.1.2",
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.14",
+    "@types/react-dom": "^19.1.9",
+    "astro": "^5.14.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.9.2"
+  }
+}

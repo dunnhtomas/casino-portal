@@ -1,0 +1,9 @@
+{
+	"id": "1oITwEHLFoOLFlO",
+	"json": "{\"id\":\"1oITwEHLFoOLFlO\",\"url\":\"https://www.ritzocasino.com\",\"loadedUrl\":\"https://www.ritzocasino.com/\",\"uniqueKey\":\"https://www.ritzocasino.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"ritzo-casino\",\"brand\":\"Ritzo Casino\",\"url\":\"https://www.ritzocasino.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"ES\",\"IT\"],\"providers\":[\"Pragmatic Play\",\"Evolution Gaming\",\"Play'n GO\",\"NetEnt\",\"Yggdrasil\",\"Hacksaw Gaming\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Crypto\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":3,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":8.5,\"fairness\":9.02,\"payout\":8.5,\"bonusValue\":8.61,\"games\":10,\"support\":9,\"reputation\":8},\"topTags\":[\"Quick withdrawals\",\"Massive game selection\",\"Live dealer games\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=ritzocasino.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:38.075Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.ritzocasino.com",
+	"url": "https://www.ritzocasino.com"
+}

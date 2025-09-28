@@ -1,0 +1,9 @@
+{
+	"id": "7DFWTL4k03xEbLf",
+	"json": "{\"id\":\"7DFWTL4k03xEbLf\",\"url\":\"https://www.treasurespins.com\",\"loadedUrl\":\"https://treasurespins.com/\",\"uniqueKey\":\"https://www.treasurespins.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"treasure-spins\",\"brand\":\"Treasure Spins\",\"url\":\"https://www.treasurespins.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"Pragmatic Play\",\"Play'n GO\",\"Evolution Gaming\",\"NetEnt\",\"Yggdrasil\",\"Quickspin\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Crypto\",\"PIX\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":3,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":8.8,\"fairness\":9.02,\"payout\":8.5,\"bonusValue\":8.61,\"games\":10,\"support\":9,\"reputation\":8.3},\"topTags\":[\"Quick withdrawals\",\"Massive game selection\",\"Live dealer games\"],\"logo\":{\"url\":\"https://treasurespins.com/static/logo-CCrUGZkN.svg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"168x40\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:33.931Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.treasurespins.com",
+	"url": "https://www.treasurespins.com"
+}

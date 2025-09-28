@@ -1,0 +1,9 @@
+{
+	"id": "U8idf9m8EmnUJoI",
+	"json": "{\"id\":\"U8idf9m8EmnUJoI\",\"url\":\"https://www.allspins.com\",\"loadedUrl\":\"https://allspins.com/\",\"uniqueKey\":\"https://www.allspins.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"allspins\",\"brand\":\"AllSpins\",\"url\":\"https://www.allspins.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"Pragmatic Play\",\"Play'n GO\",\"Hacksaw Gaming\",\"Relax Gaming\",\"NoLimit City\",\"Thunderkick\",\"Wazdan\"],\"payoutSpeedHours\":72,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"ecoPayz\",\"Crypto\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€300 + 50 FS\",\"wagering\":\"45x\",\"maxCashout\":300}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.03,\"resolvedComplaints\":70,\"termsFlags\":[\"Check T&Cs carefully\"]},\"ratings\":{\"security\":6,\"fairness\":8.58,\"payout\":7.5,\"bonusValue\":8.19,\"games\":10,\"support\":8.58,\"reputation\":5.5},\"topTags\":[\"Massive game selection\",\"Excellent live casino\",\"Crypto-friendly\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=allspins.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T20:00:28.850Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.allspins.com",
+	"url": "https://www.allspins.com"
+}

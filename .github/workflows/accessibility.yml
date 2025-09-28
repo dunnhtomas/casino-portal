@@ -1,0 +1,44 @@
+name: Accessibility Checks
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  pa11y:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Serve dist
+        run: npx http-server ./dist -p 8080 -c-1 &
+
+      - name: Run pa11y accessibility scan
+        run: |
+          npx pa11y http://localhost:8080 --reporter html > ./reports/pa11y.html || true
+          npx pa11y http://localhost:8080/best/fast-withdrawals --reporter html > ./reports/pa11y-fast.html || true
+
+      - name: Run axe-core accessibility scan
+        run: |
+          node scripts/run-axe.js http://localhost:8080 ./reports/axe.json || true
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: pa11y-reports
+          path: |
+            ./reports/pa11y*.html
+            ./reports/axe.json

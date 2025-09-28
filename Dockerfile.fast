@@ -1,0 +1,35 @@
+# Optimized Dockerfile - Clean and fast build
+FROM node:20-bullseye-slim
+
+WORKDIR /usr/src/app
+
+# Set environment variables for fast builds
+ENV npm_config_cache=/tmp/.npm
+ENV npm_config_fund=false
+
+# Install system dependencies for native modules
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    python3 \
+    libvips-dev \
+    pkg-config \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy package files
+COPY package.json package-lock.json* ./
+
+# Install dependencies with optimizations
+RUN npm install \
+    --no-fund \
+    --prefer-offline \
+    --progress=false \
+    --loglevel=warn
+
+# Copy source code
+COPY . ./
+
+# Expose port
+EXPOSE 3000
+
+# Development command
+CMD ["npm", "run", "dev"]

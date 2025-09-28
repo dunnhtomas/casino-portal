@@ -1,0 +1,9 @@
+{
+	"id": "vmcQ0mro4De1VwB",
+	"json": "{\"id\":\"vmcQ0mro4De1VwB\",\"url\":\"https://www.piratespins.com\",\"loadedUrl\":\"https://www.piratespins11.com/\",\"uniqueKey\":\"https://www.piratespins.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"pirate-spins\",\"brand\":\"Pirate Spins\",\"url\":\"https://www.piratespins.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"ES\",\"IT\"],\"providers\":[\"Pragmatic Play\",\"Evolution Gaming\",\"NetEnt\",\"Play'n GO\",\"Hacksaw Gaming\",\"BGaming\"],\"payoutSpeedHours\":72,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"MiFinity\",\"Crypto\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":2,\"complaintRatio\":0.03,\"resolvedComplaints\":70,\"termsFlags\":[]},\"ratings\":{\"security\":8,\"fairness\":8.58,\"payout\":7.5,\"bonusValue\":8.19,\"games\":10,\"support\":8.58,\"reputation\":7.5},\"topTags\":[\"Massive game selection\",\"Live dealer games\",\"Crypto-friendly\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=piratespins.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T20:00:14.614Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.piratespins.com",
+	"url": "https://www.piratespins.com"
+}

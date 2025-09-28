@@ -1,0 +1,900 @@
+[
+  {
+    "slug": "spellwin",
+    "brand": "SpellWin",
+    "originalBrand": "SpellWin",
+    "searchVariations": [
+      "spellwin"
+    ],
+    "url": "https://www.spellwin.com"
+  },
+  {
+    "slug": "winitbet",
+    "brand": "Winit",
+    "originalBrand": "Winit.Bet",
+    "searchVariations": [
+      "winit",
+      "winitbet",
+      "winit.bet"
+    ],
+    "url": "https://www.winit.bet"
+  },
+  {
+    "slug": "unlimluck-hb-v2",
+    "brand": "UnlimLuck",
+    "originalBrand": "UnlimLuck HB-v2",
+    "searchVariations": [
+      "unlimluck",
+      "unlimluck-hb-v2",
+      "unlimluck hb-v2"
+    ],
+    "url": "https://www.unlimluck.com"
+  },
+  {
+    "slug": "mr-pacho",
+    "brand": "Mr Pacho",
+    "originalBrand": "Mr Pacho",
+    "searchVariations": [
+      "mr pacho",
+      "mrpacho",
+      "mr-pacho"
+    ],
+    "url": "https://www.mrpacho.com"
+  },
+  {
+    "slug": "larabet",
+    "brand": "Larabet",
+    "originalBrand": "Larabet",
+    "searchVariations": [
+      "larabet"
+    ],
+    "url": "https://www.larabet.com"
+  },
+  {
+    "slug": "slotlair-uk-v2",
+    "brand": "Slotlair UK",
+    "originalBrand": "Slotlair UK-v2",
+    "searchVariations": [
+      "slotlair uk",
+      "slotlairuk",
+      "slotlair-uk-v2",
+      "slotlair",
+      "slotlair uk-v2"
+    ],
+    "url": "https://www.slotlair.co.uk"
+  },
+  {
+    "slug": "sagaspins-uk-v2",
+    "brand": "SagaSpins UK",
+    "originalBrand": "SagaSpins UK-v2",
+    "searchVariations": [
+      "sagaspins uk",
+      "sagaspinsuk",
+      "sagaspins-uk-v2",
+      "sagaspins",
+      "sagaspins uk-v2"
+    ],
+    "url": "https://www.sagaspins.com"
+  },
+  {
+    "slug": "samba-slots",
+    "brand": "Samba",
+    "originalBrand": "Samba Slots",
+    "searchVariations": [
+      "samba",
+      "samba-slots",
+      "sambaslots",
+      "samba slots"
+    ],
+    "url": "https://www.sambaslots.com"
+  },
+  {
+    "slug": "willdsino",
+    "brand": "Willdsino",
+    "originalBrand": "Willdsino",
+    "searchVariations": [
+      "willdsino"
+    ],
+    "url": "https://www.willdsino.com"
+  },
+  {
+    "slug": "trino",
+    "brand": "Trino",
+    "originalBrand": "Trino",
+    "searchVariations": [
+      "trino",
+      "trinocasino"
+    ],
+    "url": "https://www.trinocasino.com"
+  },
+  {
+    "slug": "skyhills-nl-v2",
+    "brand": "SkyHills NL",
+    "originalBrand": "SkyHills NL-v2",
+    "searchVariations": [
+      "skyhills nl",
+      "skyhillsnl",
+      "skyhills-nl-v2",
+      "skyhills",
+      "skyhills nl-v2"
+    ],
+    "url": "https://www.skyhills.com/nl"
+  },
+  {
+    "slug": "wonthere-uk-v2",
+    "brand": "WonThere UK",
+    "originalBrand": "WonThere UK-v2",
+    "searchVariations": [
+      "wonthere uk",
+      "wonthereuk",
+      "wonthere-uk-v2",
+      "wonthere",
+      "wonthere uk-v2"
+    ],
+    "url": "https://www.wonthere.co.uk"
+  },
+  {
+    "slug": "lucky-hunter",
+    "brand": "Lucky Hunter",
+    "originalBrand": "Lucky Hunter",
+    "searchVariations": [
+      "lucky hunter",
+      "luckyhunter",
+      "lucky-hunter"
+    ],
+    "url": "https://luckyhunter.io"
+  },
+  {
+    "slug": "rizz-casino",
+    "brand": "Rizz",
+    "originalBrand": "Rizz Casino",
+    "searchVariations": [
+      "rizz",
+      "rizz-casino",
+      "rizzcasino",
+      "rizz casino"
+    ],
+    "url": "https://www.rizzcasino.com"
+  },
+  {
+    "slug": "n1-bet-casino",
+    "brand": "N1 Bet",
+    "originalBrand": "N1 Bet Casino",
+    "searchVariations": [
+      "n1 bet",
+      "n1bet",
+      "n1-bet-casino",
+      "n1 bet casino"
+    ],
+    "url": "https://www.n1bet.com"
+  },
+  {
+    "slug": "aerobet",
+    "brand": "Aerobet",
+    "originalBrand": "Aerobet",
+    "searchVariations": [
+      "aerobet"
+    ],
+    "url": "https://www.aerobet.com"
+  },
+  {
+    "slug": "kings-chip",
+    "brand": "Kings Chip",
+    "originalBrand": "Kings Chip",
+    "searchVariations": [
+      "kings chip",
+      "kingschip",
+      "kings-chip"
+    ],
+    "url": "https://www.kingschip.com"
+  },
+  {
+    "slug": "my-empire",
+    "brand": "My Empire",
+    "originalBrand": "My Empire",
+    "searchVariations": [
+      "my empire",
+      "myempire",
+      "my-empire"
+    ],
+    "url": "https://www.myempire.com"
+  },
+  {
+    "slug": "romibet-es-v2",
+    "brand": "RomiBet ES",
+    "originalBrand": "RomiBet ES-v2",
+    "searchVariations": [
+      "romibet es",
+      "romibetes",
+      "romibet-es-v2",
+      "romibet",
+      "romibet es-v2"
+    ],
+    "url": "https://www.romibet.es"
+  },
+  {
+    "slug": "spincastle-uk-v2",
+    "brand": "SpinCastle UK",
+    "originalBrand": "SpinCastle UK-v2",
+    "searchVariations": [
+      "spincastle uk",
+      "spincastleuk",
+      "spincastle-uk-v2",
+      "spincastle",
+      "spincastle uk-v2"
+    ],
+    "url": "https://www.spincastle.com/uk"
+  },
+  {
+    "slug": "roman-casino",
+    "brand": "Roman",
+    "originalBrand": "Roman Casino",
+    "searchVariations": [
+      "roman",
+      "roman-casino",
+      "romancasino",
+      "roman casino"
+    ],
+    "url": "https://www.romancasino.com"
+  },
+  {
+    "slug": "winrolla",
+    "brand": "WinRolla",
+    "originalBrand": "WinRolla",
+    "searchVariations": [
+      "winrolla"
+    ],
+    "url": "https://www.winrolla.com"
+  },
+  {
+    "slug": "rollxo",
+    "brand": "RollXO",
+    "originalBrand": "RollXO",
+    "searchVariations": [
+      "rollxo"
+    ],
+    "url": "https://www.rollxo.com"
+  },
+  {
+    "slug": "jackpot-raider",
+    "brand": "Jackpot Raider",
+    "originalBrand": "Jackpot Raider",
+    "searchVariations": [
+      "jackpot raider",
+      "jackpotraider",
+      "jackpot-raider"
+    ],
+    "url": "https://www.jackpotraider.com"
+  },
+  {
+    "slug": "lucki-casino",
+    "brand": "Lucki",
+    "originalBrand": "Lucki Casino",
+    "searchVariations": [
+      "lucki",
+      "lucki-casino",
+      "lucki casino"
+    ],
+    "url": "https://www.lucki.com"
+  },
+  {
+    "slug": "malina-casino",
+    "brand": "Malina",
+    "originalBrand": "Malina Casino",
+    "searchVariations": [
+      "malina",
+      "malina-casino",
+      "malinacasino",
+      "malina casino"
+    ],
+    "url": "https://www.malinacasino.com"
+  },
+  {
+    "slug": "wildrobin-casino",
+    "brand": "WildRobin",
+    "originalBrand": "WildRobin Casino",
+    "searchVariations": [
+      "wildrobin",
+      "wildrobin-casino",
+      "wildrobincasino",
+      "wildrobin casino"
+    ],
+    "url": "https://www.wildrobincasino.com"
+  },
+  {
+    "slug": "jet4bet-uk",
+    "brand": "Jet4Bet",
+    "originalBrand": "Jet4Bet UK",
+    "searchVariations": [
+      "jet4bet",
+      "jet4bet-uk",
+      "jet4bet uk"
+    ],
+    "url": "https://www.jet4bet.co.uk"
+  },
+  {
+    "slug": "vipzino",
+    "brand": "Vipzino",
+    "originalBrand": "Vipzino",
+    "searchVariations": [
+      "vipzino"
+    ],
+    "url": "https://www.vipzino.com"
+  },
+  {
+    "slug": "rolling-slots",
+    "brand": "Rolling",
+    "originalBrand": "Rolling Slots",
+    "searchVariations": [
+      "rolling",
+      "rolling-slots",
+      "rollingslots",
+      "rolling slots"
+    ],
+    "url": "https://www.rollingslots.com"
+  },
+  {
+    "slug": "spinmama",
+    "brand": "SpinMama",
+    "originalBrand": "SpinMama",
+    "searchVariations": [
+      "spinmama"
+    ],
+    "url": "https://www.spinmama.com"
+  },
+  {
+    "slug": "wild-robin",
+    "brand": "Wild Robin",
+    "originalBrand": "Wild Robin",
+    "searchVariations": [
+      "wild robin",
+      "wildrobin",
+      "wild-robin"
+    ],
+    "url": "https://www.wildrobin.com"
+  },
+  {
+    "slug": "spellwin-uk-v2",
+    "brand": "SpellWin UK",
+    "originalBrand": "SpellWin UK-v2",
+    "searchVariations": [
+      "spellwin uk",
+      "spellwinuk",
+      "spellwin-uk-v2",
+      "spellwin",
+      "spellwin uk-v2"
+    ],
+    "url": "https://www.spellwin.com/uk"
+  },
+  {
+    "slug": "the-red",
+    "brand": "The Red",
+    "originalBrand": "The Red",
+    "searchVariations": [
+      "the red",
+      "thered",
+      "the-red",
+      "theredcasino"
+    ],
+    "url": "https://www.theredcasino.com"
+  },
+  {
+    "slug": "london-casino",
+    "brand": "London",
+    "originalBrand": "London Casino",
+    "searchVariations": [
+      "london",
+      "london-casino",
+      "londoncasino",
+      "london casino"
+    ],
+    "url": "https://www.londoncasino.co.uk"
+  },
+  {
+    "slug": "vegas-nova",
+    "brand": "Vegas Nova",
+    "originalBrand": "Vegas Nova",
+    "searchVariations": [
+      "vegas nova",
+      "vegasnova",
+      "vegas-nova"
+    ],
+    "url": "https://www.vegasnova.com"
+  },
+  {
+    "slug": "winshark",
+    "brand": "Winshark",
+    "originalBrand": "Winshark",
+    "searchVariations": [
+      "winshark"
+    ],
+    "url": "https://www.winshark.com"
+  },
+  {
+    "slug": "tiki-casino",
+    "brand": "Tiki",
+    "originalBrand": "Tiki Casino",
+    "searchVariations": [
+      "tiki",
+      "tiki-casino",
+      "tikicasino",
+      "tiki casino"
+    ],
+    "url": "https://www.tikicasino.com"
+  },
+  {
+    "slug": "instaspin",
+    "brand": "InstaSpin",
+    "originalBrand": "InstaSpin",
+    "searchVariations": [
+      "instaspin"
+    ],
+    "url": "https://www.instaspin.com"
+  },
+  {
+    "slug": "lyrabet-gr-v2",
+    "brand": "LyraBet GR",
+    "originalBrand": "LyraBet GR-v2",
+    "searchVariations": [
+      "lyrabet gr",
+      "lyrabetgr",
+      "lyrabet-gr-v2",
+      "lyrabet",
+      "lyrabet gr-v2"
+    ],
+    "url": "https://www.lyrabet.gr"
+  },
+  {
+    "slug": "pistolo-casino",
+    "brand": "Pistolo",
+    "originalBrand": "Pistolo Casino",
+    "searchVariations": [
+      "pistolo",
+      "pistolo-casino",
+      "pistolocasino",
+      "pistolo casino"
+    ],
+    "url": "https://www.pistolocasino.com"
+  },
+  {
+    "slug": "spingranny-at",
+    "brand": "SpinGranny",
+    "originalBrand": "SpinGranny AT",
+    "searchVariations": [
+      "spingranny",
+      "spingranny-at",
+      "spingranny at"
+    ],
+    "url": "https://www.spingranny.at"
+  },
+  {
+    "slug": "treasure-spins",
+    "brand": "Treasure",
+    "originalBrand": "Treasure Spins",
+    "searchVariations": [
+      "treasure",
+      "treasure-spins",
+      "treasurespins",
+      "treasure spins"
+    ],
+    "url": "https://www.treasurespins.com"
+  },
+  {
+    "slug": "spinlander-uk-v2",
+    "brand": "SpinLander UK",
+    "originalBrand": "SpinLander UK-v2",
+    "searchVariations": [
+      "spinlander uk",
+      "spinlanderuk",
+      "spinlander-uk-v2",
+      "spinlander",
+      "spinlander uk-v2"
+    ],
+    "url": "https://www.spinlander.co.uk"
+  },
+  {
+    "slug": "joker-ace's",
+    "brand": "Joker Ace",
+    "originalBrand": "Joker Ace's",
+    "searchVariations": [
+      "joker ace",
+      "jokerace",
+      "joker-ace's",
+      "jokeraces",
+      "joker ace's"
+    ],
+    "url": "https://www.jokeraces.com"
+  },
+  {
+    "slug": "needforspeed-se-v2",
+    "brand": "NeedForSpeed SE",
+    "originalBrand": "NeedForSpeed SE-v2",
+    "searchVariations": [
+      "needforspeed se",
+      "needforspeedse",
+      "needforspeed-se-v2",
+      "se",
+      "needforspeed se-v2"
+    ],
+    "url": "https://se.needforspeedcasino.com"
+  },
+  {
+    "slug": "orionsbet-uk-v2",
+    "brand": "Orionsbet UK",
+    "originalBrand": "Orionsbet UK-v2",
+    "searchVariations": [
+      "orionsbet uk",
+      "orionsbetuk",
+      "orionsbet-uk-v2",
+      "orionsbet",
+      "orionsbet uk-v2"
+    ],
+    "url": "https://www.orionsbet.co.uk"
+  },
+  {
+    "slug": "ivybetio",
+    "brand": "Ivybet io",
+    "originalBrand": "Ivybet.io",
+    "searchVariations": [
+      "ivybet io",
+      "ivybetio",
+      "ivybet",
+      "ivybet.io"
+    ],
+    "url": "https://www.ivybet.io"
+  },
+  {
+    "slug": "ritzo-casino",
+    "brand": "Ritzo",
+    "originalBrand": "Ritzo Casino",
+    "searchVariations": [
+      "ritzo",
+      "ritzo-casino",
+      "ritzocasino",
+      "ritzo casino"
+    ],
+    "url": "https://www.ritzocasino.com"
+  },
+  {
+    "slug": "spingranny",
+    "brand": "SpinGranny",
+    "originalBrand": "SpinGranny",
+    "searchVariations": [
+      "spingranny"
+    ],
+    "url": "https://www.spingranny.com"
+  },
+  {
+    "slug": "posido",
+    "brand": "Posido",
+    "originalBrand": "Posido",
+    "searchVariations": [
+      "posido"
+    ],
+    "url": "https://www.posido.com"
+  },
+  {
+    "slug": "lucky-wand",
+    "brand": "Lucky Wand",
+    "originalBrand": "Lucky Wand",
+    "searchVariations": [
+      "lucky wand",
+      "luckywand",
+      "lucky-wand",
+      "luckywandcasino"
+    ],
+    "url": "https://www.luckywandcasino.com"
+  },
+  {
+    "slug": "spingranny-cz",
+    "brand": "SpinGranny",
+    "originalBrand": "SpinGranny CZ",
+    "searchVariations": [
+      "spingranny",
+      "spingranny-cz",
+      "spingranny cz"
+    ],
+    "url": "https://www.spingranny.cz"
+  },
+  {
+    "slug": "vincispin",
+    "brand": "VinciSpin",
+    "originalBrand": "VinciSpin",
+    "searchVariations": [
+      "vincispin"
+    ],
+    "url": "https://www.vincispin.com"
+  },
+  {
+    "slug": "klikki-casino",
+    "brand": "Klikki",
+    "originalBrand": "Klikki Casino",
+    "searchVariations": [
+      "klikki",
+      "klikki-casino",
+      "klikkicasino",
+      "klikki casino"
+    ],
+    "url": "https://www.klikkicasino.com"
+  },
+  {
+    "slug": "slotit-de",
+    "brand": "Slotit",
+    "originalBrand": "Slotit DE",
+    "searchVariations": [
+      "slotit",
+      "slotit-de",
+      "slotit de"
+    ],
+    "url": "https://www.slotit.de"
+  },
+  {
+    "slug": "lyrabet-be-v2",
+    "brand": "LyraBet BE",
+    "originalBrand": "LyraBet BE-v2",
+    "searchVariations": [
+      "lyrabet be",
+      "lyrabetbe",
+      "lyrabet-be-v2",
+      "lyrabet",
+      "lyrabet be-v2"
+    ],
+    "url": "https://www.lyrabet.be"
+  },
+  {
+    "slug": "robocat-de",
+    "brand": "Robocat",
+    "originalBrand": "Robocat DE",
+    "searchVariations": [
+      "robocat",
+      "robocat-de",
+      "robocat de"
+    ],
+    "url": "https://www.robocat.de"
+  },
+  {
+    "slug": "spins-deluxe",
+    "brand": "Spins",
+    "originalBrand": "Spins Deluxe",
+    "searchVariations": [
+      "spins",
+      "spins-deluxe",
+      "spinsdeluxe",
+      "spins deluxe"
+    ],
+    "url": "https://www.spinsdeluxe.com"
+  },
+  {
+    "slug": "instant-casino",
+    "brand": "Instant",
+    "originalBrand": "Instant Casino",
+    "searchVariations": [
+      "instant",
+      "instant-casino",
+      "instantcasino",
+      "instant casino"
+    ],
+    "url": "https://www.instantcasino.com"
+  },
+  {
+    "slug": "golden-panda",
+    "brand": "Golden Panda",
+    "originalBrand": "Golden Panda",
+    "searchVariations": [
+      "golden panda",
+      "goldenpanda",
+      "golden-panda"
+    ],
+    "url": "https://www.goldenpanda.com"
+  },
+  {
+    "slug": "magius-casino",
+    "brand": "Magius",
+    "originalBrand": "Magius Casino",
+    "searchVariations": [
+      "magius",
+      "magius-casino",
+      "magiuscasino",
+      "magius casino"
+    ],
+    "url": "https://www.magiuscasino.com"
+  },
+  {
+    "slug": "romibet-fr-v2",
+    "brand": "RomiBet FR",
+    "originalBrand": "RomiBet FR-v2",
+    "searchVariations": [
+      "romibet fr",
+      "romibetfr",
+      "romibet-fr-v2",
+      "romibet",
+      "romibet fr-v2"
+    ],
+    "url": "https://www.romibet.fr"
+  },
+  {
+    "slug": "ultimluck-casino",
+    "brand": "Ultimluck",
+    "originalBrand": "Ultimluck Casino",
+    "searchVariations": [
+      "ultimluck",
+      "ultimluck-casino",
+      "ultimluck casino"
+    ],
+    "url": "https://www.ultimluck.com"
+  },
+  {
+    "slug": "slots-islands",
+    "brand": "Slots Islands",
+    "originalBrand": "Slots Islands",
+    "searchVariations": [
+      "slots islands",
+      "slotsislands",
+      "slots-islands"
+    ],
+    "url": "https://www.slotsislands.com"
+  },
+  {
+    "slug": "rich-royal",
+    "brand": "Rich Royal",
+    "originalBrand": "Rich Royal",
+    "searchVariations": [
+      "rich royal",
+      "richroyal",
+      "rich-royal"
+    ],
+    "url": "https://www.richroyal.com"
+  },
+  {
+    "slug": "royal-game",
+    "brand": "Royal",
+    "originalBrand": "Royal Game",
+    "searchVariations": [
+      "royal",
+      "royal-game",
+      "royalgames",
+      "royal game"
+    ],
+    "url": "https://www.royalgames.com"
+  },
+  {
+    "slug": "lucky-gem",
+    "brand": "Lucky Gem",
+    "originalBrand": "Lucky Gem",
+    "searchVariations": [
+      "lucky gem",
+      "luckygem",
+      "lucky-gem",
+      "luckygemcasino"
+    ],
+    "url": "https://www.luckygemcasino.com"
+  },
+  {
+    "slug": "pirate-spins",
+    "brand": "Pirate",
+    "originalBrand": "Pirate Spins",
+    "searchVariations": [
+      "pirate",
+      "pirate-spins",
+      "piratespins",
+      "pirate spins"
+    ],
+    "url": "https://www.piratespins.com"
+  },
+  {
+    "slug": "needforspeed-es-v2",
+    "brand": "NeedForSpeed ES",
+    "originalBrand": "NeedForSpeed ES-v2",
+    "searchVariations": [
+      "needforspeed es",
+      "needforspeedes",
+      "needforspeed-es-v2",
+      "es",
+      "needforspeed es-v2"
+    ],
+    "url": "https://es.needforspeedcasino.com"
+  },
+  {
+    "slug": "wild-tokyo",
+    "brand": "Wild Tokyo",
+    "originalBrand": "Wild Tokyo",
+    "searchVariations": [
+      "wild tokyo",
+      "wildtokyo",
+      "wild-tokyo"
+    ],
+    "url": "https://www.wildtokyo.com"
+  },
+  {
+    "slug": "36-hight",
+    "brand": "36 Hight",
+    "originalBrand": "36 Hight",
+    "searchVariations": [
+      "36 hight",
+      "36hight",
+      "36-hight"
+    ],
+    "url": "https://www.36hight.com"
+  },
+  {
+    "slug": "hello-fortune",
+    "brand": "Hello Fortune",
+    "originalBrand": "Hello Fortune",
+    "searchVariations": [
+      "hello fortune",
+      "hellofortune",
+      "hello-fortune"
+    ],
+    "url": "https://www.hellofortune.com"
+  },
+  {
+    "slug": "needforspeed-fi-v2",
+    "brand": "NeedForSpeed FI",
+    "originalBrand": "NeedForSpeed FI-v2",
+    "searchVariations": [
+      "needforspeed fi",
+      "needforspeedfi",
+      "needforspeed-fi-v2",
+      "fi",
+      "needforspeed fi-v2"
+    ],
+    "url": "https://fi.needforspeedcasino.com"
+  },
+  {
+    "slug": "moana-casino",
+    "brand": "Moana",
+    "originalBrand": "Moana Casino",
+    "searchVariations": [
+      "moana",
+      "moana-casino",
+      "moana casino"
+    ],
+    "url": "https://www.moana-casino.com"
+  },
+  {
+    "slug": "prontobet-au",
+    "brand": "ProntoBet",
+    "originalBrand": "ProntoBet AU",
+    "searchVariations": [
+      "prontobet",
+      "prontobet-au",
+      "prontobet au"
+    ],
+    "url": "https://www.prontobet.com.au"
+  },
+  {
+    "slug": "11croc-at-v2",
+    "brand": "11Croc AT",
+    "originalBrand": "11Croc AT-v2",
+    "searchVariations": [
+      "11croc at",
+      "11crocat",
+      "11croc-at-v2",
+      "11croc",
+      "11croc at-v2"
+    ],
+    "url": "https://www.11croc.com/at"
+  },
+  {
+    "slug": "11croc-de-v2",
+    "brand": "11Croc DE",
+    "originalBrand": "11Croc DE-v2",
+    "searchVariations": [
+      "11croc de",
+      "11crocde",
+      "11croc-de-v2",
+      "11croc",
+      "11croc de-v2"
+    ],
+    "url": "https://www.11croc.com/de"
+  },
+  {
+    "slug": "allspins",
+    "brand": "AllSpins",
+    "originalBrand": "AllSpins",
+    "searchVariations": [
+      "allspins"
+    ],
+    "url": "https://www.allspins.com"
+  }
+]

@@ -1,0 +1,9 @@
+{
+	"id": "Eht0xS1qYkwuloE",
+	"json": "{\"id\":\"Eht0xS1qYkwuloE\",\"url\":\"https://www.romibet.es\",\"loadedUrl\":\"https://www.romibet.es/\",\"uniqueKey\":\"https://www.romibet.es\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"romibet-es-v2\",\"brand\":\"RomiBet\",\"url\":\"https://www.romibet.es\",\"licences\":[\"Dirección General de Ordenación del Juego (DGOJ)\"],\"restrictedGeos\":[\"US\",\"UK\",\"IT\",\"FR\",\"DE\"],\"providers\":[\"Pragmatic Play\",\"Play'n GO\",\"Evolution Gaming\",\"NetEnt\",\"Red Tiger Gaming\",\"ELK Studios\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Skrill\",\"Neteller\",\"Bizum\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 100 FS\",\"wagering\":\"35x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":5,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.5,\"fairness\":9.46,\"payout\":8.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":9},\"topTags\":[\"Quick withdrawals\",\"Great game variety\",\"Live dealer games\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=romibet.es&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:25.838Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.romibet.es",
+	"url": "https://www.romibet.es"
+}

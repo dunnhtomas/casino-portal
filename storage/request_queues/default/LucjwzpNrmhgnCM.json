@@ -1,0 +1,9 @@
+{
+	"id": "LucjwzpNrmhgnCM",
+	"json": "{\"id\":\"LucjwzpNrmhgnCM\",\"url\":\"https://www.lucki.com\",\"loadedUrl\":\"https://www.lucki.com/\",\"uniqueKey\":\"https://www.lucki.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"lucki-casino\",\"brand\":\"Lucki Casino\",\"url\":\"https://www.lucki.com\",\"licences\":[\"Malta\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"ES\",\"IT\"],\"providers\":[\"Pragmatic Play\",\"Play'n GO\",\"NetEnt\",\"Evolution Gaming\",\"Big Time Gaming\",\"Red Tiger\"],\"payoutSpeedHours\":72,\"banking\":[\"Visa\",\"Mastercard\",\"Interac\",\"iDebit\",\"MuchBetter\",\"Jeton\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 200 FS\",\"wagering\":\"35x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.5,\"fairness\":9.46,\"payout\":7.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":9},\"topTags\":[\"Premium license\",\"Massive game selection\",\"Live dealer games\"],\"logo\":{\"url\":\"https://www.lucki.com/img/logo.jpg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"253x75\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:37.974Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.lucki.com",
+	"url": "https://www.lucki.com"
+}

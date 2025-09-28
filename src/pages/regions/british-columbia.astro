@@ -1,0 +1,30 @@
+---
+import casinos from '../../../data/casinos.json';
+import regions from '../../../data/regions.json';
+import FAQ from '../../components/RichText/FAQ';
+import { generateFAQJSONLD } from '../../lib/schema';
+const data = { region: regions.regions.find(r=> r.id === 'british-columbia'), casinos: casinos.filter(c=> true) };
+const faqs = (await import('../../../data/faqs.json')).regions?.['british-columbia'] || [];
+const faqJson = generateFAQJSONLD(faqs);
+---
+<html>
+  <head>
+    <title>British Columbia — BestCasinoPortal</title>
+    <script type="application/ld+json">{JSON.stringify(faqJson)}</script>
+  </head>
+  <body>
+    <main>
+      <h1>British Columbia — Local Casino Guidance</h1>
+      <p>{data.region?.legalSummary}</p>
+      <section>
+        <h2>Verified Casinos</h2>
+        <ul>
+          {data.casinos.map(c=> (
+            <li key={c.slug}>{c.brand} — {c.payoutSpeedHours ? `${c.payoutSpeedHours}h` : '—'}</li>
+          ))}
+        </ul>
+      </section>
+      <FAQ items={faqs} />
+    </main>
+  </body>
+</html>

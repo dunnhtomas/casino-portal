@@ -1,0 +1,8 @@
+{
+  "categories": [
+    {"id":"fast-payout","label":"Fast payouts"},
+    {"id":"mobile","label":"Mobile"},
+    {"id":"new","label":"New casinos"},
+    {"id":"live-dealer","label":"Live dealer"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+	"id": "WwEpwR5Rw6ZBmB8",
+	"json": "{\"id\":\"WwEpwR5Rw6ZBmB8\",\"url\":\"https://www.aerobet.com\",\"loadedUrl\":\"https://www.aerobet.com/\",\"uniqueKey\":\"https://www.aerobet.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"aerobet\",\"brand\":\"Aerobet\",\"url\":\"https://www.aerobet.com\",\"licences\":[\"Malta\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"Play'n GO\",\"Evolution Gaming\",\"Pragmatic Play\",\"Big Time Gaming\",\"Red Tiger Gaming\",\"ELK Studios\"],\"payoutSpeedHours\":18,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Trustly\",\"MuchBetter\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 150 FS\",\"wagering\":\"35x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":3,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":9,\"fairness\":9.46,\"payout\":9.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":8.5},\"topTags\":[\"Fast payouts\",\"Premium license\",\"Great game variety\"],\"logo\":{\"url\":\"https://logo.clearbit.com/aerobet.com\",\"source\":\"clearbit-api\",\"quality\":\"medium\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:17.378Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.aerobet.com",
+	"url": "https://www.aerobet.com"
+}

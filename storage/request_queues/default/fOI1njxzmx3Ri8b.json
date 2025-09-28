@@ -1,0 +1,9 @@
+{
+	"id": "fOI1njxzmx3Ri8b",
+	"json": "{\"id\":\"fOI1njxzmx3Ri8b\",\"url\":\"https://www.spinsdeluxe.com\",\"loadedUrl\":\"https://www.spinsdeluxe.com/\",\"uniqueKey\":\"https://www.spinsdeluxe.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"spins-deluxe\",\"brand\":\"Spins Deluxe\",\"url\":\"https://www.spinsdeluxe.com\",\"licences\":[\"UK\"],\"restrictedGeos\":[\"US\",\"CA\",\"AU\",\"DE\",\"FR\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Play'n GO\",\"Red Tiger\",\"Pragmatic Play\"],\"payoutSpeedHours\":36,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Apple Pay\",\"Paysafecard\",\"Bank Transfer\",\"E-wallets\",\"Cards\"],\"bonuses\":{\"welcome\":{\"headline\":\"£250 + 100 FS\",\"wagering\":\"35x\",\"maxCashout\":250}},\"safety\":{\"yearsOnline\":5,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.2,\"fairness\":8.8,\"payout\":8.5,\"bonusValue\":8.4,\"games\":7.8,\"support\":8.8,\"reputation\":8.7},\"topTags\":[\"Quick withdrawals\",\"Premium license\",\"Mobile-optimized\"],\"logo\":{\"url\":\"https://www.spinsdeluxe.com/images/spinsdeluxe//logo.png\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"600x218\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:56.378Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.spinsdeluxe.com",
+	"url": "https://www.spinsdeluxe.com"
+}

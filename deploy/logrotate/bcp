@@ -1,0 +1,16 @@
+/var/log/bcp/*.log {
+  daily
+  missingok
+  rotate 14
+  compress
+  delaycompress
+  notifempty
+  create 0640 www-data adm
+  sharedscripts
+  postrotate
+    # signal rsyslog to reopen files if needed
+    if pidof rsyslogd >/dev/null 2>&1; then
+      kill -HUP $(pidof rsyslogd) || true
+    fi
+  endscript
+}

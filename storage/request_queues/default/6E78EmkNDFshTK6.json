@@ -1,0 +1,9 @@
+{
+	"id": "6E78EmkNDFshTK6",
+	"json": "{\"id\":\"6E78EmkNDFshTK6\",\"url\":\"https://www.slotlair.co.uk\",\"loadedUrl\":\"https://slotlair.co.uk/\",\"uniqueKey\":\"https://www.slotlair.co.uk\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"slotlair-uk-v2\",\"brand\":\"Slotlair\",\"url\":\"https://www.slotlair.co.uk\",\"licences\":[\"UK\"],\"restrictedGeos\":[\"US\",\"DE\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"Microgaming\",\"NetEnt\",\"Playtech\",\"Pragmatic Play\",\"Evolution Gaming\"],\"payoutSpeedHours\":24,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Skrill\",\"Neteller\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"£300 + 50 FS\",\"wagering\":\"35x\",\"maxCashout\":300}},\"safety\":{\"yearsOnline\":5,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":10,\"fairness\":9.680000000000001,\"payout\":9.5,\"bonusValue\":9,\"games\":9.4,\"support\":9,\"reputation\":9.5},\"topTags\":[\"Fast payouts\",\"Premium license\",\"Mobile app\"],\"logo\":{\"url\":\"https://slotlair.co.uk/wp-content/uploads/2025/06/slot-lair-banner.png\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"274x80\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:57:54.246Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.slotlair.co.uk",
+	"url": "https://www.slotlair.co.uk"
+}

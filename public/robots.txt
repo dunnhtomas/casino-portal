@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://bestcasinoportal.com/sitemap.xml
+
+# Allow important pages
+Allow: /reviews/
+Allow: /best/
+Allow: /regions/
+Allow: /guides/
+
+# Block admin and internal pages
+Disallow: /api/
+Disallow: /_astro/
+
+# Crawl delay
+Crawl-delay: 1

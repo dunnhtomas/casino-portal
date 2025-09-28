@@ -1,0 +1,17 @@
+{
+  "homepage": [
+    {"q":"How do you rank casinos?","a":"We compute a composite score using transparent weights across security, payout speed, bonus value, games, mobile UX, support, and reputation. See our How We Rate page for details."},
+    {"q":"Are these casinos licensed?","a":"Yes — we show licences per casino. We avoid listing unlicensed operators and highlight licence types in each review."},
+    {"q":"Do you accept payment from casinos?","a":"We operate as an independent comparison site and disclose affiliate relationships on each outbound link."}
+  ],
+  "fast-withdrawals": [
+    {"q":"What counts as a 'fast' payout?","a":"We consider average payout speed in hours — typically under 24 hours is fast, under 12 is very fast. We also factor payment method differences (e-wallets/crypto are fastest)."},
+    {"q":"Can payout times vary by country?","a":"Yes. Local banking rails, verification requirements, and method fees may affect actual timings.","a_note":"We flag restricted geos and local norms on region pages."}
+  ],
+  "regions": {
+    "ontario": [
+      {"q":"Is online casino play legal in Ontario?","a":"Ontario has regulated online gaming. This page summarizes norms but not legal advice. Check local government resources for specifics."},
+      {"q":"Which payment methods are recommended in Ontario?","a":"Interac is widely used; e-wallets and crypto are also supported by many operators for faster payouts."}
+    ]
+  }
+}

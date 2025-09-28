@@ -1,0 +1,7 @@
+{
+  "regions": [
+    {"id":"ontario","label":"Ontario","legalSummary":"Regulated; Interac widely used"},
+    {"id":"alberta","label":"Alberta","legalSummary":"Regulated; similar banking norms"},
+    {"id":"british-columbia","label":"British Columbia","legalSummary":"Province-specific rules"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "bcp-backend",
+  "version": "0.1.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "@sentry/node": "^7.37.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Just a moment...",
+  "casinoElements": [],
+  "allImages": [
+    {
+      "index": 0,
+      "src": "https://www.askgamblers.com/favicon.ico",
+      "alt": "Icon for www.askgamblers.com",
+      "className": "heading-favicon",
+      "width": 32,
+      "height": 32
+    }
+  ],
+  "allLinks": [
+    {
+      "index": 0,
+      "href": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=m",
+      "text": "Cloudflare",
+      "className": ""
+    }
+  ],
+  "textContent": []
+}

@@ -1,0 +1,34 @@
+---
+import { explain, WEIGHTS } from '../../managers/RatingManager';
+---
+<html>
+  <head>
+    <title>How We Rate — BestCasinoPortal</title>
+  </head>
+  <body>
+    <main>
+      <h1>How We Rate</h1>
+      <p>We publish our rating weights and methodology for transparency.</p>
+      <section>
+        <h2>Weights</h2>
+        <ul>
+          <li>Security & Fairness: {WEIGHTS.security * 100}%</li>
+          <li>Payout Speed: {WEIGHTS.payout * 100}%</li>
+          <li>Bonuses & Value: {WEIGHTS.bonusValue * 100}%</li>
+          <li>Games & Providers: {WEIGHTS.games * 100}%</li>
+          <li>Mobile & UX: {WEIGHTS.mobile * 100}%</li>
+          <li>Support: {WEIGHTS.support * 100}%</li>
+          <li>Reputation Signals: {WEIGHTS.reputation * 100}%</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Explain</h2>
+        <ul>
+          {explain({security:0,payout:0,bonusValue:0,games:0,mobile:0,support:0,reputation:0}).map(e=> (
+            <li key={e.k}><strong>{e.k}</strong>: {e.why}</li>
+          ))}
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

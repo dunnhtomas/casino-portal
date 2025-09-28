@@ -1,0 +1,9 @@
+{
+	"id": "1ibwZk8LH7mUFKf",
+	"json": "{\"id\":\"1ibwZk8LH7mUFKf\",\"url\":\"https://www.vipzino.com\",\"loadedUrl\":\"https://www.vipzino.com/\",\"uniqueKey\":\"https://www.vipzino.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"vipzino\",\"brand\":\"Vipzino\",\"url\":\"https://www.vipzino.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"United Kingdom\",\"United States\",\"Spain\",\"France\",\"Italy\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Evolution Gaming\",\"Play'n GO\",\"Pragmatic Play\",\"Yggdrasil\",\"Quickspin\",\"Red Tiger Gaming\"],\"payoutSpeedHours\":0,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Paysafecard\",\"Interac\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":8.5,\"fairness\":9.240000000000002,\"payout\":9.5,\"bonusValue\":8.82,\"games\":10,\"support\":9,\"reputation\":8},\"topTags\":[\"Instant payouts\",\"Massive game selection\",\"Excellent live casino\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=vipzino.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:57.471Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.vipzino.com",
+	"url": "https://www.vipzino.com"
+}

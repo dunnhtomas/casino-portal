@@ -1,0 +1,9 @@
+{
+	"id": "li4LtLm0bFwfxZL",
+	"json": "{\"id\":\"li4LtLm0bFwfxZL\",\"url\":\"https://luckyhunter.io\",\"loadedUrl\":\"https://luckyhunter.io/\",\"uniqueKey\":\"https://luckyhunter.io\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"lucky-hunter\",\"brand\":\"Lucky Hunter\",\"url\":\"https://luckyhunter.io\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"ES\",\"IT\"],\"providers\":[\"Pragmatic Play\",\"Evolution Gaming\",\"Hacksaw Gaming\",\"Relax Gaming\",\"Spribe\",\"NetEnt\"],\"payoutSpeedHours\":0,\"banking\":[\"Bitcoin\",\"Ethereum\",\"Litecoin\",\"Tether\",\"Visa\",\"Mastercard\",\"Crypto\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"1.5 BTC + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":1}},\"safety\":{\"yearsOnline\":2,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":9,\"fairness\":9.9,\"payout\":9.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":8.5},\"topTags\":[\"Instant payouts\",\"Massive game selection\",\"Excellent live casino\"],\"logo\":{\"url\":\"https://logo.clearbit.com/luckyhunter.io\",\"source\":\"clearbit-api\",\"quality\":\"medium\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:14.547Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://luckyhunter.io",
+	"url": "https://luckyhunter.io"
+}

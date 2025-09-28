@@ -1,0 +1,27 @@
+---
+// Quick Filters component for category navigation
+const filterCategories = [
+  { name: "Fast Withdrawals", href: "/best/fast-withdrawals", icon: "⚡" },
+  { name: "Big Bonuses", href: "/best/real-money", icon: "💰" },
+  { name: "New Casinos", href: "/reviews", icon: "✨" },
+  { name: "Mobile", href: "/best/mobile", icon: "📱" },
+  { name: "Live Dealer", href: "/best/live-dealer", icon: "🎰" }
+];
+---
+
+<section id="quick-filters" class="py-12 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-2xl font-bold text-center text-gray-900 mb-8">Find Casinos by Category</h2>
+    <div class="flex flex-wrap justify-center gap-4">
+      {filterCategories.map(category => (
+        <a 
+          href={category.href}
+          class="flex items-center gap-3 bg-gray-100 hover:bg-indigo-100 hover:text-indigo-700 px-6 py-3 rounded-2xl font-semibold text-gray-700 transition-colors group"
+        >
+          <span class="text-2xl group-hover:scale-110 transition-transform">{category.icon}</span>
+          {category.name}
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+{
+	"id": "ig4Nm7wCFSmce72",
+	"json": "{\"id\":\"ig4Nm7wCFSmce72\",\"url\":\"https://www.magiuscasino.com\",\"loadedUrl\":\"https://magiuscasino.com/\",\"uniqueKey\":\"https://www.magiuscasino.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"magius-casino\",\"brand\":\"Magius Casino\",\"url\":\"https://www.magiuscasino.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"Microgaming\",\"NetEnt\",\"Evolution Gaming\",\"Play'n GO\",\"Pragmatic Play\",\"Yggdrasil\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Cryptocurrencies\",\"Paysafecard\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€1000 + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":1000}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.03,\"resolvedComplaints\":70,\"termsFlags\":[]},\"ratings\":{\"security\":8,\"fairness\":8.8,\"payout\":8.5,\"bonusValue\":8.4,\"games\":10,\"support\":8.8,\"reputation\":7.5},\"topTags\":[\"Quick withdrawals\",\"Great game variety\",\"Crypto-friendly\"],\"logo\":{\"url\":\"https://magiuscasino.com/images/logo.png\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"290x116\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T20:00:08.807Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.magiuscasino.com",
+	"url": "https://www.magiuscasino.com"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "cvoGqA1NHAjrj0Q",
+	"json": "{\"id\":\"cvoGqA1NHAjrj0Q\",\"url\":\"https://www.instaspin.com\",\"loadedUrl\":\"https://instaspin.com/en\",\"uniqueKey\":\"https://www.instaspin.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"instaspin\",\"brand\":\"InstaSpin\",\"url\":\"https://www.instaspin.com\",\"licences\":[\"Malta\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Evolution Gaming\",\"Yggdrasil\",\"Quickspin\"],\"payoutSpeedHours\":36,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Skrill\",\"Neteller\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€400 + 75 FS\",\"wagering\":\"35x\",\"maxCashout\":400}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":9,\"fairness\":9.02,\"payout\":8.5,\"bonusValue\":8.61,\"games\":9.7,\"support\":9,\"reputation\":8.5},\"topTags\":[\"Quick withdrawals\",\"Premium license\",\"Mobile app\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=instaspin.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:12.246Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.instaspin.com",
+	"url": "https://www.instaspin.com"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "TVdJAahoHpdbjjk",
+	"json": "{\"id\":\"TVdJAahoHpdbjjk\",\"url\":\"https://www.unlimluck.com\",\"loadedUrl\":\"https://unlimluck.com/\",\"uniqueKey\":\"https://www.unlimluck.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"unlimluck-hb-v2\",\"brand\":\"UnlimLuck\",\"url\":\"https://www.unlimluck.com\",\"licences\":[\"Malta\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Evolution Gaming\",\"Play'n GO\",\"Pragmatic Play\",\"Yggdrasil\"],\"payoutSpeedHours\":24,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Skrill\",\"Neteller\",\"Trustly\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€1200 + 250 FS\",\"wagering\":\"30x\",\"maxCashout\":1200}},\"safety\":{\"yearsOnline\":3,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":10,\"fairness\":9.9,\"payout\":9.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":9.5},\"topTags\":[\"Fast payouts\",\"Premium license\",\"Massive game selection\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=unlimluck.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:57:44.397Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.unlimluck.com",
+	"url": "https://www.unlimluck.com"
+}

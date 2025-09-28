@@ -1,0 +1,9 @@
+{
+	"id": "HmLtkdvrEwZw7La",
+	"json": "{\"id\":\"HmLtkdvrEwZw7La\",\"url\":\"https://www.slotit.de\",\"loadedUrl\":\"https://www.bernd-hendl.com/\",\"uniqueKey\":\"https://www.slotit.de\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"slotit-de\",\"brand\":\"Slotit\",\"url\":\"https://www.slotit.de\",\"licences\":[\"Gemeinsame Glücksspielbehörde der Länder\"],\"restrictedGeos\":[\"US\",\"UK\",\"NL\",\"FR\",\"IT\"],\"providers\":[\"Novomatic\",\"Merkur\",\"Pragmatic Play\",\"Play'n GO\",\"NetEnt\"],\"payoutSpeedHours\":36,\"banking\":[\"Giropay\",\"Sofort\",\"PayPal\",\"Visa\",\"Mastercard\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€400 + 100 FS\",\"wagering\":\"35x\",\"maxCashout\":400}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.2,\"fairness\":8.8,\"payout\":8.5,\"bonusValue\":8.4,\"games\":8.4,\"support\":8.8,\"reputation\":8.7},\"topTags\":[\"Quick withdrawals\",\"Mobile-optimized\",\"VIP program\"],\"logo\":{\"url\":\"https://www.bernd-hendl.com/bilder/bernd-hendl/instagram-logo-invers.svg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"150x150\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:54.059Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.slotit.de",
+	"url": "https://www.slotit.de"
+}

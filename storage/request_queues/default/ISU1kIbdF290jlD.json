@@ -1,0 +1,9 @@
+{
+	"id": "ISU1kIbdF290jlD",
+	"json": "{\"id\":\"ISU1kIbdF290jlD\",\"url\":\"https://www.kingschip.com\",\"loadedUrl\":\"https://kingschip1.com/home\",\"uniqueKey\":\"https://www.kingschip.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"kings-chip\",\"brand\":\"Kings Chip\",\"url\":\"https://www.kingschip.com\",\"licences\":[\"Malta\"],\"restrictedGeos\":[\"US\",\"UK\",\"IT\",\"BE\",\"DK\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Evolution Gaming\",\"Red Tiger Gaming\",\"Yggdrasil\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Trustly\",\"PaysafeCard\",\"Skrill\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 120 FS\",\"wagering\":\"35x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":3,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.5,\"fairness\":9.46,\"payout\":8.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":9},\"topTags\":[\"Quick withdrawals\",\"Premium license\",\"Great game variety\"],\"logo\":{\"url\":\"https://d3tmpsuhcgf0q8.cloudfront.net/The%20Kings%20chip/KingsChip%20logo%20motion.gif\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"450x250\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:22.291Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.kingschip.com",
+	"url": "https://www.kingschip.com"
+}

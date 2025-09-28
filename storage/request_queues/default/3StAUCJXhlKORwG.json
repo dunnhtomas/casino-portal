@@ -1,0 +1,9 @@
+{
+	"id": "3StAUCJXhlKORwG",
+	"json": "{\"id\":\"3StAUCJXhlKORwG\",\"url\":\"https://www.londoncasino.co.uk\",\"loadedUrl\":\"https://www.londoncasino.co.uk/\",\"uniqueKey\":\"https://www.londoncasino.co.uk\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"london-casino\",\"brand\":\"London Casino\",\"url\":\"https://www.londoncasino.co.uk\",\"licences\":[\"UK\"],\"restrictedGeos\":[\"US\",\"FR\",\"IT\",\"ES\",\"DE\"],\"providers\":[\"Microgaming\",\"NetEnt\",\"Playtech\",\"Barcrest\",\"Eyecon\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Apple Pay\",\"PaysafeCard\",\"Bank Transfer\",\"Cards\"],\"bonuses\":{\"welcome\":{\"headline\":\"£50 + 50 FS\",\"wagering\":\"35x\",\"maxCashout\":50}},\"safety\":{\"yearsOnline\":7,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.8,\"fairness\":9.02,\"payout\":8.5,\"bonusValue\":8.61,\"games\":10,\"support\":7.38,\"reputation\":9.3},\"topTags\":[\"Quick withdrawals\",\"Premium license\",\"Great game variety\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=londoncasino.co.uk&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:05.057Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.londoncasino.co.uk",
+	"url": "https://www.londoncasino.co.uk"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "VK3JM55029PHMdr",
+	"json": "{\"id\":\"VK3JM55029PHMdr\",\"url\":\"https://www.spingranny.com\",\"loadedUrl\":\"https://clarimi8.com/?rs_id=a317758d-d70b-4da3-a364-35c917d4af90\",\"uniqueKey\":\"https://www.spingranny.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"spingranny\",\"brand\":\"SpinGranny\",\"url\":\"https://www.spingranny.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Evolution Gaming\",\"Pragmatic Play\",\"Play'n GO\",\"Quickspin\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Trustly\",\"Bank Transfer\",\"E-wallets\",\"Cards\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 200 FS\",\"wagering\":\"45x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":5,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":8.8,\"fairness\":8.8,\"payout\":8.5,\"bonusValue\":8.4,\"games\":10,\"support\":8.8,\"reputation\":8.3},\"topTags\":[\"Quick withdrawals\",\"Great game variety\",\"Mobile-optimized\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=spingranny.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:38.640Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.spingranny.com",
+	"url": "https://www.spingranny.com"
+}

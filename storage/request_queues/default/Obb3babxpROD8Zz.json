@@ -1,0 +1,9 @@
+{
+	"id": "Obb3babxpROD8Zz",
+	"json": "{\"id\":\"Obb3babxpROD8Zz\",\"url\":\"https://www.instantcasino.com\",\"loadedUrl\":\"https://www.instantcasino.com/\",\"uniqueKey\":\"https://www.instantcasino.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"instant-casino\",\"brand\":\"Instant Casino\",\"url\":\"https://www.instantcasino.com\",\"licences\":[\"UK\"],\"restrictedGeos\":[\"US\",\"DE\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"Pragmatic Play\",\"Playtech\",\"Red Tiger\",\"Blueprint\",\"Evolution Gaming\"],\"payoutSpeedHours\":18,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Skrill\",\"Neteller\",\"Apple Pay\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"£200 + 50 FS\",\"wagering\":\"30x\",\"maxCashout\":200}},\"safety\":{\"yearsOnline\":5,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":9,\"fairness\":8.58,\"payout\":9.5,\"bonusValue\":8.19,\"games\":7.8,\"support\":8.58,\"reputation\":8.5},\"topTags\":[\"Fast payouts\",\"Premium license\",\"Mobile-optimized\"],\"logo\":{\"url\":\"https://www.instantcasino.com/wp-content/uploads/2025/07/logo-new.svg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"180x31\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T20:00:07.190Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.instantcasino.com",
+	"url": "https://www.instantcasino.com"
+}

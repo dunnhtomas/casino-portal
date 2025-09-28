@@ -1,0 +1,21 @@
+# Modern Image Downloader Dependencies - 2025 Edition
+# Install with: pip install -r requirements-image-downloader.txt
+
+# Core dependencies
+aiohttp>=3.9.0
+Pillow>=10.0.0
+playwright>=1.40.0
+requests>=2.31.0
+
+# Optional but recommended image crawlers
+icrawler>=0.6.7
+BingImages>=1.0.0
+
+# Additional useful packages
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+opencv-python>=4.8.0
+
+# For advanced image processing
+scikit-image>=0.22.0
+numpy>=1.24.0

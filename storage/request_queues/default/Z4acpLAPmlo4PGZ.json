@@ -1,0 +1,9 @@
+{
+	"id": "Z4acpLAPmlo4PGZ",
+	"json": "{\"id\":\"Z4acpLAPmlo4PGZ\",\"url\":\"https://www.spinmama.com\",\"loadedUrl\":\"https://dynara3.com/?rs_id=349f6c6b-86fa-434e-b7f2-e7dd15bcc1c1\",\"uniqueKey\":\"https://www.spinmama.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"spinmama\",\"brand\":\"SpinMama\",\"url\":\"https://www.spinmama.com\",\"licences\":[\"Malta\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Play'n GO\",\"Pragmatic Play\",\"Evolution Gaming\",\"Yggdrasil\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Crypto\",\"Bank Transfer\",\"E-wallets\",\"Cards\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":6,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":8.8,\"fairness\":9.46,\"payout\":8.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":8.3},\"topTags\":[\"Quick withdrawals\",\"Premium license\",\"Massive game selection\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=spinmama.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:59.285Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.spinmama.com",
+	"url": "https://www.spinmama.com"
+}

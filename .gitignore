@@ -1,0 +1,106 @@
+# Production files
+dist/
+.astro/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.*.local
+*.env
+server-config-complete.json
+config-*.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Package managers
+.npm
+.yarn/
+.pnpm/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output/
+
+# Docker
+.docker/
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Downloaded images and temporary files
+downloads/
+temp/
+tmp/
+
+# Build artifacts
+build/
+out/
+
+# Research and testing files
+research/
+reports/
+
+# Backup files
+*.backup
+*.bak
+backup-*/
+
+# Logo acquisition temporary files
+bing-images/
+scraped-logos/
+temp-logos/
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.rar

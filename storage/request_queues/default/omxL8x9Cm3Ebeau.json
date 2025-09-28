@@ -1,0 +1,9 @@
+{
+	"id": "omxL8x9Cm3Ebeau",
+	"json": "{\"id\":\"omxL8x9Cm3Ebeau\",\"url\":\"https://www.goldenpanda.com\",\"loadedUrl\":\"https://www.goldenpanda.com/\",\"uniqueKey\":\"https://www.goldenpanda.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"golden-panda\",\"brand\":\"Golden Panda\",\"url\":\"https://www.goldenpanda.com\",\"licences\":[\"Malta  (MGA)\"],\"restrictedGeos\":[],\"providers\":[\"NetEnt\",\"Microgaming\",\"Evolution Gaming\",\"Play'n GO\",\"Pragmatic Play\",\"Yggdrasil\",\"Red Tiger Gaming\",\"Quickspin\"],\"payoutSpeedHours\":36,\"banking\":[],\"bonuses\":{\"welcome\":{\"headline\":\"€/$200 + 100 FS\",\"wagering\":\"35x\",\"maxCashout\":null}},\"safety\":{\"yearsOnline\":7,\"complaintRatio\":0.03,\"resolvedComplaints\":70,\"termsFlags\":[]},\"ratings\":{\"security\":8,\"fairness\":8.8,\"payout\":8.5,\"bonusValue\":8.4,\"games\":10,\"support\":8.8,\"reputation\":7.5},\"topTags\":[\"Quick withdrawals\",\"Premium license\",\"Great game variety\"],\"logo\":{\"url\":\"https://www.goldenpanda.com/wp-content/uploads/2025/07/footer-logo.svg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"176x33\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T20:00:07.355Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.goldenpanda.com",
+	"url": "https://www.goldenpanda.com"
+}

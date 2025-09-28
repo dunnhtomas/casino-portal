@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "headline": "Compare the Best Online Casinos — Fast, Fair, Trusted",
+    "sub": "Expert-reviewed rankings, payout insights, and quick filters to find the right casino for you.",
+    "primaryCta": "Claim Top Offer",
+    "secondaryCta": "See All Rankings"
+  },
+  "top3Reasons": {
+    "readycasino": "Reliable licenses + transparent T&Cs make this a top pick.",
+    "quickpay": "Exceptional withdrawal times — payouts in under 12 hours typically.",
+    "spinpalace": "Large game library with top providers and strong reputation."
+  },
+  "reviews": {
+    "readycasino": "Solid security and fast payouts — great for most players.",
+    "quickpay": "Best-in-class payouts for e-wallets and crypto users.",
+    "spinpalace": "A veteran brand with a wide games selection and fair terms.",
+    "nova": "No-deposit teaser + fast Interac payouts — ideal to try without risk.",
+    "highroller": "VIP-oriented with high limits and tailored VIP rewards."
+  }
+}

@@ -1,0 +1,105 @@
+---
+import { EnhancedCasinoCard } from '../Casino/EnhancedCasinoCard';
+import * as HomeVM from '../../viewmodels/HomeVM';
+import type { CasinoCardData } from '../Casino/EnhancedCasinoCard';
+
+// Load data inside this isolated component to avoid hoisting across the page
+const casinos = (await import('../../../data/casinos.json')).default;
+const content = (await import('../../../data/content.json')).default;
+const top3 = HomeVM.getTopThree(casinos);
+const TOP3_REASONS = content?.top3Reasons || {};
+
+// Map casino data to enhanced component format
+const mapCasinoToCardData = (casino: any, rank: number): CasinoCardData => {
+  return {
+    id: casino.slug,
+    name: casino.brand,
+    logo: casino.logo?.url || `/images/casinos/${casino.slug}.png`,
+    slug: casino.slug,
+    rating: {
+      overall: Number(casino.overallRating?.toFixed(1)) || 9.0,
+      trust: casino.ratings?.reputation || 9,
+      bonuses: casino.ratings?.bonusValue || 9,
+      games: casino.ratings?.games || 9,
+      support: casino.ratings?.support || 9,
+      payout: casino.ratings?.payout || 9
+    },
+    bonuses: {
+      welcome: {
+        amount: casino.bonuses?.welcome?.headline || "€500 Welcome Bonus",
+        type: 'match' as const,
+        wagering: parseInt(casino.bonuses?.welcome?.wagering?.replace('x', '')) || 35,
+        maxWin: casino.bonuses?.welcome?.maxCashout ? `€${casino.bonuses.welcome.maxCashout}` : undefined
+      },
+      noDeposit: casino.bonuses?.noDeposit ? {
+        amount: casino.bonuses.noDeposit.headline,
+        type: 'cash' as const,
+        wagering: parseInt(casino.bonuses.noDeposit.wagering?.replace('x', '')) || 35
+      } : undefined,
+      freeSpins: casino.bonuses?.freeSpins ? {
+        count: casino.bonuses.freeSpins.count || 50,
+        game: casino.bonuses.freeSpins.game || "Book of Dead",
+        wagering: parseInt(casino.bonuses.freeSpins.wagering?.replace('x', '')) || 35
+      } : undefined
+    },
+    features: casino.topTags?.slice(0, 3)?.map((tag: string) => ({
+      icon: tag.includes('Fast') ? '⚡' : tag.includes('License') ? '🛡️' : '🎮',
+      label: tag
+    })) || [
+      { icon: '⚡', label: 'Fast Payouts' },
+      { icon: '🛡️', label: 'Licensed' },
+      { icon: '🎮', label: 'Great Games' }
+    ],
+    payoutSpeed: {
+      min: casino.payoutSpeedHours ? `${casino.payoutSpeedHours}h` : "24h",
+      max: casino.payoutSpeedHours ? `${casino.payoutSpeedHours * 2}h` : "48h",
+      category: (casino.payoutSpeedHours || 24) <= 4 ? 'instant' as const : (casino.payoutSpeedHours || 24) <= 24 ? 'fast' as const : 'standard' as const
+    },
+    licenses: casino.licences?.map((license: string) => ({
+      name: license,
+      country: license,
+      logo: `/images/licenses/${license.toLowerCase()}.png`
+    })) || [],
+    established: casino.safety?.yearsOnline ? (new Date().getFullYear() - casino.safety.yearsOnline) : 2018,
+    gameCount: casino.gameCount || 2000,
+    minDeposit: "$10",
+    currencies: ["CAD", "USD", "EUR"],
+    languages: ["English", "French"],
+    isPopular: rank <= 1,
+    isTrusted: casino.ratings?.reputation >= 9,
+    isFeatured: rank === 1
+  };
+};
+
+const enhancedCasinos = top3.map((casino, index) => mapCasinoToCardData(casino, index + 1));
+---
+<section id="top-three" class="py-16 bg-gradient-to-br from-blue-50 to-indigo-50">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">🏆 Top 3 Casino Recommendations</h2>
+      <p class="text-xl text-gray-600">Our highest-rated casinos based on expert analysis and player reviews</p>
+      <div class="w-24 h-1 bg-gradient-to-r from-gold-400 to-gold-600 mx-auto mt-4 rounded"></div>
+    </div>
+    <div class="grid gap-8 lg:gap-12">
+      {enhancedCasinos.map((casino, index) => (
+        <div class="transform hover:scale-[1.02] transition-all duration-300">
+          <EnhancedCasinoCard 
+            casino={casino}
+            variant={index === 0 ? 'featured' : 'default'}
+            rank={index + 1}
+            client:load
+          />
+        </div>
+      ))}
+    </div>
+    <div class="mt-16 text-center">
+      <p class="text-lg text-gray-700 mb-6">🎯 Our recommendations are based on rigorous testing and expert analysis</p>
+      <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-600">
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">✅ Licensed & Regulated</span>
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">🛡️ SSL Secured</span>
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">⚡ Fast Payouts</span>
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">🎮 Premium Games</span>
+      </div>
+    </div>
+  </div>
+</section>

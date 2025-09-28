@@ -1,0 +1,9 @@
+{
+	"id": "8781UMvBCvD5Rv2",
+	"json": "{\"id\":\"8781UMvBCvD5Rv2\",\"url\":\"https://www.spellwin.com\",\"loadedUrl\":\"https://spellwin.com/\",\"uniqueKey\":\"https://www.spellwin.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"spellwin\",\"brand\":\"SpellWin\",\"url\":\"https://www.spellwin.com\",\"licences\":[\"Malta\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Evolution Gaming\",\"Play'n GO\",\"Pragmatic Play\",\"Quickspin\"],\"payoutSpeedHours\":24,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Skrill\",\"Neteller\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€600 + 120 FS\",\"wagering\":\"35x\",\"maxCashout\":600}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":10,\"fairness\":9.9,\"payout\":9.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":9.7},\"topTags\":[\"Fast payouts\",\"Premium license\",\"Great game variety\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=spellwin.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:57:43.759Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.spellwin.com",
+	"url": "https://www.spellwin.com"
+}

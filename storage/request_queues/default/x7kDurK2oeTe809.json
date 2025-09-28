@@ -1,0 +1,9 @@
+{
+	"id": "x7kDurK2oeTe809",
+	"json": "{\"id\":\"x7kDurK2oeTe809\",\"url\":\"https://www.romibet.fr\",\"loadedUrl\":\"https://www.romibet.fr/\",\"uniqueKey\":\"https://www.romibet.fr\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"romibet-fr-v2\",\"brand\":\"RomiBet\",\"url\":\"https://www.romibet.fr\",\"licences\":[\"L'Autorité Nationale des Jeux (ANJ)\"],\"restrictedGeos\":[\"US\",\"UK\",\"ES\",\"IT\",\"DE\"],\"providers\":[\"Pragmatic Play\",\"Evolution Gaming\",\"Play'n GO\",\"NetEnt\",\"Yggdrasil\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Paysafecard\",\"Bank Transfer\",\"Cards\"],\"bonuses\":{\"welcome\":{\"headline\":\"€100 + 50 FS\",\"wagering\":\"35x\",\"maxCashout\":100}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.2,\"fairness\":8.8,\"payout\":8.5,\"bonusValue\":8.4,\"games\":9,\"support\":7.2,\"reputation\":8.7},\"topTags\":[\"Quick withdrawals\",\"Mobile app\",\"VIP program\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=romibet.fr&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T20:00:08.655Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.romibet.fr",
+	"url": "https://www.romibet.fr"
+}

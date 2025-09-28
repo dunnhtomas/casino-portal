@@ -1,0 +1,28 @@
+---
+// Top-list skeleton for fast withdrawals
+---
+
+import * as schema from '../../lib/schema';
+import faqs from '../../../data/faqs.json';
+import FAQ from '../../components/RichText/FAQ';
+import TopList from '../../components/Lists/TopList.astro';
+const localFaqs = faqs['fast-withdrawals'] || [];
+const fastFaqJson = schema.generateFAQJSONLD(localFaqs);
+---
+
+<html>
+  <head>
+    <title>Fast Withdrawals — BestCasinoPortal</title>
+    <meta name="description" content="Learn which casinos pay fastest and why payment methods matter." />
+    <script type="application/ld+json">{JSON.stringify(fastFaqJson)}</script>
+  </head>
+  <body>
+    <main>
+      <h1>Fast Withdrawals</h1>
+      <section>
+        <!-- Top 10 list will be rendered here -->
+        <!-- TopList is server-rendered to avoid shipping client JS for static lists -->
+      </section>
+    </main>
+  </body>
+</html>

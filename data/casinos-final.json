@@ -1,0 +1,5146 @@
+[
+  {
+    "slug": "spellwin",
+    "brand": "SpellWin",
+    "url": "https://www.spellwin.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Quickspin"
+    ],
+    "payoutSpeedHours": 24,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€600 + 120 FS",
+        "wagering": "35x",
+        "maxCashout": 600
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 9.9,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9.7
+    },
+    "topTags": [
+      "Fast payouts",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=spellwin.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "winitbet",
+    "brand": "Winit.Bet",
+    "url": "https://www.winit.bet",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "FR",
+      "IT",
+      "ES",
+      "NL"
+    ],
+    "providers": [
+      "Microgaming",
+      "Evolution Gaming",
+      "Red Tiger",
+      "Quickspin",
+      "ELK Studios"
+    ],
+    "payoutSpeedHours": 0,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Apple Pay",
+      "Trustly",
+      "Paysafecard",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 150 FS",
+        "wagering": "35x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 9.9,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9.6
+    },
+    "topTags": [
+      "Instant payouts",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://d3tmpsuhcgf0q8.cloudfront.net/winit/logo/Winit%20logo%20animation.gif",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "200x100"
+    }
+  },
+  {
+    "slug": "unlimluck-hb-v2",
+    "brand": "UnlimLuck HB-v2",
+    "url": "https://www.unlimluck.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 24,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Trustly",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1200 + 250 FS",
+        "wagering": "30x",
+        "maxCashout": 1200
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 9.9,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9.5
+    },
+    "topTags": [
+      "Fast payouts",
+      "Premium license",
+      "Massive game selection"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=unlimluck.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "mr-pacho",
+    "brand": "Mr Pacho",
+    "url": "https://www.mrpacho.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Red Tiger",
+      "Big Time Gaming"
+    ],
+    "payoutSpeedHours": 24,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Neteller",
+      "Skrill",
+      "Trustly",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€300 + 50 FS",
+        "wagering": "30x",
+        "maxCashout": 300
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 9.680000000000001,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9.5
+    },
+    "topTags": [
+      "Fast payouts",
+      "Premium license",
+      "Mobile app"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=mrpacho.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "larabet",
+    "brand": "Larabet",
+    "url": "https://www.larabet.com",
+    "licences": [
+      "Swedish Gambling Authority (Spelinspektionen)"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "DE",
+      "CA",
+      "AU"
+    ],
+    "providers": [
+      "Evolution Gaming",
+      "Quickspin",
+      "Thunderkick",
+      "ELK Studios",
+      "Push Gaming"
+    ],
+    "payoutSpeedHours": 0,
+    "banking": [
+      "Trustly",
+      "Bank Transfer",
+      "Visa",
+      "Mastercard",
+      "Swish"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "2000 SEK",
+        "wagering": "25x",
+        "maxCashout": 2000
+      }
+    },
+    "safety": {
+      "yearsOnline": 6,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 9.9,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 8.1,
+      "reputation": 9.7
+    },
+    "topTags": [
+      "Instant payouts",
+      "Live dealer games",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=larabet.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "slotlair-uk-v2",
+    "brand": "Slotlair UK-v2",
+    "url": "https://www.slotlair.co.uk",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Microgaming",
+      "NetEnt",
+      "Playtech",
+      "Pragmatic Play",
+      "Evolution Gaming"
+    ],
+    "payoutSpeedHours": 24,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£300 + 50 FS",
+        "wagering": "35x",
+        "maxCashout": 300
+      }
+    },
+    "safety": {
+      "yearsOnline": 5,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 9.680000000000001,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 9.4,
+      "support": 9,
+      "reputation": 9.5
+    },
+    "topTags": [
+      "Fast payouts",
+      "Premium license",
+      "Mobile app"
+    ],
+    "logo": {
+      "url": "https://slotlair.co.uk/wp-content/uploads/2025/06/slot-lair-banner.png",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "274x80"
+    }
+  },
+  {
+    "slug": "sagaspins-uk-v2",
+    "brand": "SagaSpins UK-v2",
+    "url": "https://www.sagaspins.com",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "FR",
+      "ES",
+      "IT",
+      "DE"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Big Time Gaming",
+      "Blueprint Gaming",
+      "Evolution Gaming",
+      "Playtech"
+    ],
+    "payoutSpeedHours": 0,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Paysafecard",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£200 + 50 FS",
+        "wagering": "35x",
+        "maxCashout": 200
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 9.9,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 8.9,
+      "support": 9,
+      "reputation": 9.7
+    },
+    "topTags": [
+      "Instant payouts",
+      "Premium license",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://sagaspins22.com/static/logo-F55pWukx.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "79x44"
+    }
+  },
+  {
+    "slug": "samba-slots",
+    "brand": "Samba Slots",
+    "url": "https://www.sambaslots.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Play'n GO",
+      "Red Tiger Gaming",
+      "Yggdrasil",
+      "Thunderkick",
+      "Evolution Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "MuchBetter",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€300 + 200 FS",
+        "wagering": "35x",
+        "maxCashout": 300
+      }
+    },
+    "safety": {
+      "yearsOnline": 6,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 10,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Massive game selection"
+    ],
+    "logo": {
+      "url": "https://www.sambaslots.com/wp-content/uploads/2025/08/logo-sambaslots.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "100x46"
+    }
+  },
+  {
+    "slug": "willdsino",
+    "brand": "Willdsino",
+    "url": "https://www.willdsino.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Big Time Gaming",
+      "Quickspin",
+      "ELK Studios"
+    ],
+    "payoutSpeedHours": 0,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Trustly",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "100% up to €200",
+        "wagering": "30x",
+        "maxCashout": 200
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.680000000000001,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Instant payouts",
+      "Premium license",
+      "Mobile app"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=willdsino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "trino",
+    "brand": "Trino",
+    "url": "https://www.trinocasino.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Microgaming",
+      "Evolution Gaming",
+      "Red Tiger",
+      "Big Time Gaming",
+      "Pragmatic Play"
+    ],
+    "payoutSpeedHours": 24,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Trustly",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 150 FS",
+        "wagering": "35x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.46,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Fast payouts",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://trinocasino.com/images/loader-logo.webp",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "599x268"
+    }
+  },
+  {
+    "slug": "skyhills-nl-v2",
+    "brand": "SkyHills NL-v2",
+    "url": "https://www.skyhills.com/nl",
+    "licences": [
+      "Kansspelautoriteit"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "DE",
+      "IT"
+    ],
+    "providers": [
+      "NetEnt",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 24,
+    "banking": [
+      "iDEAL",
+      "Bank Transfer",
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 150 FS",
+        "wagering": "30x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.46,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 9.9,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Fast payouts",
+      "Mobile app",
+      "VIP program"
+    ],
+    "logo": {
+      "url": "https://www.skyhills.com/cdn/system/logos/c281faa8-1491-47f3-8d4d-6be43cb96db9.png?ts=1732544235339",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "800x800"
+    }
+  },
+  {
+    "slug": "wonthere-uk-v2",
+    "brand": "WonThere UK-v2",
+    "url": "https://www.wonthere.co.uk",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "CA",
+      "AU",
+      "DE",
+      "FR"
+    ],
+    "providers": [
+      "Evolution Gaming",
+      "Pragmatic Play",
+      "NetEnt",
+      "Red Tiger",
+      "Play'n GO"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£300 + 100 FS",
+        "wagering": "25x",
+        "maxCashout": 300
+      }
+    },
+    "safety": {
+      "yearsOnline": 1,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 9.240000000000002,
+      "payout": 8.5,
+      "bonusValue": 8.82,
+      "games": 10,
+      "support": 9,
+      "reputation": 9.8
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=wonthere.co.uk&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "lucky-hunter",
+    "brand": "Lucky Hunter",
+    "url": "https://luckyhunter.io",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Hacksaw Gaming",
+      "Relax Gaming",
+      "Spribe",
+      "NetEnt"
+    ],
+    "payoutSpeedHours": 0,
+    "banking": [
+      "Bitcoin",
+      "Ethereum",
+      "Litecoin",
+      "Tether",
+      "Visa",
+      "Mastercard",
+      "Crypto",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "1.5 BTC + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 1
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9,
+      "fairness": 9.9,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.5
+    },
+    "topTags": [
+      "Instant payouts",
+      "Massive game selection",
+      "Excellent live casino"
+    ],
+    "logo": {
+      "url": "https://logo.clearbit.com/luckyhunter.io",
+      "source": "clearbit-api",
+      "quality": "medium",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "rizz-casino",
+    "brand": "Rizz Casino",
+    "url": "https://www.rizzcasino.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Red Tiger"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 150 FS",
+        "wagering": "35x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.680000000000001,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=rizzcasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "n1-bet-casino",
+    "brand": "N1 Bet Casino",
+    "url": "https://www.n1bet.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "United States",
+      "United Kingdom",
+      "Spain",
+      "France",
+      "Italy"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Yggdrasil",
+      "Quickspin",
+      "Red Tiger"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Paysafecard",
+      "Interac",
+      "Bank Transfer",
+      "MuchBetter"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "35x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 7,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.46,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Massive game selection"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=n1bet.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "aerobet",
+    "brand": "Aerobet",
+    "url": "https://www.aerobet.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Play'n GO",
+      "Evolution Gaming",
+      "Pragmatic Play",
+      "Big Time Gaming",
+      "Red Tiger Gaming",
+      "ELK Studios"
+    ],
+    "payoutSpeedHours": 18,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Trustly",
+      "MuchBetter",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 150 FS",
+        "wagering": "35x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9,
+      "fairness": 9.46,
+      "payout": 9.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.5
+    },
+    "topTags": [
+      "Fast payouts",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://logo.clearbit.com/aerobet.com",
+      "source": "clearbit-api",
+      "quality": "medium",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "kings-chip",
+    "brand": "Kings Chip",
+    "url": "https://www.kingschip.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "IT",
+      "BE",
+      "DK"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Red Tiger Gaming",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Trustly",
+      "PaysafeCard",
+      "Skrill",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 120 FS",
+        "wagering": "35x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.46,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://d3tmpsuhcgf0q8.cloudfront.net/The%20Kings%20chip/KingsChip%20logo%20motion.gif",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "450x250"
+    }
+  },
+  {
+    "slug": "my-empire",
+    "brand": "My Empire",
+    "url": "https://www.myempire.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Evolution Gaming",
+      "NetEnt",
+      "Big Time Gaming",
+      "Red Tiger Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Paysafecard",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "35x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.46,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://logo.clearbit.com/myempire.com",
+      "source": "clearbit-api",
+      "quality": "medium",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "romibet-es-v2",
+    "brand": "RomiBet ES-v2",
+    "url": "https://www.romibet.es",
+    "licences": [
+      "Dirección General de Ordenación del Juego (DGOJ)"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "IT",
+      "FR",
+      "DE"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Evolution Gaming",
+      "NetEnt",
+      "Red Tiger Gaming",
+      "ELK Studios"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Bizum",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 100 FS",
+        "wagering": "35x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 5,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.46,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Great game variety",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=romibet.es&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "spincastle-uk-v2",
+    "brand": "SpinCastle UK-v2",
+    "url": "https://www.spincastle.com/uk",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "AU",
+      "DE",
+      "FR",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Bank Transfer",
+      "E-wallets",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£300 + 50 FS",
+        "wagering": "40x",
+        "maxCashout": 300
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.46,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://logo.clearbit.com/spincastle.com",
+      "source": "clearbit-api",
+      "quality": "medium",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "roman-casino",
+    "brand": "Roman Casino",
+    "url": "https://www.romancasino.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "United States",
+      "France",
+      "Spain",
+      "Italy",
+      "Netherlands"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Yggdrasil",
+      "Quickspin",
+      "Red Tiger Gaming"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Paysafecard",
+      "Trustly",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 100 FS",
+        "wagering": "35x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 8,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.240000000000002,
+      "payout": 8.5,
+      "bonusValue": 8.82,
+      "games": 10,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=romancasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "winrolla",
+    "brand": "WinRolla",
+    "url": "https://www.winrolla.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "NetEnt",
+      "Play'n GO",
+      "Big Time Gaming",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "MuchBetter",
+      "Crypto",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.2,
+      "fairness": 9.46,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.7
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Massive game selection",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=winrolla.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "rollxo",
+    "brand": "RollXO",
+    "url": "https://www.rollxo.com",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "All except UK"
+    ],
+    "providers": [
+      "Playtech",
+      "Evolution Gaming",
+      "Pragmatic Play",
+      "Red Tiger",
+      "Blueprint"
+    ],
+    "payoutSpeedHours": 24,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Apple Pay",
+      "Trustly",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£50 + 50 FS",
+        "wagering": "35x",
+        "maxCashout": 50
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.8,
+      "fairness": 8.8,
+      "payout": 9.5,
+      "bonusValue": 8.4,
+      "games": 9,
+      "support": 8.8,
+      "reputation": 9.3
+    },
+    "topTags": [
+      "Fast payouts",
+      "Premium license",
+      "Mobile app"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=rollxo.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "jackpot-raider",
+    "brand": "Jackpot Raider",
+    "url": "https://www.jackpotraider.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "BTG"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Trustly",
+      "MuchBetter",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9,
+      "fairness": 9.46,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://cdn.jackpotstatic.com/images/file/uploads/257381383817198978.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "120x40"
+    }
+  },
+  {
+    "slug": "lucki-casino",
+    "brand": "Lucki Casino",
+    "url": "https://www.lucki.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "NetEnt",
+      "Evolution Gaming",
+      "Big Time Gaming",
+      "Red Tiger"
+    ],
+    "payoutSpeedHours": 72,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Interac",
+      "iDebit",
+      "MuchBetter",
+      "Jeton",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "35x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.46,
+      "payout": 7.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Premium license",
+      "Massive game selection",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.lucki.com/img/logo.jpg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "253x75"
+    }
+  },
+  {
+    "slug": "malina-casino",
+    "brand": "Malina Casino",
+    "url": "https://www.malinacasino.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Quickspin"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Neteller",
+      "Skrill",
+      "Trustly",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 150 FS",
+        "wagering": "35x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9,
+      "fairness": 9.46,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://logo.clearbit.com/malinacasino.com",
+      "source": "clearbit-api",
+      "quality": "medium",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "wildrobin-casino",
+    "brand": "WildRobin Casino",
+    "url": "https://www.wildrobincasino.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Red Tiger Gaming",
+      "Push Gaming",
+      "Relax Gaming",
+      "Spinomenal"
+    ],
+    "payoutSpeedHours": 18,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "MiFinity",
+      "Paysafecard",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1,200 + 50 FS",
+        "wagering": "35x",
+        "maxCashout": 1
+      }
+    },
+    "safety": {
+      "yearsOnline": 1,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.8,
+      "fairness": 9.02,
+      "payout": 9.5,
+      "bonusValue": 8.61,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.3
+    },
+    "topTags": [
+      "Fast payouts",
+      "Great game variety",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=wildrobincasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "jet4bet-uk",
+    "brand": "Jet4Bet UK",
+    "url": "https://www.jet4bet.co.uk",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Evolution Gaming",
+      "Red Tiger",
+      "Blueprint"
+    ],
+    "payoutSpeedHours": 2,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Apple Pay",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£150 + 100 FS",
+        "wagering": "35x",
+        "maxCashout": 150
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 8.8,
+      "payout": 9.5,
+      "bonusValue": 8.4,
+      "games": 8.2,
+      "support": 8.8,
+      "reputation": 9.5
+    },
+    "topTags": [
+      "Fast payouts",
+      "Premium license",
+      "Mobile app"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=jet4bet.co.uk&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "vipzino",
+    "brand": "Vipzino",
+    "url": "https://www.vipzino.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "United Kingdom",
+      "United States",
+      "Spain",
+      "France",
+      "Italy"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Yggdrasil",
+      "Quickspin",
+      "Red Tiger Gaming"
+    ],
+    "payoutSpeedHours": 0,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Paysafecard",
+      "Interac"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.5,
+      "fairness": 9.240000000000002,
+      "payout": 9.5,
+      "bonusValue": 8.82,
+      "games": 10,
+      "support": 9,
+      "reputation": 8
+    },
+    "topTags": [
+      "Instant payouts",
+      "Massive game selection",
+      "Excellent live casino"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=vipzino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "rolling-slots",
+    "brand": "Rolling Slots",
+    "url": "https://www.rollingslots.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "NetEnt",
+      "Microgaming",
+      "Play'n GO",
+      "Hacksaw",
+      "Relax Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Crypto",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 300 FS",
+        "wagering": "45x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.8,
+      "fairness": 9.46,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.3
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Massive game selection",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=rollingslots.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "spinmama",
+    "brand": "SpinMama",
+    "url": "https://www.spinmama.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Crypto",
+      "Bank Transfer",
+      "E-wallets",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 6,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.8,
+      "fairness": 9.46,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.3
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Massive game selection"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=spinmama.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "wild-robin",
+    "brand": "Wild Robin",
+    "url": "https://www.wildrobin.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 96,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Paysafecard",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1,000 + 300 FS",
+        "wagering": "40x",
+        "maxCashout": 1
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.2,
+      "fairness": 9.46,
+      "payout": 7.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.7
+    },
+    "topTags": [
+      "Premium license",
+      "Massive game selection",
+      "Excellent live casino"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=wildrobin.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "spellwin-uk-v2",
+    "brand": "SpellWin UK-v2",
+    "url": "https://www.spellwin.com/uk",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "AU",
+      "DE",
+      "FR",
+      "IT"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Evolution Gaming"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Apple Pay",
+      "Trustly",
+      "Bank Transfer",
+      "E-wallets",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£200 + 100 FS",
+        "wagering": "35x",
+        "maxCashout": 200
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.2,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 9.7,
+      "support": 9,
+      "reputation": 8.7
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=spellwin.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "the-red",
+    "brand": "The Red",
+    "url": "https://www.theredcasino.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Play'n GO",
+      "Evolution Gaming",
+      "Pragmatic Play",
+      "Quickspin"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Crypto",
+      "Bank Transfer",
+      "E-wallets",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 50 FS",
+        "wagering": "35x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 7,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.5,
+      "fairness": 9.680000000000001,
+      "payout": 8.5,
+      "bonusValue": 9,
+      "games": 10,
+      "support": 9,
+      "reputation": 8
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Massive game selection",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=theredcasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "london-casino",
+    "brand": "London Casino",
+    "url": "https://www.londoncasino.co.uk",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "FR",
+      "IT",
+      "ES",
+      "DE"
+    ],
+    "providers": [
+      "Microgaming",
+      "NetEnt",
+      "Playtech",
+      "Barcrest",
+      "Eyecon"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Apple Pay",
+      "PaysafeCard",
+      "Bank Transfer",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£50 + 50 FS",
+        "wagering": "35x",
+        "maxCashout": 50
+      }
+    },
+    "safety": {
+      "yearsOnline": 7,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.8,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 10,
+      "support": 7.38,
+      "reputation": 9.3
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=londoncasino.co.uk&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "vegas-nova",
+    "brand": "Vegas Nova",
+    "url": "https://www.vegasnova.com",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Evolution Gaming",
+      "Red Tiger",
+      "Blueprint Gaming"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Apple Pay",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€200 + 50 FS",
+        "wagering": "35x",
+        "maxCashout": 200
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.8,
+      "fairness": 8.8,
+      "payout": 8.5,
+      "bonusValue": 8.4,
+      "games": 9,
+      "support": 8.8,
+      "reputation": 9.3
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Mobile app"
+    ],
+    "logo": {
+      "url": "https://cms-cdn.vegasnova-tec.com/vegasnova-cms/logo_M_4663880080_7a0e345a9f.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "168x40"
+    }
+  },
+  {
+    "slug": "winshark",
+    "brand": "Winshark",
+    "url": "https://www.winshark.com",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "CA",
+      "AU",
+      "DE",
+      "FR"
+    ],
+    "providers": [
+      "Playtech",
+      "Evolution Gaming",
+      "Blueprint Gaming",
+      "IGT",
+      "Light & Wonder"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Apple Pay",
+      "Trustly",
+      "Bank Transfer",
+      "E-wallets",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£200 + 50 FS",
+        "wagering": "30x",
+        "maxCashout": 200
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 8.8,
+      "payout": 8.5,
+      "bonusValue": 8.4,
+      "games": 9.6,
+      "support": 7.2,
+      "reputation": 10
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Mobile app"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=winshark.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "tiki-casino",
+    "brand": "Tiki Casino",
+    "url": "https://www.tikicasino.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Play'n GO",
+      "Evolution Gaming",
+      "Pragmatic Play",
+      "BTG"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Crypto",
+      "Bank Transfer",
+      "E-wallets",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 5,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.7,
+      "fairness": 9.240000000000002,
+      "payout": 8.5,
+      "bonusValue": 8.82,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.2
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Massive game selection"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=tikicasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "instaspin",
+    "brand": "InstaSpin",
+    "url": "https://www.instaspin.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Yggdrasil",
+      "Quickspin"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€400 + 75 FS",
+        "wagering": "35x",
+        "maxCashout": 400
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 9.7,
+      "support": 9,
+      "reputation": 8.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Mobile app"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=instaspin.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "lyrabet-gr-v2",
+    "brand": "LyraBet GR-v2",
+    "url": "https://www.lyrabet.gr",
+    "licences": [
+      "Hellenic Gaming Commission (HGC)"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "NetEnt",
+      "Play'n GO",
+      "Red Tiger"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Piraeus Bank",
+      "National Bank of Greece",
+      "Alpha Bank",
+      "Skrills",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€200 + 100 FS",
+        "wagering": "30x",
+        "maxCashout": 200
+      }
+    },
+    "safety": {
+      "yearsOnline": 5,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 9.7,
+      "support": 9,
+      "reputation": 8.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Mobile app",
+      "VIP program"
+    ],
+    "logo": {
+      "url": "https://lyrabet.gr/images/logo.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "150x70"
+    }
+  },
+  {
+    "slug": "pistolo-casino",
+    "brand": "Pistolo Casino",
+    "url": "https://www.pistolocasino.com",
+    "licences": [
+      "Malta"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Evolution Gaming",
+      "Pragmatic Play",
+      "Red Tiger",
+      "Yggdrasil",
+      "Quickspin"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Paysafecard",
+      "Interac",
+      "JCB",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 150 FS",
+        "wagering": "35x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 9.7,
+      "support": 9,
+      "reputation": 8.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://pistolocasino.com/wp-content/uploads/sites/52/2025/03/Pistolo-Casino-Main-Logo.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "215x75"
+    }
+  },
+  {
+    "slug": "spingranny-at",
+    "brand": "SpinGranny AT",
+    "url": "https://www.spingranny.at",
+    "licences": [
+      "Austrian Ministry of Finance"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT"
+    ],
+    "providers": [
+      "Novomatic",
+      "Greentube",
+      "Pragmatic Play",
+      "Play'n GO",
+      "Evolution Gaming"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "EPS",
+      "Sofort",
+      "Bank Transfer",
+      "Paysafecard",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€400 + 100 FS",
+        "wagering": "35x",
+        "maxCashout": 400
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.3,
+      "fairness": 9.240000000000002,
+      "payout": 8.5,
+      "bonusValue": 8.82,
+      "games": 8.6,
+      "support": 9,
+      "reputation": 8.8
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Mobile app",
+      "VIP program"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=spingranny.at&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "treasure-spins",
+    "brand": "Treasure Spins",
+    "url": "https://www.treasurespins.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Evolution Gaming",
+      "NetEnt",
+      "Yggdrasil",
+      "Quickspin"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Crypto",
+      "PIX",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.8,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.3
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Massive game selection",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://treasurespins.com/static/logo-CCrUGZkN.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "168x40"
+    }
+  },
+  {
+    "slug": "spinlander-uk-v2",
+    "brand": "SpinLander UK-v2",
+    "url": "https://www.spinlander.co.uk",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "CA",
+      "AU",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Red Tiger",
+      "Evolution Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Paysafecard",
+      "Bank Transfer",
+      "E-wallets",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£100 + 100 FS",
+        "wagering": "35x",
+        "maxCashout": 100
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.5,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 8.5,
+      "support": 9,
+      "reputation": 9
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=spinlander.co.uk&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "joker-ace's",
+    "brand": "Joker Ace's",
+    "url": "https://www.jokeraces.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Evolution Gaming",
+      "Hacksaw Gaming",
+      "BGaming"
+    ],
+    "payoutSpeedHours": 18,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "MiFinity",
+      "Crypto",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1,000 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 1
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.5,
+      "fairness": 8.8,
+      "payout": 9.5,
+      "bonusValue": 8.4,
+      "games": 10,
+      "support": 8.8,
+      "reputation": 8
+    },
+    "topTags": [
+      "Fast payouts",
+      "Massive game selection",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=jokeraces.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "needforspeed-se-v2",
+    "brand": "NeedForSpeed SE-v2",
+    "url": "https://se.needforspeedcasino.com",
+    "licences": [
+      "Spelinspektionen"
+    ],
+    "restrictedGeos": [
+      "All except Sweden"
+    ],
+    "providers": [
+      "NetEnt",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Quickspin",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Trustly",
+      "Swish",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "1000 SEK + 50 FS",
+        "wagering": "35x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 1,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.8,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 9.1,
+      "support": 7.38,
+      "reputation": 9.3
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Mobile-optimized",
+      "VIP program"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=se.needforspeedcasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "orionsbet-uk-v2",
+    "brand": "Orionsbet UK-v2",
+    "url": "https://www.orionsbet.co.uk",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "All except Great Britain"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Blueprint Gaming",
+      "Evolution Gaming",
+      "NetEnt",
+      "Big Time Gaming"
+    ],
+    "payoutSpeedHours": 72,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Paysafecard",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£50",
+        "wagering": "35x",
+        "maxCashout": 50
+      }
+    },
+    "safety": {
+      "yearsOnline": 1,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 8.8,
+      "payout": 7.5,
+      "bonusValue": 8.4,
+      "games": 8.2,
+      "support": 8.8,
+      "reputation": 10
+    },
+    "topTags": [
+      "Premium license",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://orionsbet.co.uk/wp-content/uploads/2025/08/orionsbet-light-logo.webp",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "210x76"
+    }
+  },
+  {
+    "slug": "ivybetio",
+    "brand": "Ivybet.io",
+    "url": "https://www.ivybet.io",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "United States",
+      "United Kingdom",
+      "Spain",
+      "France",
+      "Italy"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Red Tiger Gaming",
+      "Yggdrasil",
+      "Quickspin"
+    ],
+    "payoutSpeedHours": 72,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Paysafecard",
+      "Interac",
+      "Bank Transfer",
+      "Bitcoin"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 / $500",
+        "wagering": "40x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.8,
+      "fairness": 9.240000000000002,
+      "payout": 7.5,
+      "bonusValue": 8.82,
+      "games": 10,
+      "support": 9,
+      "reputation": 8.3
+    },
+    "topTags": [
+      "Massive game selection",
+      "Live dealer games",
+      "Crypto-friendly"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=ivybet.io&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "ritzo-casino",
+    "brand": "Ritzo Casino",
+    "url": "https://www.ritzocasino.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Play'n GO",
+      "NetEnt",
+      "Yggdrasil",
+      "Hacksaw Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Crypto",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.5,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 10,
+      "support": 9,
+      "reputation": 8
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Massive game selection",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=ritzocasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "spingranny",
+    "brand": "SpinGranny",
+    "url": "https://www.spingranny.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Pragmatic Play",
+      "Play'n GO",
+      "Quickspin"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Trustly",
+      "Bank Transfer",
+      "E-wallets",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "45x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 5,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.8,
+      "fairness": 8.8,
+      "payout": 8.5,
+      "bonusValue": 8.4,
+      "games": 10,
+      "support": 8.8,
+      "reputation": 8.3
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Great game variety",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=spingranny.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "posido",
+    "brand": "Posido",
+    "url": "https://www.posido.com",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "CA",
+      "AU",
+      "DE",
+      "FR"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Blueprint Gaming",
+      "Real Dealer Studios"
+    ],
+    "payoutSpeedHours": 72,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Apple Pay",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£50",
+        "wagering": "1x",
+        "maxCashout": 50
+      }
+    },
+    "safety": {
+      "yearsOnline": 1,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 9.9,
+      "payout": 7.5,
+      "bonusValue": 9,
+      "games": 7.5,
+      "support": 8.1,
+      "reputation": 9.5
+    },
+    "topTags": [
+      "Premium license",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=posido.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "lucky-wand",
+    "brand": "Lucky Wand",
+    "url": "https://www.luckywandcasino.com",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "Almost all countries except UK"
+    ],
+    "providers": [
+      "NetEnt",
+      "Play'n GO",
+      "Red Tiger Gaming",
+      "Pragmatic Play",
+      "Eyecon"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Paysafecard",
+      "Apple Pay",
+      "Bank Transfer",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£50 Bonus",
+        "wagering": "35x",
+        "maxCashout": 50
+      }
+    },
+    "safety": {
+      "yearsOnline": 5,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 8.8,
+      "payout": 8.5,
+      "bonusValue": 8.4,
+      "games": 8.4,
+      "support": 7.2,
+      "reputation": 10
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=luckywandcasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "spingranny-cz",
+    "brand": "SpinGranny CZ",
+    "url": "https://www.spingranny.cz",
+    "licences": [
+      "Czech Ministry of Finance"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Evolution Gaming",
+      "Endorphina",
+      "Tom Horn Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Bank Transfer",
+      "SMS Payment",
+      "Paysafecard"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "5000 CZK + 150 FS",
+        "wagering": "40x",
+        "maxCashout": 5000
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.1,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 8.3,
+      "support": 9,
+      "reputation": 8.6
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Mobile-optimized",
+      "VIP program"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=spingranny.cz&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "vincispin",
+    "brand": "VinciSpin",
+    "url": "https://www.vincispin.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Hacksaw Gaming",
+      "Play'n GO",
+      "BGaming",
+      "Amatic"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "MiFinity",
+      "Jeton",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.5,
+      "fairness": 8.8,
+      "payout": 8.5,
+      "bonusValue": 8.4,
+      "games": 10,
+      "support": 8.8,
+      "reputation": 8
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Massive game selection",
+      "Excellent live casino"
+    ],
+    "logo": {
+      "url": "https://cdn.vincistatic.com/images/file/uploads/258168549164468837.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "303x81"
+    }
+  },
+  {
+    "slug": "klikki-casino",
+    "brand": "Klikki Casino",
+    "url": "https://www.klikkicasino.com",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "CA",
+      "AU",
+      "DE",
+      "SE"
+    ],
+    "providers": [
+      "Play'n GO",
+      "Pragmatic Play",
+      "Blueprint Gaming",
+      "Real Dealer Studios"
+    ],
+    "payoutSpeedHours": 0,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Apple Pay",
+      "PaysafeCard",
+      "Bank Transfer",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£100 Bonus",
+        "wagering": "30x",
+        "maxCashout": 100
+      }
+    },
+    "safety": {
+      "yearsOnline": 5,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 8.36,
+      "payout": 9.5,
+      "bonusValue": 7.9799999999999995,
+      "games": 8.8,
+      "support": 6.84,
+      "reputation": 9.5
+    },
+    "topTags": [
+      "Instant payouts",
+      "Premium license",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=klikkicasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "slotit-de",
+    "brand": "Slotit DE",
+    "url": "https://www.slotit.de",
+    "licences": [
+      "Gemeinsame Glücksspielbehörde der Länder"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "NL",
+      "FR",
+      "IT"
+    ],
+    "providers": [
+      "Novomatic",
+      "Merkur",
+      "Pragmatic Play",
+      "Play'n GO",
+      "NetEnt"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Giropay",
+      "Sofort",
+      "PayPal",
+      "Visa",
+      "Mastercard",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€400 + 100 FS",
+        "wagering": "35x",
+        "maxCashout": 400
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.2,
+      "fairness": 8.8,
+      "payout": 8.5,
+      "bonusValue": 8.4,
+      "games": 8.4,
+      "support": 8.8,
+      "reputation": 8.7
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Mobile-optimized",
+      "VIP program"
+    ],
+    "logo": {
+      "url": "https://www.bernd-hendl.com/bilder/bernd-hendl/instagram-logo-invers.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "150x150"
+    }
+  },
+  {
+    "slug": "lyrabet-be-v2",
+    "brand": "LyraBet BE-v2",
+    "url": "https://www.lyrabet.be",
+    "licences": [
+      "Belgian Gaming Commission"
+    ],
+    "restrictedGeos": [
+      "All countries except Belgium"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Push Gaming",
+      "Red Rake Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Bancontact",
+      "PayPal",
+      "Visa",
+      "Mastercard",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€100",
+        "wagering": "5x",
+        "maxCashout": 100
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 9.02,
+      "payout": 8.5,
+      "bonusValue": 8.61,
+      "games": 7.699999999999999,
+      "support": 7.38,
+      "reputation": 9.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Mobile app",
+      "VIP program"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=lyrabet.be&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "robocat-de",
+    "brand": "Robocat DE",
+    "url": "https://www.robocat.de",
+    "licences": [
+      "Spielbehorde Schleswig-Holstein"
+    ],
+    "restrictedGeos": [
+      "All except Germany"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Novomatic",
+      "Merkur",
+      "EYEcon"
+    ],
+    "payoutSpeedHours": 24,
+    "banking": [
+      "Giropay",
+      "Sofort",
+      "PayPal",
+      "Visa",
+      "Mastercard",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€200 + 100 FS",
+        "wagering": "30x",
+        "maxCashout": 200
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.2,
+      "fairness": 8.58,
+      "payout": 9.5,
+      "bonusValue": 8.19,
+      "games": 9.5,
+      "support": 7.02,
+      "reputation": 8.7
+    },
+    "topTags": [
+      "Fast payouts",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.domainmarkt.de/images/logo.gif",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "276x63"
+    }
+  },
+  {
+    "slug": "spins-deluxe",
+    "brand": "Spins Deluxe",
+    "url": "https://www.spinsdeluxe.com",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "CA",
+      "AU",
+      "DE",
+      "FR"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Play'n GO",
+      "Red Tiger",
+      "Pragmatic Play"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Apple Pay",
+      "Paysafecard",
+      "Bank Transfer",
+      "E-wallets",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£250 + 100 FS",
+        "wagering": "35x",
+        "maxCashout": 250
+      }
+    },
+    "safety": {
+      "yearsOnline": 5,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.2,
+      "fairness": 8.8,
+      "payout": 8.5,
+      "bonusValue": 8.4,
+      "games": 7.8,
+      "support": 8.8,
+      "reputation": 8.7
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.spinsdeluxe.com/images/spinsdeluxe//logo.png",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "600x218"
+    }
+  },
+  {
+    "slug": "instant-casino",
+    "brand": "Instant Casino",
+    "url": "https://www.instantcasino.com",
+    "licences": [
+      "UK"
+    ],
+    "restrictedGeos": [
+      "US",
+      "DE",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Playtech",
+      "Red Tiger",
+      "Blueprint",
+      "Evolution Gaming"
+    ],
+    "payoutSpeedHours": 18,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Skrill",
+      "Neteller",
+      "Apple Pay",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "£200 + 50 FS",
+        "wagering": "30x",
+        "maxCashout": 200
+      }
+    },
+    "safety": {
+      "yearsOnline": 5,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9,
+      "fairness": 8.58,
+      "payout": 9.5,
+      "bonusValue": 8.19,
+      "games": 7.8,
+      "support": 8.58,
+      "reputation": 8.5
+    },
+    "topTags": [
+      "Fast payouts",
+      "Premium license",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.instantcasino.com/wp-content/uploads/2025/07/logo-new.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "180x31"
+    }
+  },
+  {
+    "slug": "golden-panda",
+    "brand": "Golden Panda",
+    "url": "https://www.goldenpanda.com",
+    "licences": [
+      "Malta  (MGA)"
+    ],
+    "restrictedGeos": [],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Yggdrasil",
+      "Red Tiger Gaming",
+      "Quickspin"
+    ],
+    "payoutSpeedHours": 36,
+    "banking": [],
+    "bonuses": {
+      "welcome": {
+        "headline": "€/$200 + 100 FS",
+        "wagering": "35x",
+        "maxCashout": null
+      }
+    },
+    "safety": {
+      "yearsOnline": 7,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8,
+      "fairness": 8.8,
+      "payout": 8.5,
+      "bonusValue": 8.4,
+      "games": 10,
+      "support": 8.8,
+      "reputation": 7.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Premium license",
+      "Great game variety"
+    ],
+    "logo": {
+      "url": "https://www.goldenpanda.com/wp-content/uploads/2025/07/footer-logo.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "176x33"
+    }
+  },
+  {
+    "slug": "magius-casino",
+    "brand": "Magius Casino",
+    "url": "https://www.magiuscasino.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Microgaming",
+      "NetEnt",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Cryptocurrencies",
+      "Paysafecard",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8,
+      "fairness": 8.8,
+      "payout": 8.5,
+      "bonusValue": 8.4,
+      "games": 10,
+      "support": 8.8,
+      "reputation": 7.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Great game variety",
+      "Crypto-friendly"
+    ],
+    "logo": {
+      "url": "https://magiuscasino.com/images/logo.png",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "290x116"
+    }
+  },
+  {
+    "slug": "romibet-fr-v2",
+    "brand": "RomiBet FR-v2",
+    "url": "https://www.romibet.fr",
+    "licences": [
+      "L'Autorité Nationale des Jeux (ANJ)"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "ES",
+      "IT",
+      "DE"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Play'n GO",
+      "NetEnt",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "PayPal",
+      "Paysafecard",
+      "Bank Transfer",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€100 + 50 FS",
+        "wagering": "35x",
+        "maxCashout": 100
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9.2,
+      "fairness": 8.8,
+      "payout": 8.5,
+      "bonusValue": 8.4,
+      "games": 9,
+      "support": 7.2,
+      "reputation": 8.7
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Mobile app",
+      "VIP program"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=romibet.fr&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "ultimluck-casino",
+    "brand": "Ultimluck Casino",
+    "url": "https://www.ultimluck.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Hacksaw Gaming",
+      "Relax Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Crypto",
+      "Interac",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€750 + 300 FS",
+        "wagering": "45x",
+        "maxCashout": 750
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.2,
+      "fairness": 8.58,
+      "payout": 8.5,
+      "bonusValue": 8.19,
+      "games": 10,
+      "support": 8.58,
+      "reputation": 7.7
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Massive game selection",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=ultimluck.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "slots-islands",
+    "brand": "Slots Islands",
+    "url": "https://www.slotsislands.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "DE",
+      "FR",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Play'n GO",
+      "BGaming",
+      "Hacksaw Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Cryptocurrency",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "$1000 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": [
+        "Check T&Cs carefully"
+      ]
+    },
+    "ratings": {
+      "security": 8.5,
+      "fairness": 8.36,
+      "payout": 8.5,
+      "bonusValue": 7.9799999999999995,
+      "games": 10,
+      "support": 8.36,
+      "reputation": 8
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Great game variety",
+      "Crypto-friendly"
+    ],
+    "logo": {
+      "url": "https://d3tmpsuhcgf0q8.cloudfront.net/Slots%20Islands/logo/Slots%20Islands%20animation.gif",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "606x260"
+    }
+  },
+  {
+    "slug": "rich-royal",
+    "brand": "Rich Royal",
+    "url": "https://www.richroyal.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Play'n GO",
+      "Pragmatic Play",
+      "Habanero"
+    ],
+    "payoutSpeedHours": 72,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "MiFinity",
+      "Crypto",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€/$1500 + 250 FS",
+        "wagering": "40x",
+        "maxCashout": null
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8,
+      "fairness": 8.8,
+      "payout": 7.5,
+      "bonusValue": 8.4,
+      "games": 10,
+      "support": 8.8,
+      "reputation": 7.5
+    },
+    "topTags": [
+      "Massive game selection",
+      "Live dealer games",
+      "Crypto-friendly"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=richroyal.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "royal-game",
+    "brand": "Royal Game",
+    "url": "https://www.royalgames.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Microgaming",
+      "NetEnt",
+      "Evolution Gaming",
+      "Betsoft",
+      "Quickspin",
+      "Amatic"
+    ],
+    "payoutSpeedHours": 120,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Neosurf",
+      "Crypto",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 150 FS",
+        "wagering": "40x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 7,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8.5,
+      "fairness": 8.36,
+      "payout": 7.5,
+      "bonusValue": 7.9799999999999995,
+      "games": 10,
+      "support": 8.36,
+      "reputation": 8
+    },
+    "topTags": [
+      "Massive game selection",
+      "Live dealer games",
+      "Crypto-friendly"
+    ],
+    "logo": {
+      "url": "https://kingcare.zendesk.com/hc/theming_assets/01HZM49HFHV9Q48SJEZ7W59YNQ",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "337x250"
+    }
+  },
+  {
+    "slug": "lucky-gem",
+    "brand": "Lucky Gem",
+    "url": "https://www.luckygemcasino.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "DE",
+      "IT"
+    ],
+    "providers": [
+      "BGaming",
+      "Spinomenal",
+      "Endorphina",
+      "Amatic",
+      "Pragmatic Play",
+      "Evolution Gaming"
+    ],
+    "payoutSpeedHours": 72,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Neosurf",
+      "MiFinity",
+      "Jeton",
+      "Coinspaid",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€750 + 100 FS",
+        "wagering": "40x",
+        "maxCashout": 750
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": [
+        "Check T&Cs carefully"
+      ]
+    },
+    "ratings": {
+      "security": 8,
+      "fairness": 8.58,
+      "payout": 7.5,
+      "bonusValue": 8.19,
+      "games": 10,
+      "support": 8.58,
+      "reputation": 7.5
+    },
+    "topTags": [
+      "Massive game selection",
+      "Live dealer games",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=luckygemcasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "pirate-spins",
+    "brand": "Pirate Spins",
+    "url": "https://www.piratespins.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "NetEnt",
+      "Play'n GO",
+      "Hacksaw Gaming",
+      "BGaming"
+    ],
+    "payoutSpeedHours": 72,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "MiFinity",
+      "Crypto",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€500 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 500
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8,
+      "fairness": 8.58,
+      "payout": 7.5,
+      "bonusValue": 8.19,
+      "games": 10,
+      "support": 8.58,
+      "reputation": 7.5
+    },
+    "topTags": [
+      "Massive game selection",
+      "Live dealer games",
+      "Crypto-friendly"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=piratespins.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "needforspeed-es-v2",
+    "brand": "NeedForSpeed ES-v2",
+    "url": "https://es.needforspeedcasino.com",
+    "licences": [
+      "Dirección General de Ordenación del Juego (DGOJ)"
+    ],
+    "restrictedGeos": [
+      "All except Spain"
+    ],
+    "providers": [
+      "Play'n GO",
+      "Red Rake Gaming",
+      "Evolution Gaming",
+      "Pragmatic Play",
+      "EGT"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Paysafecard",
+      "Bizum",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€300 + 50 FS",
+        "wagering": "30x",
+        "maxCashout": 300
+      }
+    },
+    "safety": {
+      "yearsOnline": 1,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9,
+      "fairness": 8.58,
+      "payout": 8.5,
+      "bonusValue": 8.19,
+      "games": 8.3,
+      "support": 7.02,
+      "reputation": 8.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Mobile app",
+      "VIP program"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=es.needforspeedcasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "wild-tokyo",
+    "brand": "Wild Tokyo",
+    "url": "https://www.wildtokyo.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "ES",
+      "IT"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "BGaming",
+      "Endorphina",
+      "Amatic",
+      "Tom Horn Gaming",
+      "Vivo Gaming"
+    ],
+    "payoutSpeedHours": 120,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Jeton",
+      "Cryptocurrencies",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€750 + 150 FS",
+        "wagering": "45x",
+        "maxCashout": 750
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8,
+      "fairness": 8.36,
+      "payout": 7.5,
+      "bonusValue": 7.9799999999999995,
+      "games": 10,
+      "support": 8.36,
+      "reputation": 7.5
+    },
+    "topTags": [
+      "Massive game selection",
+      "Live dealer games",
+      "Crypto-friendly"
+    ],
+    "logo": {
+      "url": "https://logo.clearbit.com/wildtokyo.com",
+      "source": "clearbit-api",
+      "quality": "medium",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "36-hight",
+    "brand": "36 Hight",
+    "url": "https://www.36hight.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "NetEnt",
+      "Microgaming",
+      "Evolution Gaming",
+      "Pragmatic Play",
+      "Yggdrasil",
+      "BGaming",
+      "Spinomenal"
+    ],
+    "payoutSpeedHours": 120,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "MiFinity",
+      "Jeton",
+      "Bank Transfer",
+      "Crypto"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€1000 + 200 FS",
+        "wagering": "40x",
+        "maxCashout": 1000
+      }
+    },
+    "safety": {
+      "yearsOnline": 1,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 7,
+      "fairness": 8.8,
+      "payout": 7.5,
+      "bonusValue": 8.4,
+      "games": 10,
+      "support": 8.8,
+      "reputation": 6.5
+    },
+    "topTags": [
+      "Massive game selection",
+      "Excellent live casino",
+      "Crypto-friendly"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=36hight.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "hello-fortune",
+    "brand": "Hello Fortune",
+    "url": "https://www.hellofortune.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Red Tiger",
+      "Evolution Gaming",
+      "Big Time Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Trustly",
+      "Paysafecard",
+      "Bank Transfer",
+      "Cards"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€300 + 50 FS",
+        "wagering": "40x",
+        "maxCashout": 300
+      }
+    },
+    "safety": {
+      "yearsOnline": 3,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8,
+      "fairness": 8.36,
+      "payout": 8.5,
+      "bonusValue": 7.9799999999999995,
+      "games": 8.2,
+      "support": 8.36,
+      "reputation": 7.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Mobile-optimized",
+      "VIP program"
+    ],
+    "logo": {
+      "url": "https://d3tmpsuhcgf0q8.cloudfront.net/Hello%20Fortune/Logo/Hello%20furtune%20logo%20animation.gif",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "450x300"
+    }
+  },
+  {
+    "slug": "needforspeed-fi-v2",
+    "brand": "NeedForSpeed FI-v2",
+    "url": "https://fi.needforspeedcasino.com",
+    "licences": [
+      "National Police Board of Finland (Suomen Pelivirasto)"
+    ],
+    "restrictedGeos": [
+      "All except Finland"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Evolution Gaming",
+      "NetEnt",
+      "Yggdrasil"
+    ],
+    "payoutSpeedHours": 72,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "MobilePay",
+      "Paysafecard",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "100 FS",
+        "wagering": "35x",
+        "maxCashout": null
+      }
+    },
+    "safety": {
+      "yearsOnline": 1,
+      "complaintRatio": 0.01,
+      "resolvedComplaints": 90,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 10,
+      "fairness": 8.14,
+      "payout": 7.5,
+      "bonusValue": 7.7700000000000005,
+      "games": 7.300000000000001,
+      "support": 6.66,
+      "reputation": 9.5
+    },
+    "topTags": [
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=fi.needforspeedcasino.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "moana-casino",
+    "brand": "Moana Casino",
+    "url": "https://www.moana-casino.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Play'n GO",
+      "BGaming",
+      "Hacksaw Gaming",
+      "Relax Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "Cryptocurrencies",
+      "Interac",
+      "Bank Transfer",
+      "E-wallets"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€750 + 100 FS",
+        "wagering": "45x",
+        "maxCashout": 750
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 7,
+      "fairness": 8.36,
+      "payout": 8.5,
+      "bonusValue": 7.9799999999999995,
+      "games": 10,
+      "support": 8.36,
+      "reputation": 6.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Great game variety",
+      "Crypto-friendly"
+    ],
+    "logo": {
+      "url": "https://moana-casino.com/wp-content/uploads/sites/63/2025/03/Moana-Casino-Logo.svg",
+      "source": "direct",
+      "quality": "high",
+      "dimensions": "215x75"
+    }
+  },
+  {
+    "slug": "prontobet-au",
+    "brand": "ProntoBet AU",
+    "url": "https://www.prontobet.com.au",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "CA",
+      "EU Countries"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Amatic",
+      "Evolution Gaming",
+      "EGT",
+      "Betsoft"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "POLi",
+      "PayID",
+      "Neosurf",
+      "Visa",
+      "Mastercard",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "$3000 + 100 FS",
+        "wagering": "40x",
+        "maxCashout": 3000
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 7,
+      "fairness": 8.14,
+      "payout": 8.5,
+      "bonusValue": 7.7700000000000005,
+      "games": 10,
+      "support": 8.14,
+      "reputation": 6.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Great game variety",
+      "Live dealer games"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=prontobet.com.au&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "11croc-at-v2",
+    "brand": "11Croc AT-v2",
+    "url": "https://www.11croc.com/at",
+    "licences": [
+      "Spielbankenaufsicht Schleswig-Holstein"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Play'n GO",
+      "NetEnt",
+      "Red Tiger Gaming"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Giropay",
+      "Sofort",
+      "Visa",
+      "Mastercard",
+      "Paysafecard",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€100 + 100 FS",
+        "wagering": "40x",
+        "maxCashout": 100
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 8,
+      "fairness": 8.36,
+      "payout": 8.5,
+      "bonusValue": 7.9799999999999995,
+      "games": 8.2,
+      "support": 6.84,
+      "reputation": 7.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Live dealer games",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=11croc.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "11croc-de-v2",
+    "brand": "11Croc DE-v2",
+    "url": "https://www.11croc.com/de",
+    "licences": [
+      "Gemeinsame Glücksspielbehörde der Länder (GGL)"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "AT",
+      "CH",
+      "FR"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Evolution Gaming",
+      "Merkur Gaming",
+      "Greentube",
+      "Novomatic"
+    ],
+    "payoutSpeedHours": 48,
+    "banking": [
+      "Giropay",
+      "Sofort",
+      "Visa",
+      "Mastercard",
+      "Paysafecard",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "N/A (Regulated Market)",
+        "wagering": "N/A",
+        "maxCashout": null
+      }
+    },
+    "safety": {
+      "yearsOnline": 2,
+      "complaintRatio": 0.02,
+      "resolvedComplaints": 80,
+      "termsFlags": []
+    },
+    "ratings": {
+      "security": 9,
+      "fairness": 7.700000000000001,
+      "payout": 8.5,
+      "bonusValue": 7.3500000000000005,
+      "games": 7.7,
+      "support": 6.3,
+      "reputation": 8.5
+    },
+    "topTags": [
+      "Quick withdrawals",
+      "Mobile-optimized"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=11croc.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  },
+  {
+    "slug": "allspins",
+    "brand": "AllSpins",
+    "url": "https://www.allspins.com",
+    "licences": [
+      "Curacao"
+    ],
+    "restrictedGeos": [
+      "US",
+      "UK",
+      "FR",
+      "IT",
+      "ES"
+    ],
+    "providers": [
+      "Pragmatic Play",
+      "Play'n GO",
+      "Hacksaw Gaming",
+      "Relax Gaming",
+      "NoLimit City",
+      "Thunderkick",
+      "Wazdan"
+    ],
+    "payoutSpeedHours": 72,
+    "banking": [
+      "Visa",
+      "Mastercard",
+      "Skrill",
+      "Neteller",
+      "ecoPayz",
+      "Crypto",
+      "Bank Transfer"
+    ],
+    "bonuses": {
+      "welcome": {
+        "headline": "€300 + 50 FS",
+        "wagering": "45x",
+        "maxCashout": 300
+      }
+    },
+    "safety": {
+      "yearsOnline": 4,
+      "complaintRatio": 0.03,
+      "resolvedComplaints": 70,
+      "termsFlags": [
+        "Check T&Cs carefully"
+      ]
+    },
+    "ratings": {
+      "security": 6,
+      "fairness": 8.58,
+      "payout": 7.5,
+      "bonusValue": 8.19,
+      "games": 10,
+      "support": 8.58,
+      "reputation": 5.5
+    },
+    "topTags": [
+      "Massive game selection",
+      "Excellent live casino",
+      "Crypto-friendly"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=allspins.com&sz=64",
+      "source": "google-favicon-fallback",
+      "quality": "basic",
+      "dimensions": "unknown"
+    }
+  }
+]

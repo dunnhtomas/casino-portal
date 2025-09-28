@@ -1,0 +1,9 @@
+{
+	"id": "66apF8ZRBuawFK8",
+	"json": "{\"id\":\"66apF8ZRBuawFK8\",\"url\":\"https://www.spingranny.at\",\"loadedUrl\":\"https://spingranny.at/\",\"uniqueKey\":\"https://www.spingranny.at\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"spingranny-at\",\"brand\":\"SpinGranny\",\"url\":\"https://www.spingranny.at\",\"licences\":[\"Austrian Ministry of Finance\"],\"restrictedGeos\":[\"US\",\"UK\",\"DE\",\"FR\",\"IT\"],\"providers\":[\"Novomatic\",\"Greentube\",\"Pragmatic Play\",\"Play'n GO\",\"Evolution Gaming\"],\"payoutSpeedHours\":36,\"banking\":[\"Visa\",\"Mastercard\",\"EPS\",\"Sofort\",\"Bank Transfer\",\"Paysafecard\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€400 + 100 FS\",\"wagering\":\"35x\",\"maxCashout\":400}},\"safety\":{\"yearsOnline\":2,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.3,\"fairness\":9.240000000000002,\"payout\":8.5,\"bonusValue\":8.82,\"games\":8.6,\"support\":9,\"reputation\":8.8},\"topTags\":[\"Quick withdrawals\",\"Mobile app\",\"VIP program\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=spingranny.at&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:30.890Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.spingranny.at",
+	"url": "https://www.spingranny.at"
+}

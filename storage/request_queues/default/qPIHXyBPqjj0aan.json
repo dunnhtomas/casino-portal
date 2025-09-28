@@ -1,0 +1,9 @@
+{
+	"id": "qPIHXyBPqjj0aan",
+	"json": "{\"id\":\"qPIHXyBPqjj0aan\",\"url\":\"https://www.ivybet.io\",\"loadedUrl\":\"https://fintmo8.com/?rs_id=a2c77bc0-8b74-4924-8e06-c6881dea3610\",\"uniqueKey\":\"https://www.ivybet.io\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"ivybetio\",\"brand\":\"Ivybet.io\",\"url\":\"https://www.ivybet.io\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"United States\",\"United Kingdom\",\"Spain\",\"France\",\"Italy\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Evolution Gaming\",\"Play'n GO\",\"Pragmatic Play\",\"Red Tiger Gaming\",\"Yggdrasil\",\"Quickspin\"],\"payoutSpeedHours\":72,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Paysafecard\",\"Interac\",\"Bank Transfer\",\"Bitcoin\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 / $500\",\"wagering\":\"40x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":8.8,\"fairness\":9.240000000000002,\"payout\":7.5,\"bonusValue\":8.82,\"games\":10,\"support\":9,\"reputation\":8.3},\"topTags\":[\"Massive game selection\",\"Live dealer games\",\"Crypto-friendly\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=ivybet.io&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:36.750Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.ivybet.io",
+	"url": "https://www.ivybet.io"
+}

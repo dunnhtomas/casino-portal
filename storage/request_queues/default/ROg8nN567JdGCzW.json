@@ -1,0 +1,9 @@
+{
+	"id": "ROg8nN567JdGCzW",
+	"json": "{\"id\":\"ROg8nN567JdGCzW\",\"url\":\"https://www.vincispin.com\",\"loadedUrl\":\"https://vincispin.com/not-allowed\",\"uniqueKey\":\"https://www.vincispin.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"vincispin\",\"brand\":\"VinciSpin\",\"url\":\"https://www.vincispin.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"ES\",\"IT\"],\"providers\":[\"Pragmatic Play\",\"Evolution Gaming\",\"Hacksaw Gaming\",\"Play'n GO\",\"BGaming\",\"Amatic\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"MiFinity\",\"Jeton\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":2,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":8.5,\"fairness\":8.8,\"payout\":8.5,\"bonusValue\":8.4,\"games\":10,\"support\":8.8,\"reputation\":8},\"topTags\":[\"Quick withdrawals\",\"Massive game selection\",\"Excellent live casino\"],\"logo\":{\"url\":\"https://cdn.vincistatic.com/images/file/uploads/258168549164468837.svg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"303x81\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:52.062Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.vincispin.com",
+	"url": "https://www.vincispin.com"
+}

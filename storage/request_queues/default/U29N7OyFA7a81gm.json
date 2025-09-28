@@ -1,0 +1,9 @@
+{
+	"id": "U29N7OyFA7a81gm",
+	"json": "{\"id\":\"U29N7OyFA7a81gm\",\"url\":\"https://www.hellofortune.com\",\"loadedUrl\":\"https://hellofortune32.com/home\",\"uniqueKey\":\"https://www.hellofortune.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"hello-fortune\",\"brand\":\"Hello Fortune\",\"url\":\"https://www.hellofortune.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"Pragmatic Play\",\"Play'n GO\",\"Red Tiger\",\"Evolution Gaming\",\"Big Time Gaming\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Trustly\",\"Paysafecard\",\"Bank Transfer\",\"Cards\"],\"bonuses\":{\"welcome\":{\"headline\":\"€300 + 50 FS\",\"wagering\":\"40x\",\"maxCashout\":300}},\"safety\":{\"yearsOnline\":3,\"complaintRatio\":0.03,\"resolvedComplaints\":70,\"termsFlags\":[]},\"ratings\":{\"security\":8,\"fairness\":8.36,\"payout\":8.5,\"bonusValue\":7.9799999999999995,\"games\":8.2,\"support\":8.36,\"reputation\":7.5},\"topTags\":[\"Quick withdrawals\",\"Mobile-optimized\",\"VIP program\"],\"logo\":{\"url\":\"https://d3tmpsuhcgf0q8.cloudfront.net/Hello%20Fortune/Logo/Hello%20furtune%20logo%20animation.gif\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"450x300\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T20:00:25.074Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.hellofortune.com",
+	"url": "https://www.hellofortune.com"
+}

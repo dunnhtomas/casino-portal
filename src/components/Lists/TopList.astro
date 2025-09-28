@@ -1,0 +1,16 @@
+---
+const { items } = Astro.props;
+---
+<ol class="space-y-4">
+  {items.map((it, idx) => (
+    <li key={it.slug} class="flex items-start">
+      <div class="w-12 font-bold text-xl">{idx + 1}</div>
+      <div class="flex-1">
+        <div class="flex items-center justify-between">
+          <h3 class="font-semibold">{it.brand}</h3>
+        </div>
+        <p class="text-sm text-gray-600">{it.topTags?.join(' • ')}</p>
+      </div>
+    </li>
+  ))}
+</ol>

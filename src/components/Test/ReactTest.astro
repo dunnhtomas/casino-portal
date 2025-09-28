@@ -1,0 +1,64 @@
+---
+// Simple test component for debugging
+const testData = {
+  id: 'test',
+  name: 'Test Casino',
+  logo: '/test.png',
+  slug: 'test',
+  rating: {
+    overall: 9.5,
+    trust: 9,
+    bonuses: 8,
+    games: 9,
+    support: 8,
+    payout: 9
+  },
+  bonuses: {
+    welcome: {
+      amount: '€500',
+      type: 'match' as const,
+      wagering: 35
+    }
+  },
+  features: [
+    { icon: '⚡', label: 'Fast Payouts' }
+  ],
+  payoutSpeed: {
+    min: '24h',
+    max: '48h',
+    category: 'fast' as const
+  },
+  licenses: [],
+  established: 2020,
+  gameCount: 2000,
+  minDeposit: '$10',
+  currencies: ['USD'],
+  languages: ['English']
+};
+
+// Dynamic import to test if component loads
+import { EnhancedCasinoCard } from '../Casino/EnhancedCasinoCard';
+---
+
+<div id="react-test-container" class="p-8 bg-gray-100 rounded-lg m-4">
+  <h3 class="text-xl font-bold mb-4">🧪 React Component Test</h3>
+  <p class="mb-4 text-gray-600">Testing if EnhancedCasinoCard renders...</p>
+  
+  <EnhancedCasinoCard 
+    casino={testData}
+    variant="featured"
+    rank={1}
+    client:load
+  />
+  
+  <script>
+    console.log('✅ React test component script loaded');
+    console.log('🔍 Looking for EnhancedCasinoCard in window...');
+    
+    // Check if React is loaded
+    setTimeout(() => {
+      console.log('React available:', typeof window.React !== 'undefined');
+      console.log('Astro islands:', document.querySelectorAll('astro-island').length);
+    }, 1000);
+  </script>
+</div>

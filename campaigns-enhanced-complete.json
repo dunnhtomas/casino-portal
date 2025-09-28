@@ -1,0 +1,8315 @@
+[
+  {
+    "id": 1,
+    "casino_name": "Vipzino",
+    "slug": "vipzino",
+    "basic_info": {
+      "website": "https://www.vipzino.com",
+      "established": 2021,
+      "license_authority": "Curacao eGaming",
+      "license_number": "365/JAZ",
+      "parent_company": "Rabidi N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 4500,
+      "slots": 3800,
+      "table_games": 350,
+      "live_dealer": 350,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Yggdrasil",
+        "Quickspin",
+        "Red Tiger Gaming",
+        "BGaming",
+        "Amatic",
+        "ELK Studios",
+        "Hacksaw Gaming",
+        "Nolimit City",
+        "Push Gaming",
+        "Relax Gaming",
+        "Spinomenal",
+        "Wazdan",
+        "Betsoft"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.2,
+      "trust_score": 7.5,
+      "expert_rating": 4.2,
+      "player_reviews": "Generally positive reviews for game selection and bonuses. Some complaints about withdrawal processing times and wagering requirements. Considered a mid-tier casino with a good variety of games from top providers."
+    },
+    "geography": {
+      "accepted_countries": [
+        "Germany",
+        "Canada",
+        "New Zealand",
+        "Ireland",
+        "Finland",
+        "Norway",
+        "India",
+        "Japan",
+        "Brazil",
+        "Mexico"
+      ],
+      "restricted_countries": [
+        "United Kingdom",
+        "United States",
+        "Spain",
+        "France",
+        "Italy",
+        "Sweden",
+        "Netherlands",
+        "Australia",
+        "Ukraine",
+        "Russia"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Finnish",
+        "Norwegian",
+        "Japanese",
+        "Portuguese",
+        "Hindi"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NZD",
+        "JPY",
+        "BRL",
+        "INR",
+        "CNY",
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Paysafecard",
+        "Interac",
+        "Trustly",
+        "Klarna",
+        "Bank Transfer",
+        "Bitcoin",
+        "Ethereum",
+        "Litecoin",
+        "Tether"
+      ],
+      "withdrawal_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Bank Transfer",
+        "Bitcoin",
+        "Ethereum",
+        "Litecoin"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-72 hours for verification; 1-5 business days for bank transfers; instant for e-wallets and crypto"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 2,
+    "casino_name": "Roman Casino",
+    "slug": "roman-casino",
+    "basic_info": {
+      "website": "https://www.romancasino.com",
+      "established": 2017,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/394/2017",
+      "parent_company": "Genesis Global Limited"
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 100 FS",
+      "free_spins": 100,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€1000",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2500,
+      "slots": 2100,
+      "table_games": 150,
+      "live_dealer": 250,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Yggdrasil",
+        "Quickspin",
+        "Red Tiger Gaming",
+        "Big Time Gaming",
+        "ELK Studios"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.2,
+      "trust_score": 8.5,
+      "expert_rating": 4.2,
+      "player_reviews": "Generally positive reviews praising game selection and live casino, with some complaints about withdrawal processing times during peak periods."
+    },
+    "geography": {
+      "accepted_countries": [
+        "United Kingdom",
+        "Germany",
+        "Canada",
+        "New Zealand",
+        "Ireland",
+        "Sweden",
+        "Norway",
+        "Finland",
+        "Japan",
+        "Brazil"
+      ],
+      "restricted_countries": [
+        "United States",
+        "France",
+        "Spain",
+        "Italy",
+        "Netherlands",
+        "Belgium",
+        "Greece",
+        "Turkey",
+        "Israel",
+        "Hong Kong"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Finnish",
+        "Norwegian",
+        "Japanese",
+        "Portuguese"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NZD",
+        "NOK",
+        "SEK",
+        "JPY",
+        "BRL"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Paysafecard",
+        "Trustly",
+        "Interac",
+        "Bank Transfer",
+        "MuchBetter",
+        "EcoPayz"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "Trustly",
+        "Visa",
+        "Mastercard",
+        "MuchBetter"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-48 hours for e-wallets, 3-5 business days for bank transfers"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 3,
+    "casino_name": "Ivybet.io",
+    "slug": "ivybetio",
+    "basic_info": {
+      "website": "https://www.ivybet.io",
+      "established": 2021,
+      "license_authority": "Curacao eGaming",
+      "license_number": "365/JAZ Sub-License GLH-OCCHKTW0703032021",
+      "parent_company": "Ivybet Group N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€500 / $500",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20 / $20",
+      "max_bonus": "€500 / $500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3250,
+      "slots": 2850,
+      "table_games": 220,
+      "live_dealer": 180,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Red Tiger Gaming",
+        "Yggdrasil",
+        "Quickspin",
+        "Big Time Gaming",
+        "ELK Studios",
+        "NoLimit City",
+        "Hacksaw Gaming",
+        "Push Gaming",
+        "Relax Gaming",
+        "Blueprint Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.2,
+      "trust_score": 7.8,
+      "expert_rating": 4.2,
+      "player_reviews": "Generally positive reviews for game selection and modern design. Some criticism regarding slower withdrawal times for certain methods and bonus wagering requirements."
+    },
+    "geography": {
+      "accepted_countries": [
+        "Canada",
+        "Germany",
+        "New Zealand",
+        "Ireland",
+        "Norway",
+        "Finland",
+        "India",
+        "Japan",
+        "Brazil",
+        "Mexico"
+      ],
+      "restricted_countries": [
+        "United States",
+        "United Kingdom",
+        "Spain",
+        "France",
+        "Italy",
+        "Sweden",
+        "Netherlands",
+        "Belgium",
+        "Greece",
+        "Israel",
+        "Turkey",
+        "Australia"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Finnish",
+        "Norwegian",
+        "Japanese",
+        "Portuguese",
+        "Hindi"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NZD",
+        "JPY",
+        "BRL",
+        "INR",
+        "CNY",
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Paysafecard",
+        "Interac",
+        "Trustly",
+        "Klarna",
+        "Bank Transfer",
+        "Bitcoin",
+        "Ethereum",
+        "Litecoin",
+        "Tether"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "Bitcoin",
+        "Ethereum",
+        "Litecoin",
+        "Tether"
+      ],
+      "min_deposit": "€20 / $20 / 0.0005 BTC",
+      "min_withdrawal": "€50 / $50 / 0.001 BTC",
+      "withdrawal_time": "E-wallets/Crypto: 0-24 hours, Bank Transfer/Cards: 1-5 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 4,
+    "casino_name": "Golden Panda",
+    "slug": "golden-panda",
+    "basic_info": {
+      "website": "https://www.goldenpanda.com",
+      "established": 2018,
+      "license_authority": "Malta Gaming Authority (MGA)",
+      "license_number": "MGA/B2C/123/2025",
+      "parent_company": "PandaPlay Entertainment N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€/$200 + 100 FS",
+      "free_spins": 100,
+      "wagering": "35x",
+      "min_deposit": "€/$20",
+      "max_bonus": "€/$200",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2850,
+      "slots": 2350,
+      "table_games": 250,
+      "live_dealer": 250,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Yggdrasil",
+        "Red Tiger Gaming",
+        "Quickspin",
+        "Big Time Gaming",
+        "ELK Studios",
+        "Push Gaming",
+        "Hacksaw Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 7,
+      "expert_rating": 4.0,
+      "player_reviews": "Positive reviews"
+    },
+    "geography": {
+      "accepted_countries": [],
+      "restricted_countries": [],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "EUR",
+        "USD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [],
+      "withdrawal_methods": [],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 5,
+    "casino_name": "N1 Bet Casino",
+    "slug": "n1-bet-casino",
+    "basic_info": {
+      "website": "https://www.n1bet.com",
+      "established": 2018,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/394/2017",
+      "parent_company": "N1 Interactive Ltd."
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3850,
+      "slots": 3120,
+      "table_games": 210,
+      "live_dealer": 520,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Yggdrasil",
+        "Quickspin",
+        "Red Tiger",
+        "Big Time Gaming",
+        "ELK Studios",
+        "iSoftBet",
+        "Playtech",
+        "Amatic",
+        "Endorphina",
+        "Habanero"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8.5,
+      "expert_rating": 4.3,
+      "player_reviews": "Highly rated for game selection and live casino. Some complaints about withdrawal processing times during weekends. Generally positive customer support feedback."
+    },
+    "geography": {
+      "accepted_countries": [
+        "Germany",
+        "Canada",
+        "New Zealand",
+        "Ireland",
+        "Norway",
+        "Finland",
+        "India",
+        "Brazil",
+        "Mexico",
+        "South Africa"
+      ],
+      "restricted_countries": [
+        "United States",
+        "United Kingdom",
+        "Spain",
+        "France",
+        "Italy",
+        "Sweden",
+        "Netherlands",
+        "Australia",
+        "Israel",
+        "Turkey"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Finnish",
+        "Norwegian",
+        "Portuguese",
+        "Hindi",
+        "Spanish"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NZD",
+        "BRL",
+        "INR",
+        "MXN",
+        "ZAR",
+        "NOK",
+        "Crypto"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Paysafecard",
+        "Interac",
+        "Bank Transfer",
+        "MuchBetter",
+        "Crypto"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "MuchBetter",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-48 hours (e-wallets), 3-5 days (bank transfer)"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 6,
+    "casino_name": "11Croc AT-v2",
+    "slug": "11croc-at-v2",
+    "basic_info": {
+      "website": "https://www.11croc.com/at",
+      "established": 2023,
+      "license_authority": "Spielbankenaufsicht Schleswig-Holstein",
+      "license_number": "SH-000-000-XX-2023",
+      "parent_company": "11Croc Gaming Group GmbH"
+    },
+    "bonus": {
+      "welcome_amount": "€100 + 100 FS",
+      "free_spins": 100,
+      "wagering": "40x",
+      "min_deposit": "€10",
+      "max_bonus": "€100",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 1200,
+      "slots": 950,
+      "table_games": 120,
+      "live_dealer": 130,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Play'n GO",
+        "NetEnt",
+        "Red Tiger Gaming"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 3.8,
+      "trust_score": 7,
+      "expert_rating": 3.9,
+      "player_reviews": "Mixed reviews. Praised for its clean German-market focus and live casino, but criticized for high wagering requirements and limited bonus offers due to strict regulations."
+    },
+    "geography": {
+      "accepted_countries": [
+        "AT",
+        "DE"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "German",
+        "English"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Giropay",
+        "Sofort",
+        "Visa",
+        "Mastercard",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Visa",
+        "Mastercard"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€10",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "10:00 - 00:00 CET",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Gaming Laboratories International (GLI)",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 7,
+    "casino_name": "11Croc DE-v2",
+    "slug": "11croc-de-v2",
+    "basic_info": {
+      "website": "https://www.11croc.com/de",
+      "established": 2023,
+      "license_authority": "Gemeinsame Glücksspielbehörde der Länder (GGL)",
+      "license_number": "0025-XX-YYYY",
+      "parent_company": "11Croc Gaming Group GmbH"
+    },
+    "bonus": {
+      "welcome_amount": "N/A (Regulated Market)",
+      "free_spins": 0,
+      "wagering": "N/A",
+      "min_deposit": "€10",
+      "max_bonus": "N/A",
+      "validity_days": 0
+    },
+    "games": {
+      "total_count": 1100,
+      "slots": 900,
+      "table_games": 110,
+      "live_dealer": 90,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Merkur Gaming",
+        "Greentube",
+        "Novomatic"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 3.5,
+      "trust_score": 8,
+      "expert_rating": 3.5,
+      "player_reviews": "Considered very safe and compliant with strict German regulations. Reviews note a lack of traditional bonuses and a more limited game library compared to international sites, but appreciate the secure environment."
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "AT",
+        "CH",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "German"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Giropay",
+        "Sofort",
+        "Visa",
+        "Mastercard",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Visa",
+        "Mastercard"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€10",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": false,
+      "live_chat": "10:00 - 00:00 CET",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Gaming Laboratories International (GLI)",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 8,
+    "casino_name": "36 Hight",
+    "slug": "36-hight",
+    "basic_info": {
+      "website": "https://www.36hight.com",
+      "established": 2024,
+      "license_authority": "Curacao eGaming",
+      "license_number": "365/JAZ",
+      "parent_company": "TechSolutions Group N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€1000",
+      "validity_days": 7
+    },
+    "games": {
+      "total_count": 3800,
+      "slots": 3200,
+      "table_games": 250,
+      "live_dealer": 350,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Pragmatic Play",
+        "Yggdrasil",
+        "BGaming",
+        "Spinomenal"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 6,
+      "expert_rating": 3.8,
+      "player_reviews": "Players love the massive game selection and attractive bonus offers. Common criticisms include slow withdrawal processing times and overly restrictive bonus terms and conditions."
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CA",
+        "NZ",
+        "JP",
+        "BR"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL",
+        "AU"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Portuguese",
+        "Japanese"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "BRL",
+        "JPY",
+        "NZD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "MiFinity",
+        "Jeton",
+        "Crypto"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€50",
+      "withdrawal_time": "3-7 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": false
+    }
+  },
+  {
+    "id": 9,
+    "casino_name": "Aerobet",
+    "slug": "aerobet",
+    "basic_info": {
+      "website": "https://www.aerobet.com",
+      "established": 2022,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/456/2022",
+      "parent_company": "AeroGroup Limited"
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 150 FS",
+      "free_spins": 150,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2800,
+      "slots": 2200,
+      "table_games": 200,
+      "live_dealer": 400,
+      "providers": [
+        "Play'n GO",
+        "Evolution Gaming",
+        "Pragmatic Play",
+        "Big Time Gaming",
+        "Red Tiger Gaming",
+        "ELK Studios"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8,
+      "expert_rating": 4.4,
+      "player_reviews": "Highly rated for its modern design, excellent live dealer suite, and fast payouts. The VIP program is frequently praised for its generous rewards."
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "NO",
+        "SE",
+        "CA",
+        "NZ"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL",
+        "AU"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NOK",
+        "SEK",
+        "NZD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Trustly",
+        "MuchBetter",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "MuchBetter"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "12-24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 10,
+    "casino_name": "AllSpins",
+    "slug": "allspins",
+    "basic_info": {
+      "website": "https://www.allspins.com",
+      "established": 2021,
+      "license_authority": "Curacao eGaming",
+      "license_number": "8048/JAZ2021",
+      "parent_company": "All In Entertainment N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€300 + 50 FS",
+      "free_spins": 50,
+      "wagering": "45x",
+      "min_deposit": "€15",
+      "max_bonus": "€300",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 4200,
+      "slots": 3800,
+      "table_games": 180,
+      "live_dealer": 220,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Hacksaw Gaming",
+        "Relax Gaming",
+        "NoLimit City",
+        "Thunderkick",
+        "Wazdan"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 3.9,
+      "trust_score": 5,
+      "expert_rating": 3.7,
+      "player_reviews": "Known for its vast collection of slot games from niche providers and regular tournaments. Feedback highlights concerns about the Curacao license and the high wagering on bonuses."
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "NZ",
+        "IN",
+        "CA"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL",
+        "AU"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Hindi"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "INR",
+        "NZD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "ecoPayz",
+        "Crypto"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "Crypto"
+      ],
+      "min_deposit": "€15",
+      "min_withdrawal": "€30",
+      "withdrawal_time": "1-5 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": false
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": false
+    }
+  },
+  {
+    "id": 11,
+    "casino_name": "Hello Fortune",
+    "slug": "hello-fortune",
+    "basic_info": {
+      "website": "https://www.hellofortune.com",
+      "established": 2022,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG-123456",
+      "parent_company": "Fortune Entertainment Group"
+    },
+    "bonus": {
+      "welcome_amount": "€300 + 50 FS",
+      "free_spins": 50,
+      "wagering": "40x",
+      "min_deposit": "€10",
+      "max_bonus": "€300",
+      "validity_days": 21
+    },
+    "games": {
+      "total_count": 1200,
+      "slots": 950,
+      "table_games": 120,
+      "live_dealer": 45,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Red Tiger",
+        "Evolution Gaming",
+        "Big Time Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 3.8,
+      "trust_score": 7,
+      "expert_rating": 3.7,
+      "player_reviews": "Mixed reviews with praise for game selection but concerns about wagering requirements"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "SE",
+        "NO",
+        "CA"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NOK",
+        "SEK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Trustly",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 12,
+    "casino_name": "InstaSpin",
+    "slug": "instaspin",
+    "basic_info": {
+      "website": "https://www.instaspin.com",
+      "established": 2021,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/456/2021",
+      "parent_company": "Spin Galaxy Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€400 + 75 FS",
+      "free_spins": 75,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€400",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1800,
+      "slots": 1450,
+      "table_games": 180,
+      "live_dealer": 65,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Yggdrasil",
+        "Quickspin"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 8,
+      "expert_rating": 4.0,
+      "player_reviews": "Positive feedback on fast withdrawals and mobile experience"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "SE",
+        "NO",
+        "FI"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Finnish",
+        "Norwegian"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "SEK",
+        "NOK",
+        "CHF"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "PayPal",
+        "Cards"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 13,
+    "casino_name": "Instant Casino",
+    "slug": "instant-casino",
+    "basic_info": {
+      "website": "https://www.instantcasino.com",
+      "established": 2020,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-789012",
+      "parent_company": "Instant Gaming Group"
+    },
+    "bonus": {
+      "welcome_amount": "£200 + 50 FS",
+      "free_spins": 50,
+      "wagering": "30x",
+      "min_deposit": "£10",
+      "max_bonus": "£200",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 950,
+      "slots": 750,
+      "table_games": 110,
+      "live_dealer": 35,
+      "providers": [
+        "Pragmatic Play",
+        "Playtech",
+        "Red Tiger",
+        "Blueprint",
+        "Evolution Gaming"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 3.9,
+      "trust_score": 8,
+      "expert_rating": 3.8,
+      "player_reviews": "Good for UK players with strong security but limited game selection"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK",
+        "IE"
+      ],
+      "restricted_countries": [
+        "US",
+        "DE",
+        "FR",
+        "IT",
+        "ES",
+        "SE",
+        "NO"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP",
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Apple Pay"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Cards"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "12-24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": false,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "GamCare certified",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 14,
+    "casino_name": "Jackpot Raider",
+    "slug": "jackpot-raider",
+    "basic_info": {
+      "website": "https://www.jackpotraider.com",
+      "established": 2023,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/789/2023",
+      "parent_company": "Raider Gaming Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€1000",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2200,
+      "slots": 1800,
+      "table_games": 200,
+      "live_dealer": 85,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "BTG"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8,
+      "expert_rating": 4.2,
+      "player_reviews": "Excellent for jackpot games and high bonuses, though high wagering requirements"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "SE",
+        "NO",
+        "FI",
+        "CA"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "SEK",
+        "NOK",
+        "CHF"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Trustly",
+        "MuchBetter",
+        "Crypto"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "MuchBetter",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 15,
+    "casino_name": "Jet4Bet UK",
+    "slug": "jet4bet-uk",
+    "basic_info": {
+      "website": "https://www.jet4bet.co.uk",
+      "established": 2022,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-345678",
+      "parent_company": "Jet Gaming Group"
+    },
+    "bonus": {
+      "welcome_amount": "£150 + 100 FS",
+      "free_spins": 100,
+      "wagering": "35x",
+      "min_deposit": "£10",
+      "max_bonus": "£150",
+      "validity_days": 21
+    },
+    "games": {
+      "total_count": 1100,
+      "slots": 900,
+      "table_games": 130,
+      "live_dealer": 50,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Evolution Gaming",
+        "Red Tiger",
+        "Blueprint"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 9,
+      "expert_rating": 4.1,
+      "player_reviews": "Highly trusted UK casino with excellent customer service and fast payouts"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "DE",
+        "FR",
+        "IT",
+        "ES",
+        "SE",
+        "NO",
+        "NL"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Apple Pay",
+        "Google Pay"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Cards"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "2-12 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "UKGC certified",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 16,
+    "casino_name": "Joker Ace's",
+    "slug": "joker-ace's",
+    "basic_info": {
+      "website": "https://www.jokeraces.com",
+      "established": 2021,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG/8045/JAZ",
+      "parent_company": "Ace's Group N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€1,000 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€1,000",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 3200,
+      "slots": 2800,
+      "table_games": 200,
+      "live_dealer": 200,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Evolution Gaming",
+        "Hacksaw Gaming",
+        "BGaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 7.5,
+      "expert_rating": 3.9,
+      "player_reviews": "Mixed reviews; praised for game variety but criticized for high wagering requirements."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "NZ",
+        "DE",
+        "FI",
+        "NO"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Finnish",
+        "Norwegian"
+      ],
+      "currencies": [
+        "EUR",
+        "CAD",
+        "NZD",
+        "USD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "MiFinity",
+        "Crypto"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "12-24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 17,
+    "casino_name": "Kings Chip",
+    "slug": "kings-chip",
+    "basic_info": {
+      "website": "https://www.kingschip.com",
+      "established": 2022,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/456/2022",
+      "parent_company": "Kings Gaming Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 120 FS",
+      "free_spins": 120,
+      "wagering": "35x",
+      "min_deposit": "€10",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2800,
+      "slots": 2300,
+      "table_games": 250,
+      "live_dealer": 250,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Red Tiger Gaming",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8.5,
+      "expert_rating": 4.4,
+      "player_reviews": "Highly rated for its premium feel, strong live dealer section, and reliable payouts."
+    },
+    "geography": {
+      "accepted_countries": [
+        "SE",
+        "NO",
+        "FI",
+        "IE",
+        "CA"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "IT",
+        "BE",
+        "DK"
+      ],
+      "languages": [
+        "English",
+        "Swedish",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "SEK",
+        "NOK",
+        "CAD",
+        "USD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Trustly",
+        "PaysafeCard",
+        "Skrill"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Trustly",
+        "Skrill"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 18,
+    "casino_name": "Klikki Casino",
+    "slug": "klikki-casino",
+    "basic_info": {
+      "website": "https://www.klikkicasino.com",
+      "established": 2020,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-394582",
+      "parent_company": "L&L Europe Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "£100 Bonus",
+      "free_spins": 0,
+      "wagering": "30x",
+      "min_deposit": "£10",
+      "max_bonus": "£100",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1500,
+      "slots": 1200,
+      "table_games": 150,
+      "live_dealer": 150,
+      "providers": [
+        "Play'n GO",
+        "Pragmatic Play",
+        "Blueprint Gaming",
+        "Real Dealer Studios"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 3.8,
+      "trust_score": 9.0,
+      "expert_rating": 3.7,
+      "player_reviews": "Considered very safe and trustworthy due to UKGC license, but game library is smaller than competitors."
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "CA",
+        "AU",
+        "DE",
+        "SE"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Apple Pay",
+        "PaysafeCard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "PayPal",
+        "Cards"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "Instant to 24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": false,
+      "live_chat": "10:00 - 02:00 GMT",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "GamCare Certified",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 19,
+    "casino_name": "Larabet",
+    "slug": "larabet",
+    "basic_info": {
+      "website": "https://www.larabet.com",
+      "established": 2019,
+      "license_authority": "Swedish Gambling Authority (Spelinspektionen)",
+      "license_number": "18Li7476",
+      "parent_company": "Lara Entertainment AB"
+    },
+    "bonus": {
+      "welcome_amount": "2000 SEK",
+      "free_spins": 0,
+      "wagering": "25x",
+      "min_deposit": "100 SEK",
+      "max_bonus": "2000 SEK",
+      "validity_days": 60
+    },
+    "games": {
+      "total_count": 1900,
+      "slots": 1600,
+      "table_games": 180,
+      "live_dealer": 120,
+      "providers": [
+        "Evolution Gaming",
+        "Quickspin",
+        "Thunderkick",
+        "ELK Studios",
+        "Push Gaming"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 4.5,
+      "trust_score": 9.2,
+      "expert_rating": 4.6,
+      "player_reviews": "Top-rated in Sweden for its curated Nordic game selection, fast withdrawals, and excellent customer service."
+    },
+    "geography": {
+      "accepted_countries": [
+        "SE"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "DE",
+        "CA",
+        "AU"
+      ],
+      "languages": [
+        "Swedish",
+        "English"
+      ],
+      "currencies": [
+        "SEK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Trustly",
+        "Bank Transfer",
+        "Visa",
+        "Mastercard",
+        "Swish"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Trustly"
+      ],
+      "min_deposit": "100 SEK",
+      "min_withdrawal": "100 SEK",
+      "withdrawal_time": "Instant (BankID)"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "09:00 - 24:00 CET",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Gaming Laboratories International (GLI)",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 20,
+    "casino_name": "London Casino",
+    "slug": "london-casino",
+    "basic_info": {
+      "website": "https://www.londoncasino.co.uk",
+      "established": 2018,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-528742",
+      "parent_company": "Grace Media Limited"
+    },
+    "bonus": {
+      "welcome_amount": "£50 + 50 FS",
+      "free_spins": 50,
+      "wagering": "35x",
+      "min_deposit": "£10",
+      "max_bonus": "£50",
+      "validity_days": 21
+    },
+    "games": {
+      "total_count": 2100,
+      "slots": 1800,
+      "table_games": 200,
+      "live_dealer": 100,
+      "providers": [
+        "Microgaming",
+        "NetEnt",
+        "Playtech",
+        "Barcrest",
+        "Eyecon"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 8.8,
+      "expert_rating": 4.0,
+      "player_reviews": "Solid UK-facing casino with a classic game library and strong reputation for fairness."
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "FR",
+        "IT",
+        "ES",
+        "DE"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Apple Pay",
+        "PaysafeCard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "PayPal",
+        "Cards"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "2-5 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "08:00 - 00:00 GMT",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 21,
+    "casino_name": "Lucki Casino",
+    "slug": "lucki-casino",
+    "basic_info": {
+      "website": "https://www.lucki.com",
+      "established": 2021,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/671/2018",
+      "parent_company": "L&L Europe Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3800,
+      "slots": 3200,
+      "table_games": 250,
+      "live_dealer": 150,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "NetEnt",
+        "Evolution Gaming",
+        "Big Time Gaming",
+        "Red Tiger"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8.5,
+      "expert_rating": 4.0,
+      "player_reviews": "Highly praised for its vast game library and user-friendly interface. Some mention slower withdrawal times for bank transfers."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "NZ",
+        "IE",
+        "DE",
+        "NO",
+        "JP"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "DK"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Japanese",
+        "French",
+        "Finnish"
+      ],
+      "currencies": [
+        "CAD",
+        "EUR",
+        "NZD",
+        "JPY"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Interac",
+        "iDebit",
+        "MuchBetter",
+        "Jeton"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "0-24 hours (e-wallets), 1-5 days (bank transfer)"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 22,
+    "casino_name": "Lucky Gem",
+    "slug": "lucky-gem",
+    "basic_info": {
+      "website": "https://www.luckygemcasino.com",
+      "established": 2022,
+      "license_authority": "Curacao eGaming",
+      "license_number": "365/JAZ",
+      "parent_company": "Dama N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€750 + 100 FS",
+      "free_spins": 100,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€750",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 4200,
+      "slots": 3900,
+      "table_games": 180,
+      "live_dealer": 120,
+      "providers": [
+        "BGaming",
+        "Spinomenal",
+        "Endorphina",
+        "Amatic",
+        "Pragmatic Play",
+        "Evolution Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 3.9,
+      "trust_score": 7.0,
+      "expert_rating": 3.5,
+      "player_reviews": "Mixed reviews. Players enjoy the unique gem-themed games and high bonus, but criticize the high wagering requirements and restrictive terms."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "AU",
+        "NZ",
+        "BR",
+        "IN"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "DE",
+        "IT",
+        "ES",
+        "SE",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "Portuguese",
+        "Hindi"
+      ],
+      "currencies": [
+        "CAD",
+        "AUD",
+        "BRL",
+        "INR",
+        "EUR",
+        "USD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Neosurf",
+        "MiFinity",
+        "Jeton",
+        "Coinspaid"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€50",
+      "withdrawal_time": "up to 72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": false
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Internal RNG",
+      "gdpr_compliant": false
+    }
+  },
+  {
+    "id": 23,
+    "casino_name": "Lucky Hunter",
+    "slug": "lucky-hunter",
+    "basic_info": {
+      "website": "https://luckyhunter.io",
+      "established": 2023,
+      "license_authority": "Curacao eGaming",
+      "license_number": "5536/JAZ",
+      "parent_company": "Diamondmarketing N.V."
+    },
+    "bonus": {
+      "welcome_amount": "1.5 BTC + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "0.001 BTC",
+      "max_bonus": "1.5 BTC",
+      "validity_days": 21
+    },
+    "games": {
+      "total_count": 5100,
+      "slots": 4500,
+      "table_games": 350,
+      "live_dealer": 250,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Hacksaw Gaming",
+        "Relax Gaming",
+        "Spribe",
+        "NetEnt"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.5,
+      "trust_score": 8.0,
+      "expert_rating": 4.3,
+      "player_reviews": "Extremely popular among crypto users for fast transactions, huge game selection, and attractive crypto bonuses. Some note the lack of traditional payment methods."
+    },
+    "geography": {
+      "accepted_countries": [
+        "International (Crypto-Focused)"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "Russian",
+        "Japanese",
+        "Portuguese"
+      ],
+      "currencies": [
+        "BTC",
+        "ETH",
+        "LTC",
+        "USDT",
+        "EUR",
+        "USD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Bitcoin",
+        "Ethereum",
+        "Litecoin",
+        "Tether",
+        "Visa",
+        "Mastercard",
+        "MiFinity"
+      ],
+      "withdrawal_methods": [
+        "Crypto",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€20 / 0.001 BTC",
+      "min_withdrawal": "€50 / 0.002 BTC",
+      "withdrawal_time": "Instant (Crypto), up to 24 hours (fiat)"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 24,
+    "casino_name": "Lucky Wand",
+    "slug": "lucky-wand",
+    "basic_info": {
+      "website": "https://www.luckywandcasino.com",
+      "established": 2020,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "39465",
+      "parent_company": "Grace Media Limited"
+    },
+    "bonus": {
+      "welcome_amount": "£50 Bonus",
+      "free_spins": 0,
+      "wagering": "35x",
+      "min_deposit": "£10",
+      "max_bonus": "£50",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1200,
+      "slots": 1000,
+      "table_games": 120,
+      "live_dealer": 80,
+      "providers": [
+        "NetEnt",
+        "Play'n GO",
+        "Red Tiger Gaming",
+        "Pragmatic Play",
+        "Eyecon"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 9.5,
+      "expert_rating": 3.8,
+      "player_reviews": "Considered very safe and trustworthy due to its UKGC license. Players appreciate its simplicity and focus on slots, but some wish for a larger game portfolio."
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "Almost all countries except UK"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Paysafecard",
+        "Apple Pay"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "PayPal",
+        "Cards"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": false,
+      "live_chat": "09:00 - 00:00",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 25,
+    "casino_name": "LyraBet BE-v2",
+    "slug": "lyrabet-be-v2",
+    "basic_info": {
+      "website": "https://www.lyrabet.be",
+      "established": 2023,
+      "license_authority": "Belgian Gaming Commission",
+      "license_number": "B+001",
+      "parent_company": "Lyra Holdings Belgium NV"
+    },
+    "bonus": {
+      "welcome_amount": "€100",
+      "free_spins": 0,
+      "wagering": "5x",
+      "min_deposit": "€10",
+      "max_bonus": "€100",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 800,
+      "slots": 600,
+      "table_games": 100,
+      "live_dealer": 100,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Push Gaming",
+        "Red Rake Gaming"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 9.0,
+      "expert_rating": 4.0,
+      "player_reviews": "Well-regarded in the Belgian market for its local focus, low wagering requirements, and integration with national payment methods. Game count is lower than international casinos."
+    },
+    "geography": {
+      "accepted_countries": [
+        "BE"
+      ],
+      "restricted_countries": [
+        "All countries except Belgium"
+      ],
+      "languages": [
+        "Dutch",
+        "French",
+        "German",
+        "English"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Bancontact",
+        "PayPal",
+        "Visa",
+        "Mastercard",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Bancontact"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€10",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "10:00 - 22:00",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Gaming Laboratories International (GLI)",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 26,
+    "casino_name": "LyraBet GR-v2",
+    "slug": "lyrabet-gr-v2",
+    "basic_info": {
+      "website": "https://www.lyrabet.gr",
+      "established": 2020,
+      "license_authority": "Hellenic Gaming Commission (HGC)",
+      "license_number": "HGC/123456789",
+      "parent_company": "LyraBet Holdings"
+    },
+    "bonus": {
+      "welcome_amount": "€200 + 100 FS",
+      "free_spins": 100,
+      "wagering": "30x",
+      "min_deposit": "€10",
+      "max_bonus": "€200",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1800,
+      "slots": 1500,
+      "table_games": 120,
+      "live_dealer": 60,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "NetEnt",
+        "Play'n GO",
+        "Red Tiger"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 8,
+      "expert_rating": 4.0,
+      "player_reviews": "Good for Greek market, reliable payments"
+    },
+    "geography": {
+      "accepted_countries": [
+        "GR"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "DE",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "Greek",
+        "English"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Piraeus Bank",
+        "National Bank of Greece",
+        "Alpha Bank",
+        "Skrills",
+        "Neteller"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 27,
+    "casino_name": "Magius Casino",
+    "slug": "magius-casino",
+    "basic_info": {
+      "website": "https://www.magiuscasino.com",
+      "established": 2021,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG/123456",
+      "parent_company": "Magius Entertainment N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€1000",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3000,
+      "slots": 2400,
+      "table_games": 200,
+      "live_dealer": 100,
+      "providers": [
+        "Microgaming",
+        "NetEnt",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 7,
+      "expert_rating": 3.9,
+      "player_reviews": "Large game selection but higher wagering requirements"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "CA",
+        "AU",
+        "NZ",
+        "BR",
+        "JP"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Japanese",
+        "Portuguese"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "AUD",
+        "BRL",
+        "JPY"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Cryptocurrencies",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cryptocurrencies"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Gaming Laboratories International",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 28,
+    "casino_name": "Malina Casino",
+    "slug": "malina-casino",
+    "basic_info": {
+      "website": "https://www.malinacasino.com",
+      "established": 2022,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/789/2022",
+      "parent_company": "Malina Gaming Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 150 FS",
+      "free_spins": 150,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2200,
+      "slots": 1800,
+      "table_games": 150,
+      "live_dealer": 90,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Quickspin"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8,
+      "expert_rating": 4.2,
+      "player_reviews": "Excellent customer service and fast withdrawals"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "SE",
+        "NO",
+        "FI"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "SEK",
+        "NOK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Neteller",
+        "Skrill",
+        "Trustly"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 29,
+    "casino_name": "Moana Casino",
+    "slug": "moana-casino",
+    "basic_info": {
+      "website": "https://www.moana-casino.com",
+      "established": 2021,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG/789012",
+      "parent_company": "Moana Entertainment N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€750 + 100 FS",
+      "free_spins": 100,
+      "wagering": "45x",
+      "min_deposit": "€20",
+      "max_bonus": "€750",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2800,
+      "slots": 2200,
+      "table_games": 180,
+      "live_dealer": 95,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Play'n GO",
+        "BGaming",
+        "Hacksaw Gaming",
+        "Relax Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 3.8,
+      "trust_score": 6,
+      "expert_rating": 3.7,
+      "player_reviews": "Good game variety but high wagering and slower support"
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "AU",
+        "NZ",
+        "DE",
+        "NO",
+        "JP"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Japanese",
+        "Norwegian"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "AUD",
+        "NOK",
+        "JPY"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Cryptocurrencies",
+        "Interac"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cryptocurrencies"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "48-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 30,
+    "casino_name": "Mr Pacho",
+    "slug": "mr-pacho",
+    "basic_info": {
+      "website": "https://www.mrpacho.com",
+      "established": 2022,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/456/2022",
+      "parent_company": "Pacho Gaming Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€300 + 50 FS",
+      "free_spins": 50,
+      "wagering": "30x",
+      "min_deposit": "€10",
+      "max_bonus": "€300",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1900,
+      "slots": 1600,
+      "table_games": 130,
+      "live_dealer": 70,
+      "providers": [
+        "NetEnt",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Red Tiger",
+        "Big Time Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.4,
+      "trust_score": 9,
+      "expert_rating": 4.3,
+      "player_reviews": "Excellent user experience and reliable gaming platform"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "SE",
+        "NO",
+        "FI",
+        "IE"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "SEK",
+        "NOK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Neteller",
+        "Skrill",
+        "Trustly",
+        "Sofort"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 31,
+    "casino_name": "My Empire",
+    "slug": "my-empire",
+    "basic_info": {
+      "website": "https://www.myempire.com",
+      "established": 2023,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/870/2023",
+      "parent_company": "Inspired Entertainment plc"
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "35x",
+      "min_deposit": "€10",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2800,
+      "slots": 2300,
+      "table_games": 200,
+      "live_dealer": 120,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Evolution Gaming",
+        "NetEnt",
+        "Big Time Gaming",
+        "Red Tiger Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8.5,
+      "expert_rating": 4.0,
+      "player_reviews": "Highly praised for its unique 'Empire' progression system and game variety. Some complaints about wagering requirements."
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "IE",
+        "CA",
+        "NZ"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "SE",
+        "FI",
+        "DK"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "French",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "CAD",
+        "NZD",
+        "USD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Paysafecard",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "Visa",
+        "Mastercard"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 32,
+    "casino_name": "NeedForSpeed ES-v2",
+    "slug": "needforspeed-es-v2",
+    "basic_info": {
+      "website": "https://es.needforspeedcasino.com",
+      "established": 2024,
+      "license_authority": "Dirección General de Ordenación del Juego (DGOJ)",
+      "license_number": "DGOJ/123/2024/ES",
+      "parent_company": "Speed Gaming España S.L."
+    },
+    "bonus": {
+      "welcome_amount": "€300 + 50 FS",
+      "free_spins": 50,
+      "wagering": "30x",
+      "min_deposit": "€20",
+      "max_bonus": "€300",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 1200,
+      "slots": 950,
+      "table_games": 100,
+      "live_dealer": 50,
+      "providers": [
+        "Play'n GO",
+        "Red Rake Gaming",
+        "Evolution Gaming",
+        "Pragmatic Play",
+        "EGT"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 3.9,
+      "trust_score": 8.0,
+      "expert_rating": 3.8,
+      "player_reviews": "Solid, licensed option for the Spanish market. Game selection is good but smaller than international counterparts due to regulations."
+    },
+    "geography": {
+      "accepted_countries": [
+        "ES"
+      ],
+      "restricted_countries": [
+        "All except Spain"
+      ],
+      "languages": [
+        "Spanish",
+        "Catalan",
+        "English"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Paysafecard",
+        "Bizum",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Bizum"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "10:00 - 02:00 CET",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Informediario Jugador",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 33,
+    "casino_name": "NeedForSpeed FI-v2",
+    "slug": "needforspeed-fi-v2",
+    "basic_info": {
+      "website": "https://fi.needforspeedcasino.com",
+      "established": 2024,
+      "license_authority": "National Police Board of Finland (Suomen Pelivirasto)",
+      "license_number": "SPV/2024/XXXXX",
+      "parent_company": "Veikkaus Oy (via partnership)"
+    },
+    "bonus": {
+      "welcome_amount": "100 FS",
+      "free_spins": 100,
+      "wagering": "35x",
+      "min_deposit": "€10",
+      "max_bonus": "N/A",
+      "validity_days": 7
+    },
+    "games": {
+      "total_count": 800,
+      "slots": 700,
+      "table_games": 50,
+      "live_dealer": 25,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Evolution Gaming",
+        "NetEnt",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 3.7,
+      "trust_score": 9.0,
+      "expert_rating": 3.5,
+      "player_reviews": "Fully licensed and safe for Finnish players. Strict Finnish regulations limit bonus offers and game variety compared to other regions."
+    },
+    "geography": {
+      "accepted_countries": [
+        "FI"
+      ],
+      "restricted_countries": [
+        "All except Finland"
+      ],
+      "languages": [
+        "Finnish",
+        "Swedish",
+        "English"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "MobilePay",
+        "Paysafecard",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "1-5 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": false,
+      "live_chat": "10:00 - 22:00 EET",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Suomen Pelivirasto",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 34,
+    "casino_name": "NeedForSpeed SE-v2",
+    "slug": "needforspeed-se-v2",
+    "basic_info": {
+      "website": "https://se.needforspeedcasino.com",
+      "established": 2024,
+      "license_authority": "Spelinspektionen",
+      "license_number": "18Li74785",
+      "parent_company": "Speed Gaming Sweden AB"
+    },
+    "bonus": {
+      "welcome_amount": "1000 SEK + 50 FS",
+      "free_spins": 50,
+      "wagering": "35x",
+      "min_deposit": "100 SEK",
+      "max_bonus": "1000 SEK",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1500,
+      "slots": 1200,
+      "table_games": 120,
+      "live_dealer": 60,
+      "providers": [
+        "NetEnt",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Quickspin",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 8.8,
+      "expert_rating": 4.0,
+      "player_reviews": "A popular choice in Sweden with a strong selection of games from Nordic providers. Bonuses are competitive within the regulated market."
+    },
+    "geography": {
+      "accepted_countries": [
+        "SE"
+      ],
+      "restricted_countries": [
+        "All except Sweden"
+      ],
+      "languages": [
+        "Swedish",
+        "English"
+      ],
+      "currencies": [
+        "SEK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Trustly",
+        "Swish",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Trustly"
+      ],
+      "min_deposit": "100 SEK",
+      "min_withdrawal": "100 SEK",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "09:00 - 24:00 CET",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 35,
+    "casino_name": "Orionsbet UK-v2",
+    "slug": "orionsbet-uk-v2",
+    "basic_info": {
+      "website": "https://www.orionsbet.co.uk",
+      "established": 2024,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "39481",
+      "parent_company": "Orionsgate Limited"
+    },
+    "bonus": {
+      "welcome_amount": "£50",
+      "free_spins": 0,
+      "wagering": "35x",
+      "min_deposit": "£10",
+      "max_bonus": "£50",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1100,
+      "slots": 900,
+      "table_games": 90,
+      "live_dealer": 50,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Blueprint Gaming",
+        "Evolution Gaming",
+        "NetEnt",
+        "Big Time Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 9.5,
+      "expert_rating": 3.9,
+      "player_reviews": "A trusted UKGC-licensed casino known for its straightforward approach and strong responsible gambling tools. Bonus offers are modest due to UK regulations."
+    },
+    "geography": {
+      "accepted_countries": [
+        "GB"
+      ],
+      "restricted_countries": [
+        "All except Great Britain"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Bank Transfer"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "1-5 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": false,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "GamCare",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 36,
+    "casino_name": "Pirate Spins",
+    "slug": "pirate-spins",
+    "basic_info": {
+      "website": "https://www.piratespins.com",
+      "established": 2023,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG",
+      "parent_company": "Dama N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 3200,
+      "slots": 2900,
+      "table_games": 120,
+      "live_dealer": 180,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "NetEnt",
+        "Play'n GO",
+        "Hacksaw Gaming",
+        "BGaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 3.9,
+      "trust_score": 7,
+      "expert_rating": 3.8,
+      "player_reviews": "Mixed reviews. Praised for vast game library and theme, criticized for high wagering requirements and slow verification."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "NZ",
+        "DE",
+        "FI",
+        "NO"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Finnish",
+        "Norwegian"
+      ],
+      "currencies": [
+        "EUR",
+        "CAD",
+        "NZD",
+        "USD",
+        "BTC"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "MiFinity",
+        "Crypto"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "MiFinity",
+        "Crypto"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "Up to 72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 37,
+    "casino_name": "Pistolo Casino",
+    "slug": "pistolo-casino",
+    "basic_info": {
+      "website": "https://www.pistolocasino.com",
+      "established": 2022,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/870/2022",
+      "parent_company": "Pistolo Gaming Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 150 FS",
+      "free_spins": 150,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€1000",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1800,
+      "slots": 1550,
+      "table_games": 100,
+      "live_dealer": 150,
+      "providers": [
+        "Evolution Gaming",
+        "Pragmatic Play",
+        "Red Tiger",
+        "Yggdrasil",
+        "Quickspin"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 8,
+      "expert_rating": 4.0,
+      "player_reviews": "Generally positive feedback on fast withdrawals and live dealer suite. Some complaints about bonus terms clarity."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "IE",
+        "NZ",
+        "JP"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "SE",
+        "DK"
+      ],
+      "languages": [
+        "English",
+        "Japanese"
+      ],
+      "currencies": [
+        "EUR",
+        "CAD",
+        "NZD",
+        "JPY"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Paysafecard",
+        "Interac",
+        "JCB"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Visa",
+        "Mastercard"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 38,
+    "casino_name": "Posido",
+    "slug": "posido",
+    "basic_info": {
+      "website": "https://www.posido.com",
+      "established": 2024,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-123456",
+      "parent_company": "Grace Media Limited"
+    },
+    "bonus": {
+      "welcome_amount": "£50",
+      "free_spins": 0,
+      "wagering": "1x",
+      "min_deposit": "£10",
+      "max_bonus": "£50",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 500,
+      "slots": 400,
+      "table_games": 50,
+      "live_dealer": 50,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Blueprint Gaming",
+        "Real Dealer Studios"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 4.5,
+      "trust_score": 9,
+      "expert_rating": 4.3,
+      "player_reviews": "Highly rated for its low-wagering bonus, UKGC license, and clean, user-friendly interface. Smaller game selection noted."
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "CA",
+        "AU",
+        "DE",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Apple Pay"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Visa",
+        "Mastercard",
+        "PayPal"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "1-5 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": false,
+      "live_chat": "10:00 - 22:00 GMT",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "UKGC Standards",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 39,
+    "casino_name": "ProntoBet AU",
+    "slug": "prontobet-au",
+    "basic_info": {
+      "website": "https://www.prontobet.com.au",
+      "established": 2023,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG",
+      "parent_company": "Pronto Entertainment Pty Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "$3000 + 100 FS",
+      "free_spins": 100,
+      "wagering": "40x",
+      "min_deposit": "$20",
+      "max_bonus": "$3000",
+      "validity_days": 7
+    },
+    "games": {
+      "total_count": 2200,
+      "slots": 2000,
+      "table_games": 80,
+      "live_dealer": 120,
+      "providers": [
+        "Pragmatic Play",
+        "Amatic",
+        "Evolution Gaming",
+        "EGT",
+        "Betsoft"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 3.7,
+      "trust_score": 6,
+      "expert_rating": 3.5,
+      "player_reviews": "Appreciated for large AUD bonus offers and local bank deposits. Criticized for very high wagering and short bonus validity."
+    },
+    "geography": {
+      "accepted_countries": [
+        "AU"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "CA",
+        "EU Countries"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "AUD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "POLi",
+        "PayID",
+        "Neosurf",
+        "Visa",
+        "Mastercard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "POLi"
+      ],
+      "min_deposit": "$10",
+      "min_withdrawal": "$20",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Internal RNG",
+      "gdpr_compliant": false
+    }
+  },
+  {
+    "id": 40,
+    "casino_name": "Rich Royal",
+    "slug": "rich-royal",
+    "basic_info": {
+      "website": "https://www.richroyal.com",
+      "established": 2021,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG",
+      "parent_company": "Rabidi N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€/$1500 + 250 FS",
+      "free_spins": 250,
+      "wagering": "40x",
+      "min_deposit": "€/$20",
+      "max_bonus": "€/$1500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 4000,
+      "slots": 3600,
+      "table_games": 200,
+      "live_dealer": 200,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Habanero"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 7,
+      "expert_rating": 4.1,
+      "player_reviews": "Positive reviews for its enormous game selection and regular promotions. Some users report slow customer service response times."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "NZ",
+        "DE",
+        "JP",
+        "BR"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Portuguese",
+        "Japanese"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NZD",
+        "BRL",
+        "JPY"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "MiFinity",
+        "Crypto"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "MiFinity",
+        "Crypto"
+      ],
+      "min_deposit": "€/$10",
+      "min_withdrawal": "€/$20",
+      "withdrawal_time": "Up to 72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 41,
+    "casino_name": "Ritzo Casino",
+    "slug": "ritzo-casino",
+    "basic_info": {
+      "website": "https://www.ritzocasino.com",
+      "established": 2022,
+      "license_authority": "Curacao eGaming",
+      "license_number": "365/JAZ",
+      "parent_company": "Dama N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 3200,
+      "slots": 2800,
+      "table_games": 200,
+      "live_dealer": 120,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Play'n GO",
+        "NetEnt",
+        "Yggdrasil",
+        "Hacksaw Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 7.5,
+      "expert_rating": 4.0,
+      "player_reviews": "Good game variety but mixed reviews on withdrawal times"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "FI",
+        "NZ",
+        "CA"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Finnish",
+        "French"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NZD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Crypto",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 42,
+    "casino_name": "Rizz Casino",
+    "slug": "rizz-casino",
+    "basic_info": {
+      "website": "https://www.rizzcasino.com",
+      "established": 2023,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/456/2023",
+      "parent_company": "Betsson Group"
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 150 FS",
+      "free_spins": 150,
+      "wagering": "35x",
+      "min_deposit": "€10",
+      "max_bonus": "€1000",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2800,
+      "slots": 2300,
+      "table_games": 250,
+      "live_dealer": 150,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Red Tiger"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.4,
+      "trust_score": 8.5,
+      "expert_rating": 4.3,
+      "player_reviews": "Excellent customer service and fast payouts"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "SE",
+        "NO",
+        "FI",
+        "IE"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "SEK",
+        "NOK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "PayPal",
+        "Skrill",
+        "Neteller"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 43,
+    "casino_name": "Robocat DE",
+    "slug": "robocat-de",
+    "basic_info": {
+      "website": "https://www.robocat.de",
+      "established": 2021,
+      "license_authority": "Spielbehorde Schleswig-Holstein",
+      "license_number": "SH-123456",
+      "parent_company": "Gammix Limited"
+    },
+    "bonus": {
+      "welcome_amount": "€200 + 100 FS",
+      "free_spins": 100,
+      "wagering": "30x",
+      "min_deposit": "€10",
+      "max_bonus": "€200",
+      "validity_days": 21
+    },
+    "games": {
+      "total_count": 1800,
+      "slots": 1500,
+      "table_games": 180,
+      "live_dealer": 90,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Novomatic",
+        "Merkur",
+        "EYEcon"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 3.9,
+      "trust_score": 8.2,
+      "expert_rating": 3.8,
+      "player_reviews": "Solid German-focused casino with good localization"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE"
+      ],
+      "restricted_countries": [
+        "All except Germany"
+      ],
+      "languages": [
+        "German",
+        "English"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Giropay",
+        "Sofort",
+        "PayPal",
+        "Visa",
+        "Mastercard",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "PayPal",
+        "Giropay"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€10",
+      "withdrawal_time": "1-2 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": false,
+      "live_chat": "10:00-22:00 CET",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "GLI",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 44,
+    "casino_name": "RollXO",
+    "slug": "rollxo",
+    "basic_info": {
+      "website": "https://www.rollxo.com",
+      "established": 2022,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-123456",
+      "parent_company": "Entain Group"
+    },
+    "bonus": {
+      "welcome_amount": "£50 + 50 FS",
+      "free_spins": 50,
+      "wagering": "35x",
+      "min_deposit": "£10",
+      "max_bonus": "£50",
+      "validity_days": 7
+    },
+    "games": {
+      "total_count": 1500,
+      "slots": 1200,
+      "table_games": 160,
+      "live_dealer": 100,
+      "providers": [
+        "Playtech",
+        "Evolution Gaming",
+        "Pragmatic Play",
+        "Red Tiger",
+        "Blueprint"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 8.8,
+      "expert_rating": 4.1,
+      "player_reviews": "UK-focused casino with strong responsible gaming features"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "All except UK"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Apple Pay",
+        "Trustly",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "PayPal",
+        "Apple Pay"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": false,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "GamCare",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 45,
+    "casino_name": "Rolling Slots",
+    "slug": "rolling-slots",
+    "basic_info": {
+      "website": "https://www.rollingslots.com",
+      "established": 2023,
+      "license_authority": "Curacao eGaming",
+      "license_number": "8048/JAZ2023",
+      "parent_company": "Rolling Slots Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 300 FS",
+      "free_spins": 300,
+      "wagering": "45x",
+      "min_deposit": "€20",
+      "max_bonus": "€1000",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 4000,
+      "slots": 3500,
+      "table_games": 250,
+      "live_dealer": 200,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "NetEnt",
+        "Microgaming",
+        "Play'n GO",
+        "Hacksaw",
+        "Relax Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 7.8,
+      "expert_rating": 4.2,
+      "player_reviews": "Massive game selection but high wagering requirements"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "SE",
+        "NO",
+        "FI",
+        "CA",
+        "NZ"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NZD",
+        "SEK",
+        "NOK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Crypto",
+        "Bank Transfer",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "2-5 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 46,
+    "casino_name": "RomiBet ES-v2",
+    "slug": "romibet-es-v2",
+    "basic_info": {
+      "website": "https://www.romibet.es",
+      "established": 2020,
+      "license_authority": "Dirección General de Ordenación del Juego (DGOJ)",
+      "license_number": "DGOJ/123/2020/ES",
+      "parent_company": "Romix Limited"
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 100 FS",
+      "free_spins": 100,
+      "wagering": "35x",
+      "min_deposit": "€10",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2800,
+      "slots": 2200,
+      "table_games": 200,
+      "live_dealer": 120,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Evolution Gaming",
+        "NetEnt",
+        "Red Tiger Gaming",
+        "ELK Studios"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8.5,
+      "expert_rating": 4.1,
+      "player_reviews": "Highly rated for its sportsbook integration and competitive odds. Spanish players praise the local payment methods."
+    },
+    "geography": {
+      "accepted_countries": [
+        "ES"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "IT",
+        "FR",
+        "DE"
+      ],
+      "languages": [
+        "Spanish",
+        "English"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Bizum",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards",
+        "Bizum"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Gaming Laboratories International (GLI)",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 47,
+    "casino_name": "RomiBet FR-v2",
+    "slug": "romibet-fr-v2",
+    "basic_info": {
+      "website": "https://www.romibet.fr",
+      "established": 2021,
+      "license_authority": "L'Autorité Nationale des Jeux (ANJ)",
+      "license_number": "ANJ-123456789",
+      "parent_company": "Romix Limited"
+    },
+    "bonus": {
+      "welcome_amount": "€100 + 50 FS",
+      "free_spins": 50,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€100",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1500,
+      "slots": 1200,
+      "table_games": 150,
+      "live_dealer": 80,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Play'n GO",
+        "NetEnt",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 8.2,
+      "expert_rating": 3.9,
+      "player_reviews": "Solid offering for the French market, though game selection is more limited due to ANJ regulations. Good sports betting platform."
+    },
+    "geography": {
+      "accepted_countries": [
+        "FR"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "ES",
+        "IT",
+        "DE"
+      ],
+      "languages": [
+        "French"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Paysafecard",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Cards"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "2-5 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "10:00 - 22:00 CET",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Gaming Laboratories International (GLI)",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 48,
+    "casino_name": "Royal Game",
+    "slug": "royal-game",
+    "basic_info": {
+      "website": "https://www.royalgames.com",
+      "established": 2018,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG/123456",
+      "parent_company": "Royal Gaming Corp"
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 150 FS",
+      "free_spins": 150,
+      "wagering": "40x",
+      "min_deposit": "€15",
+      "max_bonus": "€1000",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 3200,
+      "slots": 2600,
+      "table_games": 250,
+      "live_dealer": 150,
+      "providers": [
+        "Microgaming",
+        "NetEnt",
+        "Evolution Gaming",
+        "Betsoft",
+        "Quickspin",
+        "Amatic"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 3.8,
+      "trust_score": 7.5,
+      "expert_rating": 3.7,
+      "player_reviews": "Mixed reviews. Players enjoy the large game library but note high wagering requirements and slower withdrawal times."
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "CA",
+        "NZ",
+        "BR",
+        "JP"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Portuguese",
+        "Japanese"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "BRL",
+        "JPY"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Neosurf",
+        "Crypto"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Crypto"
+      ],
+      "min_deposit": "€15",
+      "min_withdrawal": "€50",
+      "withdrawal_time": "3-7 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": false
+    }
+  },
+  {
+    "id": 49,
+    "casino_name": "SagaSpins UK-v2",
+    "slug": "sagaspins-uk-v2",
+    "basic_info": {
+      "website": "https://www.sagaspins.com",
+      "established": 2022,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-123456",
+      "parent_company": "Saga Entertainment Group"
+    },
+    "bonus": {
+      "welcome_amount": "£200 + 50 FS",
+      "free_spins": 50,
+      "wagering": "35x",
+      "min_deposit": "£10",
+      "max_bonus": "£200",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1200,
+      "slots": 950,
+      "table_games": 100,
+      "live_dealer": 70,
+      "providers": [
+        "Pragmatic Play",
+        "Big Time Gaming",
+        "Blueprint Gaming",
+        "Evolution Gaming",
+        "Playtech"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.5,
+      "trust_score": 9.2,
+      "expert_rating": 4.4,
+      "player_reviews": "Excellent reputation for safety and fairness in the UK market. Highly praised for customer service and fast payouts."
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "FR",
+        "ES",
+        "IT",
+        "DE",
+        "SE"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "0-24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 50,
+    "casino_name": "Samba Slots",
+    "slug": "samba-slots",
+    "basic_info": {
+      "website": "https://www.sambaslots.com",
+      "established": 2019,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/456/2019",
+      "parent_company": "White Hat Gaming"
+    },
+    "bonus": {
+      "welcome_amount": "€300 + 200 FS",
+      "free_spins": 200,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€300",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 4000,
+      "slots": 3500,
+      "table_games": 200,
+      "live_dealer": 150,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Play'n GO",
+        "Red Tiger Gaming",
+        "Yggdrasil",
+        "Thunderkick",
+        "Evolution Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.6,
+      "trust_score": 9.0,
+      "expert_rating": 4.5,
+      "player_reviews": "Extremely popular for its massive selection of slots and frequent tournaments. Known for a fun, festive theme and regular promotions."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "NZ",
+        "IE",
+        "DE",
+        "SE",
+        "NO"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NOK",
+        "SEK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "MuchBetter",
+        "Interac"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 51,
+    "casino_name": "SkyHills NL-v2",
+    "slug": "skyhills-nl-v2",
+    "basic_info": {
+      "website": "https://www.skyhills.com/nl",
+      "established": 2022,
+      "license_authority": "Kansspelautoriteit",
+      "license_number": "KSA/123456/2022",
+      "parent_company": "SkyHills Gaming B.V."
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 150 FS",
+      "free_spins": 150,
+      "wagering": "30x",
+      "min_deposit": "€10",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1800,
+      "slots": 1500,
+      "table_games": 120,
+      "live_dealer": 60,
+      "providers": [
+        "NetEnt",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8.5,
+      "expert_rating": 4.1,
+      "player_reviews": "Excellent Dutch market focus, fast withdrawals, good mobile experience"
+    },
+    "geography": {
+      "accepted_countries": [
+        "NL"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "DE",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "Dutch",
+        "English"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "iDEAL",
+        "Bank Transfer",
+        "Visa",
+        "Mastercard",
+        "PayPal"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "iDEAL",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€10",
+      "withdrawal_time": "24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 52,
+    "casino_name": "Slotit DE",
+    "slug": "slotit-de",
+    "basic_info": {
+      "website": "https://www.slotit.de",
+      "established": 2021,
+      "license_authority": "Gemeinsame Glücksspielbehörde der Länder",
+      "license_number": "DE/123456/2021",
+      "parent_company": "Slotit Gaming GmbH"
+    },
+    "bonus": {
+      "welcome_amount": "€400 + 100 FS",
+      "free_spins": 100,
+      "wagering": "35x",
+      "min_deposit": "€10",
+      "max_bonus": "€400",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1200,
+      "slots": 1000,
+      "table_games": 80,
+      "live_dealer": 40,
+      "providers": [
+        "Novomatic",
+        "Merkur",
+        "Pragmatic Play",
+        "Play'n GO",
+        "NetEnt"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 8.2,
+      "expert_rating": 3.9,
+      "player_reviews": "Strong German market focus, good selection of local games, reliable payments"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "NL",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "German",
+        "English"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Giropay",
+        "Sofort",
+        "PayPal",
+        "Visa",
+        "Mastercard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Giropay",
+        "PayPal"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€10",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "GLI",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 53,
+    "casino_name": "Slotlair UK-v2",
+    "slug": "slotlair-uk-v2",
+    "basic_info": {
+      "website": "https://www.slotlair.co.uk",
+      "established": 2020,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC/123456/2020",
+      "parent_company": "Slotlair UK Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "£300 + 50 FS",
+      "free_spins": 50,
+      "wagering": "35x",
+      "min_deposit": "£10",
+      "max_bonus": "£300",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1500,
+      "slots": 1200,
+      "table_games": 100,
+      "live_dealer": 50,
+      "providers": [
+        "Microgaming",
+        "NetEnt",
+        "Playtech",
+        "Pragmatic Play",
+        "Evolution Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.4,
+      "trust_score": 9.0,
+      "expert_rating": 4.3,
+      "player_reviews": "Excellent UKGC license, strong player protection, reliable payouts"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "DE",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "PayPal",
+        "Skrill",
+        "Neteller"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 54,
+    "casino_name": "Slots Islands",
+    "slug": "slots-islands",
+    "basic_info": {
+      "website": "https://www.slotsislands.com",
+      "established": 2023,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG/123456/2023",
+      "parent_company": "Slots Islands Entertainment N.V."
+    },
+    "bonus": {
+      "welcome_amount": "$1000 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "$20",
+      "max_bonus": "$1000",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3000,
+      "slots": 2500,
+      "table_games": 200,
+      "live_dealer": 100,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Play'n GO",
+        "BGaming",
+        "Hacksaw Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 3.8,
+      "trust_score": 7.5,
+      "expert_rating": 3.7,
+      "player_reviews": "Large game selection, high bonuses, but Curacao license raises some concerns"
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "AU",
+        "NZ",
+        "BR",
+        "JP",
+        "KR",
+        "IN"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "DE",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "Spanish",
+        "Portuguese",
+        "Japanese"
+      ],
+      "currencies": [
+        "USD",
+        "CAD",
+        "AUD",
+        "BRL",
+        "JPY"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Cryptocurrency",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "Skrill",
+        "Neteller",
+        "Cryptocurrency"
+      ],
+      "min_deposit": "$20",
+      "min_withdrawal": "$20",
+      "withdrawal_time": "48-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": false
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": false
+    }
+  },
+  {
+    "id": 55,
+    "casino_name": "SpellWin",
+    "slug": "spellwin",
+    "basic_info": {
+      "website": "https://www.spellwin.com",
+      "established": 2021,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/123456/2021",
+      "parent_company": "SpellWin Entertainment Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€600 + 120 FS",
+      "free_spins": 120,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€600",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2200,
+      "slots": 1800,
+      "table_games": 150,
+      "live_dealer": 70,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Quickspin"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.5,
+      "trust_score": 9.2,
+      "expert_rating": 4.4,
+      "player_reviews": "Excellent MGA license, magical theme, fast payouts, great customer service"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "SE",
+        "NO",
+        "FI",
+        "IE"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "SEK",
+        "NOK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "PayPal",
+        "Skrill",
+        "Neteller"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 56,
+    "casino_name": "SpellWin UK-v2",
+    "slug": "spellwin-uk-v2",
+    "basic_info": {
+      "website": "https://www.spellwin.com/uk",
+      "established": 2022,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-39458",
+      "parent_company": "Spell Entertainment N.V."
+    },
+    "bonus": {
+      "welcome_amount": "£200 + 100 FS",
+      "free_spins": 100,
+      "wagering": "35x",
+      "min_deposit": "£10",
+      "max_bonus": "£200",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1800,
+      "slots": 1500,
+      "table_games": 120,
+      "live_dealer": 65,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Evolution Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 8.2,
+      "expert_rating": 4.0,
+      "player_reviews": "Good UK-focused casino with strong customer support"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "AU",
+        "DE",
+        "FR",
+        "IT"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Apple Pay",
+        "Trustly"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 57,
+    "casino_name": "SpinCastle UK-v2",
+    "slug": "spincastle-uk-v2",
+    "basic_info": {
+      "website": "https://www.spincastle.com/uk",
+      "established": 2021,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-41273",
+      "parent_company": "Castle Gaming Group Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "£300 + 50 FS",
+      "free_spins": 50,
+      "wagering": "40x",
+      "min_deposit": "£20",
+      "max_bonus": "£300",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2200,
+      "slots": 1800,
+      "table_games": 140,
+      "live_dealer": 75,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8.5,
+      "expert_rating": 4.2,
+      "player_reviews": "Excellent game selection and fast withdrawals"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "AU",
+        "DE",
+        "FR",
+        "ES"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "£20",
+      "min_withdrawal": "£20",
+      "withdrawal_time": "24-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 58,
+    "casino_name": "SpinGranny",
+    "slug": "spingranny",
+    "basic_info": {
+      "website": "https://www.spingranny.com",
+      "established": 2020,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG-8048/JAZ",
+      "parent_company": "Granny's Fortune B.V."
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "45x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3000,
+      "slots": 2500,
+      "table_games": 200,
+      "live_dealer": 100,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Pragmatic Play",
+        "Play'n GO",
+        "Quickspin"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 7.8,
+      "expert_rating": 3.9,
+      "player_reviews": "Large game library but higher wagering requirements"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "SE",
+        "NO",
+        "FI"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "SEK",
+        "NOK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Trustly",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "48-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Gaming Laboratories International",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 59,
+    "casino_name": "SpinGranny AT",
+    "slug": "spingranny-at",
+    "basic_info": {
+      "website": "https://www.spingranny.at",
+      "established": 2023,
+      "license_authority": "Austrian Ministry of Finance",
+      "license_number": "SPG-AT-2023-001",
+      "parent_company": "Granny's Fortune Austria GmbH"
+    },
+    "bonus": {
+      "welcome_amount": "€400 + 100 FS",
+      "free_spins": 100,
+      "wagering": "35x",
+      "min_deposit": "€10",
+      "max_bonus": "€400",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1200,
+      "slots": 950,
+      "table_games": 120,
+      "live_dealer": 50,
+      "providers": [
+        "Novomatic",
+        "Greentube",
+        "Pragmatic Play",
+        "Play'n GO",
+        "Evolution Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.2,
+      "trust_score": 8.3,
+      "expert_rating": 4.1,
+      "player_reviews": "Excellent Austrian market focus with local payment options"
+    },
+    "geography": {
+      "accepted_countries": [
+        "AT"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "DE",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "German",
+        "English"
+      ],
+      "currencies": [
+        "EUR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "EPS",
+        "Sofort",
+        "Bank Transfer",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Austrian Regulatory Authority",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 60,
+    "casino_name": "SpinGranny CZ",
+    "slug": "spingranny-cz",
+    "basic_info": {
+      "website": "https://www.spingranny.cz",
+      "established": 2023,
+      "license_authority": "Czech Ministry of Finance",
+      "license_number": "MFRB-2023-CZ-058",
+      "parent_company": "Granny's Fortune Czech s.r.o."
+    },
+    "bonus": {
+      "welcome_amount": "5000 CZK + 150 FS",
+      "free_spins": 150,
+      "wagering": "40x",
+      "min_deposit": "200 CZK",
+      "max_bonus": "5000 CZK",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1100,
+      "slots": 900,
+      "table_games": 100,
+      "live_dealer": 45,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Evolution Gaming",
+        "Endorphina",
+        "Tom Horn Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 8.1,
+      "expert_rating": 4.0,
+      "player_reviews": "Good Czech localization with local payment methods"
+    },
+    "geography": {
+      "accepted_countries": [
+        "CZ"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "DE",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "Czech",
+        "English"
+      ],
+      "currencies": [
+        "CZK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Bank Transfer",
+        "SMS Payment",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer"
+      ],
+      "min_deposit": "200 CZK",
+      "min_withdrawal": "500 CZK",
+      "withdrawal_time": "48-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Czech Regulatory Authority",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 61,
+    "casino_name": "SpinLander UK-v2",
+    "slug": "spinlander-uk-v2",
+    "basic_info": {
+      "website": "https://www.spinlander.co.uk",
+      "established": 2021,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-39458",
+      "parent_company": "L&L Europe Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "£100 + 100 FS",
+      "free_spins": 100,
+      "wagering": "35x",
+      "min_deposit": "£10",
+      "max_bonus": "£100",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1200,
+      "slots": 950,
+      "table_games": 120,
+      "live_dealer": 50,
+      "providers": [
+        "NetEnt",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Red Tiger",
+        "Evolution Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 8.5,
+      "expert_rating": 4.0,
+      "player_reviews": "Strong UKGC license, good mobile experience, limited payment options"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "CA",
+        "AU",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "24-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 62,
+    "casino_name": "SpinMama",
+    "slug": "spinmama",
+    "basic_info": {
+      "website": "https://www.spinmama.com",
+      "established": 2019,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/394/2017",
+      "parent_company": "Rabidi N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3800,
+      "slots": 3200,
+      "table_games": 250,
+      "live_dealer": 150,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 7.8,
+      "expert_rating": 4.2,
+      "player_reviews": "Massive game selection, generous bonuses, higher wagering requirements"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "SE",
+        "NO",
+        "CA",
+        "NZ"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NOK",
+        "NZD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Crypto",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 63,
+    "casino_name": "Spins Deluxe",
+    "slug": "spins-deluxe",
+    "basic_info": {
+      "website": "https://www.spinsdeluxe.com",
+      "established": 2020,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-52847",
+      "parent_company": "Grace Media Limited"
+    },
+    "bonus": {
+      "welcome_amount": "£250 + 100 FS",
+      "free_spins": 100,
+      "wagering": "35x",
+      "min_deposit": "£10",
+      "max_bonus": "£250",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 900,
+      "slots": 750,
+      "table_games": 80,
+      "live_dealer": 40,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Play'n GO",
+        "Red Tiger",
+        "Pragmatic Play"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 8.2,
+      "expert_rating": 3.9,
+      "player_reviews": "UK licensed, reliable platform, smaller game library compared to competitors"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "CA",
+        "AU",
+        "DE",
+        "FR"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Apple Pay",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 64,
+    "casino_name": "The Red",
+    "slug": "the-red",
+    "basic_info": {
+      "website": "https://www.theredcasino.com",
+      "established": 2018,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG-8048/JAZ2020-13",
+      "parent_company": "White Hat Gaming"
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 50 FS",
+      "free_spins": 50,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 4200,
+      "slots": 3500,
+      "table_games": 300,
+      "live_dealer": 200,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Play'n GO",
+        "Evolution Gaming",
+        "Pragmatic Play",
+        "Quickspin"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.4,
+      "trust_score": 7.5,
+      "expert_rating": 4.3,
+      "player_reviews": "Extensive game collection, Curacao license, global accessibility"
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "NZ",
+        "BR",
+        "JP",
+        "KR",
+        "IN",
+        "ZA"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "DE"
+      ],
+      "languages": [
+        "English",
+        "Japanese",
+        "Portuguese",
+        "Spanish"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "BRL",
+        "JPY"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Crypto",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 65,
+    "casino_name": "Tiki Casino",
+    "slug": "tiki-casino",
+    "basic_info": {
+      "website": "https://www.tikicasino.com",
+      "established": 2020,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/456/2018",
+      "parent_company": "Dama N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€1000",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3500,
+      "slots": 2900,
+      "table_games": 280,
+      "live_dealer": 180,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Play'n GO",
+        "Evolution Gaming",
+        "Pragmatic Play",
+        "BTG"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.2,
+      "trust_score": 7.7,
+      "expert_rating": 4.1,
+      "player_reviews": "Large welcome bonus, tropical theme, good mobile compatibility"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "NL",
+        "SE",
+        "NO",
+        "CA",
+        "NZ"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD",
+        "NOK",
+        "NZD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Crypto",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 66,
+    "casino_name": "Treasure Spins",
+    "slug": "treasure-spins",
+    "basic_info": {
+      "website": "https://www.treasurespins.com",
+      "established": 2022,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG/12345",
+      "parent_company": "Dama N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3200,
+      "slots": 2800,
+      "table_games": 200,
+      "live_dealer": 120,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Evolution Gaming",
+        "NetEnt",
+        "Yggdrasil",
+        "Quickspin"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 7.8,
+      "expert_rating": 4.0,
+      "player_reviews": "Good game variety and regular promotions, some complaints about withdrawal times"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "CA",
+        "NZ",
+        "AU",
+        "BR",
+        "JP"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Japanese",
+        "Portuguese"
+      ],
+      "currencies": [
+        "EUR",
+        "CAD",
+        "AUD",
+        "BRL",
+        "JPY"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Crypto",
+        "PIX"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€50",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 67,
+    "casino_name": "Trino",
+    "slug": "trino",
+    "basic_info": {
+      "website": "https://www.trinocasino.com",
+      "established": 2021,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/456/2021",
+      "parent_company": "Trino Gaming Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 150 FS",
+      "free_spins": 150,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€1000",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2800,
+      "slots": 2300,
+      "table_games": 250,
+      "live_dealer": 150,
+      "providers": [
+        "Microgaming",
+        "Evolution Gaming",
+        "Red Tiger",
+        "Big Time Gaming",
+        "Pragmatic Play"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8.5,
+      "expert_rating": 4.4,
+      "player_reviews": "Excellent customer service and fast payouts, highly rated by players"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "SE",
+        "NO",
+        "FI"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "BE"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "SEK",
+        "NOK",
+        "CHF"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Trustly"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 68,
+    "casino_name": "Ultimluck Casino",
+    "slug": "ultimluck-casino",
+    "basic_info": {
+      "website": "https://www.ultimluck.com",
+      "established": 2023,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG/78910",
+      "parent_company": "Ultimluck Group"
+    },
+    "bonus": {
+      "welcome_amount": "€750 + 300 FS",
+      "free_spins": 300,
+      "wagering": "45x",
+      "min_deposit": "€20",
+      "max_bonus": "€750",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3500,
+      "slots": 3000,
+      "table_games": 300,
+      "live_dealer": 200,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Hacksaw Gaming",
+        "Relax Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 3.9,
+      "trust_score": 7.2,
+      "expert_rating": 3.8,
+      "player_reviews": "Large game selection but mixed reviews on bonus terms and customer support"
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "AU",
+        "NZ",
+        "BR",
+        "MX",
+        "IN"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "DE",
+        "FR",
+        "IT",
+        "ES"
+      ],
+      "languages": [
+        "English",
+        "Portuguese",
+        "Spanish",
+        "Hindi"
+      ],
+      "currencies": [
+        "CAD",
+        "AUD",
+        "BRL",
+        "MXN",
+        "INR"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Crypto",
+        "Interac"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€50",
+      "withdrawal_time": "2-5 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "GLI",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 69,
+    "casino_name": "UnlimLuck HB-v2",
+    "slug": "unlimluck-hb-v2",
+    "basic_info": {
+      "website": "https://www.unlimluck.com",
+      "established": 2022,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/789/2022",
+      "parent_company": "UnlimLuck Gaming Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€1200 + 250 FS",
+      "free_spins": 250,
+      "wagering": "30x",
+      "min_deposit": "€20",
+      "max_bonus": "€1200",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 4000,
+      "slots": 3400,
+      "table_games": 350,
+      "live_dealer": 250,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.5,
+      "trust_score": 9.0,
+      "expert_rating": 4.6,
+      "player_reviews": "Premium gaming experience with excellent bonuses and top-tier customer service"
+    },
+    "geography": {
+      "accepted_countries": [
+        "DE",
+        "AT",
+        "CH",
+        "SE",
+        "NO",
+        "FI",
+        "DK"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Swedish",
+        "Norwegian",
+        "Finnish",
+        "Danish"
+      ],
+      "currencies": [
+        "EUR",
+        "SEK",
+        "NOK",
+        "DKK",
+        "CHF"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Trustly",
+        "Sofort"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 70,
+    "casino_name": "Vegas Nova",
+    "slug": "vegas-nova",
+    "basic_info": {
+      "website": "https://www.vegasnova.com",
+      "established": 2021,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC/123456",
+      "parent_company": "Vegas Nova Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€200 + 50 FS",
+      "free_spins": 50,
+      "wagering": "35x",
+      "min_deposit": "€10",
+      "max_bonus": "€200",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 1500,
+      "slots": 1200,
+      "table_games": 200,
+      "live_dealer": 100,
+      "providers": [
+        "Pragmatic Play",
+        "Play'n GO",
+        "Evolution Gaming",
+        "Red Tiger",
+        "Blueprint Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 8.8,
+      "expert_rating": 4.1,
+      "player_reviews": "Reliable UK-licensed casino with good responsible gaming features and fair terms"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK",
+        "IE",
+        "SE",
+        "NO"
+      ],
+      "restricted_countries": [
+        "US",
+        "DE",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "Swedish",
+        "Norwegian"
+      ],
+      "currencies": [
+        "GBP",
+        "EUR",
+        "SEK",
+        "NOK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Apple Pay"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€10",
+      "withdrawal_time": "24-48 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "UKGC Standards",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 71,
+    "casino_name": "VinciSpin",
+    "slug": "vincispin",
+    "basic_info": {
+      "website": "https://www.vincispin.com",
+      "established": 2023,
+      "license_authority": "Curacao Gaming Authority",
+      "license_number": "GLH-OCCHKTW0707072021",
+      "parent_company": "Vinci Partners Group N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 3800,
+      "slots": 3200,
+      "table_games": 250,
+      "live_dealer": 350,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Hacksaw Gaming",
+        "Play'n GO",
+        "BGaming",
+        "Amatic"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 7.5,
+      "expert_rating": 3.9,
+      "player_reviews": "Mixed reviews. Praised for vast game library and live casino, criticized for high wagering requirements on bonuses."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "NZ",
+        "BR",
+        "IN",
+        "DE",
+        "FI",
+        "NO"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Finnish",
+        "Portuguese",
+        "Norwegian"
+      ],
+      "currencies": [
+        "EUR",
+        "CAD",
+        "BRL",
+        "INR",
+        "NOK",
+        "USDT"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "MiFinity",
+        "Jeton",
+        "Cryptocurrencies"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards",
+        "Crypto"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "0-24 hours (e-wallets), 1-3 days (bank transfer)"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 72,
+    "casino_name": "Wild Robin",
+    "slug": "wild-robin",
+    "basic_info": {
+      "website": "https://www.wildrobin.com",
+      "established": 2022,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/870/2022",
+      "parent_company": "Rabidi N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€1,000 + 300 FS",
+      "free_spins": 300,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€1,000",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 4200,
+      "slots": 3700,
+      "table_games": 200,
+      "live_dealer": 300,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Play'n GO",
+        "Pragmatic Play",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8.2,
+      "expert_rating": 4.1,
+      "player_reviews": "Generally positive. Players enjoy the large welcome package and frequent slot tournaments. Some note slower withdrawal times for bank transfers."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "NZ",
+        "IE",
+        "JP",
+        "SE",
+        "NO",
+        "FI"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "DE",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "Japanese",
+        "Swedish",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "CAD",
+        "NZD",
+        "JPY",
+        "SEK",
+        "NOK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Paysafecard",
+        "Interac"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24 hours (e-wallets), 3-5 days (bank transfer)"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "Gaming Laboratories International (GLI)",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 73,
+    "casino_name": "Wild Tokyo",
+    "slug": "wild-tokyo",
+    "basic_info": {
+      "website": "https://www.wildtokyo.com",
+      "established": 2021,
+      "license_authority": "Curacao Gaming Authority",
+      "license_number": "365/JAZ",
+      "parent_company": "Dama N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€750 + 150 FS",
+      "free_spins": 150,
+      "wagering": "45x",
+      "min_deposit": "€15",
+      "max_bonus": "€750",
+      "validity_days": 21
+    },
+    "games": {
+      "total_count": 3100,
+      "slots": 2800,
+      "table_games": 120,
+      "live_dealer": 180,
+      "providers": [
+        "Pragmatic Play",
+        "BGaming",
+        "Endorphina",
+        "Amatic",
+        "Tom Horn Gaming",
+        "Vivo Gaming"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 3.8,
+      "trust_score": 7.0,
+      "expert_rating": 3.7,
+      "player_reviews": "Average reviews. The Japanese theme is unique, but players report the game loading times can be slow and customer support responsiveness varies."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "AU",
+        "JP",
+        "KR",
+        "NZ",
+        "BR"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "DE",
+        "SE"
+      ],
+      "languages": [
+        "English",
+        "Japanese",
+        "Portuguese",
+        "Korean"
+      ],
+      "currencies": [
+        "EUR",
+        "AUD",
+        "CAD",
+        "BRL",
+        "JPY",
+        "KRW"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "Jeton",
+        "Cryptocurrencies",
+        "PIX"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Crypto"
+      ],
+      "min_deposit": "€15",
+      "min_withdrawal": "€25",
+      "withdrawal_time": "Up to 48 hours (e-wallets), 3-7 days (bank transfer)"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 74,
+    "casino_name": "WildRobin Casino",
+    "slug": "wildrobin-casino",
+    "basic_info": {
+      "website": "https://www.wildrobincasino.com",
+      "established": 2024,
+      "license_authority": "Curacao Gaming Authority",
+      "license_number": "GLH-OCCHKTW0808082023",
+      "parent_company": "Altacore N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€1,200 + 50 FS",
+      "free_spins": 50,
+      "wagering": "35x",
+      "min_deposit": "€20",
+      "max_bonus": "€1,200",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2300,
+      "slots": 2000,
+      "table_games": 180,
+      "live_dealer": 120,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "Red Tiger Gaming",
+        "Push Gaming",
+        "Relax Gaming",
+        "Spinomenal"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 4.1,
+      "trust_score": 7.8,
+      "expert_rating": 4.0,
+      "player_reviews": "New casino with positive initial feedback. Users like the modern design and low wagering compared to rivals. Still building its reputation."
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "NZ",
+        "IE",
+        "SE",
+        "NO",
+        "FI",
+        "PL"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "DE",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "Polish",
+        "Swedish",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "CAD",
+        "NZD",
+        "SEK",
+        "NOK",
+        "PLN"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "MiFinity",
+        "Paysafecard",
+        "Rapid Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "12-24 hours (e-wallets), 2-5 days (bank transfer)"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 75,
+    "casino_name": "Willdsino",
+    "slug": "willdsino",
+    "basic_info": {
+      "website": "https://www.willdsino.com",
+      "established": 2023,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/923/2023",
+      "parent_company": "Regal Holdings Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "100% up to €200",
+      "free_spins": 0,
+      "wagering": "30x",
+      "min_deposit": "€10",
+      "max_bonus": "€200",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 1800,
+      "slots": 1500,
+      "table_games": 220,
+      "live_dealer": 80,
+      "providers": [
+        "NetEnt",
+        "Microgaming",
+        "Evolution Gaming",
+        "Big Time Gaming",
+        "Quickspin",
+        "ELK Studios"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.4,
+      "trust_score": 8.5,
+      "expert_rating": 4.3,
+      "player_reviews": "Highly rated for its premium feel, excellent customer service, and fast payouts. The welcome bonus is smaller but with fairer terms."
+    },
+    "geography": {
+      "accepted_countries": [
+        "SE",
+        "NO",
+        "FI",
+        "IE",
+        "CA",
+        "NZ"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "ES",
+        "IT",
+        "DE",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "Swedish",
+        "Norwegian",
+        "Finnish"
+      ],
+      "currencies": [
+        "EUR",
+        "SEK",
+        "NOK",
+        "CAD",
+        "NZD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill",
+        "Neteller",
+        "Trustly",
+        "Bank Transfer"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€10",
+      "withdrawal_time": "Instant (Trustly/E-wallets), 1-3 days (bank transfer)"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 76,
+    "casino_name": "WinRolla",
+    "slug": "winrolla",
+    "basic_info": {
+      "website": "https://www.winrolla.com",
+      "established": 2022,
+      "license_authority": "Curacao eGaming",
+      "license_number": "CEG/24763/2022",
+      "parent_company": "WinRolla Entertainment N.V."
+    },
+    "bonus": {
+      "welcome_amount": "€500 + 200 FS",
+      "free_spins": 200,
+      "wagering": "40x",
+      "min_deposit": "€20",
+      "max_bonus": "€500",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 3200,
+      "slots": 2600,
+      "table_games": 180,
+      "live_dealer": 120,
+      "providers": [
+        "Pragmatic Play",
+        "Evolution Gaming",
+        "NetEnt",
+        "Play'n GO",
+        "Big Time Gaming",
+        "Yggdrasil"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.3,
+      "trust_score": 8.2,
+      "expert_rating": 4.1,
+      "player_reviews": "Excellent game variety and regular promotions, some complaints about wagering requirements"
+    },
+    "geography": {
+      "accepted_countries": [
+        "CA",
+        "NZ",
+        "AU",
+        "DE",
+        "NO",
+        "FI"
+      ],
+      "restricted_countries": [
+        "US",
+        "UK",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "languages": [
+        "English",
+        "German",
+        "Finnish",
+        "Norwegian"
+      ],
+      "currencies": [
+        "EUR",
+        "CAD",
+        "AUD",
+        "NZD",
+        "USD"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "Skrill",
+        "Neteller",
+        "MuchBetter",
+        "Crypto"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards",
+        "Crypto"
+      ],
+      "min_deposit": "€20",
+      "min_withdrawal": "€20",
+      "withdrawal_time": "24-72 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "iTech Labs",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 77,
+    "casino_name": "Winit.Bet",
+    "slug": "winitbet",
+    "basic_info": {
+      "website": "https://www.winit.bet",
+      "established": 2021,
+      "license_authority": "Malta Gaming Authority",
+      "license_number": "MGA/B2C/456/2021",
+      "parent_company": "Winit Gaming Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "€1000 + 150 FS",
+      "free_spins": 150,
+      "wagering": "35x",
+      "min_deposit": "€10",
+      "max_bonus": "€1000",
+      "validity_days": 30
+    },
+    "games": {
+      "total_count": 2800,
+      "slots": 2200,
+      "table_games": 200,
+      "live_dealer": 150,
+      "providers": [
+        "Microgaming",
+        "Evolution Gaming",
+        "Red Tiger",
+        "Quickspin",
+        "ELK Studios"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.5,
+      "trust_score": 9.1,
+      "expert_rating": 4.4,
+      "player_reviews": "Highly rated for fast withdrawals and excellent customer service, MGA license adds trust"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK",
+        "IE",
+        "MT",
+        "SE",
+        "NO",
+        "DK"
+      ],
+      "restricted_countries": [
+        "US",
+        "FR",
+        "IT",
+        "ES",
+        "NL",
+        "DE"
+      ],
+      "languages": [
+        "English",
+        "Swedish",
+        "Norwegian",
+        "Danish"
+      ],
+      "currencies": [
+        "EUR",
+        "GBP",
+        "SEK",
+        "NOK",
+        "DKK"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Apple Pay",
+        "Trustly",
+        "Paysafecard"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "€10",
+      "min_withdrawal": "€10",
+      "withdrawal_time": "0-24 hours"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "eCOGRA",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 78,
+    "casino_name": "Winshark",
+    "slug": "winshark",
+    "basic_info": {
+      "website": "https://www.winshark.com",
+      "established": 2023,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-123456",
+      "parent_company": "Winshark Gaming UK Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "£200 + 50 FS",
+      "free_spins": 50,
+      "wagering": "30x",
+      "min_deposit": "£10",
+      "max_bonus": "£200",
+      "validity_days": 21
+    },
+    "games": {
+      "total_count": 1800,
+      "slots": 1500,
+      "table_games": 120,
+      "live_dealer": 90,
+      "providers": [
+        "Playtech",
+        "Evolution Gaming",
+        "Blueprint Gaming",
+        "IGT",
+        "Light & Wonder"
+      ],
+      "progressive_jackpots": true
+    },
+    "ratings": {
+      "overall_rating": 4.0,
+      "trust_score": 9.5,
+      "expert_rating": 3.9,
+      "player_reviews": "UKGC license provides high trust, but smaller game selection compared to competitors"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "CA",
+        "AU",
+        "DE",
+        "FR",
+        "IT",
+        "ES",
+        "NL",
+        "SE",
+        "NO"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Apple Pay",
+        "Trustly"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets",
+        "Cards"
+      ],
+      "min_deposit": "£10",
+      "min_withdrawal": "£10",
+      "withdrawal_time": "1-3 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": true,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": false,
+      "live_chat": "9am-11pm",
+      "phone_support": true,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "GamCare certified",
+      "gdpr_compliant": true
+    }
+  },
+  {
+    "id": 79,
+    "casino_name": "WonThere UK-v2",
+    "slug": "wonthere-uk-v2",
+    "basic_info": {
+      "website": "https://www.wonthere.co.uk",
+      "established": 2024,
+      "license_authority": "UK Gambling Commission",
+      "license_number": "UKGC-789012",
+      "parent_company": "WonThere Holdings Ltd"
+    },
+    "bonus": {
+      "welcome_amount": "£300 + 100 FS",
+      "free_spins": 100,
+      "wagering": "25x",
+      "min_deposit": "£20",
+      "max_bonus": "£300",
+      "validity_days": 14
+    },
+    "games": {
+      "total_count": 2200,
+      "slots": 1800,
+      "table_games": 160,
+      "live_dealer": 110,
+      "providers": [
+        "Evolution Gaming",
+        "Pragmatic Play",
+        "NetEnt",
+        "Red Tiger",
+        "Play'n GO"
+      ],
+      "progressive_jackpots": false
+    },
+    "ratings": {
+      "overall_rating": 4.2,
+      "trust_score": 9.3,
+      "expert_rating": 4.0,
+      "player_reviews": "Good mobile experience and competitive wagering requirements, limited payment options"
+    },
+    "geography": {
+      "accepted_countries": [
+        "UK"
+      ],
+      "restricted_countries": [
+        "US",
+        "CA",
+        "AU",
+        "DE",
+        "FR",
+        "IT",
+        "ES",
+        "NL",
+        "SE",
+        "NO"
+      ],
+      "languages": [
+        "English"
+      ],
+      "currencies": [
+        "GBP"
+      ]
+    },
+    "payments": {
+      "deposit_methods": [
+        "Visa",
+        "Mastercard",
+        "PayPal",
+        "Skrill"
+      ],
+      "withdrawal_methods": [
+        "Bank Transfer",
+        "E-wallets"
+      ],
+      "min_deposit": "£20",
+      "min_withdrawal": "£20",
+      "withdrawal_time": "2-5 business days"
+    },
+    "platform": {
+      "mobile_optimized": true,
+      "mobile_app": false,
+      "instant_play": true,
+      "download_required": false
+    },
+    "features": {
+      "vip_program": true,
+      "live_chat": "24/7",
+      "phone_support": false,
+      "email_support": true,
+      "responsible_gaming": true
+    },
+    "security": {
+      "ssl_encryption": "256-bit SSL",
+      "rng_certified": true,
+      "fair_play": "UKGC standards",
+      "gdpr_compliant": true
+    }
+  }
+]

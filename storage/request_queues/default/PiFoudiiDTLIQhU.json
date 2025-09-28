@@ -1,0 +1,9 @@
+{
+	"id": "PiFoudiiDTLIQhU",
+	"json": "{\"id\":\"PiFoudiiDTLIQhU\",\"url\":\"https://www.theredcasino.com\",\"loadedUrl\":\"https://www.theredcasino.com/\",\"uniqueKey\":\"https://www.theredcasino.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"the-red\",\"brand\":\"The Red\",\"url\":\"https://www.theredcasino.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Play'n GO\",\"Evolution Gaming\",\"Pragmatic Play\",\"Quickspin\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Crypto\",\"Bank Transfer\",\"E-wallets\",\"Cards\"],\"bonuses\":{\"welcome\":{\"headline\":\"€500 + 50 FS\",\"wagering\":\"35x\",\"maxCashout\":500}},\"safety\":{\"yearsOnline\":7,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":8.5,\"fairness\":9.680000000000001,\"payout\":8.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":8},\"topTags\":[\"Quick withdrawals\",\"Massive game selection\",\"Live dealer games\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=theredcasino.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:03.714Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.theredcasino.com",
+	"url": "https://www.theredcasino.com"
+}

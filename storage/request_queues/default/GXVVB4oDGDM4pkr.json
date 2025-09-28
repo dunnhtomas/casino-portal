@@ -1,0 +1,9 @@
+{
+	"id": "GXVVB4oDGDM4pkr",
+	"json": "{\"id\":\"GXVVB4oDGDM4pkr\",\"url\":\"https://www.royalgames.com\",\"loadedUrl\":\"https://kingcare.zendesk.com/hc/en-us/articles/18087490255133-Important-Information-about-Royal-Games#%20\",\"uniqueKey\":\"https://www.royalgames.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"royal-game\",\"brand\":\"Royal Game\",\"url\":\"https://www.royalgames.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"ES\",\"IT\"],\"providers\":[\"Microgaming\",\"NetEnt\",\"Evolution Gaming\",\"Betsoft\",\"Quickspin\",\"Amatic\"],\"payoutSpeedHours\":120,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Neosurf\",\"Crypto\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€1000 + 150 FS\",\"wagering\":\"40x\",\"maxCashout\":1000}},\"safety\":{\"yearsOnline\":7,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":8.5,\"fairness\":8.36,\"payout\":7.5,\"bonusValue\":7.9799999999999995,\"games\":10,\"support\":8.36,\"reputation\":8},\"topTags\":[\"Massive game selection\",\"Live dealer games\",\"Crypto-friendly\"],\"logo\":{\"url\":\"https://kingcare.zendesk.com/hc/theming_assets/01HZM49HFHV9Q48SJEZ7W59YNQ\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"337x250\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T20:00:11.825Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.royalgames.com",
+	"url": "https://www.royalgames.com"
+}

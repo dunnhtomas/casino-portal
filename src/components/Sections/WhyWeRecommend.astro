@@ -1,0 +1,92 @@
+---
+// Why We Recommend section with transparency about rating weights
+import * as RatingManager from '../../managers/RatingManager';
+
+const weights = RatingManager.WEIGHTS;
+const explanations = RatingManager.explain({ security: 9, payout: 9, bonusValue: 8, games: 8, mobile: 8, support: 8, reputation: 8 });
+---
+
+<section id="why-we-recommend" class="py-16 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">Why We Recommend These Casinos</h2>
+      <p class="text-lg text-gray-600">Our transparent rating methodology based on what matters most to players</p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-6">Our Rating Methodology</h3>
+        <div class="space-y-4">
+          {explanations.map(factor => (
+            <div class="flex items-start gap-4">
+              <div class="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <span class="text-sm font-bold text-indigo-600">{Math.round(factor.w * 100)}%</span>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900 mb-1">{factor.k}</h4>
+                <p class="text-gray-600 text-sm">{factor.why}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div class="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+          <p class="text-sm text-blue-800">
+            <strong>Transparency Promise:</strong> We publish our exact rating weights and methodology. 
+            No casino can pay for better ratings – our scores are based purely on player benefit factors.
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-lg">
+        <h3 class="text-xl font-bold text-gray-900 mb-6">What Makes a Top Casino</h3>
+        <ul class="space-y-3">
+          <li class="flex items-center gap-3">
+            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-800">Licensed by reputable authorities (MGA, UKGC, etc.)</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-800">Fast payouts (24-72 hours typical)</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-800">Fair bonus terms with reasonable wagering</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-800">High RTP games from trusted providers</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-800">24/7 customer support in multiple languages</span>
+          </li>
+          <li class="flex items-center gap-3">
+            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+            </svg>
+            <span class="text-gray-800">Positive player feedback and complaint resolution</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-center mt-12">
+      <a href="/guides/how-we-rate" class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+        Read Full Methodology
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>

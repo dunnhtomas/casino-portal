@@ -1,0 +1,17 @@
+---
+import TopList from '../../components/Lists/TopList.astro';
+import casinos from '../../../data/casinos.json';
+const list = casinos.filter(c=> (c.providers||[]).length > 0); // placeholder: mobile-friendly heuristic
+---
+<html>
+  <head>
+    <title>Best Mobile Casinos — BestCasinoPortal</title>
+  </head>
+  <body>
+    <main>
+      <h1>Best Mobile Casinos</h1>
+      <p class="text-sm text-gray-600">Casinos with the best mobile experience.</p>
+      <TopList items={list} />
+    </main>
+  </body>
+</html>

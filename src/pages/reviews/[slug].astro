@@ -1,0 +1,38 @@
+---
+import { loadReview } from '../../viewmodels/ReviewVM';
+import { generateReviewJSONLD } from '../../lib/schema';
+import casinos from '../../../data/casinos.json';
+import content from '../../../data/content.json';
+const { params } = Astro;
+const review = loadReview(casinos, params.slug);
+const reviewJsonLd = review ? generateReviewJSONLD(review, 'https://example.com') : null;
+
+export async function getStaticPaths() {
+  return casinos.map(c=> ({ params: { slug: c.slug } }));
+}
+
+---
+<html>
+  <head>
+    <title>{review ? `${review.brand} — Review` : 'Review'}</title>
+    {reviewJsonLd ? <script type="application/ld+json">{JSON.stringify(reviewJsonLd)}</script> : null}
+  </head>
+  <body>
+    <main>
+      {review ? (
+        <article>
+          <h1>{review.brand}</h1>
+          <p className="text-gray-700">{content.reviews[review.slug] || ''}</p>
+          <div>Score: {review._score}</div>
+          <p>{review.bonuses?.welcome?.headline}</p>
+          <section>
+            <h2>Safety & Fairness</h2>
+            <p>Years online: {review.safety?.yearsOnline}</p>
+          </section>
+        </article>
+      ) : (
+        <div>Review not found</div>
+      )}
+    </main>
+  </body>
+</html>

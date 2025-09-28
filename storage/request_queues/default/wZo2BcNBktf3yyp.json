@@ -1,0 +1,9 @@
+{
+	"id": "wZo2BcNBktf3yyp",
+	"json": "{\"id\":\"wZo2BcNBktf3yyp\",\"url\":\"https://www.lyrabet.gr\",\"loadedUrl\":\"https://lyrabet.gr/\",\"uniqueKey\":\"https://www.lyrabet.gr\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"lyrabet-gr-v2\",\"brand\":\"LyraBet\",\"url\":\"https://www.lyrabet.gr\",\"licences\":[\"Hellenic Gaming Commission (HGC)\"],\"restrictedGeos\":[\"US\",\"UK\",\"DE\",\"FR\",\"IT\"],\"providers\":[\"Pragmatic Play\",\"Evolution Gaming\",\"NetEnt\",\"Play'n GO\",\"Red Tiger\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Piraeus Bank\",\"National Bank of Greece\",\"Alpha Bank\",\"Skrills\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€200 + 100 FS\",\"wagering\":\"30x\",\"maxCashout\":200}},\"safety\":{\"yearsOnline\":5,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":9,\"fairness\":9.02,\"payout\":8.5,\"bonusValue\":8.61,\"games\":9.7,\"support\":9,\"reputation\":8.5},\"topTags\":[\"Quick withdrawals\",\"Mobile app\",\"VIP program\"],\"logo\":{\"url\":\"https://lyrabet.gr/images/logo.svg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"150x70\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:13.687Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.lyrabet.gr",
+	"url": "https://www.lyrabet.gr"
+}

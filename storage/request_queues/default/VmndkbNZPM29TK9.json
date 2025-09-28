@@ -1,0 +1,9 @@
+{
+	"id": "VmndkbNZPM29TK9",
+	"json": "{\"id\":\"VmndkbNZPM29TK9\",\"url\":\"https://www.sagaspins.com\",\"loadedUrl\":\"https://sagaspins22.com/\",\"uniqueKey\":\"https://www.sagaspins.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"sagaspins-uk-v2\",\"brand\":\"SagaSpins\",\"url\":\"https://www.sagaspins.com\",\"licences\":[\"UK\"],\"restrictedGeos\":[\"US\",\"FR\",\"ES\",\"IT\",\"DE\"],\"providers\":[\"Pragmatic Play\",\"Big Time Gaming\",\"Blueprint Gaming\",\"Evolution Gaming\",\"Playtech\"],\"payoutSpeedHours\":0,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Skrill\",\"Neteller\",\"Paysafecard\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"£200 + 50 FS\",\"wagering\":\"35x\",\"maxCashout\":200}},\"safety\":{\"yearsOnline\":3,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":10,\"fairness\":9.9,\"payout\":9.5,\"bonusValue\":9,\"games\":8.9,\"support\":9,\"reputation\":9.7},\"topTags\":[\"Instant payouts\",\"Premium license\",\"Mobile-optimized\"],\"logo\":{\"url\":\"https://sagaspins22.com/static/logo-F55pWukx.svg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"79x44\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:57:58.440Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.sagaspins.com",
+	"url": "https://www.sagaspins.com"
+}

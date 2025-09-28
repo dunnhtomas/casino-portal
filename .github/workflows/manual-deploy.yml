@@ -1,0 +1,87 @@
+name: Manual Deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Generate images
+        run: npm run images:generate || true
+
+      - name: Build site
+        run: npm run build
+
+      - name: Start SSH agent
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add host to known_hosts
+        run: ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Rsync site to server
+        run: rsync -az --delete ./dist/ ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}
+
+      - name: Rsync backend (if exists)
+        run: rsync -az --delete ./deploy/backend/ ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/backend/
+
+      - name: Rsync deploy configs
+        run: |
+          rsync -az deploy/logrotate/bcp ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/tmp/bcp-logrotate
+          rsync -az deploy/tmpfiles/bcp.conf ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/tmp/bcp-tmpfiles.conf
+          rsync -az deploy/backend.service ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:/tmp/bcp-backend.service
+
+      - name: Set SENTRY_DSN env for deploy
+        if: ${{ secrets.SENTRY_DSN != '' }}
+        run: echo "SENTRY_DSN='${{ secrets.SENTRY_DSN }}'" > /tmp/sentry.env
+
+      - name: Remote post-deploy steps
+        run: |
+          ssh ${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }} <<'EOF'
+            set -euo pipefail
+            sudo mkdir -p ${{ secrets.DEPLOY_PATH }}
+            sudo mv /tmp/bcp-logrotate /etc/logrotate.d/bcp || true
+            sudo mv /tmp/bcp-tmpfiles.conf /etc/tmpfiles.d/bcp.conf || true
+            sudo mv /tmp/bcp-backend.service /etc/systemd/system/bcp-backend.service || true
+            sudo systemd-tmpfiles --create /etc/tmpfiles.d/bcp.conf || true
+            sudo systemctl daemon-reload || true
+            if [ -d "${{ secrets.DEPLOY_PATH }}/backend" ]; then
+              cd ${DEPLOY_PATH}/backend || true
+              sudo npm ci --production
+              sudo systemctl enable --now bcp-backend.service || true
+            fi
+            sudo nginx -t && sudo systemctl reload nginx || true
+            # If SENTRY_DSN was provided as a secret, create systemd drop-in
+            if [ -n "${{ secrets.SENTRY_DSN }}" ]; then
+              sudo mkdir -p /etc/systemd/system/bcp-backend.service.d
+              echo -e "[Service]\nEnvironment=SENTRY_DSN='${{ secrets.SENTRY_DSN }}'" | sudo tee /etc/systemd/system/bcp-backend.service.d/override.conf
+              sudo systemctl daemon-reload
+              sudo systemctl restart bcp-backend.service || true
+            fi
+          EOF
+        env:
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+
+      - name: Smoke check - health
+        run: |
+          curl -fsS https://${{ secrets.SITE_DOMAIN }}/health || (echo 'Health check failed' && exit 1)
+
+      - name: Smoke check - perf endpoint
+        run: |
+          curl -fsS -X POST https://${{ secrets.SITE_DOMAIN }}/api/perf -H "Content-Type: application/json" -d '{"smoke":"test-smoke"}' || (echo 'Perf endpoint failed' && exit 1)
+
+      - name: Notify
+        run: echo "Deploy finished — run manual checks or view site at https://${{ secrets.SITE_DOMAIN }}"

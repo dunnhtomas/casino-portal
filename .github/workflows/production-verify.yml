@@ -1,0 +1,57 @@
+name: Production Verify
+
+on:
+  workflow_dispatch:
+    inputs:
+      site_url:
+        description: 'Full site URL (https://example.com)'
+        required: true
+      run_lighthouse:
+        description: 'Run Lighthouse checks'
+        required: true
+        default: 'true'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: "Smoke: home, top-list, review"
+        run: |
+          set -euo pipefail
+          curl -fsS "${{ github.event.inputs.site_url }}/" -o reports/home.html
+          curl -fsS "${{ github.event.inputs.site_url }}/best/fast-withdrawals" -o reports/fast.html
+          curl -fsS "${{ github.event.inputs.site_url }}/reviews/readycasino" -o reports/review.html
+          echo "Smokes complete"
+
+      - name: Check sitemap and robots
+        run: |
+          curl -fsS "${{ github.event.inputs.site_url }}/sitemap.xml" -o reports/sitemap.xml
+          curl -fsS "${{ github.event.inputs.site_url }}/robots.txt" -o reports/robots.txt
+          grep -i sitemap reports/robots.txt || true
+
+      - name: Optional Lighthouse
+        if: ${{ github.event.inputs.run_lighthouse == 'true' }}
+        run: |
+          sudo apt-get update && sudo apt-get install -y chromium
+          npx lighthouse "${{ github.event.inputs.site_url }}" --output json --output-path=./reports/lighthouse.json --chrome-flags="--no-sandbox"
+          node scripts/parse-lighthouse.js
+
+      - name: Upload verification artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: prod-verify-artifacts
+          path: ./reports
+
+      - name: Complete
+        run: echo "Production verification run complete. Review artifacts."

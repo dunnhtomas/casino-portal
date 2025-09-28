@@ -1,0 +1,83 @@
+---
+// Category tiles for different casino types
+const categories = [
+  {
+    title: "Best Real Money",
+    description: "Highest-rated casinos for real money play with verified payouts",
+    href: "/best/real-money",
+    icon: "💰",
+    bgClass: "bg-gradient-to-br from-green-400 to-green-600"
+  },
+  {
+    title: "Fast Withdrawals", 
+    description: "Get your winnings quickly with instant and same-day payouts",
+    href: "/best/fast-withdrawals",
+    icon: "⚡",
+    bgClass: "bg-gradient-to-br from-blue-400 to-blue-600"
+  },
+  {
+    title: "No Wagering",
+    description: "Keep what you win with bonuses that have no wagering requirements",
+    href: "/best/real-money",
+    icon: "🎁",
+    bgClass: "bg-gradient-to-br from-purple-400 to-purple-600"
+  },
+  {
+    title: "High Roller",
+    description: "VIP treatment and high limits for serious players",
+    href: "/best/real-money",
+    icon: "👑",
+    bgClass: "bg-gradient-to-br from-yellow-400 to-yellow-600"
+  },
+  {
+    title: "Mobile Casinos",
+    description: "Optimized for mobile play with dedicated apps and touch interfaces",
+    href: "/best/mobile", 
+    icon: "📱",
+    bgClass: "bg-gradient-to-br from-pink-400 to-pink-600"
+  },
+  {
+    title: "Live Dealer",
+    description: "Real dealers streaming live for authentic casino experience",
+    href: "/best/live-dealer",
+    icon: "🎰",
+    bgClass: "bg-gradient-to-br from-red-400 to-red-600"
+  }
+];
+---
+
+<section id="category-tiles" class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">Casino Categories</h2>
+      <p class="text-lg text-gray-600">Find the perfect casino type for your playing style</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {categories.map(category => (
+        <a href={category.href} class="group block">
+          <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-200 overflow-hidden group-hover:scale-105">
+            <div class={`${category.bgClass} p-6 text-white`}>
+              <div class="flex items-center justify-between mb-3">
+                <span class="text-4xl">{category.icon}</span>
+                <svg class="w-6 h-6 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <h3 class="text-xl font-bold mb-2">{category.title}</h3>
+            </div>
+            <div class="p-6">
+              <p class="text-gray-600">{category.description}</p>
+              <div class="mt-4 flex items-center text-indigo-600 font-semibold">
+                View Casinos
+                <svg class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

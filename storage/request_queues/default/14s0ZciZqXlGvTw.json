@@ -1,0 +1,9 @@
+{
+	"id": "14s0ZciZqXlGvTw",
+	"json": "{\"id\":\"14s0ZciZqXlGvTw\",\"url\":\"https://www.winit.bet\",\"loadedUrl\":\"https://winit1.bet/home\",\"uniqueKey\":\"https://www.winit.bet\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"winitbet\",\"brand\":\"Winit.Bet\",\"url\":\"https://www.winit.bet\",\"licences\":[\"Malta\"],\"restrictedGeos\":[\"US\",\"FR\",\"IT\",\"ES\",\"NL\"],\"providers\":[\"Microgaming\",\"Evolution Gaming\",\"Red Tiger\",\"Quickspin\",\"ELK Studios\"],\"payoutSpeedHours\":0,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Apple Pay\",\"Trustly\",\"Paysafecard\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€1000 + 150 FS\",\"wagering\":\"35x\",\"maxCashout\":1000}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":10,\"fairness\":9.9,\"payout\":9.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":9.6},\"topTags\":[\"Instant payouts\",\"Premium license\",\"Great game variety\"],\"logo\":{\"url\":\"https://d3tmpsuhcgf0q8.cloudfront.net/winit/logo/Winit%20logo%20animation.gif\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"200x100\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:57:47.826Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.winit.bet",
+	"url": "https://www.winit.bet"
+}

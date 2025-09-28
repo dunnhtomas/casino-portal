@@ -1,0 +1,887 @@
+{
+  "ultra_stats": {
+    "total_casinos": 79,
+    "attempted": 79,
+    "successful": 0,
+    "failed": 79,
+    "logos_found": 0,
+    "start_time": 1759086592.4966009
+  },
+  "ultra_results": [
+    {
+      "slug": "spellwin",
+      "brand": "SpellWin",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"SpellWin\" casino logo high quality",
+        "SpellWin casino official logo png",
+        "\"SpellWin\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:09:55"
+    },
+    {
+      "slug": "winitbet",
+      "brand": "Winit",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Winit\" casino logo high quality",
+        "Winit casino official logo png",
+        "\"Winit\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:00"
+    },
+    {
+      "slug": "unlimluck-hb-v2",
+      "brand": "UnlimLuck",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"UnlimLuck\" casino logo high quality",
+        "UnlimLuck casino official logo png",
+        "\"UnlimLuck\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:04"
+    },
+    {
+      "slug": "mr-pacho",
+      "brand": "Mr Pacho",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Mr Pacho\" casino logo high quality",
+        "Mr Pacho casino official logo png",
+        "\"Mr Pacho\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:09"
+    },
+    {
+      "slug": "larabet",
+      "brand": "Larabet",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Larabet\" casino logo high quality",
+        "Larabet casino official logo png",
+        "\"Larabet\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:13"
+    },
+    {
+      "slug": "slotlair-uk-v2",
+      "brand": "Slotlair UK",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Slotlair UK\" casino logo high quality",
+        "Slotlair UK casino official logo png",
+        "\"Slotlair UK\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:18"
+    },
+    {
+      "slug": "sagaspins-uk-v2",
+      "brand": "SagaSpins UK",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"SagaSpins UK\" casino logo high quality",
+        "SagaSpins UK casino official logo png",
+        "\"SagaSpins UK\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:22"
+    },
+    {
+      "slug": "samba-slots",
+      "brand": "Samba",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Samba\" casino logo high quality",
+        "Samba casino official logo png",
+        "\"Samba\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:27"
+    },
+    {
+      "slug": "willdsino",
+      "brand": "Willdsino",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Willdsino\" casino logo high quality",
+        "Willdsino casino official logo png",
+        "\"Willdsino\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:31"
+    },
+    {
+      "slug": "trino",
+      "brand": "Trino",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Trino\" casino logo high quality",
+        "Trino casino official logo png",
+        "\"Trino\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:36"
+    },
+    {
+      "slug": "skyhills-nl-v2",
+      "brand": "SkyHills NL",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"SkyHills NL\" casino logo high quality",
+        "SkyHills NL casino official logo png",
+        "\"SkyHills NL\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:40"
+    },
+    {
+      "slug": "wonthere-uk-v2",
+      "brand": "WonThere UK",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"WonThere UK\" casino logo high quality",
+        "WonThere UK casino official logo png",
+        "\"WonThere UK\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:45"
+    },
+    {
+      "slug": "lucky-hunter",
+      "brand": "Lucky Hunter",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Lucky Hunter\" casino logo high quality",
+        "Lucky Hunter casino official logo png",
+        "\"Lucky Hunter\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:50"
+    },
+    {
+      "slug": "rizz-casino",
+      "brand": "Rizz",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Rizz\" casino logo high quality",
+        "Rizz casino official logo png",
+        "\"Rizz\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:54"
+    },
+    {
+      "slug": "n1-bet-casino",
+      "brand": "N1 Bet",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"N1 Bet\" casino logo high quality",
+        "N1 Bet casino official logo png",
+        "\"N1 Bet\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:10:59"
+    },
+    {
+      "slug": "aerobet",
+      "brand": "Aerobet",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Aerobet\" casino logo high quality",
+        "Aerobet casino official logo png",
+        "\"Aerobet\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:03"
+    },
+    {
+      "slug": "kings-chip",
+      "brand": "Kings Chip",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Kings Chip\" casino logo high quality",
+        "Kings Chip casino official logo png",
+        "\"Kings Chip\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:08"
+    },
+    {
+      "slug": "my-empire",
+      "brand": "My Empire",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"My Empire\" casino logo high quality",
+        "My Empire casino official logo png",
+        "\"My Empire\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:12"
+    },
+    {
+      "slug": "romibet-es-v2",
+      "brand": "RomiBet ES",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"RomiBet ES\" casino logo high quality",
+        "RomiBet ES casino official logo png",
+        "\"RomiBet ES\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:17"
+    },
+    {
+      "slug": "spincastle-uk-v2",
+      "brand": "SpinCastle UK",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"SpinCastle UK\" casino logo high quality",
+        "SpinCastle UK casino official logo png",
+        "\"SpinCastle UK\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:21"
+    },
+    {
+      "slug": "roman-casino",
+      "brand": "Roman",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Roman\" casino logo high quality",
+        "Roman casino official logo png",
+        "\"Roman\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:26"
+    },
+    {
+      "slug": "winrolla",
+      "brand": "WinRolla",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"WinRolla\" casino logo high quality",
+        "WinRolla casino official logo png",
+        "\"WinRolla\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:30"
+    },
+    {
+      "slug": "rollxo",
+      "brand": "RollXO",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"RollXO\" casino logo high quality",
+        "RollXO casino official logo png",
+        "\"RollXO\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:35"
+    },
+    {
+      "slug": "jackpot-raider",
+      "brand": "Jackpot Raider",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Jackpot Raider\" casino logo high quality",
+        "Jackpot Raider casino official logo png",
+        "\"Jackpot Raider\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:39"
+    },
+    {
+      "slug": "lucki-casino",
+      "brand": "Lucki",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Lucki\" casino logo high quality",
+        "Lucki casino official logo png",
+        "\"Lucki\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:44"
+    },
+    {
+      "slug": "malina-casino",
+      "brand": "Malina",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Malina\" casino logo high quality",
+        "Malina casino official logo png",
+        "\"Malina\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:48"
+    },
+    {
+      "slug": "wildrobin-casino",
+      "brand": "WildRobin",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"WildRobin\" casino logo high quality",
+        "WildRobin casino official logo png",
+        "\"WildRobin\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:53"
+    },
+    {
+      "slug": "jet4bet-uk",
+      "brand": "Jet4Bet",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Jet4Bet\" casino logo high quality",
+        "Jet4Bet casino official logo png",
+        "\"Jet4Bet\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:11:57"
+    },
+    {
+      "slug": "vipzino",
+      "brand": "Vipzino",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Vipzino\" casino logo high quality",
+        "Vipzino casino official logo png",
+        "\"Vipzino\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:02"
+    },
+    {
+      "slug": "rolling-slots",
+      "brand": "Rolling",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Rolling\" casino logo high quality",
+        "Rolling casino official logo png",
+        "\"Rolling\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:07"
+    },
+    {
+      "slug": "spinmama",
+      "brand": "SpinMama",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"SpinMama\" casino logo high quality",
+        "SpinMama casino official logo png",
+        "\"SpinMama\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:11"
+    },
+    {
+      "slug": "wild-robin",
+      "brand": "Wild Robin",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Wild Robin\" casino logo high quality",
+        "Wild Robin casino official logo png",
+        "\"Wild Robin\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:16"
+    },
+    {
+      "slug": "spellwin-uk-v2",
+      "brand": "SpellWin UK",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"SpellWin UK\" casino logo high quality",
+        "SpellWin UK casino official logo png",
+        "\"SpellWin UK\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:20"
+    },
+    {
+      "slug": "the-red",
+      "brand": "The Red",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"The Red\" casino logo high quality",
+        "The Red casino official logo png",
+        "\"The Red\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:25"
+    },
+    {
+      "slug": "london-casino",
+      "brand": "London",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"London\" casino logo high quality",
+        "London casino official logo png",
+        "\"London\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:29"
+    },
+    {
+      "slug": "vegas-nova",
+      "brand": "Vegas Nova",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Vegas Nova\" casino logo high quality",
+        "Vegas Nova casino official logo png",
+        "\"Vegas Nova\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:34"
+    },
+    {
+      "slug": "winshark",
+      "brand": "Winshark",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Winshark\" casino logo high quality",
+        "Winshark casino official logo png",
+        "\"Winshark\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:38"
+    },
+    {
+      "slug": "tiki-casino",
+      "brand": "Tiki",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Tiki\" casino logo high quality",
+        "Tiki casino official logo png",
+        "\"Tiki\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:43"
+    },
+    {
+      "slug": "instaspin",
+      "brand": "InstaSpin",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"InstaSpin\" casino logo high quality",
+        "InstaSpin casino official logo png",
+        "\"InstaSpin\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:47"
+    },
+    {
+      "slug": "lyrabet-gr-v2",
+      "brand": "LyraBet GR",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"LyraBet GR\" casino logo high quality",
+        "LyraBet GR casino official logo png",
+        "\"LyraBet GR\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:52"
+    },
+    {
+      "slug": "pistolo-casino",
+      "brand": "Pistolo",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Pistolo\" casino logo high quality",
+        "Pistolo casino official logo png",
+        "\"Pistolo\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:12:56"
+    },
+    {
+      "slug": "spingranny-at",
+      "brand": "SpinGranny",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"SpinGranny\" casino logo high quality",
+        "SpinGranny casino official logo png",
+        "\"SpinGranny\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:01"
+    },
+    {
+      "slug": "treasure-spins",
+      "brand": "Treasure",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Treasure\" casino logo high quality",
+        "Treasure casino official logo png",
+        "\"Treasure\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:05"
+    },
+    {
+      "slug": "spinlander-uk-v2",
+      "brand": "SpinLander UK",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"SpinLander UK\" casino logo high quality",
+        "SpinLander UK casino official logo png",
+        "\"SpinLander UK\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:10"
+    },
+    {
+      "slug": "joker-ace's",
+      "brand": "Joker Ace",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Joker Ace\" casino logo high quality",
+        "Joker Ace casino official logo png",
+        "\"Joker Ace\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:14"
+    },
+    {
+      "slug": "needforspeed-se-v2",
+      "brand": "NeedForSpeed SE",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"NeedForSpeed SE\" casino logo high quality",
+        "NeedForSpeed SE casino official logo png",
+        "\"NeedForSpeed SE\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:19"
+    },
+    {
+      "slug": "orionsbet-uk-v2",
+      "brand": "Orionsbet UK",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Orionsbet UK\" casino logo high quality",
+        "Orionsbet UK casino official logo png",
+        "\"Orionsbet UK\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:23"
+    },
+    {
+      "slug": "ivybetio",
+      "brand": "Ivybet io",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Ivybet io\" casino logo high quality",
+        "Ivybet io casino official logo png",
+        "\"Ivybet io\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:28"
+    },
+    {
+      "slug": "ritzo-casino",
+      "brand": "Ritzo",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Ritzo\" casino logo high quality",
+        "Ritzo casino official logo png",
+        "\"Ritzo\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:33"
+    },
+    {
+      "slug": "spingranny",
+      "brand": "SpinGranny",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"SpinGranny\" casino logo high quality",
+        "SpinGranny casino official logo png",
+        "\"SpinGranny\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:37"
+    },
+    {
+      "slug": "posido",
+      "brand": "Posido",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Posido\" casino logo high quality",
+        "Posido casino official logo png",
+        "\"Posido\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:42"
+    },
+    {
+      "slug": "lucky-wand",
+      "brand": "Lucky Wand",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Lucky Wand\" casino logo high quality",
+        "Lucky Wand casino official logo png",
+        "\"Lucky Wand\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:46"
+    },
+    {
+      "slug": "spingranny-cz",
+      "brand": "SpinGranny",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"SpinGranny\" casino logo high quality",
+        "SpinGranny casino official logo png",
+        "\"SpinGranny\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:51"
+    },
+    {
+      "slug": "vincispin",
+      "brand": "VinciSpin",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"VinciSpin\" casino logo high quality",
+        "VinciSpin casino official logo png",
+        "\"VinciSpin\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:13:55"
+    },
+    {
+      "slug": "klikki-casino",
+      "brand": "Klikki",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Klikki\" casino logo high quality",
+        "Klikki casino official logo png",
+        "\"Klikki\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:00"
+    },
+    {
+      "slug": "slotit-de",
+      "brand": "Slotit",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Slotit\" casino logo high quality",
+        "Slotit casino official logo png",
+        "\"Slotit\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:04"
+    },
+    {
+      "slug": "lyrabet-be-v2",
+      "brand": "LyraBet BE",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"LyraBet BE\" casino logo high quality",
+        "LyraBet BE casino official logo png",
+        "\"LyraBet BE\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:09"
+    },
+    {
+      "slug": "robocat-de",
+      "brand": "Robocat",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Robocat\" casino logo high quality",
+        "Robocat casino official logo png",
+        "\"Robocat\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:13"
+    },
+    {
+      "slug": "spins-deluxe",
+      "brand": "Spins",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Spins\" casino logo high quality",
+        "Spins casino official logo png",
+        "\"Spins\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:18"
+    },
+    {
+      "slug": "instant-casino",
+      "brand": "Instant",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Instant\" casino logo high quality",
+        "Instant casino official logo png",
+        "\"Instant\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:22"
+    },
+    {
+      "slug": "golden-panda",
+      "brand": "Golden Panda",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Golden Panda\" casino logo high quality",
+        "Golden Panda casino official logo png",
+        "\"Golden Panda\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:27"
+    },
+    {
+      "slug": "magius-casino",
+      "brand": "Magius",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Magius\" casino logo high quality",
+        "Magius casino official logo png",
+        "\"Magius\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:31"
+    },
+    {
+      "slug": "romibet-fr-v2",
+      "brand": "RomiBet FR",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"RomiBet FR\" casino logo high quality",
+        "RomiBet FR casino official logo png",
+        "\"RomiBet FR\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:36"
+    },
+    {
+      "slug": "ultimluck-casino",
+      "brand": "Ultimluck",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Ultimluck\" casino logo high quality",
+        "Ultimluck casino official logo png",
+        "\"Ultimluck\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:40"
+    },
+    {
+      "slug": "slots-islands",
+      "brand": "Slots Islands",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Slots Islands\" casino logo high quality",
+        "Slots Islands casino official logo png",
+        "\"Slots Islands\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:45"
+    },
+    {
+      "slug": "rich-royal",
+      "brand": "Rich Royal",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Rich Royal\" casino logo high quality",
+        "Rich Royal casino official logo png",
+        "\"Rich Royal\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:49"
+    },
+    {
+      "slug": "royal-game",
+      "brand": "Royal",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Royal\" casino logo high quality",
+        "Royal casino official logo png",
+        "\"Royal\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:54"
+    },
+    {
+      "slug": "lucky-gem",
+      "brand": "Lucky Gem",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Lucky Gem\" casino logo high quality",
+        "Lucky Gem casino official logo png",
+        "\"Lucky Gem\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:14:58"
+    },
+    {
+      "slug": "pirate-spins",
+      "brand": "Pirate",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Pirate\" casino logo high quality",
+        "Pirate casino official logo png",
+        "\"Pirate\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:03"
+    },
+    {
+      "slug": "needforspeed-es-v2",
+      "brand": "NeedForSpeed ES",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"NeedForSpeed ES\" casino logo high quality",
+        "NeedForSpeed ES casino official logo png",
+        "\"NeedForSpeed ES\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:07"
+    },
+    {
+      "slug": "wild-tokyo",
+      "brand": "Wild Tokyo",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Wild Tokyo\" casino logo high quality",
+        "Wild Tokyo casino official logo png",
+        "\"Wild Tokyo\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:12"
+    },
+    {
+      "slug": "36-hight",
+      "brand": "36 Hight",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"36 Hight\" casino logo high quality",
+        "36 Hight casino official logo png",
+        "\"36 Hight\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:16"
+    },
+    {
+      "slug": "hello-fortune",
+      "brand": "Hello Fortune",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Hello Fortune\" casino logo high quality",
+        "Hello Fortune casino official logo png",
+        "\"Hello Fortune\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:21"
+    },
+    {
+      "slug": "needforspeed-fi-v2",
+      "brand": "NeedForSpeed FI",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"NeedForSpeed FI\" casino logo high quality",
+        "NeedForSpeed FI casino official logo png",
+        "\"NeedForSpeed FI\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:25"
+    },
+    {
+      "slug": "moana-casino",
+      "brand": "Moana",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"Moana\" casino logo high quality",
+        "Moana casino official logo png",
+        "\"Moana\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:30"
+    },
+    {
+      "slug": "prontobet-au",
+      "brand": "ProntoBet",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"ProntoBet\" casino logo high quality",
+        "ProntoBet casino official logo png",
+        "\"ProntoBet\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:34"
+    },
+    {
+      "slug": "11croc-at-v2",
+      "brand": "11Croc AT",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"11Croc AT\" casino logo high quality",
+        "11Croc AT casino official logo png",
+        "\"11Croc AT\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:39"
+    },
+    {
+      "slug": "11croc-de-v2",
+      "brand": "11Croc DE",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"11Croc DE\" casino logo high quality",
+        "11Croc DE casino official logo png",
+        "\"11Croc DE\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:43"
+    },
+    {
+      "slug": "allspins",
+      "brand": "AllSpins",
+      "status": "FAILED",
+      "queries_tried": [
+        "\"AllSpins\" casino logo high quality",
+        "AllSpins casino official logo png",
+        "\"AllSpins\" gambling logo"
+      ],
+      "timestamp": "2025-09-28 22:15:48"
+    }
+  ],
+  "ultra_session": {
+    "timestamp": "2025-09-28 22:15:49",
+    "duration": 357.4761691093445,
+    "version": "Ultra Smart Logo Finder v3.0",
+    "ultra_success_rate": 0.0
+  }
+}

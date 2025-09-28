@@ -1,0 +1,78 @@
+{
+  "requestsFinished": 47,
+  "requestsFailed": 32,
+  "requestsRetries": 32,
+  "requestsFailedPerMinute": 10,
+  "requestsFinishedPerMinute": 15,
+  "requestMinDurationMillis": 311,
+  "requestMaxDurationMillis": 6026,
+  "requestTotalFailedDurationMillis": 26960,
+  "requestTotalFinishedDurationMillis": 114925,
+  "crawlerStartedAt": "2025-09-28T19:57:40.367Z",
+  "crawlerFinishedAt": "2025-09-28T20:00:45.506Z",
+  "statsPersistedAt": "2025-09-28T20:00:45.506Z",
+  "crawlerRuntimeMillis": 185508,
+  "crawlerLastStartTimestamp": 1759089459998,
+  "requestRetryHistogram": [
+    47,
+    null,
+    null,
+    32
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 843,
+  "requestAvgFinishedDurationMillis": 2445,
+  "requestTotalDurationMillis": 141885,
+  "requestsTotal": 79,
+  "requestsWithStatusCode": {
+    "200": 44,
+    "403": 64,
+    "404": 3
+  },
+  "errors": {
+    "C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@crawlee\\basic\\internals\\basic-crawler.js:899:19": {
+      "missing error code": {
+        "Error": {
+          "Request blocked - received 403 status code.": {
+            "count": 16
+          }
+        }
+      }
+    },
+    "C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@crawlee\\playwright\\internals\\utils\\playwright-utils.js:166:17": {
+      "missing error code": {
+        "Error": {
+          "page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://www.klikkicasino.com/": {
+            "count": 1
+          },
+          "page.goto: net::ERR_EMPTY_RESPONSE at _": {
+            "count": 15
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@crawlee\\basic\\internals\\basic-crawler.js:899:19": {
+      "missing error code": {
+        "Error": {
+          "Request blocked - received 403 status code.": {
+            "count": 48
+          }
+        }
+      }
+    },
+    "C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@crawlee\\playwright\\internals\\utils\\playwright-utils.js:166:17": {
+      "missing error code": {
+        "Error": {
+          "page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://www.klikkicasino.com/": {
+            "count": 3
+          },
+          "page.goto: net::ERR_EMPTY_RESPONSE at _": {
+            "count": 45
+          }
+        }
+      }
+    }
+  }
+}

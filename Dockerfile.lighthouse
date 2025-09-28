@@ -1,0 +1,15 @@
+# Dockerfile for running Lighthouse in a container
+FROM node:20-bullseye-slim
+
+# Install Chromium for Lighthouse
+RUN apt-get update && apt-get install -y chromium && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /usr/src/lighthouse
+
+# Copy package manifest so npm ci can install lighthouse
+COPY package.json package-lock.json* ./
+
+RUN npm ci --only=development || npm install
+
+# Default command runs lighthouse against the dev service
+CMD ["npx","lighthouse","http://dev:3000","--output","html","--output-path","/reports/lighthouse.html","--chrome-flags=--no-sandbox"]

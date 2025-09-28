@@ -1,0 +1,9 @@
+{
+	"id": "tVayNcNZbKyTr2M",
+	"json": "{\"id\":\"tVayNcNZbKyTr2M\",\"url\":\"https://www.slotsislands.com\",\"loadedUrl\":\"https://slotsislands2.com/home\",\"uniqueKey\":\"https://www.slotsislands.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"slots-islands\",\"brand\":\"Slots Islands\",\"url\":\"https://www.slotsislands.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"DE\",\"FR\",\"IT\"],\"providers\":[\"Pragmatic Play\",\"Evolution Gaming\",\"Play'n GO\",\"BGaming\",\"Hacksaw Gaming\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Cryptocurrency\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"$1000 + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":1000}},\"safety\":{\"yearsOnline\":2,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[\"Check T&Cs carefully\"]},\"ratings\":{\"security\":8.5,\"fairness\":8.36,\"payout\":8.5,\"bonusValue\":7.9799999999999995,\"games\":10,\"support\":8.36,\"reputation\":8},\"topTags\":[\"Quick withdrawals\",\"Great game variety\",\"Crypto-friendly\"],\"logo\":{\"url\":\"https://d3tmpsuhcgf0q8.cloudfront.net/Slots%20Islands/logo/Slots%20Islands%20animation.gif\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"606x260\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T20:00:12.642Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.slotsislands.com",
+	"url": "https://www.slotsislands.com"
+}

@@ -1,0 +1,34 @@
+---
+interface SupportChannel {
+  icon: string;
+  title: string;
+  description: string;
+  bgColor: string;
+}
+
+interface Props {
+  supportChannels: SupportChannel[];
+}
+
+const { supportChannels } = Astro.props;
+---
+
+<section id="support" class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">24/7 Expert Support</h2>
+      <p class="text-lg text-gray-600">Get help from our casino experts anytime</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {supportChannels.map(channel => (
+        <div class="text-center p-6 bg-white rounded-2xl shadow-sm">
+          <div class={`w-16 h-16 ${channel.bgColor} rounded-full mx-auto mb-4 flex items-center justify-center text-2xl`}>
+            {channel.icon}
+          </div>
+          <h3 class="font-bold text-lg text-gray-900 mb-2">{channel.title}</h3>
+          <p class="text-gray-600">{channel.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,600 @@
+[
+  {
+    "casino": "winitbet",
+    "source": "direct",
+    "logoUrl": "https://d3tmpsuhcgf0q8.cloudfront.net/winit/logo/Winit%20logo%20animation.gif",
+    "quality": "high",
+    "dimensions": "200x100"
+  },
+  {
+    "casino": "samba-slots",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://www.sambaslots.com/wp-content/uploads/2025/08/logo-sambaslots.svg",
+    "quality": "high",
+    "dimensions": "100x46",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "slotlair-uk-v2",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://slotlair.co.uk/wp-content/uploads/2025/06/slot-lair-banner.png",
+    "quality": "high",
+    "dimensions": "274x80",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "sagaspins-uk-v2",
+    "source": "direct",
+    "logoUrl": "https://sagaspins22.com/static/logo-F55pWukx.svg",
+    "quality": "high",
+    "dimensions": "79x44"
+  },
+  {
+    "casino": "trino",
+    "source": "direct",
+    "logoUrl": "https://trinocasino.com/images/loader-logo.webp",
+    "quality": "high",
+    "dimensions": "599x268"
+  },
+  {
+    "casino": "skyhills-nl-v2",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://www.skyhills.com/cdn/system/logos/c281faa8-1491-47f3-8d4d-6be43cb96db9.png?ts=1732544235339",
+    "quality": "high",
+    "dimensions": "800x800",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "kings-chip",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://d3tmpsuhcgf0q8.cloudfront.net/The%20Kings%20chip/KingsChip%20logo%20motion.gif",
+    "quality": "high",
+    "dimensions": "450x250",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "jackpot-raider",
+    "source": "direct",
+    "logoUrl": "https://cdn.jackpotstatic.com/images/file/uploads/257381383817198978.svg",
+    "quality": "high",
+    "dimensions": "120x40"
+  },
+  {
+    "casino": "lucki-casino",
+    "source": "direct",
+    "logoUrl": "https://www.lucki.com/img/logo.jpg",
+    "quality": "high",
+    "dimensions": "253x75"
+  },
+  {
+    "casino": "vegas-nova",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://cms-cdn.vegasnova-tec.com/vegasnova-cms/logo_M_4663880080_7a0e345a9f.svg",
+    "quality": "high",
+    "dimensions": "168x40",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "lyrabet-gr-v2",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://lyrabet.gr/images/logo.svg",
+    "quality": "high",
+    "dimensions": "150x70",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "pistolo-casino",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://pistolocasino.com/wp-content/uploads/sites/52/2025/03/Pistolo-Casino-Main-Logo.svg",
+    "quality": "high",
+    "dimensions": "215x75",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "treasure-spins",
+    "source": "direct",
+    "logoUrl": "https://treasurespins.com/static/logo-CCrUGZkN.svg",
+    "quality": "high",
+    "dimensions": "168x40"
+  },
+  {
+    "casino": "orionsbet-uk-v2",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://orionsbet.co.uk/wp-content/uploads/2025/08/orionsbet-light-logo.webp",
+    "quality": "high",
+    "dimensions": "210x76",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "vincispin",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://cdn.vincistatic.com/images/file/uploads/258168549164468837.svg",
+    "quality": "high",
+    "dimensions": "303x81",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "slotit-de",
+    "source": "direct",
+    "logoUrl": "https://www.bernd-hendl.com/bilder/bernd-hendl/instagram-logo-invers.svg",
+    "quality": "high",
+    "dimensions": "150x150"
+  },
+  {
+    "casino": "robocat-de",
+    "source": "direct",
+    "logoUrl": "https://www.domainmarkt.de/images/logo.gif",
+    "quality": "high",
+    "dimensions": "276x63"
+  },
+  {
+    "casino": "spins-deluxe",
+    "source": "direct",
+    "logoUrl": "https://www.spinsdeluxe.com/images/spinsdeluxe//logo.png",
+    "quality": "high",
+    "dimensions": "600x218"
+  },
+  {
+    "casino": "instant-casino",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://www.instantcasino.com/wp-content/uploads/2025/07/logo-new.svg",
+    "quality": "high",
+    "dimensions": "180x31",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "golden-panda",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://www.goldenpanda.com/wp-content/uploads/2025/07/footer-logo.svg",
+    "quality": "high",
+    "dimensions": "176x33",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "magius-casino",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://magiuscasino.com/images/logo.png",
+    "quality": "high",
+    "dimensions": "290x116",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "royal-game",
+    "source": "direct",
+    "logoUrl": "https://kingcare.zendesk.com/hc/theming_assets/01HZM49HFHV9Q48SJEZ7W59YNQ",
+    "quality": "high",
+    "dimensions": "337x250"
+  },
+  {
+    "casino": "slots-islands",
+    "source": "direct",
+    "logoUrl": "https://d3tmpsuhcgf0q8.cloudfront.net/Slots%20Islands/logo/Slots%20Islands%20animation.gif",
+    "quality": "high",
+    "dimensions": "606x260"
+  },
+  {
+    "casino": "hello-fortune",
+    "source": "direct",
+    "logoUrl": "https://d3tmpsuhcgf0q8.cloudfront.net/Hello%20Fortune/Logo/Hello%20furtune%20logo%20animation.gif",
+    "quality": "high",
+    "dimensions": "450x300"
+  },
+  {
+    "casino": "moana-casino",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://moana-casino.com/wp-content/uploads/sites/63/2025/03/Moana-Casino-Logo.svg",
+    "quality": "high",
+    "dimensions": "215x75",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "lucky-hunter",
+    "source": "clearbit-api",
+    "logoUrl": "https://logo.clearbit.com/luckyhunter.io",
+    "quality": "medium",
+    "confidence": "high"
+  },
+  {
+    "casino": "aerobet",
+    "source": "clearbit-api",
+    "logoUrl": "https://logo.clearbit.com/aerobet.com",
+    "quality": "medium",
+    "confidence": "high"
+  },
+  {
+    "casino": "my-empire",
+    "source": "clearbit-api",
+    "logoUrl": "https://logo.clearbit.com/myempire.com",
+    "quality": "medium",
+    "confidence": "high"
+  },
+  {
+    "casino": "spincastle-uk-v2",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://spincastle.com/wp-content/uploads/2025/03/SPINCASTLEE-unscreen.gif",
+    "quality": "high",
+    "dimensions": "400x225",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "malina-casino",
+    "source": "clearbit-api",
+    "logoUrl": "https://logo.clearbit.com/malinacasino.com",
+    "quality": "medium",
+    "confidence": "high"
+  },
+  {
+    "casino": "wild-tokyo",
+    "source": "clearbit-api",
+    "logoUrl": "https://logo.clearbit.com/wildtokyo.com",
+    "quality": "medium",
+    "confidence": "high"
+  },
+  {
+    "casino": "spellwin",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=spellwin.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "unlimluck-hb-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=unlimluck.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "mr-pacho",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=mrpacho.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "larabet",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=larabet.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "willdsino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=willdsino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "wonthere-uk-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=wonthere.co.uk&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "rizz-casino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rizzcasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "n1-bet-casino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=n1bet.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "romibet-es-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=romibet.es&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "roman-casino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=romancasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "winrolla",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=winrolla.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "rollxo",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rollxo.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "wildrobin-casino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=wildrobincasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "jet4bet-uk",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=jet4bet.co.uk&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "vipzino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=vipzino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "rolling-slots",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=rollingslots.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "spinmama",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=spinmama.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "wild-robin",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=wildrobin.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "spellwin-uk-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=spellwin.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "the-red",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=theredcasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "london-casino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=londoncasino.co.uk&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "winshark",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=winshark.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "tiki-casino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=tikicasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "instaspin",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=instaspin.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "spingranny-at",
+    "source": "geo-aware-smart",
+    "logoUrl": "https://spingranny.at/build/8lzoa5tf104x/spingranny.webp",
+    "quality": "high",
+    "dimensions": "900x355",
+    "geoAware": true,
+    "country": "CA",
+    "brandRelevance": 15
+  },
+  {
+    "casino": "spinlander-uk-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=spinlander.co.uk&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "joker-ace's",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=jokeraces.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "needforspeed-se-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=se.needforspeedcasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "ivybetio",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ivybet.io&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "ritzo-casino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ritzocasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "spingranny",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=spingranny.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "posido",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=posido.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "lucky-wand",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=luckywandcasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "spingranny-cz",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=spingranny.cz&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "klikki-casino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=klikkicasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "lyrabet-be-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=lyrabet.be&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "romibet-fr-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=romibet.fr&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "ultimluck-casino",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=ultimluck.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "rich-royal",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=richroyal.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "lucky-gem",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=luckygemcasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "pirate-spins",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=piratespins.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "needforspeed-es-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=es.needforspeedcasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "36-hight",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=36hight.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "needforspeed-fi-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=fi.needforspeedcasino.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "prontobet-au",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=prontobet.com.au&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "11croc-at-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=11croc.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "11croc-de-v2",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=11croc.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  },
+  {
+    "casino": "allspins",
+    "source": "google-favicon-fallback",
+    "logoUrl": "https://www.google.com/s2/favicons?domain=allspins.com&sz=64",
+    "quality": "basic",
+    "confidence": "low"
+  }
+]

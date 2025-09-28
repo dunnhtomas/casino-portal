@@ -1,0 +1,17 @@
+---
+import TopList from '../../components/Lists/TopList.astro';
+import casinos from '../../../data/casinos.json';
+const list = casinos.filter(c=> true); // placeholder: filter real money criteria
+---
+<html>
+  <head>
+    <title>Best Real Money Casinos — BestCasinoPortal</title>
+  </head>
+  <body>
+    <main>
+      <h1>Best Real Money</h1>
+      <p class="text-sm text-gray-600">Top rated casinos for real-money play.</p>
+      <TopList items={list} />
+    </main>
+  </body>
+</html>

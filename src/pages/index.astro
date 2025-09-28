@@ -1,0 +1,75 @@
+---
+import { IndexPageViewModel } from '../viewmodels/IndexPageViewModel';
+import PageLayout from '../components/Layout/PageLayout.astro';
+import Hero from '../components/Sections/Hero.astro';
+import Benefits from '../components/Sections/Benefits.astro';
+import TopThree from '../components/Sections/TopThree.astro';
+import QuickFilters from '../components/Sections/QuickFilters.astro';
+import ComparisonTable from '../components/Sections/ComparisonTableSimple.astro';
+import CategoryTiles from '../components/Sections/CategoryTiles.astro';
+import WhyWeRecommend from '../components/Sections/WhyWeRecommend.astro';
+import FastPayoutSpotlight from '../components/Sections/FastPayoutSpotlight.astro';
+import RegionHubs from '../components/Sections/RegionHubs.astro';
+import PopularSlots from '../components/Sections/PopularSlots.astro';
+import BankingMethods from '../components/Sections/BankingMethods.astro';
+import ExpertTeamSection from '../components/Sections/ExpertTeamSection.astro';
+import SupportChannelsSection from '../components/Sections/SupportChannelsSection.astro';
+import FAQSection from '../components/Sections/FAQSection.astro';
+
+// Import Tailwind CSS
+import '../styles/tailwind.css';
+import '../styles/casino-enhancements.css';
+
+// Initialize ViewModel and get all page data
+const viewModel = new IndexPageViewModel();
+const pageData = await viewModel.getPageData();
+---
+
+<PageLayout 
+  seoMetadata={pageData.seoMetadata}
+  schemaMarkup={pageData.schemaMarkup}
+  navigation={pageData.navigation}
+  affiliateDisclosure={pageData.content.affiliateDisclosure}
+>
+  <!-- Hero Section -->
+  <Hero />
+  
+  <!-- Benefits Overview -->
+  <Benefits />
+  
+  <!-- Top 3 Casino Recommendations -->
+  <TopThree />
+  
+  <!-- Quick Filters -->
+  <QuickFilters />
+  
+  <!-- Comparison Table -->
+  <ComparisonTable />
+  
+  <!-- Category Navigation Tiles -->
+  <CategoryTiles />
+  
+  <!-- Why We Recommend Section -->
+  <WhyWeRecommend />
+  
+  <!-- Fast Payout Spotlight -->
+  <FastPayoutSpotlight />
+  
+  <!-- Regional Hubs -->
+  <RegionHubs />
+  
+  <!-- Popular Slots Preview -->
+  <PopularSlots />
+  
+  <!-- Banking Methods -->
+  <BankingMethods />
+  
+  <!-- Expert Team -->
+  <ExpertTeamSection expertTeam={pageData.content.expertTeam} />
+  
+  <!-- Support Channels -->
+  <SupportChannelsSection supportChannels={pageData.content.supportChannels} />
+  
+  <!-- FAQ Section -->
+  <FAQSection faqItems={pageData.content.faqItems} />
+</PageLayout>

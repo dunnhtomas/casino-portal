@@ -1,0 +1,16 @@
+---
+import FAQ from '../RichText/FAQ';
+
+interface Props {
+  faqItems: any[];
+}
+
+const { faqItems } = Astro.props;
+---
+
+<section id="faq" class="py-16 bg-white">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions</h2>
+    <FAQ client:load items={faqItems} />
+  </div>
+</section>

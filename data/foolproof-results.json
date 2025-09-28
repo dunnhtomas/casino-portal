@@ -1,0 +1,406 @@
+{
+  "stats": {
+    "total": 79,
+    "successful": 0,
+    "failed": 79,
+    "start_time": 1759086636.8905663
+  },
+  "results": [
+    {
+      "slug": "spellwin",
+      "brand": "SpellWin",
+      "status": "FAILED"
+    },
+    {
+      "slug": "winitbet",
+      "brand": "Winit",
+      "status": "FAILED"
+    },
+    {
+      "slug": "unlimluck-hb-v2",
+      "brand": "UnlimLuck",
+      "status": "FAILED"
+    },
+    {
+      "slug": "mr-pacho",
+      "brand": "Mr Pacho",
+      "status": "FAILED"
+    },
+    {
+      "slug": "larabet",
+      "brand": "Larabet",
+      "status": "FAILED"
+    },
+    {
+      "slug": "slotlair-uk-v2",
+      "brand": "Slotlair UK",
+      "status": "FAILED"
+    },
+    {
+      "slug": "sagaspins-uk-v2",
+      "brand": "SagaSpins UK",
+      "status": "FAILED"
+    },
+    {
+      "slug": "samba-slots",
+      "brand": "Samba",
+      "status": "FAILED"
+    },
+    {
+      "slug": "willdsino",
+      "brand": "Willdsino",
+      "status": "FAILED"
+    },
+    {
+      "slug": "trino",
+      "brand": "Trino",
+      "status": "FAILED"
+    },
+    {
+      "slug": "skyhills-nl-v2",
+      "brand": "SkyHills NL",
+      "status": "FAILED"
+    },
+    {
+      "slug": "wonthere-uk-v2",
+      "brand": "WonThere UK",
+      "status": "FAILED"
+    },
+    {
+      "slug": "lucky-hunter",
+      "brand": "Lucky Hunter",
+      "status": "FAILED"
+    },
+    {
+      "slug": "rizz-casino",
+      "brand": "Rizz",
+      "status": "FAILED"
+    },
+    {
+      "slug": "n1-bet-casino",
+      "brand": "N1 Bet",
+      "status": "FAILED"
+    },
+    {
+      "slug": "aerobet",
+      "brand": "Aerobet",
+      "status": "FAILED"
+    },
+    {
+      "slug": "kings-chip",
+      "brand": "Kings Chip",
+      "status": "FAILED"
+    },
+    {
+      "slug": "my-empire",
+      "brand": "My Empire",
+      "status": "FAILED"
+    },
+    {
+      "slug": "romibet-es-v2",
+      "brand": "RomiBet ES",
+      "status": "FAILED"
+    },
+    {
+      "slug": "spincastle-uk-v2",
+      "brand": "SpinCastle UK",
+      "status": "FAILED"
+    },
+    {
+      "slug": "roman-casino",
+      "brand": "Roman",
+      "status": "FAILED"
+    },
+    {
+      "slug": "winrolla",
+      "brand": "WinRolla",
+      "status": "FAILED"
+    },
+    {
+      "slug": "rollxo",
+      "brand": "RollXO",
+      "status": "FAILED"
+    },
+    {
+      "slug": "jackpot-raider",
+      "brand": "Jackpot Raider",
+      "status": "FAILED"
+    },
+    {
+      "slug": "lucki-casino",
+      "brand": "Lucki",
+      "status": "FAILED"
+    },
+    {
+      "slug": "malina-casino",
+      "brand": "Malina",
+      "status": "FAILED"
+    },
+    {
+      "slug": "wildrobin-casino",
+      "brand": "WildRobin",
+      "status": "FAILED"
+    },
+    {
+      "slug": "jet4bet-uk",
+      "brand": "Jet4Bet",
+      "status": "FAILED"
+    },
+    {
+      "slug": "vipzino",
+      "brand": "Vipzino",
+      "status": "FAILED"
+    },
+    {
+      "slug": "rolling-slots",
+      "brand": "Rolling",
+      "status": "FAILED"
+    },
+    {
+      "slug": "spinmama",
+      "brand": "SpinMama",
+      "status": "FAILED"
+    },
+    {
+      "slug": "wild-robin",
+      "brand": "Wild Robin",
+      "status": "FAILED"
+    },
+    {
+      "slug": "spellwin-uk-v2",
+      "brand": "SpellWin UK",
+      "status": "FAILED"
+    },
+    {
+      "slug": "the-red",
+      "brand": "The Red",
+      "status": "FAILED"
+    },
+    {
+      "slug": "london-casino",
+      "brand": "London",
+      "status": "FAILED"
+    },
+    {
+      "slug": "vegas-nova",
+      "brand": "Vegas Nova",
+      "status": "FAILED"
+    },
+    {
+      "slug": "winshark",
+      "brand": "Winshark",
+      "status": "FAILED"
+    },
+    {
+      "slug": "tiki-casino",
+      "brand": "Tiki",
+      "status": "FAILED"
+    },
+    {
+      "slug": "instaspin",
+      "brand": "InstaSpin",
+      "status": "FAILED"
+    },
+    {
+      "slug": "lyrabet-gr-v2",
+      "brand": "LyraBet GR",
+      "status": "FAILED"
+    },
+    {
+      "slug": "pistolo-casino",
+      "brand": "Pistolo",
+      "status": "FAILED"
+    },
+    {
+      "slug": "spingranny-at",
+      "brand": "SpinGranny",
+      "status": "FAILED"
+    },
+    {
+      "slug": "treasure-spins",
+      "brand": "Treasure",
+      "status": "FAILED"
+    },
+    {
+      "slug": "spinlander-uk-v2",
+      "brand": "SpinLander UK",
+      "status": "FAILED"
+    },
+    {
+      "slug": "joker-ace's",
+      "brand": "Joker Ace",
+      "status": "FAILED"
+    },
+    {
+      "slug": "needforspeed-se-v2",
+      "brand": "NeedForSpeed SE",
+      "status": "FAILED"
+    },
+    {
+      "slug": "orionsbet-uk-v2",
+      "brand": "Orionsbet UK",
+      "status": "FAILED"
+    },
+    {
+      "slug": "ivybetio",
+      "brand": "Ivybet io",
+      "status": "FAILED"
+    },
+    {
+      "slug": "ritzo-casino",
+      "brand": "Ritzo",
+      "status": "FAILED"
+    },
+    {
+      "slug": "spingranny",
+      "brand": "SpinGranny",
+      "status": "FAILED"
+    },
+    {
+      "slug": "posido",
+      "brand": "Posido",
+      "status": "FAILED"
+    },
+    {
+      "slug": "lucky-wand",
+      "brand": "Lucky Wand",
+      "status": "FAILED"
+    },
+    {
+      "slug": "spingranny-cz",
+      "brand": "SpinGranny",
+      "status": "FAILED"
+    },
+    {
+      "slug": "vincispin",
+      "brand": "VinciSpin",
+      "status": "FAILED"
+    },
+    {
+      "slug": "klikki-casino",
+      "brand": "Klikki",
+      "status": "FAILED"
+    },
+    {
+      "slug": "slotit-de",
+      "brand": "Slotit",
+      "status": "FAILED"
+    },
+    {
+      "slug": "lyrabet-be-v2",
+      "brand": "LyraBet BE",
+      "status": "FAILED"
+    },
+    {
+      "slug": "robocat-de",
+      "brand": "Robocat",
+      "status": "FAILED"
+    },
+    {
+      "slug": "spins-deluxe",
+      "brand": "Spins",
+      "status": "FAILED"
+    },
+    {
+      "slug": "instant-casino",
+      "brand": "Instant",
+      "status": "FAILED"
+    },
+    {
+      "slug": "golden-panda",
+      "brand": "Golden Panda",
+      "status": "FAILED"
+    },
+    {
+      "slug": "magius-casino",
+      "brand": "Magius",
+      "status": "FAILED"
+    },
+    {
+      "slug": "romibet-fr-v2",
+      "brand": "RomiBet FR",
+      "status": "FAILED"
+    },
+    {
+      "slug": "ultimluck-casino",
+      "brand": "Ultimluck",
+      "status": "FAILED"
+    },
+    {
+      "slug": "slots-islands",
+      "brand": "Slots Islands",
+      "status": "FAILED"
+    },
+    {
+      "slug": "rich-royal",
+      "brand": "Rich Royal",
+      "status": "FAILED"
+    },
+    {
+      "slug": "royal-game",
+      "brand": "Royal",
+      "status": "FAILED"
+    },
+    {
+      "slug": "lucky-gem",
+      "brand": "Lucky Gem",
+      "status": "FAILED"
+    },
+    {
+      "slug": "pirate-spins",
+      "brand": "Pirate",
+      "status": "FAILED"
+    },
+    {
+      "slug": "needforspeed-es-v2",
+      "brand": "NeedForSpeed ES",
+      "status": "FAILED"
+    },
+    {
+      "slug": "wild-tokyo",
+      "brand": "Wild Tokyo",
+      "status": "FAILED"
+    },
+    {
+      "slug": "36-hight",
+      "brand": "36 Hight",
+      "status": "FAILED"
+    },
+    {
+      "slug": "hello-fortune",
+      "brand": "Hello Fortune",
+      "status": "FAILED"
+    },
+    {
+      "slug": "needforspeed-fi-v2",
+      "brand": "NeedForSpeed FI",
+      "status": "FAILED"
+    },
+    {
+      "slug": "moana-casino",
+      "brand": "Moana",
+      "status": "FAILED"
+    },
+    {
+      "slug": "prontobet-au",
+      "brand": "ProntoBet",
+      "status": "FAILED"
+    },
+    {
+      "slug": "11croc-at-v2",
+      "brand": "11Croc AT",
+      "status": "FAILED"
+    },
+    {
+      "slug": "11croc-de-v2",
+      "brand": "11Croc DE",
+      "status": "FAILED"
+    },
+    {
+      "slug": "allspins",
+      "brand": "AllSpins",
+      "status": "FAILED"
+    }
+  ],
+  "timestamp": "2025-09-28 22:16:34"
+}

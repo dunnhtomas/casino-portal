@@ -1,0 +1,9 @@
+{
+	"id": "E0H7pFtXzqkKOAg",
+	"json": "{\"id\":\"E0H7pFtXzqkKOAg\",\"url\":\"https://www.jackpotraider.com\",\"loadedUrl\":\"https://jackpotraider.com/not-allowed\",\"uniqueKey\":\"https://www.jackpotraider.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"jackpot-raider\",\"brand\":\"Jackpot Raider\",\"url\":\"https://www.jackpotraider.com\",\"licences\":[\"Malta\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Evolution Gaming\",\"Play'n GO\",\"Pragmatic Play\",\"BTG\"],\"payoutSpeedHours\":36,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"Trustly\",\"MuchBetter\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€1000 + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":1000}},\"safety\":{\"yearsOnline\":2,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":9,\"fairness\":9.46,\"payout\":8.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":8.5},\"topTags\":[\"Quick withdrawals\",\"Premium license\",\"Great game variety\"],\"logo\":{\"url\":\"https://cdn.jackpotstatic.com/images/file/uploads/257381383817198978.svg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"120x40\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:35.972Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.jackpotraider.com",
+	"url": "https://www.jackpotraider.com"
+}

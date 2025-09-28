@@ -1,0 +1,9 @@
+{
+	"id": "rszB1ry0l3mRd5u",
+	"json": "{\"id\":\"rszB1ry0l3mRd5u\",\"url\":\"https://www.jokeraces.com\",\"loadedUrl\":\"https://www.jokeraces.com/\",\"uniqueKey\":\"https://www.jokeraces.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"joker-ace's\",\"brand\":\"Joker Ace's\",\"url\":\"https://www.jokeraces.com\",\"licences\":[\"Curacao\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"ES\",\"IT\"],\"providers\":[\"Pragmatic Play\",\"Play'n GO\",\"Evolution Gaming\",\"Hacksaw Gaming\",\"BGaming\"],\"payoutSpeedHours\":18,\"banking\":[\"Visa\",\"Mastercard\",\"Skrill\",\"Neteller\",\"MiFinity\",\"Crypto\",\"Bank Transfer\"],\"bonuses\":{\"welcome\":{\"headline\":\"€1,000 + 200 FS\",\"wagering\":\"40x\",\"maxCashout\":1}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.02,\"resolvedComplaints\":80,\"termsFlags\":[]},\"ratings\":{\"security\":8.5,\"fairness\":8.8,\"payout\":9.5,\"bonusValue\":8.4,\"games\":10,\"support\":8.8,\"reputation\":8},\"topTags\":[\"Fast payouts\",\"Massive game selection\",\"Live dealer games\"],\"logo\":{\"url\":\"https://www.google.com/s2/favicons?domain=jokeraces.com&sz=64\",\"source\":\"google-favicon-fallback\",\"quality\":\"basic\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:35.575Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.jokeraces.com",
+	"url": "https://www.jokeraces.com"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "D1assiksQujKwoX",
+	"json": "{\"id\":\"D1assiksQujKwoX\",\"url\":\"https://www.vegasnova.com\",\"loadedUrl\":\"https://vegasnova-il.com/\",\"uniqueKey\":\"https://www.vegasnova.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"vegas-nova\",\"brand\":\"Vegas Nova\",\"url\":\"https://www.vegasnova.com\",\"licences\":[\"UK\"],\"restrictedGeos\":[\"US\",\"DE\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"Pragmatic Play\",\"Play'n GO\",\"Evolution Gaming\",\"Red Tiger\",\"Blueprint Gaming\"],\"payoutSpeedHours\":36,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Skrill\",\"Neteller\",\"Apple Pay\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€200 + 50 FS\",\"wagering\":\"35x\",\"maxCashout\":200}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.8,\"fairness\":8.8,\"payout\":8.5,\"bonusValue\":8.4,\"games\":9,\"support\":8.8,\"reputation\":9.3},\"topTags\":[\"Quick withdrawals\",\"Premium license\",\"Mobile app\"],\"logo\":{\"url\":\"https://cms-cdn.vegasnova-tec.com/vegasnova-cms/logo_M_4663880080_7a0e345a9f.svg\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"168x40\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:59:07.518Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.vegasnova.com",
+	"url": "https://www.vegasnova.com"
+}

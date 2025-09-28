@@ -1,0 +1,9 @@
+{
+	"id": "NRL9DgQTACBBViY",
+	"json": "{\"id\":\"NRL9DgQTACBBViY\",\"url\":\"https://www.trinocasino.com\",\"loadedUrl\":\"https://trinocasino.com/\",\"uniqueKey\":\"https://www.trinocasino.com\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"trino\",\"brand\":\"Trino\",\"url\":\"https://www.trinocasino.com\",\"licences\":[\"Malta\"],\"restrictedGeos\":[\"US\",\"UK\",\"FR\",\"IT\",\"ES\"],\"providers\":[\"Microgaming\",\"Evolution Gaming\",\"Red Tiger\",\"Big Time Gaming\",\"Pragmatic Play\"],\"payoutSpeedHours\":24,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Skrill\",\"Neteller\",\"Trustly\",\"Bank Transfer\",\"E-wallets\"],\"bonuses\":{\"welcome\":{\"headline\":\"€1000 + 150 FS\",\"wagering\":\"35x\",\"maxCashout\":1000}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.5,\"fairness\":9.46,\"payout\":9.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":9},\"topTags\":[\"Fast payouts\",\"Premium license\",\"Great game variety\"],\"logo\":{\"url\":\"https://trinocasino.com/images/loader-logo.webp\",\"source\":\"direct\",\"quality\":\"high\",\"dimensions\":\"599x268\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:03.971Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.trinocasino.com",
+	"url": "https://www.trinocasino.com"
+}

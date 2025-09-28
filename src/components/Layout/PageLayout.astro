@@ -1,0 +1,45 @@
+---
+import type { SEOMetadata } from '../../managers/SEOManager';
+import type { SchemaMarkup } from '../../managers/SchemaMarkupManager';
+import type { NavigationItem, FooterSection as FooterSectionData } from '../../coordinators/NavigationCoordinator';
+import HeadMeta from './HeadMeta.astro';
+import HeaderNavigation from './HeaderNavigation.astro';
+import FooterSection from './FooterSection.astro';
+
+interface Props {
+  seoMetadata: SEOMetadata;
+  schemaMarkup: {
+    website: SchemaMarkup;
+    faq: SchemaMarkup;
+    howTo: SchemaMarkup;
+    breadcrumb: SchemaMarkup;
+  };
+  navigation: {
+    main: NavigationItem[];
+    footer: FooterSectionData[];
+  };
+  affiliateDisclosure: string;
+}
+
+const { seoMetadata, schemaMarkup, navigation, affiliateDisclosure } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <HeadMeta seoMetadata={seoMetadata} schemaMarkup={schemaMarkup} />
+  </head>
+  
+  <body class="bg-white text-gray-900 overflow-x-hidden min-h-screen">
+    <HeaderNavigation navigationItems={navigation.main} />
+    
+    <main class="min-h-screen">
+      <slot />
+    </main>
+    
+    <FooterSection footerSections={navigation.footer} affiliateDisclosure={affiliateDisclosure} />
+  </body>
+</html>

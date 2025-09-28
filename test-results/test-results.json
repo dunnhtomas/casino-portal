@@ -1,0 +1,206 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\tamir\\Downloads\\cc23\\playwright.config.ts",
+    "rootDir": "C:/Users/tamir/Downloads/cc23/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "test-results/html-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/test-results.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/tamir/Downloads/cc23/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/tamir/Downloads/cc23/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tamir/Downloads/cc23/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/tamir/Downloads/cc23/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tamir/Downloads/cc23/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/tamir/Downloads/cc23/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tamir/Downloads/cc23/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "C:/Users/tamir/Downloads/cc23/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tamir/Downloads/cc23/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "C:/Users/tamir/Downloads/cc23/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.40.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
+      "stack": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.\n    at TestTypeImpl._currentSuite (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:74:13)\n    at TestTypeImpl._describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:114:24)\n    at Function.describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\transform\\transform.js:275:12)\n    at Object.<anonymous> (C:\\Users\\tamir\\Downloads\\cc23\\tests\\css-debug.spec.ts:8:6)",
+      "location": {
+        "file": "C:\\Users\\tamir\\Downloads\\cc23\\tests\\css-debug.spec.ts",
+        "column": 6,
+        "line": 8
+      },
+      "snippet": "\u001b[90m   at \u001b[39mcss-debug.spec.ts:8\n\n\u001b[0m \u001b[90m  6 |\u001b[39m \u001b[90m */\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Tailwind CSS Debug Tests'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m   \u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
+      "stack": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.\n    at TestTypeImpl._currentSuite (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:74:13)\n    at TestTypeImpl._describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:114:24)\n    at Function.describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\transform\\transform.js:275:12)\n    at Object.<anonymous> (C:\\Users\\tamir\\Downloads\\cc23\\tests\\enhanced-features.spec.ts:3:6)",
+      "location": {
+        "file": "C:\\Users\\tamir\\Downloads\\cc23\\tests\\enhanced-features.spec.ts",
+        "column": 6,
+        "line": 3
+      },
+      "snippet": "\u001b[90m   at \u001b[39menhanced-features.spec.ts:3\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m { test\u001b[33m,\u001b[39m expect } \u001b[36mfrom\u001b[39m \u001b[32m'@playwright/test'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 2 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 3 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Enhanced Casino Features'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m   test(\u001b[32m'should show enhanced top 3 casino cards'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
+      "stack": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.\n    at TestTypeImpl._currentSuite (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:74:13)\n    at TestTypeImpl._describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:114:24)\n    at Function.describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\transform\\transform.js:275:12)\n    at Object.<anonymous> (C:\\Users\\tamir\\Downloads\\cc23\\tests\\enhanced-final-verification.spec.ts:3:6)",
+      "location": {
+        "file": "C:\\Users\\tamir\\Downloads\\cc23\\tests\\enhanced-final-verification.spec.ts",
+        "column": 6,
+        "line": 3
+      },
+      "snippet": "\u001b[90m   at \u001b[39menhanced-final-verification.spec.ts:3\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m { test\u001b[33m,\u001b[39m expect } \u001b[36mfrom\u001b[39m \u001b[32m'@playwright/test'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 2 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 3 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Enhanced Casino Features - FINAL VERIFICATION'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m   test(\u001b[32m'should verify ALL enhanced features are working correctly'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
+      "stack": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.\n    at TestTypeImpl._currentSuite (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:74:13)\n    at TestTypeImpl._describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:114:24)\n    at Function.describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\transform\\transform.js:275:12)\n    at Object.<anonymous> (C:\\Users\\tamir\\Downloads\\cc23\\tests\\enhanced-live-test.spec.ts:3:6)",
+      "location": {
+        "file": "C:\\Users\\tamir\\Downloads\\cc23\\tests\\enhanced-live-test.spec.ts",
+        "column": 6,
+        "line": 3
+      },
+      "snippet": "\u001b[90m   at \u001b[39menhanced-live-test.spec.ts:3\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m { test\u001b[33m,\u001b[39m expect } \u001b[36mfrom\u001b[39m \u001b[32m'@playwright/test'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 2 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 3 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Enhanced Casino Components Live Test'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m   test(\u001b[32m'should verify enhanced casino cards are actually rendering'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: Playwright Test did not expect test.beforeAll() to be called here.\nMost common reasons include:\n- You are calling test.beforeAll() in a configuration file.\n- You are calling test.beforeAll() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
+      "stack": "Error: Playwright Test did not expect test.beforeAll() to be called here.\nMost common reasons include:\n- You are calling test.beforeAll() in a configuration file.\n- You are calling test.beforeAll() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.\n    at TestTypeImpl._currentSuite (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:74:13)\n    at TestTypeImpl._hook (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:159:24)\n    at Function.beforeAll (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\transform\\transform.js:275:12)\n    at Object.<anonymous> (C:\\Users\\tamir\\Downloads\\cc23\\tests\\homepage-audit.spec.ts:14:6)",
+      "location": {
+        "file": "C:\\Users\\tamir\\Downloads\\cc23\\tests\\homepage-audit.spec.ts",
+        "column": 6,
+        "line": 14
+      },
+      "snippet": "\u001b[90m   at \u001b[39mhomepage-audit.spec.ts:14\n\n\u001b[0m \u001b[90m 12 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m \u001b[90m// Ensure screenshots directory exists\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 14 |\u001b[39m test\u001b[33m.\u001b[39mbeforeAll(\u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m   \u001b[36mawait\u001b[39m fs\u001b[33m.\u001b[39mmkdir(\u001b[33mSCREENSHOTS_DIR\u001b[39m\u001b[33m,\u001b[39m { recursive\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
+      "stack": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.\n    at TestTypeImpl._currentSuite (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:74:13)\n    at TestTypeImpl._describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:114:24)\n    at Function.describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\transform\\transform.js:275:12)\n    at Object.<anonymous> (C:\\Users\\tamir\\Downloads\\cc23\\tests\\overflow-detection.spec.ts:8:6)",
+      "location": {
+        "file": "C:\\Users\\tamir\\Downloads\\cc23\\tests\\overflow-detection.spec.ts",
+        "column": 6,
+        "line": 8
+      },
+      "snippet": "\u001b[90m   at \u001b[39moverflow-detection.spec.ts:8\n\n\u001b[0m \u001b[90m  6 |\u001b[39m \u001b[90m */\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Overflow Detection Tests'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m   \u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m   test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'/'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
+      "stack": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.\n    at TestTypeImpl._currentSuite (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:74:13)\n    at TestTypeImpl._describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:114:24)\n    at Function.describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\transform\\transform.js:275:12)\n    at Object.<anonymous> (C:\\Users\\tamir\\Downloads\\cc23\\tests\\react-debug.spec.ts:3:6)",
+      "location": {
+        "file": "C:\\Users\\tamir\\Downloads\\cc23\\tests\\react-debug.spec.ts",
+        "column": 6,
+        "line": 3
+      },
+      "snippet": "\u001b[90m   at \u001b[39mreact-debug.spec.ts:3\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m { test\u001b[33m,\u001b[39m expect } \u001b[36mfrom\u001b[39m \u001b[32m'@playwright/test'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 2 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 3 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'React Component Debug Test'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m   test(\u001b[32m'should debug React component loading with test component'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m     \u001b[90m// Enable console logging\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m     \u001b[36mconst\u001b[39m consoleMessages\u001b[33m:\u001b[39m string[] \u001b[33m=\u001b[39m []\u001b[33m;\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
+      "stack": "Error: Playwright Test did not expect test.describe() to be called here.\nMost common reasons include:\n- You are calling test.describe() in a configuration file.\n- You are calling test.describe() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.\n    at TestTypeImpl._currentSuite (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:74:13)\n    at TestTypeImpl._describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\common\\testType.js:114:24)\n    at Function.describe (C:\\Users\\tamir\\Downloads\\cc23\\node_modules\\@playwright\\test\\node_modules\\playwright\\lib\\transform\\transform.js:275:12)\n    at Object.<anonymous> (C:\\Users\\tamir\\Downloads\\cc23\\tests\\table-debug.spec.ts:3:6)",
+      "location": {
+        "file": "C:\\Users\\tamir\\Downloads\\cc23\\tests\\table-debug.spec.ts",
+        "column": 6,
+        "line": 3
+      },
+      "snippet": "\u001b[90m   at \u001b[39mtable-debug.spec.ts:3\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m { test\u001b[33m,\u001b[39m expect } \u001b[36mfrom\u001b[39m \u001b[32m'@playwright/test'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 2 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 3 |\u001b[39m test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Table Debug Tests'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m   test(\u001b[32m'Debug table width and cell widths'\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 5 |\u001b[39m     \u001b[90m// Set mobile viewport\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39msetViewportSize({ width\u001b[33m:\u001b[39m \u001b[35m375\u001b[39m\u001b[33m,\u001b[39m height\u001b[33m:\u001b[39m \u001b[35m667\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: No tests found",
+      "stack": "Error: No tests found\n"
+    }
+  ],
+  "stats": {
+    "startTime": "2025-09-28T16:39:26.778Z",
+    "duration": 932.3680000000002,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

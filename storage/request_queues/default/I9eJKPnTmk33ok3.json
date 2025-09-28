@@ -1,0 +1,9 @@
+{
+	"id": "I9eJKPnTmk33ok3",
+	"json": "{\"id\":\"I9eJKPnTmk33ok3\",\"url\":\"https://www.spincastle.com/uk\",\"loadedUrl\":\"https://spincastle.com/uk/\",\"uniqueKey\":\"https://www.spincastle.com/uk\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"casino\":{\"slug\":\"spincastle-uk-v2\",\"brand\":\"SpinCastle\",\"url\":\"https://www.spincastle.com/uk\",\"licences\":[\"UK\"],\"restrictedGeos\":[\"US\",\"AU\",\"DE\",\"FR\",\"ES\"],\"providers\":[\"NetEnt\",\"Microgaming\",\"Evolution Gaming\",\"Play'n GO\",\"Yggdrasil\"],\"payoutSpeedHours\":48,\"banking\":[\"Visa\",\"Mastercard\",\"PayPal\",\"Skrill\",\"Neteller\",\"Bank Transfer\",\"E-wallets\",\"Cards\"],\"bonuses\":{\"welcome\":{\"headline\":\"£300 + 50 FS\",\"wagering\":\"40x\",\"maxCashout\":300}},\"safety\":{\"yearsOnline\":4,\"complaintRatio\":0.01,\"resolvedComplaints\":90,\"termsFlags\":[]},\"ratings\":{\"security\":9.5,\"fairness\":9.46,\"payout\":8.5,\"bonusValue\":9,\"games\":10,\"support\":9,\"reputation\":9},\"topTags\":[\"Quick withdrawals\",\"Premium license\",\"Great game variety\"],\"logo\":{\"url\":\"https://logo.clearbit.com/spincastle.com\",\"source\":\"clearbit-api\",\"quality\":\"medium\",\"dimensions\":\"unknown\"}},\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-09-28T19:58:30.016Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.spincastle.com/uk",
+	"url": "https://www.spincastle.com/uk"
+}
