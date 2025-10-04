@@ -19,14 +19,31 @@ const { seoMetadata, schemaMarkup } = Astro.props;
 <title>{seoMetadata.title}</title>
 <meta name="title" content={seoMetadata.title} />
 <meta name="description" content={seoMetadata.description} />
-<meta name="keywords" content={seoMetadata.keywords} />
+<meta name="keywords" content={seoMetadata.keywords.join(', ')} />
 <meta name="robots" content="index, follow" />
 <meta name="language" content="English" />
 <meta name="author" content="BestCasinoPortal" />
 
+<!-- Dark Mode Support -->
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#1f2937" media="(prefers-color-scheme: dark)" />
+<meta name="color-scheme" content="light dark" />
+
+<!-- Mobile Optimizations -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="mobile-web-app-capable" content="yes" />
+
+<!-- Performance Hints -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="dns-prefetch" href="https://images.unsplash.com" />
+<link rel="dns-prefetch" href="https://api.casino-analytics.com" />
+
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta property="og:url" content={seoMetadata.canonicalUrl} />
+<meta property="og:url" content={seoMetadata.canonical} />
 <meta property="og:title" content={seoMetadata.title} />
 <meta property="og:description" content={seoMetadata.description} />
 <meta property="og:image" content={seoMetadata.ogImage} />
@@ -37,18 +54,22 @@ const { seoMetadata, schemaMarkup } = Astro.props;
 
 <!-- Twitter -->
 <meta property="twitter:card" content={seoMetadata.twitterCard} />
-<meta property="twitter:url" content={seoMetadata.canonicalUrl} />
+<meta property="twitter:url" content={seoMetadata.canonical} />
 <meta property="twitter:title" content={seoMetadata.title} />
 <meta property="twitter:description" content={seoMetadata.description} />
 <meta property="twitter:image" content={seoMetadata.ogImage} />
 <meta name="twitter:creator" content="@BestCasinoPortal" />
 
 <!-- Canonical URL -->
-<link rel="canonical" href={seoMetadata.canonicalUrl} />
+<link rel="canonical" href={seoMetadata.canonical} />
 
 <!-- Additional SEO -->
-<meta name="theme-color" content="#4f46e5" />
+<meta name="theme-color" content="#8b1538" />
+
+<!-- Favicon setup -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/images/favicon.svg" />
 
 <!-- Schema Markup -->
 <script type="application/ld+json" set:html={JSON.stringify(schemaMarkup.website)}></script>

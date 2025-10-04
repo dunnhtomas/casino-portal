@@ -12,6 +12,10 @@
     "ontario": [
       {"q":"Is online casino play legal in Ontario?","a":"Ontario has regulated online gaming. This page summarizes norms but not legal advice. Check local government resources for specifics."},
       {"q":"Which payment methods are recommended in Ontario?","a":"Interac is widely used; e-wallets and crypto are also supported by many operators for faster payouts."}
+    ],
+    "alberta": [
+      {"q":"Is online casino gambling legal in Alberta?","a":"Alberta allows online casino play through regulated platforms. Check local gaming regulations for current status and compliance requirements."},
+      {"q":"What payment methods work best in Alberta?","a":"Interac e-Transfer, credit cards, and e-wallets are commonly supported. Processing times may vary by method and operator."}
     ]
   }
 }

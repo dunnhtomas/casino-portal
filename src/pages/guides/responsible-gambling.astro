@@ -1,18 +1,106 @@
 ---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+
+const navigationCoordinator = new NavigationCoordinator();
+
+const title = 'Responsible Gambling Guide | Stay Safe & Play Smart';
+const description = 'Essential information about responsible gambling, setting limits, recognizing problems, and getting help when needed.';
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/guides/responsible-gambling');
 ---
-<html>
-  <head>
-    <title>Responsible Gambling — BestCasinoPortal</title>
-  </head>
-  <body>
-    <main>
-      <h1>Responsible Gambling</h1>
-      <p>We encourage responsible play. If you or someone you know has a gambling problem, seek help via local hotlines and support groups.</p>
-      <ul>
-        <li>Set deposit limits</li>
-        <li>Take breaks</li>
-        <li>Seek help: local gambling support resources</li>
-      </ul>
-    </main>
-  </body>
-</html>
+
+<SimplePageLayout 
+  title={title}
+  description={description}
+  breadcrumbs={breadcrumbs}
+>
+  <main class="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <!-- HERO SECTION -->
+    <section class="bg-gradient-to-r from-green-600 to-green-400 text-white py-20">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-5xl font-bold mb-6">Responsible Gambling</h1>
+        <p class="text-xl text-green-100 max-w-2xl mx-auto">
+          Your safety and wellbeing are our top priority. Learn how to gamble responsibly.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="container mx-auto px-6 py-16">
+      <div class="max-w-4xl mx-auto">
+        <!-- INTRO -->
+        <div class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+          <h2 class="text-3xl font-bold mb-6">Gambling Should Be Fun</h2>
+          <p class="text-lg text-gray-700 leading-relaxed mb-4">
+            We encourage responsible play and believe that gambling should always remain an entertaining activity, not a way to make money or solve financial problems.
+          </p>
+          <p class="text-gray-600">
+            If you or someone you know has a gambling problem, seek help through local hotlines and support groups.
+          </p>
+        </div>
+
+        <!-- TIPS GRID -->
+        <div class="grid md:grid-cols-2 gap-8 mb-8">
+          <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="text-4xl mb-4">💰</div>
+            <h3 class="font-bold text-xl mb-3">Set Deposit Limits</h3>
+            <p class="text-gray-600">
+              Decide on a budget before you start playing and stick to it. Only gamble with money you can afford to lose.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="text-4xl mb-4">⏰</div>
+            <h3 class="font-bold text-xl mb-3">Take Regular Breaks</h3>
+            <p class="text-gray-600">
+              Set time limits for your gaming sessions and take regular breaks to maintain perspective.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="text-4xl mb-4">🚫</div>
+            <h3 class="font-bold text-xl mb-3">Never Chase Losses</h3>
+            <p class="text-gray-600">
+              Accept that losses are part of gambling. Never increase your bets to try to win back money you've lost.
+            </p>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="text-4xl mb-4">👥</div>
+            <h3 class="font-bold text-xl mb-3">Seek Support</h3>
+            <p class="text-gray-600">
+              If gambling stops being fun, talk to friends, family, or professional counselors who can help.
+            </p>
+          </div>
+        </div>
+
+        <!-- WARNING SIGNS -->
+        <div class="bg-red-50 border border-red-200 rounded-2xl p-8 mb-8">
+          <h3 class="text-2xl font-bold text-red-800 mb-4">⚠️ Warning Signs of Problem Gambling</h3>
+          <ul class="space-y-2 text-red-700">
+            <li>• Gambling more than you can afford</li>
+            <li>• Lying about gambling activities</li>
+            <li>• Neglecting work, family, or responsibilities</li>
+            <li>• Borrowing money to gamble</li>
+            <li>• Feeling anxious or depressed about gambling</li>
+            <li>• Unable to stop despite wanting to</li>
+          </ul>
+        </div>
+
+        <!-- HELP RESOURCES -->
+        <div class="bg-blue-50 border border-blue-200 rounded-2xl p-8">
+          <h3 class="text-2xl font-bold text-blue-800 mb-4">🆘 Get Help</h3>
+          <p class="text-blue-700 mb-4">
+            If you need help with gambling problems, these organizations provide confidential support:
+          </p>
+          <ul class="space-y-2 text-blue-600">
+            <li>• <strong>National Problem Gambling Helpline:</strong> 1-800-522-4700</li>
+            <li>• <strong>Gamblers Anonymous:</strong> ga.org</li>
+            <li>• <strong>National Council on Problem Gambling:</strong> ncpgambling.org</li>
+            <li>• <strong>Canada Problem Gambling:</strong> problemgambling.ca</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</SimplePageLayout>

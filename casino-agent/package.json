@@ -1,0 +1,40 @@
+{
+  "name": "casino-portal-agent",
+  "version": "1.0.0",
+  "description": "Autonomous executable agent for casino portal development",
+  "main": "dist/UltimateSmartAgent.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/UltimateSmartAgent.js",
+    "ultimate": "node dist/UltimateSmartAgent.js",
+    "capabilities": "node dist/UltimateSmartAgent.js capabilities",
+    "page": "node dist/UltimateSmartAgent.js page",
+    "smart": "node dist/EnhancedSmartAgent.js",
+    "validate": "npm run build && npm run ultimate",
+    "dev": "ts-node src/UltimateSmartAgent.ts",
+    "agent:run": "npm run build && npm run ultimate",
+    "agent:dev": "npm run dev",
+    "legacy": "node dist/app.js"
+  },
+  "dependencies": {
+    "@microsoft/agents-hosting": "^1.0.0",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0",
+    "@types/fs-extra": "^11.0.4",
+    "ts-node": "^10.9.0"
+  },
+  "keywords": [
+    "casino",
+    "agent",
+    "microsoft-365",
+    "autonomous",
+    "development"
+  ],
+  "author": "Casino Portal Development Team",
+  "license": "MIT"
+}

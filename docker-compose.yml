@@ -1,63 +1,67 @@
-version: '3.8'
 services:
+  # Production service - Optimized static site serving
+  production:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    image: casino-portal:3.0.0
+    container_name: casino-portal
+    ports:
+      - "3000:80"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    labels:
+      - "com.docker.desktop=production"
+      - "version=3.0.0"
+      - "mode=static"
+    networks:
+      - casino-net
+
+  # Development service (optional - for local dev)
   dev:
-    build: .
-    image: best-casino-portal-dev:latest
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    image: casino-portal-dev:3.0.0
+    container_name: casino-dev
     ports:
       - "3000:3000"
     volumes:
-      - .:/usr/src/app:delegated
-      - /usr/src/app/node_modules
+      - .:/app:delegated
+      - /app/node_modules
     environment:
       - NODE_ENV=development
+      - ASTRO_TELEMETRY_DISABLED=1
     stdin_open: true
     tty: true
-    labels:
-      - "com.docker.desktop=dev-only"
-  lighthouse:
-    build:
-      context: .
-      dockerfile: Dockerfile.lighthouse
-    image: best-casino-lighthouse:latest
-    depends_on:
-      - dev
-    volumes:
-      - ./reports:/reports
-    entrypoint: ["npx","lighthouse","http://dev:3000","--output","html","--output-path","/reports/lighthouse.html","--output","json","--output-path","/reports/lighthouse.json","--chrome-flags=--no-sandbox"]
-    # Run this service on-demand with: docker compose run --rm lighthouse
-  preview:
-    build:
-      context: .
-      dockerfile: Dockerfile.prod
-    image: best-casino-portal-preview:latest
-    ports:
-      - "8080:80"
-    environment:
-      - NODE_ENV=production
-    restart: unless-stopped
-    labels:
-      - "com.docker.desktop=preview"
-    volumes:
-      - ./deploy/nginx/preview.conf:/etc/nginx/conf.d/default.conf:ro
-    depends_on:
-      - backend
-    networks:
-      - bcp-net
-  backend:
-    build:
-      context: ./deploy/backend
-      dockerfile: Dockerfile
-    image: best-casino-backend:latest
-    environment:
-      - NODE_ENV=production
-      - SENTRY_DSN=${SENTRY_DSN}
-    ports:
-      - "4000:4000"
-    volumes:
-      - ./logs:/var/log/bcp
     restart: unless-stopped
     networks:
-      - bcp-net
+      - casino-net
+    profiles:
+      - development
+
+volumes:
+  casino-test-db-data:
+    driver: local
+  casino-redis-data:
+    driver: local
+
 networks:
-  bcp-net:
+  casino-net:
     driver: bridge
+    name: casino-network
+    ipam:
+      config:
+        - subnet: 172.25.0.0/16
+    labels:
+      - "architecture=oop-compliant"
+      - "version=2.0.0"

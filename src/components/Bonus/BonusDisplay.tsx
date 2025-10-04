@@ -30,6 +30,7 @@ interface BonusDisplayProps {
   freeSpins?: FreeSpinsData;
   compact?: boolean;
   onClick?: (e: React.MouseEvent) => void;
+  casinoSlug?: string;
 }
 
 export const BonusDisplay: React.FC<BonusDisplayProps> = ({
@@ -37,32 +38,33 @@ export const BonusDisplay: React.FC<BonusDisplayProps> = ({
   noDepositBonus,
   freeSpins,
   compact = false,
-  onClick
+  onClick,
+  casinoSlug
 }) => {
   return (
-    <div className="bg-gradient-to-r from-gold-50 to-yellow-50 border border-gold-200 rounded-lg p-4">
+    <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 rounded-lg p-4 shadow-md">
       {/* Welcome Bonus */}
       <div className="mb-3">
         <div className="flex items-center justify-between mb-2">
-          <h4 className="font-bold text-gray-900 flex items-center">
+          <h4 className="font-bold text-gray-200 flex items-center text-sm">
             🎁 Welcome Bonus
             {bonus.type === 'match' && (
-              <span className="ml-2 bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
+              <span className="ml-2 bg-green-900/50 text-green-300 text-xs px-2 py-1 rounded-full border border-green-800">
                 Match Bonus
               </span>
             )}
           </h4>
         </div>
         
-        <div className="text-2xl font-bold text-gold-600 mb-1">
+        <div className="text-2xl font-bold text-gold-400 mb-1">
           {bonus.amount}
           {bonus.type === 'match' && (
-            <span className="text-sm text-gray-600 ml-1">Match</span>
+            <span className="text-sm text-gray-400 ml-1">Match</span>
           )}
         </div>
         
         {!compact && (
-          <div className="text-sm text-gray-600 space-y-1">
+          <div className="text-sm text-gray-400 space-y-1">
             <div>• Wagering: {bonus.wagering}x</div>
             {bonus.maxWin && <div>• Max Win: {bonus.maxWin}</div>}
           </div>
@@ -71,23 +73,23 @@ export const BonusDisplay: React.FC<BonusDisplayProps> = ({
 
       {/* No Deposit Bonus */}
       {noDepositBonus && (
-        <div className="mb-3 pt-3 border-t border-gold-200">
+        <div className="mb-3 pt-3 border-t border-gray-700">
           <div className="flex items-center justify-between mb-2">
-            <h5 className="font-semibold text-gray-800 flex items-center">
+            <h5 className="font-semibold text-gray-200 flex items-center text-sm">
               💰 No Deposit Bonus
-              <span className="ml-2 bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
+              <span className="ml-2 bg-blue-900/50 text-blue-300 text-xs px-2 py-1 rounded-full border border-blue-800">
                 Risk Free
               </span>
             </h5>
           </div>
           
-          <div className="text-lg font-bold text-blue-600 mb-1">
+          <div className="text-lg font-bold text-blue-400 mb-1">
             {noDepositBonus.amount}
             {noDepositBonus.type === 'spins' ? ' Free Spins' : ' Free Cash'}
           </div>
           
           {!compact && (
-            <div className="text-sm text-gray-600">
+            <div className="text-sm text-gray-400">
               • Wagering: {noDepositBonus.wagering}x
             </div>
           )}
@@ -96,19 +98,19 @@ export const BonusDisplay: React.FC<BonusDisplayProps> = ({
 
       {/* Free Spins */}
       {freeSpins && (
-        <div className="mb-3 pt-3 border-t border-gold-200">
+        <div className="mb-3 pt-3 border-t border-gray-700">
           <div className="flex items-center justify-between mb-2">
-            <h5 className="font-semibold text-gray-800 flex items-center">
+            <h5 className="font-semibold text-gray-200 flex items-center text-sm">
               🎰 Free Spins
             </h5>
           </div>
           
-          <div className="text-lg font-bold text-purple-600 mb-1">
+          <div className="text-lg font-bold text-purple-400 mb-1">
             {freeSpins.count} Free Spins
           </div>
           
           {!compact && (
-            <div className="text-sm text-gray-600 space-y-1">
+            <div className="text-sm text-gray-400 space-y-1">
               <div>• Game: {freeSpins.game}</div>
               <div>• Wagering: {freeSpins.wagering}x</div>
             </div>
@@ -117,12 +119,24 @@ export const BonusDisplay: React.FC<BonusDisplayProps> = ({
       )}
 
       {/* Call to Action */}
-      <button
-        onClick={onClick}
-        className="w-full bg-gradient-to-r from-gold-500 to-yellow-500 hover:from-gold-600 hover:to-yellow-600 text-white font-bold py-2 px-4 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-md"
-      >
-        Claim Bonus
-      </button>
+      {casinoSlug ? (
+        <a
+          href={`/go/${casinoSlug}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={onClick}
+          className="w-full bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl inline-block text-center border border-gold-400"
+        >
+          Claim Bonus
+        </a>
+      ) : (
+        <button
+          onClick={onClick}
+          className="w-full bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-600 hover:to-gold-700 text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 shadow-lg hover:shadow-xl border border-gold-400"
+        >
+          Claim Bonus
+        </button>
+      )}
       
       {!compact && (
         <div className="text-xs text-gray-500 mt-2 text-center">

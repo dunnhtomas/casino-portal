@@ -1,27 +1,106 @@
 ---
-// Quick Filters component for category navigation
+// Enhanced Quick Filters component with comprehensive navigation options
 const filterCategories = [
-  { name: "Fast Withdrawals", href: "/best/fast-withdrawals", icon: "⚡" },
-  { name: "Big Bonuses", href: "/best/real-money", icon: "💰" },
-  { name: "New Casinos", href: "/reviews", icon: "✨" },
-  { name: "Mobile", href: "/best/mobile", icon: "📱" },
-  { name: "Live Dealer", href: "/best/live-dealer", icon: "🎰" }
+  { 
+    name: "Fast Withdrawals", 
+    href: "/best/fast-withdrawals", 
+    icon: "⚡", 
+    description: "Get paid in 24h or less",
+    bgColor: "bg-blue-500 hover:bg-blue-600"
+  },
+  { 
+    name: "Welcome Bonuses", 
+    href: "/bonuses/welcome", 
+    icon: "🎁", 
+    description: "Up to $1000+ bonus",
+    bgColor: "bg-purple-500 hover:bg-purple-600"
+  },
+  { 
+    name: "Mobile Casinos", 
+    href: "/best/mobile", 
+    icon: "📱", 
+    description: "Play on your phone",
+    bgColor: "bg-pink-500 hover:bg-pink-600"
+  },
+  { 
+    name: "Live Dealer", 
+    href: "/best/live-dealer", 
+    icon: "🎰", 
+    description: "Real dealers, real time",
+    bgColor: "bg-orange-500 hover:bg-orange-600"
+  },
+  { 
+    name: "High RTP Slots", 
+    href: "/games/high-rtp", 
+    icon: "🎯", 
+    description: "Best return rates",
+    bgColor: "bg-green-500 hover:bg-green-600"
+  },
+  { 
+    name: "Crypto Casinos", 
+    href: "/best/cryptocurrency", 
+    icon: "₿", 
+    description: "Bitcoin & crypto",
+    bgColor: "bg-yellow-500 hover:bg-yellow-600"
+  },
+  { 
+    name: "No Deposit", 
+    href: "/bonuses/no-deposit", 
+    icon: "🆓", 
+    description: "Free bonus money",
+    bgColor: "bg-indigo-500 hover:bg-indigo-600"
+  },
+  { 
+    name: "Canadian Sites", 
+    href: "/regions", 
+    icon: "🍁", 
+    description: "CAD & Interac",
+    bgColor: "bg-red-500 hover:bg-red-600"
+  }
 ];
 ---
 
-<section id="quick-filters" class="py-12 bg-white">
-  <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-2xl font-bold text-center text-gray-900 mb-8">Find Casinos by Category</h2>
-    <div class="flex flex-wrap justify-center gap-4">
+<section id="quick-filters" class="py-16 bg-gradient-to-br from-gray-900 to-gray-800">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-white mb-4">🔍 Quick Casino Finder</h2>
+      <p class="text-lg text-gray-300 max-w-2xl mx-auto">
+        Find your ideal casino instantly with our smart filters. Click any category to see curated recommendations.
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-8 gap-4">
       {filterCategories.map(category => (
         <a 
           href={category.href}
-          class="flex items-center gap-3 bg-gray-100 hover:bg-indigo-100 hover:text-indigo-700 px-6 py-3 rounded-2xl font-semibold text-gray-700 transition-colors group"
+          class={`group relative overflow-hidden rounded-xl ${category.bgColor} text-white p-4 text-center transition-all duration-300 transform hover:scale-105 hover:shadow-lg`}
         >
-          <span class="text-2xl group-hover:scale-110 transition-transform">{category.icon}</span>
-          {category.name}
+          <div class="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors"></div>
+          <div class="relative">
+            <div class="text-2xl mb-2">{category.icon}</div>
+            <h3 class="font-bold text-sm mb-1">{category.name}</h3>
+            <p class="text-xs opacity-90">{category.description}</p>
+          </div>
         </a>
       ))}
+    </div>
+    
+    <div class="mt-12 text-center">
+      <h3 class="text-lg font-semibold text-white mb-4">🔥 Popular Right Now</h3>
+      <div class="flex flex-wrap justify-center gap-3">
+        <span class="bg-gray-700 hover:bg-gray-600 text-gray-200 px-4 py-2 rounded-full text-sm font-medium transition-colors cursor-pointer">
+          No Deposit Bonuses
+        </span>
+        <span class="bg-gray-700 hover:bg-gray-600 text-gray-200 px-4 py-2 rounded-full text-sm font-medium transition-colors cursor-pointer">
+          Instant Payouts
+        </span>
+        <span class="bg-gray-700 hover:bg-gray-600 text-gray-200 px-4 py-2 rounded-full text-sm font-medium transition-colors cursor-pointer">
+          Mobile Apps
+        </span>
+        <span class="bg-gray-700 hover:bg-gray-600 text-gray-200 px-4 py-2 rounded-full text-sm font-medium transition-colors cursor-pointer">
+          Live Blackjack
+        </span>
+      </div>
     </div>
   </div>
 </section>

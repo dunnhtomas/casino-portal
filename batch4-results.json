@@ -1,0 +1,48 @@
+{
+  "batch": 4,
+  "results": [
+    {
+      "id": 19,
+      "name": "Woocasino",
+      "domain": "https://woo-casino.games/",
+      "logoUrl": "https://woo-casino.games/wp-content/uploads/2024/09/woo-casino-1.webp",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 20,
+      "name": "Luckstars",
+      "domain": "https://luckstars.casino/",
+      "logoUrl": "https://luckstars.casino/templates/luckstars/img/general-category/logo.webp",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 21,
+      "name": "Librabet",
+      "domain": "https://librabet.casino/",
+      "logoUrl": "https://librabet.casino/templates/librabet/img/general-category/logo.webp",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 22,
+      "name": "Mystake",
+      "domain": "https://my-stake.com/",
+      "logoUrl": "https://my-stake.com/img/moroni.jpg",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 23,
+      "name": "Rocketplay",
+      "domain": null,
+      "logoUrl": null,
+      "downloaded": false,
+      "error": "No logo found on any domain"
+    }
+  ],
+  "succeeded": 4,
+  "failed": 1,
+  "elapsed": "30.8"
+}

@@ -1,0 +1,370 @@
+{
+  "generatedAt": "2025-10-02T12:26:56.663Z",
+  "totalCasinos": 15,
+  "logoExtractionPlan": [
+    {
+      "casino": {
+        "slug": "spellwin",
+        "brand": "SpellWin",
+        "originalBrand": "SpellWin",
+        "searchVariations": [
+          "spellwin"
+        ],
+        "url": "https://www.spellwin.com"
+      },
+      "expectedFile": "spellwin.png",
+      "potentialUrls": [
+        "https://www.spellwin.com/logo.png",
+        "https://www.spellwin.com/assets/logo.png",
+        "https://www.spellwin.com/images/logo.png",
+        "https://www.spellwin.com/static/logo.png",
+        "https://www.spellwin.com/img/logo.png",
+        "https://www.spellwin.com/media/logo.png",
+        "https://www.spellwin.com/wp-content/uploads/logo.png",
+        "https://www.spellwin.com/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "winitbet",
+        "brand": "Winit",
+        "originalBrand": "Winit.Bet",
+        "searchVariations": [
+          "winit",
+          "winitbet",
+          "winit.bet"
+        ],
+        "url": "https://www.winit.bet"
+      },
+      "expectedFile": "winitbet.png",
+      "potentialUrls": [
+        "https://www.winit.bet/logo.png",
+        "https://www.winit.bet/assets/logo.png",
+        "https://www.winit.bet/images/logo.png",
+        "https://www.winit.bet/static/logo.png",
+        "https://www.winit.bet/img/logo.png",
+        "https://www.winit.bet/media/logo.png",
+        "https://www.winit.bet/wp-content/uploads/logo.png",
+        "https://www.winit.bet/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "unlimluck-hb-v2",
+        "brand": "UnlimLuck",
+        "originalBrand": "UnlimLuck HB-v2",
+        "searchVariations": [
+          "unlimluck",
+          "unlimluck-hb-v2",
+          "unlimluck hb-v2"
+        ],
+        "url": "https://www.unlimluck.com"
+      },
+      "expectedFile": "unlimluck-hb-v2.png",
+      "potentialUrls": [
+        "https://www.unlimluck.com/logo.png",
+        "https://www.unlimluck.com/assets/logo.png",
+        "https://www.unlimluck.com/images/logo.png",
+        "https://www.unlimluck.com/static/logo.png",
+        "https://www.unlimluck.com/img/logo.png",
+        "https://www.unlimluck.com/media/logo.png",
+        "https://www.unlimluck.com/wp-content/uploads/logo.png",
+        "https://www.unlimluck.com/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "mr-pacho",
+        "brand": "Mr Pacho",
+        "originalBrand": "Mr Pacho",
+        "searchVariations": [
+          "mr pacho",
+          "mrpacho",
+          "mr-pacho"
+        ],
+        "url": "https://www.mrpacho.com"
+      },
+      "expectedFile": "mr-pacho.png",
+      "potentialUrls": [
+        "https://www.mrpacho.com/logo.png",
+        "https://www.mrpacho.com/assets/logo.png",
+        "https://www.mrpacho.com/images/logo.png",
+        "https://www.mrpacho.com/static/logo.png",
+        "https://www.mrpacho.com/img/logo.png",
+        "https://www.mrpacho.com/media/logo.png",
+        "https://www.mrpacho.com/wp-content/uploads/logo.png",
+        "https://www.mrpacho.com/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "larabet",
+        "brand": "Larabet",
+        "originalBrand": "Larabet",
+        "searchVariations": [
+          "larabet"
+        ],
+        "url": "https://www.larabet.com"
+      },
+      "expectedFile": "larabet.png",
+      "potentialUrls": [
+        "https://www.larabet.com/logo.png",
+        "https://www.larabet.com/assets/logo.png",
+        "https://www.larabet.com/images/logo.png",
+        "https://www.larabet.com/static/logo.png",
+        "https://www.larabet.com/img/logo.png",
+        "https://www.larabet.com/media/logo.png",
+        "https://www.larabet.com/wp-content/uploads/logo.png",
+        "https://www.larabet.com/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "slotlair-uk-v2",
+        "brand": "Slotlair UK",
+        "originalBrand": "Slotlair UK-v2",
+        "searchVariations": [
+          "slotlair uk",
+          "slotlairuk",
+          "slotlair-uk-v2",
+          "slotlair",
+          "slotlair uk-v2"
+        ],
+        "url": "https://www.slotlair.co.uk"
+      },
+      "expectedFile": "slotlair-uk-v2.png",
+      "potentialUrls": [
+        "https://www.slotlair.co.uk/logo.png",
+        "https://www.slotlair.co.uk/assets/logo.png",
+        "https://www.slotlair.co.uk/images/logo.png",
+        "https://www.slotlair.co.uk/static/logo.png",
+        "https://www.slotlair.co.uk/img/logo.png",
+        "https://www.slotlair.co.uk/media/logo.png",
+        "https://www.slotlair.co.uk/wp-content/uploads/logo.png",
+        "https://www.slotlair.co.uk/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "sagaspins-uk-v2",
+        "brand": "SagaSpins UK",
+        "originalBrand": "SagaSpins UK-v2",
+        "searchVariations": [
+          "sagaspins uk",
+          "sagaspinsuk",
+          "sagaspins-uk-v2",
+          "sagaspins",
+          "sagaspins uk-v2"
+        ],
+        "url": "https://www.sagaspins.com"
+      },
+      "expectedFile": "sagaspins-uk-v2.png",
+      "potentialUrls": [
+        "https://www.sagaspins.com/logo.png",
+        "https://www.sagaspins.com/assets/logo.png",
+        "https://www.sagaspins.com/images/logo.png",
+        "https://www.sagaspins.com/static/logo.png",
+        "https://www.sagaspins.com/img/logo.png",
+        "https://www.sagaspins.com/media/logo.png",
+        "https://www.sagaspins.com/wp-content/uploads/logo.png",
+        "https://www.sagaspins.com/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "samba-slots",
+        "brand": "Samba",
+        "originalBrand": "Samba Slots",
+        "searchVariations": [
+          "samba",
+          "samba-slots",
+          "sambaslots",
+          "samba slots"
+        ],
+        "url": "https://www.sambaslots.com"
+      },
+      "expectedFile": "samba-slots.png",
+      "potentialUrls": [
+        "https://www.sambaslots.com/logo.png",
+        "https://www.sambaslots.com/assets/logo.png",
+        "https://www.sambaslots.com/images/logo.png",
+        "https://www.sambaslots.com/static/logo.png",
+        "https://www.sambaslots.com/img/logo.png",
+        "https://www.sambaslots.com/media/logo.png",
+        "https://www.sambaslots.com/wp-content/uploads/logo.png",
+        "https://www.sambaslots.com/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "willdsino",
+        "brand": "Willdsino",
+        "originalBrand": "Willdsino",
+        "searchVariations": [
+          "willdsino"
+        ],
+        "url": "https://www.willdsino.com"
+      },
+      "expectedFile": "willdsino.png",
+      "potentialUrls": [
+        "https://www.willdsino.com/logo.png",
+        "https://www.willdsino.com/assets/logo.png",
+        "https://www.willdsino.com/images/logo.png",
+        "https://www.willdsino.com/static/logo.png",
+        "https://www.willdsino.com/img/logo.png",
+        "https://www.willdsino.com/media/logo.png",
+        "https://www.willdsino.com/wp-content/uploads/logo.png",
+        "https://www.willdsino.com/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "trino",
+        "brand": "Trino",
+        "originalBrand": "Trino",
+        "searchVariations": [
+          "trino",
+          "trinocasino"
+        ],
+        "url": "https://www.trinocasino.com"
+      },
+      "expectedFile": "trino.png",
+      "potentialUrls": [
+        "https://www.trinocasino.com/logo.png",
+        "https://www.trinocasino.com/assets/logo.png",
+        "https://www.trinocasino.com/images/logo.png",
+        "https://www.trinocasino.com/static/logo.png",
+        "https://www.trinocasino.com/img/logo.png",
+        "https://www.trinocasino.com/media/logo.png",
+        "https://www.trinocasino.com/wp-content/uploads/logo.png",
+        "https://www.trinocasino.com/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "skyhills-nl-v2",
+        "brand": "SkyHills NL",
+        "originalBrand": "SkyHills NL-v2",
+        "searchVariations": [
+          "skyhills nl",
+          "skyhillsnl",
+          "skyhills-nl-v2",
+          "skyhills",
+          "skyhills nl-v2"
+        ],
+        "url": "https://www.skyhills.com/nl"
+      },
+      "expectedFile": "skyhills-nl-v2.png",
+      "potentialUrls": [
+        "https://www.skyhills.com/nl/logo.png",
+        "https://www.skyhills.com/nl/assets/logo.png",
+        "https://www.skyhills.com/nl/images/logo.png",
+        "https://www.skyhills.com/nl/static/logo.png",
+        "https://www.skyhills.com/nl/img/logo.png",
+        "https://www.skyhills.com/nl/media/logo.png",
+        "https://www.skyhills.com/nl/wp-content/uploads/logo.png",
+        "https://www.skyhills.com/nl/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "wonthere-uk-v2",
+        "brand": "WonThere UK",
+        "originalBrand": "WonThere UK-v2",
+        "searchVariations": [
+          "wonthere uk",
+          "wonthereuk",
+          "wonthere-uk-v2",
+          "wonthere",
+          "wonthere uk-v2"
+        ],
+        "url": "https://www.wonthere.co.uk"
+      },
+      "expectedFile": "wonthere-uk-v2.png",
+      "potentialUrls": [
+        "https://www.wonthere.co.uk/logo.png",
+        "https://www.wonthere.co.uk/assets/logo.png",
+        "https://www.wonthere.co.uk/images/logo.png",
+        "https://www.wonthere.co.uk/static/logo.png",
+        "https://www.wonthere.co.uk/img/logo.png",
+        "https://www.wonthere.co.uk/media/logo.png",
+        "https://www.wonthere.co.uk/wp-content/uploads/logo.png",
+        "https://www.wonthere.co.uk/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "lucky-hunter",
+        "brand": "Lucky Hunter",
+        "originalBrand": "Lucky Hunter",
+        "searchVariations": [
+          "lucky hunter",
+          "luckyhunter",
+          "lucky-hunter"
+        ],
+        "url": "https://luckyhunter.io"
+      },
+      "expectedFile": "lucky-hunter.png",
+      "potentialUrls": [
+        "https://luckyhunter.io/logo.png",
+        "https://luckyhunter.io/assets/logo.png",
+        "https://luckyhunter.io/images/logo.png",
+        "https://luckyhunter.io/static/logo.png",
+        "https://luckyhunter.io/img/logo.png",
+        "https://luckyhunter.io/media/logo.png",
+        "https://luckyhunter.io/wp-content/uploads/logo.png",
+        "https://luckyhunter.io/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "rizz-casino",
+        "brand": "Rizz",
+        "originalBrand": "Rizz Casino",
+        "searchVariations": [
+          "rizz",
+          "rizz-casino",
+          "rizzcasino",
+          "rizz casino"
+        ],
+        "url": "https://www.rizzcasino.com"
+      },
+      "expectedFile": "rizz-casino.png",
+      "potentialUrls": [
+        "https://www.rizzcasino.com/logo.png",
+        "https://www.rizzcasino.com/assets/logo.png",
+        "https://www.rizzcasino.com/images/logo.png",
+        "https://www.rizzcasino.com/static/logo.png",
+        "https://www.rizzcasino.com/img/logo.png",
+        "https://www.rizzcasino.com/media/logo.png",
+        "https://www.rizzcasino.com/wp-content/uploads/logo.png",
+        "https://www.rizzcasino.com/assets/images/logo.png"
+      ]
+    },
+    {
+      "casino": {
+        "slug": "n1-bet-casino",
+        "brand": "N1 Bet",
+        "originalBrand": "N1 Bet Casino",
+        "searchVariations": [
+          "n1 bet",
+          "n1bet",
+          "n1-bet-casino",
+          "n1 bet casino"
+        ],
+        "url": "https://www.n1bet.com"
+      },
+      "expectedFile": "n1-bet-casino.png",
+      "potentialUrls": [
+        "https://www.n1bet.com/logo.png",
+        "https://www.n1bet.com/assets/logo.png",
+        "https://www.n1bet.com/images/logo.png",
+        "https://www.n1bet.com/static/logo.png",
+        "https://www.n1bet.com/img/logo.png",
+        "https://www.n1bet.com/media/logo.png",
+        "https://www.n1bet.com/wp-content/uploads/logo.png",
+        "https://www.n1bet.com/assets/images/logo.png"
+      ]
+    }
+  ]
+}

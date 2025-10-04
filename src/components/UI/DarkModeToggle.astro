@@ -1,0 +1,279 @@
+---
+// Dark Mode Toggle Component - Mobile-First Design
+// Accessible toggle with system preference detection
+---
+
+<button
+  id="theme-toggle"
+  type="button"
+  class="
+    relative inline-flex items-center justify-center
+    w-12 h-12 sm:w-14 sm:h-14
+    rounded-xl sm:rounded-2xl
+    bg-white dark:bg-gray-800
+    border-2 border-gray-200 dark:border-gray-600
+    shadow-lg hover:shadow-xl
+    transition-all duration-300 ease-in-out
+    focus:outline-none focus:ring-2 focus:ring-gold-500 focus:ring-offset-2
+    group
+    touch-target
+  "
+  aria-label="Toggle dark mode"
+  aria-pressed="false"
+  title="Toggle between light and dark mode"
+>
+  <!-- Sun Icon (Light Mode) -->
+  <svg
+    id="sun-icon"
+    class="
+      w-6 h-6 sm:w-7 sm:h-7
+      text-yellow-500 dark:text-gray-400
+      transition-all duration-300 ease-in-out
+      group-hover:scale-110
+      dark:opacity-0 dark:rotate-90
+      opacity-100 rotate-0
+      absolute
+    "
+    fill="currentColor"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path
+      d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+    />
+  </svg>
+
+  <!-- Moon Icon (Dark Mode) -->
+  <svg
+    id="moon-icon"
+    class="
+      w-6 h-6 sm:w-7 sm:h-7
+      text-gray-400 dark:text-blue-300
+      transition-all duration-300 ease-in-out
+      group-hover:scale-110
+      opacity-0 rotate-90 dark:opacity-100 dark:rotate-0
+      absolute
+    "
+    fill="currentColor"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z"
+      clip-rule="evenodd"
+    />
+  </svg>
+
+  <!-- Loading/Transition Indicator -->
+  <div
+    id="theme-loading"
+    class="
+      w-5 h-5 sm:w-6 sm:h-6
+      border-2 border-gray-300 border-t-gold-500
+      rounded-full animate-spin
+      opacity-0 transition-opacity duration-200
+      absolute
+    "
+    aria-hidden="true"
+  ></div>
+</button>
+
+<!-- Screen Reader Status Announcement -->
+<div
+  id="theme-status"
+  class="sr-only"
+  aria-live="polite"
+  aria-atomic="true"
+>
+  <!-- Status will be announced here -->
+</div>
+
+<script>
+  // Enhanced Dark Mode Toggle with System Preference Detection
+  class DarkModeToggle {
+    private button: HTMLButtonElement;
+    private sunIcon: SVGElement;
+    private moonIcon: SVGElement;
+    private loadingIcon: HTMLElement;
+    private statusDiv: HTMLElement;
+    private isDark: boolean = false;
+
+    constructor() {
+      this.button = document.getElementById('theme-toggle') as HTMLButtonElement;
+      this.sunIcon = document.getElementById('sun-icon') as unknown as SVGElement;
+      this.moonIcon = document.getElementById('moon-icon') as unknown as SVGElement;
+      this.loadingIcon = document.getElementById('theme-loading') as HTMLElement;
+      this.statusDiv = document.getElementById('theme-status') as HTMLElement;
+
+      this.init();
+    }
+
+    private init(): void {
+      // Check for saved theme preference or default to system preference
+      const savedTheme = localStorage.getItem('theme');
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      
+      this.isDark = savedTheme ? savedTheme === 'dark' : systemPrefersDark;
+      
+      // Apply initial theme
+      this.applyTheme(false);
+      
+      // Add event listeners
+      this.button.addEventListener('click', () => this.toggle());
+      
+      // Listen for system theme changes
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+        if (!localStorage.getItem('theme')) {
+          this.isDark = e.matches;
+          this.applyTheme(true);
+        }
+      });
+
+      // Keyboard support
+      this.button.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          this.toggle();
+        }
+      });
+    }
+
+    private toggle(): void {
+      this.showLoading();
+      
+      // Small delay for smooth animation
+      setTimeout(() => {
+        this.isDark = !this.isDark;
+        this.applyTheme(true);
+        this.hideLoading();
+        
+        // Save preference
+        localStorage.setItem('theme', this.isDark ? 'dark' : 'light');
+        
+        // Analytics tracking (if available)
+        if (typeof window !== 'undefined' && (window as any).gtag) {
+          (window as any).gtag('event', 'theme_toggle', {
+            event_category: 'ui_interaction',
+            event_label: this.isDark ? 'dark' : 'light'
+          });
+        }
+      }, 150);
+    }
+
+    private applyTheme(animate: boolean): void {
+      const html = document.documentElement;
+      
+      if (this.isDark) {
+        html.classList.add('dark');
+        this.button.setAttribute('aria-pressed', 'true');
+        this.announceStatus('Dark mode enabled');
+      } else {
+        html.classList.remove('dark');
+        this.button.setAttribute('aria-pressed', 'false');
+        this.announceStatus('Light mode enabled');
+      }
+
+      // Update meta theme-color for mobile browsers
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+      if (metaThemeColor) {
+        metaThemeColor.setAttribute('content', this.isDark ? '#1f2937' : '#ffffff');
+      }
+
+      // Smooth page transition effect
+      if (animate) {
+        document.body.style.transition = 'background-color 0.3s ease, color 0.3s ease';
+        setTimeout(() => {
+          document.body.style.transition = '';
+        }, 300);
+      }
+    }
+
+    private showLoading(): void {
+      this.sunIcon.style.opacity = '0';
+      this.moonIcon.style.opacity = '0';
+      this.loadingIcon.style.opacity = '1';
+      this.button.disabled = true;
+    }
+
+    private hideLoading(): void {
+      this.loadingIcon.style.opacity = '0';
+      this.button.disabled = false;
+      
+      // Show appropriate icon
+      if (this.isDark) {
+        this.moonIcon.style.opacity = '1';
+        this.sunIcon.style.opacity = '0';
+      } else {
+        this.sunIcon.style.opacity = '1';
+        this.moonIcon.style.opacity = '0';
+      }
+    }
+
+    private announceStatus(message: string): void {
+      this.statusDiv.textContent = message;
+      
+      // Clear after announcement
+      setTimeout(() => {
+        this.statusDiv.textContent = '';
+      }, 1000);
+    }
+  }
+
+  // Initialize when DOM is loaded
+  document.addEventListener('DOMContentLoaded', () => {
+    new DarkModeToggle();
+  });
+
+  // Handle page navigation (for SPAs)
+  document.addEventListener('astro:page-load', () => {
+    new DarkModeToggle();
+  });
+</script>
+
+<style>
+  /* Component-specific styles */
+  #theme-toggle {
+    /* Improved tap feedback on mobile */
+    -webkit-tap-highlight-color: rgba(255, 215, 0, 0.2);
+    /* Better performance on mobile */
+    will-change: transform;
+    /* Prevent accidental zoom on double-tap */
+    touch-action: manipulation;
+  }
+
+  /* Hover effects only on non-touch devices */
+  @media (hover: hover) and (pointer: fine) {
+    #theme-toggle:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+  }
+
+  /* Enhanced accessibility for reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    #theme-toggle,
+    #theme-toggle *,
+    #sun-icon,
+    #moon-icon,
+    #theme-loading {
+      transition: none !important;
+      animation: none !important;
+      transform: none !important;
+    }
+  }
+
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    #theme-toggle {
+      border: 3px solid;
+      box-shadow: none;
+    }
+  }
+
+  /* Focus visible enhancement */
+  #theme-toggle:focus-visible {
+    outline: 3px solid var(--gold-500);
+    outline-offset: 2px;
+  }
+</style>

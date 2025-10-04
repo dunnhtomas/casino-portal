@@ -1,0 +1,769 @@
+{
+  "logoMapping": {
+    "500": {
+      "png": "500.png"
+    },
+    "aerobet": {
+      "png": "aerobet.png"
+    },
+    "allspins": {
+      "png": "allspins.png"
+    },
+    "allstarz": {
+      "png": "allstarz.png"
+    },
+    "arcanebet": {
+      "png": "arcanebet.png"
+    },
+    "artcasino": {
+      "png": "artcasino.png"
+    },
+    "amunra": {
+      "png": "amunra.png"
+    },
+    "askgamblers-facebook": {
+      "png": "askgamblers-facebook.png"
+    },
+    "askgamblers-x": {
+      "png": "askgamblers-x.png"
+    },
+    "astrozino": {
+      "png": "astrozino.png"
+    },
+    "benefits-of-reading-casino-reviews": {
+      "png": "benefits-of-reading-casino-reviews.png"
+    },
+    "best-casino-affiliate": {
+      "png": "best-casino-affiliate-logo.png"
+    },
+    "best-casino-website": {
+      "png": "best-casino-website-logo.png"
+    },
+    "betandyou": {
+      "png": "betandyou.png"
+    },
+    "betflare": {
+      "png": "betflare.png"
+    },
+    "betico": {
+      "png": "betico.png"
+    },
+    "betrebels": {
+      "png": "betrebels.png"
+    },
+    "betroom24": {
+      "png": "betroom24.png"
+    },
+    "betvili": {
+      "png": "betvili.png"
+    },
+    "betsio": {
+      "png": "betsio.png"
+    },
+    "bitcasinoio": {
+      "png": "bitcasinoio.png"
+    },
+    "bitsler": {
+      "png": "bitsler.png"
+    },
+    "bizzo": {
+      "png": "bizzo.png"
+    },
+    "boomerang": {
+      "png": "boomerang.png"
+    },
+    "campeonbet": {
+      "png": "campeonbet.png"
+    },
+    "casabet": {
+      "png": "casabet.png"
+    },
+    "casino-orca": {
+      "png": "casino-orca.png"
+    },
+    "casoo": {
+      "png": "casoo.png"
+    },
+    "cashalot": {
+      "png": "cashalot.png"
+    },
+    "cazimbo": {
+      "png": "cazimbo.png"
+    },
+    "chanz": {
+      "png": "chanz.png"
+    },
+    "cosmicslot": {
+      "png": "cosmicslot.png"
+    },
+    "default": {
+      "svg": "default-casino.svg"
+    },
+    "del-oro": {
+      "png": "del-oro.png"
+    },
+    "dmcacom-protection-status": {
+      "png": "dmcacom-protection-status.png"
+    },
+    "egr": {
+      "png": "egr-logo.png"
+    },
+    "everum": {
+      "png": "everum.png"
+    },
+    "evobet": {
+      "png": "evobet.png"
+    },
+    "fairspin": {
+      "png": "fairspin.png"
+    },
+    "fortunejack": {
+      "png": "fortunejack.png"
+    },
+    "gangsta": {
+      "png": "gangsta.png"
+    },
+    "greatwin": {
+      "png": "greatwin.png"
+    },
+    "gslot": {
+      "png": "gslot.png"
+    },
+    "golden-panda-geo": {
+      "png": "golden-panda-geo-logo.png"
+    },
+    "golden-panda": {
+      "png": "golden-panda-logo.png"
+    },
+    "heats": {
+      "png": "heats.png"
+    },
+    "hello-fortune": {
+      "png": "hello-fortune-logo.png"
+    },
+    "how-to-choose-the-right": {
+      "png": "how-to-choose-the-right.png"
+    },
+    "hunter": {
+      "png": "hunter.png"
+    },
+    "impressario": {
+      "png": "impressario.png"
+    },
+    "instagram-askgamblers": {
+      "png": "instagram-askgamblers.png"
+    },
+    "instant-casino-geo": {
+      "png": "instant-casino-geo-logo.png"
+    },
+    "instant": {
+      "png": "instant-casino.png"
+    },
+    "instaspin": {
+      "png": "instaspin.png"
+    },
+    "ivybetio": {
+      "png": "ivybetio.png"
+    },
+    "jackbit": {
+      "png": "jackbit.png"
+    },
+    "jackpot-raider": {
+      "png": "jackpot-raider.png"
+    },
+    "jet4bet-uk": {
+      "png": "jet4bet-uk.png"
+    },
+    "jet4bet": {
+      "ico": "jet4bet.ico"
+    },
+    "joker-ace's": {
+      "png": "joker-ace's.png"
+    },
+    "joker": {
+      "svg": "joker.svg"
+    },
+    "joya": {
+      "png": "joya.png"
+    },
+    "kings-chip-geo": {
+      "png": "kings-chip-geo-logo.png"
+    },
+    "kings-chip": {
+      "png": "kings-chip.png"
+    },
+    "kings": {
+      "svg": "kings.svg"
+    },
+    "larabet": {
+      "png": "larabet.png"
+    },
+    "lilibet": {
+      "png": "lilibet.png"
+    },
+    "librabet": {
+      "png": "librabet.png"
+    },
+    "luckstars": {
+      "png": "luckstars.png"
+    },
+    "london": {
+      "png": "london-casino.png",
+      "svg": "london.svg"
+    },
+    "lucki": {
+      "png": "lucki.png"
+    },
+    "lucky-hunter": {
+      "png": "lucky-hunter.png"
+    },
+    "lucky-wand": {
+      "png": "lucky-wand.png"
+    },
+    "lyrabet-gr-v2-geo": {
+      "png": "lyrabet-gr-v2-geo-logo.png"
+    },
+    "lyrabet-gr-v2": {
+      "png": "lyrabet-gr-v2.png"
+    },
+    "lyrabet": {
+      "ico": "lyrabet.ico"
+    },
+    "magius-casino-geo": {
+      "png": "magius-casino-geo-logo.png"
+    },
+    "magius": {
+      "png": "magius-casino-logo.png"
+    },
+    "malina": {
+      "png": "malina.png"
+    },
+    "moana-casino-geo": {
+      "png": "moana-casino-geo-logo.png"
+    },
+    "moana": {
+      "png": "moana-casino-logo.png"
+    },
+    "mondcasino": {
+      "png": "mondcasino.png"
+    },
+    "mr-pacho": {
+      "png": "mr-pacho.png"
+    },
+    "mrplay": {
+      "png": "mrplay.png"
+    },
+    "mystake": {
+      "png": "mystake.png"
+    },
+    "my-empire": {
+      "png": "my-empire.png"
+    },
+    "n1-bet": {
+      "png": "n1-bet-casino.png"
+    },
+    "n1bet": {
+      "png": "n1bet.png"
+    },
+    "needforspeed-se-v2": {
+      "png": "needforspeed-se-v2.png"
+    },
+    "needforspin": {
+      "svg": "needforspin.svg"
+    },
+    "nomini": {
+      "png": "nomini.png"
+    },
+    "onlywin": {
+      "png": "onlywin.png"
+    },
+    "orionsbet-uk-v2-geo": {
+      "png": "orionsbet-uk-v2-geo-logo.png"
+    },
+    "orionsbet-uk-v2": {
+      "png": "orionsbet-uk-v2-logo.png"
+    },
+    "orionsbet": {
+      "png": "orionsbet-uk-v2.png"
+    },
+    "pistolo-casino-geo": {
+      "png": "pistolo-casino-geo-logo.png"
+    },
+    "pistolo": {
+      "png": "pistolo.png"
+    },
+    "playfrank": {
+      "png": "playfrank.png"
+    },
+    "pledoo": {
+      "png": "pledoo.png"
+    },
+    "posido": {
+      "png": "posido.png"
+    },
+    "qbet": {
+      "png": "qbet.png"
+    },
+    "rabona": {
+      "png": "rabona.png"
+    },
+    "red": {
+      "svg": "red.svg"
+    },
+    "ritzo": {
+      "png": "ritzo-casino.png"
+    },
+    "rizz": {
+      "png": "rizz.png"
+    },
+    "robocat-de-geo": {
+      "png": "robocat-de-geo-logo.png"
+    },
+    "robocat-de": {
+      "png": "robocat-de-logo.png"
+    },
+    "rolling-slots": {
+      "png": "rolling-slots.png"
+    },
+    "rolling": {
+      "svg": "rolling.svg"
+    },
+    "rollxo": {
+      "png": "rollxo.png"
+    },
+    "roman": {
+      "png": "roman-casino.png",
+      "ico": "roman.ico"
+    },
+    "romibet-es-v2": {
+      "png": "romibet-es-v2.png"
+    },
+    "romibet": {
+      "svg": "romibet.svg"
+    },
+    "royal-game": {
+      "png": "royal-game-logo.png"
+    },
+    "royspins": {
+      "png": "royspins.png"
+    },
+    "sagaspins-uk-v2": {
+      "png": "sagaspins-uk-v2-logo.png"
+    },
+    "sagaspins": {
+      "png": "sagaspins-uk-v2.png",
+      "ico": "sagaspins.ico"
+    },
+    "samba-slots-geo": {
+      "png": "samba-slots-geo-logo.png"
+    },
+    "samba-slots": {
+      "png": "samba-slots.png"
+    },
+    "samba": {
+      "svg": "samba.svg"
+    },
+    "sbc-awards": {
+      "png": "sbc-awards-logo.png"
+    },
+    "sigma-awards": {
+      "png": "sigma-awards-logo.png"
+    },
+    "skyhills-nl-v2-geo": {
+      "png": "skyhills-nl-v2-geo-logo.png"
+    },
+    "skyhills-nl-v2": {
+      "png": "skyhills-nl-v2.png"
+    },
+    "skyhills": {
+      "png": "skyhills.png"
+    },
+    "slotit-de": {
+      "png": "slotit-de-logo.png"
+    },
+    "slotlair-uk-v2-geo": {
+      "png": "slotlair-uk-v2-geo-logo.png"
+    },
+    "slotlair-uk-v2": {
+      "png": "slotlair-uk-v2-logo.png"
+    },
+    "slotlair": {
+      "png": "slotlair-uk-v2.png",
+      "ico": "slotlair.ico"
+    },
+    "slotnite": {
+      "png": "slotnite.png"
+    },
+    "slots-islands": {
+      "png": "slots-islands-logo.png"
+    },
+    "smokace": {
+      "png": "smokace.png"
+    },
+    "spellwin": {
+      "png": "spellwin.png"
+    },
+    "spinbetter": {
+      "png": "spinbetter.png"
+    },
+    "spincastle-uk-v2-geo": {
+      "png": "spincastle-uk-v2-geo-logo.png"
+    },
+    "spincastle": {
+      "png": "spincastle.png"
+    },
+    "spinfever": {
+      "png": "spinfever.png"
+    },
+    "spinlander": {
+      "png": "spinlander.png"
+    },
+    "spingranny-at-geo": {
+      "png": "spingranny-at-geo-logo.png"
+    },
+    "spingranny-at": {
+      "png": "spingranny-at.png"
+    },
+    "spingranny": {
+      "png": "spingranny.png"
+    },
+    "spinmama": {
+      "png": "spinmama.png"
+    },
+    "spins-deluxe": {
+      "png": "spins-deluxe-logo.png"
+    },
+    "spinsbro": {
+      "png": "spinsbro.png"
+    },
+    "sportsbetio": {
+      "png": "sportsbetio.png"
+    },
+    "stelario": {
+      "png": "stelario.png"
+    },
+    "supacasi": {
+      "png": "supacasi.png"
+    },
+    "svenbet": {
+      "png": "svenbet.png"
+    },
+    "test": {
+      "png": "test-logo.png"
+    },
+    "the-red": {
+      "png": "the-red.png"
+    },
+    "thered": {
+      "png": "thered.png"
+    },
+    "tikicasino": {
+      "png": "tikicasino.png"
+    },
+    "thorcasino": {
+      "png": "thorcasino.png"
+    },
+    "tik-tok-askgamblers": {
+      "png": "tik-tok-askgamblers.png"
+    },
+    "tonybet": {
+      "png": "tonybet.png"
+    },
+    "treasure-spins": {
+      "png": "treasure-spins.png"
+    },
+    "treasure": {
+      "ico": "treasure.ico"
+    },
+    "trino": {
+      "png": "trino.png"
+    },
+    "trustdice": {
+      "png": "trustdice.png"
+    },
+    "tsars": {
+      "png": "tsars.png"
+    },
+    "unibet": {
+      "png": "unibet.png"
+    },
+    "vave": {
+      "png": "vave.png"
+    },
+    "unlimluck-hb-v2": {
+      "png": "unlimluck-hb-v2.png"
+    },
+    "unlimluck": {
+      "png": "unlimluck.png"
+    },
+    "useravatar": {
+      "png": "useravatar.png"
+    },
+    "vegas-nova-geo": {
+      "png": "vegas-nova-geo-logo.png"
+    },
+    "vegas-nova": {
+      "png": "vegas-nova.png"
+    },
+    "vegas": {
+      "ico": "vegas.ico"
+    },
+    "vincispin-geo": {
+      "png": "vincispin-geo-logo.png"
+    },
+    "vincispin": {
+      "png": "vincispin-logo.png"
+    },
+    "vipzino": {
+      "png": "vipzino.png"
+    },
+    "wazbee": {
+      "png": "wazbee.png"
+    },
+    "weiss": {
+      "png": "weiss.png"
+    },
+    "wild-robin": {
+      "png": "wild-robin.png"
+    },
+    "wildcoins": {
+      "png": "wildcoins.png"
+    },
+    "wildrobin": {
+      "svg": "wildrobin.svg",
+      "png": "wildrobin-casino.png"
+    },
+    "willdsino": {
+      "png": "willdsino.png"
+    },
+    "windetta": {
+      "png": "windetta.png"
+    },
+    "winitbet": {
+      "png": "winitbet.png"
+    },
+    "winlegends": {
+      "png": "winlegends.png"
+    },
+    "winnerz": {
+      "png": "winnerz.png"
+    },
+    "winrolla": {
+      "png": "winrolla.png"
+    },
+    "winshark": {
+      "png": "winshark.png"
+    },
+    "woocasino": {
+      "png": "woocasino.png"
+    },
+    "wonthere": {
+      "png": "wonthere.png"
+    },
+    "youtube-askgamblers": {
+      "png": "youtube-askgamblers.png"
+    },
+    "zencasino": {
+      "png": "zencasino.png"
+    },
+    "zinkra": {
+      "png": "zinkra.png"
+    },
+    "zotabet": {
+      "png": "zotabet.png"
+    }
+  },
+  "slugPatterns": {
+    "500": "500",
+    "aerobet": "aerobet",
+    "allspins": "allspins",
+    "allstarz": "allstarz",
+    "arcanebet": "arcanebet",
+    "artcasino": "artcasino",
+    "askgamblers-facebook": "askgamblers-facebook",
+    "askgamblers-x": "askgamblers-x",
+    "astrozino": "astrozino",
+    "benefits-of-reading-casino-reviews": "benefits-of-reading-casino-reviews",
+    "best-casino-affiliate": "best-casino-affiliate-logo",
+    "best-casino-website": "best-casino-website-logo",
+    "betandyou": "betandyou",
+    "betflare": "betflare",
+    "betico": "betico",
+    "betrebels": "betrebels",
+    "betroom24": "betroom24",
+    "betsio": "betsio",
+    "bitcasinoio": "bitcasinoio",
+    "bitsler": "bitsler",
+    "campeonbet": "campeonbet",
+    "casabet": "casabet",
+    "casino-orca": "casino-orca",
+    "casoo": "casoo",
+    "chanz": "chanz",
+    "cosmicslot": "cosmicslot",
+    "default": "default-casino",
+    "del-oro": "del-oro",
+    "dmcacom-protection-status": "dmcacom-protection-status",
+    "egr": "egr-logo",
+    "everum": "everum",
+    "evobet": "evobet",
+    "fairspin": "fairspin",
+    "fortunejack": "fortunejack",
+    "gangsta": "gangsta",
+    "golden-panda-geo": "golden-panda-geo-logo",
+    "golden-panda": "golden-panda-logo",
+    "heats": "heats",
+    "hello-fortune": "hello-fortune-logo",
+    "how-to-choose-the-right": "how-to-choose-the-right",
+    "hunter": "hunter",
+    "impressario": "impressario",
+    "instagram-askgamblers": "instagram-askgamblers",
+    "instant-casino-geo": "instant-casino-geo-logo",
+    "instant": "instant-casino-logo",
+    "instaspin": "instaspin",
+    "ivybetio": "ivybetio",
+    "jackbit": "jackbit",
+    "jackpot-raider": "jackpot-raider-logo",
+    "jet4bet-uk": "jet4bet-uk",
+    "jet4bet": "jet4bet",
+    "joker-ace's": "joker-ace's",
+    "joker": "joker",
+    "joya": "joya",
+    "kings-chip-geo": "kings-chip-geo-logo",
+    "kings-chip": "kings-chip-logo",
+    "kings": "kings",
+    "larabet": "larabet",
+    "lilibet": "lilibet",
+    "london": "london-casino",
+    "lucki": "lucki-casino-logo",
+    "lucky-hunter": "lucky-hunter",
+    "lucky-wand": "lucky-wand",
+    "lyrabet-gr-v2-geo": "lyrabet-gr-v2-geo-logo",
+    "lyrabet-gr-v2": "lyrabet-gr-v2-logo",
+    "lyrabet": "lyrabet",
+    "magius-casino-geo": "magius-casino-geo-logo",
+    "magius": "magius-casino-logo",
+    "malina": "malina-casino",
+    "moana-casino-geo": "moana-casino-geo-logo",
+    "moana": "moana-casino-logo",
+    "mondcasino": "mondcasino",
+    "mr-pacho": "mr-pacho",
+    "mrplay": "mrplay",
+    "my-empire": "my-empire",
+    "n1-bet": "n1-bet-casino",
+    "n1bet": "n1bet",
+    "needforspeed-se-v2": "needforspeed-se-v2",
+    "needforspin": "needforspin",
+    "onlywin": "onlywin",
+    "orionsbet-uk-v2-geo": "orionsbet-uk-v2-geo-logo",
+    "orionsbet-uk-v2": "orionsbet-uk-v2-logo",
+    "orionsbet": "orionsbet-uk-v2",
+    "pistolo-casino-geo": "pistolo-casino-geo-logo",
+    "pistolo": "pistolo-casino-logo",
+    "playfrank": "playfrank",
+    "pledoo": "pledoo",
+    "posido": "posido",
+    "red": "red",
+    "ritzo": "ritzo-casino",
+    "rizz": "rizz",
+    "robocat-de-geo": "robocat-de-geo-logo",
+    "robocat-de": "robocat-de-logo",
+    "rolling-slots": "rolling-slots",
+    "rolling": "rolling",
+    "rollxo": "rollxo",
+    "roman": "roman-casino",
+    "romibet-es-v2": "romibet-es-v2",
+    "romibet": "romibet",
+    "royal-game": "royal-game-logo",
+    "royspins": "royspins",
+    "sagaspins-uk-v2": "sagaspins-uk-v2-logo",
+    "sagaspins": "sagaspins-uk-v2",
+    "samba-slots-geo": "samba-slots-geo-logo",
+    "samba-slots": "samba-slots-logo",
+    "samba": "samba",
+    "sbc-awards": "sbc-awards-logo",
+    "sigma-awards": "sigma-awards-logo",
+    "skyhills-nl-v2-geo": "skyhills-nl-v2-geo-logo",
+    "skyhills-nl-v2": "skyhills-nl-v2-logo",
+    "skyhills": "skyhills",
+    "slotit-de": "slotit-de-logo",
+    "slotlair-uk-v2-geo": "slotlair-uk-v2-geo-logo",
+    "slotlair-uk-v2": "slotlair-uk-v2-logo",
+    "slotlair": "slotlair-uk-v2",
+    "slotnite": "slotnite",
+    "slots-islands": "slots-islands-logo",
+    "smokace": "smokace",
+    "spellwin": "spellwin-2",
+    "spinbetter": "spinbetter",
+    "spincastle-uk-v2-geo": "spincastle-uk-v2-geo-logo",
+    "spincastle": "spincastle-uk-v2",
+    "spingranny-at-geo": "spingranny-at-geo-logo",
+    "spingranny-at": "spingranny-at",
+    "spingranny": "spingranny",
+    "spinlander": "spinlander",
+    "spinmama": "spinmama",
+    "spins-deluxe": "spins-deluxe-logo",
+    "spinsbro": "spinsbro",
+    "sportsbetio": "sportsbetio",
+    "stelario": "stelario",
+    "supacasi": "supacasi",
+    "svenbet": "svenbet",
+    "test": "test-logo",
+    "the-red": "the-red",
+    "thorcasino": "thorcasino",
+    "tik-tok-askgamblers": "tik-tok-askgamblers",
+    "tiki": "tiki-casino",
+    "tonybet": "tonybet",
+    "treasure-spins": "treasure-spins-logo",
+    "treasure": "treasure",
+    "trino": "trino",
+    "trustdice": "trustdice",
+    "tsars": "tsars",
+    "unibet": "unibet",
+    "unlimluck-hb-v2": "unlimluck-hb-v2",
+    "amunra": "amunra",
+    "betvili": "betvili",
+    "bizzo": "bizzo",
+    "boomerang": "boomerang",
+    "cashalot": "cashalot",
+    "cazimbo": "cazimbo",
+    "greatwin": "greatwin",
+    "gslot": "gslot",
+    "librabet": "librabet",
+    "luckstars": "luckstars",
+    "mystake": "mystake",
+    "nomini": "nomini",
+    "qbet": "qbet",
+    "rabona": "rabona",
+    "spinfever": "spinfever",
+    "thered": "thered",
+    "tikicasino": "tikicasino",
+    "unlimluck": "unlimluck",
+    "vave": "vave",
+    "wildcoins": "wildcoins",
+    "woocasino": "woocasino",
+    "zotabet": "zotabet",
+    "useravatar": "useravatar",
+    "vegas-nova-geo": "vegas-nova-geo-logo",
+    "vegas-nova": "vegas-nova-logo",
+    "vegas": "vegas",
+    "vincispin-geo": "vincispin-geo-logo",
+    "vincispin": "vincispin-logo",
+    "vipzino": "vipzino",
+    "wazbee": "wazbee",
+    "weiss": "weiss",
+    "wild-robin": "wild-robin",
+    "wildrobin": "wildrobin-2",
+    "willdsino": "willdsino",
+    "windetta": "windetta",
+    "winitbet": "winitbet-logo",
+    "winlegends": "winlegends",
+    "winnerz": "winnerz",
+    "winrolla": "winrolla",
+    "winshark": "winshark",
+    "wonthere": "wonthere",
+    "youtube-askgamblers": "youtube-askgamblers",
+    "zencasino": "zencasino",
+    "zinkra": "zinkra"
+  },
+  "generatedAt": "2025-10-02T10:29:27.802Z"
+}

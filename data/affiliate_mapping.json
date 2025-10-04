@@ -1,0 +1,2263 @@
+{
+  "totalCampaigns": 141,
+  "uniqueCasinos": 91,
+  "mappings": {
+    "36": [
+      {
+        "campaignId": 633,
+        "casinoName": "36",
+        "trackingUrl": "https://trk.bestcasinoportal.com/36-hight-fly-bet-pl-pt-casino-bonus-review-uz",
+        "alias": "36-hight-fly-bet-pl-pt-casino-bonus-review-uz",
+        "geoTargeting": [
+          "CA",
+          "BE",
+          "PT",
+          "PL"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - 36 Hight Fly Bet PL PT",
+        "notes": "SEO-optimized campaign for 36 Hight Fly Bet (SMS) PL PT [REG] - €180 CPA (200 EUR). Keywords: casino, bonus, review, 36-hight-fly-bet",
+        "updatedAt": "2025-08-31 16:48:22"
+      }
+    ],
+    "winshark": [
+      {
+        "campaignId": 756,
+        "casinoName": "winshark",
+        "trackingUrl": "https://trk.bestcasinoportal.com/winshark-au-es-casino-bonus-review-87vs-v3",
+        "alias": "winshark-au-es-casino-bonus-review-87vs-v3",
+        "geoTargeting": [
+          "CA",
+          "AU",
+          "ES"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Winshark AU ES-v3",
+        "notes": "SEO campaign for Winshark (SMS) AU ES [Homepage] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 18:34:45"
+      },
+      {
+        "campaignId": 635,
+        "casinoName": "winshark",
+        "trackingUrl": "https://trk.bestcasinoportal.com/winshark-au-es-casino-bonus-review-wcmi-v2",
+        "alias": "winshark-au-es-casino-bonus-review-wcmi-v2",
+        "geoTargeting": [
+          "CA",
+          "AU",
+          "ES"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Winshark AU ES-v2",
+        "notes": "SEO campaign for Winshark (SMS) AU ES [Homepage] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:21"
+      }
+    ],
+    "wonthere": [
+      {
+        "campaignId": 755,
+        "casinoName": "wonthere",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wonthere-uk-casino-bonus-review-lpf9-v3",
+        "alias": "wonthere-uk-casino-bonus-review-lpf9-v3",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - WonThere UK-v3",
+        "notes": "SEO campaign for WonThere (SMS) = UK [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 18:34:43"
+      },
+      {
+        "campaignId": 634,
+        "casinoName": "wonthere",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wonthere-uk-casino-bonus-review-8ry2-v2",
+        "alias": "wonthere-uk-casino-bonus-review-8ry2-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - WonThere UK-v2",
+        "notes": "SEO campaign for WonThere (SMS) = UK [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:22"
+      }
+    ],
+    "roman-casino": [
+      {
+        "campaignId": 754,
+        "casinoName": "roman-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/roman-casino-uk-casino-bonus-review-tvv0-retry2",
+        "alias": "roman-casino-uk-casino-bonus-review-tvv0-retry2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Roman Casino UK-retry2",
+        "notes": "SEO campaign for Roman Casino (SMS) [Reg. Page] (220 EUR). Retry attempt 2 for homepage.",
+        "updatedAt": "2025-08-31 18:34:09"
+      },
+      {
+        "campaignId": 752,
+        "casinoName": "roman-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/roman-casino-reg-page-220-eur-128-63302408",
+        "alias": "roman-casino-reg-page-220-eur-128-63302408",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": null,
+        "campaignName": "Roman Casino [Reg. Page] (220 EUR) - SEO Homepage",
+        "notes": "Auto-generated SEO campaign for homepage. Offer ID: 128",
+        "updatedAt": "2025-08-31 18:01:44"
+      },
+      {
+        "campaignId": 751,
+        "casinoName": "roman-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/roman-casino-reg-page-200-eur-129-63301559",
+        "alias": "roman-casino-reg-page-200-eur-129-63301559",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": null,
+        "campaignName": "Roman Casino [Reg. Page] (200 EUR) - SEO Homepage",
+        "notes": "Auto-generated SEO campaign for homepage. Offer ID: 129",
+        "updatedAt": "2025-08-31 18:01:43"
+      },
+      {
+        "campaignId": 675,
+        "casinoName": "roman-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/roman-casino-uk-casino-bonus-review-dhi9-v3",
+        "alias": "roman-casino-uk-casino-bonus-review-dhi9-v3",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Roman Casino UK-v3",
+        "notes": "SEO campaign for Roman Casino [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:54"
+      }
+    ],
+    "ivybetio": [
+      {
+        "campaignId": 753,
+        "casinoName": "ivybetio",
+        "trackingUrl": "https://trk.bestcasinoportal.com/ivybetio-hq-sms-fr-es-reg-page-220-eur-83-63303260",
+        "alias": "ivybetio-hq-sms-fr-es-reg-page-220-eur-83-63303260",
+        "geoTargeting": [
+          "FR",
+          "ES"
+        ],
+        "revenue": null,
+        "campaignName": "Ivybet.io (HQ SMS) - FR ES [Reg. Page] (220 EUR) - SEO Homepage",
+        "notes": "Auto-generated SEO campaign for homepage. Offer ID: 83",
+        "updatedAt": "2025-08-31 18:01:44"
+      },
+      {
+        "campaignId": 714,
+        "casinoName": "ivybetio",
+        "trackingUrl": "https://trk.bestcasinoportal.com/ivybet-io-hq-sm-casino-bonus-review-e7wb-v3",
+        "alias": "ivybet-io-hq-sm-casino-bonus-review-e7wb-v3",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Ivybet.io ( HQ SM-v3",
+        "notes": "SEO campaign for Ivybet.io (HQ SMS) - FR ES [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:27"
+      }
+    ],
+    "vipzino": [
+      {
+        "campaignId": 750,
+        "casinoName": "vipzino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/vipzino-sms-reg-200-eur-166-63300512",
+        "alias": "vipzino-sms-reg-200-eur-166-63300512",
+        "geoTargeting": [
+          "GLOBAL"
+        ],
+        "revenue": null,
+        "campaignName": "Vipzino - (SMS) [REG] (200 EUR) - SEO Homepage",
+        "notes": "Auto-generated SEO campaign for homepage. Offer ID: 166",
+        "updatedAt": "2025-08-31 18:01:42"
+      },
+      {
+        "campaignId": 646,
+        "casinoName": "vipzino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/vipzino-uk-casino-bonus-review-9gez-v3",
+        "alias": "vipzino-uk-casino-bonus-review-9gez-v3",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Vipzino UK-v3",
+        "notes": "SEO campaign for Vipzino - (SMS) [REG] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:14"
+      }
+    ],
+    "test": [
+      {
+        "campaignId": 748,
+        "casinoName": "test",
+        "trackingUrl": "https://trk.bestcasinoportal.com/test-casino-offer-uk-casino-bonus-review-bue7",
+        "alias": "test-casino-offer-uk-casino-bonus-review-bue7",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Test Casino Offer UK",
+        "notes": "SEO campaign for Test Casino Offer - €250 CPA (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:04"
+      }
+    ],
+    "fatpirate": [
+      {
+        "campaignId": 727,
+        "casinoName": "fatpirate",
+        "trackingUrl": "https://trk.bestcasinoportal.com/fatpirate-it-casino-bonus-review-4rnu-v2",
+        "alias": "fatpirate-it-casino-bonus-review-4rnu-v2",
+        "geoTargeting": [
+          "CA",
+          "IT"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - FatPirate IT-v2",
+        "notes": "SEO campaign for FatPirate (SMS) - IT [Reg. Page] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:19"
+      },
+      {
+        "campaignId": 609,
+        "casinoName": "fatpirate",
+        "trackingUrl": "https://trk.bestcasinoportal.com/fatpirate-nl-be-fi-casino-bonus-review-mo",
+        "alias": "fatpirate-nl-be-fi-casino-bonus-review-mo",
+        "geoTargeting": [
+          "CA",
+          "NL",
+          "FI",
+          "BE"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - FatPirate NL BE FI ES",
+        "notes": "SEO-optimized campaign for FatPirate (SMS) - NL BE FI ES [Reg. Page] (230 EUR). Keywords: casino, bonus, review, fatpirate",
+        "updatedAt": "2025-08-31 16:48:38"
+      }
+    ],
+    "felix-spin": [
+      {
+        "campaignId": 726,
+        "casinoName": "felix-spin",
+        "trackingUrl": "https://trk.bestcasinoportal.com/felix-spin-casino-bonus-review-leb3-v2",
+        "alias": "felix-spin-casino-bonus-review-leb3-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Felix Spin - DA CH, BE, FR, IT, PT, ES, CH-v2",
+        "notes": "SEO campaign for Felix Spin (SMS) - DACH, BE, FR, IT, PT, ES, CH [Reg. Page] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:19"
+      }
+    ],
+    "foxygold": [
+      {
+        "campaignId": 725,
+        "casinoName": "foxygold",
+        "trackingUrl": "https://trk.bestcasinoportal.com/foxygold-nl-se-ro-casino-bonus-review-dmlm-v2",
+        "alias": "foxygold-nl-se-ro-casino-bonus-review-dmlm-v2",
+        "geoTargeting": [
+          "CA",
+          "NL",
+          "SE",
+          "RO"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - FoxyGold NL, SE, RO-v2",
+        "notes": "SEO campaign for FoxyGold - NL, SE, ROW (EN) [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:20"
+      },
+      {
+        "campaignId": 724,
+        "casinoName": "foxygold",
+        "trackingUrl": "https://trk.bestcasinoportal.com/foxygold-fr-casino-bonus-review-nev6-v2",
+        "alias": "foxygold-fr-casino-bonus-review-nev6-v2",
+        "geoTargeting": [
+          "CA",
+          "FR"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - FoxyGold FR-v2",
+        "notes": "SEO campaign for FoxyGold (SMS) - FR [Reg. Page] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:21"
+      }
+    ],
+    "frenzino": [
+      {
+        "campaignId": 723,
+        "casinoName": "frenzino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/frenzino-io-casino-bonus-review-c66q-v2",
+        "alias": "frenzino-io-casino-bonus-review-c66q-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 260,
+        "campaignName": "SEO - Frenzino.io - ( HQ SM-v2",
+        "notes": "SEO campaign for Frenzino.io - (HQ SMS PPC) [HP] (260 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:21"
+      }
+    ],
+    "frostybet": [
+      {
+        "campaignId": 722,
+        "casinoName": "frostybet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/frostybet-fi-casino-bonus-review-ci4s-v2",
+        "alias": "frostybet-fi-casino-bonus-review-ci4s-v2",
+        "geoTargeting": [
+          "CA",
+          "FI"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - FrostyBet FI SE UK NL FR NO DE AT CH CA AU-v2",
+        "notes": "SEO campaign for FrostyBet (SMS) - FI SE UK NL FR NO DE AT CH CA AU [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:22"
+      }
+    ],
+    "funbet": [
+      {
+        "campaignId": 721,
+        "casinoName": "funbet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/funbet-s-ms-hq-casino-bonus-review-mhpv-v2",
+        "alias": "funbet-s-ms-hq-casino-bonus-review-mhpv-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 250,
+        "campaignName": "SEO - Funbet (S MS HQ-v2",
+        "notes": "SEO campaign for Funbet (SMS HQ) GR [REG] (250 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:23"
+      }
+    ],
+    "gamblezen": [
+      {
+        "campaignId": 720,
+        "casinoName": "gamblezen",
+        "trackingUrl": "https://trk.bestcasinoportal.com/gamblezen-uk-se-dk-fi-casino-bonus-review-2p60-v2",
+        "alias": "gamblezen-uk-se-dk-fi-casino-bonus-review-2p60-v2",
+        "geoTargeting": [
+          "UK",
+          "CA",
+          "SE",
+          "DK",
+          "FI"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - GambleZen UK SE DK FI-v2",
+        "notes": "SEO campaign for GambleZen (VIP SMS) UK SE DK FI [REG] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:23"
+      }
+    ],
+    "gigaspinz": [
+      {
+        "campaignId": 719,
+        "casinoName": "gigaspinz",
+        "trackingUrl": "https://trk.bestcasinoportal.com/gigaspinz-nl-casino-bonus-review-6twi-v2",
+        "alias": "gigaspinz-nl-casino-bonus-review-6twi-v2",
+        "geoTargeting": [
+          "CA",
+          "NL"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - GigaSpinz NL-v2",
+        "notes": "SEO campaign for GigaSpinz (SMS) NL [REG] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:24"
+      }
+    ],
+    "gransino": [
+      {
+        "campaignId": 718,
+        "casinoName": "gransino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/gransino-gr-casino-bonus-review-zhgi-v2",
+        "alias": "gransino-gr-casino-bonus-review-zhgi-v2",
+        "geoTargeting": [
+          "CA",
+          "GR"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Gransino GR-v2",
+        "notes": "SEO campaign for Gransino (SMS) - GR [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:25"
+      }
+    ],
+    "hello-fortune": [
+      {
+        "campaignId": 717,
+        "casinoName": "hello-fortune",
+        "trackingUrl": "https://trk.bestcasinoportal.com/hello-fortune-uk-casino-bonus-review-5th5-v2",
+        "alias": "hello-fortune-uk-casino-bonus-review-5th5-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Hello Fortune UK-v2",
+        "notes": "SEO campaign for Hello Fortune (SMS) [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:25"
+      }
+    ],
+    "instant-casino": [
+      {
+        "campaignId": 716,
+        "casinoName": "instant-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/instant-casino-casino-bonus-review-6ioq-v2",
+        "alias": "instant-casino-casino-bonus-review-6ioq-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Instant Casino - Engl SE NO FR NL CA CH GR UA-v2",
+        "notes": "SEO campaign for Instant Casino (NW) - Engl - SE NO FR NL CA CH GR UAE AU IT NZ DE PL ES BG DK [Reg. Page] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:26"
+      }
+    ],
+    "instaspin": [
+      {
+        "campaignId": 715,
+        "casinoName": "instaspin",
+        "trackingUrl": "https://trk.bestcasinoportal.com/instaspin-uk-nl-casino-bonus-review-k6cc-v2",
+        "alias": "instaspin-uk-nl-casino-bonus-review-k6cc-v2",
+        "geoTargeting": [
+          "UK",
+          "CA",
+          "NL"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - InstaSpin UK NL-v2",
+        "notes": "SEO campaign for InstaSpin (SMS) - UK NL [Home Page] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:27"
+      }
+    ],
+    "jet4bet": [
+      {
+        "campaignId": 712,
+        "casinoName": "jet4bet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/jet4bet-uk-casino-bonus-review-gs7f-v2",
+        "alias": "jet4bet-uk-casino-bonus-review-gs7f-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 210,
+        "campaignName": "SEO - Jet4Bet UK-v2",
+        "notes": "SEO campaign for Jet4Bet (SMS) [Reg. Page] (210 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:29"
+      }
+    ],
+    "joker-ace": [
+      {
+        "campaignId": 711,
+        "casinoName": "joker-ace",
+        "trackingUrl": "https://trk.bestcasinoportal.com/joker-ace-s-uk-casino-bonus-review-tl91-v2",
+        "alias": "joker-ace-s-uk-casino-bonus-review-tl91-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Joker Ace's UK-v2",
+        "notes": "SEO campaign for Joker Ace's (SMS) - UK [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:29"
+      }
+    ],
+    "kings-chip": [
+      {
+        "campaignId": 710,
+        "casinoName": "kings-chip",
+        "trackingUrl": "https://trk.bestcasinoportal.com/kings-chip-uk-casino-bonus-review-v3r4-v2",
+        "alias": "kings-chip-uk-casino-bonus-review-v3r4-v2",
+        "geoTargeting": [
+          "UK",
+          "CA",
+          "CH"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - Kings Chip UK-v2",
+        "notes": "SEO campaign for Kings Chip (SMS) UK [REG] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:30"
+      }
+    ],
+    "klikki-casino": [
+      {
+        "campaignId": 709,
+        "casinoName": "klikki-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/klikki-casino-uk-casino-bonus-review-25fg-v2",
+        "alias": "klikki-casino-uk-casino-bonus-review-25fg-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Klikki Casino UK-v2",
+        "notes": "SEO campaign for Klikki Casino (SMS) [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:31"
+      }
+    ],
+    "larabet": [
+      {
+        "campaignId": 708,
+        "casinoName": "larabet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/larabet-it-fr-casino-bonus-review-9vmc-v2",
+        "alias": "larabet-it-fr-casino-bonus-review-9vmc-v2",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "IT"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Larabet IT FR-v2",
+        "notes": "SEO campaign for Larabet (SMS) IT FR [REG] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:31"
+      }
+    ],
+    "london-casino": [
+      {
+        "campaignId": 707,
+        "casinoName": "london-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/london-casino-uk-casino-bonus-review-3y96-v2",
+        "alias": "london-casino-uk-casino-bonus-review-3y96-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - London Casino UK-v2",
+        "notes": "SEO campaign for London Casino - (SMS) [Home Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:32"
+      }
+    ],
+    "lucky-hunter": [
+      {
+        "campaignId": 706,
+        "casinoName": "lucky-hunter",
+        "trackingUrl": "https://trk.bestcasinoportal.com/lucky-gem-casino-bonus-review-nuqb-v2",
+        "alias": "lucky-gem-casino-bonus-review-nuqb-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Lucky Gem - en UK-v2",
+        "notes": "SEO campaign for Lucky Gem (SMS) - en [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:33"
+      },
+      {
+        "campaignId": 705,
+        "casinoName": "lucky-hunter",
+        "trackingUrl": "https://trk.bestcasinoportal.com/lucky-hunter-casino-bonus-review-8frx-v2",
+        "alias": "lucky-hunter-casino-bonus-review-8frx-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Lucky Hunter - DA CH, DK, AU-v2",
+        "notes": "SEO campaign for Lucky Hunter (SMS) - DACH, DK, AU [Reg. Page] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:33"
+      },
+      {
+        "campaignId": 704,
+        "casinoName": "lucky-hunter",
+        "trackingUrl": "https://trk.bestcasinoportal.com/lucky-wand-nl-uk-se-casino-bonus-review-vewf-v2",
+        "alias": "lucky-wand-nl-uk-se-casino-bonus-review-vewf-v2",
+        "geoTargeting": [
+          "UK",
+          "CA",
+          "NL",
+          "SE"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Lucky Wand NL UK SE-v2",
+        "notes": "SEO campaign for Lucky Wand (NW) NL UK SE [REG] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:34"
+      }
+    ],
+    "lyrabet": [
+      {
+        "campaignId": 703,
+        "casinoName": "lyrabet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/lyrabet-gr-casino-bonus-review-g3uo-v2",
+        "alias": "lyrabet-gr-casino-bonus-review-g3uo-v2",
+        "geoTargeting": [
+          "CA",
+          "GR"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - LyraBet GR-v2",
+        "notes": "SEO campaign for LyraBet (SMS) - GR [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:35"
+      },
+      {
+        "campaignId": 702,
+        "casinoName": "lyrabet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/lyrabet-be-casino-bonus-review-v36q-v2",
+        "alias": "lyrabet-be-casino-bonus-review-v36q-v2",
+        "geoTargeting": [
+          "CA",
+          "BE"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - LyraBet BE-v2",
+        "notes": "SEO campaign for LyraBet (SMS) - BE [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:36"
+      }
+    ],
+    "moana-casino": [
+      {
+        "campaignId": 701,
+        "casinoName": "moana-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/moana-uk-casino-bonus-review-rpzb-v2",
+        "alias": "moana-uk-casino-bonus-review-rpzb-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Moana Casino UK NL FI DE AT CH SE CA-v2",
+        "notes": "SEO campaign for Moana Casino (NW) UK NL FI DE AT CH SE CA [REG] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:36"
+      }
+    ],
+    "mr-pacho": [
+      {
+        "campaignId": 700,
+        "casinoName": "mr-pacho",
+        "trackingUrl": "https://trk.bestcasinoportal.com/mr-pacho-es-casino-bonus-review-2zsw-v2",
+        "alias": "mr-pacho-es-casino-bonus-review-2zsw-v2",
+        "geoTargeting": [
+          "CA",
+          "ES"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Mr Pacho ES-v2",
+        "notes": "SEO campaign for Mr Pacho (SMS) ES [Homepage] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:37"
+      },
+      {
+        "campaignId": 699,
+        "casinoName": "mr-pacho",
+        "trackingUrl": "https://trk.bestcasinoportal.com/mr-pacho-fr-casino-bonus-review-6542-v2",
+        "alias": "mr-pacho-fr-casino-bonus-review-6542-v2",
+        "geoTargeting": [
+          "CA",
+          "FR"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Mr Pacho FR-v2",
+        "notes": "SEO campaign for Mr Pacho (SMS) FR [Homepage] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:38"
+      }
+    ],
+    "needforspin": [
+      {
+        "campaignId": 698,
+        "casinoName": "needforspin",
+        "trackingUrl": "https://trk.bestcasinoportal.com/needforspeed-se-casino-bonus-review-pd3g-v2",
+        "alias": "needforspeed-se-casino-bonus-review-pd3g-v2",
+        "geoTargeting": [
+          "CA",
+          "SE"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - NeedForSpeed SE-v2",
+        "notes": "SEO campaign for NeedForSpeed (SMS) - SE [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:38"
+      },
+      {
+        "campaignId": 697,
+        "casinoName": "needforspin",
+        "trackingUrl": "https://trk.bestcasinoportal.com/needforspeed-fi-casino-bonus-review-n48z-v2",
+        "alias": "needforspeed-fi-casino-bonus-review-n48z-v2",
+        "geoTargeting": [
+          "CA",
+          "FI"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - NeedForSpeed FI-v2",
+        "notes": "SEO campaign for NeedForSpeed (SMS) - FI [Home Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:39"
+      },
+      {
+        "campaignId": 696,
+        "casinoName": "needforspin",
+        "trackingUrl": "https://trk.bestcasinoportal.com/needforspeed-es-casino-bonus-review-tybg-v2",
+        "alias": "needforspeed-es-casino-bonus-review-tybg-v2",
+        "geoTargeting": [
+          "CA",
+          "ES"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - NeedForSpeed ES-v2",
+        "notes": "SEO campaign for NeedForSpeed (SMS) - ES [Home Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:40"
+      }
+    ],
+    "orionsbet": [
+      {
+        "campaignId": 695,
+        "casinoName": "orionsbet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/orionsbet-uk-casino-bonus-review-upft-v2",
+        "alias": "orionsbet-uk-casino-bonus-review-upft-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Orionsbet UK-v2",
+        "notes": "SEO campaign for Orionsbet (SMS) - UK [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:40"
+      }
+    ],
+    "dragon-slots": [
+      {
+        "campaignId": 694,
+        "casinoName": "dragon-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/dragon-slots-ca-casino-bonus-review-zwz6-v2",
+        "alias": "dragon-slots-ca-casino-bonus-review-zwz6-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Dragon Slots CA-v2",
+        "notes": "SEO campaign for Dragon Slots (SMS) CA [Homepage] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:41"
+      },
+      {
+        "campaignId": 693,
+        "casinoName": "dragon-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/dragon-slots-au-casino-bonus-review-kq8s-v2",
+        "alias": "dragon-slots-au-casino-bonus-review-kq8s-v2",
+        "geoTargeting": [
+          "CA",
+          "AU"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Dragon Slots AU-v2",
+        "notes": "SEO campaign for Dragon Slots (SMS) AU [Homepage] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:42"
+      },
+      {
+        "campaignId": 692,
+        "casinoName": "dragon-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/dragon-slots-de-casino-bonus-review-tbis-v2",
+        "alias": "dragon-slots-de-casino-bonus-review-tbis-v2",
+        "geoTargeting": [
+          "CA",
+          "DE"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Dragon Slots DE-v2",
+        "notes": "SEO campaign for Dragon Slots (SMS) DE [Homepage] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:42"
+      },
+      {
+        "campaignId": 658,
+        "casinoName": "dragon-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/dragonia-it-no-casino-bonus-review-ze87-v2",
+        "alias": "dragonia-it-no-casino-bonus-review-ze87-v2",
+        "geoTargeting": [
+          "CA",
+          "IT",
+          "NO"
+        ],
+        "revenue": 250,
+        "campaignName": "SEO - Dragonia IT NO-v2",
+        "notes": "SEO campaign for Dragonia - IT NO [Reg. Page] (250 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:06"
+      },
+      {
+        "campaignId": 657,
+        "casinoName": "dragon-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/dragonia-gr-es-casino-bonus-review-80wg-v2",
+        "alias": "dragonia-gr-es-casino-bonus-review-80wg-v2",
+        "geoTargeting": [
+          "CA",
+          "ES",
+          "GR"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - Dragonia GR ES-v2",
+        "notes": "SEO campaign for Dragonia - GR ES [Reg. Page] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:06"
+      }
+    ],
+    "jackpot-raider": [
+      {
+        "campaignId": 691,
+        "casinoName": "jackpot-raider",
+        "trackingUrl": "https://trk.bestcasinoportal.com/jackpot-raider-casino-bonus-review-99sx-v2",
+        "alias": "jackpot-raider-casino-bonus-review-99sx-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 250,
+        "campaignName": "SEO - Jackpot Raider - ( HQ SM-v2",
+        "notes": "SEO campaign for Jackpot Raider - (HQ SMS ONLY) [Homepage] (250 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:43"
+      }
+    ],
+    "lucki-casino": [
+      {
+        "campaignId": 690,
+        "casinoName": "lucki-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/lucki-casino-uk-casino-bonus-review-itml-v2",
+        "alias": "lucki-casino-uk-casino-bonus-review-itml-v2",
+        "geoTargeting": [
+          "UK",
+          "CA",
+          "IT"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Lucki Casino UK-v2",
+        "notes": "SEO campaign for Lucki Casino [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:44"
+      }
+    ],
+    "winrolla": [
+      {
+        "campaignId": 689,
+        "casinoName": "winrolla",
+        "trackingUrl": "https://trk.bestcasinoportal.com/winrolla-au-casino-bonus-review-tb2r-v2",
+        "alias": "winrolla-au-casino-bonus-review-tb2r-v2",
+        "geoTargeting": [
+          "CA",
+          "AU"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - WinRolla AU AT NO NZ CZ PT IE DE CH ES SL IT FI PL BE CA FR IS LU-v2",
+        "notes": "SEO campaign for WinRolla (SMS) - AU AT NO NZ CZ PT IE DE CH ES SL IT FI PL BE CA FR IS LU [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:44"
+      }
+    ],
+    "pirate-spins": [
+      {
+        "campaignId": 688,
+        "casinoName": "pirate-spins",
+        "trackingUrl": "https://trk.bestcasinoportal.com/pirate-spins-uk-casino-bonus-review-djx2-v2",
+        "alias": "pirate-spins-uk-casino-bonus-review-djx2-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Pirate Spins UK-v2",
+        "notes": "SEO campaign for Pirate Spins (SMS) UK [Homepage] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:45"
+      }
+    ],
+    "posido": [
+      {
+        "campaignId": 687,
+        "casinoName": "posido",
+        "trackingUrl": "https://trk.bestcasinoportal.com/posido-da-casino-bonus-review-8314-v2",
+        "alias": "posido-da-casino-bonus-review-8314-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Posido DA CH , IT,ES,GR,BE,LU,FR,AU,NZ,CA-v2",
+        "notes": "SEO campaign for Posido (SMS) DACH , IT,ES,GR,BE,LU,FR,AU,NZ,CA [REG] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:46"
+      }
+    ],
+    "prontobet": [
+      {
+        "campaignId": 686,
+        "casinoName": "prontobet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/prontobet-au-casino-bonus-review-lcvo-v2",
+        "alias": "prontobet-au-casino-bonus-review-lcvo-v2",
+        "geoTargeting": [
+          "CA",
+          "AU"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - ProntoBet AU-v2",
+        "notes": "SEO campaign for ProntoBet (SMS) - AU [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:46"
+      }
+    ],
+    "rizz-casino": [
+      {
+        "campaignId": 685,
+        "casinoName": "rizz-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/rizz-casino-es-casino-bonus-review-hpaz-v2",
+        "alias": "rizz-casino-es-casino-bonus-review-hpaz-v2",
+        "geoTargeting": [
+          "CA",
+          "ES"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Rizz Casino ES-v2",
+        "notes": "SEO campaign for Rizz Casino (SMS) - ES [Home Page] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:47"
+      }
+    ],
+    "robocat": [
+      {
+        "campaignId": 684,
+        "casinoName": "robocat",
+        "trackingUrl": "https://trk.bestcasinoportal.com/robocat-de-casino-bonus-review-qkn3",
+        "alias": "robocat-de-casino-bonus-review-qkn3",
+        "geoTargeting": [
+          "CA",
+          "DE"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - Robocat DE, AT, CH, IT, ES, BE, LU, FR, AU, NZ, CA",
+        "notes": "SEO campaign for Robocat - DE, AT, CH, IT, ES, BE, LU, FR, AU, NZ, CA [Reg. Page] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:48"
+      }
+    ],
+    "rolling-slots": [
+      {
+        "campaignId": 683,
+        "casinoName": "rolling-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/rolling-slots-fi-casino-bonus-review-6qpx-v2",
+        "alias": "rolling-slots-fi-casino-bonus-review-6qpx-v2",
+        "geoTargeting": [
+          "CA",
+          "FI"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Rolling Slots FI-v2",
+        "notes": "SEO campaign for Rolling Slots (SMS) - FI [Home Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:48"
+      },
+      {
+        "campaignId": 682,
+        "casinoName": "rolling-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/rolling-slots-au-casino-bonus-review-gi2l-v2",
+        "alias": "rolling-slots-au-casino-bonus-review-gi2l-v2",
+        "geoTargeting": [
+          "CA",
+          "AU"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Rolling Slots AU-v2",
+        "notes": "SEO campaign for Rolling Slots (SMS) - AU [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:49"
+      },
+      {
+        "campaignId": 681,
+        "casinoName": "rolling-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/rolling-slots-it-casino-bonus-review-5im8-v2",
+        "alias": "rolling-slots-it-casino-bonus-review-5im8-v2",
+        "geoTargeting": [
+          "CA",
+          "IT"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Rolling Slots IT-v2",
+        "notes": "SEO campaign for Rolling Slots (SMS) - IT [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:50"
+      },
+      {
+        "campaignId": 680,
+        "casinoName": "rolling-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/rolling-slots-ch-casino-bonus-review-i51u-v2",
+        "alias": "rolling-slots-ch-casino-bonus-review-i51u-v2",
+        "geoTargeting": [
+          "CA",
+          "CH"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Rolling Slots CH-v2",
+        "notes": "SEO campaign for Rolling Slots (SMS) - CH [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:50"
+      },
+      {
+        "campaignId": 679,
+        "casinoName": "rolling-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/rolling-slots-at-casino-bonus-review-jjvq-v2",
+        "alias": "rolling-slots-at-casino-bonus-review-jjvq-v2",
+        "geoTargeting": [
+          "CA",
+          "AT"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Rolling Slots AT-v2",
+        "notes": "SEO campaign for Rolling Slots (SMS) - AT [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:51"
+      },
+      {
+        "campaignId": 678,
+        "casinoName": "rolling-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/rolling-slots-dk-casino-bonus-review-xnnm-v2",
+        "alias": "rolling-slots-dk-casino-bonus-review-xnnm-v2",
+        "geoTargeting": [
+          "CA",
+          "DK"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Rolling Slots DK-v2",
+        "notes": "SEO campaign for Rolling Slots (SMS) - DK [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:52"
+      },
+      {
+        "campaignId": 677,
+        "casinoName": "rolling-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/rolling-slots-ie-casino-bonus-review-vlpy-v2",
+        "alias": "rolling-slots-ie-casino-bonus-review-vlpy-v2",
+        "geoTargeting": [
+          "CA",
+          "IE"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Rolling Slots IE-v2",
+        "notes": "SEO campaign for Rolling Slots (SMS) - IE [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:52"
+      }
+    ],
+    "rollxo": [
+      {
+        "campaignId": 676,
+        "casinoName": "rollxo",
+        "trackingUrl": "https://trk.bestcasinoportal.com/rollxo-2-uk-casino-bonus-review-wevc-v2",
+        "alias": "rollxo-2-uk-casino-bonus-review-wevc-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - RollXO (2) UK-v2",
+        "notes": "SEO campaign for RollXO (2) [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:53"
+      }
+    ],
+    "romibet": [
+      {
+        "campaignId": 673,
+        "casinoName": "romibet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/romibet-es-casino-bonus-review-iv1v-v2",
+        "alias": "romibet-es-casino-bonus-review-iv1v-v2",
+        "geoTargeting": [
+          "CA",
+          "ES"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - RomiBet ES-v2",
+        "notes": "SEO campaign for RomiBet (SMS) - ES [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:55"
+      },
+      {
+        "campaignId": 672,
+        "casinoName": "romibet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/romibet-fr-casino-bonus-review-ldj2-v2",
+        "alias": "romibet-fr-casino-bonus-review-ldj2-v2",
+        "geoTargeting": [
+          "CA",
+          "FR"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - RomiBet FR-v2",
+        "notes": "SEO campaign for RomiBet (SMS) - FR [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:56"
+      }
+    ],
+    "sagaspins": [
+      {
+        "campaignId": 671,
+        "casinoName": "sagaspins",
+        "trackingUrl": "https://trk.bestcasinoportal.com/sagaspins-uk-casino-bonus-review-d7oq-v2",
+        "alias": "sagaspins-uk-casino-bonus-review-d7oq-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - SagaSpins UK-v2",
+        "notes": "SEO campaign for SagaSpins (SMS) - UK [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:56"
+      }
+    ],
+    "samba-slots": [
+      {
+        "campaignId": 670,
+        "casinoName": "samba-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/samba-slots-es-casino-bonus-review-j352-v2",
+        "alias": "samba-slots-es-casino-bonus-review-j352-v2",
+        "geoTargeting": [
+          "CA",
+          "ES"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - Samba Slots ES-v2",
+        "notes": "SEO campaign for Samba Slots (HQSMS) ES [Homepage] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:57"
+      },
+      {
+        "campaignId": 669,
+        "casinoName": "samba-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/samba-slots-fr-casino-bonus-review-gepx-v2",
+        "alias": "samba-slots-fr-casino-bonus-review-gepx-v2",
+        "geoTargeting": [
+          "CA",
+          "FR"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - Samba Slots FR-v2",
+        "notes": "SEO campaign for Samba Slots (HQSMS) FR [Homepage] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:58"
+      },
+      {
+        "campaignId": 668,
+        "casinoName": "samba-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/samba-slots-de-ch-casino-bonus-review-0zs9-v2",
+        "alias": "samba-slots-de-ch-casino-bonus-review-0zs9-v2",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "CH"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - Samba Slots DE CH-v2",
+        "notes": "SEO campaign for Samba Slots (HQSMS) DE CH [Homepage] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:58"
+      },
+      {
+        "campaignId": 667,
+        "casinoName": "samba-slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/samba-slots-nl-ca-se-casino-bonus-review-1i9p-v2",
+        "alias": "samba-slots-nl-ca-se-casino-bonus-review-1i9p-v2",
+        "geoTargeting": [
+          "CA",
+          "NL",
+          "SE"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - Samba Slots NL CA SE-v2",
+        "notes": "SEO campaign for Samba Slots (HQSMS) NL CA SE [Homepage] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:47:59"
+      }
+    ],
+    "skyhills": [
+      {
+        "campaignId": 666,
+        "casinoName": "skyhills",
+        "trackingUrl": "https://trk.bestcasinoportal.com/skyhills-nl-casino-bonus-review-4gki-v2",
+        "alias": "skyhills-nl-casino-bonus-review-4gki-v2",
+        "geoTargeting": [
+          "CA",
+          "NL"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - SkyHills NL-v2",
+        "notes": "SEO campaign for SkyHills (SMS) - NL [REG] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:00"
+      }
+    ],
+    "slotlair": [
+      {
+        "campaignId": 665,
+        "casinoName": "slotlair",
+        "trackingUrl": "https://trk.bestcasinoportal.com/slotlair-uk-casino-bonus-review-fhu9-v2",
+        "alias": "slotlair-uk-casino-bonus-review-fhu9-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Slotlair UK-v2",
+        "notes": "SEO campaign for Slotlair (SMS) - UK [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:00"
+      }
+    ],
+    "spellwin": [
+      {
+        "campaignId": 664,
+        "casinoName": "spellwin",
+        "trackingUrl": "https://trk.bestcasinoportal.com/spellwin-uk-casino-bonus-review-98a1-v2",
+        "alias": "spellwin-uk-casino-bonus-review-98a1-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 210,
+        "campaignName": "SEO - SpellWin UK-v2",
+        "notes": "SEO campaign for SpellWin (SMS) [Reg. Page] (210 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:01"
+      },
+      {
+        "campaignId": 663,
+        "casinoName": "spellwin",
+        "trackingUrl": "https://trk.bestcasinoportal.com/spellwin-de-casino-bonus-review-gs3e-v2",
+        "alias": "spellwin-de-casino-bonus-review-gs3e-v2",
+        "geoTargeting": [
+          "CA",
+          "DE"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - SpellWin DE AT CH CA FI SE NO DK BE IT-v2",
+        "notes": "SEO campaign for SpellWin (SMS) - DE AT CH CA FI SE NO DK BE IT [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:02"
+      }
+    ],
+    "spincastle": [
+      {
+        "campaignId": 662,
+        "casinoName": "spincastle",
+        "trackingUrl": "https://trk.bestcasinoportal.com/spincastle-uk-casino-bonus-review-kg3s-v2",
+        "alias": "spincastle-uk-casino-bonus-review-kg3s-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - SpinCastle UK-v2",
+        "notes": "SEO campaign for SpinCastle (SMS) UK [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:02"
+      }
+    ],
+    "spinlander": [
+      {
+        "campaignId": 661,
+        "casinoName": "spinlander",
+        "trackingUrl": "https://trk.bestcasinoportal.com/spinlander-uk-casino-bonus-review-4afk-v2",
+        "alias": "spinlander-uk-casino-bonus-review-4afk-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - SpinLander UK-v2",
+        "notes": "SEO campaign for SpinLander (SMS) [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:03"
+      }
+    ],
+    "spinmama": [
+      {
+        "campaignId": 660,
+        "casinoName": "spinmama",
+        "trackingUrl": "https://trk.bestcasinoportal.com/spinmama-pl-casino-bonus-review-annk-v2",
+        "alias": "spinmama-pl-casino-bonus-review-annk-v2",
+        "geoTargeting": [
+          "CA",
+          "PL"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - SpinMama PL GR SK CH AT PT SI HU CZ FR-v2",
+        "notes": "SEO campaign for SpinMama (SMS) - PL GR SK CH AT PT SI HU CZ FR [Reg. Page] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:04"
+      },
+      {
+        "campaignId": 530,
+        "casinoName": "spinmama",
+        "trackingUrl": "https://trk.bestcasinoportal.com/spinmama-de-at-ch-casino-bonus-review-3m",
+        "alias": "spinmama-de-at-ch-casino-bonus-review-3m",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "AT",
+          "CH"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - SpinMama DE AT CH BE ES IT 1756635626082",
+        "notes": "SEO-optimized campaign for SpinMama (SMS) - DE AT CH BE ES IT [Reg. Page] (220 EUR). Keywords: casino, bonus, review, spinmama",
+        "updatedAt": "2025-08-31 16:49:31"
+      }
+    ],
+    "spins": [
+      {
+        "campaignId": 659,
+        "casinoName": "spins",
+        "trackingUrl": "https://trk.bestcasinoportal.com/spins-deluxe-uk-casino-bonus-review-ldar-v2",
+        "alias": "spins-deluxe-uk-casino-bonus-review-ldar-v2",
+        "geoTargeting": [
+          "UK",
+          "CA",
+          "DE"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - Spins Deluxe UK-v2",
+        "notes": "SEO campaign for Spins Deluxe (SMS) [Reg Page] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:05"
+      }
+    ],
+    "11croc": [
+      {
+        "campaignId": 656,
+        "casinoName": "11croc",
+        "trackingUrl": "https://trk.bestcasinoportal.com/11croc-de-casino-bonus-review-ofph-v2",
+        "alias": "11croc-de-casino-bonus-review-ofph-v2",
+        "geoTargeting": [
+          "CA",
+          "DE"
+        ],
+        "revenue": 260,
+        "campaignName": "SEO - 11Croc DE-v2",
+        "notes": "SEO campaign for 11Croc (SMS) - DE [Reg. Page] (260 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:07"
+      },
+      {
+        "campaignId": 655,
+        "casinoName": "11croc",
+        "trackingUrl": "https://trk.bestcasinoportal.com/11croc-at-casino-bonus-review-uorp-v2",
+        "alias": "11croc-at-casino-bonus-review-uorp-v2",
+        "geoTargeting": [
+          "CA",
+          "AT"
+        ],
+        "revenue": 260,
+        "campaignName": "SEO - 11Croc AT-v2",
+        "notes": "SEO campaign for 11Croc (SMS) - AT [Reg. Page] (260 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:08"
+      }
+    ],
+    "capo": [
+      {
+        "campaignId": 654,
+        "casinoName": "capo",
+        "trackingUrl": "https://trk.bestcasinoportal.com/capo-spins-pl-casino-bonus-review-3xno-v2",
+        "alias": "capo-spins-pl-casino-bonus-review-3xno-v2",
+        "geoTargeting": [
+          "CA",
+          "PL"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Capo Spins PL-v2",
+        "notes": "SEO campaign for Capo Spins (SMS) PL [REG] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:08"
+      },
+      {
+        "campaignId": 523,
+        "casinoName": "capo",
+        "trackingUrl": "https://trk.bestcasinoportal.com/capo-spins-de-ch-fr-casino-bonus-review-zt",
+        "alias": "capo-spins-de-ch-fr-casino-bonus-review-zt",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "FR",
+          "CH"
+        ],
+        "revenue": 300,
+        "campaignName": "SEO - Capo Spins DE CH FR ES AT IT 1756635611097",
+        "notes": "SEO-optimized campaign for Capo Spins (SMS) DE CH FR ES AT IT [REG] (300 EUR). Keywords: casino, bonus, review, capo-spins",
+        "updatedAt": "2025-08-31 16:49:36"
+      }
+    ],
+    "unlimluck": [
+      {
+        "campaignId": 653,
+        "casinoName": "unlimluck",
+        "trackingUrl": "https://trk.bestcasinoportal.com/unlimluck-hb-casino-bonus-review-k6hz-v2",
+        "alias": "unlimluck-hb-casino-bonus-review-k6hz-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - UnlimLuck HB-v2",
+        "notes": "SEO campaign for UnlimLuck HB (SMS) - UK [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:09"
+      }
+    ],
+    "bet": [
+      {
+        "campaignId": 652,
+        "casinoName": "bet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/bet-buffon-uk-casino-bonus-review-zlha-v2",
+        "alias": "bet-buffon-uk-casino-bonus-review-zlha-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 280,
+        "campaignName": "SEO - Bet Buffon UK-v2",
+        "notes": "SEO campaign for Bet Buffon (HQSMS) - UK [Reg. Page] (280 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:10"
+      }
+    ],
+    "friday": [
+      {
+        "campaignId": 651,
+        "casinoName": "friday",
+        "trackingUrl": "https://trk.bestcasinoportal.com/friday-at-casino-bonus-review-ee2t-v2",
+        "alias": "friday-at-casino-bonus-review-ee2t-v2",
+        "geoTargeting": [
+          "CA",
+          "AT"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Friday Roll AT CH DE ES AU BE CA DK FR IT PT-v2",
+        "notes": "SEO campaign for Friday Roll (SMS) - AT CH DE ES AU BE CA DK FR IT PT [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:10"
+      },
+      {
+        "campaignId": 518,
+        "casinoName": "friday",
+        "trackingUrl": "https://trk.bestcasinoportal.com/friday-roll-cz-gr-hu-casino-bonus-review-p4",
+        "alias": "friday-roll-cz-gr-hu-casino-bonus-review-p4",
+        "geoTargeting": [
+          "CA",
+          "GR",
+          "CZ",
+          "RO"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Friday Roll CZ, GR, HU, PL, SK 1756635599467",
+        "notes": "SEO-optimized campaign for Friday Roll (SMS) - CZ, GR, HU, PL, SK [Reg. Page] (200 EUR). Keywords: casino, bonus, review, friday-roll",
+        "updatedAt": "2025-08-31 16:49:39"
+      }
+    ],
+    "the": [
+      {
+        "campaignId": 650,
+        "casinoName": "the",
+        "trackingUrl": "https://trk.bestcasinoportal.com/the-uk-casino-bonus-review-mo7p-v2",
+        "alias": "the-uk-casino-bonus-review-mo7p-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - The Red Toucan UK FR DE NL CH AT ES NZ-v2",
+        "notes": "SEO campaign for The Red Toucan (SMS) UK FR DE NL CH AT ES NZ [REG] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:11"
+      }
+    ],
+    "tiki": [
+      {
+        "campaignId": 649,
+        "casinoName": "tiki",
+        "trackingUrl": "https://trk.bestcasinoportal.com/tiki-casino-casino-bonus-review-crd9-v2",
+        "alias": "tiki-casino-casino-bonus-review-crd9-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Tiki Casino - (English) CA AU NZ IE-v2",
+        "notes": "SEO campaign for Tiki Casino - (English) - CA AU NZ IE [HP] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:12"
+      }
+    ],
+    "treasure": [
+      {
+        "campaignId": 648,
+        "casinoName": "treasure",
+        "trackingUrl": "https://trk.bestcasinoportal.com/treasure-spins-uk-casino-bonus-review-bnn8-v2",
+        "alias": "treasure-spins-uk-casino-bonus-review-bnn8-v2",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Treasure Spins UK-v2",
+        "notes": "SEO campaign for Treasure Spins (SMS) [Home Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:12"
+      }
+    ],
+    "vegas": [
+      {
+        "campaignId": 647,
+        "casinoName": "vegas",
+        "trackingUrl": "https://trk.bestcasinoportal.com/vegas-nova-au-casino-bonus-review-sxi7-v2",
+        "alias": "vegas-nova-au-casino-bonus-review-sxi7-v2",
+        "geoTargeting": [
+          "CA",
+          "AU",
+          "NO"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Vegas Nova AU-v2",
+        "notes": "SEO campaign for Vegas Nova (SMS) - AU [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:13"
+      }
+    ],
+    "wild": [
+      {
+        "campaignId": 644,
+        "casinoName": "wild",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wild-robin-casino-bonus-review-vffz-v2",
+        "alias": "wild-robin-casino-bonus-review-vffz-v2",
+        "geoTargeting": [
+          "CA",
+          "RO"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - Wild Robin - ( HQ SM-v2",
+        "notes": "SEO campaign for Wild Robin - (HQ SMS) NL FI NO [Reg. Page] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:15"
+      },
+      {
+        "campaignId": 643,
+        "casinoName": "wild",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wild-ca-casino-bonus-review-054a-v2",
+        "alias": "wild-ca-casino-bonus-review-054a-v2",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Wild Robin CA AU NZ DE AT CH FR ES IT FI NL HU NO BE GC-v2",
+        "notes": "SEO campaign for Wild Robin - (SMS) CA AU NZ DE AT CH FR ES IT FI NL HU NO BE GCC PL [HP] (200 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:16"
+      },
+      {
+        "campaignId": 642,
+        "casinoName": "wild",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wild-robin-de-es-casino-bonus-review-v9z1-v2",
+        "alias": "wild-robin-de-es-casino-bonus-review-v9z1-v2",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "ES",
+          "RO"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Wild Robin DE ES-v2",
+        "notes": "SEO campaign for Wild Robin (SMS) DE ES [Reg. Page] (240 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:16"
+      },
+      {
+        "campaignId": 641,
+        "casinoName": "wild",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wild-tokyo-se-casino-bonus-review-u6jl-v2",
+        "alias": "wild-tokyo-se-casino-bonus-review-u6jl-v2",
+        "geoTargeting": [
+          "CA",
+          "SE"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Wild Tokyo SE-v2",
+        "notes": "SEO campaign for Wild Tokyo (SMS) - SE [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:17"
+      },
+      {
+        "campaignId": 640,
+        "casinoName": "wild",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wild-tokyo-fi-casino-bonus-review-ys8r-v2",
+        "alias": "wild-tokyo-fi-casino-bonus-review-ys8r-v2",
+        "geoTargeting": [
+          "CA",
+          "FI"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Wild Tokyo FI-v2",
+        "notes": "SEO campaign for Wild Tokyo (SMS) - FI [Home Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:18"
+      },
+      {
+        "campaignId": 639,
+        "casinoName": "wild",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wild-tokyo-au-casino-bonus-review-ixgb-v2",
+        "alias": "wild-tokyo-au-casino-bonus-review-ixgb-v2",
+        "geoTargeting": [
+          "CA",
+          "AU"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Wild Tokyo AU-v2",
+        "notes": "SEO campaign for Wild Tokyo (SMS) - AU [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:18"
+      },
+      {
+        "campaignId": 638,
+        "casinoName": "wild",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wild-tokyo-no-casino-bonus-review-u0lz-v2",
+        "alias": "wild-tokyo-no-casino-bonus-review-u0lz-v2",
+        "geoTargeting": [
+          "CA",
+          "NO"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Wild Tokyo NO-v2",
+        "notes": "SEO campaign for Wild Tokyo (SMS) - NO [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:19"
+      },
+      {
+        "campaignId": 637,
+        "casinoName": "wild",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wild-tokyo-it-casino-bonus-review-xpar-v2",
+        "alias": "wild-tokyo-it-casino-bonus-review-xpar-v2",
+        "geoTargeting": [
+          "CA",
+          "IT"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Wild Tokyo IT-v2",
+        "notes": "SEO campaign for Wild Tokyo (SMS) - IT [Reg. Page] (220 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:20"
+      }
+    ],
+    "willdsino": [
+      {
+        "campaignId": 636,
+        "casinoName": "willdsino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/willdsino-fr-es-it-da-casino-bonus-review-2c99-v2",
+        "alias": "willdsino-fr-es-it-da-casino-bonus-review-2c99-v2",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "ES",
+          "IT"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - Willdsino FR ES IT DA-v2",
+        "notes": "SEO campaign for Willdsino (VIPSMS) - FR ES IT DACH FI AU [Home Page] (230 EUR). Auto-generated for homepage.",
+        "updatedAt": "2025-08-31 16:48:20"
+      }
+    ],
+    "bigclash": [
+      {
+        "campaignId": 632,
+        "casinoName": "bigclash",
+        "trackingUrl": "https://trk.bestcasinoportal.com/bigclash-casino-de-at-ch-casino-bonus-review-85",
+        "alias": "bigclash-casino-de-at-ch-casino-bonus-review-85",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "AT",
+          "CH"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - BigClash Casino [250 C PA DE AT CH ES NO BE IT",
+        "notes": "SEO-optimized campaign for BigClash Casino [250 CPA DE AT CH ES NO BE IT] - €250 CPA (200 EUR). Keywords: casino, bonus, review, bigclash-casino",
+        "updatedAt": "2025-08-31 16:48:23"
+      }
+    ],
+    "magius": [
+      {
+        "campaignId": 631,
+        "casinoName": "magius",
+        "trackingUrl": "https://trk.bestcasinoportal.com/magius-casino-de-es-it-casino-bonus-review-xd",
+        "alias": "magius-casino-de-es-it-casino-bonus-review-xd",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "ES",
+          "IT"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Magius Casino [200 DE, ES, IT",
+        "notes": "SEO-optimized campaign for Magius Casino [200 DE, ES, IT] - €200 CPA (200 EUR). Keywords: casino, bonus, review, magius-casino",
+        "updatedAt": "2025-08-31 16:48:24"
+      }
+    ],
+    "malina": [
+      {
+        "campaignId": 630,
+        "casinoName": "malina",
+        "trackingUrl": "https://trk.bestcasinoportal.com/malina-casino-es-it-fr-casino-bonus-review-6m",
+        "alias": "malina-casino-es-it-fr-casino-bonus-review-6m",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "ES",
+          "IT"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Malina Casino [325 ES, IT, FR, IE, AU, FI, DE, BE, AT, CZ, NO, PL, HU",
+        "notes": "SEO-optimized campaign for Malina Casino [325 ES/IT/FR/IE/AU/FI/DE/BE/AT/CZ/NO/PL/HU] - €325 CPA (200 EUR). Keywords: casino, bonus, review, malina-casino",
+        "updatedAt": "2025-08-31 16:48:24"
+      },
+      {
+        "campaignId": 580,
+        "casinoName": "malina",
+        "trackingUrl": "https://trk.bestcasinoportal.com/malina-casino-es-de-gr-casino-bonus-review-yo",
+        "alias": "malina-casino-es-de-gr-casino-bonus-review-yo",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "ES",
+          "GR"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Malina Casino ES DE GR FR",
+        "notes": "SEO-optimized campaign for Malina Casino (HQSMS) ES DE GR FR [REG] (220 EUR). Keywords: casino, bonus, review, malina-casino",
+        "updatedAt": "2025-08-31 16:48:58"
+      }
+    ],
+    "my-empire": [
+      {
+        "campaignId": 629,
+        "casinoName": "my-empire",
+        "trackingUrl": "https://trk.bestcasinoportal.com/my-empire-casino-es-it-fr-casino-bonus-review-0w",
+        "alias": "my-empire-casino-es-it-fr-casino-bonus-review-0w",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "ES",
+          "IT"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - My Empire Casino [300 C PA ES, IT, FR, IE, AU, FI, DE, BE, AT, CZ, NO, PL, HU",
+        "notes": "SEO-optimized campaign for My Empire Casino [300 CPA ES/IT/FR/IE/AU/FI/DE/BE/AT/CZ/NO/PL/HU] - €300 CPA (200 EUR). Keywords: casino, bonus, review, my-empire-casino",
+        "updatedAt": "2025-08-31 16:48:25"
+      },
+      {
+        "campaignId": 623,
+        "casinoName": "my-empire",
+        "trackingUrl": "https://trk.bestcasinoportal.com/my-empire-casino-es-it-fr-casino-bonus-review-mw",
+        "alias": "my-empire-casino-es-it-fr-casino-bonus-review-mw",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "ES",
+          "IT"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - My Empire Casino [380 C PA ES, IT, FR, IE, AU, FI, DE, BE, AT, CZ, NO, PL, HU",
+        "notes": "SEO-optimized campaign for My Empire Casino [380 CPA ES/IT/FR/IE/AU/FI/DE/BE/AT/CZ/NO/PL/HU] - €380 CPA (200 EUR). Keywords: casino, bonus, review, my-empire-casino",
+        "updatedAt": "2025-08-31 16:48:29"
+      }
+    ],
+    "pistolo": [
+      {
+        "campaignId": 628,
+        "casinoName": "pistolo",
+        "trackingUrl": "https://trk.bestcasinoportal.com/pistolo-casino-es-it-fr-casino-bonus-review-cq",
+        "alias": "pistolo-casino-es-it-fr-casino-bonus-review-cq",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "ES",
+          "IT"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Pistolo Casino [230 C PA ES, IT, FR, IE, AU, FI, DE, BE, AT, CZ, NO, PL, HU",
+        "notes": "SEO-optimized campaign for Pistolo Casino [230 CPA ES/IT/FR/IE/AU/FI/DE/BE/AT/CZ/NO/PL/HU] - €230 CPA (200 EUR). Keywords: casino, bonus, review, pistolo-casino",
+        "updatedAt": "2025-08-31 16:48:26"
+      }
+    ],
+    "royal": [
+      {
+        "campaignId": 627,
+        "casinoName": "royal",
+        "trackingUrl": "https://trk.bestcasinoportal.com/royal-game-global-at-no-it-casino-bonus-review-6j",
+        "alias": "royal-game-global-at-no-it-casino-bonus-review-6j",
+        "geoTargeting": [
+          "CA",
+          "IT",
+          "NO",
+          "AT"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Royal Game Global [250 CPA AT, NO, IT, CA, PL, NZ, CH, HU, DE, CZ,AU,IE, SI, SK, LT",
+        "notes": "SEO-optimized campaign for Royal Game Global [250 CPA AT, NO, IT, CA, PL, NZ, CH, HU, DE, CZ,AU,IE, SI, SK, LT] - €250 CPA (200 EUR). Keywords: casino, bonus, review, royal-game-global",
+        "updatedAt": "2025-08-31 16:48:26"
+      }
+    ],
+    "cazeus": [
+      {
+        "campaignId": 626,
+        "casinoName": "cazeus",
+        "trackingUrl": "https://trk.bestcasinoportal.com/cazeus-casino-geo-pl-fr-es-casino-bonus-review-yr",
+        "alias": "cazeus-casino-geo-pl-fr-es-casino-bonus-review-yr",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "ES",
+          "PL"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Cazeus Casino GEO [225 PL, FR, ES, IT, DE",
+        "notes": "SEO-optimized campaign for Cazeus Casino GEO [225 PL, FR, ES, IT, DE] - €250 CPA (200 EUR). Keywords: casino, bonus, review, cazeus-casino-geo",
+        "updatedAt": "2025-08-31 16:48:27"
+      }
+    ],
+    "ultimluck": [
+      {
+        "campaignId": 625,
+        "casinoName": "ultimluck",
+        "trackingUrl": "https://trk.bestcasinoportal.com/ultimluck-casino-de-ch-at-casino-bonus-review-2b",
+        "alias": "ultimluck-casino-de-ch-at-casino-bonus-review-2b",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "AT",
+          "CH"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Ultimluck Casino [250 DE CH AT NL PT GR PL ES AU",
+        "notes": "SEO-optimized campaign for Ultimluck Casino [250 DE CH AT NL PT GR PL ES AU] - €250 CPA (200 EUR). Keywords: casino, bonus, review, ultimluck-casino",
+        "updatedAt": "2025-08-31 16:48:28"
+      }
+    ],
+    "wildrobin-casino": [
+      {
+        "campaignId": 624,
+        "casinoName": "wildrobin-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/wildrobin-casino-at-be-ch-casino-bonus-review-57",
+        "alias": "wildrobin-casino-at-be-ch-casino-bonus-review-57",
+        "geoTargeting": [
+          "CA",
+          "AT",
+          "CH",
+          "BE"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - WildRobin Casino [225 CPA AT, BE, CH, DE, ES, FR, IT, NL, NO",
+        "notes": "SEO-optimized campaign for WildRobin Casino [225 CPA AT, BE, CH, DE, ES, FR, IT, NL, NO] - €225 CPA (200 EUR). Keywords: casino, bonus, review, wildrobin-casino",
+        "updatedAt": "2025-08-31 16:48:28"
+      }
+    ],
+    "aerobet": [
+      {
+        "campaignId": 622,
+        "casinoName": "aerobet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/aerobet-uk-casino-bonus-review-x6",
+        "alias": "aerobet-uk-casino-bonus-review-x6",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Aerobet UK",
+        "notes": "SEO-optimized campaign for Aerobet (SMS) [Reg. Page] - €210 CPA (200 EUR). Keywords: casino, bonus, review, aerobet",
+        "updatedAt": "2025-08-31 16:48:30"
+      }
+    ],
+    "allspins": [
+      {
+        "campaignId": 621,
+        "casinoName": "allspins",
+        "trackingUrl": "https://trk.bestcasinoportal.com/allspins-uk-casino-bonus-review-7v",
+        "alias": "allspins-uk-casino-bonus-review-7v",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - AllSpins UK",
+        "notes": "SEO-optimized campaign for AllSpins (SMS) UK [Homepage] - €240 CPA (200 EUR). Keywords: casino, bonus, review, allspins",
+        "updatedAt": "2025-08-31 16:48:30"
+      },
+      {
+        "campaignId": 620,
+        "casinoName": "allspins",
+        "trackingUrl": "https://trk.bestcasinoportal.com/allspins-gr-casino-bonus-review-os",
+        "alias": "allspins-gr-casino-bonus-review-os",
+        "geoTargeting": [
+          "CA",
+          "GR"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - AllSpins GR",
+        "notes": "SEO-optimized campaign for AllSpins (SMS) - GR [Home Page] - €240 CPA (200 EUR). Keywords: casino, bonus, review, allspins",
+        "updatedAt": "2025-08-31 16:48:31"
+      },
+      {
+        "campaignId": 619,
+        "casinoName": "allspins",
+        "trackingUrl": "https://trk.bestcasinoportal.com/allspins-it-casino-bonus-review-4g",
+        "alias": "allspins-it-casino-bonus-review-4g",
+        "geoTargeting": [
+          "CA",
+          "IT"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - AllSpins IT",
+        "notes": "SEO-optimized campaign for AllSpins (SMS) - IT [Home Page] - €240 CPA (200 EUR). Keywords: casino, bonus, review, allspins",
+        "updatedAt": "2025-08-31 16:48:32"
+      },
+      {
+        "campaignId": 618,
+        "casinoName": "allspins",
+        "trackingUrl": "https://trk.bestcasinoportal.com/allspins-de-se-be-casino-bonus-review-kd",
+        "alias": "allspins-de-se-be-casino-bonus-review-kd",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "SE",
+          "BE"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - AllSpins DE SE BE CH CA IT IE",
+        "notes": "SEO-optimized campaign for AllSpins (SMS) - DE SE BE CH CA IT IE - €240 CPA (200 EUR). Keywords: casino, bonus, review, allspins",
+        "updatedAt": "2025-08-31 16:48:32"
+      }
+    ],
+    "betchain": [
+      {
+        "campaignId": 617,
+        "casinoName": "betchain",
+        "trackingUrl": "https://trk.bestcasinoportal.com/betchain-nz-fi-at-casino-bonus-review-yo",
+        "alias": "betchain-nz-fi-at-casino-bonus-review-yo",
+        "geoTargeting": [
+          "CA",
+          "FI",
+          "AT"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - BetChain NZ FI AT IE IT DE AU CA",
+        "notes": "SEO-optimized campaign for BetChain - (SMS) NZ FI AT IE IT DE AU CA [New Reg] - €230 CPA (200 EUR). Keywords: casino, bonus, review, betchain",
+        "updatedAt": "2025-08-31 16:48:33"
+      }
+    ],
+    "cosmobet": [
+      {
+        "campaignId": 616,
+        "casinoName": "cosmobet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/cosmobet-uk-casino-bonus-review-98",
+        "alias": "cosmobet-uk-casino-bonus-review-98",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - CosmoBet UK",
+        "notes": "SEO-optimized campaign for CosmoBet (SMS) UK [REG] (220 EUR). Keywords: casino, bonus, review, cosmobet",
+        "updatedAt": "2025-08-31 16:48:34"
+      }
+    ],
+    "discowin": [
+      {
+        "campaignId": 615,
+        "casinoName": "discowin",
+        "trackingUrl": "https://trk.bestcasinoportal.com/discowin-uk-casino-bonus-review-5p",
+        "alias": "discowin-uk-casino-bonus-review-5p",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - DiscoWin UK",
+        "notes": "SEO-optimized campaign for DiscoWin (SMS) - UK [Reg. Page] (240 EUR). Keywords: casino, bonus, review, discowin",
+        "updatedAt": "2025-08-31 16:48:34"
+      },
+      {
+        "campaignId": 614,
+        "casinoName": "discowin",
+        "trackingUrl": "https://trk.bestcasinoportal.com/discowin-be-fr-it-casino-bonus-review-v1",
+        "alias": "discowin-be-fr-it-casino-bonus-review-v1",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "IT",
+          "BE"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - DiscoWin BE FR IT ES UK AU CA NL",
+        "notes": "SEO-optimized campaign for DiscoWin (SMS) - BE FR IT ES UK AU CA NL [Reg. Page] (240 EUR). Keywords: casino, bonus, review, discowin",
+        "updatedAt": "2025-08-31 16:48:35"
+      }
+    ],
+    "extreme": [
+      {
+        "campaignId": 613,
+        "casinoName": "extreme",
+        "trackingUrl": "https://trk.bestcasinoportal.com/extreme-spins-uk-casino-bonus-review-iv",
+        "alias": "extreme-spins-uk-casino-bonus-review-iv",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Extreme Spins UK",
+        "notes": "SEO-optimized campaign for Extreme Spins (SMS) - UK [Reg. Page] (240 EUR). Keywords: casino, bonus, review, extreme-spins",
+        "updatedAt": "2025-08-31 16:48:36"
+      }
+    ],
+    "fast": [
+      {
+        "campaignId": 612,
+        "casinoName": "fast",
+        "trackingUrl": "https://trk.bestcasinoportal.com/fast-slots-de-ch-de-ch-casino-bonus-review-mn",
+        "alias": "fast-slots-de-ch-de-ch-casino-bonus-review-mn",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "CH"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Fast Slots DE, CH",
+        "notes": "SEO-optimized campaign for Fast Slots  - DE, CH [REG] (240 EUR). Keywords: casino, bonus, review, fast-slots-de-ch",
+        "updatedAt": "2025-08-31 16:48:36"
+      },
+      {
+        "campaignId": 611,
+        "casinoName": "fast",
+        "trackingUrl": "https://trk.bestcasinoportal.com/fast-slots-nw-ca-casino-bonus-review-xy",
+        "alias": "fast-slots-nw-ca-casino-bonus-review-xy",
+        "geoTargeting": [
+          "CA"
+        ],
+        "revenue": 260,
+        "campaignName": "SEO - Fast Slots CA",
+        "notes": "SEO-optimized campaign for Fast Slots (NW) CA [Homepage] (260 EUR). Keywords: casino, bonus, review, fast-slots",
+        "updatedAt": "2025-08-31 16:48:37"
+      },
+      {
+        "campaignId": 610,
+        "casinoName": "fast",
+        "trackingUrl": "https://trk.bestcasinoportal.com/fast-slots-uk-casino-bonus-review-od",
+        "alias": "fast-slots-uk-casino-bonus-review-od",
+        "geoTargeting": [
+          "UK",
+          "CA"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Fast Slots UK",
+        "notes": "SEO-optimized campaign for Fast Slots [Homepage] (240 EUR). Keywords: casino, bonus, review, fast-slots",
+        "updatedAt": "2025-08-31 16:48:38"
+      }
+    ],
+    "festival": [
+      {
+        "campaignId": 606,
+        "casinoName": "festival",
+        "trackingUrl": "https://trk.bestcasinoportal.com/festival-play-de-at-ch-casino-bonus-review-s3",
+        "alias": "festival-play-de-at-ch-casino-bonus-review-s3",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "AT",
+          "CH",
+          "PL"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Festival Play DE, AT, CH, CA, IE, NL, BE",
+        "notes": "SEO-optimized campaign for Festival Play (SMS) - DE, AT, CH, CA, IE, NL, BE [Reg. Page] (220 EUR). Keywords: casino, bonus, review, festival-play",
+        "updatedAt": "2025-08-31 16:48:40"
+      }
+    ],
+    "golden": [
+      {
+        "campaignId": 598,
+        "casinoName": "golden",
+        "trackingUrl": "https://trk.bestcasinoportal.com/golden-panda-se-no-fr-casino-bonus-review-1u",
+        "alias": "golden-panda-se-no-fr-casino-bonus-review-1u",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "SE",
+          "NO"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - Golden Panda SE NO FR NL CA CH GR",
+        "notes": "SEO-optimized campaign for Golden Panda (SMS) - SE NO FR NL CA CH GR Dubai AU IT NZ DE PL ES [Homepage] (200 EUR). Keywords: casino, bonus, review, golden-panda",
+        "updatedAt": "2025-08-31 16:48:46"
+      }
+    ],
+    "n1-bet-casino": [
+      {
+        "campaignId": 576,
+        "casinoName": "n1-bet-casino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/n1-bet-casino-de-au-ch-casino-bonus-review-9b",
+        "alias": "n1-bet-casino-de-au-ch-casino-bonus-review-9b",
+        "geoTargeting": [
+          "CA",
+          "AU",
+          "DE",
+          "CH",
+          "BE"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - N1 Bet Casino DE, AU, CH, AT, IT",
+        "notes": "SEO-optimized campaign for N1 Bet Casino (SMS) - DE, AU, CH, AT, IT [Reg. Page] (200 EUR). Keywords: casino, bonus, review, n1-bet-casino",
+        "updatedAt": "2025-08-31 16:49:01"
+      }
+    ],
+    "betonred": [
+      {
+        "campaignId": 571,
+        "casinoName": "betonred",
+        "trackingUrl": "https://trk.bestcasinoportal.com/betonred-fr-it-es-casino-bonus-review-a0",
+        "alias": "betonred-fr-it-es-casino-bonus-review-a0",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "ES",
+          "IT"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - BetOnRed FR IT ES DE AT CH AU",
+        "notes": "SEO-optimized campaign for BetOnRed (SMS) FR IT ES DE AT CH AU [REG] (220 EUR). Keywords: casino, bonus, review, betonred",
+        "updatedAt": "2025-08-31 16:49:04"
+      }
+    ],
+    "rich": [
+      {
+        "campaignId": 565,
+        "casinoName": "rich",
+        "trackingUrl": "https://trk.bestcasinoportal.com/rich-royal-de-at-ch-casino-bonus-review-0e",
+        "alias": "rich-royal-de-at-ch-casino-bonus-review-0e",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "AT",
+          "CH",
+          "RO"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Rich Royal DE AT CH ES PT",
+        "notes": "SEO-optimized campaign for Rich Royal (SMS) - DE AT CH ES PT [Reg. Page] (220 EUR). Keywords: casino, bonus, review, rich-royal",
+        "updatedAt": "2025-08-31 16:49:08"
+      }
+    ],
+    "ritzo": [
+      {
+        "campaignId": 560,
+        "casinoName": "ritzo",
+        "trackingUrl": "https://trk.bestcasinoportal.com/ritzo-casino-de-at-ch-casino-bonus-review-5i",
+        "alias": "ritzo-casino-de-at-ch-casino-bonus-review-5i",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "AT",
+          "CH"
+        ],
+        "revenue": 280,
+        "campaignName": "SEO - Ritzo Casino DE AT CH SE ES IT",
+        "notes": "SEO-optimized campaign for Ritzo Casino (SMS) - DE AT CH SE ES IT [Reg. Page] (280 EUR). Keywords: casino, bonus, review, ritzo-casino",
+        "updatedAt": "2025-08-31 16:49:11"
+      }
+    ],
+    "slotit": [
+      {
+        "campaignId": 539,
+        "casinoName": "slotit",
+        "trackingUrl": "https://trk.bestcasinoportal.com/slotit-de-at-ch-casino-bonus-review-cf",
+        "alias": "slotit-de-at-ch-casino-bonus-review-cf",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "AT",
+          "CH"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Slotit DE, AT, CH, FR, NL, SE 1756635647560",
+        "notes": "SEO-optimized campaign for Slotit (SMS) - DE, AT, CH, FR, NL, SE [Reg. Page] (240 EUR). Keywords: casino, bonus, review, slotit",
+        "updatedAt": "2025-08-31 16:49:25"
+      }
+    ],
+    "slots": [
+      {
+        "campaignId": 537,
+        "casinoName": "slots",
+        "trackingUrl": "https://trk.bestcasinoportal.com/slots-islands-uk-de-fr-casino-bonus-review-26",
+        "alias": "slots-islands-uk-de-fr-casino-bonus-review-26",
+        "geoTargeting": [
+          "UK",
+          "CA",
+          "DE",
+          "FR"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Slots Islands UK DE FR IT ES SE 1756635641100",
+        "notes": "SEO-optimized campaign for Slots Islands (SMS) - UK DE FR IT ES SE [Reg. Page] (220 EUR). Keywords: casino, bonus, review, slots-islands",
+        "updatedAt": "2025-08-31 16:49:27"
+      }
+    ],
+    "spingranny": [
+      {
+        "campaignId": 533,
+        "casinoName": "spingranny",
+        "trackingUrl": "https://trk.bestcasinoportal.com/spingranny-at-be-ca-casino-bonus-review-vx",
+        "alias": "spingranny-at-be-ca-casino-bonus-review-vx",
+        "geoTargeting": [
+          "CA",
+          "AT",
+          "BE"
+        ],
+        "revenue": 230,
+        "campaignName": "SEO - SpinGranny AT, BE, CA, DE, IT, ES, CH 1756635634197",
+        "notes": "SEO-optimized campaign for SpinGranny (SMS) - AT, BE, CA, DE, IT, ES, CH [Reg. Page] (230 EUR). Keywords: casino, bonus, review, spingranny",
+        "updatedAt": "2025-08-31 16:49:29"
+      },
+      {
+        "campaignId": 532,
+        "casinoName": "spingranny",
+        "trackingUrl": "https://trk.bestcasinoportal.com/spingranny-cz-gr-hu-casino-bonus-review-8x",
+        "alias": "spingranny-cz-gr-hu-casino-bonus-review-8x",
+        "geoTargeting": [
+          "CA",
+          "GR",
+          "CZ"
+        ],
+        "revenue": 200,
+        "campaignName": "SEO - SpinGranny CZ, GR, HU, PL, PT, SK, SI 1756635629483",
+        "notes": "SEO-optimized campaign for SpinGranny (SMS) - CZ, GR, HU, PL, PT, SK, SI [Reg. Page] (200 EUR). Keywords: casino, bonus, review, spingranny",
+        "updatedAt": "2025-08-31 16:49:30"
+      }
+    ],
+    "trino": [
+      {
+        "campaignId": 514,
+        "casinoName": "trino",
+        "trackingUrl": "https://trk.bestcasinoportal.com/trino-de-at-ch-casino-bonus-review-fo",
+        "alias": "trino-de-at-ch-casino-bonus-review-fo",
+        "geoTargeting": [
+          "CA",
+          "DE",
+          "AT",
+          "CH"
+        ],
+        "revenue": 220,
+        "campaignName": "SEO - Trino DE AT CH CA FI SE NO DK BE IT 1756635589601",
+        "notes": "SEO-optimized campaign for Trino (VIP SMS) - DE AT CH CA FI SE NO DK BE IT [Reg. Page] (220 EUR). Keywords: casino, bonus, review, trino",
+        "updatedAt": "2025-08-31 16:49:42"
+      }
+    ],
+    "vincispin": [
+      {
+        "campaignId": 512,
+        "casinoName": "vincispin",
+        "trackingUrl": "https://trk.bestcasinoportal.com/vincispin-fr-it-es-casino-bonus-review-fn",
+        "alias": "vincispin-fr-it-es-casino-bonus-review-fn",
+        "geoTargeting": [
+          "CA",
+          "FR",
+          "ES",
+          "IT"
+        ],
+        "revenue": 210,
+        "campaignName": "SEO - VinciSpin FR IT ES DE AT CH CA 1756635583165",
+        "notes": "SEO-optimized campaign for VinciSpin (SMS) FR IT ES DE AT CH CA [REG] (210 EUR). Keywords: casino, bonus, review, vincispin",
+        "updatedAt": "2025-08-31 16:49:43"
+      }
+    ],
+    "winitbet": [
+      {
+        "campaignId": 500,
+        "casinoName": "winitbet",
+        "trackingUrl": "https://trk.bestcasinoportal.com/winitbet-uk-au-ca-casino-bonus-review-bl",
+        "alias": "winitbet-uk-au-ca-casino-bonus-review-bl",
+        "geoTargeting": [
+          "UK",
+          "CA",
+          "AU"
+        ],
+        "revenue": 240,
+        "campaignName": "SEO - Winit.Bet UK AU CA FR DE AT NZ 1756635556714",
+        "notes": "SEO-optimized campaign for Winit.Bet (SMS) UK AU CA FR DE AT NZ [Homepage] (240 EUR). Keywords: casino, bonus, review, winitbet",
+        "updatedAt": "2025-08-31 16:49:51"
+      }
+    ]
+  },
+  "unmatchedCasinos": [
+    "malina-casino",
+    "wild-robin",
+    "spellwin-uk",
+    "the-red",
+    "vegas-nova",
+    "tiki-casino",
+    "pistolo-casino",
+    "treasure-spins",
+    "joker-ace's",
+    "needforspin-se",
+    "ritzo-casino",
+    "lucky-wand",
+    "spingranny-cz",
+    "lyrabet-be",
+    "spins-deluxe",
+    "golden-panda",
+    "magius-casino",
+    "romibet-fr",
+    "ultimluck-casino",
+    "slots-islands",
+    "rich-royal",
+    "royal-game",
+    "lucky-gem",
+    "needforspin-es",
+    "wild-tokyo",
+    "36-hight",
+    "needforspin-fi",
+    "11croc-de"
+  ],
+  "lastUpdated": "2025-09-30T19:03:15.351Z"
+}

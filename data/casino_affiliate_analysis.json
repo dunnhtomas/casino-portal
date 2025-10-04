@@ -1,0 +1,459 @@
+{
+  "totalCasinos": 79,
+  "withAffiliates": 51,
+  "withNullAffiliates": 28,
+  "withoutAffiliateField": 0,
+  "needingLinks": [
+    {
+      "slug": "malina-casino",
+      "brand": "Malina Casino"
+    },
+    {
+      "slug": "wild-robin",
+      "brand": "Wild Robin"
+    },
+    {
+      "slug": "spellwin-uk",
+      "brand": "SpellWin UK"
+    },
+    {
+      "slug": "the-red",
+      "brand": "The Red"
+    },
+    {
+      "slug": "vegas-nova",
+      "brand": "Vegas Nova"
+    },
+    {
+      "slug": "tiki-casino",
+      "brand": "Tiki Casino"
+    },
+    {
+      "slug": "pistolo-casino",
+      "brand": "Pistolo Casino"
+    },
+    {
+      "slug": "treasure-spins",
+      "brand": "Treasure Spins"
+    },
+    {
+      "slug": "joker-ace's",
+      "brand": "Joker Ace's"
+    },
+    {
+      "slug": "needforspin-se",
+      "brand": "Need For Spin"
+    },
+    {
+      "slug": "ritzo-casino",
+      "brand": "Ritzo Casino"
+    },
+    {
+      "slug": "lucky-wand",
+      "brand": "Lucky Wand"
+    },
+    {
+      "slug": "spingranny-cz",
+      "brand": "SpinGranny Czech"
+    },
+    {
+      "slug": "lyrabet-be",
+      "brand": "LyraBet Belgium"
+    },
+    {
+      "slug": "spins-deluxe",
+      "brand": "Spins Deluxe"
+    },
+    {
+      "slug": "golden-panda",
+      "brand": "Golden Panda"
+    },
+    {
+      "slug": "magius-casino",
+      "brand": "Magius Casino"
+    },
+    {
+      "slug": "romibet-fr",
+      "brand": "RomiBet France"
+    },
+    {
+      "slug": "ultimluck-casino",
+      "brand": "Ultimluck Casino"
+    },
+    {
+      "slug": "slots-islands",
+      "brand": "Slots Islands"
+    },
+    {
+      "slug": "rich-royal",
+      "brand": "Rich Royal"
+    },
+    {
+      "slug": "royal-game",
+      "brand": "Royal Game"
+    },
+    {
+      "slug": "lucky-gem",
+      "brand": "Lucky Gem"
+    },
+    {
+      "slug": "needforspin-es",
+      "brand": "Need For Spin"
+    },
+    {
+      "slug": "wild-tokyo",
+      "brand": "Wild Tokyo"
+    },
+    {
+      "slug": "36-hight",
+      "brand": "36 Hight"
+    },
+    {
+      "slug": "needforspin-fi",
+      "brand": "Need For Spin"
+    },
+    {
+      "slug": "11croc-de",
+      "brand": "11Croc Germany"
+    }
+  ],
+  "existingAffiliates": [
+    {
+      "slug": "spellwin",
+      "brand": "SpellWin",
+      "trackingUrl": "https://trk.bestcasinoportal.com/spellwin-uk-casino-bonus-review-98a1-v2"
+    },
+    {
+      "slug": "winitbet",
+      "brand": "Winit.Bet",
+      "trackingUrl": "https://trk.bestcasinoportal.com/winitbet-uk-au-ca-casino-bonus-review-bl"
+    },
+    {
+      "slug": "unlimluck",
+      "brand": "UnlimLuck",
+      "trackingUrl": "https://trk.bestcasinoportal.com/unlimluck-hb-casino-bonus-review-k6hz-v2"
+    },
+    {
+      "slug": "mr-pacho",
+      "brand": "Mr Pacho",
+      "trackingUrl": "https://trk.bestcasinoportal.com/mr-pacho-es-casino-bonus-review-2zsw-v2"
+    },
+    {
+      "slug": "larabet",
+      "brand": "Larabet",
+      "trackingUrl": "https://trk.bestcasinoportal.com/larabet-it-fr-casino-bonus-review-9vmc-v2"
+    },
+    {
+      "slug": "slotlair",
+      "brand": "Slotlair",
+      "trackingUrl": "https://trk.bestcasinoportal.com/slotlair-uk-casino-bonus-review-fhu9-v2"
+    },
+    {
+      "slug": "sagaspins",
+      "brand": "SagaSpins",
+      "trackingUrl": "https://trk.bestcasinoportal.com/sagaspins-uk-casino-bonus-review-d7oq-v2"
+    },
+    {
+      "slug": "samba-slots",
+      "brand": "Samba Slots",
+      "trackingUrl": "https://trk.bestcasinoportal.com/samba-slots-es-casino-bonus-review-j352-v2"
+    },
+    {
+      "slug": "willdsino",
+      "brand": "Willdsino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/willdsino-fr-es-it-da-casino-bonus-review-2c99-v2"
+    },
+    {
+      "slug": "trino",
+      "brand": "Trino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/trino-de-at-ch-casino-bonus-review-fo"
+    },
+    {
+      "slug": "skyhills",
+      "brand": "SkyHills",
+      "trackingUrl": "https://trk.bestcasinoportal.com/skyhills-nl-casino-bonus-review-4gki-v2"
+    },
+    {
+      "slug": "wonthere",
+      "brand": "WonThere",
+      "trackingUrl": "https://trk.bestcasinoportal.com/wonthere-uk-casino-bonus-review-lpf9-v3"
+    },
+    {
+      "slug": "lucky-hunter",
+      "brand": "Lucky Hunter",
+      "trackingUrl": "https://trk.bestcasinoportal.com/lucky-wand-nl-uk-se-casino-bonus-review-vewf-v2"
+    },
+    {
+      "slug": "rizz-casino",
+      "brand": "Rizz Casino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/rizz-casino-es-casino-bonus-review-hpaz-v2"
+    },
+    {
+      "slug": "n1-bet-casino",
+      "brand": "N1 Bet Casino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/n1-bet-casino-de-au-ch-casino-bonus-review-9b"
+    },
+    {
+      "slug": "aerobet",
+      "brand": "Aerobet",
+      "trackingUrl": "https://trk.bestcasinoportal.com/aerobet-uk-casino-bonus-review-x6"
+    },
+    {
+      "slug": "kings-chip",
+      "brand": "Kings Chip",
+      "trackingUrl": "https://trk.bestcasinoportal.com/kings-chip-uk-casino-bonus-review-v3r4-v2"
+    },
+    {
+      "slug": "my-empire",
+      "brand": "My Empire",
+      "trackingUrl": "https://trk.bestcasinoportal.com/my-empire-casino-es-it-fr-casino-bonus-review-0w"
+    },
+    {
+      "slug": "romibet",
+      "brand": "RomiBet",
+      "trackingUrl": "https://trk.bestcasinoportal.com/romibet-es-casino-bonus-review-iv1v-v2"
+    },
+    {
+      "slug": "spincastle",
+      "brand": "SpinCastle",
+      "trackingUrl": "https://trk.bestcasinoportal.com/spincastle-uk-casino-bonus-review-kg3s-v2"
+    },
+    {
+      "slug": "roman-casino",
+      "brand": "Roman Casino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/roman-casino-uk-casino-bonus-review-tvv0-retry2"
+    },
+    {
+      "slug": "winrolla",
+      "brand": "WinRolla",
+      "trackingUrl": "https://trk.bestcasinoportal.com/winrolla-au-casino-bonus-review-tb2r-v2"
+    },
+    {
+      "slug": "rollxo",
+      "brand": "RollXO",
+      "trackingUrl": "https://trk.bestcasinoportal.com/rollxo-2-uk-casino-bonus-review-wevc-v2"
+    },
+    {
+      "slug": "jackpot-raider",
+      "brand": "Jackpot Raider",
+      "trackingUrl": "https://trk.bestcasinoportal.com/jackpot-raider-casino-bonus-review-99sx-v2"
+    },
+    {
+      "slug": "lucki-casino",
+      "brand": "Lucki Casino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/lucki-casino-uk-casino-bonus-review-itml-v2"
+    },
+    {
+      "slug": "wildrobin-casino",
+      "brand": "WildRobin Casino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/wildrobin-casino-at-be-ch-casino-bonus-review-57"
+    },
+    {
+      "slug": "jet4bet",
+      "brand": "Jet4Bet",
+      "trackingUrl": "https://trk.bestcasinoportal.com/jet4bet-uk-casino-bonus-review-gs7f-v2"
+    },
+    {
+      "slug": "vipzino",
+      "brand": "Vipzino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/vipzino-sms-reg-200-eur-166-63300512"
+    },
+    {
+      "slug": "rolling-slots",
+      "brand": "Rolling Slots",
+      "trackingUrl": "https://trk.bestcasinoportal.com/rolling-slots-fi-casino-bonus-review-6qpx-v2"
+    },
+    {
+      "slug": "spinmama",
+      "brand": "SpinMama",
+      "trackingUrl": "https://trk.bestcasinoportal.com/spinmama-pl-casino-bonus-review-annk-v2"
+    },
+    {
+      "slug": "london-casino",
+      "brand": "London Casino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/london-casino-uk-casino-bonus-review-3y96-v2"
+    },
+    {
+      "slug": "winshark",
+      "brand": "Winshark",
+      "trackingUrl": "https://trk.bestcasinoportal.com/winshark-au-es-casino-bonus-review-87vs-v3"
+    },
+    {
+      "slug": "instaspin",
+      "brand": "InstaSpin",
+      "trackingUrl": "https://trk.bestcasinoportal.com/instaspin-uk-nl-casino-bonus-review-k6cc-v2"
+    },
+    {
+      "slug": "lyrabet",
+      "brand": "LyraBet",
+      "trackingUrl": "https://trk.bestcasinoportal.com/lyrabet-gr-casino-bonus-review-g3uo-v2"
+    },
+    {
+      "slug": "spingranny",
+      "brand": "SpinGranny",
+      "trackingUrl": "https://trk.bestcasinoportal.com/spingranny-at-be-ca-casino-bonus-review-vx"
+    },
+    {
+      "slug": "spinlander",
+      "brand": "SpinLander",
+      "trackingUrl": "https://trk.bestcasinoportal.com/spinlander-uk-casino-bonus-review-4afk-v2"
+    },
+    {
+      "slug": "orionsbet",
+      "brand": "Orionsbet",
+      "trackingUrl": "https://trk.bestcasinoportal.com/orionsbet-uk-casino-bonus-review-upft-v2"
+    },
+    {
+      "slug": "ivybetio",
+      "brand": "Ivybet.io",
+      "trackingUrl": "https://trk.bestcasinoportal.com/ivybetio-hq-sms-fr-es-reg-page-220-eur-83-63303260"
+    },
+    {
+      "slug": "spingranny",
+      "brand": "SpinGranny",
+      "trackingUrl": "https://trk.bestcasinoportal.com/spingranny-at-be-ca-casino-bonus-review-vx"
+    },
+    {
+      "slug": "posido",
+      "brand": "Posido",
+      "trackingUrl": "https://trk.bestcasinoportal.com/posido-da-casino-bonus-review-8314-v2"
+    },
+    {
+      "slug": "vincispin",
+      "brand": "VinciSpin",
+      "trackingUrl": "https://trk.bestcasinoportal.com/vincispin-fr-it-es-casino-bonus-review-fn"
+    },
+    {
+      "slug": "klikki-casino",
+      "brand": "Klikki Casino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/klikki-casino-uk-casino-bonus-review-25fg-v2"
+    },
+    {
+      "slug": "slotit",
+      "brand": "Slotit",
+      "trackingUrl": "https://trk.bestcasinoportal.com/slotit-de-at-ch-casino-bonus-review-cf"
+    },
+    {
+      "slug": "robocat",
+      "brand": "Robocat",
+      "trackingUrl": "https://trk.bestcasinoportal.com/robocat-de-casino-bonus-review-qkn3"
+    },
+    {
+      "slug": "instant-casino",
+      "brand": "Instant Casino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/instant-casino-casino-bonus-review-6ioq-v2"
+    },
+    {
+      "slug": "pirate-spins",
+      "brand": "Pirate Spins",
+      "trackingUrl": "https://trk.bestcasinoportal.com/pirate-spins-uk-casino-bonus-review-djx2-v2"
+    },
+    {
+      "slug": "hello-fortune",
+      "brand": "Hello Fortune",
+      "trackingUrl": "https://trk.bestcasinoportal.com/hello-fortune-uk-casino-bonus-review-5th5-v2"
+    },
+    {
+      "slug": "moana-casino",
+      "brand": "Moana Casino",
+      "trackingUrl": "https://trk.bestcasinoportal.com/moana-uk-casino-bonus-review-rpzb-v2"
+    },
+    {
+      "slug": "prontobet",
+      "brand": "ProntoBet",
+      "trackingUrl": "https://trk.bestcasinoportal.com/prontobet-au-casino-bonus-review-lcvo-v2"
+    },
+    {
+      "slug": "11croc",
+      "brand": "11Croc",
+      "trackingUrl": "https://trk.bestcasinoportal.com/11croc-de-casino-bonus-review-ofph-v2"
+    },
+    {
+      "slug": "allspins",
+      "brand": "AllSpins",
+      "trackingUrl": "https://trk.bestcasinoportal.com/allspins-uk-casino-bonus-review-7v"
+    }
+  ],
+  "allSlugs": [
+    "11croc",
+    "11croc-de",
+    "36-hight",
+    "aerobet",
+    "allspins",
+    "golden-panda",
+    "hello-fortune",
+    "instant-casino",
+    "instaspin",
+    "ivybetio",
+    "jackpot-raider",
+    "jet4bet",
+    "joker-ace's",
+    "kings-chip",
+    "klikki-casino",
+    "larabet",
+    "london-casino",
+    "lucki-casino",
+    "lucky-gem",
+    "lucky-hunter",
+    "lucky-wand",
+    "lyrabet",
+    "lyrabet-be",
+    "magius-casino",
+    "malina-casino",
+    "moana-casino",
+    "mr-pacho",
+    "my-empire",
+    "n1-bet-casino",
+    "needforspin-es",
+    "needforspin-fi",
+    "needforspin-se",
+    "orionsbet",
+    "pirate-spins",
+    "pistolo-casino",
+    "posido",
+    "prontobet",
+    "rich-royal",
+    "ritzo-casino",
+    "rizz-casino",
+    "robocat",
+    "rolling-slots",
+    "rollxo",
+    "roman-casino",
+    "romibet",
+    "romibet-fr",
+    "royal-game",
+    "sagaspins",
+    "samba-slots",
+    "skyhills",
+    "slotit",
+    "slotlair",
+    "slots-islands",
+    "spellwin",
+    "spellwin-uk",
+    "spincastle",
+    "spingranny",
+    "spingranny",
+    "spingranny-cz",
+    "spinlander",
+    "spinmama",
+    "spins-deluxe",
+    "the-red",
+    "tiki-casino",
+    "treasure-spins",
+    "trino",
+    "ultimluck-casino",
+    "unlimluck",
+    "vegas-nova",
+    "vincispin",
+    "vipzino",
+    "wild-robin",
+    "wild-tokyo",
+    "wildrobin-casino",
+    "willdsino",
+    "winitbet",
+    "winrolla",
+    "winshark",
+    "wonthere"
+  ],
+  "lastAnalyzed": "2025-09-30T19:11:24.277Z"
+}

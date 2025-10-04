@@ -1,0 +1,63 @@
+{
+  "researchDate": "2025-10-01",
+  "totalCasinos": 76,
+  "researchedCount": 1,
+  "results": [
+    {
+      "slug": "spellwin",
+      "brand": "SpellWin",
+      "originalUrl": "https://www.spellwin.com",
+      "currentDomain": "spellwin.com",
+      "bingSearchResults": {
+        "query": "SpellWin casino official website",
+        "topResults": [
+          {
+            "position": 1,
+            "domain": "spellwin.casino",
+            "url": "https://spellwin.casino",
+            "title": "Spellwin Casino ™ – Official Site With Bonus €3,500"
+          },
+          {
+            "position": 2,
+            "domain": "spelwin.com",
+            "url": "https://spelwin.com",
+            "title": "SpellWin",
+            "note": "Missing 'l' in domain - possibly typo domain"
+          },
+          {
+            "position": 3,
+            "domain": "spellwin.com",
+            "url": "https://spellwin.com",
+            "title": "Welcome to SpellWin Casino: Explore Exciting …"
+          }
+        ]
+      },
+      "realDomain": "spellwin.com",
+      "officialUrl": "https://spellwin.com",
+      "verificationStatus": "verified",
+      "notes": "Official domain confirmed as spellwin.com. Also operates spellwin.casino TLD. Current data already correct.",
+      "researchedAt": "2025-10-01T12:00:00Z"
+    }
+  ],
+  "nextBatch": [
+    "Winit.Bet",
+    "UnlimLuck",
+    "Mr Pacho",
+    "Larabet",
+    "Slotlair",
+    "SagaSpins",
+    "Samba Slots",
+    "Willdsino",
+    "Trino",
+    "SkyHills",
+    "WonThere",
+    "Lucky Hunter",
+    "Rizz Casino",
+    "N1 Bet Casino",
+    "Aerobet",
+    "Kings Chip",
+    "My Empire",
+    "RomiBet",
+    "SpinCastle"
+  ]
+}

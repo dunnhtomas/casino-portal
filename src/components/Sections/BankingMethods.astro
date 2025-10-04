@@ -1,27 +1,232 @@
 ---
-// Banking Methods Section Component  
+// Enhanced Banking Methods Section Component with Rich Content
+const paymentMethods = [
+  {
+    name: 'Visa',
+    logo: '💳',
+    description: 'Most widely accepted credit card worldwide',
+    speed: '1-3 days',
+    fees: 'No fees',
+    minDeposit: '$10',
+    maxWithdrawal: '$5,000',
+    bgGradient: 'from-blue-400 to-blue-600',
+    security: 'SSL + 3D Secure',
+    availability: '99% of casinos'
+  },
+  {
+    name: 'Interac',
+    logo: '🇨🇦',
+    description: 'Canada\'s trusted banking network',
+    speed: '24-48h',
+    fees: 'Usually free',
+    minDeposit: '$10',
+    maxWithdrawal: '$3,000',
+    bgGradient: 'from-red-400 to-red-600',
+    security: 'Bank-level encryption',
+    availability: '85% of Canadian casinos'
+  },
+  {
+    name: 'PayPal',
+    logo: '🅿️',
+    description: 'Global digital wallet leader',
+    speed: '0-24h',
+    fees: 'No deposit fees',
+    minDeposit: '$5',
+    maxWithdrawal: '$10,000',
+    bgGradient: 'from-blue-500 to-purple-600',
+    security: 'Buyer protection',
+    availability: '60% of casinos'
+  },
+  {
+    name: 'Bitcoin',
+    logo: '₿',
+    description: 'Leading cryptocurrency option',
+    speed: 'Instant',
+    fees: 'Network fees only',
+    minDeposit: '$20',
+    maxWithdrawal: 'No limit',
+    bgGradient: 'from-orange-400 to-yellow-500',
+    security: 'Blockchain secured',
+    availability: '40% of casinos'
+  },
+  {
+    name: 'Skrill',
+    logo: '🌟',
+    description: 'Digital wallet for gaming',
+    speed: 'Instant',
+    fees: 'Low fees',
+    minDeposit: '$10',
+    maxWithdrawal: '$20,000',
+    bgGradient: 'from-purple-400 to-pink-500',
+    security: 'Two-factor auth',
+    availability: '70% of casinos'
+  },
+  {
+    name: 'Neteller',
+    logo: '💰',
+    description: 'Professional e-wallet service',
+    speed: 'Instant',
+    fees: 'Competitive rates',
+    minDeposit: '$10',
+    maxWithdrawal: '$15,000',
+    bgGradient: 'from-green-400 to-teal-500',
+    security: 'Advanced encryption',
+    availability: '65% of casinos'
+  },
+  {
+    name: 'Mastercard',
+    logo: '🔴',
+    description: 'Global payment network',
+    speed: '1-3 days',
+    fees: 'Usually no fees',
+    minDeposit: '$10',
+    maxWithdrawal: '$5,000',
+    bgGradient: 'from-red-500 to-orange-500',
+    security: 'SecureCode protection',
+    availability: '95% of casinos'
+  },
+  {
+    name: 'Ethereum',
+    logo: '⟠',
+    description: 'Smart contract cryptocurrency',
+    speed: '5-15 mins',
+    fees: 'Gas fees apply',
+    minDeposit: '$25',
+    maxWithdrawal: 'No limit',
+    bgGradient: 'from-indigo-400 to-blue-500',
+    security: 'Decentralized',
+    availability: '30% of casinos'
+  }
+];
+
+const bankingFeatures = [
+  {
+    icon: '🛡️',
+    title: 'Bank-Level Security',
+    description: 'All payment methods use SSL encryption and fraud protection'
+  },
+  {
+    icon: '⚡',
+    title: 'Fast Processing',
+    description: 'Most deposits are instant, withdrawals processed within 24-72 hours'
+  },
+  {
+    icon: '🔄',
+    title: 'Multiple Options',
+    description: 'Choose from traditional banking, e-wallets, and cryptocurrencies'
+  },
+  {
+    icon: '💳',
+    title: 'Low Fees',
+    description: 'Many methods have no fees or very competitive rates'
+  }
+];
 ---
 
-<section id="banking-methods" class="py-16 bg-white">
-  <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">Popular Payment Methods</h2>
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 sm:gap-3 lg:gap-6">
-      {[
-        { name: 'Visa', speed: '1-3 days' },
-        { name: 'Interac', speed: '24-48h' },
-        { name: 'PayPal', speed: '0-24h' },
-        { name: 'Bitcoin', speed: 'Instant' },
-        { name: 'Skrill', speed: 'Instant' },
-        { name: 'Neteller', speed: 'Instant' }
-      ].map(method => (
-        <div class="text-center p-2 sm:p-4 bg-gray-50 rounded-lg">
-          <div class="w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-lg shadow-sm mx-auto mb-2 sm:mb-3 flex items-center justify-center">
-            <span class="font-bold text-gray-600 text-sm sm:text-base">{method.name.slice(0,2)}</span>
-          </div>
-          <h3 class="font-semibold text-gray-900 text-sm sm:text-base">{method.name}</h3>
-          <p class="text-xs sm:text-sm text-gray-600">{method.speed}</p>
+<section id="banking-methods" class="py-16 bg-gradient-to-br from-gray-50 to-blue-50" itemscope itemtype="https://schema.org/WebPageElement">
+  <div class="max-w-7xl mx-auto px-6">
+    <!-- Section Header -->
+    <div class="text-center mb-12">
+          <div class="container mx-auto px-4">
+      <h2 class="text-4xl font-bold text-white mb-4" itemprop="name">💰 Trusted Payment Methods at Top Casinos</h2>
+      <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+        Choose from secure, fast, and reliable payment options. All methods are tested and verified at our 
+        <a href="#top-three" class="text-blue-600 hover:text-blue-700 font-semibold">recommended casino sites</a> 
+        for Canadian players.
+      </p>
+      <div class="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-600 mx-auto mt-4 rounded"></div>
+    </div>
+
+    <!-- Banking Features -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+      {bankingFeatures.map(feature => (
+        <div class="bg-gray-800 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-700">
+          <div class="text-3xl mb-3">{feature.icon}</div>
+          <h3 class="font-bold text-white mb-2">{feature.title}</h3>
+          <p class="text-sm text-gray-300">{feature.description}</p>
         </div>
       ))}
+    </div>
+
+    <!-- Payment Methods Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {paymentMethods.map(method => (
+        <div class="bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-700 transform hover:-translate-y-1">
+          <!-- Header with Gradient -->
+          <div class={`bg-gradient-to-r ${method.bgGradient} px-6 py-4 text-white`}>
+            <div class="flex items-center justify-between">
+              <div>
+                <div class="text-2xl mb-1">{method.logo}</div>
+                <h3 class="font-bold text-lg">{method.name}</h3>
+              </div>
+              <div class="text-right">
+                <div class="text-sm opacity-90">Processing</div>
+                <div class="font-bold">{method.speed}</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="p-6">
+            <p class="text-gray-300 text-sm mb-4">{method.description}</p>
+            
+            <div class="space-y-3">
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-500">Min Deposit:</span>
+                <span class="font-semibold text-white">{method.minDeposit}</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-500">Max Withdrawal:</span>
+                <span class="font-semibold text-white">{method.maxWithdrawal}</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-500">Fees:</span>
+                <span class="font-semibold text-green-600">{method.fees}</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-500">Security:</span>
+                <span class="font-semibold text-white">{method.security}</span>
+              </div>
+            </div>
+
+            <!-- Availability Badge -->
+            <div class="mt-4 text-center">
+              <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                <svg class="w-3 h-3 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+                {method.availability}
+              </span>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Call to Action -->
+    <div class="text-center mt-12">
+      <div class="bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-700 max-w-4xl mx-auto">
+        <h3 class="text-2xl font-bold text-white mb-4">🚀 Ready to Play at Top-Rated Casinos?</h3>
+        <p class="text-gray-300 mb-6">
+          All payment methods above are available at our recommended casinos with guaranteed security and fast processing.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="#top-three" class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-bold py-3 px-8 rounded-xl transition-all duration-200 transform hover:scale-105 shadow-lg">
+            View Top Casinos
+          </a>
+          <a href="/guides/banking" class="bg-gray-700 hover:bg-gray-600 text-white font-semibold py-3 px-8 rounded-xl transition-colors duration-200">
+            Banking Guide
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trust Indicators -->
+    <div class="mt-8 flex flex-wrap justify-center gap-4 text-sm text-gray-300">
+      <span class="bg-gray-700 px-4 py-2 rounded-full shadow-sm">🔒 SSL Encrypted</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-full shadow-sm">🛡️ Fraud Protected</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-full shadow-sm">⚡ Fast Processing</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-full shadow-sm">🏆 Casino Verified</span>
     </div>
   </div>
 </section>

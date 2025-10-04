@@ -1,0 +1,48 @@
+---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+
+const navigationCoordinator = new NavigationCoordinator();
+
+const pageTitle = "Complete Online Casino Guide 2025";
+const pageDescription = "The ultimate guide to online casinos in Canada for 2025.";
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/guide/complete-casino-guide-2025');
+---
+
+<SimplePageLayout 
+  title={pageTitle}
+  description={pageDescription}
+  breadcrumbs={breadcrumbs}
+>
+  <main>
+    <section class="hero py-16 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <div class="container mx-auto px-4 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">Complete Casino Guide 2025</h1>
+        <p class="text-xl mb-8">The ultimate resource for Canadian casino players</p>
+      </div>
+    </section>
+    
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-4xl mx-auto prose prose-lg">
+          <h2>Welcome to Our Complete Guide</h2>
+          <p>This comprehensive guide covers everything you need to know about online casino gaming in Canada for 2025.</p>
+          
+          <h2>What You'll Learn</h2>
+          <ul>
+            <li>How to choose safe and reliable casinos</li>
+            <li>Understanding casino bonuses and promotions</li>
+            <li>Payment methods and withdrawal times</li>
+            <li>Responsible gambling practices</li>
+          </ul>
+          
+          <div class="bg-blue-50 p-6 rounded-lg not-prose">
+            <h3 class="text-xl font-bold mb-4">Ready to Start?</h3>
+            <a href="/best/real-money" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+              View Best Casinos
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+</SimplePageLayout>

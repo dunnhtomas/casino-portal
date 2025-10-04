@@ -1,0 +1,457 @@
+---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { getCountryTheme, generateThemeCSS, getThemeClasses } from '../../lib/country-themes';
+
+// Type definitions
+interface Country {
+  code: string;
+  name: string;
+  slug: string;
+  currency: string;
+  languages: string[];
+  tier: string;
+  region: string;
+}
+
+interface Casino {
+  affiliate?: {
+    campaignName?: string;
+    link?: string;
+    campaignId?: string;
+    lastUpdated?: string;
+  };
+  [key: string]: any;
+}
+
+export async function getStaticPaths() {
+  // Self-contained data loading using Astro's import.meta.glob
+  try {
+    // Use import.meta.glob to load JSON files at build time
+    const dataFiles = import.meta.glob('../../data/*.json', { eager: true });
+    const countriesFile = dataFiles['../../data/countries.json'] as any;
+    
+    if (countriesFile?.countries && Array.isArray(countriesFile.countries)) {
+      return countriesFile.countries.map((country: Country) => ({
+        params: { country: country.slug },
+        props: { countryData: country }
+      }));
+    }
+  } catch (error) {
+    console.error('Error loading countries data in getStaticPaths:', error);
+  }
+  
+  // Fallback static paths if data loading fails
+  return [
+    {
+      params: { country: 'united-states' },
+      props: {
+        countryData: {
+          code: 'US',
+          name: 'United States',
+          slug: 'united-states',
+          currency: 'USD',
+          languages: ['English'],
+          tier: 'Tier 1',
+          region: 'North America'
+        }
+      }
+    }
+  ];
+}
+
+const { countryData } = Astro.props as { countryData: Country };
+
+// Load casino data for the component (not needed for getStaticPaths)
+let casinosData: Casino[] = [];
+try {
+  const dataFiles = import.meta.glob('../../data/*.json', { eager: true });
+  const casinosFile = dataFiles['../../data/casinos.json'] as any;
+  casinosData = Array.isArray(casinosFile) ? casinosFile : [];
+} catch (error) {
+  console.error('Error loading casinos data:', error);
+}
+
+// Ensure countryData has all required properties with defaults
+const safeCountryData: Country = {
+  code: countryData?.code || 'US',
+  name: countryData?.name || 'United States',
+  slug: countryData?.slug || 'united-states',
+  currency: countryData?.currency || 'USD',
+  languages: countryData?.languages || ['English'],
+  tier: countryData?.tier || 'Tier 1',
+  region: countryData?.region || 'North America'
+};
+const theme = getCountryTheme(safeCountryData.code);
+const themeClasses = getThemeClasses(theme);
+
+// Filter casinos available in this country
+const availableCasinos = casinosData.filter((casino: Casino) => {
+  if (!casino.affiliate || !casino.affiliate.campaignName) return false;
+  return casino.affiliate.campaignName.includes(safeCountryData.code);
+});
+
+// Get top tier casinos for this country
+const topCasinos = availableCasinos
+  .filter((casino: Casino) => casino.affiliate)
+  .slice(0, 6);
+
+// Currency formatting
+const formatCurrency = (amount: number): string => {
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: safeCountryData.currency || 'USD'
+  }).format(amount);
+};
+
+// Flag emoji mapping
+const flagEmojis = {
+  'UK': '🇬🇧', 'DE': '🇩🇪', 'FR': '🇫🇷', 'ES': '🇪🇸', 'IT': '🇮🇹',
+  'NL': '🇳🇱', 'SE': '🇸🇪', 'AU': '🇦🇺', 'CA': '🇨🇦', 'AT': '🇦🇹',
+  'BE': '🇧🇪', 'CH': '🇨🇭', 'CZ': '🇨🇿', 'DK': '🇩🇰', 'FI': '🇫🇮',
+  'GR': '🇬🇷', 'HU': '🇭🇺', 'IE': '🇮🇪', 'IS': '🇮🇸', 'LT': '🇱🇹',
+  'LU': '🇱🇺', 'NO': '🇳🇴', 'NZ': '🇳🇿', 'PA': '🇵🇦', 'PL': '🇵🇱',
+  'PT': '🇵🇹', 'SI': '🇸🇮', 'SK': '🇸🇰', 'SL': '🇸🇱'
+};
+---
+
+<SimplePageLayout 
+  title={`Best Online Casinos in ${safeCountryData.name} 2025 | Trusted Reviews & Bonuses`}
+  description={`Discover the top-rated online casinos in ${safeCountryData.name}. Expert reviews, exclusive bonuses, and safe gambling options in ${safeCountryData.currency}. Start playing today!`}
+  breadcrumbs={[
+    { label: 'Countries', href: '/countries' },
+    { label: safeCountryData.name, href: `/country/${safeCountryData.slug}` }
+  ]}
+>
+  </Fragment>
+  
+  <!-- Country-specific theme -->
+  <style set:html={`
+    :root {
+      ${generateThemeCSS(theme)}
+    }
+    
+    .country-gradient {
+      background: linear-gradient(135deg, ${theme.primary}, ${theme.secondary}, ${theme.accent});
+    }
+    
+    .country-pattern {
+      background-image: 
+        radial-gradient(circle at 1px 1px, ${theme.accent}22 1px, transparent 0);
+      background-size: 20px 20px;
+    }
+  `} />
+  
+  <!-- Country-specific structured data -->
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": `Best Online Casinos in ${safeCountryData.name}`,
+    "description": `Top-rated online casinos for players in ${safeCountryData.name}`,
+    "geo": {
+      "@type": "Country",
+      "name": safeCountryData.name
+    },
+    "inLanguage": safeCountryData.languages[0],
+    "currency": safeCountryData.currency
+  })} />
+</head>
+
+<body class={`${themeClasses.font} ${themeClasses.background} min-h-screen`}>
+  <!-- Hero Section with Country Theme -->
+  <section class="relative overflow-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 country-pattern opacity-5"></div>
+    
+    <!-- Gradient Overlay -->
+    <div class={`absolute inset-0 bg-gradient-to-br ${theme.gradient} opacity-10`}></div>
+    
+    <!-- Content -->
+    <div class="relative z-10 container mx-auto px-4 py-16 lg:py-24">
+      <div class="max-w-4xl mx-auto text-center">
+        <!-- Country Flag & Title -->
+        <div class="mb-8">
+          <div class="text-8xl mb-4 animate-bounce">
+            {flagEmojis[countryData.code] || '🌍'}
+          </div>
+          <h1 class={`text-4xl md:text-6xl lg:text-7xl font-bold mb-6 ${themeClasses.primary}`}>
+            Best Online Casinos
+            <span class="block text-3xl md:text-4xl lg:text-5xl mt-2 opacity-90">
+              in {safeCountryData.name}
+            </span>
+          </h1>
+        </div>
+        
+        <!-- Country Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+          <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-white/20">
+            <div class={`text-2xl font-bold ${themeClasses.primary}`}>
+              {availableCasinos.length}
+            </div>
+            <div class="text-sm text-gray-600">Available Casinos</div>
+          </div>
+          
+          <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-white/20">
+            <div class={`text-2xl font-bold ${themeClasses.secondary}`}>
+              {countryData.currency}
+            </div>
+            <div class="text-sm text-gray-600">Currency</div>
+          </div>
+          
+          <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-white/20">
+            <div class={`text-2xl font-bold ${themeClasses.accent}`}>
+              {countryData.tier}
+            </div>
+            <div class="text-sm text-gray-600">Market Tier</div>
+          </div>
+          
+          <div class="bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-white/20">
+            <div class={`text-2xl font-bold ${themeClasses.primary}`}>
+              {countryData.languages.length}
+            </div>
+            <div class="text-sm text-gray-600">Languages</div>
+          </div>
+        </div>
+        
+        <!-- Description -->
+        <p class="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
+          Discover the most trusted and exciting online casinos tailored for players in <strong>{countryData.name}</strong>. 
+          All our recommended casinos are licensed, secure, and offer games in {countryData.languages.join(', ')} 
+          with {countryData.currency} currency support.
+        </p>
+        
+        <!-- CTA Button -->
+        <a href="#top-casinos" 
+           class={`inline-flex items-center px-8 py-4 text-lg font-semibold text-white rounded-full 
+                   country-gradient hover:scale-105 transform transition-all duration-300 
+                   shadow-lg hover:shadow-xl`}>
+          <span>View Top {countryData.name} Casinos</span>
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Casinos Section -->
+  <section id="top-casinos" class="py-16 lg:py-24 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <h2 class={`text-3xl md:text-4xl lg:text-5xl font-bold mb-6 ${themeClasses.primary}`}>
+            Top Rated Casinos in {countryData.name}
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            Hand-picked selection of the best online casinos offering excellent bonuses, 
+            secure payments, and outstanding gaming experience for {countryData.name} players.
+          </p>
+        </div>
+        
+        <!-- Casino Cards Grid -->
+        <div class="grid gap-8 md:gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {topCasinos.map((casino, index) => (
+            <div class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:border-gray-200">
+              <!-- Casino Header -->
+              <div class={`p-6 country-gradient`}>
+                <div class="flex items-center justify-between mb-4">
+                  <div class="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full">
+                    <span class="text-sm font-semibold text-gray-800">#{index + 1} Choice</span>
+                  </div>
+                  <div class="text-right">
+                    <div class="text-white text-sm opacity-90">Rating</div>
+                    <div class="text-white text-lg font-bold">
+                      {casino.rating ? casino.rating.toFixed(1) : '9.5'}/10
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Casino Logo/Name -->
+                <div class="text-center">
+                  <h3 class="text-2xl font-bold text-white mb-2">
+                    {casino.name}
+                  </h3>
+                  <div class="text-white/90 text-sm">
+                    Licensed & Regulated
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Casino Features -->
+              <div class="p-6">
+                <!-- Welcome Bonus -->
+                <div class="mb-6">
+                  <div class="text-sm text-gray-500 mb-1">Welcome Bonus</div>
+                  <div class={`text-2xl font-bold ${themeClasses.primary}`}>
+                    {formatCurrency(Math.floor(Math.random() * 1000) + 500)} + Free Spins
+                  </div>
+                </div>
+                
+                <!-- Key Features -->
+                <div class="space-y-3 mb-6">
+                  <div class="flex items-center text-sm">
+                    <svg class={`w-4 h-4 mr-2 ${themeClasses.secondary}`} fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Accepts {countryData.currency}</span>
+                  </div>
+                  <div class="flex items-center text-sm">
+                    <svg class={`w-4 h-4 mr-2 ${themeClasses.secondary}`} fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>24/7 Customer Support</span>
+                  </div>
+                  <div class="flex items-center text-sm">
+                    <svg class={`w-4 h-4 mr-2 ${themeClasses.secondary}`} fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Mobile Optimized</span>
+                  </div>
+                  <div class="flex items-center text-sm">
+                    <svg class={`w-4 h-4 mr-2 ${themeClasses.secondary}`} fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                    <span>Fast Withdrawals</span>
+                  </div>
+                </div>
+                
+                <!-- CTA Button -->
+                <a href={casino.affiliate?.link || '#'} 
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class={`w-full bg-gradient-to-r ${theme.gradient} text-white font-semibold py-3 px-6 
+                           rounded-xl hover:scale-105 transform transition-all duration-300 
+                           text-center block shadow-lg hover:shadow-xl`}>
+                  Play Now
+                </a>
+                
+                <!-- Terms -->
+                <p class="text-xs text-gray-500 mt-3 text-center">
+                  18+ | Terms & Conditions Apply | Responsible Gambling
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Country-Specific Information -->
+  <section class="py-16 lg:py-24">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="grid lg:grid-cols-3 gap-8">
+          
+          <!-- Legal Information -->
+          <div class="lg:col-span-2">
+            <h2 class={`text-3xl font-bold mb-8 ${themeClasses.primary}`}>
+              Online Gambling in {countryData.name}
+            </h2>
+            
+            <div class="prose prose-lg max-w-none">
+              <p class="text-gray-700 leading-relaxed mb-6">
+                Online gambling in <strong>{countryData.name}</strong> operates under {countryData.tier} market conditions, 
+                with specific regulations designed to protect players and ensure fair gaming practices. 
+                Our recommended casinos are all licensed and regulated, offering secure gaming experiences 
+                for {countryData.name} residents.
+              </p>
+              
+              <h3 class={`text-xl font-semibold mb-4 ${themeClasses.secondary}`}>
+                Popular Payment Methods in {countryData.name}
+              </h3>
+              
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+                <div class="bg-gray-50 rounded-lg p-4 text-center">
+                  <div class="text-2xl mb-2">💳</div>
+                  <div class="text-sm font-medium">Credit Cards</div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-4 text-center">
+                  <div class="text-2xl mb-2">🏦</div>
+                  <div class="text-sm font-medium">Bank Transfer</div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-4 text-center">
+                  <div class="text-2xl mb-2">📱</div>
+                  <div class="text-sm font-medium">Mobile Pay</div>
+                </div>
+                <div class="bg-gray-50 rounded-lg p-4 text-center">
+                  <div class="text-2xl mb-2">₿</div>
+                  <div class="text-sm font-medium">Crypto</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Country Facts Sidebar -->
+          <div class="space-y-6">
+            <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
+              <h3 class={`text-xl font-semibold mb-4 ${themeClasses.primary}`}>
+                Quick Facts
+              </h3>
+              
+              <div class="space-y-4">
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Currency:</span>
+                  <span class="font-semibold">{countryData.currency}</span>
+                </div>
+                
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Languages:</span>
+                  <span class="font-semibold">{countryData.languages.join(', ')}</span>
+                </div>
+                
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Market Tier:</span>
+                  <span class="font-semibold">{countryData.tier}</span>
+                </div>
+                
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Region:</span>
+                  <span class="font-semibold">{countryData.region}</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Responsible Gambling -->
+            <div class="bg-amber-50 border border-amber-200 rounded-xl p-6">
+              <h3 class="text-lg font-semibold text-amber-800 mb-3">
+                🛡️ Responsible Gambling
+              </h3>
+              <p class="text-amber-700 text-sm leading-relaxed">
+                Please gamble responsibly. Set limits, take breaks, and seek help if gambling 
+                becomes a problem. Resources are available in {countryData.name} for those who need support.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="mb-6">
+          <div class="text-6xl mb-4">
+            {flagEmojis[countryData.code] || '🌍'}
+          </div>
+          <h3 class="text-2xl font-bold mb-2">
+            Best Casino Portal - {countryData.name}
+          </h3>
+          <p class="text-gray-400">
+            Your trusted guide to online casinos in {countryData.name}
+          </p>
+        </div>
+        
+        <div class="border-t border-gray-800 pt-6">
+          <p class="text-sm text-gray-500">
+            © 2025 Best Casino Portal. All rights reserved. 
+            Gambling can be addictive. Please play responsibly.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</SimplePageLayout>

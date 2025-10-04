@@ -1,0 +1,67 @@
+[
+  {
+    "step": 1,
+    "casino": "UnlimLuck",
+    "slug": "unlimluck",
+    "searchQuery": "UnlimLuck online casino",
+    "commands": [
+      "Navigate to DuckDuckGo: https://duckduckgo.com/?q=UnlimLuck%20online%20casino",
+      "Extract first result URL",
+      "Navigate to casino website",
+      "Extract logo image URL",
+      "Download logo to: public/images/casinos/unlimluck.png"
+    ]
+  },
+  {
+    "step": 2,
+    "casino": "WonThere",
+    "slug": "wonthere",
+    "searchQuery": "WonThere online casino",
+    "commands": [
+      "Navigate to DuckDuckGo: https://duckduckgo.com/?q=WonThere%20online%20casino",
+      "Extract first result URL",
+      "Navigate to casino website",
+      "Extract logo image URL",
+      "Download logo to: public/images/casinos/wonthere.png"
+    ]
+  },
+  {
+    "step": 3,
+    "casino": "Rizz Casino",
+    "slug": "rizz",
+    "searchQuery": "Rizz Casino online casino",
+    "commands": [
+      "Navigate to DuckDuckGo: https://duckduckgo.com/?q=Rizz%20Casino%20online%20casino",
+      "Extract first result URL",
+      "Navigate to casino website",
+      "Extract logo image URL",
+      "Download logo to: public/images/casinos/rizz.png"
+    ]
+  },
+  {
+    "step": 4,
+    "casino": "N1 Bet Casino",
+    "slug": "n1bet",
+    "searchQuery": "N1 Bet Casino online casino",
+    "commands": [
+      "Navigate to DuckDuckGo: https://duckduckgo.com/?q=N1%20Bet%20Casino%20online%20casino",
+      "Extract first result URL",
+      "Navigate to casino website",
+      "Extract logo image URL",
+      "Download logo to: public/images/casinos/n1bet.png"
+    ]
+  },
+  {
+    "step": 5,
+    "casino": "RomiBet",
+    "slug": "romibet",
+    "searchQuery": "RomiBet online casino",
+    "commands": [
+      "Navigate to DuckDuckGo: https://duckduckgo.com/?q=RomiBet%20online%20casino",
+      "Extract first result URL",
+      "Navigate to casino website",
+      "Extract logo image URL",
+      "Download logo to: public/images/casinos/romibet.png"
+    ]
+  }
+]

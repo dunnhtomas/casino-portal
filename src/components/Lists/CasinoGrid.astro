@@ -1,0 +1,182 @@
+---
+/**
+ * CasinoGrid Component
+ * Single Responsibility: Display casinos in a structured grid layout following EnhancedCasinoCard pattern
+ */
+
+interface Props {
+  casinos: Array<{
+    slug: string;
+    brand: string;
+    url: string;
+    logo?: string;
+    ratings: {
+      overall: number;
+      security: number;
+      fairness: number;
+      payout: number;
+      bonusValue: number;
+      games: number;
+    };
+    bonuses: {
+      welcome: {
+        headline: string;
+        wagering: string;
+        maxCashout?: number;
+      };
+    };
+    payoutSpeedHours: number;
+    licences: string[];
+    banking: string[];
+    providers: string[];
+    safety: {
+      yearsOnline: number;
+      complaintRatio: number;
+      resolvedComplaints: number;
+    };
+  }>;
+}
+
+const { casinos } = Astro.props;
+---
+
+<section class="py-12">
+  <div class="container mx-auto px-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {casinos.map(casino => (
+        <div class="bg-gray-800 rounded-2xl shadow-xl border border-gray-700 hover:shadow-2xl transition-all duration-300 overflow-hidden">
+          <!-- Casino Header -->
+          <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6">
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center space-x-3">
+                {casino.logo && (
+                  <img 
+                    src={casino.logo} 
+                    alt={`${casino.brand} logo`}
+                    class="w-12 h-12 object-contain bg-gray-900 rounded-lg p-1 border border-gray-700"
+                    referrerpolicy="no-referrer"
+                    crossorigin="anonymous"
+                  />
+                )}
+                <div>
+                  <h3 class="font-bold text-lg">{casino.brand}</h3>
+                  <div class="flex text-xs space-x-1">
+                    {casino.licences.slice(0, 2).map(licence => (
+                      <span class="bg-white/20 px-2 py-1 rounded">{licence}</span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              
+              <div class="text-right">
+                <div class="bg-amber-500 text-white px-3 py-2 rounded-lg font-bold">
+                  {casino.ratings.overall}/10
+                </div>
+              </div>
+            </div>
+            
+            <!-- Welcome Bonus -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+              <p class="text-sm opacity-80 mb-1">Welcome Bonus</p>
+              <p class="font-bold text-lg text-amber-300">{casino.bonuses.welcome.headline}</p>
+              <p class="text-xs opacity-70">Wagering: {casino.bonuses.welcome.wagering}</p>
+            </div>
+          </div>
+          
+          <!-- Casino Details -->
+          <div class="p-6">
+            <!-- Quick Stats -->
+            <div class="grid grid-cols-2 gap-4 mb-6">
+              <div class="text-center">
+                <div class="text-2xl font-bold text-green-400">{casino.payoutSpeedHours}h</div>
+                <div class="text-sm text-gray-300">Payout Speed</div>
+              </div>
+              <div class="text-center">
+                <div class="text-2xl font-bold text-blue-400">{casino.providers.length}+</div>
+                <div class="text-sm text-gray-300">Game Providers</div>
+              </div>
+            </div>
+            
+            <!-- Rating Breakdown -->
+            <div class="space-y-2 mb-6">
+              <div class="flex justify-between items-center">
+                <span class="text-sm text-gray-300">Security</span>
+                <div class="flex items-center">
+                  <div class="w-20 bg-gray-700 rounded-full h-2 mr-2">
+                    <div 
+                      class="bg-green-500 h-2 rounded-full" 
+                      style={`width: ${casino.ratings.security * 10}%`}
+                    ></div>
+                  </div>
+                  <span class="text-sm font-medium text-gray-200">{casino.ratings.security}/10</span>
+                </div>
+              </div>
+              
+              <div class="flex justify-between items-center">
+                <span class="text-sm text-gray-300">Games</span>
+                <div class="flex items-center">
+                  <div class="w-20 bg-gray-700 rounded-full h-2 mr-2">
+                    <div 
+                      class="bg-blue-500 h-2 rounded-full" 
+                      style={`width: ${casino.ratings.games * 10}%`}
+                    ></div>
+                  </div>
+                  <span class="text-sm font-medium text-gray-200">{casino.ratings.games}/10</span>
+                </div>
+              </div>
+              
+              <div class="flex justify-between items-center">
+                <span class="text-sm text-gray-300">Bonuses</span>
+                <div class="flex items-center">
+                  <div class="w-20 bg-gray-700 rounded-full h-2 mr-2">
+                    <div 
+                      class="bg-purple-500 h-2 rounded-full" 
+                      style={`width: ${casino.ratings.bonusValue * 10}%`}
+                    ></div>
+                  </div>
+                  <span class="text-sm font-medium text-gray-200">{casino.ratings.bonusValue}/10</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Safety Indicators -->
+            <div class="flex justify-between items-center mb-6 text-sm">
+              <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-gray-300">{casino.safety.yearsOnline} years online</span>
+              </div>
+              
+              <div class="flex items-center space-x-1">
+                <svg class="w-4 h-4 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span class="text-gray-300">{casino.safety.resolvedComplaints}% resolved</span>
+              </div>
+            </div>
+            
+            <!-- Action Buttons -->
+            <div class="flex space-x-3">
+              <a 
+                href={`/reviews/${casino.slug}`}
+                class="flex-1 bg-gray-700 text-gray-200 text-center py-3 rounded-xl font-semibold hover:bg-gray-600 transition-colors"
+              >
+                Read Review
+              </a>
+              
+              <a 
+                href={casino.url}
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="flex-1 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-center py-3 rounded-xl font-semibold hover:from-amber-600 hover:to-orange-600 transition-all transform hover:scale-105"
+              >
+                Play Now
+              </a>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

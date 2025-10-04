@@ -1,0 +1,306 @@
+{
+  "generatedAt": "2025-10-02T12:26:56.664Z",
+  "totalUrls": 120,
+  "downloadPlan": [
+    {
+      "url": "https://www.spellwin.com/logo.png",
+      "filename": "spellwin-attempt-1.png",
+      "casino": "SpellWin",
+      "priority": 1
+    },
+    {
+      "url": "https://www.spellwin.com/assets/logo.png",
+      "filename": "spellwin-attempt-2.png",
+      "casino": "SpellWin",
+      "priority": 2
+    },
+    {
+      "url": "https://www.spellwin.com/images/logo.png",
+      "filename": "spellwin-attempt-3.png",
+      "casino": "SpellWin",
+      "priority": 3
+    },
+    {
+      "url": "https://www.spellwin.com/static/logo.png",
+      "filename": "spellwin-attempt-4.png",
+      "casino": "SpellWin",
+      "priority": 4
+    },
+    {
+      "url": "https://www.spellwin.com/img/logo.png",
+      "filename": "spellwin-attempt-5.png",
+      "casino": "SpellWin",
+      "priority": 5
+    },
+    {
+      "url": "https://www.spellwin.com/media/logo.png",
+      "filename": "spellwin-attempt-6.png",
+      "casino": "SpellWin",
+      "priority": 6
+    },
+    {
+      "url": "https://www.spellwin.com/wp-content/uploads/logo.png",
+      "filename": "spellwin-attempt-7.png",
+      "casino": "SpellWin",
+      "priority": 7
+    },
+    {
+      "url": "https://www.spellwin.com/assets/images/logo.png",
+      "filename": "spellwin-attempt-8.png",
+      "casino": "SpellWin",
+      "priority": 8
+    },
+    {
+      "url": "https://www.winit.bet/logo.png",
+      "filename": "winitbet-attempt-1.png",
+      "casino": "Winit",
+      "priority": 1
+    },
+    {
+      "url": "https://www.winit.bet/assets/logo.png",
+      "filename": "winitbet-attempt-2.png",
+      "casino": "Winit",
+      "priority": 2
+    },
+    {
+      "url": "https://www.winit.bet/images/logo.png",
+      "filename": "winitbet-attempt-3.png",
+      "casino": "Winit",
+      "priority": 3
+    },
+    {
+      "url": "https://www.winit.bet/static/logo.png",
+      "filename": "winitbet-attempt-4.png",
+      "casino": "Winit",
+      "priority": 4
+    },
+    {
+      "url": "https://www.winit.bet/img/logo.png",
+      "filename": "winitbet-attempt-5.png",
+      "casino": "Winit",
+      "priority": 5
+    },
+    {
+      "url": "https://www.winit.bet/media/logo.png",
+      "filename": "winitbet-attempt-6.png",
+      "casino": "Winit",
+      "priority": 6
+    },
+    {
+      "url": "https://www.winit.bet/wp-content/uploads/logo.png",
+      "filename": "winitbet-attempt-7.png",
+      "casino": "Winit",
+      "priority": 7
+    },
+    {
+      "url": "https://www.winit.bet/assets/images/logo.png",
+      "filename": "winitbet-attempt-8.png",
+      "casino": "Winit",
+      "priority": 8
+    },
+    {
+      "url": "https://www.unlimluck.com/logo.png",
+      "filename": "unlimluck-hb-v2-attempt-1.png",
+      "casino": "UnlimLuck",
+      "priority": 1
+    },
+    {
+      "url": "https://www.unlimluck.com/assets/logo.png",
+      "filename": "unlimluck-hb-v2-attempt-2.png",
+      "casino": "UnlimLuck",
+      "priority": 2
+    },
+    {
+      "url": "https://www.unlimluck.com/images/logo.png",
+      "filename": "unlimluck-hb-v2-attempt-3.png",
+      "casino": "UnlimLuck",
+      "priority": 3
+    },
+    {
+      "url": "https://www.unlimluck.com/static/logo.png",
+      "filename": "unlimluck-hb-v2-attempt-4.png",
+      "casino": "UnlimLuck",
+      "priority": 4
+    },
+    {
+      "url": "https://www.unlimluck.com/img/logo.png",
+      "filename": "unlimluck-hb-v2-attempt-5.png",
+      "casino": "UnlimLuck",
+      "priority": 5
+    },
+    {
+      "url": "https://www.unlimluck.com/media/logo.png",
+      "filename": "unlimluck-hb-v2-attempt-6.png",
+      "casino": "UnlimLuck",
+      "priority": 6
+    },
+    {
+      "url": "https://www.unlimluck.com/wp-content/uploads/logo.png",
+      "filename": "unlimluck-hb-v2-attempt-7.png",
+      "casino": "UnlimLuck",
+      "priority": 7
+    },
+    {
+      "url": "https://www.unlimluck.com/assets/images/logo.png",
+      "filename": "unlimluck-hb-v2-attempt-8.png",
+      "casino": "UnlimLuck",
+      "priority": 8
+    },
+    {
+      "url": "https://www.mrpacho.com/logo.png",
+      "filename": "mr-pacho-attempt-1.png",
+      "casino": "Mr Pacho",
+      "priority": 1
+    },
+    {
+      "url": "https://www.mrpacho.com/assets/logo.png",
+      "filename": "mr-pacho-attempt-2.png",
+      "casino": "Mr Pacho",
+      "priority": 2
+    },
+    {
+      "url": "https://www.mrpacho.com/images/logo.png",
+      "filename": "mr-pacho-attempt-3.png",
+      "casino": "Mr Pacho",
+      "priority": 3
+    },
+    {
+      "url": "https://www.mrpacho.com/static/logo.png",
+      "filename": "mr-pacho-attempt-4.png",
+      "casino": "Mr Pacho",
+      "priority": 4
+    },
+    {
+      "url": "https://www.mrpacho.com/img/logo.png",
+      "filename": "mr-pacho-attempt-5.png",
+      "casino": "Mr Pacho",
+      "priority": 5
+    },
+    {
+      "url": "https://www.mrpacho.com/media/logo.png",
+      "filename": "mr-pacho-attempt-6.png",
+      "casino": "Mr Pacho",
+      "priority": 6
+    },
+    {
+      "url": "https://www.mrpacho.com/wp-content/uploads/logo.png",
+      "filename": "mr-pacho-attempt-7.png",
+      "casino": "Mr Pacho",
+      "priority": 7
+    },
+    {
+      "url": "https://www.mrpacho.com/assets/images/logo.png",
+      "filename": "mr-pacho-attempt-8.png",
+      "casino": "Mr Pacho",
+      "priority": 8
+    },
+    {
+      "url": "https://www.larabet.com/logo.png",
+      "filename": "larabet-attempt-1.png",
+      "casino": "Larabet",
+      "priority": 1
+    },
+    {
+      "url": "https://www.larabet.com/assets/logo.png",
+      "filename": "larabet-attempt-2.png",
+      "casino": "Larabet",
+      "priority": 2
+    },
+    {
+      "url": "https://www.larabet.com/images/logo.png",
+      "filename": "larabet-attempt-3.png",
+      "casino": "Larabet",
+      "priority": 3
+    },
+    {
+      "url": "https://www.larabet.com/static/logo.png",
+      "filename": "larabet-attempt-4.png",
+      "casino": "Larabet",
+      "priority": 4
+    },
+    {
+      "url": "https://www.larabet.com/img/logo.png",
+      "filename": "larabet-attempt-5.png",
+      "casino": "Larabet",
+      "priority": 5
+    },
+    {
+      "url": "https://www.larabet.com/media/logo.png",
+      "filename": "larabet-attempt-6.png",
+      "casino": "Larabet",
+      "priority": 6
+    },
+    {
+      "url": "https://www.larabet.com/wp-content/uploads/logo.png",
+      "filename": "larabet-attempt-7.png",
+      "casino": "Larabet",
+      "priority": 7
+    },
+    {
+      "url": "https://www.larabet.com/assets/images/logo.png",
+      "filename": "larabet-attempt-8.png",
+      "casino": "Larabet",
+      "priority": 8
+    },
+    {
+      "url": "https://www.slotlair.co.uk/logo.png",
+      "filename": "slotlair-uk-v2-attempt-1.png",
+      "casino": "Slotlair UK",
+      "priority": 1
+    },
+    {
+      "url": "https://www.slotlair.co.uk/assets/logo.png",
+      "filename": "slotlair-uk-v2-attempt-2.png",
+      "casino": "Slotlair UK",
+      "priority": 2
+    },
+    {
+      "url": "https://www.slotlair.co.uk/images/logo.png",
+      "filename": "slotlair-uk-v2-attempt-3.png",
+      "casino": "Slotlair UK",
+      "priority": 3
+    },
+    {
+      "url": "https://www.slotlair.co.uk/static/logo.png",
+      "filename": "slotlair-uk-v2-attempt-4.png",
+      "casino": "Slotlair UK",
+      "priority": 4
+    },
+    {
+      "url": "https://www.slotlair.co.uk/img/logo.png",
+      "filename": "slotlair-uk-v2-attempt-5.png",
+      "casino": "Slotlair UK",
+      "priority": 5
+    },
+    {
+      "url": "https://www.slotlair.co.uk/media/logo.png",
+      "filename": "slotlair-uk-v2-attempt-6.png",
+      "casino": "Slotlair UK",
+      "priority": 6
+    },
+    {
+      "url": "https://www.slotlair.co.uk/wp-content/uploads/logo.png",
+      "filename": "slotlair-uk-v2-attempt-7.png",
+      "casino": "Slotlair UK",
+      "priority": 7
+    },
+    {
+      "url": "https://www.slotlair.co.uk/assets/images/logo.png",
+      "filename": "slotlair-uk-v2-attempt-8.png",
+      "casino": "Slotlair UK",
+      "priority": 8
+    },
+    {
+      "url": "https://www.sagaspins.com/logo.png",
+      "filename": "sagaspins-uk-v2-attempt-1.png",
+      "casino": "SagaSpins UK",
+      "priority": 1
+    },
+    {
+      "url": "https://www.sagaspins.com/assets/logo.png",
+      "filename": "sagaspins-uk-v2-attempt-2.png",
+      "casino": "SagaSpins UK",
+      "priority": 2
+    }
+  ]
+}

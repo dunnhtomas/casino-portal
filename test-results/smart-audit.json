@@ -1,0 +1,144 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\tamir\\Downloads\\cc23\\playwright.config.ts",
+    "rootDir": "C:/Users/tamir/Downloads/cc23/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 900000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 5,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/smart-audit.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFolder": "test-results/html-report",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/tamir/Downloads/cc23/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/tamir/Downloads/cc23/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "best-page-test.spec.ts",
+      "file": "best-page-test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Verify /best page has dark theme",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6135,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🎨 TESTING /BEST PAGE DARK THEME\n"
+                    },
+                    {
+                      "text": "🎨 Main Element Styles: {\n  backgroundColor: \u001b[32m'rgba(0, 0, 0, 0)'\u001b[39m,\n  backgroundImage: \u001b[32m'linear-gradient(to right bottom, rgb(17, 24, 39), rgb(31, 41, 55))'\u001b[39m,\n  className: \u001b[32m'min-h-screen bg-gradient-to-br from-gray-900 to-gray-800'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "🎨 Breadcrumbs Styles: {\n  backgroundColor: \u001b[32m'rgba(17, 24, 39, 0.95)'\u001b[39m,\n  borderColor: \u001b[32m'rgb(55, 65, 81)'\u001b[39m,\n  className: \u001b[32m'breadcrumbs-nav'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "🎨 Bonus Categories Section Styles: { backgroundColor: \u001b[32m'rgba(0, 0, 0, 0)'\u001b[39m, backgroundImage: \u001b[32m'none'\u001b[39m }\n"
+                    },
+                    {
+                      "text": "📦 Found 4 cards\n"
+                    },
+                    {
+                      "text": "🎨 First Card Styles: {\n  backgroundColor: \u001b[32m'rgba(31, 41, 55, 0.5)'\u001b[39m,\n  borderColor: \u001b[32m'rgb(55, 65, 81)'\u001b[39m,\n  className: \u001b[32m'bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-xl p-8 text-center hover:shadow-2xl transition-shadow duration-300 border border-gray-700'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "✅ Dark theme verified on /best page\n"
+                    },
+                    {
+                      "text": "✅ Breadcrumbs are dark themed\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-10-01T12:39:58.435Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9bd916f026a7c9c0ea64-53c950bfe1ee9781d442",
+          "file": "best-page-test.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-10-01T12:39:56.651Z",
+    "duration": 8246.114000000001,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

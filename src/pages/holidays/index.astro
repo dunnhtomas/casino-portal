@@ -1,0 +1,56 @@
+---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+
+const navigationCoordinator = new NavigationCoordinator();
+
+const pageTitle = "Holiday Casino Promotions - Seasonal Offers 2025";
+const pageDescription = "Special holiday casino promotions and seasonal offers in Canada. Christmas, New Year, and holiday bonuses.";
+const canonicalUrl = "https://bestcasinoportal.com/holidays";
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/holidays');
+---
+
+<SimplePageLayout 
+  title={pageTitle}
+  description={pageDescription}
+  breadcrumbs={breadcrumbs}
+>
+  <main>
+    <section class="hero py-16 bg-gradient-to-r from-red-600 to-green-600 text-white">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-center">{pageTitle}</h1>
+        <p class="text-xl text-center max-w-3xl mx-auto">{pageDescription}</p>
+      </div>
+    </section>
+    
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Holiday Promotions</h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Christmas Bonuses</h3>
+              <p class="text-gray-600 mb-4">Special Christmas promotions</p>
+              <a href="/holidays/christmas" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 w-full inline-block text-center">
+                Christmas Offers
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">New Year Bonuses</h3>
+              <p class="text-gray-600 mb-4">Start the year with bonuses</p>
+              <a href="/holidays/new-year" class="bg-gold-600 text-white px-4 py-2 rounded hover:bg-gold-700 w-full inline-block text-center">
+                New Year Offers
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Easter Promotions</h3>
+              <p class="text-gray-600 mb-4">Easter holiday specials</p>
+              <a href="/holidays/easter" class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 w-full inline-block text-center">
+                Easter Offers
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</SimplePageLayout>

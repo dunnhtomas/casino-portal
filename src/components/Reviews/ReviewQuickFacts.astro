@@ -1,0 +1,59 @@
+---
+/**
+ * ReviewQuickFacts Component
+ * Single Responsibility: Display quick facts grid for casino review
+ */
+
+interface Props {
+  quickFacts: {
+    safety: {
+      title: string;
+      items: Array<{ label: string; value: string }>;
+    };
+    banking: {
+      title: string;
+      items: Array<{ label: string; value: string }>;
+    };
+    games: {
+      title: string;
+      items: Array<{ label: string; value: string }>;
+    };
+  };
+}
+
+const { quickFacts } = Astro.props;
+const sections = [quickFacts.safety, quickFacts.banking, quickFacts.games];
+---
+
+<div class="review-quick-facts">
+  {sections?.map?.((section, index) => {
+    const colors = [
+      { bg: 'from-gray-800 to-gray-700', border: 'border-blue-500/30', icon: 'from-blue-500 to-blue-600', emoji: '🛡️' },
+      { bg: 'from-gray-800 to-gray-700', border: 'border-green-500/30', icon: 'from-green-500 to-green-600', emoji: '💳' },
+      { bg: 'from-gray-800 to-gray-700', border: 'border-purple-500/30', icon: 'from-purple-500 to-purple-600', emoji: '🎲' }
+    ];
+    const color = colors[index] || colors[0];
+    
+    return (
+      <div class={`review-quick-fact-item bg-gradient-to-br ${color.bg} border ${color.border} relative overflow-hidden`}>
+        <div class="absolute top-0 right-0 w-20 h-20 bg-gray-600/20 rounded-full -mr-10 -mt-10"></div>
+        <div class="relative">
+          <div class={`w-12 h-12 bg-gradient-to-r ${color.icon} rounded-xl flex items-center justify-center text-white text-xl mb-4 mx-auto shadow-lg`}>
+            {color.emoji}
+          </div>
+          <h3 class="font-bold text-white mb-6 text-lg">{section.title}</h3>
+          <div class="space-y-4">
+            {section.items?.map?.(item => (
+              <div class="bg-gray-900/60 rounded-lg p-3 border border-gray-600/40">
+                <div class="flex justify-between items-center">
+                  <span class="text-sm text-gray-300 font-medium">{item.label}</span>
+                  <span class="text-sm font-bold text-white bg-gray-700 px-2 py-1 rounded-md">{item.value}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  })}
+</div>

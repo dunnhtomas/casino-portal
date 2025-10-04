@@ -1,0 +1,1819 @@
+[
+  {
+    "casino": "SpellWin",
+    "slug": "spellwin",
+    "url": "https://www.spellwin.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.spellwin.com"
+      },
+      "description": "Navigate to SpellWin homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from SpellWin homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\spellwin.png"
+    }
+  },
+  {
+    "casino": "Winit.Bet",
+    "slug": "winitbet",
+    "url": "https://www.winit.bet",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.winit.bet"
+      },
+      "description": "Navigate to Winit.Bet homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Winit.Bet homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\winitbet.png"
+    }
+  },
+  {
+    "casino": "UnlimLuck",
+    "slug": "unlimluck",
+    "url": "https://www.unlimluck.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.unlimluck.com"
+      },
+      "description": "Navigate to UnlimLuck homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from UnlimLuck homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\unlimluck.png"
+    }
+  },
+  {
+    "casino": "Mr Pacho",
+    "slug": "mr-pacho",
+    "url": "https://www.mrpacho.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.mrpacho.com"
+      },
+      "description": "Navigate to Mr Pacho homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Mr Pacho homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\mr-pacho.png"
+    }
+  },
+  {
+    "casino": "Larabet",
+    "slug": "larabet",
+    "url": "https://www.larabet.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.larabet.com"
+      },
+      "description": "Navigate to Larabet homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Larabet homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\larabet.png"
+    }
+  },
+  {
+    "casino": "Slotlair",
+    "slug": "slotlair",
+    "url": "https://www.slotlair.co.uk",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.slotlair.co.uk"
+      },
+      "description": "Navigate to Slotlair homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Slotlair homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\slotlair.png"
+    }
+  },
+  {
+    "casino": "SagaSpins",
+    "slug": "sagaspins",
+    "url": "https://www.sagaspins.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.sagaspins.com"
+      },
+      "description": "Navigate to SagaSpins homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from SagaSpins homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\sagaspins.png"
+    }
+  },
+  {
+    "casino": "Samba Slots",
+    "slug": "samba",
+    "url": "https://www.sambaslots.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.sambaslots.com"
+      },
+      "description": "Navigate to Samba Slots homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Samba Slots homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\samba.png"
+    }
+  },
+  {
+    "casino": "Willdsino",
+    "slug": "willdsino",
+    "url": "https://www.willdsino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.willdsino.com"
+      },
+      "description": "Navigate to Willdsino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Willdsino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\willdsino.png"
+    }
+  },
+  {
+    "casino": "Trino",
+    "slug": "trino",
+    "url": "https://www.trinocasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.trinocasino.com"
+      },
+      "description": "Navigate to Trino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Trino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\trino.png"
+    }
+  },
+  {
+    "casino": "SkyHills",
+    "slug": "skyhills",
+    "url": "https://www.skyhills.com/nl",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.skyhills.com/nl"
+      },
+      "description": "Navigate to SkyHills homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from SkyHills homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\skyhills.png"
+    }
+  },
+  {
+    "casino": "WonThere",
+    "slug": "wonthere",
+    "url": "https://www.wonthere.co.uk",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.wonthere.co.uk"
+      },
+      "description": "Navigate to WonThere homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from WonThere homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\wonthere.png"
+    }
+  },
+  {
+    "casino": "Lucky Hunter",
+    "slug": "hunter",
+    "url": "https://luckyhunter.io",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://luckyhunter.io"
+      },
+      "description": "Navigate to Lucky Hunter homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Lucky Hunter homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\hunter.png"
+    }
+  },
+  {
+    "casino": "Rizz Casino",
+    "slug": "rizz",
+    "url": "https://www.rizzcasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.rizzcasino.com"
+      },
+      "description": "Navigate to Rizz Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Rizz Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\rizz.png"
+    }
+  },
+  {
+    "casino": "N1 Bet Casino",
+    "slug": "n1bet",
+    "url": "https://www.n1bet.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.n1bet.com"
+      },
+      "description": "Navigate to N1 Bet Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from N1 Bet Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\n1bet.png"
+    }
+  },
+  {
+    "casino": "Aerobet",
+    "slug": "aerobet",
+    "url": "https://www.aerobet.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.aerobet.com"
+      },
+      "description": "Navigate to Aerobet homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Aerobet homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\aerobet.png"
+    }
+  },
+  {
+    "casino": "Kings Chip",
+    "slug": "kings",
+    "url": "https://www.kingschip.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.kingschip.com"
+      },
+      "description": "Navigate to Kings Chip homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Kings Chip homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\kings.png"
+    }
+  },
+  {
+    "casino": "My Empire",
+    "slug": "my-empire",
+    "url": "https://www.myempire.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.myempire.com"
+      },
+      "description": "Navigate to My Empire homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from My Empire homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\my-empire.png"
+    }
+  },
+  {
+    "casino": "RomiBet",
+    "slug": "romibet",
+    "url": "https://www.romibet.es",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.romibet.es"
+      },
+      "description": "Navigate to RomiBet homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from RomiBet homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\romibet.png"
+    }
+  },
+  {
+    "casino": "SpinCastle",
+    "slug": "spincastle",
+    "url": "https://www.spincastle.com/uk",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.spincastle.com/uk"
+      },
+      "description": "Navigate to SpinCastle homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from SpinCastle homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\spincastle.png"
+    }
+  },
+  {
+    "casino": "Roman Casino",
+    "slug": "roman",
+    "url": "https://www.romancasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.romancasino.com"
+      },
+      "description": "Navigate to Roman Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Roman Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\roman.png"
+    }
+  },
+  {
+    "casino": "WinRolla",
+    "slug": "winrolla",
+    "url": "https://www.winrolla.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.winrolla.com"
+      },
+      "description": "Navigate to WinRolla homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from WinRolla homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\winrolla.png"
+    }
+  },
+  {
+    "casino": "RollXO",
+    "slug": "rollxo",
+    "url": "https://www.rollxo.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.rollxo.com"
+      },
+      "description": "Navigate to RollXO homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from RollXO homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\rollxo.png"
+    }
+  },
+  {
+    "casino": "Jackpot Raider",
+    "slug": "jackpot-raider",
+    "url": "https://www.jackpotraider.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.jackpotraider.com"
+      },
+      "description": "Navigate to Jackpot Raider homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Jackpot Raider homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\jackpot-raider.png"
+    }
+  },
+  {
+    "casino": "Lucki Casino",
+    "slug": "lucki",
+    "url": "https://www.lucki.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.lucki.com"
+      },
+      "description": "Navigate to Lucki Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Lucki Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\lucki.png"
+    }
+  },
+  {
+    "casino": "Malina Casino",
+    "slug": "malina",
+    "url": "https://www.malinacasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.malinacasino.com"
+      },
+      "description": "Navigate to Malina Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Malina Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\malina.png"
+    }
+  },
+  {
+    "casino": "WildRobin Casino",
+    "slug": "wildrobin",
+    "url": "https://www.wildrobincasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.wildrobincasino.com"
+      },
+      "description": "Navigate to WildRobin Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from WildRobin Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\wildrobin.png"
+    }
+  },
+  {
+    "casino": "Jet4Bet",
+    "slug": "jet4bet",
+    "url": "https://www.jet4bet.co.uk",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.jet4bet.co.uk"
+      },
+      "description": "Navigate to Jet4Bet homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Jet4Bet homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\jet4bet.png"
+    }
+  },
+  {
+    "casino": "Vipzino",
+    "slug": "vipzino",
+    "url": "https://www.vipzino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.vipzino.com"
+      },
+      "description": "Navigate to Vipzino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Vipzino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\vipzino.png"
+    }
+  },
+  {
+    "casino": "Rolling Slots",
+    "slug": "rolling",
+    "url": "https://www.rollingslots.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.rollingslots.com"
+      },
+      "description": "Navigate to Rolling Slots homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Rolling Slots homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\rolling.png"
+    }
+  },
+  {
+    "casino": "SpinMama",
+    "slug": "spinmama",
+    "url": "https://www.spinmama.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.spinmama.com"
+      },
+      "description": "Navigate to SpinMama homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from SpinMama homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\spinmama.png"
+    }
+  },
+  {
+    "casino": "Wild Robin",
+    "slug": "wildrobin-2",
+    "url": "https://www.wildrobin.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.wildrobin.com"
+      },
+      "description": "Navigate to Wild Robin homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Wild Robin homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\wildrobin-2.png"
+    }
+  },
+  {
+    "casino": "SpellWin UK",
+    "slug": "spellwin-2",
+    "url": "https://www.spellwin.com/uk",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.spellwin.com/uk"
+      },
+      "description": "Navigate to SpellWin UK homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from SpellWin UK homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\spellwin-2.png"
+    }
+  },
+  {
+    "casino": "The Red",
+    "slug": "red",
+    "url": "https://www.theredcasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.theredcasino.com"
+      },
+      "description": "Navigate to The Red homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from The Red homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\red.png"
+    }
+  },
+  {
+    "casino": "London Casino",
+    "slug": "london",
+    "url": "https://www.londoncasino.co.uk",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.londoncasino.co.uk"
+      },
+      "description": "Navigate to London Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from London Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\london.png"
+    }
+  },
+  {
+    "casino": "Vegas Nova",
+    "slug": "vegas",
+    "url": "https://www.vegasnova.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.vegasnova.com"
+      },
+      "description": "Navigate to Vegas Nova homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Vegas Nova homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\vegas.png"
+    }
+  },
+  {
+    "casino": "Winshark",
+    "slug": "winshark",
+    "url": "https://www.winshark.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.winshark.com"
+      },
+      "description": "Navigate to Winshark homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Winshark homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\winshark.png"
+    }
+  },
+  {
+    "casino": "Tiki Casino",
+    "slug": "tiki",
+    "url": "https://www.tikicasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.tikicasino.com"
+      },
+      "description": "Navigate to Tiki Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Tiki Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\tiki.png"
+    }
+  },
+  {
+    "casino": "InstaSpin",
+    "slug": "instaspin",
+    "url": "https://www.instaspin.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.instaspin.com"
+      },
+      "description": "Navigate to InstaSpin homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from InstaSpin homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\instaspin.png"
+    }
+  },
+  {
+    "casino": "LyraBet",
+    "slug": "lyrabet",
+    "url": "https://www.lyrabet.gr",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.lyrabet.gr"
+      },
+      "description": "Navigate to LyraBet homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from LyraBet homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\lyrabet.png"
+    }
+  },
+  {
+    "casino": "Pistolo Casino",
+    "slug": "pistolo",
+    "url": "https://www.pistolocasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.pistolocasino.com"
+      },
+      "description": "Navigate to Pistolo Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Pistolo Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\pistolo.png"
+    }
+  },
+  {
+    "casino": "SpinGranny",
+    "slug": "spingranny",
+    "url": "https://www.spingranny.at",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.spingranny.at"
+      },
+      "description": "Navigate to SpinGranny homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from SpinGranny homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\spingranny.png"
+    }
+  },
+  {
+    "casino": "Treasure Spins",
+    "slug": "treasure",
+    "url": "https://www.treasurespins.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.treasurespins.com"
+      },
+      "description": "Navigate to Treasure Spins homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Treasure Spins homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\treasure.png"
+    }
+  },
+  {
+    "casino": "SpinLander",
+    "slug": "spinlander",
+    "url": "https://www.spinlander.co.uk",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.spinlander.co.uk"
+      },
+      "description": "Navigate to SpinLander homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from SpinLander homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\spinlander.png"
+    }
+  },
+  {
+    "casino": "Joker Ace's",
+    "slug": "joker",
+    "url": "https://www.jokeraces.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.jokeraces.com"
+      },
+      "description": "Navigate to Joker Ace's homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Joker Ace's homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\joker.png"
+    }
+  },
+  {
+    "casino": "Need For Spin",
+    "slug": "needforspin",
+    "url": "https://se.needforspeedcasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://se.needforspeedcasino.com"
+      },
+      "description": "Navigate to Need For Spin homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Need For Spin homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\needforspin.png"
+    }
+  },
+  {
+    "casino": "Orionsbet",
+    "slug": "orionsbet",
+    "url": "https://www.orionsbet.co.uk",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.orionsbet.co.uk"
+      },
+      "description": "Navigate to Orionsbet homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Orionsbet homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\orionsbet.png"
+    }
+  },
+  {
+    "casino": "Ivybet.io",
+    "slug": "ivybetio",
+    "url": "https://www.ivybet.io",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.ivybet.io"
+      },
+      "description": "Navigate to Ivybet.io homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Ivybet.io homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\ivybetio.png"
+    }
+  },
+  {
+    "casino": "Ritzo Casino",
+    "slug": "ritzo",
+    "url": "https://www.ritzocasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.ritzocasino.com"
+      },
+      "description": "Navigate to Ritzo Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Ritzo Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\ritzo.png"
+    }
+  },
+  {
+    "casino": "SpinGranny",
+    "slug": "spingranny-2",
+    "url": "https://www.spingranny.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.spingranny.com"
+      },
+      "description": "Navigate to SpinGranny homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from SpinGranny homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\spingranny-2.png"
+    }
+  },
+  {
+    "casino": "Posido",
+    "slug": "posido",
+    "url": "https://www.posido.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.posido.com"
+      },
+      "description": "Navigate to Posido homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Posido homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\posido.png"
+    }
+  },
+  {
+    "casino": "Lucky Wand",
+    "slug": "wand",
+    "url": "https://www.luckywandcasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.luckywandcasino.com"
+      },
+      "description": "Navigate to Lucky Wand homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Lucky Wand homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\wand.png"
+    }
+  },
+  {
+    "casino": "SpinGranny Czech",
+    "slug": "spingranny-3",
+    "url": "https://www.spingranny.cz",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.spingranny.cz"
+      },
+      "description": "Navigate to SpinGranny Czech homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from SpinGranny Czech homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\spingranny-3.png"
+    }
+  },
+  {
+    "casino": "VinciSpin",
+    "slug": "vincispin",
+    "url": "https://www.vincispin.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.vincispin.com"
+      },
+      "description": "Navigate to VinciSpin homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from VinciSpin homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\vincispin.png"
+    }
+  },
+  {
+    "casino": "Klikki Casino",
+    "slug": "klikki",
+    "url": "https://www.klikkicasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.klikkicasino.com"
+      },
+      "description": "Navigate to Klikki Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Klikki Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\klikki.png"
+    }
+  },
+  {
+    "casino": "Slotit",
+    "slug": "slotit",
+    "url": "https://www.slotit.de",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.slotit.de"
+      },
+      "description": "Navigate to Slotit homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Slotit homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\slotit.png"
+    }
+  },
+  {
+    "casino": "LyraBet Belgium",
+    "slug": "lyrabet-2",
+    "url": "https://www.lyrabet.be",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.lyrabet.be"
+      },
+      "description": "Navigate to LyraBet Belgium homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from LyraBet Belgium homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\lyrabet-2.png"
+    }
+  },
+  {
+    "casino": "Robocat",
+    "slug": "robocat",
+    "url": "https://www.robocat.de",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.robocat.de"
+      },
+      "description": "Navigate to Robocat homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Robocat homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\robocat.png"
+    }
+  },
+  {
+    "casino": "Spins Deluxe",
+    "slug": "spins",
+    "url": "https://www.spinsdeluxe.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.spinsdeluxe.com"
+      },
+      "description": "Navigate to Spins Deluxe homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Spins Deluxe homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\spins.png"
+    }
+  },
+  {
+    "casino": "Instant Casino",
+    "slug": "instant",
+    "url": "https://www.instantcasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.instantcasino.com"
+      },
+      "description": "Navigate to Instant Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Instant Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\instant.png"
+    }
+  },
+  {
+    "casino": "Golden Panda",
+    "slug": "panda",
+    "url": "https://www.goldenpanda.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.goldenpanda.com"
+      },
+      "description": "Navigate to Golden Panda homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Golden Panda homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\panda.png"
+    }
+  },
+  {
+    "casino": "Magius Casino",
+    "slug": "magius",
+    "url": "https://www.magiuscasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.magiuscasino.com"
+      },
+      "description": "Navigate to Magius Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Magius Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\magius.png"
+    }
+  },
+  {
+    "casino": "RomiBet France",
+    "slug": "romibet-2",
+    "url": "https://www.romibet.fr",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.romibet.fr"
+      },
+      "description": "Navigate to RomiBet France homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from RomiBet France homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\romibet-2.png"
+    }
+  },
+  {
+    "casino": "Ultimluck Casino",
+    "slug": "ultimluck",
+    "url": "https://www.ultimluck.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.ultimluck.com"
+      },
+      "description": "Navigate to Ultimluck Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Ultimluck Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\ultimluck.png"
+    }
+  },
+  {
+    "casino": "Slots Islands",
+    "slug": "slots",
+    "url": "https://www.slotsislands.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.slotsislands.com"
+      },
+      "description": "Navigate to Slots Islands homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Slots Islands homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\slots.png"
+    }
+  },
+  {
+    "casino": "Rich Royal",
+    "slug": "royal",
+    "url": "https://www.richroyal.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.richroyal.com"
+      },
+      "description": "Navigate to Rich Royal homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Rich Royal homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\royal.png"
+    }
+  },
+  {
+    "casino": "Royal Game",
+    "slug": "royal-2",
+    "url": "https://www.royalgames.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.royalgames.com"
+      },
+      "description": "Navigate to Royal Game homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Royal Game homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\royal-2.png"
+    }
+  },
+  {
+    "casino": "Lucky Gem",
+    "slug": "gem",
+    "url": "https://www.luckygemcasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.luckygemcasino.com"
+      },
+      "description": "Navigate to Lucky Gem homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Lucky Gem homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\gem.png"
+    }
+  },
+  {
+    "casino": "Pirate Spins",
+    "slug": "pirate",
+    "url": "https://www.piratespins.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.piratespins.com"
+      },
+      "description": "Navigate to Pirate Spins homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Pirate Spins homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\pirate.png"
+    }
+  },
+  {
+    "casino": "Need For Spin",
+    "slug": "needforspin-2",
+    "url": "https://es.needforspeedcasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://es.needforspeedcasino.com"
+      },
+      "description": "Navigate to Need For Spin homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Need For Spin homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\needforspin-2.png"
+    }
+  },
+  {
+    "casino": "Wild Tokyo",
+    "slug": "wild-tokyo",
+    "url": "https://www.wildtokyo.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.wildtokyo.com"
+      },
+      "description": "Navigate to Wild Tokyo homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Wild Tokyo homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\wild-tokyo.png"
+    }
+  },
+  {
+    "casino": "36 Hight",
+    "slug": "hight",
+    "url": "https://www.36hight.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.36hight.com"
+      },
+      "description": "Navigate to 36 Hight homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from 36 Hight homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\hight.png"
+    }
+  },
+  {
+    "casino": "Hello Fortune",
+    "slug": "fortune",
+    "url": "https://www.hellofortune.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.hellofortune.com"
+      },
+      "description": "Navigate to Hello Fortune homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Hello Fortune homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\fortune.png"
+    }
+  },
+  {
+    "casino": "Need For Spin",
+    "slug": "needforspin-3",
+    "url": "https://fi.needforspeedcasino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://fi.needforspeedcasino.com"
+      },
+      "description": "Navigate to Need For Spin homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Need For Spin homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\needforspin-3.png"
+    }
+  },
+  {
+    "casino": "Moana Casino",
+    "slug": "moana",
+    "url": "https://www.moana-casino.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.moana-casino.com"
+      },
+      "description": "Navigate to Moana Casino homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from Moana Casino homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\moana.png"
+    }
+  },
+  {
+    "casino": "ProntoBet",
+    "slug": "prontobet",
+    "url": "https://www.prontobet.com.au",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.prontobet.com.au"
+      },
+      "description": "Navigate to ProntoBet homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from ProntoBet homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\prontobet.png"
+    }
+  },
+  {
+    "casino": "11Croc",
+    "slug": "11croc",
+    "url": "https://www.11croc.com/at",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.11croc.com/at"
+      },
+      "description": "Navigate to 11Croc homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from 11Croc homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\11croc.png"
+    }
+  },
+  {
+    "casino": "11Croc Germany",
+    "slug": "11croc-2",
+    "url": "https://www.11croc.com/de",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.11croc.com/de"
+      },
+      "description": "Navigate to 11Croc Germany homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from 11Croc Germany homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\11croc-2.png"
+    }
+  },
+  {
+    "casino": "AllSpins",
+    "slug": "allspins",
+    "url": "https://www.allspins.com",
+    "step1_navigate": {
+      "tool": "mcp_playwright_browser_navigate",
+      "params": {
+        "url": "https://www.allspins.com"
+      },
+      "description": "Navigate to AllSpins homepage"
+    },
+    "step2_extract_logo": {
+      "tool": "mcp_playwright_browser_evaluate",
+      "params": {
+        "function": "() => {\n          // Find logo in common locations\n          const selectors = [\n            'img[alt*=\"logo\" i]',\n            'img[class*=\"logo\" i]',\n            'img[id*=\"logo\" i]',\n            '.logo img',\n            '#logo img',\n            'header img',\n            '.header img',\n            'nav img',\n            '.navbar img',\n            'img[src*=\"logo\" i]'\n          ];\n          \n          for (const selector of selectors) {\n            const logo = document.querySelector(selector);\n            if (logo && logo.src && logo.width > 50 && logo.height > 20) {\n              return {\n                found: true,\n                src: logo.src,\n                alt: logo.alt,\n                width: logo.width,\n                height: logo.height,\n                selector: selector\n              };\n            }\n          }\n          \n          // Fallback: find largest image in header\n          const headerImgs = document.querySelectorAll('header img, nav img, .header img');\n          let largest = null;\n          let maxArea = 0;\n          \n          headerImgs.forEach(img => {\n            const area = img.width * img.height;\n            if (area > maxArea && area < 100000) { // not too large (not banner)\n              maxArea = area;\n              largest = img;\n            }\n          });\n          \n          if (largest) {\n            return {\n              found: true,\n              src: largest.src,\n              alt: largest.alt,\n              width: largest.width,\n              height: largest.height,\n              selector: 'largest-header-img'\n            };\n          }\n          \n          return { found: false, error: 'No logo found' };\n        }"
+      },
+      "description": "Extract logo URL from AllSpins homepage"
+    },
+    "step3_download": {
+      "note": "Use extracted logo src URL with mcp_image-downloa_download_image",
+      "outputPath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos\\allspins.png"
+    }
+  }
+]

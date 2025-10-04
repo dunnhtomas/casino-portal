@@ -1,0 +1,100 @@
+---
+/**
+ * BonusTypesExplainer Component
+ * Single Responsibility: Educate users about different casino bonus types
+ */
+---
+
+<section class="py-16 bg-gradient-to-br from-gray-900 to-gray-800" id="bonus-types">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-white mb-4">🎁 Understanding Casino Bonuses</h2>
+      <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+        Know your bonuses before you claim. Here's what each type means for your bankroll.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+      <!-- Match Bonus -->
+      <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-blue-500 transition-colors">
+        <div class="text-4xl mb-4">💰</div>
+        <h3 class="text-xl font-bold text-white mb-3">Match Bonus</h3>
+        <p class="text-gray-300 text-sm mb-4">
+          Casino matches your deposit by a percentage (e.g., 100% up to $500).
+        </p>
+        <div class="bg-gray-900 rounded-lg p-3 text-xs">
+          <div class="text-gray-400 mb-1">Example:</div>
+          <div class="text-green-400">Deposit $100 → Get $100 bonus</div>
+        </div>
+      </div>
+
+      <!-- Free Spins -->
+      <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-purple-500 transition-colors">
+        <div class="text-4xl mb-4">🎰</div>
+        <h3 class="text-xl font-bold text-white mb-3">Free Spins</h3>
+        <p class="text-gray-300 text-sm mb-4">
+          Bonus spins on specific slot games. Check wagering requirements on winnings.
+        </p>
+        <div class="bg-gray-900 rounded-lg p-3 text-xs">
+          <div class="text-gray-400 mb-1">Common:</div>
+          <div class="text-purple-400">50-200 spins @ $0.10-$0.25</div>
+        </div>
+      </div>
+
+      <!-- No Deposit -->
+      <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-yellow-500 transition-colors">
+        <div class="text-4xl mb-4">🎉</div>
+        <h3 class="text-xl font-bold text-white mb-3">No Deposit</h3>
+        <p class="text-gray-300 text-sm mb-4">
+          Free bonus just for signing up. No deposit required, but has wagering rules.
+        </p>
+        <div class="bg-gray-900 rounded-lg p-3 text-xs">
+          <div class="text-gray-400 mb-1">Typical:</div>
+          <div class="text-yellow-400">$10-$50 or 10-50 free spins</div>
+        </div>
+      </div>
+
+      <!-- Cashback -->
+      <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:border-green-500 transition-colors">
+        <div class="text-4xl mb-4">💵</div>
+        <h3 class="text-xl font-bold text-white mb-3">Cashback</h3>
+        <p class="text-gray-300 text-sm mb-4">
+          Get a percentage of losses returned. Usually weekly or monthly.
+        </p>
+        <div class="bg-gray-900 rounded-lg p-3 text-xs">
+          <div class="text-gray-400 mb-1">Typical:</div>
+          <div class="text-green-400">5-20% of net losses</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bonus Terms Alert -->
+    <div class="mt-12 max-w-4xl mx-auto bg-yellow-900/20 border border-yellow-500/30 rounded-xl p-6">
+      <div class="flex items-start">
+        <div class="text-2xl mr-4">⚠️</div>
+        <div>
+          <h3 class="text-lg font-bold text-yellow-400 mb-2">Always Read the Terms</h3>
+          <ul class="text-gray-300 text-sm space-y-1">
+            <li>• <strong>Wagering Requirements:</strong> How many times you must play through the bonus (e.g., 35x)</li>
+            <li>• <strong>Max Cashout:</strong> Maximum amount you can withdraw from bonus winnings</li>
+            <li>• <strong>Game Restrictions:</strong> Which games count towards wagering (slots usually 100%)</li>
+            <li>• <strong>Time Limits:</strong> How long you have to meet requirements (usually 7-30 days)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-12">
+      <a 
+        href="#top-three" 
+        class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-xl transition-all duration-200 transform hover:scale-105 shadow-lg"
+      >
+        Compare Bonus Offers
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>

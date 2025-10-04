@@ -1,0 +1,2995 @@
+{
+  "totalCasinos": 79,
+  "wrongLogosRemoved": 228,
+  "realLogosFound": 0,
+  "realLogosDownloaded": 0,
+  "errors": [],
+  "processingLog": [
+    {
+      "action": "removed",
+      "file": "500.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "allstarz.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "arcanebet.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "artcasino.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-facebook-1200w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-facebook-1200w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-facebook-1200w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-facebook-400w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-facebook-400w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-facebook-400w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-facebook-800w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-facebook-800w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-facebook-800w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-facebook.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-x-1200w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-x-1200w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-x-1200w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-x-400w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-x-400w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-x-400w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-x-800w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-x-800w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-x-800w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "askgamblers-x.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "astrozino.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "benefits-of-reading-casino-reviews-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "benefits-of-reading-casino-reviews-1200w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "benefits-of-reading-casino-reviews-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "benefits-of-reading-casino-reviews-400w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "benefits-of-reading-casino-reviews-400w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "benefits-of-reading-casino-reviews-400w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "benefits-of-reading-casino-reviews-800w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "benefits-of-reading-casino-reviews-800w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "benefits-of-reading-casino-reviews-800w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "benefits-of-reading-casino-reviews.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-affiliate-logo-1200w.avif",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-affiliate-logo-1200w.png",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-affiliate-logo-1200w.webp",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-affiliate-logo-400w.avif",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-affiliate-logo-400w.png",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-affiliate-logo-400w.webp",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-affiliate-logo-800w.avif",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-affiliate-logo-800w.png",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-affiliate-logo-800w.webp",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-affiliate-logo.png",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-website-logo-1200w.avif",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-website-logo-1200w.png",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-website-logo-1200w.webp",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-website-logo-400w.avif",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-website-logo-400w.png",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-website-logo-400w.webp",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-website-logo-800w.avif",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-website-logo-800w.png",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-website-logo-800w.webp",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "best-casino-website-logo.png",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "betandyou.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "betflare.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "betico.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "betrebels.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "betroom24.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "betsio.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "bitcasinoio.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "bitsler.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "campeonbet.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "casabet.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "casino-orca.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "casoo.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "chanz.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "cosmicslot.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "default-casino.svg",
+      "reason": "Generic branding file",
+      "category": "branding",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "del-oro.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "dmcacom-protection-status-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "dmcacom-protection-status-1200w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "dmcacom-protection-status-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "dmcacom-protection-status-400w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "dmcacom-protection-status-400w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "dmcacom-protection-status-400w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "dmcacom-protection-status-800w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "dmcacom-protection-status-800w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "dmcacom-protection-status-800w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "dmcacom-protection-status.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "egr-logo-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "egr-logo-1200w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "egr-logo-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "egr-logo-400w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "egr-logo-400w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "egr-logo-400w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "egr-logo-800w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "egr-logo-800w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "egr-logo-800w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "egr-logo.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "everum.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "evobet.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "fairspin.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "fortunejack.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "gangsta.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "heats.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "how-to-choose-the-right-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "how-to-choose-the-right-1200w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "how-to-choose-the-right-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "how-to-choose-the-right-400w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "how-to-choose-the-right-400w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "how-to-choose-the-right-400w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "how-to-choose-the-right-800w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "how-to-choose-the-right-800w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "how-to-choose-the-right-800w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "how-to-choose-the-right.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "hunter.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "impressario.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "instagram-askgamblers-1200w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "instagram-askgamblers-1200w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "instagram-askgamblers-1200w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "instagram-askgamblers-400w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "instagram-askgamblers-400w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "instagram-askgamblers-400w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "instagram-askgamblers-800w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "instagram-askgamblers-800w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "instagram-askgamblers-800w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "instagram-askgamblers.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "jackbit.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "jet4bet.ico",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "joker.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "joya.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "kings.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "lilibet.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "london.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "lucki.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "lyrabet.ico",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "malina.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "mondcasino.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "mrplay.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "n1bet.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "needforspin.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "onlywin.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "pistolo.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "playfrank.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "pledoo.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "red.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "rizz.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "rolling.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "roman.ico",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "romibet.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "royspins.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sagaspins.ico",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "samba.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sbc-awards-logo-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sbc-awards-logo-1200w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sbc-awards-logo-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sbc-awards-logo-400w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sbc-awards-logo-400w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sbc-awards-logo-400w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sbc-awards-logo-800w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sbc-awards-logo-800w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sbc-awards-logo-800w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sbc-awards-logo.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sigma-awards-logo-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sigma-awards-logo-1200w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sigma-awards-logo-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sigma-awards-logo-400w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sigma-awards-logo-400w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sigma-awards-logo-400w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sigma-awards-logo-800w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sigma-awards-logo-800w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sigma-awards-logo-800w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sigma-awards-logo.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "skyhills.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "slotlair.ico",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "slotnite.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "smokace.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "spinbetter.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "spincastle.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "spinlander.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "spinsbro.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "sportsbetio.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "stelario.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "supacasi.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "svenbet.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "test-github-logo.png",
+      "reason": "Test/temporary file",
+      "category": "test",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "test-logo.png",
+      "reason": "Test/temporary file",
+      "category": "test",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "thorcasino.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tik-tok-askgamblers-1200w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tik-tok-askgamblers-1200w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tik-tok-askgamblers-1200w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tik-tok-askgamblers-400w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tik-tok-askgamblers-400w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tik-tok-askgamblers-400w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tik-tok-askgamblers-800w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tik-tok-askgamblers-800w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tik-tok-askgamblers-800w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tik-tok-askgamblers.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tiki.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tonybet.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "treasure.ico",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "trustdice.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "tsars.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "unibet.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "unlimluck.ico",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "useravatar-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "useravatar-1200w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "useravatar-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "useravatar-400w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "useravatar-400w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "useravatar-400w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "useravatar-800w.avif",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "useravatar-800w.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "useravatar-800w.webp",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "useravatar.png",
+      "reason": "Content/article image",
+      "category": "content",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "vegas.ico",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "wazbee.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "weiss.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "wildrobin-2.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "wildrobin.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "windetta.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "winlegends.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "winnerz.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "wonthere.svg",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "youtube-askgamblers-1200w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "youtube-askgamblers-1200w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "youtube-askgamblers-1200w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "youtube-askgamblers-400w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "youtube-askgamblers-400w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "youtube-askgamblers-400w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "youtube-askgamblers-800w.avif",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "youtube-askgamblers-800w.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "youtube-askgamblers-800w.webp",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "youtube-askgamblers.png",
+      "reason": "Social media logo",
+      "category": "social",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "zencasino.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    },
+    {
+      "action": "removed",
+      "file": "zinkra.png",
+      "reason": "No matching casino found",
+      "category": "orphan",
+      "backedUp": true
+    }
+  ],
+  "startTime": "2025-10-02T12:25:05.152Z",
+  "wrongLogosIdentified": [
+    {
+      "file": "500.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "allstarz.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "arcanebet.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "artcasino.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "askgamblers-facebook-1200w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-facebook-1200w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-facebook-1200w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-facebook-400w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-facebook-400w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-facebook-400w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-facebook-800w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-facebook-800w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-facebook-800w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-facebook.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-x-1200w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-x-1200w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-x-1200w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-x-400w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-x-400w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-x-400w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-x-800w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-x-800w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-x-800w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "askgamblers-x.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "astrozino.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "benefits-of-reading-casino-reviews-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "benefits-of-reading-casino-reviews-1200w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "benefits-of-reading-casino-reviews-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "benefits-of-reading-casino-reviews-400w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "benefits-of-reading-casino-reviews-400w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "benefits-of-reading-casino-reviews-400w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "benefits-of-reading-casino-reviews-800w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "benefits-of-reading-casino-reviews-800w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "benefits-of-reading-casino-reviews-800w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "benefits-of-reading-casino-reviews.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "best-casino-affiliate-logo-1200w.avif",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-affiliate-logo-1200w.png",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-affiliate-logo-1200w.webp",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-affiliate-logo-400w.avif",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-affiliate-logo-400w.png",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-affiliate-logo-400w.webp",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-affiliate-logo-800w.avif",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-affiliate-logo-800w.png",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-affiliate-logo-800w.webp",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-affiliate-logo.png",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-website-logo-1200w.avif",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-website-logo-1200w.png",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-website-logo-1200w.webp",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-website-logo-400w.avif",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-website-logo-400w.png",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-website-logo-400w.webp",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-website-logo-800w.avif",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-website-logo-800w.png",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-website-logo-800w.webp",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "best-casino-website-logo.png",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "betandyou.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "betflare.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "betico.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "betrebels.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "betroom24.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "betsio.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "bitcasinoio.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "bitsler.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "campeonbet.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "casabet.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "casino-orca.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "casoo.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "chanz.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "cosmicslot.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "default-casino.svg",
+      "reason": "Generic branding file",
+      "category": "branding"
+    },
+    {
+      "file": "del-oro.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "dmcacom-protection-status-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "dmcacom-protection-status-1200w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "dmcacom-protection-status-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "dmcacom-protection-status-400w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "dmcacom-protection-status-400w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "dmcacom-protection-status-400w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "dmcacom-protection-status-800w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "dmcacom-protection-status-800w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "dmcacom-protection-status-800w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "dmcacom-protection-status.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "egr-logo-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "egr-logo-1200w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "egr-logo-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "egr-logo-400w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "egr-logo-400w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "egr-logo-400w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "egr-logo-800w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "egr-logo-800w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "egr-logo-800w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "egr-logo.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "everum.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "evobet.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "fairspin.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "fortunejack.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "gangsta.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "heats.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "how-to-choose-the-right-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "how-to-choose-the-right-1200w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "how-to-choose-the-right-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "how-to-choose-the-right-400w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "how-to-choose-the-right-400w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "how-to-choose-the-right-400w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "how-to-choose-the-right-800w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "how-to-choose-the-right-800w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "how-to-choose-the-right-800w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "how-to-choose-the-right.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "hunter.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "impressario.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "instagram-askgamblers-1200w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "instagram-askgamblers-1200w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "instagram-askgamblers-1200w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "instagram-askgamblers-400w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "instagram-askgamblers-400w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "instagram-askgamblers-400w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "instagram-askgamblers-800w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "instagram-askgamblers-800w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "instagram-askgamblers-800w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "instagram-askgamblers.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "jackbit.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "jet4bet.ico",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "joker.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "joya.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "kings.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "lilibet.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "london.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "lucki.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "lyrabet.ico",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "malina.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "mondcasino.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "mrplay.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "n1bet.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "needforspin.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "onlywin.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "pistolo.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "playfrank.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "pledoo.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "red.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "rizz.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "rolling.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "roman.ico",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "romibet.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "royspins.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "sagaspins.ico",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "samba.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "sbc-awards-logo-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sbc-awards-logo-1200w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sbc-awards-logo-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sbc-awards-logo-400w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sbc-awards-logo-400w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sbc-awards-logo-400w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sbc-awards-logo-800w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sbc-awards-logo-800w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sbc-awards-logo-800w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sbc-awards-logo.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sigma-awards-logo-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sigma-awards-logo-1200w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sigma-awards-logo-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sigma-awards-logo-400w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sigma-awards-logo-400w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sigma-awards-logo-400w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sigma-awards-logo-800w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sigma-awards-logo-800w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sigma-awards-logo-800w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "sigma-awards-logo.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "skyhills.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "slotlair.ico",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "slotnite.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "smokace.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "spinbetter.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "spincastle.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "spinlander.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "spinsbro.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "sportsbetio.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "stelario.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "supacasi.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "svenbet.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "test-github-logo.png",
+      "reason": "Test/temporary file",
+      "category": "test"
+    },
+    {
+      "file": "test-logo.png",
+      "reason": "Test/temporary file",
+      "category": "test"
+    },
+    {
+      "file": "thorcasino.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "tik-tok-askgamblers-1200w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "tik-tok-askgamblers-1200w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "tik-tok-askgamblers-1200w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "tik-tok-askgamblers-400w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "tik-tok-askgamblers-400w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "tik-tok-askgamblers-400w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "tik-tok-askgamblers-800w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "tik-tok-askgamblers-800w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "tik-tok-askgamblers-800w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "tik-tok-askgamblers.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "tiki.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "tonybet.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "treasure.ico",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "trustdice.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "tsars.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "unibet.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "unlimluck.ico",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "useravatar-1200w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "useravatar-1200w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "useravatar-1200w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "useravatar-400w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "useravatar-400w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "useravatar-400w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "useravatar-800w.avif",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "useravatar-800w.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "useravatar-800w.webp",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "useravatar.png",
+      "reason": "Content/article image",
+      "category": "content"
+    },
+    {
+      "file": "vegas.ico",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "wazbee.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "weiss.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "wildrobin-2.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "wildrobin.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "windetta.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "winlegends.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "winnerz.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "wonthere.svg",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "youtube-askgamblers-1200w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "youtube-askgamblers-1200w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "youtube-askgamblers-1200w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "youtube-askgamblers-400w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "youtube-askgamblers-400w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "youtube-askgamblers-400w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "youtube-askgamblers-800w.avif",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "youtube-askgamblers-800w.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "youtube-askgamblers-800w.webp",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "youtube-askgamblers.png",
+      "reason": "Social media logo",
+      "category": "social"
+    },
+    {
+      "file": "zencasino.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    },
+    {
+      "file": "zinkra.png",
+      "reason": "No matching casino found",
+      "category": "orphan"
+    }
+  ],
+  "endTime": "2025-10-02T12:25:06.061Z",
+  "extractionPlan": [
+    {
+      "casino": {
+        "slug": "spellwin",
+        "brand": "SpellWin",
+        "originalBrand": "SpellWin",
+        "searchVariations": [
+          "spellwin"
+        ],
+        "url": "https://www.spellwin.com"
+      },
+      "priority": 100,
+      "extractionUrl": "https://www.spellwin.com",
+      "expectedFile": "spellwin.png"
+    },
+    {
+      "casino": {
+        "slug": "winitbet",
+        "brand": "Winit",
+        "originalBrand": "Winit.Bet",
+        "searchVariations": [
+          "winit",
+          "winitbet",
+          "winit.bet"
+        ],
+        "url": "https://www.winit.bet"
+      },
+      "priority": 99,
+      "extractionUrl": "https://www.winit.bet",
+      "expectedFile": "winitbet.png"
+    },
+    {
+      "casino": {
+        "slug": "unlimluck-hb-v2",
+        "brand": "UnlimLuck",
+        "originalBrand": "UnlimLuck HB-v2",
+        "searchVariations": [
+          "unlimluck",
+          "unlimluck-hb-v2",
+          "unlimluck hb-v2"
+        ],
+        "url": "https://www.unlimluck.com"
+      },
+      "priority": 98,
+      "extractionUrl": "https://www.unlimluck.com",
+      "expectedFile": "unlimluck-hb-v2.png"
+    },
+    {
+      "casino": {
+        "slug": "mr-pacho",
+        "brand": "Mr Pacho",
+        "originalBrand": "Mr Pacho",
+        "searchVariations": [
+          "mr pacho",
+          "mrpacho",
+          "mr-pacho"
+        ],
+        "url": "https://www.mrpacho.com"
+      },
+      "priority": 97,
+      "extractionUrl": "https://www.mrpacho.com",
+      "expectedFile": "mr-pacho.png"
+    },
+    {
+      "casino": {
+        "slug": "larabet",
+        "brand": "Larabet",
+        "originalBrand": "Larabet",
+        "searchVariations": [
+          "larabet"
+        ],
+        "url": "https://www.larabet.com"
+      },
+      "priority": 96,
+      "extractionUrl": "https://www.larabet.com",
+      "expectedFile": "larabet.png"
+    },
+    {
+      "casino": {
+        "slug": "slotlair-uk-v2",
+        "brand": "Slotlair UK",
+        "originalBrand": "Slotlair UK-v2",
+        "searchVariations": [
+          "slotlair uk",
+          "slotlairuk",
+          "slotlair-uk-v2",
+          "slotlair",
+          "slotlair uk-v2"
+        ],
+        "url": "https://www.slotlair.co.uk"
+      },
+      "priority": 95,
+      "extractionUrl": "https://www.slotlair.co.uk",
+      "expectedFile": "slotlair-uk-v2.png"
+    },
+    {
+      "casino": {
+        "slug": "sagaspins-uk-v2",
+        "brand": "SagaSpins UK",
+        "originalBrand": "SagaSpins UK-v2",
+        "searchVariations": [
+          "sagaspins uk",
+          "sagaspinsuk",
+          "sagaspins-uk-v2",
+          "sagaspins",
+          "sagaspins uk-v2"
+        ],
+        "url": "https://www.sagaspins.com"
+      },
+      "priority": 94,
+      "extractionUrl": "https://www.sagaspins.com",
+      "expectedFile": "sagaspins-uk-v2.png"
+    },
+    {
+      "casino": {
+        "slug": "samba-slots",
+        "brand": "Samba",
+        "originalBrand": "Samba Slots",
+        "searchVariations": [
+          "samba",
+          "samba-slots",
+          "sambaslots",
+          "samba slots"
+        ],
+        "url": "https://www.sambaslots.com"
+      },
+      "priority": 93,
+      "extractionUrl": "https://www.sambaslots.com",
+      "expectedFile": "samba-slots.png"
+    },
+    {
+      "casino": {
+        "slug": "willdsino",
+        "brand": "Willdsino",
+        "originalBrand": "Willdsino",
+        "searchVariations": [
+          "willdsino"
+        ],
+        "url": "https://www.willdsino.com"
+      },
+      "priority": 92,
+      "extractionUrl": "https://www.willdsino.com",
+      "expectedFile": "willdsino.png"
+    },
+    {
+      "casino": {
+        "slug": "trino",
+        "brand": "Trino",
+        "originalBrand": "Trino",
+        "searchVariations": [
+          "trino",
+          "trinocasino"
+        ],
+        "url": "https://www.trinocasino.com"
+      },
+      "priority": 91,
+      "extractionUrl": "https://www.trinocasino.com",
+      "expectedFile": "trino.png"
+    },
+    {
+      "casino": {
+        "slug": "skyhills-nl-v2",
+        "brand": "SkyHills NL",
+        "originalBrand": "SkyHills NL-v2",
+        "searchVariations": [
+          "skyhills nl",
+          "skyhillsnl",
+          "skyhills-nl-v2",
+          "skyhills",
+          "skyhills nl-v2"
+        ],
+        "url": "https://www.skyhills.com/nl"
+      },
+      "priority": 90,
+      "extractionUrl": "https://www.skyhills.com/nl",
+      "expectedFile": "skyhills-nl-v2.png"
+    },
+    {
+      "casino": {
+        "slug": "wonthere-uk-v2",
+        "brand": "WonThere UK",
+        "originalBrand": "WonThere UK-v2",
+        "searchVariations": [
+          "wonthere uk",
+          "wonthereuk",
+          "wonthere-uk-v2",
+          "wonthere",
+          "wonthere uk-v2"
+        ],
+        "url": "https://www.wonthere.co.uk"
+      },
+      "priority": 89,
+      "extractionUrl": "https://www.wonthere.co.uk",
+      "expectedFile": "wonthere-uk-v2.png"
+    },
+    {
+      "casino": {
+        "slug": "lucky-hunter",
+        "brand": "Lucky Hunter",
+        "originalBrand": "Lucky Hunter",
+        "searchVariations": [
+          "lucky hunter",
+          "luckyhunter",
+          "lucky-hunter"
+        ],
+        "url": "https://luckyhunter.io"
+      },
+      "priority": 88,
+      "extractionUrl": "https://luckyhunter.io",
+      "expectedFile": "lucky-hunter.png"
+    },
+    {
+      "casino": {
+        "slug": "rizz-casino",
+        "brand": "Rizz",
+        "originalBrand": "Rizz Casino",
+        "searchVariations": [
+          "rizz",
+          "rizz-casino",
+          "rizzcasino",
+          "rizz casino"
+        ],
+        "url": "https://www.rizzcasino.com"
+      },
+      "priority": 87,
+      "extractionUrl": "https://www.rizzcasino.com",
+      "expectedFile": "rizz-casino.png"
+    },
+    {
+      "casino": {
+        "slug": "n1-bet-casino",
+        "brand": "N1 Bet",
+        "originalBrand": "N1 Bet Casino",
+        "searchVariations": [
+          "n1 bet",
+          "n1bet",
+          "n1-bet-casino",
+          "n1 bet casino"
+        ],
+        "url": "https://www.n1bet.com"
+      },
+      "priority": 86,
+      "extractionUrl": "https://www.n1bet.com",
+      "expectedFile": "n1-bet-casino.png"
+    }
+  ]
+}

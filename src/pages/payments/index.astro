@@ -1,0 +1,186 @@
+---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+
+const navigationCoordinator = new NavigationCoordinator();
+
+const pageTitle = "Payment Methods - Canadian Casino Banking Guide 2025";
+const pageDescription = "Complete guide to casino payment methods in Canada. Compare Interac, credit cards, e-wallets, and crypto options.";
+const canonicalUrl = "https://bestcasinoportal.com/payments";
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/payments');
+---
+
+<SimplePageLayout 
+  title={pageTitle}
+  description={pageDescription}
+  breadcrumbs={breadcrumbs}
+>
+  <main>
+    <section class="hero py-16 bg-gradient-to-r from-blue-600 to-green-600 text-white">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-center">{pageTitle}</h1>
+        <p class="text-xl text-center max-w-3xl mx-auto">{pageDescription}</p>
+      </div>
+    </section>
+    
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Popular Payment Methods</h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Interac</h3>
+              <p class="text-gray-600 mb-4">Canada's most popular payment method</p>
+              <a href="/payments/interac-casinos-ontario" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+                View Interac Casinos
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Visa</h3>
+              <p class="text-gray-600 mb-4">Most widely accepted credit card</p>
+              <a href="/payments/visa-casinos-ontario" class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 w-full inline-block text-center">
+                View Visa Casinos
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">PayPal</h3>
+              <p class="text-gray-600 mb-4">World's most trusted digital wallet</p>
+              <a href="/payments/paypal-casinos-ontario" class="bg-blue-400 text-white px-4 py-2 rounded hover:bg-blue-500 w-full inline-block text-center">
+                View PayPal Casinos
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Bitcoin</h3>
+              <p class="text-gray-600 mb-4">Popular cryptocurrency option</p>
+              <a href="/payments/bitcoin-casinos-ontario" class="bg-orange-400 text-white px-4 py-2 rounded hover:bg-orange-500 w-full inline-block text-center">
+                View Bitcoin Casinos
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Skrill</h3>
+              <p class="text-gray-600 mb-4">Fast e-wallet for gaming</p>
+              <a href="/payments/skrill-casinos-ontario" class="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 w-full inline-block text-center">
+                View Skrill Casinos
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Neteller</h3>
+              <p class="text-gray-600 mb-4">Secure digital wallet</p>
+              <a href="/payments/neteller-casinos-ontario" class="bg-green-400 text-white px-4 py-2 rounded hover:bg-green-500 w-full inline-block text-center">
+                View Neteller Casinos
+              </a>
+            </div>
+          </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">UnlimLuck</h3>
+              <p class="text-gray-600 mb-4">Accepts Interac</p>
+              <div class="flex items-center mb-4">
+                <span class="text-yellow-400 text-lg">★★★★★</span>
+                <span class="ml-2 font-semibold">8.5/10</span>
+              </div>
+              <a href="/reviews/unlimluck" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+                View Review
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Mr Pacho</h3>
+              <p class="text-gray-600 mb-4">Accepts Interac</p>
+              <div class="flex items-center mb-4">
+                <span class="text-yellow-400 text-lg">★★★★★</span>
+                <span class="ml-2 font-semibold">8.5/10</span>
+              </div>
+              <a href="/reviews/mr-pacho" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+                View Review
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Larabet</h3>
+              <p class="text-gray-600 mb-4">Accepts Interac</p>
+              <div class="flex items-center mb-4">
+                <span class="text-yellow-400 text-lg">★★★★★</span>
+                <span class="ml-2 font-semibold">8.5/10</span>
+              </div>
+              <a href="/reviews/larabet" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+                View Review
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Slotlair</h3>
+              <p class="text-gray-600 mb-4">Accepts Interac</p>
+              <div class="flex items-center mb-4">
+                <span class="text-yellow-400 text-lg">★★★★★</span>
+                <span class="ml-2 font-semibold">8.5/10</span>
+              </div>
+              <a href="/reviews/slotlair" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+                View Review
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">SagaSpins</h3>
+              <p class="text-gray-600 mb-4">Accepts Interac</p>
+              <div class="flex items-center mb-4">
+                <span class="text-yellow-400 text-lg">★★★★★</span>
+                <span class="ml-2 font-semibold">8.5/10</span>
+              </div>
+              <a href="/reviews/sagaspins" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+                View Review
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Samba Slots</h3>
+              <p class="text-gray-600 mb-4">Accepts Interac</p>
+              <div class="flex items-center mb-4">
+                <span class="text-yellow-400 text-lg">★★★★★</span>
+                <span class="ml-2 font-semibold">8.5/10</span>
+              </div>
+              <a href="/reviews/samba-slots" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+                View Review
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Willdsino</h3>
+              <p class="text-gray-600 mb-4">Accepts Interac</p>
+              <div class="flex items-center mb-4">
+                <span class="text-yellow-400 text-lg">★★★★★</span>
+                <span class="ml-2 font-semibold">8.5/10</span>
+              </div>
+              <a href="/reviews/willdsino" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+                View Review
+              </a>
+            </div>
+          </div>
+          
+          <div class="mt-16 bg-gray-50 p-8 rounded-xl">
+            <h2 class="text-2xl font-bold mb-6">Interac at Ontario Casinos</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+              <div>
+                <h3 class="text-xl font-semibold mb-4">Advantages</h3>
+                <ul class="space-y-2">
+                  <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    Fast and secure transactions
+                  </li>
+                  <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    Widely accepted method
+                  </li>
+                  <li class="flex items-center">
+                    <span class="text-green-500 mr-2">✓</span>
+                    Available to Ontario players
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="text-xl font-semibold mb-4">Processing Times</h3>
+                <ul class="space-y-2">
+                  <li><strong>Deposits:</strong> Instant</li>
+                  <li><strong>Withdrawals:</strong> 1-3 business days</li>
+                  <li><strong>Fees:</strong> Usually free</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</SimplePageLayout>

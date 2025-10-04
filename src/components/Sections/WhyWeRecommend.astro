@@ -6,84 +6,121 @@ const weights = RatingManager.WEIGHTS;
 const explanations = RatingManager.explain({ security: 9, payout: 9, bonusValue: 8, games: 8, mobile: 8, support: 8, reputation: 8 });
 ---
 
-<section id="why-we-recommend" class="py-16 bg-gray-50">
-  <div class="max-w-6xl mx-auto px-6">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-gray-900 mb-4">Why We Recommend These Casinos</h2>
-      <p class="text-lg text-gray-600">Our transparent rating methodology based on what matters most to players</p>
+<section id="why-we-recommend" class="py-20 bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden">
+  <!-- Background decoration -->
+  <div class="absolute inset-0 bg-gradient-to-r from-gray-800/30 to-gray-700/20"></div>
+  <div class="absolute top-0 left-0 w-96 h-96 bg-gray-700 rounded-full -ml-48 -mt-48 opacity-20"></div>
+  <div class="absolute bottom-0 right-0 w-80 h-80 bg-gray-600 rounded-full -mr-40 -mb-40 opacity-20"></div>
+  
+  <div class="max-w-7xl mx-auto px-6 relative z-10">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-white mb-6">Why We Recommend These Casinos</h2>
+      <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">Our transparent rating methodology based on what matters most to players</p>
     </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      <div>
-        <h3 class="text-2xl font-bold text-gray-900 mb-6">Our Rating Methodology</h3>
-        <div class="space-y-4">
-          {explanations.map(factor => (
-            <div class="flex items-start gap-4">
-              <div class="w-8 h-8 bg-indigo-100 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                <span class="text-sm font-bold text-indigo-600">{Math.round(factor.w * 100)}%</span>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+      <!-- Rating Methodology Card -->
+      <div class="bg-gray-800 rounded-3xl shadow-xl p-8 border border-gray-700 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-casino-500 to-gold-500"></div>
+        <div class="pt-4">
+          <h3 class="text-3xl font-bold text-white mb-8">Our Rating Methodology</h3>
+          <div class="space-y-6">
+            {explanations.map(factor => (
+              <div class="flex items-start gap-4 p-4 bg-gradient-to-r from-gray-700 to-gray-800 rounded-xl border border-gray-600">
+                <div class="w-12 h-12 bg-gradient-to-r from-casino-500 to-casino-600 rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                  <span class="text-sm font-bold text-white">{Math.round(factor.w * 100)}%</span>
+                </div>
+                <div>
+                  <h4 class="font-bold text-white mb-2 text-lg">{factor.k}</h4>
+                  <p class="text-gray-300 leading-relaxed">{factor.why}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div class="mt-8 p-6 bg-gradient-to-r from-gray-700 to-gray-800 rounded-2xl border border-gray-600">
+            <div class="flex items-start gap-3">
+              <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                </svg>
               </div>
               <div>
-                <h4 class="font-semibold text-gray-900 mb-1">{factor.k}</h4>
-                <p class="text-gray-600 text-sm">{factor.why}</p>
+                <p class="text-gray-200 leading-relaxed">
+                  <strong>Transparency Promise:</strong> We publish our exact rating weights and methodology. 
+                  No casino can pay for better ratings – our scores are based purely on player benefit factors.
+                </p>
               </div>
             </div>
-          ))}
-        </div>
-        <div class="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
-          <p class="text-sm text-blue-800">
-            <strong>Transparency Promise:</strong> We publish our exact rating weights and methodology. 
-            No casino can pay for better ratings – our scores are based purely on player benefit factors.
-          </p>
+          </div>
         </div>
       </div>
 
-      <div class="bg-white p-8 rounded-2xl shadow-lg">
-        <h3 class="text-xl font-bold text-gray-900 mb-6">What Makes a Top Casino</h3>
-        <ul class="space-y-3">
-          <li class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-gray-800">Licensed by reputable authorities (MGA, UKGC, etc.)</span>
-          </li>
-          <li class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-gray-800">Fast payouts (24-72 hours typical)</span>
-          </li>
-          <li class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-gray-800">Fair bonus terms with reasonable wagering</span>
-          </li>
-          <li class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-gray-800">High RTP games from trusted providers</span>
-          </li>
-          <li class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-gray-800">24/7 customer support in multiple languages</span>
-          </li>
-          <li class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
-            </svg>
-            <span class="text-gray-800">Positive player feedback and complaint resolution</span>
-          </li>
-        </ul>
+      <!-- What Makes a Top Casino Card -->
+      <div class="bg-gray-800 rounded-3xl shadow-xl p-8 border border-gray-700 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-green-500 to-emerald-500"></div>
+        <div class="pt-4">
+          <h3 class="text-3xl font-bold text-white mb-8">What Makes a Top Casino</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-4 p-3 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border border-green-200">
+              <div class="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <span class="text-gray-200 font-medium">Licensed by reputable authorities (MGA, UKGC, etc.)</span>
+            </li>
+            <li class="flex items-start gap-4 p-3 bg-gradient-to-r from-blue-50 to-sky-50 rounded-xl border border-blue-200">
+              <div class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <span class="text-gray-200 font-medium">Fast payouts (24-72 hours typical)</span>
+            </li>
+            <li class="flex items-start gap-4 p-3 bg-gradient-to-r from-purple-50 to-violet-50 rounded-xl border border-purple-200">
+              <div class="w-8 h-8 bg-purple-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <span class="text-gray-200 font-medium">Fair bonus terms with reasonable wagering</span>
+            </li>
+            <li class="flex items-start gap-4 p-3 bg-gradient-to-r from-orange-50 to-amber-50 rounded-xl border border-orange-200">
+              <div class="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <span class="text-gray-200 font-medium">High RTP games from trusted providers</span>
+            </li>
+            <li class="flex items-start gap-4 p-3 bg-gradient-to-r from-teal-50 to-cyan-50 rounded-xl border border-teal-200">
+              <div class="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <span class="text-gray-200 font-medium">24/7 customer support in multiple languages</span>
+            </li>
+            <li class="flex items-start gap-4 p-3 bg-gradient-to-r from-pink-50 to-rose-50 rounded-xl border border-pink-200">
+              <div class="w-8 h-8 bg-pink-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <span class="text-gray-200 font-medium">Positive player feedback and complaint resolution</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <div class="text-center mt-12">
-      <a href="/guides/how-we-rate" class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+    <div class="text-center mt-16">
+      <a href="/guides/how-we-rate" class="inline-flex items-center gap-3 bg-gradient-to-r from-casino-600 to-casino-700 hover:from-casino-700 hover:to-casino-800 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+        </svg>
         Read Full Methodology
-        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
           <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
         </svg>
       </a>

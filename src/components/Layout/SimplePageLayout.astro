@@ -1,0 +1,94 @@
+---
+import type { NavigationItem, FooterSection as FooterSectionData } from '../../coordinators/NavigationCoordinator';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+import HeaderNavigation from './HeaderNavigation.astro';
+import FooterSection from './FooterSection.astro';
+
+// Import main CSS
+import '../../styles/main.css';
+
+interface Props {
+  title: string;
+  description: string;
+  breadcrumbs?: { label: string; href: string }[];
+}
+
+const { title, description, breadcrumbs } = Astro.props;
+
+// Initialize navigation
+const navigationCoordinator = new NavigationCoordinator();
+const footerSections = navigationCoordinator.generateFooterSections();
+const affiliateDisclosure = "This site contains affiliate links. We may earn a commission if you click through and make a deposit. This doesn't affect our recommendations or reviews.";
+---
+
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    
+    <!-- Navigation port fix for development -->
+    <script is:inline src="/js/navigation-fix.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/images/favicon.svg" />
+    
+    <!-- Additional meta tags for SEO -->
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    
+    <!-- Additional head content -->
+    <slot name="head" />
+  </head>
+  
+  <body class="page-layout-body">
+    <!-- Header Navigation -->
+    <HeaderNavigation />
+    
+    <!-- Breadcrumbs -->
+    {breadcrumbs && breadcrumbs.length > 0 && (
+      <nav class="breadcrumbs-nav">
+        <div class="breadcrumbs-container">
+          <ol class="breadcrumbs-list">
+            <li>
+              <a href="/" class="breadcrumbs-home-link">
+                Home
+              </a>
+            </li>
+            {breadcrumbs.map((crumb, index) => (
+              <li class="flex items-center">
+                <svg class="breadcrumbs-separator" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+                {index === breadcrumbs.length - 1 ? (
+                  <span class="breadcrumbs-active">{crumb.label}</span>
+                ) : (
+                  <a href={crumb.href} class="breadcrumbs-link">
+                    {crumb.label}
+                  </a>
+                )}
+              </li>
+            ))}
+          </ol>
+        </div>
+      </nav>
+    )}
+    
+    <!-- Main Content -->
+    <main class="min-h-screen">
+      <slot />
+    </main>
+    
+    <!-- Footer -->
+    <FooterSection footerSections={footerSections} affiliateDisclosure={affiliateDisclosure} />
+  </body>
+</html>

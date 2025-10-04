@@ -1,0 +1,501 @@
+{
+  "timestamp": "2025-10-02T18:40:35.665Z",
+  "statistics": {
+    "total": 79,
+    "succeeded": 10,
+    "skipped": 36,
+    "failed": 33
+  },
+  "successRate": "23.26%",
+  "results": [
+    {
+      "casino": "SpellWin",
+      "slug": "spellwin",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Winit.Bet",
+      "slug": "winitbet",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "UnlimLuck",
+      "slug": "unlimluck",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Mr Pacho",
+      "slug": "mr-pacho",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Larabet",
+      "slug": "larabet",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Slotlair",
+      "slug": "slotlair",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "SagaSpins",
+      "slug": "sagaspins",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Samba Slots",
+      "slug": "samba",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Willdsino",
+      "slug": "willdsino",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Trino",
+      "slug": "trino",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "SkyHills",
+      "slug": "skyhills",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "WonThere",
+      "slug": "wonthere",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Lucky Hunter",
+      "slug": "hunter",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Rizz Casino",
+      "slug": "rizz",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "N1 Bet Casino",
+      "slug": "n1bet",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Aerobet",
+      "slug": "aerobet",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Kings Chip",
+      "slug": "kings",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "My Empire",
+      "slug": "my-empire",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "RomiBet",
+      "slug": "romibet",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "SpinCastle",
+      "slug": "spincastle",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Roman Casino",
+      "slug": "roman",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "WinRolla",
+      "slug": "winrolla",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "RollXO",
+      "slug": "rollxo",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Jackpot Raider",
+      "slug": "jackpot-raider",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Lucki Casino",
+      "slug": "lucki",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Malina Casino",
+      "slug": "malina",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "WildRobin Casino",
+      "slug": "wildrobin",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Jet4Bet",
+      "slug": "jet4bet",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Vipzino",
+      "slug": "vipzino",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Rolling Slots",
+      "slug": "rolling",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "SpinMama",
+      "slug": "spinmama",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Wild Robin",
+      "slug": "wildrobin-2",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "SpellWin UK",
+      "slug": "spellwin-2",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "The Red",
+      "slug": "red",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "London Casino",
+      "slug": "london",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Vegas Nova",
+      "slug": "vegas",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Winshark",
+      "slug": "winshark",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Tiki Casino",
+      "slug": "tiki",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "InstaSpin",
+      "slug": "instaspin",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "LyraBet",
+      "slug": "lyrabet",
+      "status": "success",
+      "logoUrl": "https://www.lyrabet.gr/images/logo.svg",
+      "fileSize": 1765
+    },
+    {
+      "casino": "Pistolo Casino",
+      "slug": "pistolo",
+      "status": "success",
+      "logoUrl": "https://pistolocasino.com/wp-content/uploads/sites/52/2025/03/Pistolo-Casino-Main-Logo.svg",
+      "fileSize": 13010
+    },
+    {
+      "casino": "SpinGranny",
+      "slug": "spingranny",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Treasure Spins",
+      "slug": "treasure",
+      "status": "success",
+      "logoUrl": "https://www.treasurespins.com/static/logo-CCrUGZkN.svg",
+      "fileSize": 11664
+    },
+    {
+      "casino": "SpinLander",
+      "slug": "spinlander",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Joker Ace's",
+      "slug": "joker",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Need For Spin",
+      "slug": "needforspin",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Orionsbet",
+      "slug": "orionsbet",
+      "status": "success",
+      "logoUrl": "https://orionsbet.co.uk/wp-content/uploads/2025/08/orionsbet-light-logo.webp",
+      "fileSize": 3262
+    },
+    {
+      "casino": "Ivybet.io",
+      "slug": "ivybetio",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Ritzo Casino",
+      "slug": "ritzo",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "SpinGranny",
+      "slug": "spingranny-2",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Posido",
+      "slug": "posido",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Lucky Wand",
+      "slug": "wand",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "SpinGranny Czech",
+      "slug": "spingranny-3",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "VinciSpin",
+      "slug": "vincispin",
+      "status": "success",
+      "logoUrl": "https://cdn.vincistatic.com/images/file/uploads/258168549164468837.svg",
+      "fileSize": 9693
+    },
+    {
+      "casino": "Klikki Casino",
+      "slug": "klikki",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Slotit",
+      "slug": "slotit",
+      "status": "success",
+      "logoUrl": "https://www.slotit.de/bilder/bernd-hendl/instagram-logo-invers.svg",
+      "fileSize": 2054
+    },
+    {
+      "casino": "LyraBet Belgium",
+      "slug": "lyrabet-2",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Robocat",
+      "slug": "robocat",
+      "status": "success",
+      "logoUrl": "https://www.robocat.de/images/logo.gif",
+      "fileSize": 5999
+    },
+    {
+      "casino": "Spins Deluxe",
+      "slug": "spins",
+      "status": "success",
+      "logoUrl": "https://www.spinsdeluxe.com/images/spinsdeluxe//logo.png",
+      "fileSize": 98544
+    },
+    {
+      "casino": "Instant Casino",
+      "slug": "instant",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Golden Panda",
+      "slug": "panda",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Magius Casino",
+      "slug": "magius",
+      "status": "success",
+      "logoUrl": "https://www.magiuscasino.com/images/logo.png",
+      "fileSize": 11585
+    },
+    {
+      "casino": "RomiBet France",
+      "slug": "romibet-2",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Ultimluck Casino",
+      "slug": "ultimluck",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Slots Islands",
+      "slug": "slots",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Rich Royal",
+      "slug": "royal",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Royal Game",
+      "slug": "royal-2",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Lucky Gem",
+      "slug": "gem",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Pirate Spins",
+      "slug": "pirate",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Need For Spin",
+      "slug": "needforspin-2",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Wild Tokyo",
+      "slug": "wild-tokyo",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "36 Hight",
+      "slug": "hight",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Hello Fortune",
+      "slug": "fortune",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Need For Spin",
+      "slug": "needforspin-3",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "Moana Casino",
+      "slug": "moana",
+      "status": "success",
+      "logoUrl": "https://moana-casino.com/wp-content/uploads/sites/63/2025/03/Moana-Casino-Logo.svg",
+      "fileSize": 26682
+    },
+    {
+      "casino": "ProntoBet",
+      "slug": "prontobet",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "11Croc",
+      "slug": "11croc",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "11Croc Germany",
+      "slug": "11croc-2",
+      "status": "failed",
+      "error": "No search results found"
+    },
+    {
+      "casino": "AllSpins",
+      "slug": "allspins",
+      "status": "skipped",
+      "reason": "Already exists"
+    }
+  ],
+  "playwrightRetry": {
+    "attempted": 33,
+    "succeeded": 0,
+    "failed": 33
+  }
+}

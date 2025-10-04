@@ -1,0 +1,171 @@
+---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { EnhancedCasinoCard } from '../../components/Casino/EnhancedCasinoCard';
+import type { CasinoCardData } from '../../components/Casino/EnhancedCasinoCard';
+import { getBrandLogo } from '../../lib/getBrandLogo';
+
+// Data imports - STRICT SCHEMA COMPLIANCE
+import casinos from '../../../data/casinos.json';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+
+// Service initialization with validation
+const navigationCoordinator = new NavigationCoordinator();
+
+// VALIDATED DATA ACCESS - Use actual schema structure - SHOW ALL CASINOS
+const filteredCasinos = casinos
+  .filter(casino => casino.bonuses?.welcome?.headline) // CORRECT: bonuses.welcome, NOT welcomeBonus
+  .sort((a, b) => {
+    const aRating = a.ratings?.reputation || 0; // CORRECT: ratings.reputation
+    const bRating = b.ratings?.reputation || 0;
+    return bRating - aRating;
+  });
+
+// Map casino data to enhanced component format - SAME AS TOPTHREE
+const mapCasinoToCardData = (casino: any, rank: number): CasinoCardData => {
+  return {
+    id: casino.slug || `casino-${rank}`,
+    name: casino.brand || "Casino",
+    logo: getBrandLogo(casino.url, casino.slug),
+    slug: casino.slug || `casino-${rank}`,
+    rating: {
+      overall: Number((casino.overallRating || 9.0).toFixed(1)),
+      trust: casino.ratings?.reputation || 9,
+      bonuses: casino.ratings?.bonusValue || 9,
+      games: casino.ratings?.games || 9,
+      support: casino.ratings?.support || 9,
+      payout: casino.ratings?.payout || 9
+    },
+    bonuses: {
+      welcome: {
+        amount: casino.bonuses?.welcome?.headline || "€500 Welcome Bonus",
+        type: 'match' as const,
+        wagering: parseInt((casino.bonuses?.welcome?.wagering || '35x').replace('x', '')) || 35
+      }
+    },
+    features: Array.isArray(casino.topTags) ? casino.topTags.map((tag: string) => ({ icon: '⭐', label: tag })) : [
+      { icon: '🎰', label: 'Licensed' },
+      { icon: '🔒', label: 'Secure' },
+      { icon: '💰', label: 'Fast Payouts' }
+    ],
+    payoutSpeed: {
+      min: '1h',
+      max: '24h',
+      category: 'fast' as const
+    },
+    licenses: [
+      {
+        name: casino.license || "Malta Gaming Authority",
+        country: 'Malta',
+        logo: '/images/license-malta.png'
+      }
+    ],
+    established: parseInt(casino.established) || 2020,
+    gameCount: casino.gameCount || 1000,
+    minDeposit: casino.minDeposit || '€10',
+    currencies: casino.currencies || ['EUR', 'USD'],
+    languages: casino.languages || ['English']
+  };
+};
+
+// Page metadata - SEO optimized
+const title = 'Casino Reviews 2025 | Expert Analysis & Player Ratings';
+const description = 'Read comprehensive casino reviews with expert analysis, player ratings, and multi-agent validation. Make informed decisions with our detailed casino evaluations.';
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/reviews');
+
+// VALIDATED BONUS CATEGORIES - Using casino theme colors
+const bonusCategories = [
+  {
+    type: 'welcome',
+    title: 'Welcome Bonuses',
+    description: 'Match your first deposit with bonus funds',
+    icon: '🎁',
+    count: filteredCasinos.filter(c => c.bonuses?.welcome?.headline).length
+  },
+  {
+    type: 'free-spins',
+    title: 'Free Spins',
+    description: 'Free spins on popular slot machines',
+    icon: '🎰',
+    count: filteredCasinos.filter(c => c.bonuses?.welcome?.headline?.includes('FS')).length
+  }
+];
+---
+
+<SimplePageLayout 
+  title={title}
+  description={description}
+  breadcrumbs={breadcrumbs}
+>
+  <main class="min-h-screen bg-gradient-to-br from-cream-50 to-casino-50">
+    <!-- CASINO THEME HERO SECTION -->
+    <section class="bg-gradient-to-r from-casino-600 via-casino-700 to-casino-800 text-white">
+      <div class="container mx-auto px-6 py-16">
+        <div class="max-w-4xl mx-auto text-center">
+          <h1 class="text-5xl font-bold mb-6">
+            ⭐ Ultimate Casino Reviews Hub
+          </h1>
+          <p class="text-xl text-cream-100 mb-8 leading-relaxed">
+            Expert validated reviews with comprehensive analysis and professional insights for informed decision-making.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BONUS CATEGORIES - CASINO THEME -->
+    <section class="container mx-auto px-6 py-12">
+      <h2 class="text-3xl font-bold text-center text-casino-900 mb-12">Review Categories</h2>
+      
+      <div class="grid md:grid-cols-2 gap-8 mb-16">
+        {bonusCategories.map((category) => (
+          <div class="bg-white rounded-2xl shadow-xl p-8 text-center hover:shadow-2xl transition-all duration-300 border-2 border-casino-200 hover:border-casino-400">
+            <div class="text-6xl mb-4">{category.icon}</div>
+            <h3 class="text-xl font-bold mb-3 text-casino-900">{category.title}</h3>
+            <p class="text-casino-700 mb-4">{category.description}</p>
+            <div class="bg-gradient-to-r from-gold-400 to-gold-500 text-casino-900 px-4 py-2 rounded-full inline-block font-bold">
+              {category.count} Available
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- CASINO GRID - PROPER ENHANCED CASINO CARDS -->
+    <section class="container mx-auto px-6 pb-16">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold mb-4 text-casino-900">All Casino Reviews ({filteredCasinos.length})</h2>
+        <p class="text-casino-700 text-lg">Expert validated comprehensive reviews with detailed analysis of all {filteredCasinos.length} casinos</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+        {filteredCasinos.map((casino, index) => (
+          <div class="casino-card transform hover:-translate-y-2 transition-all duration-300">
+            <EnhancedCasinoCard 
+              client:load
+              casino={mapCasinoToCardData(casino, index + 1)}
+              rank={index + 1}
+              variant="featured"
+            />
+          </div>
+        ))}
+      </div>
+    </section>
+  </main>
+</SimplePageLayout>
+
+<!-- TAILWIND V3 ANIMATIONS -->
+<style>
+  .casino-card {
+    animation: fadeInUp 0.6s ease-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>

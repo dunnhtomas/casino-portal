@@ -6,6 +6,9 @@ import HeadMeta from './HeadMeta.astro';
 import HeaderNavigation from './HeaderNavigation.astro';
 import FooterSection from './FooterSection.astro';
 
+// Import main CSS
+import '../../styles/main.css';
+
 interface Props {
   seoMetadata: SEOMetadata;
   schemaMarkup: {
@@ -30,10 +33,13 @@ const { seoMetadata, schemaMarkup, navigation, affiliateDisclosure } = Astro.pro
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
+    <!-- Navigation port fix for development -->
+    <script is:inline src="/js/navigation-fix.js"></script>
+    
     <HeadMeta seoMetadata={seoMetadata} schemaMarkup={schemaMarkup} />
   </head>
   
-  <body class="bg-white text-gray-900 overflow-x-hidden min-h-screen">
+  <body class="page-layout-body">
     <HeaderNavigation navigationItems={navigation.main} />
     
     <main class="min-h-screen">
@@ -41,5 +47,8 @@ const { seoMetadata, schemaMarkup, navigation, affiliateDisclosure } = Astro.pro
     </main>
     
     <FooterSection footerSections={navigation.footer} affiliateDisclosure={affiliateDisclosure} />
+    
+    <!-- Accessibility and Interactive Enhancements -->
+    <script src="/js/accessibility.js" is:inline></script>
   </body>
 </html>

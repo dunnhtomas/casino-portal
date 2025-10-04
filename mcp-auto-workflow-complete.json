@@ -1,0 +1,1685 @@
+[
+  {
+    "casino": "UnlimLuck",
+    "slug": "unlimluck",
+    "step": 1,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"UnlimLuck\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=UnlimLuck%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as unlimluck.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "unlimluck.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "WonThere",
+    "slug": "wonthere",
+    "step": 2,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"WonThere\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=WonThere%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as wonthere.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "wonthere.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Rizz Casino",
+    "slug": "rizz",
+    "step": 3,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Rizz Casino\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Rizz%20Casino%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as rizz.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "rizz.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "N1 Bet Casino",
+    "slug": "n1bet",
+    "step": 4,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"N1 Bet Casino\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=N1%20Bet%20Casino%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as n1bet.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "n1bet.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "RomiBet",
+    "slug": "romibet",
+    "step": 5,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"RomiBet\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=RomiBet%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as romibet.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "romibet.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "The Red",
+    "slug": "red",
+    "step": 6,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"The Red\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=The%20Red%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as red.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "red.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Tiki Casino",
+    "slug": "tiki",
+    "step": 7,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Tiki Casino\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Tiki%20Casino%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as tiki.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "tiki.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "SpinLander",
+    "slug": "spinlander",
+    "step": 8,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"SpinLander\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=SpinLander%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as spinlander.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "spinlander.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Joker Ace's",
+    "slug": "joker",
+    "step": 9,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Joker Ace's\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Joker%20Ace's%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as joker.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "joker.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Need For Spin",
+    "slug": "needforspin",
+    "step": 10,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Need For Spin\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Need%20For%20Spin%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as needforspin.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "needforspin.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Ritzo Casino",
+    "slug": "ritzo",
+    "step": 11,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Ritzo Casino\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Ritzo%20Casino%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as ritzo.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "ritzo.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "SpinGranny",
+    "slug": "spingranny-2",
+    "step": 12,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"SpinGranny\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=SpinGranny%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as spingranny-2.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "spingranny-2.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Lucky Wand",
+    "slug": "wand",
+    "step": 13,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Lucky Wand\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Lucky%20Wand%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as wand.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "wand.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "SpinGranny Czech",
+    "slug": "spingranny-3",
+    "step": 14,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"SpinGranny Czech\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=SpinGranny%20Czech%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as spingranny-3.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "spingranny-3.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Klikki Casino",
+    "slug": "klikki",
+    "step": 15,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Klikki Casino\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Klikki%20Casino%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as klikki.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "klikki.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "LyraBet Belgium",
+    "slug": "lyrabet-2",
+    "step": 16,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"LyraBet Belgium\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=LyraBet%20Belgium%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as lyrabet-2.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "lyrabet-2.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Instant Casino",
+    "slug": "instant",
+    "step": 17,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Instant Casino\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Instant%20Casino%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as instant.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "instant.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Golden Panda",
+    "slug": "panda",
+    "step": 18,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Golden Panda\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Golden%20Panda%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as panda.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "panda.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "RomiBet France",
+    "slug": "romibet-2",
+    "step": 19,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"RomiBet France\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=RomiBet%20France%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as romibet-2.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "romibet-2.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Ultimluck Casino",
+    "slug": "ultimluck",
+    "step": 20,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Ultimluck Casino\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Ultimluck%20Casino%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as ultimluck.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "ultimluck.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Slots Islands",
+    "slug": "slots",
+    "step": 21,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Slots Islands\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Slots%20Islands%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as slots.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "slots.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Rich Royal",
+    "slug": "royal",
+    "step": 22,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Rich Royal\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Rich%20Royal%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as royal.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "royal.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Royal Game",
+    "slug": "royal-2",
+    "step": 23,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Royal Game\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Royal%20Game%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as royal-2.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "royal-2.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Lucky Gem",
+    "slug": "gem",
+    "step": 24,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Lucky Gem\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Lucky%20Gem%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as gem.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "gem.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Pirate Spins",
+    "slug": "pirate",
+    "step": 25,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Pirate Spins\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Pirate%20Spins%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as pirate.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "pirate.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Need For Spin",
+    "slug": "needforspin-2",
+    "step": 26,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Need For Spin\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Need%20For%20Spin%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as needforspin-2.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "needforspin-2.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Wild Tokyo",
+    "slug": "wild-tokyo",
+    "step": 27,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Wild Tokyo\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Wild%20Tokyo%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as wild-tokyo.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "wild-tokyo.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "36 Hight",
+    "slug": "hight",
+    "step": 28,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"36 Hight\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=36%20Hight%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as hight.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "hight.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Hello Fortune",
+    "slug": "fortune",
+    "step": 29,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Hello Fortune\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Hello%20Fortune%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as fortune.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "fortune.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "Need For Spin",
+    "slug": "needforspin-3",
+    "step": 30,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"Need For Spin\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=Need%20For%20Spin%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as needforspin-3.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "needforspin-3.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "ProntoBet",
+    "slug": "prontobet",
+    "step": 31,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"ProntoBet\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=ProntoBet%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as prontobet.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "prontobet.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "11Croc",
+    "slug": "11croc",
+    "step": 32,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"11Croc\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=11Croc%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as 11croc.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "11croc.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  },
+  {
+    "casino": "11Croc Germany",
+    "slug": "11croc-2",
+    "step": 33,
+    "total": 33,
+    "commands": [
+      {
+        "step": 1,
+        "description": "Search DuckDuckGo for \"11Croc Germany\"",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "https://duckduckgo.com/?q=11Croc%20Germany%20online%20casino",
+        "action": "Navigate to search page and extract first result URL"
+      },
+      {
+        "step": 2,
+        "description": "Extract first organic result URL",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const results = document.querySelectorAll('article[data-testid=\"result\"] a[data-testid=\"result-title-a\"]');\n        if (results.length > 0) {\n          return { found: true, url: results[0].href, title: results[0].textContent };\n        }\n        return { found: false };\n      })()",
+        "action": "Parse page to find casino website URL"
+      },
+      {
+        "step": 3,
+        "description": "Navigate to real casino website",
+        "tool": "mcp_playwright_browser_navigate",
+        "url": "[EXTRACTED_URL_FROM_STEP_2]",
+        "action": "Load casino homepage"
+      },
+      {
+        "step": 4,
+        "description": "Extract logo URL from DOM",
+        "tool": "mcp_playwright_browser_evaluate",
+        "function": "(() => {\n        const selectors = [\n          'banner a[href=\"/\"] img',\n          'banner img',\n          'header a[href=\"/\"] img',\n          'header img[alt*=\"logo\" i]',\n          'img[class*=\"logo\" i]',\n          'a[class*=\"logo\" i] img',\n          'header img:first-of-type',\n          '.header img',\n          '.logo img',\n          'nav img:first-of-type'\n        ];\n        \n        for (const selector of selectors) {\n          const logo = document.querySelector(selector);\n          if (logo && logo.src && !logo.src.includes('data:image')) {\n            return {\n              found: true,\n              src: logo.src,\n              currentSrc: logo.currentSrc,\n              alt: logo.alt,\n              width: logo.width,\n              height: logo.height,\n              selector: selector\n            };\n          }\n        }\n        return { found: false };\n      })()",
+        "action": "Find logo image element"
+      },
+      {
+        "step": 5,
+        "description": "Download logo as 11croc-2.png",
+        "tool": "mcp_image-downloa_download_image",
+        "params": {
+          "url": "[EXTRACTED_LOGO_URL_FROM_STEP_4]",
+          "filename": "11croc-2.png",
+          "savePath": "C:\\Users\\tamir\\Downloads\\cc23\\public\\images\\casinos",
+          "format": "png",
+          "maxWidth": 400,
+          "maxHeight": 200,
+          "compress": true
+        },
+        "action": "Download and convert logo to PNG"
+      }
+    ]
+  }
+]

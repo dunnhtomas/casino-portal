@@ -1,0 +1,42 @@
+---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+
+const navigationCoordinator = new NavigationCoordinator();
+
+const pageTitle = "Casino Guide - Complete Canadian Casino Guide 2025";
+const pageDescription = "Complete guide to online casino gaming in Canada. Tips, strategies, and essential information.";
+const canonicalUrl = "https://bestcasinoportal.com/guide";
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/guide');
+---
+
+<SimplePageLayout 
+  title={pageTitle}
+  description={pageDescription}
+  breadcrumbs={breadcrumbs}
+>
+  <main>
+    <section class="hero py-16 bg-gradient-to-r from-indigo-600 to-blue-600 text-white">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-center">{pageTitle}</h1>
+        <p class="text-xl text-center max-w-3xl mx-auto">{pageDescription}</p>
+      </div>
+    </section>
+    
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Casino Guides</h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Complete Guide</h3>
+              <p class="text-gray-600 mb-4">Everything you need to know</p>
+              <a href="/guide/online-casino-guide" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 w-full inline-block text-center">
+                View Complete Guide
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</SimplePageLayout>

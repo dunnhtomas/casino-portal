@@ -1,0 +1,634 @@
+[
+  {
+    "slug": "spellwin",
+    "brand": "SpellWin",
+    "domain": "spellwin.com",
+    "clearbitUrl": "https://logo.clearbit.com/spellwin.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=spellwin.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/spellwin.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "winitbet",
+    "brand": "Winit.Bet",
+    "domain": "winit.bet",
+    "clearbitUrl": "https://logo.clearbit.com/winit.bet",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=winit.bet&sz=256",
+    "logoDevUrl": "https://img.logo.dev/winit.bet?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "unlimluck",
+    "brand": "UnlimLuck",
+    "domain": "unlimluck.com",
+    "clearbitUrl": "https://logo.clearbit.com/unlimluck.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=unlimluck.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/unlimluck.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "mr-pacho",
+    "brand": "Mr Pacho",
+    "domain": "mrpacho.com",
+    "clearbitUrl": "https://logo.clearbit.com/mrpacho.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=mrpacho.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/mrpacho.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "larabet",
+    "brand": "Larabet",
+    "domain": "larabet.com",
+    "clearbitUrl": "https://logo.clearbit.com/larabet.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=larabet.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/larabet.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "slotlair",
+    "brand": "Slotlair",
+    "domain": "slotlair.co.uk",
+    "clearbitUrl": "https://logo.clearbit.com/slotlair.co.uk",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=slotlair.co.uk&sz=256",
+    "logoDevUrl": "https://img.logo.dev/slotlair.co.uk?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "sagaspins",
+    "brand": "SagaSpins",
+    "domain": "sagaspins.com",
+    "clearbitUrl": "https://logo.clearbit.com/sagaspins.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=sagaspins.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/sagaspins.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "samba",
+    "brand": "Samba Slots",
+    "domain": "sambaslots.com",
+    "clearbitUrl": "https://logo.clearbit.com/sambaslots.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=sambaslots.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/sambaslots.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "willdsino",
+    "brand": "Willdsino",
+    "domain": "willdsino.com",
+    "clearbitUrl": "https://logo.clearbit.com/willdsino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=willdsino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/willdsino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "trino",
+    "brand": "Trino",
+    "domain": "trinocasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/trinocasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=trinocasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/trinocasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "skyhills",
+    "brand": "SkyHills",
+    "domain": "skyhills.com",
+    "clearbitUrl": "https://logo.clearbit.com/skyhills.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=skyhills.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/skyhills.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "wonthere",
+    "brand": "WonThere",
+    "domain": "wonthere.co.uk",
+    "clearbitUrl": "https://logo.clearbit.com/wonthere.co.uk",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=wonthere.co.uk&sz=256",
+    "logoDevUrl": "https://img.logo.dev/wonthere.co.uk?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "hunter",
+    "brand": "Lucky Hunter",
+    "domain": "luckyhunter.io",
+    "clearbitUrl": "https://logo.clearbit.com/luckyhunter.io",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=luckyhunter.io&sz=256",
+    "logoDevUrl": "https://img.logo.dev/luckyhunter.io?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "rizz",
+    "brand": "Rizz Casino",
+    "domain": "rizzcasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/rizzcasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=rizzcasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/rizzcasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "n1bet",
+    "brand": "N1 Bet Casino",
+    "domain": "n1bet.com",
+    "clearbitUrl": "https://logo.clearbit.com/n1bet.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=n1bet.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/n1bet.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "aerobet",
+    "brand": "Aerobet",
+    "domain": "aerobet.com",
+    "clearbitUrl": "https://logo.clearbit.com/aerobet.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=aerobet.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/aerobet.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "kings",
+    "brand": "Kings Chip",
+    "domain": "kingschip.com",
+    "clearbitUrl": "https://logo.clearbit.com/kingschip.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=kingschip.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/kingschip.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "my-empire",
+    "brand": "My Empire",
+    "domain": "myempire.com",
+    "clearbitUrl": "https://logo.clearbit.com/myempire.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=myempire.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/myempire.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "romibet",
+    "brand": "RomiBet",
+    "domain": "romibet.es",
+    "clearbitUrl": "https://logo.clearbit.com/romibet.es",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=romibet.es&sz=256",
+    "logoDevUrl": "https://img.logo.dev/romibet.es?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "spincastle",
+    "brand": "SpinCastle",
+    "domain": "spincastle.com",
+    "clearbitUrl": "https://logo.clearbit.com/spincastle.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=spincastle.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/spincastle.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "roman",
+    "brand": "Roman Casino",
+    "domain": "romancasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/romancasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=romancasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/romancasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "winrolla",
+    "brand": "WinRolla",
+    "domain": "winrolla.com",
+    "clearbitUrl": "https://logo.clearbit.com/winrolla.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=winrolla.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/winrolla.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "rollxo",
+    "brand": "RollXO",
+    "domain": "rollxo.com",
+    "clearbitUrl": "https://logo.clearbit.com/rollxo.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=rollxo.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/rollxo.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "jackpot-raider",
+    "brand": "Jackpot Raider",
+    "domain": "jackpotraider.com",
+    "clearbitUrl": "https://logo.clearbit.com/jackpotraider.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=jackpotraider.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/jackpotraider.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "lucki",
+    "brand": "Lucki Casino",
+    "domain": "lucki.com",
+    "clearbitUrl": "https://logo.clearbit.com/lucki.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=lucki.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/lucki.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "malina",
+    "brand": "Malina Casino",
+    "domain": "malinacasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/malinacasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=malinacasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/malinacasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "wildrobin",
+    "brand": "WildRobin Casino",
+    "domain": "wildrobincasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/wildrobincasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=wildrobincasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/wildrobincasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "jet4bet",
+    "brand": "Jet4Bet",
+    "domain": "jet4bet.co.uk",
+    "clearbitUrl": "https://logo.clearbit.com/jet4bet.co.uk",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=jet4bet.co.uk&sz=256",
+    "logoDevUrl": "https://img.logo.dev/jet4bet.co.uk?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "vipzino",
+    "brand": "Vipzino",
+    "domain": "vipzino.com",
+    "clearbitUrl": "https://logo.clearbit.com/vipzino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=vipzino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/vipzino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "rolling",
+    "brand": "Rolling Slots",
+    "domain": "rollingslots.com",
+    "clearbitUrl": "https://logo.clearbit.com/rollingslots.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=rollingslots.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/rollingslots.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "spinmama",
+    "brand": "SpinMama",
+    "domain": "spinmama.com",
+    "clearbitUrl": "https://logo.clearbit.com/spinmama.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=spinmama.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/spinmama.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "wildrobin-2",
+    "brand": "Wild Robin",
+    "domain": "wildrobin.com",
+    "clearbitUrl": "https://logo.clearbit.com/wildrobin.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=wildrobin.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/wildrobin.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "spellwin-2",
+    "brand": "SpellWin UK",
+    "domain": "spellwin.com",
+    "clearbitUrl": "https://logo.clearbit.com/spellwin.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=spellwin.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/spellwin.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "red",
+    "brand": "The Red",
+    "domain": "theredcasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/theredcasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=theredcasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/theredcasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "london",
+    "brand": "London Casino",
+    "domain": "londoncasino.co.uk",
+    "clearbitUrl": "https://logo.clearbit.com/londoncasino.co.uk",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=londoncasino.co.uk&sz=256",
+    "logoDevUrl": "https://img.logo.dev/londoncasino.co.uk?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "vegas",
+    "brand": "Vegas Nova",
+    "domain": "vegasnova.com",
+    "clearbitUrl": "https://logo.clearbit.com/vegasnova.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=vegasnova.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/vegasnova.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "winshark",
+    "brand": "Winshark",
+    "domain": "winshark.com",
+    "clearbitUrl": "https://logo.clearbit.com/winshark.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=winshark.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/winshark.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "tiki",
+    "brand": "Tiki Casino",
+    "domain": "tikicasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/tikicasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=tikicasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/tikicasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "instaspin",
+    "brand": "InstaSpin",
+    "domain": "instaspin.com",
+    "clearbitUrl": "https://logo.clearbit.com/instaspin.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=instaspin.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/instaspin.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "lyrabet",
+    "brand": "LyraBet",
+    "domain": "lyrabet.gr",
+    "clearbitUrl": "https://logo.clearbit.com/lyrabet.gr",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=lyrabet.gr&sz=256",
+    "logoDevUrl": "https://img.logo.dev/lyrabet.gr?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "pistolo",
+    "brand": "Pistolo Casino",
+    "domain": "pistolocasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/pistolocasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=pistolocasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/pistolocasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "spingranny",
+    "brand": "SpinGranny",
+    "domain": "spingranny.at",
+    "clearbitUrl": "https://logo.clearbit.com/spingranny.at",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=spingranny.at&sz=256",
+    "logoDevUrl": "https://img.logo.dev/spingranny.at?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "treasure",
+    "brand": "Treasure Spins",
+    "domain": "treasurespins.com",
+    "clearbitUrl": "https://logo.clearbit.com/treasurespins.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=treasurespins.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/treasurespins.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "spinlander",
+    "brand": "SpinLander",
+    "domain": "spinlander.co.uk",
+    "clearbitUrl": "https://logo.clearbit.com/spinlander.co.uk",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=spinlander.co.uk&sz=256",
+    "logoDevUrl": "https://img.logo.dev/spinlander.co.uk?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "joker",
+    "brand": "Joker Ace's",
+    "domain": "jokeraces.com",
+    "clearbitUrl": "https://logo.clearbit.com/jokeraces.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=jokeraces.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/jokeraces.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "needforspin",
+    "brand": "Need For Spin",
+    "domain": "se.needforspeedcasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/se.needforspeedcasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=se.needforspeedcasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/se.needforspeedcasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "orionsbet",
+    "brand": "Orionsbet",
+    "domain": "orionsbet.co.uk",
+    "clearbitUrl": "https://logo.clearbit.com/orionsbet.co.uk",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=orionsbet.co.uk&sz=256",
+    "logoDevUrl": "https://img.logo.dev/orionsbet.co.uk?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "ivybetio",
+    "brand": "Ivybet.io",
+    "domain": "ivybet.io",
+    "clearbitUrl": "https://logo.clearbit.com/ivybet.io",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=ivybet.io&sz=256",
+    "logoDevUrl": "https://img.logo.dev/ivybet.io?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "ritzo",
+    "brand": "Ritzo Casino",
+    "domain": "ritzocasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/ritzocasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=ritzocasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/ritzocasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "spingranny-2",
+    "brand": "SpinGranny",
+    "domain": "spingranny.com",
+    "clearbitUrl": "https://logo.clearbit.com/spingranny.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=spingranny.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/spingranny.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "posido",
+    "brand": "Posido",
+    "domain": "posido.com",
+    "clearbitUrl": "https://logo.clearbit.com/posido.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=posido.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/posido.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "wand",
+    "brand": "Lucky Wand",
+    "domain": "luckywandcasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/luckywandcasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=luckywandcasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/luckywandcasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "spingranny-3",
+    "brand": "SpinGranny Czech",
+    "domain": "spingranny.cz",
+    "clearbitUrl": "https://logo.clearbit.com/spingranny.cz",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=spingranny.cz&sz=256",
+    "logoDevUrl": "https://img.logo.dev/spingranny.cz?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "vincispin",
+    "brand": "VinciSpin",
+    "domain": "vincispin.com",
+    "clearbitUrl": "https://logo.clearbit.com/vincispin.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=vincispin.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/vincispin.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "klikki",
+    "brand": "Klikki Casino",
+    "domain": "klikkicasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/klikkicasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=klikkicasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/klikkicasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "slotit",
+    "brand": "Slotit",
+    "domain": "slotit.de",
+    "clearbitUrl": "https://logo.clearbit.com/slotit.de",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=slotit.de&sz=256",
+    "logoDevUrl": "https://img.logo.dev/slotit.de?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "lyrabet-2",
+    "brand": "LyraBet Belgium",
+    "domain": "lyrabet.be",
+    "clearbitUrl": "https://logo.clearbit.com/lyrabet.be",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=lyrabet.be&sz=256",
+    "logoDevUrl": "https://img.logo.dev/lyrabet.be?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "robocat",
+    "brand": "Robocat",
+    "domain": "robocat.de",
+    "clearbitUrl": "https://logo.clearbit.com/robocat.de",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=robocat.de&sz=256",
+    "logoDevUrl": "https://img.logo.dev/robocat.de?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "spins",
+    "brand": "Spins Deluxe",
+    "domain": "spinsdeluxe.com",
+    "clearbitUrl": "https://logo.clearbit.com/spinsdeluxe.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=spinsdeluxe.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/spinsdeluxe.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "instant",
+    "brand": "Instant Casino",
+    "domain": "instantcasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/instantcasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=instantcasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/instantcasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "panda",
+    "brand": "Golden Panda",
+    "domain": "goldenpanda.com",
+    "clearbitUrl": "https://logo.clearbit.com/goldenpanda.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=goldenpanda.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/goldenpanda.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "magius",
+    "brand": "Magius Casino",
+    "domain": "magiuscasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/magiuscasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=magiuscasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/magiuscasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "romibet-2",
+    "brand": "RomiBet France",
+    "domain": "romibet.fr",
+    "clearbitUrl": "https://logo.clearbit.com/romibet.fr",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=romibet.fr&sz=256",
+    "logoDevUrl": "https://img.logo.dev/romibet.fr?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "ultimluck",
+    "brand": "Ultimluck Casino",
+    "domain": "ultimluck.com",
+    "clearbitUrl": "https://logo.clearbit.com/ultimluck.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=ultimluck.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/ultimluck.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "slots",
+    "brand": "Slots Islands",
+    "domain": "slotsislands.com",
+    "clearbitUrl": "https://logo.clearbit.com/slotsislands.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=slotsislands.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/slotsislands.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "royal",
+    "brand": "Rich Royal",
+    "domain": "richroyal.com",
+    "clearbitUrl": "https://logo.clearbit.com/richroyal.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=richroyal.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/richroyal.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "royal-2",
+    "brand": "Royal Game",
+    "domain": "royalgames.com",
+    "clearbitUrl": "https://logo.clearbit.com/royalgames.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=royalgames.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/royalgames.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "gem",
+    "brand": "Lucky Gem",
+    "domain": "luckygemcasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/luckygemcasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=luckygemcasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/luckygemcasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "pirate",
+    "brand": "Pirate Spins",
+    "domain": "piratespins.com",
+    "clearbitUrl": "https://logo.clearbit.com/piratespins.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=piratespins.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/piratespins.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "needforspin-2",
+    "brand": "Need For Spin",
+    "domain": "es.needforspeedcasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/es.needforspeedcasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=es.needforspeedcasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/es.needforspeedcasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "wild-tokyo",
+    "brand": "Wild Tokyo",
+    "domain": "wildtokyo.com",
+    "clearbitUrl": "https://logo.clearbit.com/wildtokyo.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=wildtokyo.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/wildtokyo.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "hight",
+    "brand": "36 Hight",
+    "domain": "36hight.com",
+    "clearbitUrl": "https://logo.clearbit.com/36hight.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=36hight.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/36hight.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "fortune",
+    "brand": "Hello Fortune",
+    "domain": "hellofortune.com",
+    "clearbitUrl": "https://logo.clearbit.com/hellofortune.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=hellofortune.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/hellofortune.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "needforspin-3",
+    "brand": "Need For Spin",
+    "domain": "fi.needforspeedcasino.com",
+    "clearbitUrl": "https://logo.clearbit.com/fi.needforspeedcasino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=fi.needforspeedcasino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/fi.needforspeedcasino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "moana",
+    "brand": "Moana Casino",
+    "domain": "moana-casino.com",
+    "clearbitUrl": "https://logo.clearbit.com/moana-casino.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=moana-casino.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/moana-casino.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "prontobet",
+    "brand": "ProntoBet",
+    "domain": "prontobet.com.au",
+    "clearbitUrl": "https://logo.clearbit.com/prontobet.com.au",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=prontobet.com.au&sz=256",
+    "logoDevUrl": "https://img.logo.dev/prontobet.com.au?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "11croc",
+    "brand": "11Croc",
+    "domain": "11croc.com",
+    "clearbitUrl": "https://logo.clearbit.com/11croc.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=11croc.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/11croc.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "11croc-2",
+    "brand": "11Croc Germany",
+    "domain": "11croc.com",
+    "clearbitUrl": "https://logo.clearbit.com/11croc.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=11croc.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/11croc.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  },
+  {
+    "slug": "allspins",
+    "brand": "AllSpins",
+    "domain": "allspins.com",
+    "clearbitUrl": "https://logo.clearbit.com/allspins.com",
+    "faviconUrl": "https://www.google.com/s2/favicons?domain=allspins.com&sz=256",
+    "logoDevUrl": "https://img.logo.dev/allspins.com?token=pk_X-HuHJfzQZ2dB6pN-qNMdQ&size=400"
+  }
+]

@@ -1,0 +1,139 @@
+---
+/**
+ * AffiliateDisclosure Component
+ * Single Responsibility: Display affiliate relationship disclosure and transparency
+ */
+---
+
+<section class="py-12 bg-gray-800/50 border-t border-gray-700" id="disclosure">
+  <div class="container mx-auto px-6">
+    <div class="max-w-5xl mx-auto">
+      <div class="bg-gray-800 rounded-xl p-8 border border-gray-700">
+        <div class="flex items-start mb-6">
+          <div class="text-3xl mr-4">📢</div>
+          <div>
+            <h2 class="text-2xl font-bold text-white mb-2">Affiliate Disclosure</h2>
+            <p class="text-gray-400 text-sm">Updated: January 2025</p>
+          </div>
+        </div>
+
+        <div class="space-y-4 text-gray-300">
+          <p>
+            <strong class="text-white">We are an independent comparison service.</strong> We are not a gambling operator, nor do we own any of the casinos listed on this site.
+          </p>
+
+          <p>
+            This website contains affiliate links. When you click a "Play Now" button or casino link and register at that casino, we may receive a commission from the operator. This comes at no extra cost to you.
+          </p>
+
+          <div class="bg-blue-900/20 border border-blue-500/30 rounded-lg p-4 my-6">
+            <h3 class="font-semibold text-blue-400 mb-2 flex items-center">
+              <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path>
+              </svg>
+              Our Editorial Independence
+            </h3>
+            <p class="text-sm text-gray-300">
+              Affiliate partnerships do not influence our ratings or recommendations. All casinos are evaluated using our transparent rating methodology, which considers security, fairness, payout speed, bonuses, games, and support quality.
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-6 my-6">
+            <div class="space-y-3">
+              <h3 class="font-semibold text-white text-lg">What We Promise:</h3>
+              <ul class="space-y-2 text-sm">
+                <li class="flex items-start">
+                  <span class="text-green-400 mr-2">✓</span>
+                  <span>Honest, unbiased reviews based on our methodology</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-green-400 mr-2">✓</span>
+                  <span>Transparent rating weights published publicly</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-green-400 mr-2">✓</span>
+                  <span>Regular updates to casino information</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-green-400 mr-2">✓</span>
+                  <span>Clear disclosure of affiliate relationships</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="space-y-3">
+              <h3 class="font-semibold text-white text-lg">How We Make Money:</h3>
+              <ul class="space-y-2 text-sm">
+                <li class="flex items-start">
+                  <span class="text-blue-400 mr-2">•</span>
+                  <span>Commissions when users sign up at casinos via our links</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-blue-400 mr-2">•</span>
+                  <span>Revenue share based on player activity (not losses)</span>
+                </li>
+                <li class="flex items-start">
+                  <span class="text-blue-400 mr-2">•</span>
+                  <span>Fixed fees for featured placements (clearly marked)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="border-t border-gray-700 pt-6 mt-6">
+            <h3 class="font-semibold text-white mb-3">Important Legal Information:</h3>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start">
+                <span class="text-yellow-400 mr-2">⚠️</span>
+                <span><strong>We are not a gambling operator.</strong> We do not accept deposits, process payments, or provide gambling services.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-yellow-400 mr-2">⚠️</span>
+                <span><strong>Responsibility:</strong> When you click through to a casino, you enter into a direct relationship with that operator. We are not responsible for their actions, terms, or services.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-yellow-400 mr-2">⚠️</span>
+                <span><strong>Regional Restrictions:</strong> Online gambling laws vary by jurisdiction. It is your responsibility to ensure gambling is legal in your location.</span>
+              </li>
+              <li class="flex items-start">
+                <span class="text-yellow-400 mr-2">⚠️</span>
+                <span><strong>Age Restriction:</strong> You must be 18+ or 19+ (depending on your region) to gamble. Underage gambling is illegal.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="bg-gray-900 rounded-lg p-4 mt-6">
+            <p class="text-sm text-gray-400">
+              All outbound links to casinos are marked with <code class="bg-gray-800 px-2 py-1 rounded text-xs">rel="nofollow sponsored"</code> attributes in compliance with search engine guidelines. Our affiliate relationships are disclosed in accordance with FTC guidelines and applicable regional regulations.
+            </p>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-4 mt-8 pt-6 border-t border-gray-700">
+            <a href="/guides/how-we-rate" class="text-blue-400 hover:text-blue-300 font-semibold inline-flex items-center">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              Our Rating Methodology
+            </a>
+            <a href="/legal/terms" class="text-blue-400 hover:text-blue-300 font-semibold inline-flex items-center">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+              </svg>
+              Terms & Conditions
+            </a>
+            <a href="/legal/privacy" class="text-blue-400 hover:text-blue-300 font-semibold inline-flex items-center">
+              <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+              </svg>
+              Privacy Policy
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-center text-gray-500 text-xs mt-6">
+        Questions about our affiliate practices? Contact us at <a href="mailto:disclosure@example.com" class="text-blue-400 hover:text-blue-300">disclosure@example.com</a>
+      </p>
+    </div>
+  </div>
+</section>

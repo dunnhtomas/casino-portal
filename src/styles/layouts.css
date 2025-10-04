@@ -1,0 +1,171 @@
+/**
+ * Layout Component Styles
+ * All styles for layout components (PageLayout, SimplePageLayout, etc.)
+ */
+
+@layer components {
+  /* Page Layout Styles */
+  .page-layout-body {
+    @apply bg-gradient-to-br from-casino-900 via-casino-950 to-casino-800 text-white overflow-x-hidden min-h-screen;
+  }
+
+  /* Header Navigation Styles */
+  .header-nav {
+    @apply bg-gradient-to-r from-casino-900 to-casino-800 shadow-lg sticky top-0 z-50;
+  }
+
+  .header-nav-container {
+    @apply container mx-auto px-6;
+  }
+
+  .header-nav-inner {
+    @apply flex items-center justify-between h-16;
+  }
+
+  .header-logo {
+    @apply flex-shrink-0;
+  }
+
+  .header-logo-link {
+    @apply text-2xl font-bold text-gold-500 hover:text-gold-400 transition-colors;
+  }
+
+  .header-nav-desktop {
+    @apply hidden md:block;
+  }
+
+  .header-nav-menu {
+    @apply ml-10 flex items-baseline space-x-4;
+  }
+
+  .header-nav-item {
+    @apply relative;
+  }
+
+  .header-nav-link {
+    @apply px-3 py-2 rounded-md text-sm font-medium text-cream-100 hover:text-gold-500 hover:bg-casino-800 transition-all duration-200 flex items-center;
+  }
+
+  .header-nav-badge {
+    @apply ml-2 px-2 py-1 text-xs bg-red-500 text-white rounded-full;
+  }
+
+  .header-nav-dropdown {
+    @apply absolute left-0 mt-2 w-56 bg-casino-800 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50;
+  }
+
+  .header-nav-dropdown-inner {
+    @apply py-2;
+  }
+
+  .header-nav-dropdown-link {
+    @apply block px-4 py-2 text-sm text-cream-100 hover:bg-casino-700 hover:text-gold-500 transition-colors;
+  }
+
+  .header-nav-dropdown-description {
+    @apply text-xs text-cream-300 mt-1;
+  }
+
+  /* Mobile Navigation */
+  .header-mobile-button {
+    @apply md:hidden text-cream-100 hover:text-gold-500 focus:outline-none;
+  }
+
+  .header-mobile-menu {
+    @apply md:hidden hidden border-t border-casino-700;
+  }
+
+  .header-mobile-menu-inner {
+    @apply px-2 pt-2 pb-3 space-y-1 bg-casino-800;
+  }
+
+  .header-mobile-menu-link {
+    @apply block px-3 py-2 text-base font-medium text-cream-100 hover:text-gold-500 hover:bg-casino-700 rounded-md;
+  }
+
+  .header-mobile-submenu {
+    @apply pl-4 pb-2;
+  }
+
+  .header-mobile-submenu-link {
+    @apply block px-3 py-2 text-sm text-cream-200 hover:text-gold-500 hover:bg-casino-700 rounded-md;
+  }
+
+  /* Footer Styles */
+  .footer-section {
+    @apply bg-gradient-to-b from-casino-800 to-casino-950 text-white py-16;
+  }
+
+  .footer-container {
+    @apply max-w-7xl mx-auto px-6;
+  }
+
+  .footer-grid {
+    @apply grid grid-cols-1 md:grid-cols-4 gap-8 mb-12;
+  }
+
+  .footer-brand {
+    @apply font-bold text-2xl text-gold-500 mb-4;
+  }
+
+  .footer-brand-description {
+    @apply text-cream-200 mb-4;
+  }
+
+  .footer-brand-updated {
+    @apply text-sm text-cream-300;
+  }
+
+  .footer-section-title {
+    @apply font-semibold text-lg mb-4;
+  }
+
+  .footer-links {
+    @apply space-y-2 text-cream-200;
+  }
+
+  .footer-link {
+    @apply hover:text-gold-500 transition-colors;
+  }
+
+  .footer-bottom {
+    @apply border-t border-casino-700 pt-8 text-center;
+  }
+
+  .footer-disclosure {
+    @apply text-cream-200 text-sm mb-4;
+  }
+
+  .footer-copyright {
+    @apply text-cream-300 text-sm;
+  }
+
+  /* Enhanced Breadcrumbs */
+  .breadcrumbs-nav {
+    @apply bg-gray-900/95 backdrop-blur-sm border-b border-gray-700 py-4 shadow-sm;
+  }
+
+  .breadcrumbs-container {
+    @apply container mx-auto px-6;
+  }
+
+  .breadcrumbs-list {
+    @apply flex items-center space-x-1 text-sm;
+  }
+
+  .breadcrumbs-home-link {
+    @apply text-gray-300 hover:text-gold-500 transition-colors font-medium px-2 py-1 rounded-md hover:bg-gray-800/50;
+  }
+
+  .breadcrumbs-separator {
+    @apply h-4 w-4 text-gray-600 mx-1;
+  }
+
+  .breadcrumbs-active {
+    @apply text-gold-400 font-semibold px-2 py-1 bg-gray-800/50 rounded-md;
+  }
+
+  .breadcrumbs-link {
+    @apply text-gray-300 hover:text-gold-500 transition-colors font-medium px-2 py-1 rounded-md hover:bg-gray-800/50;
+  }
+}

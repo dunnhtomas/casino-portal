@@ -1,0 +1,23 @@
+{
+  "dailyTargets": {
+    "reviews": 2,
+    "guides": 1,
+    "news": 1,
+    "regional": 0.5
+  },
+  "weeklyTargets": {
+    "reviews": 14,
+    "guides": 7,
+    "bonusGuides": 3,
+    "regional": 3,
+    "news": 7
+  },
+  "monthlyTargets": {
+    "reviews": 60,
+    "guides": 30,
+    "bonusGuides": 12,
+    "regional": 12,
+    "news": 30,
+    "landingPages": 10
+  }
+}

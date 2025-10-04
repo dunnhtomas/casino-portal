@@ -1,0 +1,250 @@
+{
+  "generatedAt": "2025-10-02T12:25:06.063Z",
+  "totalCasinos": 15,
+  "casinos": [
+    {
+      "casino": {
+        "slug": "spellwin",
+        "brand": "SpellWin",
+        "originalBrand": "SpellWin",
+        "searchVariations": [
+          "spellwin"
+        ],
+        "url": "https://www.spellwin.com"
+      },
+      "priority": 100,
+      "extractionUrl": "https://www.spellwin.com",
+      "expectedFile": "spellwin.png"
+    },
+    {
+      "casino": {
+        "slug": "winitbet",
+        "brand": "Winit",
+        "originalBrand": "Winit.Bet",
+        "searchVariations": [
+          "winit",
+          "winitbet",
+          "winit.bet"
+        ],
+        "url": "https://www.winit.bet"
+      },
+      "priority": 99,
+      "extractionUrl": "https://www.winit.bet",
+      "expectedFile": "winitbet.png"
+    },
+    {
+      "casino": {
+        "slug": "unlimluck-hb-v2",
+        "brand": "UnlimLuck",
+        "originalBrand": "UnlimLuck HB-v2",
+        "searchVariations": [
+          "unlimluck",
+          "unlimluck-hb-v2",
+          "unlimluck hb-v2"
+        ],
+        "url": "https://www.unlimluck.com"
+      },
+      "priority": 98,
+      "extractionUrl": "https://www.unlimluck.com",
+      "expectedFile": "unlimluck-hb-v2.png"
+    },
+    {
+      "casino": {
+        "slug": "mr-pacho",
+        "brand": "Mr Pacho",
+        "originalBrand": "Mr Pacho",
+        "searchVariations": [
+          "mr pacho",
+          "mrpacho",
+          "mr-pacho"
+        ],
+        "url": "https://www.mrpacho.com"
+      },
+      "priority": 97,
+      "extractionUrl": "https://www.mrpacho.com",
+      "expectedFile": "mr-pacho.png"
+    },
+    {
+      "casino": {
+        "slug": "larabet",
+        "brand": "Larabet",
+        "originalBrand": "Larabet",
+        "searchVariations": [
+          "larabet"
+        ],
+        "url": "https://www.larabet.com"
+      },
+      "priority": 96,
+      "extractionUrl": "https://www.larabet.com",
+      "expectedFile": "larabet.png"
+    },
+    {
+      "casino": {
+        "slug": "slotlair-uk-v2",
+        "brand": "Slotlair UK",
+        "originalBrand": "Slotlair UK-v2",
+        "searchVariations": [
+          "slotlair uk",
+          "slotlairuk",
+          "slotlair-uk-v2",
+          "slotlair",
+          "slotlair uk-v2"
+        ],
+        "url": "https://www.slotlair.co.uk"
+      },
+      "priority": 95,
+      "extractionUrl": "https://www.slotlair.co.uk",
+      "expectedFile": "slotlair-uk-v2.png"
+    },
+    {
+      "casino": {
+        "slug": "sagaspins-uk-v2",
+        "brand": "SagaSpins UK",
+        "originalBrand": "SagaSpins UK-v2",
+        "searchVariations": [
+          "sagaspins uk",
+          "sagaspinsuk",
+          "sagaspins-uk-v2",
+          "sagaspins",
+          "sagaspins uk-v2"
+        ],
+        "url": "https://www.sagaspins.com"
+      },
+      "priority": 94,
+      "extractionUrl": "https://www.sagaspins.com",
+      "expectedFile": "sagaspins-uk-v2.png"
+    },
+    {
+      "casino": {
+        "slug": "samba-slots",
+        "brand": "Samba",
+        "originalBrand": "Samba Slots",
+        "searchVariations": [
+          "samba",
+          "samba-slots",
+          "sambaslots",
+          "samba slots"
+        ],
+        "url": "https://www.sambaslots.com"
+      },
+      "priority": 93,
+      "extractionUrl": "https://www.sambaslots.com",
+      "expectedFile": "samba-slots.png"
+    },
+    {
+      "casino": {
+        "slug": "willdsino",
+        "brand": "Willdsino",
+        "originalBrand": "Willdsino",
+        "searchVariations": [
+          "willdsino"
+        ],
+        "url": "https://www.willdsino.com"
+      },
+      "priority": 92,
+      "extractionUrl": "https://www.willdsino.com",
+      "expectedFile": "willdsino.png"
+    },
+    {
+      "casino": {
+        "slug": "trino",
+        "brand": "Trino",
+        "originalBrand": "Trino",
+        "searchVariations": [
+          "trino",
+          "trinocasino"
+        ],
+        "url": "https://www.trinocasino.com"
+      },
+      "priority": 91,
+      "extractionUrl": "https://www.trinocasino.com",
+      "expectedFile": "trino.png"
+    },
+    {
+      "casino": {
+        "slug": "skyhills-nl-v2",
+        "brand": "SkyHills NL",
+        "originalBrand": "SkyHills NL-v2",
+        "searchVariations": [
+          "skyhills nl",
+          "skyhillsnl",
+          "skyhills-nl-v2",
+          "skyhills",
+          "skyhills nl-v2"
+        ],
+        "url": "https://www.skyhills.com/nl"
+      },
+      "priority": 90,
+      "extractionUrl": "https://www.skyhills.com/nl",
+      "expectedFile": "skyhills-nl-v2.png"
+    },
+    {
+      "casino": {
+        "slug": "wonthere-uk-v2",
+        "brand": "WonThere UK",
+        "originalBrand": "WonThere UK-v2",
+        "searchVariations": [
+          "wonthere uk",
+          "wonthereuk",
+          "wonthere-uk-v2",
+          "wonthere",
+          "wonthere uk-v2"
+        ],
+        "url": "https://www.wonthere.co.uk"
+      },
+      "priority": 89,
+      "extractionUrl": "https://www.wonthere.co.uk",
+      "expectedFile": "wonthere-uk-v2.png"
+    },
+    {
+      "casino": {
+        "slug": "lucky-hunter",
+        "brand": "Lucky Hunter",
+        "originalBrand": "Lucky Hunter",
+        "searchVariations": [
+          "lucky hunter",
+          "luckyhunter",
+          "lucky-hunter"
+        ],
+        "url": "https://luckyhunter.io"
+      },
+      "priority": 88,
+      "extractionUrl": "https://luckyhunter.io",
+      "expectedFile": "lucky-hunter.png"
+    },
+    {
+      "casino": {
+        "slug": "rizz-casino",
+        "brand": "Rizz",
+        "originalBrand": "Rizz Casino",
+        "searchVariations": [
+          "rizz",
+          "rizz-casino",
+          "rizzcasino",
+          "rizz casino"
+        ],
+        "url": "https://www.rizzcasino.com"
+      },
+      "priority": 87,
+      "extractionUrl": "https://www.rizzcasino.com",
+      "expectedFile": "rizz-casino.png"
+    },
+    {
+      "casino": {
+        "slug": "n1-bet-casino",
+        "brand": "N1 Bet",
+        "originalBrand": "N1 Bet Casino",
+        "searchVariations": [
+          "n1 bet",
+          "n1bet",
+          "n1-bet-casino",
+          "n1 bet casino"
+        ],
+        "url": "https://www.n1bet.com"
+      },
+      "priority": 86,
+      "extractionUrl": "https://www.n1bet.com",
+      "expectedFile": "n1-bet-casino.png"
+    }
+  ]
+}

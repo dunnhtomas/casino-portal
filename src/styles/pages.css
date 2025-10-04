@@ -1,0 +1,207 @@
+/**
+ * Page Component Styles
+ * All styles for page-level components and page-specific layouts
+ */
+
+@layer components {
+  /* Common Page Styles */
+  .page-main {
+    @apply min-h-screen bg-gradient-to-br from-casino-900 via-casino-950 to-casino-800;
+  }
+
+  /* Hero Section Styles */
+  .hero-section {
+    @apply relative bg-gradient-to-br from-casino-900 via-casino-950 to-casino-800 text-white py-16 lg:py-24 overflow-hidden;
+  }
+
+  .hero-background-overlay {
+    @apply absolute inset-0 bg-black/20;
+  }
+
+  .hero-background-pattern {
+    @apply absolute inset-0 opacity-10 bg-grid-pattern;
+  }
+
+  .hero-container {
+    @apply relative max-w-6xl mx-auto px-6 text-center;
+  }
+
+  .hero-title {
+    @apply text-4xl lg:text-6xl font-bold mb-6 leading-tight bg-gradient-to-r from-white via-cream-100 to-gold-200 bg-clip-text text-transparent;
+  }
+
+  .hero-subtitle {
+    @apply text-xl lg:text-2xl mb-8 text-cream-100 max-w-4xl mx-auto leading-relaxed;
+  }
+
+  .hero-cta-container {
+    @apply flex flex-col sm:flex-row gap-4 justify-center items-center mb-8 px-4;
+  }
+
+  .hero-cta-primary {
+    @apply bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-400 hover:to-gold-300 text-casino-900 font-bold py-3 px-6 lg:py-4 lg:px-8 rounded-2xl text-base lg:text-lg transition-all duration-300 inline-flex items-center transform hover:scale-105 shadow-lg hover:shadow-xl w-full sm:w-auto justify-center;
+  }
+
+  .hero-cta-secondary {
+    @apply border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold py-3 px-6 lg:py-4 lg:px-8 rounded-2xl text-base lg:text-lg transition-all duration-300 backdrop-blur-sm w-full sm:w-auto justify-center inline-flex items-center;
+  }
+
+  .hero-trust-indicators {
+    @apply flex items-center justify-center gap-2 text-sm text-cream-200 bg-white/10 rounded-full px-6 py-3 backdrop-blur-sm;
+  }
+
+  .hero-features-grid {
+    @apply mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 px-4;
+  }
+
+  .hero-feature-item {
+    @apply text-center;
+  }
+
+  .hero-feature-icon {
+    @apply w-10 h-10 lg:w-12 lg:h-12 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-2 hover:scale-110 transition-transform;
+  }
+
+  .hero-feature-text {
+    @apply text-xs lg:text-sm font-medium;
+  }
+
+  /* Content Card Styles */
+  .content-card {
+    @apply bg-casino-800/50 backdrop-blur-sm rounded-2xl shadow-xl p-8 mb-8 border border-casino-700;
+  }
+
+  .content-card-title {
+    @apply text-3xl font-bold mb-6 text-gold-500;
+  }
+
+  .content-card-subtitle {
+    @apply text-2xl font-bold mb-6 text-gold-500;
+  }
+
+  .content-card-text {
+    @apply text-lg text-cream-200 leading-relaxed mb-6;
+  }
+
+  .content-card-text-secondary {
+    @apply text-cream-300 mb-6;
+  }
+
+  /* Page Hero Styles */
+  .page-hero {
+    @apply bg-gradient-to-r from-casino-900 to-casino-700 text-white py-20;
+  }
+
+  .page-hero-container {
+    @apply container mx-auto px-6 text-center;
+  }
+
+  .page-hero-title {
+    @apply text-5xl font-bold mb-6;
+  }
+
+  .page-hero-subtitle {
+    @apply text-xl text-cream-200 max-w-2xl mx-auto;
+  }
+
+  /* Rating & Review Styles */
+  .rating-card {
+    @apply flex justify-between items-center p-4 bg-casino-700/50 rounded-lg border border-casino-600;
+  }
+
+  .rating-label {
+    @apply font-medium;
+  }
+
+  .rating-value {
+    @apply font-bold text-gold-500;
+  }
+
+  .rating-grid {
+    @apply grid md:grid-cols-2 gap-6;
+  }
+
+  .rating-grid-item {
+    @apply space-y-4;
+  }
+
+  /* Criteria Explanation Styles */
+  .criteria-item {
+    @apply border-l-4 border-gold-500 pl-6 py-2;
+  }
+
+  .criteria-title {
+    @apply font-bold text-lg text-gold-500 mb-2;
+  }
+
+  .criteria-description {
+    @apply text-cream-200;
+  }
+
+  /* Mission/Values Grid */
+  .mission-values-grid {
+    @apply grid md:grid-cols-2 gap-8;
+  }
+
+  .mission-values-item-title {
+    @apply font-bold text-xl mb-3 text-gold-500;
+  }
+
+  .mission-values-item-text {
+    @apply text-cream-200;
+  }
+
+  /* Enhanced Review Page Styles */
+  .review-hero {
+    @apply bg-white rounded-3xl shadow-xl p-8 mb-8 border border-gray-100 relative overflow-hidden;
+  }
+
+  .review-hero::before {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-casino-500 to-gold-500;
+  }
+
+  .review-brand-info {
+    @apply flex items-start justify-between mb-8;
+  }
+
+  .review-brand-title {
+    @apply text-4xl font-bold text-gray-900 mb-2 leading-tight;
+  }
+
+  .review-brand-subtitle {
+    @apply text-gray-600 text-lg;
+  }
+
+  .review-rating-section {
+    @apply text-right;
+  }
+
+  .review-content-section {
+    @apply bg-white rounded-2xl shadow-lg p-8 mb-6 border border-gray-100;
+  }
+
+  .review-section-title {
+    @apply text-2xl font-bold text-gray-900 mb-6 pb-3 border-b border-gray-200;
+  }
+
+  .review-quick-facts {
+    @apply grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8;
+  }
+
+  .review-quick-fact-item {
+    @apply text-center p-6 bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl border border-gray-200;
+  }
+
+  .review-rating-grid {
+    @apply grid md:grid-cols-2 lg:grid-cols-3 gap-6;
+  }
+
+  .review-rating-item {
+    @apply bg-gradient-to-br from-white to-gray-50 p-6 rounded-xl border border-gray-200 text-center;
+  }
+
+  .review-cta-section {
+    @apply bg-gradient-to-r from-casino-600 to-casino-700 rounded-2xl p-8 text-center text-white;
+  }
+}

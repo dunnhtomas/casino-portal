@@ -1,0 +1,42 @@
+---
+/**
+ * Affiliate Redirect Handler
+ * Handles /go/{slug} routes for casino affiliate links
+ * Static generation with getStaticPaths
+ */
+
+import casinosData from '../../../data/casinos.json';
+
+// Generate static paths for all casinos at build time
+export async function getStaticPaths() {
+  return casinosData.map((casino: any) => ({
+    params: { slug: casino.slug },
+    props: { casino }
+  }));
+}
+
+const { casino } = Astro.props;
+
+if (!casino) {
+  return Astro.redirect('/?error=casino-not-found');
+}
+
+// Get the best affiliate URL for this casino
+let redirectUrl = casino.url; // Default fallback
+
+if (casino.affiliate && casino.affiliate.link) {
+  redirectUrl = casino.affiliate.link;
+}
+
+// Add tracking parameters
+const url = new URL(redirectUrl);
+url.searchParams.set('utm_source', 'bestcasinoportal');
+url.searchParams.set('utm_medium', 'affiliate');
+url.searchParams.set('utm_campaign', 'casino-redirect');
+url.searchParams.set('utm_content', casino.slug);
+
+// Perform the redirect
+return Astro.redirect(url.toString());
+---
+
+<!-- This should never render as we redirect above -->

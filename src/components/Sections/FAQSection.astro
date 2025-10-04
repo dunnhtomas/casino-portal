@@ -8,9 +8,11 @@ interface Props {
 const { faqItems } = Astro.props;
 ---
 
-<section id="faq" class="py-16 bg-white">
+<section id="faq" class="py-16 bg-gradient-to-br from-gray-900 to-gray-800">
   <div class="max-w-4xl mx-auto px-6">
-    <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions</h2>
-    <FAQ client:load items={faqItems} />
+    <div class="faq-container p-8 rounded-2xl">
+      <h2 class="text-3xl font-bold text-center text-casino-contrast mb-12">Frequently Asked Questions</h2>
+      <FAQ client:load items={faqItems} />
+    </div>
   </div>
 </section>

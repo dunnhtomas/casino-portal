@@ -1,0 +1,50 @@
+---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+
+const navigationCoordinator = new NavigationCoordinator();
+
+const title = 'Online Slot Games | Casino Portal';
+const description = 'Comprehensive guide to online slot games. Expert insights and recommendations.';
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/slots');
+---
+
+<SimplePageLayout 
+  title={title}
+  description={description}
+  breadcrumbs={breadcrumbs}
+>
+  <main class="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">
+    <section class="bg-gradient-to-r from-gold-600 to-gold-400 text-white py-20">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-5xl font-bold mb-6">Online Slot Games</h1>
+        <p class="text-xl text-gold-100 max-w-2xl mx-auto">
+          Comprehensive guide and expert recommendations for online slot games.
+        </p>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-6 py-16">
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-xl p-8 mb-8 border border-gray-700">
+          <h2 class="text-3xl font-bold mb-6 text-white">Coming Soon!</h2>
+          <p class="text-lg text-gray-300 mb-4">
+            We're working hard to bring you comprehensive information about online slot games.
+          </p>
+          <p class="text-gray-300">
+            In the meantime, check out our other sections or browse our top-rated casinos.
+          </p>
+        </div>
+        
+        <div class="text-center">
+          <a 
+            href="/reviews" 
+            class="inline-block bg-gold-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-gold-600 transition-colors"
+          >
+            Browse Casino Reviews →
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</SimplePageLayout>

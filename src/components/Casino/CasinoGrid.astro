@@ -1,0 +1,64 @@
+---
+interface Props {
+  casinos: any[];
+  title?: string;
+}
+
+const { casinos, title = "Top Casinos" } = Astro.props;
+---
+
+<section id="casinos" class="casino-grid py-16 bg-gradient-to-br from-gray-900 to-gray-800">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold text-white mb-4">{title}</h2>
+      <p class="text-gray-300 max-w-2xl mx-auto">
+        Carefully selected and thoroughly reviewed casinos that meet our strict quality standards.
+        Compare bonuses, games, and features to find your perfect match.
+      </p>
+    </div>
+
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {casinos.map((casino, index) => (
+        <div class="casino-card-wrapper">
+          <div class="bg-gray-800 rounded-lg shadow-lg p-6 border border-gray-700">
+            <h3 class="text-xl font-bold mb-2 text-white">{casino.brand || casino.name}</h3>
+            <div class="flex items-center mb-4">
+              <span class="text-yellow-400 text-lg">★★★★★</span>
+              <span class="ml-2 font-semibold">{casino.overallRating || 8.5}/10</span>
+            </div>
+            <a href={`/reviews/${casino.slug}`} class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+              View Review
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {casinos.length > 12 && (
+      <div class="text-center mt-12">
+        <button class="load-more-btn bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors">
+          Load More Casinos
+        </button>
+      </div>
+    )}
+  </div>
+</section>
+
+<style>
+  .casino-card-wrapper {
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .casino-card-wrapper:hover {
+    transform: translateY(-4px);
+  }
+  
+  .rank-badge {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .load-more-btn {
+    box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.4);
+  }
+</style>

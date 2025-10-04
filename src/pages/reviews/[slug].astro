@@ -1,38 +1,93 @@
 ---
-import { loadReview } from '../../viewmodels/ReviewVM';
-import { generateReviewJSONLD } from '../../lib/schema';
-import casinos from '../../../data/casinos.json';
-import content from '../../../data/content.json';
-const { params } = Astro;
-const review = loadReview(casinos, params.slug);
-const reviewJsonLd = review ? generateReviewJSONLD(review, 'https://example.com') : null;
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import ReviewHero from '../../components/Reviews/ReviewHero.astro';
+import ReviewQuickFacts from '../../components/Reviews/ReviewQuickFacts.astro';
+import ReviewContent from '../../components/Reviews/ReviewContent.astro';
+import ReviewRatings from '../../components/Reviews/ReviewRatings.astro';
+import ReviewCTA from '../../components/Reviews/ReviewCTA.astro';
+import { ReviewPageViewModel } from '../../viewmodels/pages/ReviewPageViewModel';
 
+// Generate static paths for all casino reviews
 export async function getStaticPaths() {
-  return casinos.map(c=> ({ params: { slug: c.slug } }));
+  // Use import.meta.glob to load JSON at build time
+  const dataFiles = import.meta.glob('../../../data/*.json', { eager: true });
+  const casinosFile = dataFiles['../../../data/casinos.json'] as any;
+  const casinosData = casinosFile?.default || [];
+  
+  return casinosData.map((casino: any) => ({
+    params: { slug: casino.slug }
+  }));
 }
 
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.params;
+
+// Initialize ViewModel with slug
+const viewModel = new ReviewPageViewModel();
+let pageData;
+let hasError = false;
+
+try {
+  viewModel.setSlug(slug);
+  pageData = await viewModel.getPageData();
+} catch (error) {
+  hasError = true;
+  pageData = viewModel.getNotFoundPageData();
+}
 ---
-<html>
-  <head>
-    <title>{review ? `${review.brand} — Review` : 'Review'}</title>
-    {reviewJsonLd ? <script type="application/ld+json">{JSON.stringify(reviewJsonLd)}</script> : null}
-  </head>
-  <body>
-    <main>
-      {review ? (
-        <article>
-          <h1>{review.brand}</h1>
-          <p className="text-gray-700">{content.reviews[review.slug] || ''}</p>
-          <div>Score: {review._score}</div>
-          <p>{review.bonuses?.welcome?.headline}</p>
-          <section>
-            <h2>Safety & Fairness</h2>
-            <p>Years online: {review.safety?.yearsOnline}</p>
-          </section>
-        </article>
-      ) : (
-        <div>Review not found</div>
-      )}
-    </main>
-  </body>
-</html>
+
+<SimplePageLayout 
+  title={pageData.metadata.title}
+  description={pageData.metadata.description}
+  breadcrumbs={pageData.navigation.breadcrumbs}
+>
+  {pageData.schemaMarkup.review && 
+    <script type="application/ld+json" set:html={JSON.stringify(pageData.schemaMarkup.review)} slot="head"></script>
+  }
+  
+  <main class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    {!hasError ? (
+      <article class="container mx-auto px-6 py-8 max-w-7xl">
+        <!-- Hero Section -->
+        <ReviewHero heroData={pageData.content.hero} />
+        
+        <!-- Quick Facts Grid -->
+        <section class="review-content-section">
+          <h2 class="review-section-title">Quick Facts & Overview</h2>
+          <ReviewQuickFacts quickFacts={pageData.content.quickFacts} />
+        </section>
+        
+        <!-- Detailed Review Content -->
+        <section class="review-content-section">
+          <h2 class="review-section-title">Detailed Review Analysis</h2>
+          <ReviewContent reviewContent={pageData.content.detailed} />
+        </section>
+        
+        <!-- Ratings Breakdown -->
+        <section class="review-content-section">
+          <h2 class="review-section-title">Rating Breakdown</h2>
+          <ReviewRatings ratingsData={pageData.content.rating} />
+        </section>
+        
+        <!-- Call to Action -->
+        <ReviewCTA ctaData={pageData.content.cta} />
+      </article>
+    ) : (
+      <div class="container mx-auto px-6 py-16 text-center">
+        <div class="bg-white rounded-2xl shadow-xl p-8">
+          <h1 class="text-3xl font-bold text-gray-800 mb-4">Review Not Found</h1>
+          <p class="text-gray-600 mb-6">Sorry, we couldn't find the casino review you're looking for.</p>
+          <a 
+            href="/reviews" 
+            class="inline-block bg-amber-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-amber-600 transition-colors"
+          >
+            Browse All Casino Reviews →
+          </a>
+        </div>
+      </div>
+    )}
+  </main>
+</SimplePageLayout>

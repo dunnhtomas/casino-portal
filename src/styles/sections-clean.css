@@ -1,0 +1,87 @@
+/**
+ * Section Component Styles - Clean Version
+ * All styles for reusable section components
+ */
+
+@layer components {
+  /* Enhanced Benefits Section */
+  .benefits-section {
+    @apply bg-gradient-to-br from-gray-50 to-gray-100 py-16 relative overflow-hidden;
+  }
+
+  .benefits-section::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-casino-50/20 to-gold-50/20;
+  }
+
+  .benefits-container {
+    @apply max-w-7xl mx-auto px-6 relative z-10;
+  }
+
+  .benefits-header {
+    @apply text-center mb-12;
+  }
+
+  .benefits-title {
+    @apply text-4xl font-bold text-gray-900 mb-4;
+  }
+
+  .benefits-description {
+    @apply text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed;
+  }
+
+  .benefits-grid {
+    @apply grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 mb-12;
+  }
+
+  .benefits-card {
+    @apply bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02] text-center relative overflow-hidden;
+  }
+
+  .benefits-card::before {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-casino-500 to-gold-500;
+  }
+
+  .benefits-icon {
+    @apply w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg;
+  }
+
+  .benefits-content {
+    @apply text-center;
+  }
+
+  .benefits-item-title {
+    @apply font-bold text-gray-900 text-base mb-2;
+  }
+
+  .benefits-item-description {
+    @apply text-sm text-gray-600 leading-relaxed;
+  }
+
+  .benefits-metrics {
+    @apply flex flex-wrap justify-center items-center gap-8 p-8 bg-white rounded-2xl shadow-lg border border-gray-100;
+  }
+
+  .benefits-metric {
+    @apply flex items-center gap-3 text-gray-700 font-medium;
+  }
+
+  .benefits-metric-dot {
+    @apply w-3 h-3 rounded-full shadow-md;
+  }
+
+  /* Top Three Section */
+  #top-three {
+    @apply max-w-6xl mx-auto;
+  }
+
+  #top-three .transform {
+    @apply max-h-[600px] overflow-hidden;
+  }
+
+  /* Enhanced casino card sizing */
+  .casino-card-enhanced {
+    @apply max-h-[580px] overflow-hidden;
+  }
+}

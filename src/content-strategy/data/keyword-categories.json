@@ -1,0 +1,53 @@
+{
+  "primary": [
+    "online casino",
+    "casino games",
+    "casino bonus",
+    "casino review",
+    "slot machines",
+    "blackjack",
+    "roulette",
+    "poker",
+    "baccarat"
+  ],
+  "regional": [
+    "casino canada",
+    "casino ontario",
+    "casino alberta",
+    "casino bc",
+    "canadian casino",
+    "toronto casino",
+    "vancouver casino",
+    "montreal casino"
+  ],
+  "gameSpecific": [
+    "online slots",
+    "video poker",
+    "live dealer",
+    "progressive jackpot",
+    "free spins",
+    "slot bonus",
+    "megaways slots",
+    "classic slots"
+  ],
+  "bonusTerms": [
+    "welcome bonus",
+    "no deposit bonus",
+    "free spins bonus",
+    "reload bonus",
+    "cashback bonus",
+    "vip bonus",
+    "high roller bonus",
+    "mobile bonus"
+  ],
+  "commercial": [
+    "best casino",
+    "top casino",
+    "safe casino",
+    "licensed casino",
+    "real money casino",
+    "mobile casino",
+    "new casino",
+    "trusted casino"
+  ]
+}

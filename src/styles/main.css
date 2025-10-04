@@ -1,0 +1,534 @@
+/**
+ * Main CSS Entry Point - Mobile-First Optimized
+ * Imports all CSS files and contains global styles following Tailwind v3 best practices
+ */
+
+@import 'tailwind.css';
+@import 'layouts.css';
+@import 'pages.css';
+@import 'sections.css';
+@import 'casino-enhancements.css';
+
+/* Global Burgundy Theme Variables - CSS Custom Properties */
+:root {
+  --casino-50: #fdf2f5;
+  --casino-100: #fce7ea;
+  --casino-200: #f9cfd6;
+  --casino-300: #f4a3b1;
+  --casino-400: #ed6b83;
+  --casino-500: #e53e5a;
+  --casino-600: #d1243f;
+  --casino-700: #b91c35;
+  --casino-800: #9b1b32;
+  --casino-900: #8b1538;
+  --casino-950: #6b1229;
+  
+  --gold-500: #ffd700;
+  --gold-400: #ffcd0d;
+  --gold-300: #ffe042;
+  
+  --cream-50: #fefdfb;
+  --cream-100: #fdf9f3;
+  --cream-200: #fbf1e5;
+  --cream-300: #f8e8d1;
+}
+
+/* Dark theme variables */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --casino-50: #1a1a1a;
+    --casino-100: #2d2d2d;
+    --casino-200: #404040;
+    --casino-300: #525252;
+    --casino-400: #737373;
+    --casino-500: #a3a3a3;
+    --casino-600: #d4d4d4;
+    --casino-700: #e5e5e5;
+    --casino-800: #f5f5f5;
+    --casino-900: #ffffff;
+    --casino-950: #ffffff;
+    
+    --cream-50: #0f0f0f;
+    --cream-100: #1a1a1a;
+    --cream-200: #262626;
+    --cream-300: #404040;
+  }
+}
+
+/* Manual dark mode class */
+.dark {
+  --casino-50: #1a1a1a;
+  --casino-100: #2d2d2d;
+  --casino-200: #404040;
+  --casino-300: #525252;
+  --casino-400: #737373;
+  --casino-500: #a3a3a3;
+  --casino-600: #d4d4d4;
+  --casino-700: #e5e5e5;
+  --casino-800: #f5f5f5;
+  --casino-900: #ffffff;
+  --casino-950: #ffffff;
+  
+  --cream-50: #0f0f0f;
+  --cream-100: #1a1a1a;
+  --cream-200: #262626;
+  --cream-300: #404040;
+}
+
+/* Global Styles - Mobile-First */
+html {
+  scroll-behavior: smooth;
+  /* Prevent horizontal scroll on mobile */
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  /* Prevent layout shift */
+  overflow-x: hidden;
+  /* Better text rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Improve touch scrolling and rendering */
+  overscroll-behavior: contain;
+  /* Dark mode support */
+  @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Mobile-First Container */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+/* Custom Scrollbar - Enhanced for mobile */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--casino-900);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--casino-700);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--casino-600);
+}
+
+/* Dark mode scrollbar */
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: #1f2937;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #4b5563;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6b7280;
+  }
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #4b5563;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Mobile scrollbar styling */
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+}
+
+/* Selection - Improved */
+::selection {
+  background-color: var(--gold-500);
+  color: var(--casino-900);
+  text-shadow: none;
+}
+
+/* Dark mode selection */
+@media (prefers-color-scheme: dark) {
+  ::selection {
+    background-color: var(--gold-400);
+    color: #1f2937;
+  }
+}
+
+.dark ::selection {
+  background-color: var(--gold-400);
+  color: #1f2937;
+}
+
+/* Focus styles - Mobile-friendly */
+*:focus-visible {
+  outline: 2px solid var(--gold-500);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Dark mode focus */
+@media (prefers-color-scheme: dark) {
+  *:focus-visible {
+    outline-color: var(--gold-400);
+  }
+}
+
+.dark *:focus-visible {
+  outline-color: var(--gold-400);
+}
+
+/* Touch targets - Ensure 44px minimum */
+button, 
+a, 
+input[type="submit"], 
+input[type="button"], 
+.btn {
+  min-height: 44px;
+  min-width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Larger touch targets on mobile */
+@media (pointer: coarse) {
+  button, 
+  a, 
+  input[type="submit"], 
+  input[type="button"], 
+  .btn {
+    min-height: 48px;
+    min-width: 48px;
+  }
+}
+
+/* Grid pattern for hero backgrounds - Mobile optimized */
+.bg-grid-pattern {
+  background-image: radial-gradient(circle, rgba(255, 215, 0, 0.1) 1px, transparent 1px);
+  background-size: 15px 15px;
+}
+
+/* Dark mode grid pattern */
+@media (prefers-color-scheme: dark) {
+  .bg-grid-pattern {
+    background-image: radial-gradient(circle, rgba(255, 215, 0, 0.2) 1px, transparent 1px);
+  }
+}
+
+.dark .bg-grid-pattern {
+  background-image: radial-gradient(circle, rgba(255, 215, 0, 0.2) 1px, transparent 1px);
+}
+
+@media (min-width: 768px) {
+  .bg-grid-pattern {
+    background-size: 20px 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .bg-grid-pattern {
+    background-size: 25px 25px;
+  }
+}
+
+/* Animation utilities - Respect user preferences */
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes pulseGlow {
+    from {
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+    }
+    to {
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.6), 0 0 30px rgba(255, 215, 0, 0.4);
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Apply smooth transitions */
+  .animate-slide-down {
+    animation: slideDown 0.3s ease-out;
+  }
+
+  .animate-pulse-glow {
+    animation: pulseGlow 2s ease-in-out infinite alternate;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.4s ease-out;
+  }
+}
+
+/* Reduced motion fallbacks */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Image optimization - Prevent layout shift */
+img {
+  max-width: 100%;
+  height: auto;
+  /* Prevent image flicker */
+  backface-visibility: hidden;
+}
+
+/* Responsive images with aspect ratio preservation */
+.aspect-ratio-16-9 {
+  aspect-ratio: 16 / 9;
+}
+
+.aspect-ratio-4-3 {
+  aspect-ratio: 4 / 3;
+}
+
+.aspect-ratio-1-1 {
+  aspect-ratio: 1 / 1;
+}
+
+/* Loading states */
+.loading-skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  /* Reduce spacing on mobile */
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Optimize font sizes for mobile */
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  
+  /* Better tap targets */
+  .btn {
+    padding: 0.75rem 1.5rem;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  /* Optional: Add dark mode variables if needed */
+  /* :root {
+    --casino-50: #1a1a1a;
+    --casino-900: #f0f0f0;
+  } */
+}
+
+/* Print styles */
+@media print {
+  * {
+    color: #000 !important;
+    background: #fff !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown 0.3s ease-out;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s ease-in-out infinite alternate;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .hero-title {
+    @apply text-3xl;
+  }
+  
+  .hero-subtitle {
+    @apply text-lg;
+  }
+  
+  .page-hero-title {
+    @apply text-3xl;
+  }
+  
+  .content-card-title {
+    @apply text-2xl;
+  }
+}
+
+/* Navigation Overflow Fixes */
+.header-nav,
+.header-nav-container,
+.header-nav-inner,
+.header-nav-desktop,
+.header-nav-menu,
+.header-nav-item {
+  overflow: visible !important;
+}
+
+/* Dropdown positioning fixes */
+.header-nav-item .group-hover\:block {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 50;
+  min-width: 200px;
+}
+
+/* Responsive Design Improvements */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.125rem !important;
+    line-height: 1.4 !important;
+  }
+  
+  .hero-cta-container {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+  
+  .hero-features-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem !important;
+  }
+}
+
+/* Accessibility and UX Improvements */
+body {
+  line-height: 1.6;
+}
+
+a:focus-visible, 
+button:focus-visible {
+  outline: 2px solid var(--gold-500);
+  outline-offset: 2px;
+}
+
+/* Better hover effects */
+.hover\:scale-\[1\.02\]:hover {
+  transform: scale(1.01);
+}

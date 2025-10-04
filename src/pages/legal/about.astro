@@ -1,13 +1,88 @@
 ---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+
+const navigationCoordinator = new NavigationCoordinator();
+
+const title = 'About Us | Casino Portal';
+const description = 'Learn about Casino Portal - an independent casino comparison site providing transparent reviews and rankings.';
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/legal/about');
 ---
-<html>
-  <head>
-    <title>About — BestCasinoPortal</title>
-  </head>
-  <body>
-    <main>
-      <h1>About BestCasinoPortal</h1>
-      <p>We are an independent online casino comparison site. We do not operate casinos; our role is to provide transparent review summaries and ranking data.</p>
-    </main>
-  </body>
-</html>
+
+<SimplePageLayout 
+  title={title}
+  description={description}
+  breadcrumbs={breadcrumbs}
+>
+  <main class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <!-- ENHANCED HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-background-overlay"></div>
+      <div class="hero-background-pattern"></div>
+      
+      <div class="hero-container">
+        <header>
+          <h1 class="hero-title">🏢 About Casino Portal</h1>
+          <p class="hero-subtitle">
+            Your trusted independent casino comparison and review platform, dedicated to transparency and player safety.
+          </p>
+        </header>
+        
+        <div class="hero-trust-indicators">
+          <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+          </svg>
+          <span>🛡️ Independent Reviews • ⚖️ Transparent Ratings • 🎯 Player-Focused • 💯 Honest Analysis</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto px-6 py-16 max-w-6xl">
+      <div class="grid lg:grid-cols-2 gap-8">
+        <div class="bg-white rounded-3xl shadow-xl p-8 border border-gray-100 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-full -mr-16 -mt-16"></div>
+          <div class="relative">
+            <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center text-white text-2xl mb-6 shadow-lg">
+              🎯
+            </div>
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">Who We Are</h2>
+            <p class="text-gray-700 mb-6 leading-relaxed">
+              We are an independent online casino comparison site dedicated to providing honest, transparent casino reviews and rankings. We do not operate casinos ourselves - our role is to serve as an unbiased source of information for players.
+            </p>
+            <p class="text-gray-600 leading-relaxed">
+              Our mission is to help players make informed decisions about where to play online by providing comprehensive reviews, transparent ratings, and up-to-date information about bonuses, games, and casino features.
+            </p>
+          </div>
+        </div>
+        
+        <div class="space-y-6">
+          <div class="bg-white rounded-2xl shadow-lg p-6 border border-gray-100 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-20 h-20 bg-green-50 rounded-full -mr-10 -mt-10"></div>
+            <div class="relative">
+              <div class="w-12 h-12 bg-gradient-to-r from-green-500 to-green-600 rounded-xl flex items-center justify-center text-white text-xl mb-4 shadow-lg">
+                🎯
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-3">Our Mission</h3>
+              <p class="text-gray-600 leading-relaxed">
+                To provide transparent, honest casino reviews that help players find safe and enjoyable gaming experiences.
+              </p>
+            </div>
+          </div>
+          
+          <div class="bg-white rounded-2xl shadow-lg p-6 border border-gray-100 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-20 h-20 bg-purple-50 rounded-full -mr-10 -mt-10"></div>
+            <div class="relative">
+              <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl flex items-center justify-center text-white text-xl mb-4 shadow-lg">
+                ⚖️
+              </div>
+              <h3 class="text-xl font-bold text-gray-900 mb-3">Our Values</h3>
+              <p class="text-gray-600 leading-relaxed">
+                Independence, transparency, player safety, and honest reviews based on thorough research and analysis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</SimplePageLayout>

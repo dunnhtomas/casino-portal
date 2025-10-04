@@ -1,0 +1,249 @@
+---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { EnhancedCasinoCard } from '../../components/Casino/EnhancedCasinoCard';
+import type { CasinoCardData } from '../../components/Casino/EnhancedCasinoCard';
+
+// Import CSS for hero styling
+import '../../styles/main.css';
+
+// Data imports - STRICT SCHEMA COMPLIANCE
+import casinos from '../../../data/casinos.json';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+import { getBrandLogo } from '../../lib/getBrandLogo';
+
+// Service initialization with validation
+const navigationCoordinator = new NavigationCoordinator();
+
+// VALIDATED DATA ACCESS - Use actual schema structure
+const filteredCasinos = casinos
+  .filter(casino => casino.bonuses?.welcome?.headline) // CORRECT: bonuses.welcome, NOT welcomeBonus
+  .sort((a, b) => {
+    const aRating = a.ratings?.reputation || 0; // CORRECT: ratings.reputation
+    const bRating = b.ratings?.reputation || 0;
+    return bRating - aRating;
+  });
+
+// Map casino data to enhanced component format - SAME AS REVIEWS PAGE
+const mapCasinoToCardData = (casino: any, rank: number): CasinoCardData => {
+  return {
+    id: casino.slug || `casino-${rank}`,
+    name: casino.brand || "Casino",
+    logo: getBrandLogo(casino.url, casino.slug),
+    slug: casino.slug || `casino-${rank}`,
+    rating: {
+      overall: Number((casino.overallRating || 9.0).toFixed(1)),
+      trust: casino.ratings?.reputation || 9,
+      bonuses: casino.ratings?.bonusValue || 9,
+      games: casino.ratings?.games || 9,
+      support: casino.ratings?.support || 9,
+      payout: casino.ratings?.payout || 9
+    },
+    bonuses: {
+      welcome: {
+        amount: casino.bonuses?.welcome?.headline || "€500 Welcome Bonus",
+        type: 'match' as const,
+        wagering: parseInt((casino.bonuses?.welcome?.wagering || '35x').replace('x', '')) || 35
+      }
+    },
+    features: Array.isArray(casino.topTags) ? casino.topTags.map((tag: string) => ({ icon: '⭐', label: tag })) : [
+      { icon: '🎰', label: 'Licensed' },
+      { icon: '🔒', label: 'Secure' },
+      { icon: '💰', label: 'Fast Payouts' }
+    ],
+    payoutSpeed: {
+      min: '1h',
+      max: '24h',
+      category: 'fast' as const
+    },
+    licenses: [
+      {
+        name: casino.license || "Malta Gaming Authority",
+        country: 'Malta',
+        logo: '/images/license-malta.png'
+      }
+    ],
+    established: parseInt(casino.established) || 2020,
+    gameCount: casino.gameCount || 1000,
+    minDeposit: casino.minDeposit || '€10',
+    currencies: casino.currencies || ['EUR', 'USD'],
+    languages: casino.languages || ['English']
+  };
+};
+
+const enhancedCasinos = filteredCasinos.map((casino, index) => mapCasinoToCardData(casino, index + 1));
+
+// Page metadata - SEO optimized
+const title = `Best Online Casinos 2025 | All ${filteredCasinos.length} Multi-Agent Validated Rankings`;
+const description = `Discover all ${filteredCasinos.length} best online casinos in 2025! Our multi-agent validation system ensures accurate ratings, safety scores, and expert recommendations.`;
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/best');
+
+// VALIDATED BONUS CATEGORIES - Using correct schema
+const bonusCategories = [
+  {
+    type: 'welcome',
+    title: 'Welcome Bonuses',
+    description: 'Match your first deposit with bonus funds',
+    icon: '🎁',
+    count: filteredCasinos.filter(c => c.bonuses?.welcome?.headline).length
+  },
+  {
+    type: 'free-spins',
+    title: 'Free Spins',
+    description: 'Free spins on popular slot machines',
+    icon: '🎰',
+    count: filteredCasinos.filter(c => c.bonuses?.welcome?.headline?.includes('FS')).length
+  }
+];
+---
+
+<SimplePageLayout 
+  title={title}
+  description={description}
+  breadcrumbs={breadcrumbs}
+>
+  <main class="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">
+    <!-- HERO SECTION - MATCHING HOMEPAGE STYLE -->
+    <section class="hero-section">
+      <!-- Background Pattern -->
+      <div class="hero-background-overlay"></div>
+      <div class="hero-background-pattern"></div>
+      
+      <div class="hero-container">
+        <!-- Main Heading with SEO optimization -->
+        <header>
+          <h1 class="hero-title">
+            🏆 Best Online Casinos 2025 - Ultimate Rankings
+          </h1>
+          <p class="hero-subtitle">
+            Multi-agent validation system provides the most accurate casino rankings with comprehensive analysis of bonuses, games, safety, and payout speeds.
+          </p>
+        </header>
+        
+        <!-- Call to Action Buttons -->
+        <div class="hero-cta-container">
+          <a 
+            href="#casino-grid" 
+            class="hero-cta-primary"
+            aria-label="View our top-rated casino recommendations"
+          >
+            View Top Casinos
+            <svg class="ml-2 w-4 h-4 lg:w-5 lg:h-5 group-hover:translate-x-1 transition-transform" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            </svg>
+          </a>
+          <a 
+            href="#bonus-categories" 
+            class="hero-cta-secondary"
+            aria-label="Explore bonus categories and offers"
+          >
+            Explore Bonuses
+            <svg class="ml-2 w-4 h-4 lg:w-5 lg:h-5 inline group-hover:text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path>
+            </svg>
+          </a>
+        </div>
+        
+        <!-- Trust Indicators -->
+        <div class="hero-trust-indicators">
+          <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+          </svg>
+          <span>🏆 {filteredCasinos.length} Top Casinos • ⚡ Multi-Agent Validated • 🛡️ Licensed & Safe • Updated 2025</span>
+        </div>
+        
+        <!-- Key Features Preview -->
+        <div class="hero-features-grid">
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">
+              <svg class="w-5 h-5 lg:w-6 lg:h-6 text-green-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+            <p class="hero-feature-text">Licensed & Safe</p>
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">
+              <svg class="w-5 h-5 lg:w-6 lg:h-6 text-blue-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+            <p class="hero-feature-text">Fast Payouts</p>
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">
+              <svg class="w-5 h-5 lg:w-6 lg:h-6 text-purple-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+            <p class="hero-feature-text">Multi-Agent Verified</p>
+          </div>
+          <div class="hero-feature-item">
+            <div class="hero-feature-icon">
+              <svg class="w-5 h-5 lg:w-6 lg:h-6 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+              </svg>
+            </div>
+            <p class="hero-feature-text">Top Bonuses</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BONUS CATEGORIES - VALIDATED STRUCTURE -->
+    <section id="bonus-categories" class="container mx-auto px-6 py-12">
+      <h2 class="text-3xl font-bold text-center mb-12 text-white">Multi-Agent Validated Categories</h2>
+      
+      <div class="grid md:grid-cols-2 gap-8 mb-16">
+        {bonusCategories.map((category) => (
+          <div class="bg-gray-800/50 backdrop-blur-sm rounded-2xl shadow-xl p-8 text-center hover:shadow-2xl transition-shadow duration-300 border border-gray-700">
+            <div class="text-6xl mb-4">{category.icon}</div>
+            <h3 class="text-xl font-bold mb-3 text-white">{category.title}</h3>
+            <p class="text-gray-300 mb-4">{category.description}</p>
+            <div class="bg-amber-500/20 text-amber-300 px-4 py-2 rounded-full inline-block border border-amber-500/30">
+              {category.count} Available
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- CASINO GRID - USING ENHANCED CASINO CARDS -->
+    <section id="casino-grid" class="container mx-auto px-6 pb-16">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold mb-4 text-white">🏆 All {filteredCasinos.length} Casino Reviews</h2>
+        <p class="text-gray-300 text-lg">Expert validated comprehensive reviews with detailed analysis</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        {enhancedCasinos.map((casino, index) => (
+          <div class="transform hover:scale-[1.01] transition-all duration-300">
+            <EnhancedCasinoCard 
+              casino={casino}
+              variant={index < 3 ? 'featured' : 'default'}
+              rank={index + 1}
+              client:load
+            />
+          </div>
+        ))}
+      </div>
+    </section>
+  </main>
+</SimplePageLayout>
+
+<!-- TAILWIND V3 ANIMATIONS -->
+<style>
+  .casino-card {
+    animation: fadeInUp 0.6s ease-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>

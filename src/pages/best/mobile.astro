@@ -1,17 +1,129 @@
 ---
-import TopList from '../../components/Lists/TopList.astro';
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+import { EnhancedCasinoCard } from '../../components/Casino/EnhancedCasinoCard';
+import type { CasinoCardData } from '../../components/Casino/EnhancedCasinoCard';
 import casinos from '../../../data/casinos.json';
-const list = casinos.filter(c=> (c.providers||[]).length > 0); // placeholder: mobile-friendly heuristic
+import { getBrandLogo } from '../../lib/getBrandLogo';
+
+const navigationCoordinator = new NavigationCoordinator();
+
+const title = 'Best Mobile Casinos | Top Casino Apps & Mobile Sites';
+const description = 'Discover the best mobile casinos with optimized apps and mobile-friendly websites. Play your favorite casino games on the go.';
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/best/mobile');
+
+const mobileCasinos = casinos.filter(c=> 
+  (c.providers||[]).length > 0
+).slice(0, 12);
+
+// Map casino data to enhanced component format
+const mapCasinoToCardData = (casino: any, rank: number): CasinoCardData => {
+  return {
+    id: casino.slug || `casino-${rank}`,
+    name: casino.brand || "Casino",
+    logo: getBrandLogo(casino.url, casino.slug),
+    slug: casino.slug || `casino-${rank}`,
+    rating: {
+      overall: Number((casino.overallRating || 9.0).toFixed(1)),
+      trust: casino.ratings?.reputation || 9,
+      bonuses: casino.ratings?.bonusValue || 9,
+      games: casino.ratings?.games || 9,
+      support: casino.ratings?.support || 9,
+      payout: casino.ratings?.payout || 9
+    },
+    bonuses: {
+      welcome: {
+        amount: casino.bonuses?.welcome?.headline || "€500 Welcome Bonus",
+        type: 'match' as const,
+        wagering: parseInt((casino.bonuses?.welcome?.wagering || '35x').replace('x', '')) || 35
+      }
+    },
+    features: [
+      { icon: '📱', label: 'Mobile Optimized' },
+      { icon: '🎮', label: 'Touch-Friendly' },
+      { icon: '⚡', label: 'Fast Loading' }
+    ],
+    payoutSpeed: {
+      min: '24h',
+      max: '72h',
+      category: 'fast' as const
+    },
+    licenses: [
+      {
+        name: casino.license || "Malta Gaming Authority",
+        country: 'Malta',
+        logo: '/images/license-malta.png'
+      }
+    ],
+    established: parseInt(casino.established) || 2020,
+    gameCount: casino.gameCount || 1000,
+    minDeposit: casino.minDeposit || '€10',
+    currencies: casino.currencies || ['EUR', 'USD'],
+    languages: casino.languages || ['English']
+  };
+};
+
+const enhancedCasinos = mobileCasinos.map((casino, index) => mapCasinoToCardData(casino, index + 1));
 ---
-<html>
-  <head>
-    <title>Best Mobile Casinos — BestCasinoPortal</title>
-  </head>
-  <body>
-    <main>
-      <h1>Best Mobile Casinos</h1>
-      <p class="text-sm text-gray-600">Casinos with the best mobile experience.</p>
-      <TopList items={list} />
-    </main>
-  </body>
-</html>
+
+<SimplePageLayout 
+  title={title}
+  description={description}
+  breadcrumbs={breadcrumbs}
+>
+  <main class="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <!-- HERO SECTION -->
+    <section class="bg-gradient-to-r from-purple-600 to-purple-400 text-white py-20">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-5xl font-bold mb-6">📱 Best Mobile Casinos</h1>
+        <p class="text-xl text-purple-100 max-w-2xl mx-auto">
+          Play your favorite casino games anytime, anywhere with top-rated mobile casino apps and sites
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="container mx-auto px-6 py-16">
+      <div class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+        <h2 class="text-3xl font-bold mb-6">Top Mobile Gaming Platforms</h2>
+        <p class="text-lg text-gray-600 mb-8">
+          These casinos offer exceptional mobile experiences with responsive design, dedicated apps, and full game libraries optimized for mobile play.
+        </p>
+        
+        <div class="grid md:grid-cols-2 gap-8 mb-8">
+          <div class="p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl">
+            <h3 class="font-bold text-xl mb-4">📲 Mobile Apps</h3>
+            <ul class="space-y-2 text-gray-700">
+              <li>• Native iOS and Android apps</li>
+              <li>• Faster loading and smoother gameplay</li>
+              <li>• Push notifications for bonuses</li>
+              <li>• Offline account management</li>
+            </ul>
+          </div>
+          
+          <div class="p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-xl">
+            <h3 class="font-bold text-xl mb-4">🌐 Mobile Browsers</h3>
+            <ul class="space-y-2 text-gray-700">
+              <li>• No download required</li>
+              <li>• Works on any mobile device</li>
+              <li>• Instant play capability</li>
+              <li>• Regular updates automatically</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto">
+          {enhancedCasinos.map((casino, index) => (
+            <div class="transform hover:scale-[1.01] transition-all duration-300">
+              <EnhancedCasinoCard 
+                casino={casino}
+                variant={index < 3 ? 'featured' : 'default'}
+                client:load
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+</SimplePageLayout>

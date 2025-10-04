@@ -1,0 +1,40 @@
+{
+  "batch": 6,
+  "results": [
+    {
+      "id": 29,
+      "name": "Amunra",
+      "domain": "https://www.hugedomains.com/domain_profile.cfm?d=amunracasino.com",
+      "logoUrl": "https://static.hugedomains.com/images/hdv3-img/hd-header-logo-v3.svg",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 30,
+      "name": "Zotabet",
+      "domain": "https://www.zotabet.com/",
+      "logoUrl": "https://www.zotabet.com/images/left-header-menu/home.svg?hash=ba7b7d65f08cc96181c5e3681a624b78",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 31,
+      "name": "Slotlords",
+      "domain": null,
+      "logoUrl": null,
+      "downloaded": false,
+      "error": "No logo found on any domain"
+    },
+    {
+      "id": 32,
+      "name": "Cashalot",
+      "domain": "https://cashalot.casino/",
+      "logoUrl": "https://cashalot.casino/templates/cashalot/img/general-category/logo.webp",
+      "downloaded": true,
+      "error": null
+    }
+  ],
+  "succeeded": 3,
+  "failed": 1,
+  "elapsed": "45.1"
+}

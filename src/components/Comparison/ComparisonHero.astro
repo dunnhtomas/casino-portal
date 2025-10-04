@@ -1,0 +1,113 @@
+---
+interface CasinoData {
+  slug: string;
+  brand: string;
+  overallRating?: number;
+  bonuses?: {
+    welcome?: {
+      headline?: string;
+    };
+  };
+}
+
+interface Props {
+  casino1: CasinoData;
+  casino2: CasinoData;
+  title: string;
+}
+
+const { casino1, casino2, title } = Astro.props;
+---
+
+<section class="comparison-hero bg-gradient-to-r from-blue-900 via-purple-900 to-indigo-900 text-white py-16">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">{title}</h1>
+      <p class="text-xl text-blue-100 max-w-3xl mx-auto">
+        Comprehensive side-by-side comparison of two leading online casinos. 
+        Compare bonuses, games, payout speeds, and overall player experience.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <!-- Casino 1 Card -->
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
+        <div class="text-center">
+          <div class="w-20 h-20 bg-gray-800 rounded-xl mx-auto mb-4 flex items-center justify-center border border-gray-700">
+            <span class="text-2xl font-bold text-white">{casino1.brand.charAt(0)}</span>
+          </div>
+          <h2 class="text-2xl font-bold mb-2">{casino1.brand}</h2>
+          <div class="flex items-center justify-center mb-4">
+            <div class="flex text-yellow-400">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <span class="text-2xl">
+                  {i < Math.floor(casino1.overallRating || 8.5) ? '★' : '☆'}
+                </span>
+              ))}
+            </div>
+            <span class="ml-2 text-lg font-semibold">{casino1.overallRating || 8.5}/10</span>
+          </div>
+          <p class="text-blue-100 mb-6">{casino1.bonuses?.welcome?.headline || 'Welcome Bonus Available'}</p>
+          <a 
+            href={`/reviews/${casino1.slug}`}
+            class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+          >
+            Read Full Review
+          </a>
+        </div>
+      </div>
+
+      <!-- VS Indicator -->
+      <div class="hidden md:flex absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+        <div class="bg-gray-800 text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-xl shadow-lg border border-gray-700">
+          VS
+        </div>
+      </div>
+
+      <!-- Casino 2 Card -->
+      <div class="bg-white/10 backdrop-blur-lg rounded-2xl p-8 border border-white/20">
+        <div class="text-center">
+          <div class="w-20 h-20 bg-gray-800 rounded-xl mx-auto mb-4 flex items-center justify-center border border-gray-700">
+            <span class="text-2xl font-bold text-white">{casino2.brand.charAt(0)}</span>
+          </div>
+          <h2 class="text-2xl font-bold mb-2">{casino2.brand}</h2>
+          <div class="flex items-center justify-center mb-4">
+            <div class="flex text-yellow-400">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <span class="text-2xl">
+                  {i < Math.floor(casino2.overallRating || 8.5) ? '★' : '☆'}
+                </span>
+              ))}
+            </div>
+            <span class="ml-2 text-lg font-semibold">{casino2.overallRating || 8.5}/10</span>
+          </div>
+          <p class="text-blue-100 mb-6">{casino2.bonuses?.welcome?.headline || 'Welcome Bonus Available'}</p>
+          <a 
+            href={`/reviews/${casino2.slug}`}
+            class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors"
+          >
+            Read Full Review
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .comparison-hero {
+    position: relative;
+  }
+  
+  .comparison-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/images/casino-bg.jpg') center/cover;
+    opacity: 0.1;
+    z-index: -1;
+  }
+</style>

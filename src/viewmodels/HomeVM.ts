@@ -1,30 +1,40 @@
-import type {RatingInput} from '../managers/RatingManager';
-import {computeScore} from '../managers/RatingManager';
-import {sortByPayout} from '../managers/SortingManager';
+/**
+ * HomeVM - Home page view model utilities
+ * Contains functions for processing casino data for the home page
+ */
 
-export function getTopThree(casinos:Array<any>, count = 3){
-  const withScore = casinos.map(c=> ({...c, _score: computeScore(c.ratings as RatingInput)}));
-  withScore.sort((a,b)=> b._score - a._score);
-  return withScore.slice(0,count);
+export interface Casino {
+  slug: string;
+  brand: string;
+  overallRating?: number;
+  ratings?: {
+    security?: number;
+    payout?: number;
+    bonusValue?: number;
+    games?: number;
+    support?: number;
+    reputation?: number;
+  };
+  [key: string]: any;
 }
 
-export function getFastPayouts(casinos:Array<any>, count = 6){
-  const copy = [...casinos].sort(sortByPayout);
-  return copy.slice(0,count);
-}
-
-export function getComparisonRows(casinos:Array<any>){
-  return casinos.map(c=>({
-    slug: c.slug,
-    brand: c.brand,
-    payout: c.payoutSpeedHours || null,
-    bonusHeadline: c.bonuses?.welcome?.headline || null,
-    score: computeScore(c.ratings as RatingInput)
-  }));
-}
-
-export function getTopCasinos(casinos:Array<any>, count = 5){
-  const withScore = casinos.map(c=> ({...c, _score: computeScore(c.ratings as RatingInput)}));
-  withScore.sort((a,b)=> b._score - a._score);
-  return withScore.slice(0,count);
+/**
+ * Get top N casinos sorted by overall rating
+ */
+export function getTopThree(casinos: Casino[], count: number = 3): Casino[] {
+  return casinos
+    .map(casino => ({
+      ...casino,
+      overallRating: casino.overallRating ||
+        (casino.ratings ?
+          (casino.ratings.security || 0) * 0.2 +
+          (casino.ratings.payout || 0) * 0.2 +
+          (casino.ratings.bonusValue || 0) * 0.15 +
+          (casino.ratings.games || 0) * 0.2 +
+          (casino.ratings.support || 0) * 0.15 +
+          (casino.ratings.reputation || 0) * 0.1
+          : 0)
+    }))
+    .sort((a, b) => (b.overallRating || 0) - (a.overallRating || 0))
+    .slice(0, count);
 }

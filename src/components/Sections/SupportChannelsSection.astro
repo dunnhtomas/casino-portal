@@ -1,34 +1,183 @@
 ---
-interface SupportChannel {
-  icon: string;
-  title: string;
-  description: string;
-  bgColor: string;
-}
+// Enhanced Support Channels Section with comprehensive support options
+const supportChannels = [
+  {
+    icon: "💬",
+    title: "Live Chat Support",
+    description: "Instant help from casino experts 24/7. Average response time under 60 seconds.",
+    bgColor: "bg-gradient-to-r from-blue-500 to-indigo-600",
+    availability: "24/7",
+    responseTime: "< 60 seconds",
+    languages: ["English", "French"],
+    rating: 4.9
+  },
+  {
+    icon: "📧",
+    title: "Email Support",
+    description: "Detailed assistance for complex inquiries. Professional responses from certified experts.",
+    bgColor: "bg-gradient-to-r from-green-500 to-teal-600",
+    availability: "24/7",
+    responseTime: "< 2 hours",
+    languages: ["English", "French", "Spanish"],
+    rating: 4.8
+  },
+  {
+    icon: "📞",
+    title: "Phone Support",
+    description: "Direct line to casino specialists. Immediate assistance for urgent casino issues.",
+    bgColor: "bg-gradient-to-r from-purple-500 to-pink-600",
+    availability: "24/7",
+    responseTime: "Immediate",
+    languages: ["English", "French"],
+    rating: 4.7
+  },
+  {
+    icon: "❓",
+    title: "FAQ Database",
+    description: "Comprehensive answers to common questions. Self-service help available instantly.",
+    bgColor: "bg-gradient-to-r from-orange-500 to-red-600",
+    availability: "24/7",
+    responseTime: "Instant",
+    languages: ["English", "French", "Spanish", "German"],
+    rating: 4.6
+  },
+  {
+    icon: "🎯",
+    title: "Casino Guidance",
+    description: "Expert advice on game selection, bonuses, and responsible gambling practices.",
+    bgColor: "bg-gradient-to-r from-cyan-500 to-blue-600",
+    availability: "24/7",
+    responseTime: "< 5 minutes",
+    languages: ["English", "French"],
+    rating: 4.9
+  },
+  {
+    icon: "🛡️",
+    title: "Security Support",
+    description: "Account security, verification help, and fraud protection assistance.",
+    bgColor: "bg-gradient-to-r from-gray-600 to-gray-800",
+    availability: "24/7",
+    responseTime: "< 30 minutes",
+    languages: ["English", "French"],
+    rating: 4.8
+  }
+];
 
-interface Props {
-  supportChannels: SupportChannel[];
-}
-
-const { supportChannels } = Astro.props;
+const supportStats = [
+  { icon: "⭐", label: "Average Rating", value: "4.8/5" },
+  { icon: "⚡", label: "Avg Response", value: "< 2 min" },
+  { icon: "🌍", label: "Languages", value: "6+ Supported" },
+  { icon: "👥", label: "Expert Staff", value: "50+ Specialists" }
+];
 ---
 
-<section id="support" class="py-16 bg-white">
-  <div class="max-w-6xl mx-auto px-6">
+<section id="support" class="py-16 bg-gradient-to-br from-gray-900 to-gray-800" itemscope itemtype="https://schema.org/WebPageElement">
+  <div class="max-w-7xl mx-auto px-6">
+    <!-- Section Header -->
     <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-gray-900 mb-4">24/7 Expert Support</h2>
-      <p class="text-lg text-gray-600">Get help from our casino experts anytime</p>
+      <h2 class="text-4xl font-bold text-white mb-4" itemprop="name">🏆 24/7 Expert Casino Support</h2>
+      <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+        Get professional help from certified casino experts. Multiple contact methods available with 
+        <span class="font-semibold text-indigo-400">guaranteed response times</span> and multilingual support.
+      </p>
+      <div class="w-24 h-1 bg-gradient-to-r from-indigo-400 to-purple-600 mx-auto mt-4 rounded"></div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      {supportChannels.map(channel => (
-        <div class="text-center p-6 bg-white rounded-2xl shadow-sm">
-          <div class={`w-16 h-16 ${channel.bgColor} rounded-full mx-auto mb-4 flex items-center justify-center text-2xl`}>
-            {channel.icon}
-          </div>
-          <h3 class="font-bold text-lg text-gray-900 mb-2">{channel.title}</h3>
-          <p class="text-gray-600">{channel.description}</p>
+
+    <!-- Support Stats -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+      {supportStats.map(stat => (
+        <div class="bg-gray-800 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border border-gray-700 text-center">
+          <div class="text-3xl mb-2">{stat.icon}</div>
+          <div class="font-bold text-white text-lg">{stat.value}</div>
+          <div class="text-sm text-gray-300">{stat.label}</div>
         </div>
       ))}
+    </div>
+
+    <!-- Support Channels Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      {supportChannels.map(channel => (
+        <div class="bg-gray-800 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-700 transform hover:-translate-y-1">
+          <!-- Header with Gradient -->
+          <div class={`${channel.bgColor} px-6 py-4 text-white`}>
+            <div class="flex items-center justify-between">
+              <div>
+                <div class="text-3xl mb-1">{channel.icon}</div>
+                <h3 class="font-bold text-lg">{channel.title}</h3>
+              </div>
+              <div class="text-right">
+                <div class="text-sm opacity-90">Rating</div>
+                <div class="font-bold text-lg">{channel.rating}★</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="p-6">
+            <p class="text-gray-600 text-sm mb-4">{channel.description}</p>
+            
+            <div class="space-y-3">
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-500">Availability:</span>
+                <span class="font-semibold text-green-600">{channel.availability}</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-500">Response Time:</span>
+                <span class="font-semibold text-white">{channel.responseTime}</span>
+              </div>
+              <div class="flex justify-between text-sm">
+                <span class="text-gray-500">Languages:</span>
+                <span class="font-semibold text-white">{channel.languages.length}</span>
+              </div>
+            </div>
+
+            <!-- Languages List -->
+            <div class="mt-4">
+              <h4 class="text-sm font-semibold text-white mb-2">Supported Languages:</h4>
+              <div class="flex flex-wrap gap-1">
+                {channel.languages?.map(lang => (
+                  <span class="inline-block bg-gray-700 text-gray-200 text-xs px-2 py-1 rounded-full">
+                    {lang}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <!-- Contact Button -->
+            <div class="mt-6">
+              <button class="w-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-200 text-sm transform hover:scale-105">
+                Contact Now
+              </button>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Call to Action -->
+    <div class="text-center">
+      <div class="bg-gray-800 rounded-2xl p-8 shadow-lg border border-gray-700 max-w-4xl mx-auto">
+        <h3 class="text-2xl font-bold text-white mb-4">🚀 Need Help Choosing a Casino?</h3>
+        <p class="text-gray-300 mb-6">
+          Our expert team is ready to help you find the perfect casino based on your preferences, budget, and gaming style.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <button class="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-bold py-3 px-8 rounded-xl transition-all duration-200 transform hover:scale-105 shadow-lg">
+            💬 Chat with Expert
+          </button>
+          <a href="#top-three" class="bg-gray-700 hover:bg-gray-600 text-white font-semibold py-3 px-8 rounded-xl transition-colors duration-200">
+            View Top Casinos
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Trust Indicators -->
+    <div class="mt-8 flex flex-wrap justify-center gap-4 text-sm text-gray-300">
+      <span class="bg-gray-700 px-4 py-2 rounded-full shadow-sm">🎓 Certified Experts</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-full shadow-sm">🔒 Confidential Help</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-full shadow-sm">⚡ Fast Response</span>
+      <span class="bg-gray-700 px-4 py-2 rounded-full shadow-sm">🌍 Multilingual</span>
     </div>
   </div>
 </section>

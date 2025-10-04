@@ -1,0 +1,196 @@
+---
+interface Props {
+  casino1: any;
+  casino2: any;
+}
+
+const { casino1, casino2 } = Astro.props;
+---
+
+<section class="comparison-analysis py-16 bg-gradient-to-br from-gray-900 to-gray-800">
+  <div class="container mx-auto px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-white mb-4">Expert Analysis</h2>
+        <p class="text-gray-300">
+          Our detailed comparison breakdown to help you choose the right casino for your gaming preferences.
+        </p>
+      </div>
+
+      <div class="space-y-12">
+        <!-- Bonus Comparison -->
+        <div class="bg-gray-800 rounded-xl p-8 shadow-lg border border-gray-700">
+          <h3 class="text-2xl font-bold text-white mb-6 flex items-center">
+            <span class="text-green-400 mr-3">🎁</span>
+            Bonus Comparison
+          </h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <h4 class="text-lg font-semibold text-blue-400 mb-3">{casino1.name}</h4>
+              <p class="text-gray-300 mb-4">{casino1.bonus}</p>
+              <ul class="space-y-2">
+                <li class="flex items-center text-sm text-gray-300">
+                  <span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                  Welcome bonus up to $1000
+                </li>
+                <li class="flex items-center text-sm">
+                  <span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                  35x wagering requirement
+                </li>
+                <li class="flex items-center text-sm">
+                  <span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                  Valid for 30 days
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-purple-400 mb-3">{casino2.name}</h4>
+              <p class="text-gray-300 mb-4">{casino2.bonus}</p>
+              <ul class="space-y-2">
+                <li class="flex items-center text-sm text-gray-300">
+                  <span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                  Welcome package with free spins
+                </li>
+                <li class="flex items-center text-sm">
+                  <span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                  40x wagering requirement
+                </li>
+                <li class="flex items-center text-sm">
+                  <span class="w-2 h-2 bg-green-500 rounded-full mr-3"></span>
+                  Valid for 21 days
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Game Selection -->
+        <div class="bg-gray-800 rounded-xl p-8 shadow-lg border border-gray-700">
+          <h3 class="text-2xl font-bold text-white mb-6 flex items-center">
+            <span class="text-blue-400 mr-3">🎮</span>
+            Game Selection
+          </h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <h4 class="text-lg font-semibold text-blue-800 mb-3">{casino1.name}</h4>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Slots</span>
+                  <span class="font-semibold">500+</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Table Games</span>
+                  <span class="font-semibold">50+</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Live Dealer</span>
+                  <span class="font-semibold">30+</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Jackpots</span>
+                  <span class="font-semibold">20+</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-purple-800 mb-3">{casino2.name}</h4>
+              <div class="space-y-4">
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Slots</span>
+                  <span class="font-semibold">400+</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Table Games</span>
+                  <span class="font-semibold">40+</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Live Dealer</span>
+                  <span class="font-semibold">25+</span>
+                </div>
+                <div class="flex justify-between items-center">
+                  <span class="text-gray-600">Jackpots</span>
+                  <span class="font-semibold">15+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Banking & Security -->
+        <div class="bg-gray-800 rounded-xl p-8 shadow-lg border border-gray-700">
+          <h3 class="text-2xl font-bold text-white mb-6 flex items-center">
+            <span class="text-yellow-400 mr-3">🔒</span>
+            Banking & Security
+          </h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <h4 class="text-lg font-semibold text-blue-400 mb-3">{casino1.name}</h4>
+              <ul class="space-y-2">
+                <li class="flex items-center text-sm">
+                  <span class="text-green-500 mr-2">✓</span>
+                  SSL 256-bit encryption
+                </li>
+                <li class="flex items-center text-sm">
+                  <span class="text-green-500 mr-2">✓</span>
+                  Licensed and regulated
+                </li>
+                <li class="flex items-center text-sm">
+                  <span class="text-green-500 mr-2">✓</span>
+                  Fast withdrawal processing
+                </li>
+                <li class="flex items-center text-sm">
+                  <span class="text-green-500 mr-2">✓</span>
+                  Multiple payment methods
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4 class="text-lg font-semibold text-purple-800 mb-3">{casino2.name}</h4>
+              <ul class="space-y-2">
+                <li class="flex items-center text-sm">
+                  <span class="text-green-500 mr-2">✓</span>
+                  Advanced security protocols
+                </li>
+                <li class="flex items-center text-sm">
+                  <span class="text-green-500 mr-2">✓</span>
+                  Regulated by top authorities
+                </li>
+                <li class="flex items-center text-sm">
+                  <span class="text-green-500 mr-2">✓</span>
+                  24-hour withdrawal times
+                </li>
+                <li class="flex items-center text-sm">
+                  <span class="text-green-500 mr-2">✓</span>
+                  Cryptocurrency support
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Final Verdict -->
+        <div class="bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl p-8 text-white">
+          <h3 class="text-2xl font-bold mb-6 text-center">Our Verdict</h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="text-center">
+              <h4 class="text-xl font-semibold mb-3">{casino1.name}</h4>
+              <p class="text-blue-100 mb-4">
+                Excellent choice for players who value extensive game selection and generous bonuses. 
+                Strong reputation and reliable customer support make it a solid option.
+              </p>
+              <div class="text-2xl font-bold">{casino1.rating}/10</div>
+            </div>
+            <div class="text-center">
+              <h4 class="text-xl font-semibold mb-3">{casino2.name}</h4>
+              <p class="text-purple-100 mb-4">
+                Great for mobile players and those seeking fast payouts. Modern interface and 
+                innovative features provide an excellent gaming experience.
+              </p>
+              <div class="text-2xl font-bold">{casino2.rating}/10</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

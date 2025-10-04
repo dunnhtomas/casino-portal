@@ -1,0 +1,48 @@
+{
+  "batch": 3,
+  "results": [
+    {
+      "id": 14,
+      "name": "Betvili",
+      "domain": "https://betvili.casino/",
+      "logoUrl": "https://betvili.casino/templates/betvili/img/general-category/logo.webp",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 15,
+      "name": "Betroom24",
+      "domain": "https://betroom24.casino/",
+      "logoUrl": "https://betroom24.casino/templates/betroom24/img/general-category/logo.webp",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 16,
+      "name": "Lulobet",
+      "domain": null,
+      "logoUrl": null,
+      "downloaded": false,
+      "error": "No logo found on any domain"
+    },
+    {
+      "id": 17,
+      "name": "Gslot",
+      "domain": "https://g-slot.casino/",
+      "logoUrl": "https://g-slot.casino/templates/g-slot/img/general-category/logo.webp",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 18,
+      "name": "Boomerang",
+      "domain": "https://boomerang-bet.casino/",
+      "logoUrl": "https://boomerang-bet.casino/img/biglogo.png",
+      "downloaded": true,
+      "error": null
+    }
+  ],
+  "succeeded": 4,
+  "failed": 1,
+  "elapsed": "19.6"
+}

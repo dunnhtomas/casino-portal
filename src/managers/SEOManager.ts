@@ -1,43 +1,52 @@
-import type { ISEOService } from '../interfaces/ServiceInterfaces';
-
 /**
- * SEOManager - Handles all SEO-related metadata generation
- * Single Responsibility: SEO meta tags and social media metadata
+ * SEOManagerCoordinator (Refactored)
+ * Single Responsibility: Coordinate different SEO managers
+ * Follows composition over inheritance principle
  */
-export interface SEOMetadata {
-  title: string;
-  description: string;
-  keywords: string;
-  ogImage: string;
-  twitterCard: string;
-  canonicalUrl: string;
-}
 
-export class SEOManager implements ISEOService {
-  private readonly baseUrl = 'https://bestcasinoportal.com';
+import type { ISEOManager } from '../core/interfaces/ApplicationInterfaces';
+import type { Casino, Region } from '../core/types/DomainTypes';
+import type { SEOMetadata } from '../core/interfaces/SEOInterfaces';
 
+import { HomepageSEOManager } from './seo/HomepageSEOManager';
+import { CasinoSEOManager } from './seo/CasinoSEOManager';
+import { RegionSEOManager } from './seo/RegionSEOManager';
+
+// Legacy interface for backward compatibility
+interface MetaData extends SEOMetadata {}
+
+export class SEOManager implements ISEOManager {
+  private homepageSEOManager: HomepageSEOManager;
+  private casinoSEOManager: CasinoSEOManager;
+  private regionSEOManager: RegionSEOManager;
+
+  constructor() {
+    this.homepageSEOManager = new HomepageSEOManager();
+    this.casinoSEOManager = new CasinoSEOManager();
+    this.regionSEOManager = new RegionSEOManager();
+  }
+
+  /**
+   * Generate homepage SEO metadata
+   */
   generateHomepageMetadata(): SEOMetadata {
-    const title = "Best Online Casinos 2025 - Expert Reviews & Ratings";
-    const description = "Compare the best online casinos with expert reviews, transparent ratings, and verified payouts. Find your perfect casino with fast withdrawals and fair bonuses.";
-    
-    return {
-      title,
-      description,
-      keywords: "best online casinos 2025, online casino reviews, casino bonuses, fast payout casinos, trusted casino sites, live dealer casinos",
-      ogImage: `${this.baseUrl}/images/og-casino-reviews.jpg`,
-      twitterCard: 'summary_large_image',
-      canonicalUrl: this.baseUrl
-    };
+    return this.homepageSEOManager.generateMetadata();
   }
 
-  generatePageMetadata(pageType: string, customTitle?: string, customDescription?: string): SEOMetadata {
-    const baseMetadata = this.generateHomepageMetadata();
-    
-    return {
-      ...baseMetadata,
-      title: customTitle || baseMetadata.title,
-      description: customDescription || baseMetadata.description,
-      canonicalUrl: `${this.baseUrl}/${pageType}`
-    };
+  /**
+   * Generate casino review SEO metadata
+   */
+  generateCasinoReviewMetadata(casino: Casino): MetaData {
+    return this.casinoSEOManager.generateMetadata(casino);
+  }
+
+  /**
+   * Generate region page SEO metadata
+   */
+  generateRegionMetadata(region: Region): MetaData {
+    return this.regionSEOManager.generateMetadata(region);
   }
 }
+
+// Re-export for backward compatibility
+export type { SEOMetadata };

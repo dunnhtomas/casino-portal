@@ -1,0 +1,147 @@
+---
+interface Props {
+  currentCountry?: string;
+}
+
+const { currentCountry } = Astro.props;
+
+// Featured countries for quick access
+const featuredCountries = [
+  { code: 'UK', name: 'United Kingdom', slug: 'united-kingdom', flag: '🇬🇧' },
+  { code: 'DE', name: 'Germany', slug: 'germany', flag: '🇩🇪' },
+  { code: 'CA', name: 'Canada', slug: 'canada', flag: '🇨🇦' },
+  { code: 'AU', name: 'Australia', slug: 'australia', flag: '🇦🇺' },
+  { code: 'FR', name: 'France', slug: 'france', flag: '🇫🇷' },
+  { code: 'ES', name: 'Spain', slug: 'spain', flag: '🇪🇸' }
+];
+---
+
+<nav class="bg-gray-900 border-b border-gray-800 sticky top-0 z-50 backdrop-blur-sm bg-gray-900/95">
+  <div class="container mx-auto px-4">
+    <div class="flex items-center justify-between h-16">
+      
+      <!-- Logo -->
+      <div class="flex items-center space-x-4">
+        <a href="/" class="flex items-center space-x-2">
+          <span class="text-2xl">🎰</span>
+          <span class="text-xl font-bold text-white">Best Casino Portal</span>
+        </a>
+      </div>
+      
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="/" class="text-gray-300 hover:text-blue-400 font-medium transition-colors">
+          Home
+        </a>
+        
+        <a href="/best" class="text-gray-300 hover:text-blue-400 font-medium transition-colors">
+          Best Casinos
+        </a>
+        
+        <a href="/guides" class="text-gray-300 hover:text-blue-400 font-medium transition-colors">
+          Guides
+        </a>
+        
+        <!-- Countries Dropdown -->
+        <div class="relative group">
+          <button class="flex items-center space-x-1 text-gray-300 hover:text-blue-400 font-medium transition-colors">
+            <span>Countries</span>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          
+          <!-- Dropdown Menu -->
+          <div class="absolute top-full left-0 mt-2 w-80 bg-gray-800 rounded-lg shadow-xl border border-gray-700 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
+            <div class="p-4">
+              <div class="text-sm font-semibold text-gray-400 mb-3">Popular Countries</div>
+              
+              <!-- Featured Countries Grid -->
+              <div class="grid grid-cols-2 gap-2 mb-4">
+                {featuredCountries.map((country) => (
+                  <a href={`/country/${country.slug}`} 
+                     class={`flex items-center space-x-2 p-2 rounded-lg hover:bg-gray-700 transition-colors ${
+                       currentCountry === country.slug ? 'bg-blue-900/50 text-blue-400' : 'text-gray-300'
+                     }`}>
+                    <span class="text-lg">{country.flag}</span>
+                    <span class="text-sm font-medium">{country.name}</span>
+                  </a>
+                ))}
+              </div>
+              
+              <!-- View All Countries -->
+              <div class="border-t border-gray-700 pt-3">
+                <a href="/countries" 
+                   class="flex items-center justify-between w-full p-2 text-sm font-medium text-blue-400 hover:bg-gray-700 rounded-lg transition-colors">
+                  <span>View All Countries</span>
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <div class="md:hidden">
+        <button class="mobile-menu-toggle p-2 rounded-lg text-gray-300 hover:bg-gray-800">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden md:hidden border-t border-gray-800 py-4">
+      <div class="space-y-4">
+        <a href="/" class="block text-gray-300 hover:text-blue-400 font-medium">
+          Home
+        </a>
+        
+        <a href="/best" class="block text-gray-300 hover:text-blue-400 font-medium">
+          Best Casinos
+        </a>
+        
+        <a href="/guides" class="block text-gray-300 hover:text-blue-400 font-medium">
+          Guides
+        </a>
+        
+        <div class="border-t border-gray-800 pt-4">
+          <div class="text-sm font-semibold text-gray-400 mb-3">Countries</div>
+          
+          <div class="grid grid-cols-2 gap-2 mb-4">
+            {featuredCountries.map((country) => (
+              <a href={`/country/${country.slug}`} 
+                 class="flex items-center space-x-2 p-2 rounded-lg hover:bg-gray-800 text-gray-300">
+                <span>{country.flag}</span>
+                <span class="text-sm">{country.name}</span>
+              </a>
+            ))}
+          </div>
+          
+          <a href="/countries" 
+             class="block w-full text-center p-2 text-sm font-medium text-blue-400 bg-gray-800 rounded-lg hover:bg-gray-700">
+            View All Countries
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  // Mobile menu toggle
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.querySelector('.mobile-menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    
+    if (toggleButton && mobileMenu) {
+      toggleButton.addEventListener('click', function() {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+  });
+</script>

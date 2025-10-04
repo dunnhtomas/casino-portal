@@ -1,0 +1,397 @@
+[
+  {
+    "slug": "spellwin",
+    "url": "https://www.spellwin.com",
+    "brand": "SpellWin"
+  },
+  {
+    "slug": "winitbet",
+    "url": "https://www.winit.bet",
+    "brand": "Winit.Bet"
+  },
+  {
+    "slug": "unlimluck",
+    "url": "https://www.unlimluck.com",
+    "brand": "UnlimLuck"
+  },
+  {
+    "slug": "mr-pacho",
+    "url": "https://www.mrpacho.com",
+    "brand": "Mr Pacho"
+  },
+  {
+    "slug": "larabet",
+    "url": "https://www.larabet.com",
+    "brand": "Larabet"
+  },
+  {
+    "slug": "slotlair",
+    "url": "https://www.slotlair.co.uk",
+    "brand": "Slotlair"
+  },
+  {
+    "slug": "sagaspins",
+    "url": "https://www.sagaspins.com",
+    "brand": "SagaSpins"
+  },
+  {
+    "slug": "samba",
+    "url": "https://www.sambaslots.com",
+    "brand": "Samba Slots"
+  },
+  {
+    "slug": "willdsino",
+    "url": "https://www.willdsino.com",
+    "brand": "Willdsino"
+  },
+  {
+    "slug": "trino",
+    "url": "https://www.trinocasino.com",
+    "brand": "Trino"
+  },
+  {
+    "slug": "skyhills",
+    "url": "https://www.skyhills.com/nl",
+    "brand": "SkyHills"
+  },
+  {
+    "slug": "wonthere",
+    "url": "https://www.wonthere.co.uk",
+    "brand": "WonThere"
+  },
+  {
+    "slug": "hunter",
+    "url": "https://luckyhunter.io",
+    "brand": "Lucky Hunter"
+  },
+  {
+    "slug": "rizz",
+    "url": "https://www.rizzcasino.com",
+    "brand": "Rizz Casino"
+  },
+  {
+    "slug": "n1bet",
+    "url": "https://www.n1bet.com",
+    "brand": "N1 Bet Casino"
+  },
+  {
+    "slug": "aerobet",
+    "url": "https://www.aerobet.com",
+    "brand": "Aerobet"
+  },
+  {
+    "slug": "kings",
+    "url": "https://www.kingschip.com",
+    "brand": "Kings Chip"
+  },
+  {
+    "slug": "my-empire",
+    "url": "https://www.myempire.com",
+    "brand": "My Empire"
+  },
+  {
+    "slug": "romibet",
+    "url": "https://www.romibet.es",
+    "brand": "RomiBet"
+  },
+  {
+    "slug": "spincastle",
+    "url": "https://www.spincastle.com/uk",
+    "brand": "SpinCastle"
+  },
+  {
+    "slug": "roman",
+    "url": "https://www.romancasino.com",
+    "brand": "Roman Casino"
+  },
+  {
+    "slug": "winrolla",
+    "url": "https://www.winrolla.com",
+    "brand": "WinRolla"
+  },
+  {
+    "slug": "rollxo",
+    "url": "https://www.rollxo.com",
+    "brand": "RollXO"
+  },
+  {
+    "slug": "jackpot-raider",
+    "url": "https://www.jackpotraider.com",
+    "brand": "Jackpot Raider"
+  },
+  {
+    "slug": "lucki",
+    "url": "https://www.lucki.com",
+    "brand": "Lucki Casino"
+  },
+  {
+    "slug": "malina",
+    "url": "https://www.malinacasino.com",
+    "brand": "Malina Casino"
+  },
+  {
+    "slug": "wildrobin",
+    "url": "https://www.wildrobincasino.com",
+    "brand": "WildRobin Casino"
+  },
+  {
+    "slug": "jet4bet",
+    "url": "https://www.jet4bet.co.uk",
+    "brand": "Jet4Bet"
+  },
+  {
+    "slug": "vipzino",
+    "url": "https://www.vipzino.com",
+    "brand": "Vipzino"
+  },
+  {
+    "slug": "rolling",
+    "url": "https://www.rollingslots.com",
+    "brand": "Rolling Slots"
+  },
+  {
+    "slug": "spinmama",
+    "url": "https://www.spinmama.com",
+    "brand": "SpinMama"
+  },
+  {
+    "slug": "wildrobin-2",
+    "url": "https://www.wildrobin.com",
+    "brand": "Wild Robin"
+  },
+  {
+    "slug": "spellwin-2",
+    "url": "https://www.spellwin.com/uk",
+    "brand": "SpellWin UK"
+  },
+  {
+    "slug": "red",
+    "url": "https://www.theredcasino.com",
+    "brand": "The Red"
+  },
+  {
+    "slug": "london",
+    "url": "https://www.londoncasino.co.uk",
+    "brand": "London Casino"
+  },
+  {
+    "slug": "vegas",
+    "url": "https://www.vegasnova.com",
+    "brand": "Vegas Nova"
+  },
+  {
+    "slug": "winshark",
+    "url": "https://www.winshark.com",
+    "brand": "Winshark"
+  },
+  {
+    "slug": "tiki",
+    "url": "https://www.tikicasino.com",
+    "brand": "Tiki Casino"
+  },
+  {
+    "slug": "instaspin",
+    "url": "https://www.instaspin.com",
+    "brand": "InstaSpin"
+  },
+  {
+    "slug": "lyrabet",
+    "url": "https://www.lyrabet.gr",
+    "brand": "LyraBet"
+  },
+  {
+    "slug": "pistolo",
+    "url": "https://www.pistolocasino.com",
+    "brand": "Pistolo Casino"
+  },
+  {
+    "slug": "spingranny",
+    "url": "https://www.spingranny.at",
+    "brand": "SpinGranny"
+  },
+  {
+    "slug": "treasure",
+    "url": "https://www.treasurespins.com",
+    "brand": "Treasure Spins"
+  },
+  {
+    "slug": "spinlander",
+    "url": "https://www.spinlander.co.uk",
+    "brand": "SpinLander"
+  },
+  {
+    "slug": "joker",
+    "url": "https://www.jokeraces.com",
+    "brand": "Joker Ace's"
+  },
+  {
+    "slug": "needforspin",
+    "url": "https://se.needforspeedcasino.com",
+    "brand": "Need For Spin"
+  },
+  {
+    "slug": "orionsbet",
+    "url": "https://www.orionsbet.co.uk",
+    "brand": "Orionsbet"
+  },
+  {
+    "slug": "ivybetio",
+    "url": "https://www.ivybet.io",
+    "brand": "Ivybet.io"
+  },
+  {
+    "slug": "ritzo",
+    "url": "https://www.ritzocasino.com",
+    "brand": "Ritzo Casino"
+  },
+  {
+    "slug": "spingranny-2",
+    "url": "https://www.spingranny.com",
+    "brand": "SpinGranny"
+  },
+  {
+    "slug": "posido",
+    "url": "https://www.posido.com",
+    "brand": "Posido"
+  },
+  {
+    "slug": "wand",
+    "url": "https://www.luckywandcasino.com",
+    "brand": "Lucky Wand"
+  },
+  {
+    "slug": "spingranny-3",
+    "url": "https://www.spingranny.cz",
+    "brand": "SpinGranny Czech"
+  },
+  {
+    "slug": "vincispin",
+    "url": "https://www.vincispin.com",
+    "brand": "VinciSpin"
+  },
+  {
+    "slug": "klikki",
+    "url": "https://www.klikkicasino.com",
+    "brand": "Klikki Casino"
+  },
+  {
+    "slug": "slotit",
+    "url": "https://www.slotit.de",
+    "brand": "Slotit"
+  },
+  {
+    "slug": "lyrabet-2",
+    "url": "https://www.lyrabet.be",
+    "brand": "LyraBet Belgium"
+  },
+  {
+    "slug": "robocat",
+    "url": "https://www.robocat.de",
+    "brand": "Robocat"
+  },
+  {
+    "slug": "spins",
+    "url": "https://www.spinsdeluxe.com",
+    "brand": "Spins Deluxe"
+  },
+  {
+    "slug": "instant",
+    "url": "https://www.instantcasino.com",
+    "brand": "Instant Casino"
+  },
+  {
+    "slug": "panda",
+    "url": "https://www.goldenpanda.com",
+    "brand": "Golden Panda"
+  },
+  {
+    "slug": "magius",
+    "url": "https://www.magiuscasino.com",
+    "brand": "Magius Casino"
+  },
+  {
+    "slug": "romibet-2",
+    "url": "https://www.romibet.fr",
+    "brand": "RomiBet France"
+  },
+  {
+    "slug": "ultimluck",
+    "url": "https://www.ultimluck.com",
+    "brand": "Ultimluck Casino"
+  },
+  {
+    "slug": "slots",
+    "url": "https://www.slotsislands.com",
+    "brand": "Slots Islands"
+  },
+  {
+    "slug": "royal",
+    "url": "https://www.richroyal.com",
+    "brand": "Rich Royal"
+  },
+  {
+    "slug": "royal-2",
+    "url": "https://www.royalgames.com",
+    "brand": "Royal Game"
+  },
+  {
+    "slug": "gem",
+    "url": "https://www.luckygemcasino.com",
+    "brand": "Lucky Gem"
+  },
+  {
+    "slug": "pirate",
+    "url": "https://www.piratespins.com",
+    "brand": "Pirate Spins"
+  },
+  {
+    "slug": "needforspin-2",
+    "url": "https://es.needforspeedcasino.com",
+    "brand": "Need For Spin"
+  },
+  {
+    "slug": "wild-tokyo",
+    "url": "https://www.wildtokyo.com",
+    "brand": "Wild Tokyo"
+  },
+  {
+    "slug": "hight",
+    "url": "https://www.36hight.com",
+    "brand": "36 Hight"
+  },
+  {
+    "slug": "fortune",
+    "url": "https://www.hellofortune.com",
+    "brand": "Hello Fortune"
+  },
+  {
+    "slug": "needforspin-3",
+    "url": "https://fi.needforspeedcasino.com",
+    "brand": "Need For Spin"
+  },
+  {
+    "slug": "moana",
+    "url": "https://www.moana-casino.com",
+    "brand": "Moana Casino"
+  },
+  {
+    "slug": "prontobet",
+    "url": "https://www.prontobet.com.au",
+    "brand": "ProntoBet"
+  },
+  {
+    "slug": "11croc",
+    "url": "https://www.11croc.com/at",
+    "brand": "11Croc"
+  },
+  {
+    "slug": "11croc-2",
+    "url": "https://www.11croc.com/de",
+    "brand": "11Croc Germany"
+  },
+  {
+    "slug": "allspins",
+    "url": "https://www.allspins.com",
+    "brand": "AllSpins"
+  }
+]

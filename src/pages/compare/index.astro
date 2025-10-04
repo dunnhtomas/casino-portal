@@ -1,0 +1,54 @@
+---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+
+const pageTitle = "Casino Comparisons - Compare Online Casinos in Canada 2025";
+const pageDescription = "Compare Canadian online casinos side by side. Features, bonuses, games, payment methods, and safety ratings.";
+---
+
+<SimplePageLayout 
+  title={pageTitle}
+  description={pageDescription}
+  breadcrumbs={[
+    { label: 'Compare', href: '/compare' }
+  ]}
+>
+  <main>
+    <section class="hero py-16 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-center">{pageTitle}</h1>
+        <p class="text-xl text-center max-w-3xl mx-auto">{pageDescription}</p>
+      </div>
+    </section>
+    
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Popular Casino Comparisons</h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Best Bonus Casinos</h3>
+              <p class="text-gray-600 mb-4">Compare welcome bonus offers</p>
+              <a href="/compare/best-bonus-casinos" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+                Compare Bonuses
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Fast Payout Casinos</h3>
+              <p class="text-gray-600 mb-4">Compare withdrawal speeds</p>
+              <a href="/compare/fast-payout-casinos" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 w-full inline-block text-center">
+                Compare Payouts
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Mobile Casinos</h3>
+              <p class="text-gray-600 mb-4">Compare mobile experience</p>
+              <a href="/compare/mobile-casinos" class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 w-full inline-block text-center">
+                Compare Mobile
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+</SimplePageLayout>

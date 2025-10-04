@@ -1,0 +1,639 @@
+---
+import { EnhancedCasinoCard } from '../Casino/EnhancedCasinoCard';
+import * as HomeVM from '../../viewmodels/HomeVM';
+import type { CasinoCardData } from '../Casino/EnhancedCasinoCard';
+
+// Load data inside this isolated component to avoid hoisting across the page
+const casinos = (await import('../../../data/casinos.json')).default;
+const content = (await import('../../../data/content.json')).default;
+const top10 = HomeVM.getTopThree(casinos, 10);
+const TOP3_REASONS = content?.top3Reasons || {};
+
+// Map casino data to enhanced component format
+const mapCasinoToCardData = (casino: any, rank: number): CasinoCardData => {
+  return {
+    id: casino.slug,
+    name: casino.brand,
+    logo: casino.logo?.url || `/images/casinos/${casino.slug}.png`,
+    slug: casino.slug,
+    rating: {
+      overall: Number(casino.overallRating?.toFixed(1)) || 9.0,
+      trust: casino.ratings?.reputation || 9,
+      bonuses: casino.ratings?.bonusValue || 9,
+      games: casino.ratings?.games || 9,
+      support: casino.ratings?.support || 9,
+      payout: casino.ratings?.payout || 9
+    },
+    bonuses: {
+      welcome: {
+        amount: casino.bonuses?.welcome?.headline || "€500 Welcome Bonus",
+        type: 'match' as const,
+        wagering: parseInt(casino.bonuses?.welcome?.wagering?.replace('x', '')) || 35,
+        maxWin: casino.bonuses?.welcome?.maxCashout ? `€${casino.bonuses.welcome.maxCashout}` : undefined
+      },
+      noDeposit: casino.bonuses?.noDeposit ? {
+        amount: casino.bonuses.noDeposit.headline,
+        type: 'cash' as const,
+        wagering: parseInt(casino.bonuses.noDeposit.wagering?.replace('x', '')) || 35
+      } : undefined,
+      freeSpins: casino.bonuses?.freeSpins ? {
+        count: casino.bonuses.freeSpins.count || 50,
+        game: casino.bonuses.freeSpins.game || "Book of Dead",
+        wagering: parseInt(casino.bonuses.freeSpins.wagering?.replace('x', '')) || 35
+      } : undefined
+    },
+    features: casino.topTags?.slice(0, 3)?.map((tag: string) => ({
+      icon: tag.includes('Fast') ? '⚡' : tag.includes('License') ? '🛡️' : '🎮',
+      label: tag
+    })) || [
+      { icon: '⚡', label: 'Fast Payouts' },
+      { icon: '🛡️', label: 'Licensed' },
+      { icon: '🎮', label: 'Great Games' }
+    ],
+    payoutSpeed: {
+      min: casino.payoutSpeedHours ? `${casino.payoutSpeedHours}h` : "24h",
+      max: casino.payoutSpeedHours ? `${casino.payoutSpeedHours * 2}h` : "48h",
+      category: (casino.payoutSpeedHours || 24) <= 4 ? 'instant' as const : (casino.payoutSpeedHours || 24) <= 24 ? 'fast' as const : 'standard' as const
+    },
+    licenses: casino.licences?.map((license: string) => ({
+      name: license,
+      country: license,
+      logo: `/images/licenses/${license.toLowerCase()}.png`
+    })) || [],
+    established: casino.safety?.yearsOnline ? (new Date().getFullYear() - casino.safety.yearsOnline) : 2018,
+    gameCount: casino.gameCount || 2000,
+    minDeposit: "$10",
+    currencies: ["CAD", "USD", "EUR"],
+    languages: ["English", "French"],
+    isPopular: rank <= 1,
+    isTrusted: casino.ratings?.reputation >= 9,
+    isFeatured: rank === 1
+  };
+};
+
+const enhancedCasinos = top10.map((casino, index) => mapCasinoToCardData(casino, index + 1));
+
+// SEO structured data
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Top 10 Casino Recommendations",
+  "numberOfItems": enhancedCasinos.length,
+  "itemListElement": enhancedCasinos.map((casino, index) => ({
+    "@type": "Organization",
+    "position": index + 1,
+    "name": casino.name,
+    "url": `https://casinocompare.ca/casinos/${casino.slug}`,
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": casino.rating.overall,
+      "bestRating": "10"
+    }
+  }))
+};
+---
+
+<section 
+  id="top-three" 
+  class="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-gray-900 to-gray-800"
+  role="region"
+  aria-labelledby="top-casinos-heading"
+>
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
+  
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Mobile-First Header -->
+    <header class="text-center mb-8 sm:mb-12 lg:mb-16">
+      <h2 
+        id="top-casinos-heading"
+        class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 lg:mb-6 leading-tight"
+        data-aos="fade-up"
+        data-aos-duration="600"
+      >
+        🏆 Top 10 Casino Recommendations
+      </h2>
+      <p 
+        class="text-base sm:text-lg lg:text-xl text-gray-300 max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto leading-relaxed px-4 sm:px-0"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        data-aos-duration="600"
+      >
+        Our highest-rated casinos based on expert analysis and player reviews
+      </p>
+      <div 
+        class="w-16 sm:w-20 lg:w-24 h-1 bg-gradient-to-r from-gold-400 to-gold-600 mx-auto mt-3 sm:mt-4 lg:mt-6 rounded"
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="600"
+        aria-hidden="true"
+      ></div>
+    </header>
+    
+    <!-- Mobile-First Casino Grid with Client-side Pagination -->
+    <div id="casino-pagination-container" class="max-w-7xl mx-auto">
+      <div id="casino-grid">
+        <!-- First 5 casinos (Page 1) -->
+        <div class="casino-page active" data-page="1">
+          <!-- Consistent 3-column grid for first 3 casinos -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
+            {enhancedCasinos.slice(0, 3).map((casino, index) => (
+              <article 
+                class="casino-card-enhanced group flex flex-col h-full"
+                data-aos="fade-up"
+                data-aos-delay={100 * (index + 1)}
+                data-aos-duration="600"
+                data-casino={casino.slug}
+                role="article"
+                aria-labelledby={`casino-${casino.id}-title`}
+              >
+                <EnhancedCasinoCard 
+                  casino={casino}
+                  variant={index === 0 ? 'featured' : 'default'}
+                  rank={index + 1}
+                  client:load
+                />
+              </article>
+            ))}
+          </div>
+          
+          <!-- Next 2 casinos in consistent grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+            {enhancedCasinos.slice(3, 5).map((casino, index) => (
+              <article 
+                class="casino-card-enhanced group flex flex-col h-full"
+                data-aos="fade-up"
+                data-aos-delay={100 * (index + 4)}
+                data-aos-duration="600"
+                data-casino={casino.slug}
+                role="article"
+                aria-labelledby={`casino-${casino.id}-title`}
+              >
+                <EnhancedCasinoCard 
+                  casino={casino}
+                  variant="default"
+                  rank={index + 4}
+                  client:load
+                />
+              </article>
+            ))}
+            <!-- Empty grid item to maintain layout -->
+            <div class="hidden lg:block"></div>
+          </div>
+        </div>
+        </div>
+        
+        <!-- Next 5 casinos (Page 2) -->
+        <div class="casino-page" data-page="2" style="display: none;">
+          <!-- Consistent 3-column grid for next 3 casinos -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
+            {enhancedCasinos.slice(5, 8).map((casino, index) => (
+              <article 
+                class="casino-card-enhanced group flex flex-col h-full"
+                data-casino={casino.slug}
+                role="article"
+                aria-labelledby={`casino-${casino.id}-title`}
+              >
+                <EnhancedCasinoCard 
+                  casino={casino}
+                  variant="default"
+                  rank={index + 6}
+                  client:load
+                />
+              </article>
+            ))}
+          </div>
+          
+          <!-- Last 2 casinos in consistent grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+            {enhancedCasinos.slice(8, 10).map((casino, index) => (
+              <article 
+                class="casino-card-enhanced group flex flex-col h-full"
+                data-casino={casino.slug}
+                role="article"
+                aria-labelledby={`casino-${casino.id}-title`}
+              >
+                <EnhancedCasinoCard 
+                  casino={casino}
+                  variant="default"
+                  rank={index + 9}
+                  client:load
+                />
+              </article>
+            ))}
+            <!-- Empty grid item to maintain layout -->
+            <div class="hidden lg:block"></div>
+          </div>
+        </div>
+        </div>
+      </div>
+      
+      <!-- Mobile-First Pagination Controls -->
+      <nav 
+        class="mt-8 sm:mt-12 flex flex-col sm:flex-row justify-center items-center gap-4"
+        aria-label="Casino pagination"
+        role="navigation"
+      >
+        <button 
+          id="prev-btn"
+          class="touch-target px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-all duration-200 bg-gray-200 text-gray-400 cursor-not-allowed text-sm sm:text-base"
+          disabled
+          aria-label="Previous page"
+          type="button"
+        >
+          <span class="hidden sm:inline">← Previous</span>
+          <span class="sm:hidden">←</span>
+        </button>
+        
+        <div class="flex items-center gap-2 sm:gap-3">
+          <button 
+            class="pagination-btn touch-target w-10 h-10 sm:w-12 sm:h-12 rounded-lg font-medium transition-all duration-200 bg-gold-500 text-white shadow-md text-sm sm:text-base"
+            data-page="1"
+            aria-label="Page 1"
+            aria-current="page"
+            type="button"
+          >
+            1
+          </button>
+          <button 
+            class="pagination-btn touch-target w-10 h-10 sm:w-12 sm:h-12 rounded-lg font-medium transition-all duration-200 bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-gold-400 shadow-sm border border-gray-700 text-sm sm:text-base"
+            data-page="2"
+            aria-label="Page 2"
+            type="button"
+          >
+            2
+          </button>
+        </div>
+        
+        <button 
+          id="next-btn"
+          class="touch-target px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-medium transition-all duration-200 bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-gold-400 shadow-sm border border-gray-700 text-sm sm:text-base"
+          aria-label="Next page"
+          type="button"
+        >
+          <span class="hidden sm:inline">Next →</span>
+          <span class="sm:hidden">→</span>
+        </button>
+      </nav>
+      
+      <!-- Page indicator -->
+      <div 
+        id="page-indicator" 
+        class="mt-3 sm:mt-4 text-center text-xs sm:text-sm text-gray-500"
+        aria-live="polite"
+        aria-atomic="true"
+      >
+        Showing 1-5 of 10 top-rated casinos
+      </div>
+    </div>
+    
+    <!-- Mobile-First Trust Indicators -->
+    <footer class="mt-12 sm:mt-16 lg:mt-20 text-center">
+      <p 
+        class="text-base sm:text-lg text-gray-300 mb-4 sm:mb-6 px-4 sm:px-0"
+        data-aos="fade-up"
+        data-aos-delay="600"
+        data-aos-duration="600"
+      >
+        🎯 Our recommendations are based on rigorous testing and expert analysis
+      </p>
+      <div 
+        class="flex flex-wrap justify-center gap-2 sm:gap-3 lg:gap-4 text-xs sm:text-sm text-gray-400 px-4 sm:px-0"
+        data-aos="fade-up"
+        data-aos-delay="800"
+        data-aos-duration="600"
+      >
+        <span class="bg-gray-800 px-3 sm:px-4 py-2 rounded-full shadow-sm whitespace-nowrap border border-gray-700">✅ Licensed & Regulated</span>
+        <span class="bg-gray-800 px-3 sm:px-4 py-2 rounded-full shadow-sm whitespace-nowrap border border-gray-700">🛡️ SSL Secured</span>
+        <span class="bg-gray-800 px-3 sm:px-4 py-2 rounded-full shadow-sm whitespace-nowrap border border-gray-700">⚡ Fast Payouts</span>
+        <span class="bg-gray-800 px-3 sm:px-4 py-2 rounded-full shadow-sm whitespace-nowrap border border-gray-700">🎮 Premium Games</span>
+      </div>
+    </footer>
+  </div>
+</section>
+
+<!-- Mobile-First Pagination Script with Enhanced UX -->
+<script>
+  // Enhanced mobile-first pagination functionality
+  let currentPage = 1;
+  const totalPages = 2;
+  const itemsPerPage = 5;
+  const totalItems = 10;
+
+  function showPage(page: number): void {
+    // Hide all pages with smooth transition
+    const allPages = document.querySelectorAll('.casino-page') as NodeListOf<HTMLElement>;
+    allPages.forEach(pageEl => {
+      pageEl.style.display = 'none';
+      pageEl.classList.remove('active');
+      pageEl.setAttribute('aria-hidden', 'true');
+    });
+    
+    // Show selected page with animation
+    const targetPage = document.querySelector(`[data-page="${page}"]`) as HTMLElement;
+    if (targetPage) {
+      targetPage.style.display = 'block';
+      targetPage.classList.add('active');
+      targetPage.removeAttribute('aria-hidden');
+      
+      // Smooth scroll to top of section on mobile
+      if (window.innerWidth < 768) {
+        const section = document.getElementById('top-three');
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    }
+    
+    // Update pagination buttons with accessibility
+    const paginationButtons = document.querySelectorAll('.pagination-btn') as NodeListOf<HTMLButtonElement>;
+    paginationButtons.forEach(btn => {
+      btn.classList.remove('bg-gold-500', 'text-white', 'shadow-md');
+      btn.classList.add('bg-white', 'text-gray-700', 'hover:bg-gold-50', 'hover:text-gold-700', 'shadow-sm', 'border', 'border-gray-200');
+      btn.removeAttribute('aria-current');
+    });
+    
+    const activeBtn = document.querySelector(`[data-page="${page}"]`) as HTMLButtonElement;
+    if (activeBtn) {
+      activeBtn.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gold-50', 'hover:text-gold-700', 'shadow-sm', 'border', 'border-gray-200');
+      activeBtn.classList.add('bg-gold-500', 'text-white', 'shadow-md');
+      activeBtn.setAttribute('aria-current', 'page');
+    }
+    
+    // Update prev/next buttons with mobile optimization
+    const prevBtn = document.getElementById('prev-btn') as HTMLButtonElement;
+    const nextBtn = document.getElementById('next-btn') as HTMLButtonElement;
+    
+    if (prevBtn) {
+      if (page === 1) {
+        prevBtn.disabled = true;
+        prevBtn.classList.add('bg-gray-200', 'text-gray-400', 'cursor-not-allowed');
+        prevBtn.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gold-50', 'hover:text-gold-700', 'shadow-sm', 'border', 'border-gray-200');
+        prevBtn.setAttribute('aria-disabled', 'true');
+      } else {
+        prevBtn.disabled = false;
+        prevBtn.classList.remove('bg-gray-200', 'text-gray-400', 'cursor-not-allowed');
+        prevBtn.classList.add('bg-white', 'text-gray-700', 'hover:bg-gold-50', 'hover:text-gold-700', 'shadow-sm', 'border', 'border-gray-200');
+        prevBtn.removeAttribute('aria-disabled');
+      }
+    }
+    
+    if (nextBtn) {
+      if (page === totalPages) {
+        nextBtn.disabled = true;
+        nextBtn.classList.add('bg-gray-200', 'text-gray-400', 'cursor-not-allowed');
+        nextBtn.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gold-50', 'hover:text-gold-700', 'shadow-sm', 'border', 'border-gray-200');
+        nextBtn.setAttribute('aria-disabled', 'true');
+      } else {
+        nextBtn.disabled = false;
+        nextBtn.classList.remove('bg-gray-200', 'text-gray-400', 'cursor-not-allowed');
+        nextBtn.classList.add('bg-white', 'text-gray-700', 'hover:bg-gold-50', 'hover:text-gold-700', 'shadow-sm', 'border', 'border-gray-200');
+        nextBtn.removeAttribute('aria-disabled');
+      }
+    }
+    
+    // Update page indicator with accessibility
+    const indicator = document.getElementById('page-indicator');
+    if (indicator) {
+      const startIndex = (page - 1) * itemsPerPage + 1;
+      const endIndex = Math.min(page * itemsPerPage, totalItems);
+      indicator.textContent = `Showing ${startIndex}-${endIndex} of ${totalItems} top-rated casinos`;
+    }
+    
+    currentPage = page;
+    
+    // Analytics tracking (if analytics library is available)
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'page_view', {
+        event_category: 'casino_pagination',
+        event_label: `page_${page}`,
+        value: page
+      });
+    }
+  }
+
+  // Add touch/swipe support for mobile
+  let touchStartX = 0;
+  let touchEndX = 0;
+  
+  function handleTouchStart(e: TouchEvent): void {
+    touchStartX = e.changedTouches[0].screenX;
+  }
+  
+  function handleTouchEnd(e: TouchEvent): void {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  }
+  
+  function handleSwipe(): void {
+    const swipeThreshold = 50;
+    const swipeDistance = touchStartX - touchEndX;
+    
+    if (Math.abs(swipeDistance) > swipeThreshold) {
+      if (swipeDistance > 0 && currentPage < totalPages) {
+        // Swipe left - next page
+        showPage(currentPage + 1);
+      } else if (swipeDistance < 0 && currentPage > 1) {
+        // Swipe right - previous page
+        showPage(currentPage - 1);
+      }
+    }
+  }
+
+  // Keyboard navigation support
+  function handleKeyDown(e: KeyboardEvent): void {
+    if (e.target && (e.target as HTMLElement).classList.contains('pagination-btn')) {
+      if (e.key === 'ArrowLeft' && currentPage > 1) {
+        e.preventDefault();
+        showPage(currentPage - 1);
+      } else if (e.key === 'ArrowRight' && currentPage < totalPages) {
+        e.preventDefault();
+        showPage(currentPage + 1);
+      }
+    }
+  }
+
+  // Initialize when DOM is loaded
+  document.addEventListener('DOMContentLoaded', function() {
+    // Page number buttons
+    const paginationButtons = document.querySelectorAll('.pagination-btn') as NodeListOf<HTMLButtonElement>;
+    paginationButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const pageAttr = btn.getAttribute('data-page');
+        if (pageAttr) {
+          const page = parseInt(pageAttr);
+          showPage(page);
+        }
+      });
+    });
+    
+    // Previous button
+    const prevBtn = document.getElementById('prev-btn') as HTMLButtonElement;
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        if (currentPage > 1) {
+          showPage(currentPage - 1);
+        }
+      });
+    }
+    
+    // Next button
+    const nextBtn = document.getElementById('next-btn') as HTMLButtonElement;
+    if (nextBtn) {
+      nextBtn.addEventListener('click', () => {
+        if (currentPage < totalPages) {
+          showPage(currentPage + 1);
+        }
+      });
+    }
+    
+    // Touch/swipe support for mobile
+    const casinoGrid = document.getElementById('casino-grid');
+    if (casinoGrid) {
+      casinoGrid.addEventListener('touchstart', handleTouchStart, { passive: true });
+      casinoGrid.addEventListener('touchend', handleTouchEnd, { passive: true });
+    }
+    
+    // Keyboard navigation
+    document.addEventListener('keydown', handleKeyDown);
+    
+    // Initialize first page
+    showPage(1);
+    
+    // Intersection Observer for analytics (optional)
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const casinoSlug = (entry.target as HTMLElement).dataset.casino;
+            if (casinoSlug && typeof window !== 'undefined' && (window as any).gtag) {
+              (window as any).gtag('event', 'casino_view', {
+                event_category: 'casino_interaction',
+                event_label: casinoSlug
+              });
+            }
+          }
+        });
+      }, { threshold: 0.5 });
+      
+      // Observe casino cards
+      document.querySelectorAll('[data-casino]').forEach(card => {
+        observer.observe(card);
+      });
+    }
+  });
+</script>
+
+<!-- Component-specific styles for mobile optimization -->
+<style>
+  /* Mobile-first casino card optimizations */
+  .casino-card-enhanced {
+    /* Improved mobile scroll performance */
+    will-change: transform;
+    /* Better font rendering on mobile */
+    text-rendering: optimizeLegibility;
+    /* Prevent layout shift */
+    contain: layout style paint;
+    /* Ensure consistent height */
+    min-height: 300px;
+    /* Proper flex layout */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Ensure equal height cards in grid */
+  #casino-grid .grid {
+    align-items: stretch;
+  }
+  
+  /* Fix any potential overflow issues */
+  #casino-pagination-container {
+    overflow: visible;
+  }
+  
+  /* Smooth page transitions */
+  .casino-page {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .casino-page:not(.active) {
+    opacity: 0;
+  }
+  
+  .casino-page.active {
+    opacity: 1;
+  }
+  
+  /* Touch-friendly hover effects */
+  @media (hover: hover) and (pointer: fine) {
+    .casino-card-enhanced:hover {
+      transform: translateY(-2px);
+    }
+  }
+  
+  /* Mobile touch optimization */
+  @media (pointer: coarse) {
+    .pagination-btn,
+    #prev-btn,
+    #next-btn {
+      /* Larger touch targets */
+      min-width: 48px;
+      min-height: 48px;
+      /* Better tap feedback */
+      -webkit-tap-highlight-color: rgba(229, 62, 90, 0.1);
+    }
+    
+    .casino-card-enhanced {
+      /* Remove hover effects on touch devices */
+      transform: none !important;
+    }
+  }
+  
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    .casino-card-enhanced,
+    .casino-page {
+      transition: none !important;
+      transform: none !important;
+    }
+    
+    [data-aos] {
+      animation: none !important;
+    }
+  }
+  
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    .pagination-btn,
+    #prev-btn,
+    #next-btn {
+      border: 2px solid !important;
+    }
+  }
+  
+  /* Loading state optimization */
+  .casino-card-enhanced img {
+    /* Prevent layout shift during image loading */
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+  
+  /* Better scrollbar for pagination area */
+  #casino-pagination-container {
+    scrollbar-width: thin;
+    scrollbar-color: var(--gold-400) transparent;
+  }
+  
+  #casino-pagination-container::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  #casino-pagination-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  #casino-pagination-container::-webkit-scrollbar-thumb {
+    background: var(--gold-400);
+    border-radius: 2px;
+  }
+</style>

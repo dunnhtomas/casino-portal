@@ -1,0 +1,48 @@
+{
+  "batch": 5,
+  "results": [
+    {
+      "id": 24,
+      "name": "Bizzo",
+      "domain": "https://bizzo.com/",
+      "logoUrl": "https://bizzo.com/wp-content/uploads/2020/07/bizzo-logo-red.png",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 25,
+      "name": "Cobra",
+      "domain": null,
+      "logoUrl": null,
+      "downloaded": false,
+      "error": "No logo found on any domain"
+    },
+    {
+      "id": 26,
+      "name": "Rabona",
+      "domain": "https://www.hugedomains.com/domain_profile.cfm?d=rabonacasino.com",
+      "logoUrl": "https://static.hugedomains.com/images/hdv3-img/hd-header-logo-v3.svg",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 27,
+      "name": "Nomini",
+      "domain": "https://nomini.casino/",
+      "logoUrl": "https://nomini.casino/templates/nomini/img/general-category/logo.webp",
+      "downloaded": true,
+      "error": null
+    },
+    {
+      "id": 28,
+      "name": "Cazimbo",
+      "domain": "https://cazimbo.bet/",
+      "logoUrl": "https://cazimbo.bet/img/logo.svg",
+      "downloaded": true,
+      "error": null
+    }
+  ],
+  "succeeded": 4,
+  "failed": 1,
+  "elapsed": "54.1"
+}

@@ -1,0 +1,408 @@
+/**
+ * Section Component Styles - Mobile-First Tailwind v3 Optimized
+ * Following Astro and Tailwind best practices for performance and responsive design
+ */
+
+@layer components {
+  /* Mobile-First Benefits Section - Dark Theme */
+  .benefits-section {
+    @apply py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden;
+  }
+
+  .benefits-section::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-gray-800/30 to-gray-700/20;
+  }
+
+  .benefits-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10;
+  }
+
+  .benefits-header {
+    @apply text-center mb-8 sm:mb-12 lg:mb-16;
+  }
+
+  .benefits-title {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 lg:mb-6 leading-tight;
+  }
+
+  .benefits-description {
+    @apply text-base sm:text-lg lg:text-xl text-gray-300 max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto leading-relaxed px-4 sm:px-0;
+  }
+
+  /* Mobile-First Grid - Responsive Breakpoints */
+  .benefits-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 mb-8 sm:mb-12 px-4 sm:px-0;
+  }
+
+  .benefits-card {
+    @apply bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg border border-gray-700 hover:shadow-xl transition-all duration-300 transform hover:scale-105 text-center relative overflow-hidden;
+  }
+
+  .benefits-card::before {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-casino-500 to-gold-500 group-hover:h-2 transition-all duration-300;
+  }
+
+  .benefits-icon {
+    @apply w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-3 sm:mb-4 lg:mb-6 shadow-lg group-hover:shadow-xl transition-all duration-300;
+  }
+
+  .benefits-content {
+    @apply text-center space-y-2 sm:space-y-3;
+  }
+
+  .benefits-item-title {
+    @apply font-bold text-white text-sm sm:text-base lg:text-lg leading-tight;
+  }
+
+  .benefits-item-description {
+    @apply text-xs sm:text-sm lg:text-base text-gray-300 leading-relaxed;
+  }
+
+  /* Mobile-First Metrics Section */
+  .benefits-metrics {
+    @apply flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 sm:gap-6 lg:gap-8 p-4 sm:p-6 lg:p-8 bg-gray-800 rounded-xl sm:rounded-2xl shadow-lg border border-gray-700 mx-4 sm:mx-0;
+  }
+
+  .benefits-metric {
+    @apply flex items-center gap-2 sm:gap-3 text-gray-300 font-medium text-sm sm:text-base;
+  }
+
+  .benefits-metric-dot {
+    @apply w-2 h-2 sm:w-3 sm:h-3 rounded-full shadow-md;
+  }
+
+  /* Mobile-First Why We Recommend Section */
+  #why-we-recommend {
+    @apply py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden;
+  }
+
+  #why-we-recommend .absolute {
+    @apply bg-gradient-to-r from-gray-800/30 to-gray-700/20;
+  }
+
+  /* Mobile-First Fast Payout Spotlight Section */
+  .fast-payout-section {
+    @apply py-12 sm:py-16 lg:py-20 bg-gradient-to-r from-gray-900 to-gray-800 relative overflow-hidden;
+  }
+
+  .fast-payout-section::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-br from-gray-800/20 to-gray-700/20;
+  }
+
+  .fast-payout-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10;
+  }
+
+  .fast-payout-header {
+    @apply text-center mb-8 sm:mb-12 lg:mb-16;
+  }
+
+  .fast-payout-title {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 lg:mb-6 leading-tight;
+  }
+
+  .fast-payout-subtitle {
+    @apply text-base sm:text-lg lg:text-xl text-gray-300 max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto leading-relaxed px-4 sm:px-0;
+  }
+
+  .fast-payout-cards {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8;
+  }
+
+  .fast-payout-card {
+    @apply bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg border border-gray-100 dark:border-gray-700 hover:shadow-xl transition-all duration-300 relative overflow-hidden;
+  }
+
+  .fast-payout-card::before {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-green-500 to-emerald-500 group-hover:h-2 transition-all duration-300;
+  }
+
+  /* Mobile-First Region Hubs Section - Dark Theme */
+  .region-hubs-section {
+    @apply py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden;
+  }
+
+  .region-hubs-section::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-gray-800/30 to-gray-700/20;
+  }
+
+  .region-hubs-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10;
+  }
+
+  .region-hubs-header {
+    @apply text-center mb-8 sm:mb-12 lg:mb-16;
+  }
+
+  .region-hubs-title {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 lg:mb-6 leading-tight;
+  }
+
+  .region-hubs-subtitle {
+    @apply text-base sm:text-lg lg:text-xl text-gray-300 max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto leading-relaxed px-4 sm:px-0;
+  }
+
+  .region-hubs-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8;
+  }
+
+  .region-hub-card {
+    @apply bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg border border-gray-100 dark:border-gray-700 hover:shadow-xl transition-all duration-300 relative overflow-hidden;
+  }
+
+  .region-hub-card::before {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-500 to-indigo-500 group-hover:h-2 transition-all duration-300;
+  }
+
+  /* Mobile-First Top Three Section */
+  #top-three {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+    /* Remove transform constraints that cause issues */
+  }
+
+  #top-three .casino-page {
+    /* Ensure proper layout */
+    width: 100%;
+    display: block;
+  }
+
+  #top-three .grid {
+    /* Ensure proper grid alignment */
+    align-items: stretch;
+    /* Remove max-height constraints */
+    height: auto;
+  }
+
+  /* Mobile-First Casino Card Sizing */
+  .casino-card-enhanced {
+    /* Remove max-height constraints that cause issues */
+    height: auto;
+    min-height: 400px;
+    /* Ensure proper flex layout */
+    display: flex;
+    flex-direction: column;
+    /* Prevent overflow issues */
+    overflow: visible;
+    /* Consistent spacing */
+    margin-bottom: 0;
+    /* Proper positioning */
+    position: relative;
+    /* Better box model */
+    box-sizing: border-box;
+  }
+
+  /* Mobile-First Enhanced Card Components - Dark Theme */
+  .enhanced-card {
+    @apply bg-gray-800 rounded-xl sm:rounded-2xl shadow-lg border border-gray-700 hover:shadow-xl transition-all duration-300 relative overflow-hidden;
+  }
+
+  .enhanced-card::before {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-casino-500 to-gold-500 group-hover:h-2 transition-all duration-300;
+  }
+
+  .enhanced-card-gradient-green::before {
+    @apply bg-gradient-to-r from-green-500 to-emerald-500;
+  }
+
+  .enhanced-card-gradient-blue::before {
+    @apply bg-gradient-to-r from-blue-500 to-indigo-500;
+  }
+
+  .enhanced-card-gradient-purple::before {
+    @apply bg-gradient-to-r from-purple-500 to-violet-500;
+  }
+
+  /* Mobile-First Enhanced Section Backgrounds - Dark Theme */
+  .enhanced-section-bg-gray {
+    @apply bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden;
+  }
+
+  .enhanced-section-bg-green {
+    @apply bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden;
+  }
+
+  .enhanced-section-bg-blue {
+    @apply bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden;
+  }
+
+  .enhanced-section-bg-purple {
+    @apply bg-gradient-to-br from-gray-900 to-gray-800 relative overflow-hidden;
+  }
+
+  /* Mobile-First Category Tiles */
+  .category-tiles-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8;
+  }
+
+  .category-tile {
+    @apply bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-xl border border-gray-100 dark:border-gray-700 hover:border-gray-200 dark:hover:border-gray-600 transition-all duration-300 transform hover:scale-105 cursor-pointer;
+  }
+
+  .category-tile-icon {
+    @apply text-2xl sm:text-3xl lg:text-4xl mb-3 sm:mb-4 block;
+  }
+
+  .category-tile-title {
+    @apply text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-2 sm:mb-3 group-hover:text-casino-600 transition-colors duration-300;
+  }
+
+  .category-tile-description {
+    @apply text-sm sm:text-base text-gray-600 mb-3 sm:mb-4 leading-relaxed;
+  }
+
+  .category-tile-features {
+    @apply flex flex-wrap gap-1 sm:gap-2 mb-3 sm:mb-4;
+  }
+
+  .category-tile-feature {
+    @apply text-xs sm:text-sm bg-gray-100 text-gray-700 px-2 py-1 rounded-full;
+  }
+
+  /* Mobile-First Comparison Table */
+  .comparison-table-container {
+    @apply overflow-x-auto -mx-4 sm:mx-0 bg-white rounded-none sm:rounded-xl lg:rounded-2xl shadow-lg;
+  }
+
+  .comparison-table {
+    @apply w-full min-w-[640px] sm:min-w-0;
+  }
+
+  .comparison-table th {
+    @apply text-left py-3 sm:py-4 lg:py-6 px-3 sm:px-6 lg:px-8 font-semibold text-gray-900 text-sm sm:text-base lg:text-lg bg-gray-50 first:rounded-tl-xl last:rounded-tr-xl;
+  }
+
+  .comparison-table td {
+    @apply py-3 sm:py-4 lg:py-6 px-3 sm:px-6 lg:px-8 text-sm sm:text-base border-b border-gray-100 align-middle;
+  }
+
+  /* Mobile-First FAQ Section - Dark Theme */
+  .faq-section {
+    @apply py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-gray-900 to-gray-800;
+  }
+
+  .faq-container {
+    @apply max-w-4xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .faq-title {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-8 sm:mb-12 lg:mb-16;
+  }
+
+  .faq-item {
+    @apply border border-gray-700 rounded-xl sm:rounded-2xl mb-4 sm:mb-6 overflow-hidden bg-gray-800;
+  }
+
+  .faq-question {
+    @apply w-full text-left p-4 sm:p-6 lg:p-8 font-semibold text-white hover:bg-gray-700 transition-colors duration-200 text-sm sm:text-base lg:text-lg;
+  }
+
+  .faq-answer {
+    @apply p-4 sm:p-6 lg:p-8 pt-0 text-gray-300 text-sm sm:text-base leading-relaxed;
+  }
+
+  /* Mobile-First Expert Team Section - Dark Theme */
+  .expert-team-section {
+    @apply py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-gray-900 to-gray-800;
+  }
+
+  .expert-team-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8;
+  }
+
+  .expert-card {
+    @apply bg-gray-800 rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-8 shadow-lg hover:shadow-xl transition-all duration-300 text-center border border-gray-700;
+  }
+
+  .expert-avatar {
+    @apply w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 rounded-full bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center text-white text-xl sm:text-2xl lg:text-3xl font-bold mx-auto mb-3 sm:mb-4;
+  }
+
+  .expert-name {
+    @apply text-lg sm:text-xl lg:text-2xl font-bold text-white mb-1 sm:mb-2;
+  }
+
+  .expert-role {
+    @apply text-sm sm:text-base text-indigo-400 font-medium mb-2 sm:mb-3;
+  }
+
+  .expert-experience {
+    @apply text-xs sm:text-sm text-gray-300 mb-2 sm:mb-3;
+  }
+
+  .expert-focus {
+    @apply text-xs sm:text-sm text-gray-300 italic;
+  }
+
+  /* Mobile Touch Targets - Ensure 44px minimum */
+  .touch-target {
+    @apply min-h-[44px] min-w-[44px] flex items-center justify-center;
+  }
+
+  /* Animation Delays for Staggered Effects */
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+}
+
+/* Responsive Typography Scale */
+@media (max-width: 640px) {
+  .benefits-section,
+  .fast-payout-section,
+  #why-we-recommend,
+  .expert-team-section {
+    @apply px-4;
+  }
+}
+
+/* Tablet Optimizations */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .benefits-grid {
+    @apply grid-cols-2;
+  }
+  
+  .category-tiles-grid {
+    @apply grid-cols-2;
+  }
+  
+  .expert-team-grid {
+    @apply grid-cols-2;
+  }
+}
+
+/* Large Desktop Optimizations */
+@media (min-width: 1025px) {
+  .benefits-grid {
+    @apply grid-cols-5;
+  }
+  
+  .category-tiles-grid {
+    @apply grid-cols-4;
+  }
+  
+  .expert-team-grid {
+    @apply grid-cols-3;
+  }
+}

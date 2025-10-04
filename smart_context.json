@@ -1,0 +1,116 @@
+{
+  "project": {
+    "name": "best-casino-portal",
+    "version": "0.1.0",
+    "description": "A modern, enterprise-grade casino comparison website built with Astro, TypeScript, and Tailwind CSS. Features 79 integrated casinos with geo-aware logo acquisition, advanced filtering, and mobile-responsive design.",
+    "type": "module",
+    "engines": {
+      "node": "20"
+    }
+  },
+  "tech_stack": {
+    "framework": "Astro 5.14.1",
+    "language": "TypeScript 5.9.2",
+    "ui_framework": "React 19.1.1",
+    "styling": "Tailwind CSS 3.4.15",
+    "containerization": "Docker",
+    "testing": "Playwright 1.55.1"
+  },
+  "dependencies": {
+    "main": {
+      "@astrojs/check": "^0.9.4",
+      "@googleapis/customsearch": "^6.0.0",
+      "crawlee": "^3.15.1",
+      "node-fetch": "^3.3.2",
+      "playwright": "^1.55.1",
+      "puppeteer": "^24.22.3",
+      "react": "^19.1.1",
+      "react-dom": "^19.1.1",
+      "sharp": "^0.32.0"
+    },
+    "dev": {
+      "@astrojs/react": "^4.4.0",
+      "@astrojs/tailwind": "^5.1.2",
+      "@playwright/test": "^1.55.1",
+      "@types/node": "^24.5.2",
+      "@types/react": "^19.1.14",
+      "@types/react-dom": "^19.1.9",
+      "astro": "^5.14.1",
+      "autoprefixer": "^10.4.21",
+      "postcss": "^8.5.6",
+      "tailwindcss": "^3.4.15",
+      "typescript": "^5.9.2"
+    }
+  },
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0 --port 3000",
+    "build": "astro build",
+    "test": "playwright test",
+    "docker:dev": "docker-compose up -d dev",
+    "docker:build": "docker-compose build",
+    "docker:prod": "docker-compose -f docker-compose.prod.yml up -d",
+    "seo:master": "npm run seo:research && echo '🎯 SEO Master Analysis Complete - Check SEO-MASTER-PLAN.md'"
+  },
+  "docker_setup": {
+    "services": [
+      "dev",
+      "preview",
+      "arch-test",
+      "test",
+      "lighthouse",
+      "backend",
+      "test-db",
+      "redis"
+    ],
+    "dockerfiles": [
+      "Dockerfile",
+      "Dockerfile.clean",
+      "Dockerfile.debug",
+      "Dockerfile.fast",
+      "Dockerfile.lighthouse",
+      "Dockerfile.oop",
+      "Dockerfile.prod",
+      "Dockerfile.simple",
+      "Dockerfile.test"
+    ],
+    "compose_files": [
+      "docker-compose.yml",
+      "docker-compose.oop.yml",
+      "docker-compose.prod.yml",
+      "docker-compose.test.yml"
+    ],
+    "networks": [
+      "casino-oop-net",
+      "production-net"
+    ]
+  },
+  "project_status": {
+    "last_major_achievement": "Geo-aware casino logo acquisition and integration, resulting in 34.2% high-quality logos.",
+    "current_focus": "The project has a comprehensive SEO and content strategy in place, with a 2000+ page implementation plan. The technical foundation is solid and ready for this large-scale content deployment.",
+    "testing": "The testing strategy has been refined to address timeout issues, with a layered approach (smoke, core, full) and optimized Playwright configuration. The Docker setup for testing is stable.",
+    "architecture": "The project has undergone a significant refactoring to an Object-Oriented Programming (OOP) model, with a focus on a ViewModel-Manager-Coordinator pattern. This is validated in the CI/CD pipeline.",
+    "page_generation": "A structure-aware page generation system has been successfully used to create a large number of pages that conform to the existing architecture."
+  },
+  "seo_strategy": {
+    "objective": "Dominate casino search rankings with 2000+ SEO-optimized pages.",
+    "timeline": "12 months",
+    "expected_roi": "500K+ monthly visitors, $2M+ annual revenue impact.",
+    "phases": [
+      {
+        "name": "Foundation (Months 1-3)",
+        "pages": 500,
+        "focus": "Top 100 casino reviews, essential game guides, regional landing pages, technical SEO foundation."
+      },
+      {
+        "name": "Scaling (Months 4-8)",
+        "pages": 1000,
+        "focus": "Comprehensive game library, detailed bonus analysis, regional content expansion, authority building."
+      },
+      {
+        "name": "Optimization (Months 9-12)",
+        "pages": 500,
+        "focus": "Performance optimization, advanced content types, conversion optimization, market dominance."
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+---
+const pageTitle = "Casino Games - Popular Online Casino Games 2025";
+const pageDescription = "Discover popular casino games in Canada. Slots, blackjack, roulette, poker, and more exciting games.";
+const canonicalUrl = "https://bestcasinoportal.com/games";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription}>
+  <link rel="canonical" href={canonicalUrl}>
+</head>
+<body>
+  <main>
+    <section class="hero py-16 bg-gradient-to-r from-purple-600 to-pink-600 text-white">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-center">{pageTitle}</h1>
+        <p class="text-xl text-center max-w-3xl mx-auto">{pageDescription}</p>
+      </div>
+    </section>
+    
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Popular Game Categories</h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Slot Games</h3>
+              <p class="text-gray-600 mb-4">Video slots, progressive jackpots</p>
+              <a href="/games/slots" class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 w-full inline-block text-center">
+                View Slot Games
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Table Games</h3>
+              <p class="text-gray-600 mb-4">Blackjack, roulette, baccarat</p>
+              <a href="/games/table" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 w-full inline-block text-center">
+                View Table Games
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Live Dealer</h3>
+              <p class="text-gray-600 mb-4">Real dealers, live streaming</p>
+              <a href="/games/live" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 w-full inline-block text-center">
+                View Live Games
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

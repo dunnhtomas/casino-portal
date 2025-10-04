@@ -1,0 +1,73 @@
+---
+interface Props {
+  region: string;
+  category: string;
+  title: string;
+  description: string;
+}
+
+const { region, category, title, description } = Astro.props;
+---
+
+<section class="regional-hero bg-gradient-to-r from-indigo-900 via-blue-900 to-purple-900 text-white py-20">
+  <div class="container mx-auto px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="mb-6">
+        <span class="inline-block bg-blue-600 text-blue-100 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+          {region} • {new Date().getFullYear()}
+        </span>
+      </div>
+      
+      <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+        {title}
+      </h1>
+      
+      <p class="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
+        {description}
+      </p>
+      
+      <div class="flex flex-wrap justify-center gap-4 mb-12">
+        <div class="bg-white/10 backdrop-blur-lg rounded-lg px-6 py-3 border border-white/20">
+          <div class="text-2xl font-bold">{region}</div>
+          <div class="text-sm text-blue-200">Players Welcome</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-lg rounded-lg px-6 py-3 border border-white/20">
+          <div class="text-2xl font-bold">Licensed</div>
+          <div class="text-sm text-blue-200">& Regulated</div>
+        </div>
+        <div class="bg-white/10 backdrop-blur-lg rounded-lg px-6 py-3 border border-white/20">
+          <div class="text-2xl font-bold">24/7</div>
+          <div class="text-sm text-blue-200">Support</div>
+        </div>
+      </div>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#casinos" class="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg transition-colors text-lg">
+          View {category} Casinos
+        </a>
+        <a href="#guide" class="bg-white/10 hover:bg-white/20 text-white font-bold py-4 px-8 rounded-lg transition-colors text-lg border border-white/30">
+          Read {region} Guide
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .regional-hero {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .regional-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/images/regional-bg.jpg') center/cover;
+    opacity: 0.1;
+    z-index: -1;
+  }
+</style>

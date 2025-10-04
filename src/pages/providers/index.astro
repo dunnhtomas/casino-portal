@@ -1,0 +1,299 @@
+---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+
+const navigationCoordinator = new NavigationCoordinator();
+
+const title = 'Casino Game Providers | Top Software Developers 2025';
+const description = 'Explore top casino game providers including NetEnt, Microgaming, Pragmatic Play, Evolution Gaming, and more. Find casinos by software provider.';
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/providers');
+---
+
+<SimplePageLayout 
+  title={title}
+  description={description}
+  breadcrumbs={breadcrumbs}
+>
+  <main class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <!-- ENHANCED HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-background-overlay"></div>
+      <div class="hero-background-pattern"></div>
+      
+      <div class="hero-container">
+        <header>
+          <h1 class="hero-title">🎮 Casino Game Providers</h1>
+          <p class="hero-subtitle">
+            Discover the world's leading casino software providers and find casinos featuring your favorite game developers.
+          </p>
+        </header>
+        
+        <div class="hero-trust-indicators">
+          <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+          </svg>
+          <span>🏆 Top Developers • 🎰 Premium Games • 🔒 Licensed Software • ⭐ Player Favorites</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOP PROVIDERS GRID -->
+    <section class="container mx-auto px-6 py-16">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <!-- NetEnt -->
+        <div class="bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] border border-gray-100 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-blue-50 rounded-full -mr-12 -mt-12"></div>
+          <div class="relative">
+            <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg font-bold text-white">
+              NET
+            </div>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">NetEnt</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Premium slots and innovative features. Creator of Starburst, Gonzo's Quest, and Dead or Alive.
+            </p>
+            <div class="space-y-2 mb-6">
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                High-quality graphics
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Mobile-optimized games
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Fair play certified
+              </div>
+            </div>
+            <a 
+              href="/providers/netent-games" 
+              class="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full justify-center"
+            >
+              Explore NetEnt Games
+            </a>
+          </div>
+        </div>
+
+        <!-- Microgaming -->
+        <div class="bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] border border-gray-100 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-green-50 rounded-full -mr-12 -mt-12"></div>
+          <div class="relative">
+            <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg font-bold text-white">
+              MG
+            </div>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">Microgaming</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Industry pioneer with massive progressive jackpots. Home of Mega Moolah and Thunderstruck.
+            </p>
+            <div class="space-y-2 mb-6">
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Massive jackpots
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Established since 1994
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Largest game library
+              </div>
+            </div>
+            <a 
+              href="/providers/microgaming-games" 
+              class="inline-flex items-center bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full justify-center"
+            >
+              Explore Microgaming Games
+            </a>
+          </div>
+        </div>
+
+        <!-- Pragmatic Play -->
+        <div class="bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] border border-gray-100 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-purple-50 rounded-full -mr-12 -mt-12"></div>
+          <div class="relative">
+            <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg font-bold text-white">
+              PP
+            </div>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">Pragmatic Play</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Modern provider with engaging slots and live dealer games. Creator of Wolf Gold and Sweet Bonanza.
+            </p>
+            <div class="space-y-2 mb-6">
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Innovative bonus features
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Live dealer studios
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                High volatility slots
+              </div>
+            </div>
+            <a 
+              href="/providers/pragmatic-play-games" 
+              class="inline-flex items-center bg-gradient-to-r from-purple-500 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full justify-center"
+            >
+              Explore Pragmatic Play Games
+            </a>
+          </div>
+        </div>
+
+        <!-- Evolution Gaming -->
+        <div class="bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] border border-gray-100 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-red-50 rounded-full -mr-12 -mt-12"></div>
+          <div class="relative">
+            <div class="w-16 h-16 bg-gradient-to-r from-red-500 to-red-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg font-bold text-white">
+              EVO
+            </div>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">Evolution Gaming</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              World leader in live dealer games. Premium live casino experiences with professional dealers.
+            </p>
+            <div class="space-y-2 mb-6">
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Live dealer leader
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                HD streaming quality
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Game show innovations
+              </div>
+            </div>
+            <a 
+              href="/providers/evolution-gaming-games" 
+              class="inline-flex items-center bg-gradient-to-r from-red-500 to-red-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-red-600 hover:to-red-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full justify-center"
+            >
+              Explore Evolution Games
+            </a>
+          </div>
+        </div>
+
+        <!-- Playtech -->
+        <div class="bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] border border-gray-100 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-orange-50 rounded-full -mr-12 -mt-12"></div>
+          <div class="relative">
+            <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg font-bold text-white">
+              PT
+            </div>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">Playtech</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Diverse portfolio including Marvel slots and live dealer games. Known for branded content and innovation.
+            </p>
+            <div class="space-y-2 mb-6">
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Marvel branded slots
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Complete casino solutions
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Progressive jackpots
+              </div>
+            </div>
+            <a 
+              href="/providers/playtech-games" 
+              class="inline-flex items-center bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full justify-center"
+            >
+              Explore Playtech Games
+            </a>
+          </div>
+        </div>
+
+        <!-- Play'n GO -->
+        <div class="bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] border border-gray-100 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-teal-50 rounded-full -mr-12 -mt-12"></div>
+          <div class="relative">
+            <div class="w-16 h-16 bg-gradient-to-r from-teal-500 to-teal-600 rounded-2xl flex items-center justify-center text-2xl mb-6 shadow-lg font-bold text-white">
+              PNG
+            </div>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">Play'n GO</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Mobile-first developer with exciting slots. Creator of Book of Dead and Reactoonz series.
+            </p>
+            <div class="space-y-2 mb-6">
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Mobile-optimized
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Unique game mechanics
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <span class="text-green-500 mr-2">✓</span>
+                Regular new releases
+              </div>
+            </div>
+            <a 
+              href="/providers/play-n-go-games" 
+              class="inline-flex items-center bg-gradient-to-r from-teal-500 to-teal-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-teal-600 hover:to-teal-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl w-full justify-center"
+            >
+              Explore Play'n GO Games
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- More Providers Section -->
+      <div class="mt-16 bg-gradient-to-r from-gray-800 to-gray-900 rounded-3xl p-8 text-white">
+        <div class="max-w-4xl mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-6">More Top Providers</h2>
+          <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">
+              <h3 class="font-semibold">Big Time Gaming</h3>
+              <p class="text-sm text-gray-300">Megaways creator</p>
+            </div>
+            <div class="bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">
+              <h3 class="font-semibold">Blueprint Gaming</h3>
+              <p class="text-sm text-gray-300">UK slot specialist</p>
+            </div>
+            <div class="bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">
+              <h3 class="font-semibold">Elk Studios</h3>
+              <p class="text-sm text-gray-300">Premium mathematics</p>
+            </div>
+            <div class="bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">
+              <h3 class="font-semibold">Yggdrasil</h3>
+              <p class="text-sm text-gray-300">Award-winning slots</p>
+            </div>
+            <div class="bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">
+              <h3 class="font-semibold">Nolimit City</h3>
+              <p class="text-sm text-gray-300">High volatility</p>
+            </div>
+            <div class="bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">
+              <h3 class="font-semibold">Push Gaming</h3>
+              <p class="text-sm text-gray-300">Innovative features</p>
+            </div>
+            <div class="bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">
+              <h3 class="font-semibold">Quickspin</h3>
+              <p class="text-sm text-gray-300">Quality focused</p>
+            </div>
+            <div class="bg-white/10 rounded-xl p-4 hover:bg-white/20 transition-colors">
+              <h3 class="font-semibold">Red Tiger</h3>
+              <p class="text-sm text-gray-300">Jackpot networks</p>
+            </div>
+          </div>
+          <p class="text-gray-300 mb-6">
+            Explore games from over 25 leading casino software providers across hundreds of casinos.
+          </p>
+          <a 
+            href="/reviews" 
+            class="inline-block bg-gold-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-gold-600 transition-colors"
+          >
+            Find Provider Games at Top Casinos →
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</SimplePageLayout>

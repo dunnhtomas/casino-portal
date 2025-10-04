@@ -1,0 +1,101 @@
+{
+  "casinoReviews": {
+    "structure": [
+      "Overview & Quick Facts",
+      "Welcome Bonus Analysis",
+      "Game Selection Review",
+      "Payment Methods",
+      "Customer Support",
+      "Security & Licensing",
+      "Mobile Experience",
+      "Pros & Cons",
+      "Final Verdict"
+    ],
+    "seoElements": {
+      "titleTemplate": "{Casino Name} Review 2025 - {Key Benefit} | Best Casino Portal",
+      "metaTemplate": "Comprehensive {Casino Name} review. {Key Features}. Get up to {Bonus Amount} welcome bonus. Read our expert analysis.",
+      "h1Template": "{Casino Name} Review: {Year} Expert Analysis",
+      "urlTemplate": "/reviews/{casino-slug}",
+      "wordCountTarget": 3500
+    }
+  },
+  "gameGuides": {
+    "structure": [
+      "Game Introduction",
+      "How to Play",
+      "Strategies & Tips",
+      "Variations",
+      "Best Casinos to Play",
+      "RTP & Volatility",
+      "Free vs Real Money",
+      "Mobile Play",
+      "FAQ Section"
+    ],
+    "seoElements": {
+      "titleTemplate": "How to Play {Game Name} - Complete {Year} Guide | Best Casino Portal",
+      "metaTemplate": "Learn how to play {Game Name} with our expert guide. Discover strategies, tips, and best casinos for {Game Name}.",
+      "h1Template": "How to Play {Game Name}: Complete Beginner's Guide",
+      "urlTemplate": "/guides/{game-slug}",
+      "wordCountTarget": 2500
+    }
+  },
+  "bonusGuides": {
+    "structure": [
+      "Bonus Overview",
+      "How to Claim",
+      "Terms & Conditions",
+      "Wagering Requirements",
+      "Game Restrictions",
+      "Best Casinos Offering This Bonus",
+      "Tips for Maximum Value",
+      "Common Mistakes to Avoid",
+      "Alternatives"
+    ],
+    "seoElements": {
+      "titleTemplate": "{Bonus Type} Guide {Year} - Best Casino Bonuses | Best Casino Portal",
+      "metaTemplate": "Complete guide to {Bonus Type}. Find the best offers, understand terms, and maximize your casino bonuses.",
+      "h1Template": "{Bonus Type}: Complete Guide to Casino Bonuses",
+      "urlTemplate": "/bonuses/{bonus-slug}",
+      "wordCountTarget": 2000
+    }
+  },
+  "regionalContent": {
+    "structure": [
+      "Regional Overview",
+      "Legal Status",
+      "Best Licensed Casinos",
+      "Local Payment Methods",
+      "Regional Bonuses",
+      "Currency Support",
+      "Local Customer Support",
+      "Responsible Gambling Resources",
+      "FAQ for Residents"
+    ],
+    "seoElements": {
+      "titleTemplate": "Best Online Casinos in {Region} {Year} - Licensed & Safe | Best Casino Portal",
+      "metaTemplate": "Top online casinos for {Region} players. Licensed operators, local payment methods, and exclusive bonuses.",
+      "h1Template": "Best Online Casinos in {Region} ({Year})",
+      "urlTemplate": "/regions/{region-slug}",
+      "wordCountTarget": 4000
+    }
+  },
+  "newsArticles": {
+    "structure": [
+      "News Summary",
+      "Background Information",
+      "Industry Impact",
+      "Player Implications",
+      "Expert Analysis",
+      "Related Developments",
+      "What This Means for You",
+      "Related Articles"
+    ],
+    "seoElements": {
+      "titleTemplate": "{News Headline} - {Year} Casino Industry Update | Best Casino Portal",
+      "metaTemplate": "Latest casino industry news: {News Summary}. Get expert analysis and understand the impact on players.",
+      "h1Template": "{News Headline}: Industry Analysis",
+      "urlTemplate": "/news/{news-slug}",
+      "wordCountTarget": 1500
+    }
+  }
+}

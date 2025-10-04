@@ -15,10 +15,16 @@ import BankingMethods from '../components/Sections/BankingMethods.astro';
 import ExpertTeamSection from '../components/Sections/ExpertTeamSection.astro';
 import SupportChannelsSection from '../components/Sections/SupportChannelsSection.astro';
 import FAQSection from '../components/Sections/FAQSection.astro';
+import FreeGamesTeaser from '../components/Sections/FreeGamesTeaser.astro';
+import BonusTypesExplainer from '../components/Sections/BonusTypesExplainer.astro';
+import SafetySignals from '../components/Sections/SafetySignals.astro';
+import ResponsibleGamblingCTA from '../components/Sections/ResponsibleGamblingCTA.astro';
+import AffiliateDisclosure from '../components/Sections/AffiliateDisclosure.astro';
+import NewsletterSignup from '../components/Sections/NewsletterSignup.astro';
+import BrandStrip from '../components/Sections/BrandStrip.astro';
 
-// Import Tailwind CSS
-import '../styles/tailwind.css';
-import '../styles/casino-enhancements.css';
+// Import main CSS instead of individual files
+import '../styles/main.css';
 
 // Initialize ViewModel and get all page data
 const viewModel = new IndexPageViewModel();
@@ -61,8 +67,17 @@ const pageData = await viewModel.getPageData();
   <!-- Popular Slots Preview -->
   <PopularSlots />
   
+  <!-- Free Games Teaser -->
+  <FreeGamesTeaser />
+  
   <!-- Banking Methods -->
   <BankingMethods />
+  
+  <!-- Bonus Types Explainer -->
+  <BonusTypesExplainer />
+  
+  <!-- Safety Signals -->
+  <SafetySignals />
   
   <!-- Expert Team -->
   <ExpertTeamSection expertTeam={pageData.content.expertTeam} />
@@ -72,4 +87,16 @@ const pageData = await viewModel.getPageData();
   
   <!-- FAQ Section -->
   <FAQSection faqItems={pageData.content.faqItems} />
+  
+  <!-- Responsible Gambling CTA -->
+  <ResponsibleGamblingCTA />
+  
+  <!-- Affiliate Disclosure -->
+  <AffiliateDisclosure />
+  
+  <!-- Brand Strip -->
+  <BrandStrip />
+  
+  <!-- Newsletter Signup -->
+  <NewsletterSignup />
 </PageLayout>

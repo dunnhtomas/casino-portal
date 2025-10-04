@@ -1,0 +1,496 @@
+{
+  "timestamp": "2025-10-02T18:33:27.566Z",
+  "statistics": {
+    "total": 79,
+    "succeeded": 10,
+    "skipped": 36,
+    "failed": 33
+  },
+  "successRate": "23.26%",
+  "results": [
+    {
+      "casino": "SpellWin",
+      "slug": "spellwin",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Winit.Bet",
+      "slug": "winitbet",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "UnlimLuck",
+      "slug": "unlimluck",
+      "status": "failed",
+      "reason": "No logo found in HTML"
+    },
+    {
+      "casino": "Mr Pacho",
+      "slug": "mr-pacho",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Larabet",
+      "slug": "larabet",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Slotlair",
+      "slug": "slotlair",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "SagaSpins",
+      "slug": "sagaspins",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Samba Slots",
+      "slug": "samba",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Willdsino",
+      "slug": "willdsino",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Trino",
+      "slug": "trino",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "SkyHills",
+      "slug": "skyhills",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "WonThere",
+      "slug": "wonthere",
+      "status": "failed",
+      "reason": "request to https://www.wonthere.co.uk/ failed, reason: getaddrinfo ENOTFOUND www.wonthere.co.uk"
+    },
+    {
+      "casino": "Lucky Hunter",
+      "slug": "hunter",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Rizz Casino",
+      "slug": "rizz",
+      "status": "failed",
+      "reason": "HTTP 403"
+    },
+    {
+      "casino": "N1 Bet Casino",
+      "slug": "n1bet",
+      "status": "failed",
+      "reason": "HTTP 403"
+    },
+    {
+      "casino": "Aerobet",
+      "slug": "aerobet",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Kings Chip",
+      "slug": "kings",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "My Empire",
+      "slug": "my-empire",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "RomiBet",
+      "slug": "romibet",
+      "status": "failed",
+      "reason": "No logo found in HTML"
+    },
+    {
+      "casino": "SpinCastle",
+      "slug": "spincastle",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Roman Casino",
+      "slug": "roman",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "WinRolla",
+      "slug": "winrolla",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "RollXO",
+      "slug": "rollxo",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Jackpot Raider",
+      "slug": "jackpot-raider",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Lucki Casino",
+      "slug": "lucki",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Malina Casino",
+      "slug": "malina",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "WildRobin Casino",
+      "slug": "wildrobin",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Jet4Bet",
+      "slug": "jet4bet",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Vipzino",
+      "slug": "vipzino",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Rolling Slots",
+      "slug": "rolling",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "SpinMama",
+      "slug": "spinmama",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Wild Robin",
+      "slug": "wildrobin-2",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "SpellWin UK",
+      "slug": "spellwin-2",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "The Red",
+      "slug": "red",
+      "status": "failed",
+      "reason": "No logo found in HTML"
+    },
+    {
+      "casino": "London Casino",
+      "slug": "london",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Vegas Nova",
+      "slug": "vegas",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Winshark",
+      "slug": "winshark",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Tiki Casino",
+      "slug": "tiki",
+      "status": "failed",
+      "reason": "HTTP 403"
+    },
+    {
+      "casino": "InstaSpin",
+      "slug": "instaspin",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "LyraBet",
+      "slug": "lyrabet",
+      "status": "success",
+      "logoUrl": "https://www.lyrabet.gr/images/logo.svg",
+      "fileSize": 1765
+    },
+    {
+      "casino": "Pistolo Casino",
+      "slug": "pistolo",
+      "status": "success",
+      "logoUrl": "https://pistolocasino.com/wp-content/uploads/sites/52/2025/03/Pistolo-Casino-Main-Logo.svg",
+      "fileSize": 13010
+    },
+    {
+      "casino": "SpinGranny",
+      "slug": "spingranny",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Treasure Spins",
+      "slug": "treasure",
+      "status": "success",
+      "logoUrl": "https://www.treasurespins.com/static/logo-CCrUGZkN.svg",
+      "fileSize": 11664
+    },
+    {
+      "casino": "SpinLander",
+      "slug": "spinlander",
+      "status": "failed",
+      "reason": "request to https://www.spinlander.co.uk/ failed, reason: getaddrinfo ENOTFOUND www.spinlander.co.uk"
+    },
+    {
+      "casino": "Joker Ace's",
+      "slug": "joker",
+      "status": "failed",
+      "reason": "No logo found in HTML"
+    },
+    {
+      "casino": "Need For Spin",
+      "slug": "needforspin",
+      "status": "failed",
+      "reason": "request to https://se.needforspeedcasino.com/ failed, reason: getaddrinfo ENOTFOUND se.needforspeedcasino.com"
+    },
+    {
+      "casino": "Orionsbet",
+      "slug": "orionsbet",
+      "status": "success",
+      "logoUrl": "https://orionsbet.co.uk/wp-content/uploads/2025/08/orionsbet-light-logo.webp",
+      "fileSize": 3262
+    },
+    {
+      "casino": "Ivybet.io",
+      "slug": "ivybetio",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Ritzo Casino",
+      "slug": "ritzo",
+      "status": "failed",
+      "reason": "No logo found in HTML"
+    },
+    {
+      "casino": "SpinGranny",
+      "slug": "spingranny-2",
+      "status": "failed",
+      "reason": "No logo found in HTML"
+    },
+    {
+      "casino": "Posido",
+      "slug": "posido",
+      "status": "skipped",
+      "reason": "Already exists"
+    },
+    {
+      "casino": "Lucky Wand",
+      "slug": "wand",
+      "status": "failed",
+      "reason": "request to https://www.luckywandcasino.com/ failed, reason: getaddrinfo ENOTFOUND www.luckywandcasino.com"
+    },
+    {
+      "casino": "SpinGranny Czech",
+      "slug": "spingranny-3",
+      "status": "failed",
+      "reason": "request to https://www.spingranny.cz/ failed, reason: getaddrinfo ENOTFOUND www.spingranny.cz"
+    },
+    {
+      "casino": "VinciSpin",
+      "slug": "vincispin",
+      "status": "success",
+      "logoUrl": "https://cdn.vincistatic.com/images/file/uploads/258168549164468837.svg",
+      "fileSize": 9693
+    },
+    {
+      "casino": "Klikki Casino",
+      "slug": "klikki",
+      "status": "failed",
+      "reason": "request to https://www.klikkicasino.com/ failed, reason: write EPROTO 2C7A0000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:c:\\ws\\deps\\openssl\\openssl\\ssl\\record\\rec_layer_s3.c:1590:SSL alert number 40\n"
+    },
+    {
+      "casino": "Slotit",
+      "slug": "slotit",
+      "status": "success",
+      "logoUrl": "https://www.slotit.de/bilder/bernd-hendl/instagram-logo-invers.svg",
+      "fileSize": 2054
+    },
+    {
+      "casino": "LyraBet Belgium",
+      "slug": "lyrabet-2",
+      "status": "failed",
+      "reason": "request to https://www.lyrabet.be/ failed, reason: getaddrinfo ENOTFOUND www.lyrabet.be"
+    },
+    {
+      "casino": "Robocat",
+      "slug": "robocat",
+      "status": "success",
+      "logoUrl": "https://www.robocat.de/images/logo.gif",
+      "fileSize": 5999
+    },
+    {
+      "casino": "Spins Deluxe",
+      "slug": "spins",
+      "status": "success",
+      "logoUrl": "https://www.spinsdeluxe.com/images/spinsdeluxe//logo.png",
+      "fileSize": 98544
+    },
+    {
+      "casino": "Instant Casino",
+      "slug": "instant",
+      "status": "failed",
+      "reason": "HTTP 403"
+    },
+    {
+      "casino": "Golden Panda",
+      "slug": "panda",
+      "status": "failed",
+      "reason": "HTTP 403"
+    },
+    {
+      "casino": "Magius Casino",
+      "slug": "magius",
+      "status": "success",
+      "logoUrl": "https://www.magiuscasino.com/images/logo.png",
+      "fileSize": 11585
+    },
+    {
+      "casino": "RomiBet France",
+      "slug": "romibet-2",
+      "status": "failed",
+      "reason": "No logo found in HTML"
+    },
+    {
+      "casino": "Ultimluck Casino",
+      "slug": "ultimluck",
+      "status": "failed",
+      "reason": "request to https://www.ultimluck.com/ failed, reason: getaddrinfo ENOTFOUND www.ultimluck.com"
+    },
+    {
+      "casino": "Slots Islands",
+      "slug": "slots",
+      "status": "failed",
+      "reason": "No logo found in HTML"
+    },
+    {
+      "casino": "Rich Royal",
+      "slug": "royal",
+      "status": "failed",
+      "reason": "HTTP 403"
+    },
+    {
+      "casino": "Royal Game",
+      "slug": "royal-2",
+      "status": "failed",
+      "reason": "HTTP 403"
+    },
+    {
+      "casino": "Lucky Gem",
+      "slug": "gem",
+      "status": "failed",
+      "reason": "request to https://www.luckygemcasino.com/ failed, reason: getaddrinfo ENOTFOUND www.luckygemcasino.com"
+    },
+    {
+      "casino": "Pirate Spins",
+      "slug": "pirate",
+      "status": "failed",
+      "reason": "No logo found in HTML"
+    },
+    {
+      "casino": "Need For Spin",
+      "slug": "needforspin-2",
+      "status": "failed",
+      "reason": "request to https://es.needforspeedcasino.com/ failed, reason: getaddrinfo ENOTFOUND es.needforspeedcasino.com"
+    },
+    {
+      "casino": "Wild Tokyo",
+      "slug": "wild-tokyo",
+      "status": "failed",
+      "reason": "HTTP 403"
+    },
+    {
+      "casino": "36 Hight",
+      "slug": "hight",
+      "status": "failed",
+      "reason": "request to https://www.36hight.com/ failed, reason: getaddrinfo ENOTFOUND www.36hight.com"
+    },
+    {
+      "casino": "Hello Fortune",
+      "slug": "fortune",
+      "status": "failed",
+      "reason": "No logo found in HTML"
+    },
+    {
+      "casino": "Need For Spin",
+      "slug": "needforspin-3",
+      "status": "failed",
+      "reason": "request to https://fi.needforspeedcasino.com/ failed, reason: getaddrinfo ENOTFOUND fi.needforspeedcasino.com"
+    },
+    {
+      "casino": "Moana Casino",
+      "slug": "moana",
+      "status": "success",
+      "logoUrl": "https://moana-casino.com/wp-content/uploads/sites/63/2025/03/Moana-Casino-Logo.svg",
+      "fileSize": 26682
+    },
+    {
+      "casino": "ProntoBet",
+      "slug": "prontobet",
+      "status": "failed",
+      "reason": "request to https://www.prontobet.com.au/ failed, reason: getaddrinfo ENOTFOUND www.prontobet.com.au"
+    },
+    {
+      "casino": "11Croc",
+      "slug": "11croc",
+      "status": "failed",
+      "reason": "request to https://www.11croc.com/at failed, reason: getaddrinfo ENOTFOUND www.11croc.com"
+    },
+    {
+      "casino": "11Croc Germany",
+      "slug": "11croc-2",
+      "status": "failed",
+      "reason": "request to https://www.11croc.com/de failed, reason: getaddrinfo ENOTFOUND www.11croc.com"
+    },
+    {
+      "casino": "AllSpins",
+      "slug": "allspins",
+      "status": "skipped",
+      "reason": "Already exists"
+    }
+  ]
+}

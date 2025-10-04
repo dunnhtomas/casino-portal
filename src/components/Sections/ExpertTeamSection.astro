@@ -13,24 +13,24 @@ interface Props {
 const { expertTeam } = Astro.props;
 ---
 
-<section id="editorial-team" class="py-16 bg-gray-50">
+<section id="editorial-team" class="py-16 bg-gradient-to-br from-gray-900 to-gray-800">
   <div class="max-w-6xl mx-auto px-6">
     <div class="text-center mb-12">
-      <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Expert Review Team</h2>
-      <p class="text-lg text-gray-600">Industry professionals with decades of combined experience</p>
+      <h2 class="text-3xl font-bold text-white mb-4">Our Expert Review Team</h2>
+      <p class="text-lg text-gray-300">Industry professionals with decades of combined experience</p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       {expertTeam.map(expert => (
-        <div class="bg-white p-6 rounded-xl shadow-sm text-center">
+        <div class="bg-gray-800 p-6 rounded-xl shadow-sm text-center border border-gray-700">
           <div class="w-20 h-20 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
             <span class="text-white font-bold text-2xl">
               {expert.name.split(' ').map(n => n[0]).join('')}
             </span>
           </div>
-          <h3 class="font-bold text-xl text-gray-900 mb-1">{expert.name}</h3>
-          <p class="text-indigo-600 font-semibold mb-2">{expert.role}</p>
-          <p class="text-sm text-gray-600 mb-2">{expert.experience} experience</p>
-          <p class="text-sm text-gray-600">{expert.focus}</p>
+          <h3 class="font-bold text-xl text-white mb-1">{expert.name}</h3>
+          <p class="text-indigo-400 font-bold mb-2">{expert.role}</p>
+          <p class="text-sm text-gray-300 mb-2">{expert.experience} experience</p>
+          <p class="text-sm text-gray-300">{expert.focus}</p>
         </div>
       ))}
     </div>

@@ -58,13 +58,35 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=spellwin.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/spellwin.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "spellwin.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=spellwin.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.008Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/spellwin.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/spellwin.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/spellwin-de-casino-bonus-review-gs3e-v2",
+      "campaignId": "663",
+      "campaignName": "SEO - SpellWin DE AT CH CA FI SE NO DK BE IT-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -134,10 +156,17 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/winitbet-uk-au-ca-casino-bonus-review-bl",
+      "campaignId": "500",
+      "campaignName": "SEO - Winit.Bet UK AU CA FR DE AT NZ 1756635556714",
+      "lastUpdated": "2025-09-30T19:24:17.723Z",
+      "confidence": "high"
     }
   },
   {
-    "slug": "unlimluck-hb-v2",
+    "slug": "unlimluck",
     "brand": "UnlimLuck",
     "url": "https://www.unlimluck.com",
     "licences": [
@@ -197,13 +226,41 @@
       "Massive game selection"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=unlimluck.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/unlimluck.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "unlimluck.com",
+      "originalUrl": "/images/casinos/unlimluck.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.019Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/unlimluck.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/unlimluck.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/unlimluck.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/unlimluck-hb-casino-bonus-review-k6hz-v2",
+      "campaignId": "653",
+      "campaignName": "SEO - UnlimLuck HB-v2",
+      "lastUpdated": "2025-09-30T19:24:17.724Z",
+      "confidence": "high"
     }
   },
   {
@@ -267,13 +324,35 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=mrpacho.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/mrpacho.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "mrpacho.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=mrpacho.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.019Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/mrpacho.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/mrpacho.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/mr-pacho-fr-casino-bonus-review-6542-v2",
+      "campaignId": "699",
+      "campaignName": "SEO - Mr Pacho FR-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -333,17 +412,39 @@
       "Mobile-optimized"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=larabet.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/larabet.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "larabet.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=larabet.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.02Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/larabet.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/larabet.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/larabet-it-fr-casino-bonus-review-9vmc-v2",
+      "campaignId": "708",
+      "campaignName": "SEO - Larabet IT FR-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "slotlair-uk-v2",
+    "slug": "slotlair",
     "brand": "Slotlair",
     "url": "https://www.slotlair.co.uk",
     "licences": [
@@ -407,10 +508,16 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/slotlair-uk-casino-bonus-review-fhu9-v2",
+      "campaignId": "665",
+      "campaignName": "SEO - Slotlair UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "sagaspins-uk-v2",
+    "slug": "sagaspins",
     "brand": "SagaSpins",
     "url": "https://www.sagaspins.com",
     "licences": [
@@ -476,10 +583,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/sagaspins-uk-casino-bonus-review-d7oq-v2",
+      "campaignId": "671",
+      "campaignName": "SEO - SagaSpins UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "samba-slots",
+    "slug": "samba",
     "brand": "Samba Slots",
     "url": "https://www.sambaslots.com",
     "licences": [
@@ -547,6 +660,12 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/samba-slots-nl-ca-se-casino-bonus-review-1i9p-v2",
+      "campaignId": "667",
+      "campaignName": "SEO - Samba Slots NL CA SE-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -610,13 +729,40 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=willdsino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/willdsino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "willdsino.com",
+      "originalUrl": "/images/casinos/willdsino.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.021Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/willdsino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/willdsino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/willdsino.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/willdsino-fr-es-it-da-casino-bonus-review-2c99-v2",
+      "campaignId": "636",
+      "campaignName": "SEO - Willdsino FR ES IT DA-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -686,10 +832,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/trino-de-at-ch-casino-bonus-review-fo",
+      "campaignId": "514",
+      "campaignName": "SEO - Trino DE AT CH CA FI SE NO DK BE IT 1756635589601",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "skyhills-nl-v2",
+    "slug": "skyhills",
     "brand": "SkyHills",
     "url": "https://www.skyhills.com/nl",
     "licences": [
@@ -753,10 +905,16 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/skyhills-nl-casino-bonus-review-4gki-v2",
+      "campaignId": "666",
+      "campaignName": "SEO - SkyHills NL-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "wonthere-uk-v2",
+    "slug": "wonthere",
     "brand": "WonThere",
     "url": "https://www.wonthere.co.uk",
     "licences": [
@@ -813,17 +971,44 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=wonthere.co.uk&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/wonthere.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "wonthere.co.uk",
+      "originalUrl": "/images/casinos/wonthere.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.021Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/wonthere.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/wonthere.co.uk?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/wonthere.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/wonthere-uk-casino-bonus-review-8ry2-v2",
+      "campaignId": "634",
+      "campaignName": "SEO - WonThere UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "lucky-hunter",
+    "slug": "hunter",
     "brand": "Lucky Hunter",
     "url": "https://luckyhunter.io",
     "licences": [
@@ -890,10 +1075,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/lucky-hunter-casino-bonus-review-8frx-v2",
+      "campaignId": "705",
+      "campaignName": "SEO - Lucky Hunter - DA CH; DK; AU-v2",
+      "lastUpdated": "2025-09-30T19:15:10.196Z"
     }
   },
   {
-    "slug": "rizz-casino",
+    "slug": "rizz",
     "brand": "Rizz Casino",
     "url": "https://www.rizzcasino.com",
     "licences": [
@@ -951,17 +1142,39 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=rizzcasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/rizzcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "rizzcasino.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=rizzcasino.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.022Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/rizzcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/rizzcasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/rizz-casino-es-casino-bonus-review-hpaz-v2",
+      "campaignId": "685",
+      "campaignName": "SEO - Rizz Casino ES-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "n1-bet-casino",
+    "slug": "n1bet",
     "brand": "N1 Bet Casino",
     "url": "https://www.n1bet.com",
     "licences": [
@@ -1023,13 +1236,35 @@
       "Massive game selection"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=n1bet.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/n1bet.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "n1bet.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=n1bet.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.022Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/n1bet.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/n1bet.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/n1-bet-casino-de-au-ch-casino-bonus-review-9b",
+      "campaignId": "576",
+      "campaignName": "SEO - N1 Bet Casino DE; AU; CH; AT; IT",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -1099,10 +1334,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/aerobet-uk-casino-bonus-review-x6",
+      "campaignId": "622",
+      "campaignName": "SEO - Aerobet UK",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "kings-chip",
+    "slug": "kings",
     "brand": "Kings Chip",
     "url": "https://www.kingschip.com",
     "licences": [
@@ -1166,6 +1407,12 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/kings-chip-uk-casino-bonus-review-v3r4-v2",
+      "campaignId": "710",
+      "campaignName": "SEO - Kings Chip UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -1234,10 +1481,17 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/my-empire-casino-es-it-fr-casino-bonus-review-0w",
+      "campaignId": "629",
+      "campaignName": "SEO - My Empire Casino [300 C PA ES; IT; FR; IE; AU; FI; DE; BE; AT; CZ; NO; PL; HU",
+      "lastUpdated": "2025-09-30T19:24:17.724Z",
+      "confidence": "medium"
     }
   },
   {
-    "slug": "romibet-es-v2",
+    "slug": "romibet",
     "brand": "RomiBet",
     "url": "https://www.romibet.es",
     "licences": [
@@ -1297,17 +1551,44 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=romibet.es&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/romibet.es?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "romibet.es",
+      "originalUrl": "/images/casinos/romibet.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.023Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/romibet.es?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/romibet.es?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/romibet.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/romibet-fr-casino-bonus-review-ldj2-v2",
+      "campaignId": "672",
+      "campaignName": "SEO - RomiBet FR-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "spincastle-uk-v2",
+    "slug": "spincastle",
     "brand": "SpinCastle",
     "url": "https://www.spincastle.com/uk",
     "licences": [
@@ -1373,10 +1654,16 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/spincastle-uk-casino-bonus-review-kg3s-v2",
+      "campaignId": "662",
+      "campaignName": "SEO - SpinCastle UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "roman-casino",
+    "slug": "roman",
     "brand": "Roman Casino",
     "url": "https://www.romancasino.com",
     "licences": [
@@ -1437,13 +1724,35 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=romancasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/romancasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "romancasino.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=romancasino.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.023Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/romancasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/romancasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/roman-casino-uk-casino-bonus-review-dhi9-v3",
+      "campaignId": "675",
+      "campaignName": "SEO - Roman Casino UK-v3",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -1507,13 +1816,35 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=winrolla.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/winrolla.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "winrolla.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=winrolla.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.024Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/winrolla.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/winrolla.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/winrolla-au-casino-bonus-review-tb2r-v2",
+      "campaignId": "689",
+      "campaignName": "SEO - WinRolla AU AT NO NZ CZ PT IE DE CH ES SL IT FI PL BE CA FR IS LU-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -1570,13 +1901,36 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=rollxo.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/rollxo.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "rollxo.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=rollxo.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.024Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/rollxo.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/rollxo.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/rollxo-2-uk-casino-bonus-review-wevc-v2",
+      "campaignId": "676",
+      "campaignName": "SEO - RollXO (2) UK-v2",
+      "lastUpdated": "2025-09-30T19:24:17.724Z",
+      "confidence": "high"
     }
   },
   {
@@ -1646,10 +2000,17 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/jackpot-raider-casino-bonus-review-99sx-v2",
+      "campaignId": "691",
+      "campaignName": "SEO - Jackpot Raider - ( HQ SM-v2",
+      "lastUpdated": "2025-09-30T19:24:17.724Z",
+      "confidence": "high"
     }
   },
   {
-    "slug": "lucki-casino",
+    "slug": "lucki",
     "brand": "Lucki Casino",
     "url": "https://www.lucki.com",
     "licences": [
@@ -1716,10 +2077,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/lucki-casino-uk-casino-bonus-review-itml-v2",
+      "campaignId": "690",
+      "campaignName": "SEO - Lucki Casino UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "malina-casino",
+    "slug": "malina",
     "brand": "Malina Casino",
     "url": "https://www.malinacasino.com",
     "licences": [
@@ -1786,10 +2153,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/malina-casino-es-de-gr-casino-bonus-review-yo",
+      "campaignId": "580",
+      "campaignName": "SEO - Malina Casino ES DE GR FR",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "wildrobin-casino",
+    "slug": "wildrobin",
     "brand": "WildRobin Casino",
     "url": "https://www.wildrobincasino.com",
     "licences": [
@@ -1849,17 +2222,39 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=wildrobincasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/wildrobincasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "wildrobincasino.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=wildrobincasino.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.025Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/wildrobincasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/wildrobincasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/wild-robin-de-es-casino-bonus-review-v9z1-v2",
+      "campaignId": "642",
+      "campaignName": "SEO - Wild Robin DE ES-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "jet4bet-uk",
+    "slug": "jet4bet",
     "brand": "Jet4Bet",
     "url": "https://www.jet4bet.co.uk",
     "licences": [
@@ -1917,13 +2312,35 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=jet4bet.co.uk&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/jet4bet.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "jet4bet.co.uk",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=jet4bet.co.uk&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.025Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/jet4bet.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/jet4bet.co.uk?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/jet4bet-uk-casino-bonus-review-gs7f-v2",
+      "campaignId": "712",
+      "campaignName": "SEO - Jet4Bet UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -1987,17 +2404,39 @@
       "Excellent live casino"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=vipzino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/vipzino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "vipzino.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=vipzino.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.026Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/vipzino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/vipzino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/vipzino-uk-casino-bonus-review-9gez-v3",
+      "campaignId": "646",
+      "campaignName": "SEO - Vipzino UK-v3",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "rolling-slots",
+    "slug": "rolling",
     "brand": "Rolling Slots",
     "url": "https://www.rollingslots.com",
     "licences": [
@@ -2056,13 +2495,35 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=rollingslots.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/rollingslots.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "rollingslots.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=rollingslots.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.026Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/rollingslots.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/rollingslots.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/rolling-slots-ie-casino-bonus-review-vlpy-v2",
+      "campaignId": "677",
+      "campaignName": "SEO - Rolling Slots IE-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -2126,156 +2587,44 @@
       "Massive game selection"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=spinmama.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/spinmama.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "spinmama.com",
+      "originalUrl": "/images/casinos/spinmama.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.026Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/spinmama.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/spinmama.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/spinmama.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/spinmama-de-at-ch-casino-bonus-review-3m",
+      "campaignId": "530",
+      "campaignName": "SEO - SpinMama DE AT CH BE ES IT 1756635626082",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "wild-robin",
-    "brand": "Wild Robin",
-    "url": "https://www.wildrobin.com",
-    "licences": [
-      "Malta"
-    ],
-    "restrictedGeos": [
-      "US",
-      "UK",
-      "FR",
-      "ES",
-      "IT"
-    ],
-    "providers": [
-      "NetEnt",
-      "Microgaming",
-      "Evolution Gaming",
-      "Play'n GO",
-      "Pragmatic Play",
-      "Yggdrasil"
-    ],
-    "payoutSpeedHours": 96,
-    "banking": [
-      "Visa",
-      "Mastercard",
-      "PayPal",
-      "Skrill",
-      "Neteller",
-      "Paysafecard",
-      "Bank Transfer",
-      "E-wallets"
-    ],
-    "bonuses": {
-      "welcome": {
-        "headline": "€1,000 + 300 FS",
-        "wagering": "40x",
-        "maxCashout": 1
-      }
-    },
-    "safety": {
-      "yearsOnline": 3,
-      "complaintRatio": 0.01,
-      "resolvedComplaints": 90,
-      "termsFlags": []
-    },
-    "ratings": {
-      "security": 9.2,
-      "fairness": 9.46,
-      "payout": 7.5,
-      "bonusValue": 9,
-      "games": 10,
-      "support": 9,
-      "reputation": 8.7
-    },
-    "topTags": [
-      "Premium license",
-      "Massive game selection",
-      "Excellent live casino"
-    ],
-    "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=wildrobin.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    }
-  },
-  {
-    "slug": "spellwin-uk-v2",
-    "brand": "SpellWin",
-    "url": "https://www.spellwin.com/uk",
-    "licences": [
-      "UK"
-    ],
-    "restrictedGeos": [
-      "US",
-      "AU",
-      "DE",
-      "FR",
-      "IT"
-    ],
-    "providers": [
-      "NetEnt",
-      "Microgaming",
-      "Play'n GO",
-      "Pragmatic Play",
-      "Evolution Gaming"
-    ],
-    "payoutSpeedHours": 36,
-    "banking": [
-      "Visa",
-      "Mastercard",
-      "PayPal",
-      "Apple Pay",
-      "Trustly",
-      "Bank Transfer",
-      "E-wallets",
-      "Cards"
-    ],
-    "bonuses": {
-      "welcome": {
-        "headline": "£200 + 100 FS",
-        "wagering": "35x",
-        "maxCashout": 200
-      }
-    },
-    "safety": {
-      "yearsOnline": 3,
-      "complaintRatio": 0.01,
-      "resolvedComplaints": 90,
-      "termsFlags": []
-    },
-    "ratings": {
-      "security": 9.2,
-      "fairness": 9.02,
-      "payout": 8.5,
-      "bonusValue": 8.61,
-      "games": 9.7,
-      "support": 9,
-      "reputation": 8.7
-    },
-    "topTags": [
-      "Quick withdrawals",
-      "Premium license",
-      "Mobile-optimized"
-    ],
-    "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=spellwin.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    }
-  },
-  {
-    "slug": "the-red",
+    "slug": "red",
     "brand": "The Red",
     "url": "https://www.theredcasino.com",
     "licences": [
@@ -2335,17 +2684,44 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=theredcasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/theredcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "theredcasino.com",
+      "originalUrl": "/images/casinos/the-red.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.028Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/theredcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/theredcasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/the-red.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/the-uk-casino-bonus-review-mo7p-v2",
+      "campaignId": "650",
+      "campaignName": "SEO - The Red Toucan UK FR DE NL CH AT ES NZ-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "london-casino",
+    "slug": "london",
     "brand": "London Casino",
     "url": "https://www.londoncasino.co.uk",
     "licences": [
@@ -2403,17 +2779,39 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=londoncasino.co.uk&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/londoncasino.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "londoncasino.co.uk",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=londoncasino.co.uk&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.028Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/londoncasino.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/londoncasino.co.uk?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/london-casino-uk-casino-bonus-review-3y96-v2",
+      "campaignId": "707",
+      "campaignName": "SEO - London Casino UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "vegas-nova",
+    "slug": "vegas",
     "brand": "Vegas Nova",
     "url": "https://www.vegasnova.com",
     "licences": [
@@ -2479,6 +2877,12 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/vegas-nova-au-casino-bonus-review-sxi7-v2",
+      "campaignId": "647",
+      "campaignName": "SEO - Vegas Nova AU-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -2541,17 +2945,39 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=winshark.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/winshark.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "winshark.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=winshark.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.028Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/winshark.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/winshark.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/winshark-au-es-casino-bonus-review-wcmi-v2",
+      "campaignId": "635",
+      "campaignName": "SEO - Winshark AU ES-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "tiki-casino",
+    "slug": "tiki",
     "brand": "Tiki Casino",
     "url": "https://www.tikicasino.com",
     "licences": [
@@ -2611,13 +3037,35 @@
       "Massive game selection"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=tikicasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/tikicasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "tikicasino.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=tikicasino.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.029Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/tikicasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/tikicasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/tiki-casino-casino-bonus-review-crd9-v2",
+      "campaignId": "649",
+      "campaignName": "SEO - Tiki Casino - (English) CA AU NZ IE-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -2678,17 +3126,39 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=instaspin.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/instaspin.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "instaspin.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=instaspin.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.029Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/instaspin.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/instaspin.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/instaspin-uk-nl-casino-bonus-review-k6cc-v2",
+      "campaignId": "715",
+      "campaignName": "SEO - InstaSpin UK NL-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "lyrabet-gr-v2",
+    "slug": "lyrabet",
     "brand": "LyraBet",
     "url": "https://www.lyrabet.gr",
     "licences": [
@@ -2754,10 +3224,16 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/lyrabet-be-casino-bonus-review-v36q-v2",
+      "campaignId": "702",
+      "campaignName": "SEO - LyraBet BE-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "pistolo-casino",
+    "slug": "pistolo",
     "brand": "Pistolo Casino",
     "url": "https://www.pistolocasino.com",
     "licences": [
@@ -2821,10 +3297,17 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/pistolo-casino-es-it-fr-casino-bonus-review-cq",
+      "campaignId": "628",
+      "campaignName": "SEO - Pistolo Casino [230 C PA ES; IT; FR; IE; AU; FI; DE; BE; AT; CZ; NO; PL; HU",
+      "lastUpdated": "2025-09-30T19:24:17.725Z",
+      "confidence": "high"
     }
   },
   {
-    "slug": "spingranny-at",
+    "slug": "spingranny",
     "brand": "SpinGranny",
     "url": "https://www.spingranny.at",
     "licences": [
@@ -2889,10 +3372,16 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/spingranny-cz-gr-hu-casino-bonus-review-8x",
+      "campaignId": "532",
+      "campaignName": "SEO - SpinGranny CZ; GR; HU; PL; PT; SK; SI 1756635629483",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "treasure-spins",
+    "slug": "treasure",
     "brand": "Treasure Spins",
     "url": "https://www.treasurespins.com",
     "licences": [
@@ -2959,10 +3448,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/treasure-spins-uk-casino-bonus-review-bnn8-v2",
+      "campaignId": "648",
+      "campaignName": "SEO - Treasure Spins UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "spinlander-uk-v2",
+    "slug": "spinlander",
     "brand": "SpinLander",
     "url": "https://www.spinlander.co.uk",
     "licences": [
@@ -3021,17 +3516,44 @@
       "Mobile-optimized"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=spinlander.co.uk&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/spinlander.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "spinlander.co.uk",
+      "originalUrl": "/images/casinos/spinlander.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.029Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/spinlander.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/spinlander.co.uk?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/spinlander.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/spinlander-uk-casino-bonus-review-4afk-v2",
+      "campaignId": "661",
+      "campaignName": "SEO - SpinLander UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "joker-ace's",
+    "slug": "joker",
     "brand": "Joker Ace's",
     "url": "https://www.jokeraces.com",
     "licences": [
@@ -3089,18 +3611,45 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=jokeraces.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/jokeraces.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "jokeraces.com",
+      "originalUrl": "/images/casinos/joker-ace's.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.029Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/jokeraces.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/jokeraces.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/joker-ace's.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/joker-ace-s-uk-casino-bonus-review-tl91-v2",
+      "campaignId": "711",
+      "campaignName": "SEO - Joker Ace's UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "needforspeed-se-v2",
-    "brand": "NeedForSpeed",
+    "slug": "needforspin",
+    "brand": "Need For Spin",
     "url": "https://se.needforspeedcasino.com",
     "licences": [
       "Spelinspektionen"
@@ -3152,17 +3701,44 @@
       "VIP program"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=se.needforspeedcasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/se.needforspeedcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "se.needforspeedcasino.com",
+      "originalUrl": "/images/casinos/needforspin-se.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.03Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/se.needforspeedcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/se.needforspeedcasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/needforspin-se.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/needforspeed-es-casino-bonus-review-tybg-v2",
+      "campaignId": "696",
+      "campaignName": "SEO - NeedForSpeed ES-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "orionsbet-uk-v2",
+    "slug": "orionsbet",
     "brand": "Orionsbet",
     "url": "https://www.orionsbet.co.uk",
     "licences": [
@@ -3223,6 +3799,12 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/orionsbet-uk-casino-bonus-review-upft-v2",
+      "campaignId": "695",
+      "campaignName": "SEO - Orionsbet UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -3288,17 +3870,40 @@
       "Crypto-friendly"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=ivybet.io&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/ivybet.io?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "ivybet.io",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=ivybet.io&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.03Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/ivybet.io?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/ivybet.io?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/ivybet-io-hq-sm-casino-bonus-review-e7wb-v3",
+      "campaignId": "714",
+      "campaignName": "SEO - Ivybet.io ( HQ SM-v3",
+      "lastUpdated": "2025-09-30T19:24:17.725Z",
+      "confidence": "high"
     }
   },
   {
-    "slug": "ritzo-casino",
+    "slug": "ritzo",
     "brand": "Ritzo Casino",
     "url": "https://www.ritzocasino.com",
     "licences": [
@@ -3356,83 +3961,40 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=ritzocasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    }
-  },
-  {
-    "slug": "spingranny",
-    "brand": "SpinGranny",
-    "url": "https://www.spingranny.com",
-    "licences": [
-      "Curacao"
-    ],
-    "restrictedGeos": [
-      "US",
-      "UK",
-      "FR",
-      "IT",
-      "ES"
-    ],
-    "providers": [
-      "NetEnt",
-      "Microgaming",
-      "Evolution Gaming",
-      "Pragmatic Play",
-      "Play'n GO",
-      "Quickspin"
-    ],
-    "payoutSpeedHours": 48,
-    "banking": [
-      "Visa",
-      "Mastercard",
-      "Skrill",
-      "Neteller",
-      "Trustly",
-      "Bank Transfer",
-      "E-wallets",
-      "Cards"
-    ],
-    "bonuses": {
-      "welcome": {
-        "headline": "€500 + 200 FS",
-        "wagering": "45x",
-        "maxCashout": 500
-      }
+      "url": "https://cdn.brandfetch.io/ritzocasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "ritzocasino.com",
+      "originalUrl": "/images/casinos/ritzo-casino.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.03Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/ritzocasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/ritzocasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/ritzo-casino.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
     },
-    "safety": {
-      "yearsOnline": 5,
-      "complaintRatio": 0.02,
-      "resolvedComplaints": 80,
-      "termsFlags": []
-    },
-    "ratings": {
-      "security": 8.8,
-      "fairness": 8.8,
-      "payout": 8.5,
-      "bonusValue": 8.4,
-      "games": 10,
-      "support": 8.8,
-      "reputation": 8.3
-    },
-    "topTags": [
-      "Quick withdrawals",
-      "Great game variety",
-      "Mobile-optimized"
-    ],
-    "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=spingranny.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/ritzo-casino-de-at-ch-casino-bonus-review-5i",
+      "campaignId": "560",
+      "campaignName": "SEO - Ritzo Casino DE AT CH SE ES IT",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -3490,17 +4052,39 @@
       "Mobile-optimized"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=posido.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/posido.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "posido.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=posido.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.033Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/posido.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/posido.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/posido-da-casino-bonus-review-8314-v2",
+      "campaignId": "687",
+      "campaignName": "SEO - Posido DA CH ; IT;ES;GR;BE;LU;FR;AU;NZ;CA-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "lucky-wand",
+    "slug": "wand",
     "brand": "Lucky Wand",
     "url": "https://www.luckywandcasino.com",
     "licences": [
@@ -3554,79 +4138,40 @@
       "Mobile-optimized"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=luckywandcasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    }
-  },
-  {
-    "slug": "spingranny-cz",
-    "brand": "SpinGranny",
-    "url": "https://www.spingranny.cz",
-    "licences": [
-      "Czech Ministry of Finance"
-    ],
-    "restrictedGeos": [
-      "US",
-      "UK",
-      "DE",
-      "FR",
-      "IT"
-    ],
-    "providers": [
-      "Pragmatic Play",
-      "Play'n GO",
-      "Evolution Gaming",
-      "Endorphina",
-      "Tom Horn Gaming"
-    ],
-    "payoutSpeedHours": 48,
-    "banking": [
-      "Visa",
-      "Mastercard",
-      "Bank Transfer",
-      "SMS Payment",
-      "Paysafecard"
-    ],
-    "bonuses": {
-      "welcome": {
-        "headline": "5000 CZK + 150 FS",
-        "wagering": "40x",
-        "maxCashout": 5000
-      }
+      "url": "https://cdn.brandfetch.io/luckywandcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "luckywandcasino.com",
+      "originalUrl": "/images/casinos/lucky-wand.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.033Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/luckywandcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/luckywandcasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/lucky-wand.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
     },
-    "safety": {
-      "yearsOnline": 2,
-      "complaintRatio": 0.01,
-      "resolvedComplaints": 90,
-      "termsFlags": []
-    },
-    "ratings": {
-      "security": 9.1,
-      "fairness": 9.02,
-      "payout": 8.5,
-      "bonusValue": 8.61,
-      "games": 8.3,
-      "support": 9,
-      "reputation": 8.6
-    },
-    "topTags": [
-      "Quick withdrawals",
-      "Mobile-optimized",
-      "VIP program"
-    ],
-    "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=spingranny.cz&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/lucky-wand-nl-uk-se-casino-bonus-review-vewf-v2",
+      "campaignId": "704",
+      "campaignName": "SEO - Lucky Wand NL UK SE-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -3697,10 +4242,16 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/vincispin-fr-it-es-casino-bonus-review-fn",
+      "campaignId": "512",
+      "campaignName": "SEO - VinciSpin FR IT ES DE AT CH CA 1756635583165",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "klikki-casino",
+    "slug": "klikki",
     "brand": "Klikki Casino",
     "url": "https://www.klikkicasino.com",
     "licences": [
@@ -3757,17 +4308,39 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=klikkicasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/klikkicasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "klikkicasino.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=klikkicasino.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.035Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/klikkicasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/klikkicasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/klikki-casino-uk-casino-bonus-review-25fg-v2",
+      "campaignId": "709",
+      "campaignName": "SEO - Klikki Casino UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "slotit-de",
+    "slug": "slotit",
     "brand": "Slotit",
     "url": "https://www.slotit.de",
     "licences": [
@@ -3831,72 +4404,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/slotit-de-at-ch-casino-bonus-review-cf",
+      "campaignId": "539",
+      "campaignName": "SEO - Slotit DE; AT; CH; FR; NL; SE 1756635647560",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "lyrabet-be-v2",
-    "brand": "LyraBet",
-    "url": "https://www.lyrabet.be",
-    "licences": [
-      "Belgian Gaming Commission"
-    ],
-    "restrictedGeos": [
-      "All countries except Belgium"
-    ],
-    "providers": [
-      "Pragmatic Play",
-      "Evolution Gaming",
-      "Play'n GO",
-      "Push Gaming",
-      "Red Rake Gaming"
-    ],
-    "payoutSpeedHours": 48,
-    "banking": [
-      "Bancontact",
-      "PayPal",
-      "Visa",
-      "Mastercard",
-      "Bank Transfer"
-    ],
-    "bonuses": {
-      "welcome": {
-        "headline": "€100",
-        "wagering": "5x",
-        "maxCashout": 100
-      }
-    },
-    "safety": {
-      "yearsOnline": 2,
-      "complaintRatio": 0.01,
-      "resolvedComplaints": 90,
-      "termsFlags": []
-    },
-    "ratings": {
-      "security": 10,
-      "fairness": 9.02,
-      "payout": 8.5,
-      "bonusValue": 8.61,
-      "games": 7.699999999999999,
-      "support": 7.38,
-      "reputation": 9.5
-    },
-    "topTags": [
-      "Quick withdrawals",
-      "Mobile app",
-      "VIP program"
-    ],
-    "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=lyrabet.be&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    }
-  },
-  {
-    "slug": "robocat-de",
+    "slug": "robocat",
     "brand": "Robocat",
     "url": "https://www.robocat.de",
     "licences": [
@@ -3956,10 +4473,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/robocat-de-casino-bonus-review-qkn3",
+      "campaignId": "684",
+      "campaignName": "SEO - Robocat DE; AT; CH; IT; ES; BE; LU; FR; AU; NZ; CA",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "spins-deluxe",
+    "slug": "spins",
     "brand": "Spins Deluxe",
     "url": "https://www.spinsdeluxe.com",
     "licences": [
@@ -4025,10 +4548,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/spins-deluxe-uk-casino-bonus-review-ldar-v2",
+      "campaignId": "659",
+      "campaignName": "SEO - Spins Deluxe UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "instant-casino",
+    "slug": "instant",
     "brand": "Instant Casino",
     "url": "https://www.instantcasino.com",
     "licences": [
@@ -4093,10 +4622,17 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/instant-casino-casino-bonus-review-6ioq-v2",
+      "campaignId": "716",
+      "campaignName": "SEO - Instant Casino - Engl SE NO FR NL CA CH GR UA-v2",
+      "lastUpdated": "2025-09-30T19:24:17.725Z",
+      "confidence": "high"
     }
   },
   {
-    "slug": "golden-panda",
+    "slug": "panda",
     "brand": "Golden Panda",
     "url": "https://www.goldenpanda.com",
     "licences": [
@@ -4150,10 +4686,16 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/golden-panda-se-no-fr-casino-bonus-review-1u",
+      "campaignId": "598",
+      "campaignName": "SEO - Golden Panda SE NO FR NL CA CH GR",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "magius-casino",
+    "slug": "magius",
     "brand": "Magius Casino",
     "url": "https://www.magiuscasino.com",
     "licences": [
@@ -4220,77 +4762,17 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/magius-casino-de-es-it-casino-bonus-review-xd",
+      "campaignId": "631",
+      "campaignName": "SEO - Magius Casino [200 DE; ES; IT",
+      "lastUpdated": "2025-09-30T19:24:17.725Z",
+      "confidence": "high"
     }
   },
   {
-    "slug": "romibet-fr-v2",
-    "brand": "RomiBet",
-    "url": "https://www.romibet.fr",
-    "licences": [
-      "L'Autorité Nationale des Jeux (ANJ)"
-    ],
-    "restrictedGeos": [
-      "US",
-      "UK",
-      "ES",
-      "IT",
-      "DE"
-    ],
-    "providers": [
-      "Pragmatic Play",
-      "Evolution Gaming",
-      "Play'n GO",
-      "NetEnt",
-      "Yggdrasil"
-    ],
-    "payoutSpeedHours": 48,
-    "banking": [
-      "Visa",
-      "Mastercard",
-      "PayPal",
-      "Paysafecard",
-      "Bank Transfer",
-      "Cards"
-    ],
-    "bonuses": {
-      "welcome": {
-        "headline": "€100 + 50 FS",
-        "wagering": "35x",
-        "maxCashout": 100
-      }
-    },
-    "safety": {
-      "yearsOnline": 4,
-      "complaintRatio": 0.01,
-      "resolvedComplaints": 90,
-      "termsFlags": []
-    },
-    "ratings": {
-      "security": 9.2,
-      "fairness": 8.8,
-      "payout": 8.5,
-      "bonusValue": 8.4,
-      "games": 9,
-      "support": 7.2,
-      "reputation": 8.7
-    },
-    "topTags": [
-      "Quick withdrawals",
-      "Mobile app",
-      "VIP program"
-    ],
-    "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=romibet.fr&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    }
-  },
-  {
-    "slug": "ultimluck-casino",
+    "slug": "ultimluck",
     "brand": "Ultimluck Casino",
     "url": "https://www.ultimluck.com",
     "licences": [
@@ -4349,17 +4831,44 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=ultimluck.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/ultimluck.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "ultimluck.com",
+      "originalUrl": "/images/casinos/ultimluck-casino.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.036Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/ultimluck.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/ultimluck.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/ultimluck-casino.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/unlimluck-hb-casino-bonus-review-k6hz-v2",
+      "campaignId": "653",
+      "campaignName": "SEO - UnlimLuck HB-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "slots-islands",
+    "slug": "slots",
     "brand": "Slots Islands",
     "url": "https://www.slotsislands.com",
     "licences": [
@@ -4425,10 +4934,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/slots-islands-uk-de-fr-casino-bonus-review-26",
+      "campaignId": "537",
+      "campaignName": "SEO - Slots Islands UK DE FR IT ES SE 1756635641100",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "rich-royal",
+    "slug": "royal",
     "brand": "Rich Royal",
     "url": "https://www.richroyal.com",
     "licences": [
@@ -4487,87 +5002,39 @@
       "Crypto-friendly"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=richroyal.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/richroyal.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "richroyal.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=richroyal.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.036Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/richroyal.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/richroyal.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/rich-royal-de-at-ch-casino-bonus-review-0e",
+      "campaignId": "565",
+      "campaignName": "SEO - Rich Royal DE AT CH ES PT",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "royal-game",
-    "brand": "Royal Game",
-    "url": "https://www.royalgames.com",
-    "licences": [
-      "Curacao"
-    ],
-    "restrictedGeos": [
-      "US",
-      "UK",
-      "FR",
-      "ES",
-      "IT"
-    ],
-    "providers": [
-      "Microgaming",
-      "NetEnt",
-      "Evolution Gaming",
-      "Betsoft",
-      "Quickspin",
-      "Amatic"
-    ],
-    "payoutSpeedHours": 120,
-    "banking": [
-      "Visa",
-      "Mastercard",
-      "Skrill",
-      "Neteller",
-      "Neosurf",
-      "Crypto",
-      "Bank Transfer",
-      "E-wallets"
-    ],
-    "bonuses": {
-      "welcome": {
-        "headline": "€1000 + 150 FS",
-        "wagering": "40x",
-        "maxCashout": 1000
-      }
-    },
-    "safety": {
-      "yearsOnline": 7,
-      "complaintRatio": 0.02,
-      "resolvedComplaints": 80,
-      "termsFlags": []
-    },
-    "ratings": {
-      "security": 8.5,
-      "fairness": 8.36,
-      "payout": 7.5,
-      "bonusValue": 7.9799999999999995,
-      "games": 10,
-      "support": 8.36,
-      "reputation": 8
-    },
-    "topTags": [
-      "Massive game selection",
-      "Live dealer games",
-      "Crypto-friendly"
-    ],
-    "logo": {
-      "url": "https://kingcare.zendesk.com/hc/theming_assets/01HZM49HFHV9Q48SJEZ7W59YNQ",
-      "source": "direct",
-      "quality": "high",
-      "dimensions": "337x250",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    }
-  },
-  {
-    "slug": "lucky-gem",
+    "slug": "gem",
     "brand": "Lucky Gem",
     "url": "https://www.luckygemcasino.com",
     "licences": [
@@ -4629,17 +5096,45 @@
       "Mobile-optimized"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=luckygemcasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/luckygemcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "luckygemcasino.com",
+      "originalUrl": "/images/casinos/lucky-gem.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.036Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/luckygemcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/luckygemcasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/lucky-gem.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/lucky-gem-casino-bonus-review-nuqb-v2",
+      "campaignId": "706",
+      "campaignName": "SEO - Lucky Gem - en UK-v2",
+      "lastUpdated": "2025-09-30T19:24:17.726Z",
+      "confidence": "medium"
     }
   },
   {
-    "slug": "pirate-spins",
+    "slug": "pirate",
     "brand": "Pirate Spins",
     "url": "https://www.piratespins.com",
     "licences": [
@@ -4698,75 +5193,35 @@
       "Crypto-friendly"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=piratespins.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    }
-  },
-  {
-    "slug": "needforspeed-es-v2",
-    "brand": "NeedForSpeed",
-    "url": "https://es.needforspeedcasino.com",
-    "licences": [
-      "Dirección General de Ordenación del Juego (DGOJ)"
-    ],
-    "restrictedGeos": [
-      "All except Spain"
-    ],
-    "providers": [
-      "Play'n GO",
-      "Red Rake Gaming",
-      "Evolution Gaming",
-      "Pragmatic Play",
-      "EGT"
-    ],
-    "payoutSpeedHours": 48,
-    "banking": [
-      "Visa",
-      "Mastercard",
-      "Paysafecard",
-      "Bizum",
-      "Bank Transfer"
-    ],
-    "bonuses": {
-      "welcome": {
-        "headline": "€300 + 50 FS",
-        "wagering": "30x",
-        "maxCashout": 300
-      }
+      "url": "https://cdn.brandfetch.io/piratespins.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "piratespins.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=piratespins.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.036Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/piratespins.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/piratespins.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
     },
-    "safety": {
-      "yearsOnline": 1,
-      "complaintRatio": 0.02,
-      "resolvedComplaints": 80,
-      "termsFlags": []
-    },
-    "ratings": {
-      "security": 9,
-      "fairness": 8.58,
-      "payout": 8.5,
-      "bonusValue": 8.19,
-      "games": 8.3,
-      "support": 7.02,
-      "reputation": 8.5
-    },
-    "topTags": [
-      "Quick withdrawals",
-      "Mobile app",
-      "VIP program"
-    ],
-    "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=es.needforspeedcasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/pirate-spins-uk-casino-bonus-review-djx2-v2",
+      "campaignId": "688",
+      "campaignName": "SEO - Pirate Spins UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -4837,10 +5292,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/wild-tokyo-it-casino-bonus-review-xpar-v2",
+      "campaignId": "637",
+      "campaignName": "SEO - Wild Tokyo IT-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "36-hight",
+    "slug": "hight",
     "brand": "36 Hight",
     "url": "https://www.36hight.com",
     "licences": [
@@ -4901,17 +5362,44 @@
       "Crypto-friendly"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=36hight.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/36hight.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "36hight.com",
+      "originalUrl": "/images/casinos/36-hight.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.037Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/36hight.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/36hight.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/36-hight.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/36-hight-fly-bet-pl-pt-casino-bonus-review-uz",
+      "campaignId": "633",
+      "campaignName": "SEO - 36 Hight Fly Bet PL PT",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "hello-fortune",
+    "slug": "fortune",
     "brand": "Hello Fortune",
     "url": "https://www.hellofortune.com",
     "licences": [
@@ -4977,70 +5465,16 @@
       "geoAware": false,
       "country": "unknown",
       "brandRelevance": 0
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/hello-fortune-uk-casino-bonus-review-5th5-v2",
+      "campaignId": "717",
+      "campaignName": "SEO - Hello Fortune UK-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "needforspeed-fi-v2",
-    "brand": "NeedForSpeed",
-    "url": "https://fi.needforspeedcasino.com",
-    "licences": [
-      "National Police Board of Finland (Suomen Pelivirasto)"
-    ],
-    "restrictedGeos": [
-      "All except Finland"
-    ],
-    "providers": [
-      "Pragmatic Play",
-      "Play'n GO",
-      "Evolution Gaming",
-      "NetEnt",
-      "Yggdrasil"
-    ],
-    "payoutSpeedHours": 72,
-    "banking": [
-      "Visa",
-      "Mastercard",
-      "MobilePay",
-      "Paysafecard",
-      "Bank Transfer"
-    ],
-    "bonuses": {
-      "welcome": {
-        "headline": "100 FS",
-        "wagering": "35x",
-        "maxCashout": null
-      }
-    },
-    "safety": {
-      "yearsOnline": 1,
-      "complaintRatio": 0.01,
-      "resolvedComplaints": 90,
-      "termsFlags": []
-    },
-    "ratings": {
-      "security": 10,
-      "fairness": 8.14,
-      "payout": 7.5,
-      "bonusValue": 7.7700000000000005,
-      "games": 7.300000000000001,
-      "support": 6.66,
-      "reputation": 9.5
-    },
-    "topTags": [
-      "Mobile-optimized"
-    ],
-    "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=fi.needforspeedcasino.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    }
-  },
-  {
-    "slug": "moana-casino",
+    "slug": "moana",
     "brand": "Moana Casino",
     "url": "https://www.moana-casino.com",
     "licences": [
@@ -5107,11 +5541,17 @@
       "geoAware": true,
       "country": "CA",
       "brandRelevance": 15
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/moana-uk-casino-bonus-review-rpzb-v2",
+      "campaignId": "701",
+      "campaignName": "SEO - Moana Casino UK NL FI DE AT CH SE CA-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "prontobet-au",
-    "brand": "ProntoBet AU",
+    "slug": "prontobet",
+    "brand": "ProntoBet",
     "url": "https://www.prontobet.com.au",
     "licences": [
       "Curacao"
@@ -5166,17 +5606,44 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=prontobet.com.au&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/prontobet.com.au?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "prontobet.com.au",
+      "originalUrl": "/images/casinos/prontobet.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.038Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/prontobet.com.au?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/prontobet.com.au?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/prontobet.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/prontobet-au-casino-bonus-review-lcvo-v2",
+      "campaignId": "686",
+      "campaignName": "SEO - ProntoBet AU-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
-    "slug": "11croc-at-v2",
+    "slug": "11croc",
     "brand": "11Croc",
     "url": "https://www.11croc.com/at",
     "licences": [
@@ -5233,79 +5700,40 @@
       "Mobile-optimized"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=11croc.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    }
-  },
-  {
-    "slug": "11croc-de-v2",
-    "brand": "11Croc",
-    "url": "https://www.11croc.com/de",
-    "licences": [
-      "Gemeinsame Glücksspielbehörde der Länder (GGL)"
-    ],
-    "restrictedGeos": [
-      "US",
-      "UK",
-      "AT",
-      "CH",
-      "FR"
-    ],
-    "providers": [
-      "Pragmatic Play",
-      "Evolution Gaming",
-      "Merkur Gaming",
-      "Greentube",
-      "Novomatic"
-    ],
-    "payoutSpeedHours": 48,
-    "banking": [
-      "Giropay",
-      "Sofort",
-      "Visa",
-      "Mastercard",
-      "Paysafecard",
-      "Bank Transfer"
-    ],
-    "bonuses": {
-      "welcome": {
-        "headline": "N/A (Regulated Market)",
-        "wagering": "N/A",
-        "maxCashout": null
-      }
+      "url": "https://cdn.brandfetch.io/11croc.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "11croc.com",
+      "originalUrl": "/images/casinos/11croc.png",
+      "originalSource": "local-fallback",
+      "updatedAt": "2025-09-30T09:40:55.038Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/11croc.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/11croc.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/11croc.png",
+          "source": "local-fallback",
+          "description": "Original local fallback image"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
     },
-    "safety": {
-      "yearsOnline": 2,
-      "complaintRatio": 0.02,
-      "resolvedComplaints": 80,
-      "termsFlags": []
-    },
-    "ratings": {
-      "security": 9,
-      "fairness": 7.700000000000001,
-      "payout": 8.5,
-      "bonusValue": 7.3500000000000005,
-      "games": 7.7,
-      "support": 6.3,
-      "reputation": 8.5
-    },
-    "topTags": [
-      "Quick withdrawals",
-      "Mobile-optimized"
-    ],
-    "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=11croc.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/11croc-at-casino-bonus-review-uorp-v2",
+      "campaignId": "655",
+      "campaignName": "SEO - 11Croc AT-v2",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   },
   {
@@ -5371,13 +5799,35 @@
       "Crypto-friendly"
     ],
     "logo": {
-      "url": "https://www.google.com/s2/favicons?domain=allspins.com&sz=64",
-      "source": "google-favicon-fallback",
-      "quality": "basic",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "https://cdn.brandfetch.io/allspins.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "source": "brandfetch-api",
+      "domain": "allspins.com",
+      "originalUrl": "https://www.google.com/s2/favicons?domain=allspins.com&sz=64",
+      "originalSource": "google-favicon-fallback",
+      "updatedAt": "2025-09-30T09:40:55.039Z",
+      "fallbackChain": [
+        {
+          "url": "https://cdn.brandfetch.io/allspins.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+          "source": "brandfetch-api",
+          "description": "Primary Brandfetch logo"
+        },
+        {
+          "url": "https://cdn.brandfetch.io/allspins.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
+          "source": "brandfetch-lettermark",
+          "description": "Brandfetch lettermark fallback"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
+    },
+    "affiliate": {
+      "link": "https://trk.bestcasinoportal.com/allspins-de-se-be-casino-bonus-review-kd",
+      "campaignId": "618",
+      "campaignName": "SEO - AllSpins DE SE BE CH CA IT IE",
+      "lastUpdated": "2025-09-30T19:21:02.807Z"
     }
   }
 ]

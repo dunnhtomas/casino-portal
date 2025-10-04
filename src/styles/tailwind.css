@@ -4,6 +4,9 @@
 /* Import casino enhancements */
 @import './casino-enhancements.css';
 
+/* Import accessibility and contrast improvements */
+@import './accessibility.css';
+
 /* Tailwind CSS directives - suppress unknown at-rule warnings */
 /* eslint-disable */
 /* stylelint-disable */

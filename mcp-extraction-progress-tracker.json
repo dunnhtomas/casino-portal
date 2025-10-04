@@ -1,0 +1,273 @@
+{
+  "startTime": "2025-10-02T18:50:07.952Z",
+  "totalCasinos": 33,
+  "completed": 1,
+  "remaining": 33,
+  "successRate": 100,
+  "casinos": [
+    {
+      "slug": "unlimluck",
+      "brand": "UnlimLuck",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "wonthere",
+      "brand": "WonThere",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "rizz",
+      "brand": "Rizz Casino",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "n1bet",
+      "brand": "N1 Bet Casino",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "romibet",
+      "brand": "RomiBet",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "red",
+      "brand": "The Red",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "tiki",
+      "brand": "Tiki Casino",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "spinlander",
+      "brand": "SpinLander",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "joker",
+      "brand": "Joker Ace's",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "needforspin",
+      "brand": "Need For Spin",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "ritzo",
+      "brand": "Ritzo Casino",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "spingranny-2",
+      "brand": "SpinGranny",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "wand",
+      "brand": "Lucky Wand",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "spingranny-3",
+      "brand": "SpinGranny Czech",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "klikki",
+      "brand": "Klikki Casino",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "lyrabet-2",
+      "brand": "LyraBet Belgium",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "instant",
+      "brand": "Instant Casino",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "panda",
+      "brand": "Golden Panda",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "romibet-2",
+      "brand": "RomiBet France",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "ultimluck",
+      "brand": "Ultimluck Casino",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "slots",
+      "brand": "Slots Islands",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "royal",
+      "brand": "Rich Royal",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "royal-2",
+      "brand": "Royal Game",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "gem",
+      "brand": "Lucky Gem",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "pirate",
+      "brand": "Pirate Spins",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "needforspin-2",
+      "brand": "Need For Spin",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "wild-tokyo",
+      "brand": "Wild Tokyo",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "hight",
+      "brand": "36 Hight",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "fortune",
+      "brand": "Hello Fortune",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "needforspin-3",
+      "brand": "Need For Spin",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "prontobet",
+      "brand": "ProntoBet",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "11croc",
+      "brand": "11Croc",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    },
+    {
+      "slug": "11croc-2",
+      "brand": "11Croc Germany",
+      "status": "pending",
+      "realUrl": null,
+      "logoUrl": null,
+      "downloadedAt": null
+    }
+  ]
+}

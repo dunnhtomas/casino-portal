@@ -1,0 +1,384 @@
+---
+import SimplePageLayout from '../components/Layout/SimplePageLayout.astro';
+
+// Load countries data using the same method as country pages
+let countriesData: any = { countries: [] };
+
+try {
+  // Use import.meta.glob to load JSON files at build time
+  const dataFiles = import.meta.glob('../data/*.json', { eager: true });
+  const countriesFile = dataFiles['../data/countries.json'] as any;
+  
+  if (countriesFile?.countries && Array.isArray(countriesFile.countries)) {
+    countriesData = countriesFile;
+  } else {
+    // Fallback data
+    countriesData = {
+      countries: [
+        {
+          code: 'US',
+          name: 'United States',
+          slug: 'united-states',
+          currency: 'USD',
+          languages: ['English'],
+          tier: 'Tier 1',
+          region: 'North America'
+        }
+      ]
+    };
+  }
+} catch (error) {
+  console.error('Error loading countries data:', error);
+  // Use minimal fallback
+  countriesData = { countries: [] };
+}
+
+// Group countries by region
+const countriesByRegion = countriesData.countries.reduce((groups, country) => {
+  const region = country.region;
+  if (!groups[region]) {
+    groups[region] = [];
+  }
+  groups[region].push(country);
+  return groups;
+}, {});
+
+// Sort countries within each region
+Object.keys(countriesByRegion).forEach(region => {
+  countriesByRegion[region].sort((a, b) => a.name.localeCompare(b.name));
+});
+
+// Flag emoji mapping
+const flagEmojis = {
+  'UK': '🇬🇧', 'DE': '🇩🇪', 'FR': '🇫🇷', 'ES': '🇪🇸', 'IT': '🇮🇹',
+  'NL': '🇳🇱', 'SE': '🇸🇪', 'AU': '🇦🇺', 'CA': '🇨🇦', 'AT': '🇦🇹',
+  'BE': '🇧🇪', 'CH': '🇨🇭', 'CZ': '🇨🇿', 'DK': '🇩🇰', 'FI': '🇫🇮',
+  'GR': '🇬🇷', 'HU': '🇭🇺', 'IE': '🇮🇪', 'IS': '🇮🇸', 'LT': '🇱🇹',
+  'LU': '🇱🇺', 'NO': '🇳🇴', 'NZ': '🇳🇿', 'PA': '🇵🇦', 'PL': '🇵🇱',
+  'PT': '🇵🇹', 'SI': '🇸🇮', 'SK': '🇸🇰', 'SL': '🇸🇱'
+};
+
+// Region colors and themes
+const regionThemes = {
+  'Europe': {
+    gradient: 'from-blue-600 via-purple-600 to-indigo-600',
+    icon: '🏰',
+    description: 'Rich history and sophisticated gaming culture'
+  },
+  'North America': {
+    gradient: 'from-red-600 via-yellow-500 to-blue-600',
+    icon: '🏔️',
+    description: 'Bold and innovative casino experiences'
+  },
+  'Oceania': {
+    gradient: 'from-cyan-500 via-teal-500 to-green-500',
+    icon: '🏄‍♂️',
+    description: 'Relaxed and adventurous gaming atmosphere'
+  },
+  'Other': {
+    gradient: 'from-orange-500 via-pink-500 to-purple-500',
+    icon: '🌍',
+    description: 'Diverse and unique gaming markets'
+  }
+};
+---
+
+<SimplePageLayout 
+  title="Countries & Regions | Best Online Casinos Worldwide 2025"
+  description="Explore the best online casinos available in your country. Find trusted, licensed casinos with local payment methods, currencies, and language support across Europe, North America, and Oceania."
+  breadcrumbs={[
+    { label: 'Countries', href: '/countries' }
+  ]}
+>
+  <meta name="description" content="Explore the best online casinos by country and region. Comprehensive guides for 29+ countries with local regulations, currencies, and payment methods.">
+  
+  <style>
+    .country-card {
+      transition: all 0.3s ease;
+      backdrop-filter: blur(10px);
+    }
+    
+    .country-card:hover {
+      transform: translateY(-4px) scale(1.02);
+    }
+    
+    .region-pattern {
+      background-image: 
+        radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0);
+      background-size: 30px 30px;
+    }
+    
+    .floating-animation {
+      animation: float 6s ease-in-out infinite;
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-20px); }
+    }
+  </style>
+
+  <!-- Hero Section -->
+  <section class="relative py-16 lg:py-24 overflow-hidden">
+    <!-- Background -->
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900"></div>
+    <div class="absolute inset-0 region-pattern opacity-20"></div>
+    
+    <!-- Content -->
+    <div class="relative z-10 container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center text-white">
+        <!-- Globe Animation -->
+        <div class="floating-animation text-8xl mb-8">
+          🌍
+        </div>
+        
+        <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
+          Casino Guides by
+          <span class="block bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text text-transparent">
+            Country & Region
+          </span>
+        </h1>
+        
+        <p class="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed">
+          Discover the best online casinos tailored for your country. 
+          Local currencies, payment methods, and regulations all covered.
+        </p>
+        
+        <!-- Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 max-w-2xl mx-auto">
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+            <div class="text-2xl font-bold text-yellow-400">
+              {countriesData.countries.length}
+            </div>
+            <div class="text-sm opacity-80">Countries</div>
+          </div>
+          
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+            <div class="text-2xl font-bold text-green-400">
+              {Object.keys(countriesByRegion).length}
+            </div>
+            <div class="text-sm opacity-80">Regions</div>
+          </div>
+          
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+            <div class="text-2xl font-bold text-blue-400">
+              20+
+            </div>
+            <div class="text-sm opacity-80">Currencies</div>
+          </div>
+          
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-4">
+            <div class="text-2xl font-bold text-purple-400">
+              30+
+            </div>
+            <div class="text-sm opacity-80">Languages</div>
+          </div>
+        </div>
+        
+        <a href="#regions" 
+           class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-yellow-500 to-orange-500 
+                  text-gray-900 font-semibold rounded-full hover:scale-105 transform transition-all 
+                  duration-300 shadow-lg hover:shadow-xl">
+          <span>Explore Countries</span>
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Regions & Countries Section -->
+  <section id="regions" class="py-16 lg:py-24">
+    <div class="container mx-auto px-4">
+      <div class="max-w-7xl mx-auto">
+        {Object.entries(countriesByRegion).map(([region, countries]) => {
+          const regionTheme = regionThemes[region] || regionThemes['Other'];
+          const countryList = countries as any[];
+          
+          return (
+            <div class="mb-16 last:mb-0">
+              <!-- Region Header -->
+              <div class="text-center mb-12">
+                <div class="text-6xl mb-4">{regionTheme.icon}</div>
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-gray-900">
+                  {region}
+                </h2>
+                <p class="text-xl text-gray-600 mb-6">
+                  {regionTheme.description}
+                </p>
+                <div class="text-lg font-semibold text-gray-500">
+                  {countryList.length} {countryList.length === 1 ? 'Country' : 'Countries'}
+                </div>
+              </div>
+              
+              <!-- Countries Grid -->
+              <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                {countryList.map((country) => (
+                  <a href={`/country/${country.slug}`} 
+                     class="country-card group block">
+                    <div class="bg-white rounded-xl shadow-lg border border-gray-100 overflow-hidden h-full">
+                      <!-- Country Header -->
+                      <div class={`p-6 bg-gradient-to-br ${regionTheme.gradient} relative overflow-hidden`}>
+                        <!-- Pattern overlay -->
+                        <div class="absolute inset-0 region-pattern opacity-20"></div>
+                        
+                        <!-- Content -->
+                        <div class="relative z-10 text-center text-white">
+                          <div class="text-4xl mb-3 group-hover:scale-110 transition-transform duration-300">
+                            {flagEmojis[country.code] || '🌍'}
+                          </div>
+                          <h3 class="text-xl font-bold mb-2">
+                            {country.name}
+                          </h3>
+                          <div class="text-sm opacity-90">
+                            {country.tier} Market
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <!-- Country Details -->
+                      <div class="p-6">
+                        <div class="space-y-3">
+                          <!-- Currency -->
+                          <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-500">Currency:</span>
+                            <span class="font-semibold text-gray-900">{country.currency}</span>
+                          </div>
+                          
+                          <!-- Languages -->
+                          <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-500">Languages:</span>
+                            <span class="font-semibold text-gray-900 text-right">
+                              {country.languages.slice(0, 2).join(', ')}
+                              {country.languages.length > 2 && <span class="text-gray-400"> +{country.languages.length - 2}</span>}
+                            </span>
+                          </div>
+                          
+                          <!-- Tier Badge -->
+                          <div class="flex items-center justify-between text-sm">
+                            <span class="text-gray-500">Market:</span>
+                            <span class={`px-2 py-1 rounded-full text-xs font-semibold ${
+                              country.tier === 'Tier 1' ? 'bg-green-100 text-green-800' :
+                              country.tier === 'Tier 2' ? 'bg-blue-100 text-blue-800' :
+                              'bg-gray-100 text-gray-800'
+                            }`}>
+                              {country.tier}
+                            </span>
+                          </div>
+                        </div>
+                        
+                        <!-- View Button -->
+                        <div class={`mt-6 w-full bg-gradient-to-r ${regionTheme.gradient} text-white 
+                                   font-semibold py-3 px-4 rounded-lg text-center text-sm 
+                                   group-hover:shadow-lg transition-all duration-300`}>
+                          View {country.name} Casinos
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-16 lg:py-24 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            Why Choose Country-Specific Guides?
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            Every country has unique regulations, preferred payment methods, and gaming cultures. 
+            Our guides ensure you get the most relevant information for your location.
+          </p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Local Currency -->
+          <div class="text-center">
+            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span class="text-2xl">💰</span>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">
+              Local Currency
+            </h3>
+            <p class="text-gray-600">
+              Play with your preferred currency and avoid conversion fees
+            </p>
+          </div>
+          
+          <!-- Payment Methods -->
+          <div class="text-center">
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span class="text-2xl">💳</span>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">
+              Popular Payment Methods
+            </h3>
+            <p class="text-gray-600">
+              Find casinos supporting your country's preferred payment options
+            </p>
+          </div>
+          
+          <!-- Legal Information -->
+          <div class="text-center">
+            <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span class="text-2xl">⚖️</span>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">
+              Legal Information
+            </h3>
+            <p class="text-gray-600">
+              Stay informed about local gambling laws and regulations
+            </p>
+          </div>
+          
+          <!-- Language Support -->
+          <div class="text-center">
+            <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+              <span class="text-2xl">🗣️</span>
+            </div>
+            <h3 class="text-xl font-semibold text-gray-900 mb-3">
+              Language Support
+            </h3>
+            <p class="text-gray-600">
+              Enjoy casinos with customer support in your native language
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <div class="mb-6">
+          <div class="text-6xl mb-4">🌍</div>
+          <h3 class="text-2xl font-bold mb-2">
+            Best Casino Portal
+          </h3>
+          <p class="text-gray-400">
+            Your trusted guide to online casinos worldwide
+          </p>
+        </div>
+        
+        <div class="border-t border-gray-800 pt-6">
+          <p class="text-sm text-gray-500">
+            © 2025 Best Casino Portal. All rights reserved. 
+            Gambling can be addictive. Please play responsibly.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</SimplePageLayout>

@@ -29,6 +29,22 @@ export class SchemaMarkupManager implements ISchemaMarkupService {
     };
   }
 
+  generateOrganizationSchema(): SchemaMarkup {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      '@id': `${this.baseUrl}/#organization`,
+      name: this.organizationName,
+      url: this.baseUrl,
+      description: 'Expert online casino reviews and ratings',
+      contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'customer service',
+        email: 'support@bestcasinoportal.com'
+      }
+    };
+  }
+
   generateFAQSchema(faqItems: Array<{question: string; answer: string}>): SchemaMarkup {
     return {
       '@context': 'https://schema.org',

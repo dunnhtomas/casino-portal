@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2025-10-02T12:26:56.660Z",
+  "totalCommands": 5,
+  "commands": [
+    {
+      "step": 1,
+      "casino": "SpellWin",
+      "url": "https://www.spellwin.com",
+      "expectedFile": "spellwin.png",
+      "command": "mcp_playwright_browser_navigate",
+      "description": "Navigate to SpellWin homepage to find logo",
+      "followUp": [
+        "Look for logo in header/navigation area",
+        "Extract logo image src URL",
+        "Verify logo quality and authenticity"
+      ]
+    },
+    {
+      "step": 2,
+      "casino": "Winit",
+      "url": "https://www.winit.bet",
+      "expectedFile": "winitbet.png",
+      "command": "mcp_playwright_browser_navigate",
+      "description": "Navigate to Winit homepage to find logo",
+      "followUp": [
+        "Look for logo in header/navigation area",
+        "Extract logo image src URL",
+        "Verify logo quality and authenticity"
+      ]
+    },
+    {
+      "step": 3,
+      "casino": "UnlimLuck",
+      "url": "https://www.unlimluck.com",
+      "expectedFile": "unlimluck-hb-v2.png",
+      "command": "mcp_playwright_browser_navigate",
+      "description": "Navigate to UnlimLuck homepage to find logo",
+      "followUp": [
+        "Look for logo in header/navigation area",
+        "Extract logo image src URL",
+        "Verify logo quality and authenticity"
+      ]
+    },
+    {
+      "step": 4,
+      "casino": "Mr Pacho",
+      "url": "https://www.mrpacho.com",
+      "expectedFile": "mr-pacho.png",
+      "command": "mcp_playwright_browser_navigate",
+      "description": "Navigate to Mr Pacho homepage to find logo",
+      "followUp": [
+        "Look for logo in header/navigation area",
+        "Extract logo image src URL",
+        "Verify logo quality and authenticity"
+      ]
+    },
+    {
+      "step": 5,
+      "casino": "Larabet",
+      "url": "https://www.larabet.com",
+      "expectedFile": "larabet.png",
+      "command": "mcp_playwright_browser_navigate",
+      "description": "Navigate to Larabet homepage to find logo",
+      "followUp": [
+        "Look for logo in header/navigation area",
+        "Extract logo image src URL",
+        "Verify logo quality and authenticity"
+      ]
+    }
+  ]
+}

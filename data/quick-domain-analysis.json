@@ -1,0 +1,183 @@
+{
+  "analyzedAt": "2025-10-01T20:41:33.068Z",
+  "totalCasinos": 10,
+  "summary": {
+    "looksCorrect": 10,
+    "needsResearch": 0,
+    "averageConfidence": "0.950"
+  },
+  "results": [
+    {
+      "brand": "SpellWin",
+      "slug": "spellwin",
+      "currentDomain": "spellwin.com",
+      "currentUrl": "https://www.spellwin.com",
+      "analysis": {
+        "domainLooksCorrect": true,
+        "confidence": 0.95,
+        "needsResearch": false
+      },
+      "recommendation": "Keep current domain",
+      "expectedOfficialDomains": [
+        "spellwin.com",
+        "spellwin.casino",
+        "spellwincasino.com"
+      ]
+    },
+    {
+      "brand": "Winit.Bet",
+      "slug": "winitbet",
+      "currentDomain": "winit.bet",
+      "currentUrl": "https://www.winit.bet",
+      "analysis": {
+        "domainLooksCorrect": true,
+        "confidence": 0.95,
+        "needsResearch": false
+      },
+      "recommendation": "Keep current domain",
+      "expectedOfficialDomains": [
+        "winit.bet",
+        "winitbet.com",
+        "winitbet.casino",
+        "winitbetcasino.com"
+      ]
+    },
+    {
+      "brand": "UnlimLuck",
+      "slug": "unlimluck",
+      "currentDomain": "unlimluck.com",
+      "currentUrl": "https://www.unlimluck.com",
+      "analysis": {
+        "domainLooksCorrect": true,
+        "confidence": 0.95,
+        "needsResearch": false
+      },
+      "recommendation": "Keep current domain",
+      "expectedOfficialDomains": [
+        "unlimluck.com",
+        "unlimluck.casino",
+        "unlimluckcasino.com"
+      ]
+    },
+    {
+      "brand": "Mr Pacho",
+      "slug": "mr-pacho",
+      "currentDomain": "mrpacho.com",
+      "currentUrl": "https://www.mrpacho.com",
+      "analysis": {
+        "domainLooksCorrect": true,
+        "confidence": 0.95,
+        "needsResearch": false
+      },
+      "recommendation": "Keep current domain",
+      "expectedOfficialDomains": [
+        "mrpacho.com",
+        "mrpacho.casino",
+        "mrpachocasino.com"
+      ]
+    },
+    {
+      "brand": "Larabet",
+      "slug": "larabet",
+      "currentDomain": "larabet.com",
+      "currentUrl": "https://www.larabet.com",
+      "analysis": {
+        "domainLooksCorrect": true,
+        "confidence": 0.95,
+        "needsResearch": false
+      },
+      "recommendation": "Keep current domain",
+      "expectedOfficialDomains": [
+        "larabet.com",
+        "larabet.casino",
+        "larabetcasino.com"
+      ]
+    },
+    {
+      "brand": "Slotlair",
+      "slug": "slotlair",
+      "currentDomain": "slotlair.co.uk",
+      "currentUrl": "https://www.slotlair.co.uk",
+      "analysis": {
+        "domainLooksCorrect": true,
+        "confidence": 0.95,
+        "needsResearch": false
+      },
+      "recommendation": "Keep current domain",
+      "expectedOfficialDomains": [
+        "slotlair.co.uk",
+        "slotlair.com",
+        "slotlair.casino",
+        "slotlaircasino.com"
+      ]
+    },
+    {
+      "brand": "SagaSpins",
+      "slug": "sagaspins",
+      "currentDomain": "sagaspins.com",
+      "currentUrl": "https://www.sagaspins.com",
+      "analysis": {
+        "domainLooksCorrect": true,
+        "confidence": 0.95,
+        "needsResearch": false
+      },
+      "recommendation": "Keep current domain",
+      "expectedOfficialDomains": [
+        "sagaspins.com",
+        "sagaspins.casino",
+        "sagaspinscasino.com"
+      ]
+    },
+    {
+      "brand": "Samba Slots",
+      "slug": "samba",
+      "currentDomain": "sambaslots.com",
+      "currentUrl": "https://www.sambaslots.com",
+      "analysis": {
+        "domainLooksCorrect": true,
+        "confidence": 0.95,
+        "needsResearch": false
+      },
+      "recommendation": "Keep current domain",
+      "expectedOfficialDomains": [
+        "sambaslots.com",
+        "sambaslots.casino",
+        "sambaslotscasino.com"
+      ]
+    },
+    {
+      "brand": "Willdsino",
+      "slug": "willdsino",
+      "currentDomain": "willdsino.com",
+      "currentUrl": "https://www.willdsino.com",
+      "analysis": {
+        "domainLooksCorrect": true,
+        "confidence": 0.95,
+        "needsResearch": false
+      },
+      "recommendation": "Keep current domain",
+      "expectedOfficialDomains": [
+        "willdsino.com",
+        "willdsino.casino",
+        "willdsinocasino.com"
+      ]
+    },
+    {
+      "brand": "Trino",
+      "slug": "trino",
+      "currentDomain": "trinocasino.com",
+      "currentUrl": "https://www.trinocasino.com",
+      "analysis": {
+        "domainLooksCorrect": true,
+        "confidence": 0.95,
+        "needsResearch": false
+      },
+      "recommendation": "Keep current domain",
+      "expectedOfficialDomains": [
+        "trinocasino.com",
+        "trino.com",
+        "trino.casino"
+      ]
+    }
+  ]
+}

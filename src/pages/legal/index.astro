@@ -1,0 +1,57 @@
+---
+const pageTitle = "Legal Information - Casino Legal Guide Canada 2025";
+const pageDescription = "Legal information about online casino gaming in Canada. Terms, privacy policy, and about us.";
+const canonicalUrl = "https://bestcasinoportal.com/legal";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription}>
+  <link rel="canonical" href={canonicalUrl}>
+</head>
+<body>
+  <main>
+    <section class="hero py-16 bg-gradient-to-r from-gray-600 to-gray-800 text-white">
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 text-center">{pageTitle}</h1>
+        <p class="text-xl text-center max-w-3xl mx-auto">{pageDescription}</p>
+      </div>
+    </section>
+    
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <div class="max-w-6xl mx-auto">
+          <h2 class="text-3xl font-bold mb-8">Legal Pages</h2>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">About Us</h3>
+              <p class="text-gray-600 mb-4">Learn about our mission</p>
+              <a href="/legal/about" class="bg-gray-600 text-white px-4 py-2 rounded hover:bg-gray-700 w-full inline-block text-center">
+                About Us
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Privacy Policy</h3>
+              <p class="text-gray-600 mb-4">How we protect your data</p>
+              <a href="/legal/privacy" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 w-full inline-block text-center">
+                Privacy Policy
+              </a>
+            </div>
+            <div class="casino-card bg-white rounded-lg shadow-lg p-6">
+              <h3 class="text-xl font-bold mb-2">Terms of Service</h3>
+              <p class="text-gray-600 mb-4">Website terms and conditions</p>
+              <a href="/legal/terms" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 w-full inline-block text-center">
+                Terms of Service
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

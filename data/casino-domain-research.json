@@ -1,0 +1,742 @@
+[
+  {
+    "slug": "spellwin",
+    "brand": "SpellWin",
+    "originalUrl": "https://www.spellwin.com",
+    "actualDomain": "spellwin.com",
+    "finalUrl": "https://spellwin.com/",
+    "redirectChain": [
+      "https://www.spellwin.com/"
+    ]
+  },
+  {
+    "slug": "winitbet",
+    "brand": "Winit.Bet",
+    "originalUrl": "https://www.winit.bet",
+    "actualDomain": "winit2.bet",
+    "finalUrl": "https://winit2.bet/",
+    "redirectChain": [
+      "https://www.winit.bet/",
+      "https://winit.bet/"
+    ]
+  },
+  {
+    "slug": "unlimluck-hb-v2",
+    "brand": "UnlimLuck",
+    "originalUrl": "https://www.unlimluck.com",
+    "actualDomain": "unlimluck.com",
+    "finalUrl": "https://unlimluck.com/",
+    "redirectChain": [
+      "https://www.unlimluck.com/"
+    ]
+  },
+  {
+    "slug": "mr-pacho",
+    "brand": "Mr Pacho",
+    "originalUrl": "https://www.mrpacho.com",
+    "actualDomain": "mrpacho.com",
+    "finalUrl": "https://mrpacho.com/",
+    "redirectChain": [
+      "https://www.mrpacho.com/"
+    ]
+  },
+  {
+    "slug": "larabet",
+    "brand": "Larabet",
+    "originalUrl": "https://www.larabet.com",
+    "actualDomain": "larabet.com",
+    "finalUrl": "https://larabet.com/",
+    "redirectChain": [
+      "https://www.larabet.com/"
+    ]
+  },
+  {
+    "slug": "slotlair-uk-v2",
+    "brand": "Slotlair UK",
+    "originalUrl": "https://www.slotlair.co.uk",
+    "actualDomain": "slotlair.co.uk",
+    "finalUrl": "https://slotlair.co.uk/",
+    "redirectChain": [
+      "https://www.slotlair.co.uk/"
+    ]
+  },
+  {
+    "slug": "sagaspins-uk-v2",
+    "brand": "SagaSpins UK",
+    "originalUrl": "https://www.sagaspins.com",
+    "actualDomain": "sagaspins22.com",
+    "finalUrl": "https://sagaspins22.com/",
+    "redirectChain": [
+      "https://www.sagaspins.com/",
+      "https://sagaspins.com/"
+    ]
+  },
+  {
+    "slug": "samba-slots",
+    "brand": "Samba Slots",
+    "originalUrl": "https://www.sambaslots.com",
+    "actualDomain": "sambaslots.com",
+    "finalUrl": "https://www.sambaslots.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "willdsino",
+    "brand": "Willdsino",
+    "originalUrl": "https://www.willdsino.com",
+    "actualDomain": "willdsino.com",
+    "finalUrl": "https://www.willdsino.com",
+    "redirectChain": []
+  },
+  {
+    "slug": "trino",
+    "brand": "Trino",
+    "originalUrl": "https://www.trinocasino.com",
+    "actualDomain": "trinocasino.com",
+    "finalUrl": "https://trinocasino.com/",
+    "redirectChain": [
+      "https://www.trinocasino.com/"
+    ]
+  },
+  {
+    "slug": "skyhills-nl-v2",
+    "brand": "SkyHills NL",
+    "originalUrl": "https://www.skyhills.com/nl",
+    "actualDomain": "skyhills.com",
+    "finalUrl": "https://www.skyhills.com/de/nl",
+    "redirectChain": [
+      "https://www.skyhills.com/nl"
+    ]
+  },
+  {
+    "slug": "wonthere-uk-v2",
+    "brand": "WonThere UK",
+    "originalUrl": "https://www.wonthere.co.uk",
+    "actualDomain": "wonthere.co.uk",
+    "finalUrl": "https://www.wonthere.co.uk",
+    "redirectChain": []
+  },
+  {
+    "slug": "lucky-hunter",
+    "brand": "Lucky Hunter",
+    "originalUrl": "https://luckyhunter.io",
+    "actualDomain": "luckyhunter.io",
+    "finalUrl": "https://luckyhunter.io/",
+    "redirectChain": []
+  },
+  {
+    "slug": "rizz-casino",
+    "brand": "Rizz Casino",
+    "originalUrl": "https://www.rizzcasino.com",
+    "actualDomain": "rizzcasino.com",
+    "finalUrl": "https://www.rizzcasino.com/?__cf_chl_rt_tk=COqLFh8daAJm2i3yBPgBqGfBwujYiBuXJpZ1NjLhRCU-1759341447-1.0.1.1-UeNJv0TdvY1IN7yjjY7A0aztTefizs2LOL3n7KTG8As",
+    "redirectChain": [
+      "https://www.rizzcasino.com/"
+    ]
+  },
+  {
+    "slug": "n1-bet-casino",
+    "brand": "N1 Bet Casino",
+    "originalUrl": "https://www.n1bet.com",
+    "actualDomain": "n1bet.com",
+    "finalUrl": "https://n1bet.com/",
+    "redirectChain": [
+      "https://www.n1bet.com/"
+    ]
+  },
+  {
+    "slug": "aerobet",
+    "brand": "Aerobet",
+    "originalUrl": "https://www.aerobet.com",
+    "actualDomain": "aerobet.com",
+    "finalUrl": "https://www.aerobet.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "kings-chip",
+    "brand": "Kings Chip",
+    "originalUrl": "https://www.kingschip.com",
+    "actualDomain": "kingschip2.com",
+    "finalUrl": "https://kingschip2.com/",
+    "redirectChain": [
+      "https://www.kingschip.com/",
+      "https://kingschip.com/"
+    ]
+  },
+  {
+    "slug": "my-empire",
+    "brand": "My Empire",
+    "originalUrl": "https://www.myempire.com",
+    "actualDomain": "myempire.com",
+    "finalUrl": "https://myempire.com/",
+    "redirectChain": [
+      "https://www.myempire.com/"
+    ]
+  },
+  {
+    "slug": "romibet-es-v2",
+    "brand": "RomiBet ES",
+    "originalUrl": "https://www.romibet.es",
+    "actualDomain": "romibet.es",
+    "finalUrl": "https://www.romibet.es/",
+    "redirectChain": []
+  },
+  {
+    "slug": "spincastle-uk-v2",
+    "brand": "SpinCastle UK",
+    "originalUrl": "https://www.spincastle.com/uk",
+    "actualDomain": "spincastle.com",
+    "finalUrl": "https://spincastle.com/uk/",
+    "redirectChain": [
+      "https://www.spincastle.com/uk"
+    ]
+  },
+  {
+    "slug": "roman-casino",
+    "brand": "Roman Casino",
+    "originalUrl": "https://www.romancasino.com",
+    "actualDomain": "clariki1.com",
+    "finalUrl": "https://clariki1.com/?rs_id=5b8906f0-daa0-4e4b-ad21-c319bea08a02",
+    "redirectChain": [
+      "https://www.romancasino.com/",
+      "https://romancasino.com/"
+    ]
+  },
+  {
+    "slug": "winrolla",
+    "brand": "WinRolla",
+    "originalUrl": "https://www.winrolla.com",
+    "actualDomain": "winrolla.com",
+    "finalUrl": "https://winrolla.com/",
+    "redirectChain": [
+      "https://www.winrolla.com/"
+    ]
+  },
+  {
+    "slug": "rollxo",
+    "brand": "RollXO",
+    "originalUrl": "https://www.rollxo.com",
+    "actualDomain": "rollxo.com",
+    "finalUrl": "https://www.rollxo.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "jackpot-raider",
+    "brand": "Jackpot Raider",
+    "originalUrl": "https://www.jackpotraider.com",
+    "actualDomain": "jackpotraider.com",
+    "finalUrl": "https://jackpotraider.com/not-allowed",
+    "redirectChain": [
+      "https://www.jackpotraider.com/",
+      "https://jackpotraider.com/"
+    ]
+  },
+  {
+    "slug": "lucki-casino",
+    "brand": "Lucki Casino",
+    "originalUrl": "https://www.lucki.com",
+    "actualDomain": "lucki.com",
+    "finalUrl": "https://www.lucki.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "malina-casino",
+    "brand": "Malina Casino",
+    "originalUrl": "https://www.malinacasino.com",
+    "actualDomain": "malinacasino.com",
+    "finalUrl": "https://malinacasino.com/",
+    "redirectChain": [
+      "https://www.malinacasino.com/"
+    ]
+  },
+  {
+    "slug": "wildrobin-casino",
+    "brand": "WildRobin Casino",
+    "originalUrl": "https://www.wildrobincasino.com",
+    "actualDomain": "wildrobincasino.com",
+    "finalUrl": "https://www.wildrobincasino.com/?__cf_chl_rt_tk=Q1R1f7BblE91ORUUky3RurP5WySsg8D6DQp9DFWB7oA-1759341488-1.0.1.1-W8MHqgwDkKdcPKs_D8iQoKP2MJA9FLtqzaHsb9Jtml4",
+    "redirectChain": [
+      "https://www.wildrobincasino.com/"
+    ]
+  },
+  {
+    "slug": "jet4bet-uk",
+    "brand": "Jet4Bet",
+    "originalUrl": "https://www.jet4bet.co.uk",
+    "actualDomain": "jet4bet.co.uk",
+    "finalUrl": "https://jet4bet.co.uk/",
+    "redirectChain": [
+      "https://www.jet4bet.co.uk/"
+    ]
+  },
+  {
+    "slug": "vipzino",
+    "brand": "Vipzino",
+    "originalUrl": "https://www.vipzino.com",
+    "actualDomain": "vipzino.com",
+    "finalUrl": "https://www.vipzino.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "rolling-slots",
+    "brand": "Rolling Slots",
+    "originalUrl": "https://www.rollingslots.com",
+    "actualDomain": "rollingslots.com",
+    "finalUrl": "https://rollingslots.com/",
+    "redirectChain": [
+      "https://www.rollingslots.com/"
+    ]
+  },
+  {
+    "slug": "spinmama",
+    "brand": "SpinMama",
+    "originalUrl": "https://www.spinmama.com",
+    "actualDomain": "dynara3.com",
+    "finalUrl": "https://dynara3.com/?rs_id=2d32a29d-8d37-4bcc-92e0-6a64dd429006",
+    "redirectChain": [
+      "https://www.spinmama.com/",
+      "https://spinmama.com/"
+    ]
+  },
+  {
+    "slug": "wild-robin",
+    "brand": "Wild Robin",
+    "originalUrl": "https://www.wildrobin.com",
+    "actualDomain": "wildrobin.com",
+    "finalUrl": "https://wildrobin.com/",
+    "redirectChain": [
+      "https://www.wildrobin.com/"
+    ]
+  },
+  {
+    "slug": "spellwin-uk-v2",
+    "brand": "SpellWin UK",
+    "originalUrl": "https://www.spellwin.com/uk",
+    "actualDomain": "spellwin.com",
+    "finalUrl": "https://spellwin.com/uk",
+    "redirectChain": [
+      "https://www.spellwin.com/uk"
+    ]
+  },
+  {
+    "slug": "the-red",
+    "brand": "The Red",
+    "originalUrl": "https://www.theredcasino.com",
+    "actualDomain": "theredcasino.com",
+    "finalUrl": "https://www.theredcasino.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "london-casino",
+    "brand": "London Casino",
+    "originalUrl": "https://www.londoncasino.co.uk",
+    "actualDomain": "londoncasino.co.uk",
+    "finalUrl": "https://www.londoncasino.co.uk/",
+    "redirectChain": []
+  },
+  {
+    "slug": "vegas-nova",
+    "brand": "Vegas Nova",
+    "originalUrl": "https://www.vegasnova.com",
+    "actualDomain": "vegasnova-il.com",
+    "finalUrl": "https://vegasnova-il.com/",
+    "redirectChain": [
+      "https://www.vegasnova.com/",
+      "https://vegasnova-play.com/"
+    ]
+  },
+  {
+    "slug": "winshark",
+    "brand": "Winshark",
+    "originalUrl": "https://www.winshark.com",
+    "actualDomain": "winshark.com",
+    "finalUrl": "https://winshark.com/",
+    "redirectChain": [
+      "https://www.winshark.com/"
+    ]
+  },
+  {
+    "slug": "tiki-casino",
+    "brand": "Tiki Casino",
+    "originalUrl": "https://www.tikicasino.com",
+    "actualDomain": "tikicasino.com",
+    "finalUrl": "https://tikicasino.com/",
+    "redirectChain": [
+      "https://www.tikicasino.com/"
+    ]
+  },
+  {
+    "slug": "instaspin",
+    "brand": "InstaSpin",
+    "originalUrl": "https://www.instaspin.com",
+    "actualDomain": "instaspin.com",
+    "finalUrl": "https://instaspin.com/en",
+    "redirectChain": [
+      "https://www.instaspin.com/",
+      "https://instaspin.com/"
+    ]
+  },
+  {
+    "slug": "lyrabet-gr-v2",
+    "brand": "LyraBet GR",
+    "originalUrl": "https://www.lyrabet.gr",
+    "actualDomain": "lyrabet.gr",
+    "finalUrl": "https://lyrabet.gr/",
+    "redirectChain": [
+      "https://www.lyrabet.gr/"
+    ]
+  },
+  {
+    "slug": "pistolo-casino",
+    "brand": "Pistolo Casino",
+    "originalUrl": "https://www.pistolocasino.com",
+    "actualDomain": "pistolocasino.com",
+    "finalUrl": "https://pistolocasino.com/",
+    "redirectChain": [
+      "https://www.pistolocasino.com/"
+    ]
+  },
+  {
+    "slug": "spingranny-at",
+    "brand": "SpinGranny AT",
+    "originalUrl": "https://www.spingranny.at",
+    "actualDomain": "spingranny.at",
+    "finalUrl": "https://spingranny.at/",
+    "redirectChain": [
+      "https://www.spingranny.at/"
+    ]
+  },
+  {
+    "slug": "treasure-spins",
+    "brand": "Treasure Spins",
+    "originalUrl": "https://www.treasurespins.com",
+    "actualDomain": "treasurespins.com",
+    "finalUrl": "https://treasurespins.com/",
+    "redirectChain": [
+      "https://www.treasurespins.com/"
+    ]
+  },
+  {
+    "slug": "spinlander-uk-v2",
+    "brand": "SpinLander UK",
+    "originalUrl": "https://www.spinlander.co.uk",
+    "actualDomain": "spinlander.co.uk",
+    "finalUrl": "https://www.spinlander.co.uk",
+    "redirectChain": []
+  },
+  {
+    "slug": "joker-ace's",
+    "brand": "Joker Ace's",
+    "originalUrl": "https://www.jokeraces.com",
+    "actualDomain": "jokeraces.com",
+    "finalUrl": "https://www.jokeraces.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "needforspeed-se-v2",
+    "brand": "NeedForSpeed SE",
+    "originalUrl": "https://se.needforspeedcasino.com",
+    "actualDomain": "se.needforspeedcasino.com",
+    "finalUrl": "https://se.needforspeedcasino.com",
+    "redirectChain": []
+  },
+  {
+    "slug": "orionsbet-uk-v2",
+    "brand": "Orionsbet UK",
+    "originalUrl": "https://www.orionsbet.co.uk",
+    "actualDomain": "orionsbet.co.uk",
+    "finalUrl": "https://orionsbet.co.uk/",
+    "redirectChain": [
+      "https://www.orionsbet.co.uk/"
+    ]
+  },
+  {
+    "slug": "ivybetio",
+    "brand": "Ivybet.io",
+    "originalUrl": "https://www.ivybet.io",
+    "actualDomain": "fintmo8.com",
+    "finalUrl": "https://fintmo8.com/?rs_id=467c7b90-51c1-4b5b-b71d-3020a436e99a",
+    "redirectChain": [
+      "https://www.ivybet.io/",
+      "https://ivybet.io/"
+    ]
+  },
+  {
+    "slug": "ritzo-casino",
+    "brand": "Ritzo Casino",
+    "originalUrl": "https://www.ritzocasino.com",
+    "actualDomain": "ritzocasino.com",
+    "finalUrl": "https://www.ritzocasino.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "spingranny",
+    "brand": "SpinGranny",
+    "originalUrl": "https://www.spingranny.com",
+    "actualDomain": "lexano8.com",
+    "finalUrl": "https://lexano8.com/?rs_id=430a149a-66e8-413f-8939-aa8346fe3040",
+    "redirectChain": [
+      "https://www.spingranny.com/",
+      "https://spingranny.com/"
+    ]
+  },
+  {
+    "slug": "posido",
+    "brand": "Posido",
+    "originalUrl": "https://www.posido.com",
+    "actualDomain": "posido.com",
+    "finalUrl": "https://posido.com/",
+    "redirectChain": [
+      "https://www.posido.com/"
+    ]
+  },
+  {
+    "slug": "lucky-wand",
+    "brand": "Lucky Wand",
+    "originalUrl": "https://www.luckywandcasino.com",
+    "actualDomain": "luckywandcasino.com",
+    "finalUrl": "https://www.luckywandcasino.com",
+    "redirectChain": []
+  },
+  {
+    "slug": "spingranny-cz",
+    "brand": "SpinGranny CZ",
+    "originalUrl": "https://www.spingranny.cz",
+    "actualDomain": "spingranny.cz",
+    "finalUrl": "https://www.spingranny.cz",
+    "redirectChain": []
+  },
+  {
+    "slug": "vincispin",
+    "brand": "VinciSpin",
+    "originalUrl": "https://www.vincispin.com",
+    "actualDomain": "vincispin.com",
+    "finalUrl": "https://vincispin.com/not-allowed",
+    "redirectChain": [
+      "https://www.vincispin.com/",
+      "https://vincispin.com/"
+    ]
+  },
+  {
+    "slug": "klikki-casino",
+    "brand": "Klikki Casino",
+    "originalUrl": "https://www.klikkicasino.com",
+    "actualDomain": "klikkicasino.com",
+    "finalUrl": "https://www.klikkicasino.com",
+    "redirectChain": []
+  },
+  {
+    "slug": "slotit-de",
+    "brand": "Slotit",
+    "originalUrl": "https://www.slotit.de",
+    "actualDomain": "bernd-hendl.com",
+    "finalUrl": "https://www.bernd-hendl.com/",
+    "redirectChain": [
+      "https://www.slotit.de/"
+    ]
+  },
+  {
+    "slug": "lyrabet-be-v2",
+    "brand": "LyraBet BE",
+    "originalUrl": "https://www.lyrabet.be",
+    "actualDomain": "lyrabet.be",
+    "finalUrl": "https://www.lyrabet.be",
+    "redirectChain": []
+  },
+  {
+    "slug": "robocat-de",
+    "brand": "Robocat",
+    "originalUrl": "https://www.robocat.de",
+    "actualDomain": "domainmarkt.de",
+    "finalUrl": "https://www.domainmarkt.de/www.robocat.de",
+    "redirectChain": [
+      "https://www.robocat.de/"
+    ]
+  },
+  {
+    "slug": "spins-deluxe",
+    "brand": "Spins Deluxe",
+    "originalUrl": "https://www.spinsdeluxe.com",
+    "actualDomain": "spinsdeluxe.com",
+    "finalUrl": "https://www.spinsdeluxe.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "instant-casino",
+    "brand": "Instant Casino",
+    "originalUrl": "https://www.instantcasino.com",
+    "actualDomain": "instantcasino.com",
+    "finalUrl": "https://www.instantcasino.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "golden-panda",
+    "brand": "Golden Panda",
+    "originalUrl": "https://www.goldenpanda.com",
+    "actualDomain": "goldenpanda.com",
+    "finalUrl": "https://www.goldenpanda.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "magius-casino",
+    "brand": "Magius Casino",
+    "originalUrl": "https://www.magiuscasino.com",
+    "actualDomain": "magiuscasino.com",
+    "finalUrl": "https://magiuscasino.com/",
+    "redirectChain": [
+      "https://www.magiuscasino.com/"
+    ]
+  },
+  {
+    "slug": "romibet-fr-v2",
+    "brand": "RomiBet FR",
+    "originalUrl": "https://www.romibet.fr",
+    "actualDomain": "romibet.fr",
+    "finalUrl": "https://www.romibet.fr/",
+    "redirectChain": []
+  },
+  {
+    "slug": "ultimluck-casino",
+    "brand": "Ultimluck Casino",
+    "originalUrl": "https://www.ultimluck.com",
+    "actualDomain": "ultimluck.com",
+    "finalUrl": "https://www.ultimluck.com",
+    "redirectChain": []
+  },
+  {
+    "slug": "slots-islands",
+    "brand": "Slots Islands",
+    "originalUrl": "https://www.slotsislands.com",
+    "actualDomain": "slotsislands1.com",
+    "finalUrl": "https://slotsislands1.com/",
+    "redirectChain": [
+      "https://www.slotsislands.com/",
+      "https://slotsislands.com/"
+    ]
+  },
+  {
+    "slug": "rich-royal",
+    "brand": "Rich Royal",
+    "originalUrl": "https://www.richroyal.com",
+    "actualDomain": "richroyal.com",
+    "finalUrl": "https://richroyal.com/",
+    "redirectChain": [
+      "https://www.richroyal.com/"
+    ]
+  },
+  {
+    "slug": "royal-game",
+    "brand": "Royal Game",
+    "originalUrl": "https://www.royalgames.com",
+    "actualDomain": "kingcare.zendesk.com",
+    "finalUrl": "https://kingcare.zendesk.com/hc/en-us/articles/18087490255133-Important-Information-about-Royal-Games#%20",
+    "redirectChain": [
+      "https://www.royalgames.com/",
+      "https://kingcare.zendesk.com/auth/v2/host/without_iframe.js"
+    ]
+  },
+  {
+    "slug": "lucky-gem",
+    "brand": "Lucky Gem",
+    "originalUrl": "https://www.luckygemcasino.com",
+    "actualDomain": "luckygemcasino.com",
+    "finalUrl": "https://www.luckygemcasino.com",
+    "redirectChain": []
+  },
+  {
+    "slug": "pirate-spins",
+    "brand": "Pirate Spins",
+    "originalUrl": "https://www.piratespins.com",
+    "actualDomain": "piratespins11.com",
+    "finalUrl": "https://www.piratespins11.com/",
+    "redirectChain": [
+      "https://www.piratespins.com/"
+    ]
+  },
+  {
+    "slug": "needforspeed-es-v2",
+    "brand": "NeedForSpeed ES",
+    "originalUrl": "https://es.needforspeedcasino.com",
+    "actualDomain": "es.needforspeedcasino.com",
+    "finalUrl": "https://es.needforspeedcasino.com",
+    "redirectChain": []
+  },
+  {
+    "slug": "wild-tokyo",
+    "brand": "Wild Tokyo",
+    "originalUrl": "https://www.wildtokyo.com",
+    "actualDomain": "wildtokyo.com",
+    "finalUrl": "https://wildtokyo.com/",
+    "redirectChain": [
+      "https://www.wildtokyo.com/"
+    ]
+  },
+  {
+    "slug": "36-hight",
+    "brand": "36 Hight",
+    "originalUrl": "https://www.36hight.com",
+    "actualDomain": "36hight.com",
+    "finalUrl": "https://www.36hight.com",
+    "redirectChain": []
+  },
+  {
+    "slug": "hello-fortune",
+    "brand": "Hello Fortune",
+    "originalUrl": "https://www.hellofortune.com",
+    "actualDomain": "hellofortune32.com",
+    "finalUrl": "https://hellofortune32.com/",
+    "redirectChain": [
+      "https://www.hellofortune.com/",
+      "https://hellofortune.com/"
+    ]
+  },
+  {
+    "slug": "needforspeed-fi-v2",
+    "brand": "NeedForSpeed FI",
+    "originalUrl": "https://fi.needforspeedcasino.com",
+    "actualDomain": "fi.needforspeedcasino.com",
+    "finalUrl": "https://fi.needforspeedcasino.com",
+    "redirectChain": []
+  },
+  {
+    "slug": "moana-casino",
+    "brand": "Moana Casino",
+    "originalUrl": "https://www.moana-casino.com",
+    "actualDomain": "moana-casino.com",
+    "finalUrl": "https://www.moana-casino.com/",
+    "redirectChain": []
+  },
+  {
+    "slug": "prontobet-au",
+    "brand": "ProntoBet AU",
+    "originalUrl": "https://www.prontobet.com.au",
+    "actualDomain": "prontobet.com.au",
+    "finalUrl": "https://www.prontobet.com.au",
+    "redirectChain": []
+  },
+  {
+    "slug": "11croc-at-v2",
+    "brand": "11Croc AT",
+    "originalUrl": "https://www.11croc.com/at",
+    "actualDomain": "11croc.com",
+    "finalUrl": "https://www.11croc.com/at",
+    "redirectChain": []
+  },
+  {
+    "slug": "11croc-de-v2",
+    "brand": "11Croc DE",
+    "originalUrl": "https://www.11croc.com/de",
+    "actualDomain": "11croc.com",
+    "finalUrl": "https://www.11croc.com/de",
+    "redirectChain": []
+  },
+  {
+    "slug": "allspins",
+    "brand": "AllSpins",
+    "originalUrl": "https://www.allspins.com",
+    "actualDomain": "allspins.com",
+    "finalUrl": "https://allspins.com/",
+    "redirectChain": [
+      "https://www.allspins.com/"
+    ]
+  }
+]

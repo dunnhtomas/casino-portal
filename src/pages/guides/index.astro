@@ -1,16 +1,89 @@
 ---
+import SimplePageLayout from '../../components/Layout/SimplePageLayout.astro';
+import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
+
+const navigationCoordinator = new NavigationCoordinator();
+
+const title = 'Casino Guides | Expert Tips & Information';
+const description = 'Comprehensive guides to help you understand online casinos, our rating methodology, and responsible gambling practices.';
+const breadcrumbs = navigationCoordinator.generateBreadcrumbs('/guides');
 ---
-<html>
-  <head>
-    <title>Guides — BestCasinoPortal</title>
-  </head>
-  <body>
-    <main>
-      <h1>Guides</h1>
-      <ul>
-        <li><a href="/guides/responsible-gambling">Responsible Gambling</a></li>
-        <li><a href="/guides/how-we-rate">How We Rate</a></li>
-      </ul>
-    </main>
-  </body>
-</html>
+
+<SimplePageLayout 
+  title={title}
+  description={description}
+  breadcrumbs={breadcrumbs}
+>
+  <main class="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <!-- ENHANCED HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-background-overlay"></div>
+      <div class="hero-background-pattern"></div>
+      
+      <div class="hero-container">
+        <header>
+          <h1 class="hero-title">🎓 Casino Expert Guides</h1>
+          <p class="hero-subtitle">
+            Comprehensive expert guides to help you navigate the world of online casinos with confidence and knowledge.
+          </p>
+        </header>
+        
+        <div class="hero-trust-indicators">
+          <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+          </svg>
+          <span>📚 Expert Knowledge • 🛡️ Safety First • ⚖️ Transparent Methods • 🎯 Practical Tips</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENHANCED GUIDES GRID -->
+    <section class="container mx-auto px-6 py-16">
+      <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div class="bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] border border-gray-100 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-blue-50 rounded-full -mr-12 -mt-12"></div>
+          <div class="relative">
+            <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center text-3xl mb-6 shadow-lg">
+              ⚖️
+            </div>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">How We Rate Casinos</h2>
+            <p class="text-gray-600 mb-8 leading-relaxed">
+              Discover our transparent, expert methodology for rating online casinos, including our comprehensive scoring system and detailed criteria.
+            </p>
+            <a 
+              href="/guides/how-we-rate" 
+              class="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-blue-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            >
+              Learn Our Process
+              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-3xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02] border border-gray-100 relative overflow-hidden">
+          <div class="absolute top-0 right-0 w-24 h-24 bg-green-50 rounded-full -mr-12 -mt-12"></div>
+          <div class="relative">
+            <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center text-3xl mb-6 shadow-lg">
+              🛡️
+            </div>
+            <h2 class="text-2xl font-bold mb-4 text-gray-900">Responsible Gambling</h2>
+            <p class="text-gray-600 mb-8 leading-relaxed">
+              Essential information about gambling responsibly, setting limits, recognizing problem gambling, and accessing help when needed.
+            </p>
+            <a 
+              href="/guides/responsible-gambling" 
+              class="inline-flex items-center bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            >
+              Stay Safe
+              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</SimplePageLayout>
