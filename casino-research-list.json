@@ -186,18 +186,6 @@
     "currentDomain": "spinmama.com"
   },
   {
-    "slug": "wildrobin-2",
-    "brand": "Wild Robin",
-    "currentUrl": "https://www.wildrobin.com",
-    "currentDomain": "wildrobin.com"
-  },
-  {
-    "slug": "spellwin-2",
-    "brand": "SpellWin UK",
-    "currentUrl": "https://www.spellwin.com/uk",
-    "currentDomain": "spellwin.com"
-  },
-  {
     "slug": "red",
     "brand": "The Red",
     "currentUrl": "https://www.theredcasino.com",
@@ -294,12 +282,6 @@
     "currentDomain": "ritzocasino.com"
   },
   {
-    "slug": "spingranny-2",
-    "brand": "SpinGranny",
-    "currentUrl": "https://www.spingranny.com",
-    "currentDomain": "spingranny.com"
-  },
-  {
     "slug": "posido",
     "brand": "Posido",
     "currentUrl": "https://www.posido.com",
@@ -310,12 +292,6 @@
     "brand": "Lucky Wand",
     "currentUrl": "https://www.luckywandcasino.com",
     "currentDomain": "luckywandcasino.com"
-  },
-  {
-    "slug": "spingranny-3",
-    "brand": "SpinGranny Czech",
-    "currentUrl": "https://www.spingranny.cz",
-    "currentDomain": "spingranny.cz"
   },
   {
     "slug": "vincispin",
@@ -334,12 +310,6 @@
     "brand": "Slotit",
     "currentUrl": "https://www.slotit.de",
     "currentDomain": "slotit.de"
-  },
-  {
-    "slug": "lyrabet-2",
-    "brand": "LyraBet Belgium",
-    "currentUrl": "https://www.lyrabet.be",
-    "currentDomain": "lyrabet.be"
   },
   {
     "slug": "robocat",
@@ -370,12 +340,6 @@
     "brand": "Magius Casino",
     "currentUrl": "https://www.magiuscasino.com",
     "currentDomain": "magiuscasino.com"
-  },
-  {
-    "slug": "romibet-2",
-    "brand": "RomiBet France",
-    "currentUrl": "https://www.romibet.fr",
-    "currentDomain": "romibet.fr"
   },
   {
     "slug": "ultimluck",
@@ -414,12 +378,6 @@
     "currentDomain": "piratespins.com"
   },
   {
-    "slug": "needforspin-2",
-    "brand": "Need For Spin",
-    "currentUrl": "https://es.needforspeedcasino.com",
-    "currentDomain": "es.needforspeedcasino.com"
-  },
-  {
     "slug": "wild-tokyo",
     "brand": "Wild Tokyo",
     "currentUrl": "https://www.wildtokyo.com",
@@ -438,12 +396,6 @@
     "currentDomain": "hellofortune.com"
   },
   {
-    "slug": "needforspin-3",
-    "brand": "Need For Spin",
-    "currentUrl": "https://fi.needforspeedcasino.com",
-    "currentDomain": "fi.needforspeedcasino.com"
-  },
-  {
     "slug": "moana",
     "brand": "Moana Casino",
     "currentUrl": "https://www.moana-casino.com",
@@ -459,12 +411,6 @@
     "slug": "11croc",
     "brand": "11Croc",
     "currentUrl": "https://www.11croc.com/at",
-    "currentDomain": "11croc.com"
-  },
-  {
-    "slug": "11croc-2",
-    "brand": "11Croc Germany",
-    "currentUrl": "https://www.11croc.com/de",
     "currentDomain": "11croc.com"
   },
   {

@@ -1,0 +1,19 @@
+{
+    "git.ignoreLimitWarning": true,
+    "css.validate": true,
+    "css.lint.unknownAtRules": "ignore",
+    "less.validate": true,
+    "less.lint.unknownAtRules": "ignore", 
+    "scss.validate": true,
+    "scss.lint.unknownAtRules": "ignore",
+    "tailwindCSS.includeLanguages": {
+        "astro": "html"
+    },
+    "azureFunctions.deploySubpath": "cc23",
+    "azureFunctions.postDeployTask": "npm install (functions)",
+    "azureFunctions.projectLanguage": "TypeScript",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectLanguageModel": 4,
+    "azureFunctions.preDeployTask": "npm prune (functions)"
+}

@@ -12,7 +12,7 @@ export class TopThreeViewModel {
     return {
       id: casino.slug,
       name: casino.brand,
-      logo: getBrandLogo(casino.url, casino.slug),
+      logo: casino.logo?.url || getBrandLogo(casino.url, casino.slug),
       slug: casino.slug,
       rating: this.mapRating(casino),
       bonuses: this.mapBonuses(casino),

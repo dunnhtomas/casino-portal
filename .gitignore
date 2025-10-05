@@ -31,7 +31,7 @@ yarn-error.log*
 .env.production.local
 
 # IDE files
-.vscode/
+
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json

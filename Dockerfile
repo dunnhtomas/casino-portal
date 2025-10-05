@@ -22,6 +22,11 @@ RUN npm ci --ignore-scripts && \
 # --- Stage 4: Builder - Static Site Generation ---
 FROM dev-deps AS builder
 
+# Cache busting - this invalidates cache when CACHEBUST changes
+# MUST be before COPY to invalidate the COPY layer too
+ARG CACHEBUST=1
+RUN echo "Build timestamp: ${CACHEBUST}"
+
 # Copy source code
 COPY . .
 
@@ -37,6 +42,10 @@ RUN npm run build && \
 
 # --- Stage 5: Production - Nginx Static Server ---
 FROM nginx:alpine AS production
+
+# Cache busting for COPY --from=builder
+ARG CACHEBUST=1
+RUN echo "Production build timestamp: ${CACHEBUST}"
 
 LABEL maintainer="Casino Portal Team"
 LABEL description="Optimized static casino portal"

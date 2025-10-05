@@ -5,4 +5,5 @@ reports
 .DS_Store
 .vscode
 dist
+.astro
 public/sitemap.xml

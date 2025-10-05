@@ -57,32 +57,25 @@
       "Premium license",
       "Great game variety"
     ],
-    "logo": {
-      "url": "/images/casinos/spellwin-800w.webp",
-      "source": "local",
-      "slug": "spellwin",
-      "domain": "spellwin.com",
-      "updatedAt": "2025-10-04T19:44:07.716Z",
-      "fallbackChain": [
-        {
-          "url": "/images/casinos/spellwin-800w.webp",
-          "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
-        }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/spellwin.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
-    },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/spellwin-de-casino-bonus-review-gs3e-v2",
       "campaignId": "663",
       "campaignName": "SEO - SpellWin DE AT CH CA FI SE NO DK BE IT-v2",
       "lastUpdated": "2025-09-30T19:21:02.807Z"
+    },
+    "logo": {
+      "url": "/images/casinos/spellwin.png",
+      "source": "local",
+      "slug": "spellwin",
+      "domain": "spellwin.com",
+      "updatedAt": "2025-10-05T18:08:26.521Z",
+      "fallbackChain": [
+        {
+          "url": "/images/casinos/spellwin.png",
+          "source": "local-primary",
+          "description": "Local PNG logo"
+        }
+      ]
     }
   },
   {
@@ -144,32 +137,26 @@
       "Premium license",
       "Great game variety"
     ],
-    "logo": {
-      "url": "/images/casinos/winitbet-800w.webp",
-      "source": "local",
-      "slug": "winitbet",
-      "updatedAt": "2025-10-04T19:44:07.717Z",
-      "fallbackChain": [
-        {
-          "url": "/images/casinos/winitbet-800w.webp",
-          "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
-        }
-      ],
-      "originalUrl": "https://d3tmpsuhcgf0q8.cloudfront.net/winit/logo/Winit%20logo%20animation.gif",
-      "originalSource": "direct"
-    },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/winitbet-uk-au-ca-casino-bonus-review-bl",
       "campaignId": "500",
       "campaignName": "SEO - Winit.Bet UK AU CA FR DE AT NZ 1756635556714",
       "lastUpdated": "2025-09-30T19:24:17.723Z",
       "confidence": "high"
+    },
+    "logo": {
+      "url": "/images/casinos/winitbet.png",
+      "source": "local",
+      "slug": "winitbet",
+      "domain": "winit.bet",
+      "updatedAt": "2025-10-05T18:08:26.523Z",
+      "fallbackChain": [
+        {
+          "url": "/images/casinos/winitbet.png",
+          "source": "local-primary",
+          "description": "Local PNG logo"
+        }
+      ]
     }
   },
   {
@@ -330,32 +317,25 @@
       "Premium license",
       "Mobile app"
     ],
-    "logo": {
-      "url": "/images/casinos/mr-pacho-800w.webp",
-      "source": "local",
-      "slug": "mr-pacho",
-      "domain": "mrpacho.com",
-      "updatedAt": "2025-10-04T19:44:07.718Z",
-      "fallbackChain": [
-        {
-          "url": "/images/casinos/mr-pacho-800w.webp",
-          "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
-        }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/mrpacho.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
-    },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/mr-pacho-fr-casino-bonus-review-6542-v2",
       "campaignId": "699",
       "campaignName": "SEO - Mr Pacho FR-v2",
       "lastUpdated": "2025-09-30T19:21:02.807Z"
+    },
+    "logo": {
+      "url": "/images/casinos/mr-pacho.png",
+      "source": "local",
+      "slug": "mr-pacho",
+      "domain": "mrpacho.com",
+      "updatedAt": "2025-10-05T18:08:26.523Z",
+      "fallbackChain": [
+        {
+          "url": "/images/casinos/mr-pacho.png",
+          "source": "local-primary",
+          "description": "Local PNG logo"
+        }
+      ]
     }
   },
   {
@@ -414,32 +394,25 @@
       "Live dealer games",
       "Mobile-optimized"
     ],
-    "logo": {
-      "url": "/images/casinos/larabet-800w.webp",
-      "source": "local",
-      "slug": "larabet",
-      "domain": "larabet.com",
-      "updatedAt": "2025-10-04T19:44:07.718Z",
-      "fallbackChain": [
-        {
-          "url": "/images/casinos/larabet-800w.webp",
-          "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
-        }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/larabet.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
-    },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/larabet-it-fr-casino-bonus-review-9vmc-v2",
       "campaignId": "708",
       "campaignName": "SEO - Larabet IT FR-v2",
       "lastUpdated": "2025-09-30T19:21:02.807Z"
+    },
+    "logo": {
+      "url": "/images/casinos/larabet.png",
+      "source": "local",
+      "slug": "larabet",
+      "domain": "larabet.com",
+      "updatedAt": "2025-10-05T18:08:26.523Z",
+      "fallbackChain": [
+        {
+          "url": "/images/casinos/larabet.png",
+          "source": "local-primary",
+          "description": "Local PNG logo"
+        }
+      ]
     }
   },
   {
@@ -823,20 +796,25 @@
       "Premium license",
       "Great game variety"
     ],
-    "logo": {
-      "url": "https://trinocasino.com/images/loader-logo.webp",
-      "source": "direct",
-      "quality": "high",
-      "dimensions": "599x268",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
-    },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/trino-de-at-ch-casino-bonus-review-fo",
       "campaignId": "514",
       "campaignName": "SEO - Trino DE AT CH CA FI SE NO DK BE IT 1756635589601",
       "lastUpdated": "2025-09-30T19:21:02.807Z"
+    },
+    "logo": {
+      "url": "/images/casinos/trino.png",
+      "source": "local",
+      "slug": "trino",
+      "domain": "trinocasino.com",
+      "updatedAt": "2025-10-05T18:08:26.523Z",
+      "fallbackChain": [
+        {
+          "url": "/images/casinos/trino.png",
+          "source": "local-primary",
+          "description": "Local PNG logo"
+        }
+      ]
     }
   },
   {
@@ -1070,21 +1048,15 @@
       "url": "/images/casinos/hunter.png",
       "source": "local",
       "slug": "hunter",
-      "updatedAt": "2025-10-04T19:44:07.720Z",
+      "domain": "luckyhunter.io",
+      "updatedAt": "2025-10-05T18:08:26.523Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/hunter.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://logo.clearbit.com/luckyhunter.io",
-      "originalSource": "clearbit-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/lucky-hunter-casino-bonus-review-8frx-v2",
@@ -1156,21 +1128,14 @@
       "source": "local",
       "slug": "rizz",
       "domain": "rizzcasino.com",
-      "updatedAt": "2025-10-04T19:44:07.720Z",
+      "updatedAt": "2025-10-05T18:08:26.523Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/rizz.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/rizzcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/rizz-casino-es-casino-bonus-review-hpaz-v2",
@@ -1246,21 +1211,14 @@
       "source": "local",
       "slug": "n1bet",
       "domain": "n1bet.com",
-      "updatedAt": "2025-10-04T19:44:07.720Z",
+      "updatedAt": "2025-10-05T18:08:26.524Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/n1bet.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/n1bet.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/n1-bet-casino-de-au-ch-casino-bonus-review-9b",
@@ -1332,21 +1290,15 @@
       "url": "/images/casinos/aerobet.png",
       "source": "local",
       "slug": "aerobet",
-      "updatedAt": "2025-10-04T19:44:07.721Z",
+      "domain": "aerobet.com",
+      "updatedAt": "2025-10-05T18:08:26.524Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/aerobet.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://logo.clearbit.com/aerobet.com",
-      "originalSource": "clearbit-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/aerobet-uk-casino-bonus-review-x6",
@@ -1416,21 +1368,15 @@
       "url": "/images/casinos/kings.png",
       "source": "local",
       "slug": "kings",
-      "updatedAt": "2025-10-04T19:44:07.721Z",
+      "domain": "kingschip.com",
+      "updatedAt": "2025-10-05T18:08:26.524Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/kings.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://d3tmpsuhcgf0q8.cloudfront.net/The%20Kings%20chip/KingsChip%20logo%20motion.gif",
-      "originalSource": "geo-aware-smart"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/kings-chip-uk-casino-bonus-review-v3r4-v2",
@@ -1579,21 +1525,14 @@
       "source": "local",
       "slug": "romibet",
       "domain": "romibet.es",
-      "updatedAt": "2025-10-04T19:44:07.721Z",
+      "updatedAt": "2025-10-05T18:08:26.524Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/romibet.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/romibet.es?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/romibet-fr-casino-bonus-review-ldj2-v2",
@@ -1835,21 +1774,14 @@
       "source": "local",
       "slug": "winrolla",
       "domain": "winrolla.com",
-      "updatedAt": "2025-10-04T19:44:07.722Z",
+      "updatedAt": "2025-10-05T18:08:26.524Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/winrolla.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/winrolla.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/winrolla-au-casino-bonus-review-tb2r-v2",
@@ -2007,21 +1939,15 @@
       "url": "/images/casinos/jackpot-raider.png",
       "source": "local",
       "slug": "jackpot-raider",
-      "updatedAt": "2025-10-04T19:44:07.722Z",
+      "domain": "jackpotraider.com",
+      "updatedAt": "2025-10-05T18:08:26.525Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/jackpot-raider.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.jackpotstatic.com/images/file/uploads/257381383817198978.svg",
-      "originalSource": "direct"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/jackpot-raider-casino-bonus-review-99sx-v2",
@@ -2095,21 +2021,15 @@
       "url": "/images/casinos/lucki.png",
       "source": "local",
       "slug": "lucki",
-      "updatedAt": "2025-10-04T19:44:07.722Z",
+      "domain": "lucki.com",
+      "updatedAt": "2025-10-05T18:08:26.526Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/lucki.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://www.lucki.com/img/logo.jpg",
-      "originalSource": "direct"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/lucki-casino-uk-casino-bonus-review-itml-v2",
@@ -2259,21 +2179,14 @@
       "source": "local",
       "slug": "wildrobin",
       "domain": "wildrobincasino.com",
-      "updatedAt": "2025-10-04T19:44:07.724Z",
+      "updatedAt": "2025-10-05T18:08:26.526Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/wildrobin.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/wildrobincasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/wild-robin-de-es-casino-bonus-review-v9z1-v2",
@@ -2437,21 +2350,14 @@
       "source": "local",
       "slug": "vipzino",
       "domain": "vipzino.com",
-      "updatedAt": "2025-10-04T19:44:07.727Z",
+      "updatedAt": "2025-10-05T18:08:26.527Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/vipzino.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/vipzino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/vipzino-uk-casino-bonus-review-9gez-v3",
@@ -2524,21 +2430,14 @@
       "source": "local",
       "slug": "rolling",
       "domain": "rollingslots.com",
-      "updatedAt": "2025-10-04T19:44:07.727Z",
+      "updatedAt": "2025-10-05T18:08:26.527Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/rolling.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/rollingslots.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/rolling-slots-ie-casino-bonus-review-vlpy-v2",
@@ -2612,21 +2511,14 @@
       "source": "local",
       "slug": "spinmama",
       "domain": "spinmama.com",
-      "updatedAt": "2025-10-04T19:44:07.727Z",
+      "updatedAt": "2025-10-05T18:08:26.528Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/spinmama.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/spinmama.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/spinmama-de-at-ch-casino-bonus-review-3m",
@@ -2700,21 +2592,14 @@
       "source": "local",
       "slug": "red",
       "domain": "theredcasino.com",
-      "updatedAt": "2025-10-04T19:44:07.727Z",
+      "updatedAt": "2025-10-05T18:08:26.528Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/red.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/theredcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/the-uk-casino-bonus-review-mo7p-v2",
@@ -3044,21 +2929,14 @@
       "source": "local",
       "slug": "tiki",
       "domain": "tikicasino.com",
-      "updatedAt": "2025-10-04T19:44:07.731Z",
+      "updatedAt": "2025-10-05T18:08:26.529Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/tiki.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/tikicasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/tiki-casino-casino-bonus-review-crd9-v2",
@@ -3129,21 +3007,14 @@
       "source": "local",
       "slug": "instaspin",
       "domain": "instaspin.com",
-      "updatedAt": "2025-10-04T19:44:07.731Z",
+      "updatedAt": "2025-10-05T18:08:26.529Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/instaspin.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/instaspin.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/instaspin-uk-nl-casino-bonus-review-k6cc-v2",
@@ -3215,21 +3086,15 @@
       "url": "/images/casinos/lyrabet.png",
       "source": "local",
       "slug": "lyrabet",
-      "updatedAt": "2025-10-04T19:44:07.732Z",
+      "domain": "lyrabet.gr",
+      "updatedAt": "2025-10-05T18:08:26.529Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/lyrabet.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://lyrabet.gr/images/logo.svg",
-      "originalSource": "geo-aware-smart"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/lyrabet-be-casino-bonus-review-v36q-v2",
@@ -3299,21 +3164,15 @@
       "url": "/images/casinos/pistolo.png",
       "source": "local",
       "slug": "pistolo",
-      "updatedAt": "2025-10-04T19:44:07.732Z",
+      "domain": "pistolocasino.com",
+      "updatedAt": "2025-10-05T18:08:26.530Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/pistolo.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://pistolocasino.com/wp-content/uploads/sites/52/2025/03/Pistolo-Casino-Main-Logo.svg",
-      "originalSource": "geo-aware-smart"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/pistolo-casino-es-it-fr-casino-bonus-review-cq",
@@ -3385,21 +3244,15 @@
       "url": "/images/casinos/spingranny.png",
       "source": "local",
       "slug": "spingranny",
-      "updatedAt": "2025-10-04T19:44:07.732Z",
+      "domain": "spingranny.at",
+      "updatedAt": "2025-10-05T18:08:26.530Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/spingranny.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://spingranny.at/build/8lzoa5tf104x/spingranny.webp",
-      "originalSource": "geo-aware-smart"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/spingranny-cz-gr-hu-casino-bonus-review-8x",
@@ -3472,21 +3325,15 @@
       "url": "/images/casinos/treasure.png",
       "source": "local",
       "slug": "treasure",
-      "updatedAt": "2025-10-04T19:44:07.732Z",
+      "domain": "treasurespins.com",
+      "updatedAt": "2025-10-05T18:08:26.530Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/treasure.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://treasurespins.com/static/logo-CCrUGZkN.svg",
-      "originalSource": "direct"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/treasure-spins-uk-casino-bonus-review-bnn8-v2",
@@ -3559,21 +3406,14 @@
       "source": "local",
       "slug": "spinlander",
       "domain": "spinlander.co.uk",
-      "updatedAt": "2025-10-04T19:44:07.732Z",
+      "updatedAt": "2025-10-05T18:08:26.530Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/spinlander.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/spinlander.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/spinlander-uk-casino-bonus-review-4afk-v2",
@@ -3645,21 +3485,14 @@
       "source": "local",
       "slug": "joker",
       "domain": "jokeraces.com",
-      "updatedAt": "2025-10-04T19:44:07.732Z",
+      "updatedAt": "2025-10-05T18:08:26.530Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/joker.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/jokeraces.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/joker-ace-s-uk-casino-bonus-review-tl91-v2",
@@ -3812,20 +3645,25 @@
       "Premium license",
       "Mobile-optimized"
     ],
-    "logo": {
-      "url": "https://orionsbet.co.uk/wp-content/uploads/2025/08/orionsbet-light-logo.webp",
-      "source": "geo-aware-smart",
-      "quality": "high",
-      "dimensions": "210x76",
-      "geoAware": true,
-      "country": "CA",
-      "brandRelevance": 15
-    },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/orionsbet-uk-casino-bonus-review-upft-v2",
       "campaignId": "695",
       "campaignName": "SEO - Orionsbet UK-v2",
       "lastUpdated": "2025-09-30T19:21:02.807Z"
+    },
+    "logo": {
+      "url": "/images/casinos/orionsbet.png",
+      "source": "local",
+      "slug": "orionsbet",
+      "domain": "orionsbet.co.uk",
+      "updatedAt": "2025-10-05T18:08:26.531Z",
+      "fallbackChain": [
+        {
+          "url": "/images/casinos/orionsbet.png",
+          "source": "local-primary",
+          "description": "Local PNG logo"
+        }
+      ]
     }
   },
   {
@@ -3895,21 +3733,14 @@
       "source": "local",
       "slug": "ivybetio",
       "domain": "ivybet.io",
-      "updatedAt": "2025-10-04T19:44:07.732Z",
+      "updatedAt": "2025-10-05T18:08:26.531Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/ivybetio.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/ivybet.io?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/ivybet-io-hq-sm-casino-bonus-review-e7wb-v3",
@@ -3982,21 +3813,14 @@
       "source": "local",
       "slug": "ritzo",
       "domain": "ritzocasino.com",
-      "updatedAt": "2025-10-04T19:44:07.732Z",
+      "updatedAt": "2025-10-05T18:08:26.531Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/ritzo.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/ritzocasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/ritzo-casino-de-at-ch-casino-bonus-review-5i",
@@ -4246,21 +4070,15 @@
       "url": "/images/casinos/vincispin.png",
       "source": "local",
       "slug": "vincispin",
-      "updatedAt": "2025-10-04T19:44:07.733Z",
+      "domain": "vincispin.com",
+      "updatedAt": "2025-10-05T18:08:26.532Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/vincispin.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.vincistatic.com/images/file/uploads/258168549164468837.svg",
-      "originalSource": "geo-aware-smart"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/vincispin-fr-it-es-casino-bonus-review-fn",
@@ -4419,21 +4237,15 @@
       "url": "/images/casinos/slotit.png",
       "source": "local",
       "slug": "slotit",
-      "updatedAt": "2025-10-04T19:44:07.733Z",
+      "domain": "slotit.de",
+      "updatedAt": "2025-10-05T18:08:26.532Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/slotit.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://www.bernd-hendl.com/bilder/bernd-hendl/instagram-logo-invers.svg",
-      "originalSource": "direct"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/slotit-de-at-ch-casino-bonus-review-cf",
@@ -4499,21 +4311,15 @@
       "url": "/images/casinos/robocat.png",
       "source": "local",
       "slug": "robocat",
-      "updatedAt": "2025-10-04T19:44:07.733Z",
+      "domain": "robocat.de",
+      "updatedAt": "2025-10-05T18:08:26.532Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/robocat.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://www.domainmarkt.de/images/logo.gif",
-      "originalSource": "direct"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/robocat-de-casino-bonus-review-qkn3",
@@ -4659,21 +4465,15 @@
       "url": "/images/casinos/instant.png",
       "source": "local",
       "slug": "instant",
-      "updatedAt": "2025-10-04T19:44:07.734Z",
+      "domain": "instantcasino.com",
+      "updatedAt": "2025-10-05T18:08:26.532Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/instant.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://www.instantcasino.com/wp-content/uploads/2025/07/logo-new.svg",
-      "originalSource": "geo-aware-smart"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/instant-casino-casino-bonus-review-6ioq-v2",
@@ -4734,21 +4534,15 @@
       "url": "/images/casinos/panda.png",
       "source": "local",
       "slug": "panda",
-      "updatedAt": "2025-10-04T19:44:07.734Z",
+      "domain": "goldenpanda.com",
+      "updatedAt": "2025-10-05T18:08:26.533Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/panda.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://www.goldenpanda.com/wp-content/uploads/2025/07/footer-logo.svg",
-      "originalSource": "geo-aware-smart"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/golden-panda-se-no-fr-casino-bonus-review-1u",
@@ -4821,21 +4615,15 @@
       "url": "/images/casinos/magius.png",
       "source": "local",
       "slug": "magius",
-      "updatedAt": "2025-10-04T19:44:07.734Z",
+      "domain": "magiuscasino.com",
+      "updatedAt": "2025-10-05T18:08:26.533Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/magius.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://magiuscasino.com/images/logo.png",
-      "originalSource": "geo-aware-smart"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/magius-casino-de-es-it-casino-bonus-review-xd",
@@ -5174,21 +4962,14 @@
       "source": "local",
       "slug": "gem",
       "domain": "luckygemcasino.com",
-      "updatedAt": "2025-10-04T19:44:07.735Z",
+      "updatedAt": "2025-10-05T18:08:26.533Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/gem.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/luckygemcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/lucky-gem-casino-bonus-review-nuqb-v2",
@@ -5262,21 +5043,14 @@
       "source": "local",
       "slug": "pirate",
       "domain": "piratespins.com",
-      "updatedAt": "2025-10-04T19:44:07.735Z",
+      "updatedAt": "2025-10-05T18:08:26.533Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/pirate.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/piratespins.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/pirate-spins-uk-casino-bonus-review-djx2-v2",
@@ -5349,21 +5123,15 @@
       "url": "/images/casinos/wild-tokyo.png",
       "source": "local",
       "slug": "wild-tokyo",
-      "updatedAt": "2025-10-04T19:44:07.735Z",
+      "domain": "wildtokyo.com",
+      "updatedAt": "2025-10-05T18:08:26.533Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/wild-tokyo.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://logo.clearbit.com/wildtokyo.com",
-      "originalSource": "clearbit-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/wild-tokyo-it-casino-bonus-review-xpar-v2",
@@ -5438,21 +5206,14 @@
       "source": "local",
       "slug": "hight",
       "domain": "36hight.com",
-      "updatedAt": "2025-10-04T19:44:07.735Z",
+      "updatedAt": "2025-10-05T18:08:26.534Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/hight.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/36hight.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/36-hight-fly-bet-pl-pt-casino-bonus-review-uz",
@@ -5524,21 +5285,15 @@
       "url": "/images/casinos/fortune.png",
       "source": "local",
       "slug": "fortune",
-      "updatedAt": "2025-10-04T19:44:07.735Z",
+      "domain": "hellofortune.com",
+      "updatedAt": "2025-10-05T18:08:26.534Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/fortune.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://d3tmpsuhcgf0q8.cloudfront.net/Hello%20Fortune/Logo/Hello%20furtune%20logo%20animation.gif",
-      "originalSource": "direct"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/hello-fortune-uk-casino-bonus-review-5th5-v2",
@@ -5611,21 +5366,15 @@
       "url": "/images/casinos/moana.png",
       "source": "local",
       "slug": "moana",
-      "updatedAt": "2025-10-04T19:44:07.735Z",
+      "domain": "moana-casino.com",
+      "updatedAt": "2025-10-05T18:08:26.534Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/moana.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://moana-casino.com/wp-content/uploads/sites/63/2025/03/Moana-Casino-Logo.svg",
-      "originalSource": "geo-aware-smart"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/moana-uk-casino-bonus-review-rpzb-v2",
@@ -5695,21 +5444,14 @@
       "source": "local",
       "slug": "prontobet",
       "domain": "prontobet.com.au",
-      "updatedAt": "2025-10-04T19:44:07.735Z",
+      "updatedAt": "2025-10-05T18:08:26.535Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/prontobet.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/prontobet.com.au?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/prontobet-au-casino-bonus-review-lcvo-v2",
@@ -5779,22 +5521,15 @@
       "url": "/images/casinos/11croc.png",
       "source": "local",
       "slug": "11croc",
-      "domain": "11croc.com",
-      "updatedAt": "2025-10-04T19:44:07.735Z",
+      "domain": "11croc.com/at",
+      "updatedAt": "2025-10-05T18:08:26.535Z",
       "fallbackChain": [
         {
           "url": "/images/casinos/11croc.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/11croc.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/11croc-at-casino-bonus-review-uorp-v2",
@@ -5866,25 +5601,18 @@
       "Crypto-friendly"
     ],
     "logo": {
-      "url": "/images/casinos/allspins-800w.webp",
+      "url": "/images/casinos/allspins.png",
       "source": "local",
       "slug": "allspins",
       "domain": "allspins.com",
-      "updatedAt": "2025-10-04T19:44:07.735Z",
+      "updatedAt": "2025-10-05T18:08:26.535Z",
       "fallbackChain": [
         {
-          "url": "/images/casinos/allspins-800w.webp",
+          "url": "/images/casinos/allspins.png",
           "source": "local-primary",
-          "description": "Local optimized logo"
-        },
-        {
-          "url": "/images/casinos/default-casino.png",
-          "source": "generic-fallback",
-          "description": "Generic casino icon"
+          "description": "Local PNG logo"
         }
-      ],
-      "originalUrl": "https://cdn.brandfetch.io/allspins.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "originalSource": "brandfetch-api"
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/allspins-de-se-be-casino-bonus-review-kd",

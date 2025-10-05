@@ -25,7 +25,7 @@ const mapCasinoToCardData = (casino: any, rank: number): CasinoCardData => {
   return {
     id: casino.slug || `casino-${rank}`,
     name: casino.brand || "Casino",
-    logo: getBrandLogo(casino.url, casino.slug),
+    logo: casino.logo?.url || getBrandLogo(casino.url, casino.slug),
     slug: casino.slug || `casino-${rank}`,
     rating: {
       overall: Number((casino.overallRating || 9.0).toFixed(1)),
