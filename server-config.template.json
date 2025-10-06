@@ -1,0 +1,110 @@
+{
+  "server": {
+    "name": "casino-portal-server",
+    "version": "3.0.0",
+    "environment": "development",
+    "host": "0.0.0.0",
+    "port": 3000,
+    "protocol": "http",
+    "buildMode": "static"
+  },
+  "astro": {
+    "output": "static",
+    "host": "0.0.0.0",
+    "port": 3000,
+    "integrations": ["react", "tailwind"],
+    "buildConfig": {
+      "cssMinify": true,
+      "minify": "esbuild",
+      "inlineStylesheets": "auto"
+    }
+  },
+  "deployment": {
+    "type": "docker",
+    "containerName": "casino-portal",
+    "imageName": "casino-portal:3.0.0",
+    "nginx": {
+      "enabled": true,
+      "port": 80,
+      "gzip": true,
+      "caching": true
+    },
+    "healthCheck": {
+      "enabled": true,
+      "interval": "10s",
+      "timeout": "3s",
+      "retries": 3
+    }
+  },
+  "backend": {
+    "api": {
+      "enabled": false,
+      "port": 8080,
+      "endpoints": ["/api/perf"]
+    },
+    "express": {
+      "logging": true,
+      "sentry": false
+    }
+  },
+  "development": {
+    "liveReload": true,
+    "hotReload": true,
+    "sourceMap": true,
+    "devtools": true
+  },
+  "security": {
+    "cors": {
+      "enabled": true,
+      "origin": "*"
+    },
+    "headers": {
+      "contentSecurityPolicy": false,
+      "hsts": false
+    }
+  },
+  "logging": {
+    "level": "info",
+    "format": "combined",
+    "destination": "console"
+  },
+  "monitoring": {
+    "healthCheck": "/health",
+    "metrics": "/metrics",
+    "status": "/status"
+  },
+  "network": {
+    "interfaces": {
+      "local": "http://localhost:3000",
+      "network": "http://0.0.0.0:3000",
+      "docker": "http://172.25.0.1:3000"
+    }
+  },
+  "paths": {
+    "dist": "./dist",
+    "public": "./public",
+    "src": "./src",
+    "assets": "./public/images"
+  },
+  "features": {
+    "ssg": true,
+    "ssr": false,
+    "spa": false,
+    "islands": true
+  },
+  "build": {
+    "target": "static",
+    "outDir": "dist",
+    "assetsDir": "_astro",
+    "chunks": {
+      "react": ["react", "react-dom"]
+    }
+  },
+  "metadata": {
+    "generated": "{{TIMESTAMP}}",
+    "lastModified": "{{TIMESTAMP}}",
+    "version": "3.0.0",
+    "branch": "main",
+    "commit": "{{GIT_COMMIT}}"
+  }
+}

@@ -1,0 +1,188 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "🎰 Casino Portal" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - link "Reviews" [ref=e10] [cursor=pointer]:
+            - /url: /reviews
+            - text: Reviews
+            - img [ref=e11] [cursor=pointer]
+          - link "Best Casinos" [ref=e14] [cursor=pointer]:
+            - /url: /best
+            - text: Best Casinos
+            - img [ref=e15] [cursor=pointer]
+          - link "Bonuses Hot" [ref=e18] [cursor=pointer]:
+            - /url: /bonuses
+            - text: Bonuses
+            - generic [ref=e19] [cursor=pointer]: Hot
+            - img [ref=e20] [cursor=pointer]
+          - link "Games" [ref=e23] [cursor=pointer]:
+            - /url: /games
+            - text: Games
+            - img [ref=e24] [cursor=pointer]
+          - link "Guides" [ref=e27] [cursor=pointer]:
+            - /url: /guides
+            - text: Guides
+            - img [ref=e28] [cursor=pointer]
+          - link "Regions" [ref=e31] [cursor=pointer]:
+            - /url: /regions
+            - text: Regions
+            - img [ref=e32] [cursor=pointer]
+  - navigation [ref=e34]:
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - link "Home" [ref=e38] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e39]:
+        - img [ref=e40]
+        - link "Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e43]:
+        - img [ref=e44]
+        - link "Legal Information" [ref=e46] [cursor=pointer]:
+          - /url: /legal
+      - listitem [ref=e47]:
+        - img [ref=e48]
+        - generic [ref=e50]: Terms of Service
+  - main [ref=e51]:
+    - main [ref=e52]:
+      - generic [ref=e54]:
+        - heading "Terms & Conditions" [level=1] [ref=e55]
+        - paragraph [ref=e56]: Important legal information and usage terms
+      - generic [ref=e59]:
+        - paragraph [ref=e61]: ⚠️ This site is for informational purposes only and is not legal advice. Always verify information with the casinos directly.
+        - generic [ref=e62]:
+          - generic [ref=e63]:
+            - heading "📋 General Terms" [level=3] [ref=e64]
+            - paragraph [ref=e65]: By using Casino Portal, you agree to these terms and conditions. We provide casino comparison and review services for informational purposes only.
+            - list [ref=e66]:
+              - listitem [ref=e67]: Information is provided "as is" without warranties
+              - listitem [ref=e68]: We are not responsible for changes to casino terms or offers
+              - listitem [ref=e69]: Users must verify all information with casinos directly
+              - listitem [ref=e70]: Must be of legal gambling age in your jurisdiction
+          - generic [ref=e71]:
+            - heading "🎰 Casino Information" [level=3] [ref=e72]
+            - paragraph [ref=e73]: "All casino information, bonuses, and terms are subject to change. We strive for accuracy but:"
+            - list [ref=e74]:
+              - listitem [ref=e75]: Bonus terms and conditions may change without notice
+              - listitem [ref=e76]: Casino availability varies by location
+              - listitem [ref=e77]: Always read casino terms before playing
+              - listitem [ref=e78]: We earn commission from some casino referrals
+          - generic [ref=e79]:
+            - heading "⚖️ Legal Disclaimer" [level=3] [ref=e80]
+            - paragraph [ref=e81]: "Important legal information:"
+            - list [ref=e82]:
+              - listitem [ref=e83]: We are not a casino operator or gambling provider
+              - listitem [ref=e84]: We do not process payments or handle customer funds
+              - listitem [ref=e85]: Online gambling laws vary by jurisdiction
+              - listitem [ref=e86]: Users are responsible for compliance with local laws
+              - listitem [ref=e87]: Gambling can be addictive - play responsibly
+          - generic [ref=e88]:
+            - heading "🛡️ Liability" [level=3] [ref=e89]
+            - paragraph [ref=e90]: "We provide information services only. We are not liable for: losses incurred at casinos, disputes with casino operators, technical issues, or decisions made based on our information. Always gamble responsibly and within your means."
+        - paragraph [ref=e92]: "Last updated: September 2025. These terms may be updated periodically. Continued use of the site constitutes acceptance of any changes."
+  - contentinfo [ref=e93]:
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - generic [ref=e97]: 🎰 BestCasinoPortal
+          - paragraph [ref=e98]: Expert casino reviews and ratings you can trust.
+          - generic [ref=e99]: "Updated: September 2025"
+        - generic [ref=e100]:
+          - heading "Best Casinos" [level=3] [ref=e101]
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - link "All Best Casinos" [ref=e104] [cursor=pointer]:
+                - /url: /best
+            - listitem [ref=e105]:
+              - link "Real Money Casinos" [ref=e106] [cursor=pointer]:
+                - /url: /best/real-money
+            - listitem [ref=e107]:
+              - link "Fast Withdrawal Casinos" [ref=e108] [cursor=pointer]:
+                - /url: /best/fast-withdrawals
+            - listitem [ref=e109]:
+              - link "Mobile Casinos" [ref=e110] [cursor=pointer]:
+                - /url: /best/mobile
+            - listitem [ref=e111]:
+              - link "Live Dealer Casinos" [ref=e112] [cursor=pointer]:
+                - /url: /best/live-dealer
+        - generic [ref=e113]:
+          - heading "Games & Bonuses" [level=3] [ref=e114]
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - link "Casino Games" [ref=e117] [cursor=pointer]:
+                - /url: /games
+            - listitem [ref=e118]:
+              - link "Slots" [ref=e119] [cursor=pointer]:
+                - /url: /slots
+            - listitem [ref=e120]:
+              - link "Free Games" [ref=e121] [cursor=pointer]:
+                - /url: /free-games
+            - listitem [ref=e122]:
+              - link "Casino Bonuses" [ref=e123] [cursor=pointer]:
+                - /url: /bonuses
+            - listitem [ref=e124]:
+              - link "Bonus Codes" [ref=e125] [cursor=pointer]:
+                - /url: /bonus
+            - listitem [ref=e126]:
+              - link "Live Dealer Games" [ref=e127] [cursor=pointer]:
+                - /url: /live-dealer
+        - generic [ref=e128]:
+          - heading "Reviews & Guides" [level=3] [ref=e129]
+          - list [ref=e130]:
+            - listitem [ref=e131]:
+              - link "Casino Reviews" [ref=e132] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e133]:
+              - link "Casino Guides" [ref=e134] [cursor=pointer]:
+                - /url: /guides
+            - listitem [ref=e135]:
+              - link "How We Rate Casinos" [ref=e136] [cursor=pointer]:
+                - /url: /guides/how-we-rate
+            - listitem [ref=e137]:
+              - link "Payment Methods" [ref=e138] [cursor=pointer]:
+                - /url: /payments
+            - listitem [ref=e139]:
+              - link "Mobile Gaming Guide" [ref=e140] [cursor=pointer]:
+                - /url: /mobile
+        - generic [ref=e141]:
+          - heading "Regions" [level=3] [ref=e142]
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - link "All Regions" [ref=e145] [cursor=pointer]:
+                - /url: /regions
+            - listitem [ref=e146]:
+              - link "Ontario Casinos" [ref=e147] [cursor=pointer]:
+                - /url: /regions/ontario
+            - listitem [ref=e148]:
+              - link "Alberta Casinos" [ref=e149] [cursor=pointer]:
+                - /url: /regions/alberta
+            - listitem [ref=e150]:
+              - link "BC Casinos" [ref=e151] [cursor=pointer]:
+                - /url: /regions/british-columbia
+        - generic [ref=e152]:
+          - heading "Legal & Support" [level=3] [ref=e153]
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - link "Terms of Service" [ref=e156] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=e157]:
+              - link "Privacy Policy" [ref=e158] [cursor=pointer]:
+                - /url: /legal/privacy
+            - listitem [ref=e159]:
+              - link "About Us" [ref=e160] [cursor=pointer]:
+                - /url: /legal/about
+            - listitem [ref=e161]:
+              - link "Responsible Gambling" [ref=e162] [cursor=pointer]:
+                - /url: /guides/responsible-gambling
+      - generic [ref=e163]:
+        - paragraph [ref=e164]:
+          - strong [ref=e165]: "Affiliate Disclosure:"
+          - text: This site contains affiliate links. We may earn a commission if you click through and make a deposit. This doesn't affect our recommendations or reviews.
+        - paragraph [ref=e166]: © 2025 BestCasinoPortal. All rights reserved. | 18+ only. Gamble responsibly.
+```

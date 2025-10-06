@@ -1,0 +1,83 @@
+{
+  "ultimatePageConfigs": {
+    "bonuses": {
+      "pageName": "Ultimate Bonuses Page",
+      "pageType": "bonus-guide",
+      "outputPath": "src/pages/bonuses/index.astro",
+      "path": "/bonuses",
+      "title": "Best Casino Bonuses 2025 | Expert-Validated Welcome Bonuses",
+      "description": "Discover the most lucrative casino bonuses in 2025! Multi-agent validation ensures accuracy, with expert analysis of welcome bonuses, wagering requirements, and terms.",
+      "heroIcon": "🎁",
+      "heroTitle": "Ultimate Casino Bonuses 2025",
+      "heroDescription": "Multi-agent validated bonus recommendations with comprehensive analysis and expert insights.",
+      "colorScheme": {
+        "primary": "gold",
+        "secondary": "amber",
+        "accent": "yellow"
+      },
+      "maxCasinos": 25,
+      "seoOptimized": true,
+      "accessibilityCompliant": true,
+      "mobileOptimized": true
+    },
+    "reviews": {
+      "pageName": "Ultimate Reviews Hub",
+      "pageType": "review-overview",
+      "outputPath": "src/pages/reviews/index.astro",
+      "path": "/reviews",
+      "title": "Casino Reviews 2025 | Multi-Agent Validated Reviews",
+      "description": "Read comprehensive casino reviews with expert analysis, player ratings, and multi-agent validation. Make informed decisions with our detailed casino evaluations.",
+      "heroIcon": "⭐",
+      "heroTitle": "Ultimate Casino Reviews Hub",
+      "heroDescription": "Multi-agent validated reviews with comprehensive analysis and expert insights for informed decision-making.",
+      "colorScheme": {
+        "primary": "emerald",
+        "secondary": "green",
+        "accent": "teal"
+      },
+      "maxCasinos": 50,
+      "seoOptimized": true,
+      "accessibilityCompliant": true
+    },
+    "games": {
+      "pageName": "Ultimate Games Collection",
+      "pageType": "game-overview",
+      "outputPath": "src/pages/games/index.astro",
+      "path": "/games",
+      "title": "Casino Games 2025 | Multi-Agent Curated Collection",
+      "description": "Ultimate games collection with intelligent categorization and multi-agent validation.",
+      "heroIcon": "🎮",
+      "heroTitle": "Ultimate Games Collection",
+      "heroDescription": "Multi-agent curated gaming experience with comprehensive categorization.",
+      "colorScheme": {
+        "primary": "purple",
+        "secondary": "indigo",
+        "accent": "violet"
+      },
+      "maxCasinos": 30,
+      "seoOptimized": true,
+      "accessibilityCompliant": true
+    },
+    "best": {
+      "pageName": "Ultimate Best Casinos",
+      "pageType": "casino-ranking",
+      "outputPath": "src/pages/best/index.astro",
+      "path": "/best",
+      "title": "Best Casinos 2025 | Multi-Agent Validated Rankings",
+      "description": "Discover the best online casinos with multi-agent validation and expert analysis.",
+      "heroIcon": "🏆",
+      "heroTitle": "Ultimate Best Casinos 2025",
+      "heroDescription": "Multi-agent validated rankings with comprehensive evaluation criteria.",
+      "colorScheme": {
+        "primary": "gold",
+        "secondary": "yellow",
+        "accent": "amber"
+      },
+      "maxCasinos": 20,
+      "useEnhancedCards": true,
+      "seoOptimized": true,
+      "accessibilityCompliant": true,
+      "performanceOptimized": true
+    }
+  }
+}

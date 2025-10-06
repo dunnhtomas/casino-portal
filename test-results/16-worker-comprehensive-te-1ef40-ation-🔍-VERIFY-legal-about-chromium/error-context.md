@@ -1,0 +1,175 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "🎰 Casino Portal" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - link "Reviews" [ref=e10] [cursor=pointer]:
+            - /url: /reviews
+            - text: Reviews
+            - img [ref=e11] [cursor=pointer]
+          - link "Best Casinos" [ref=e14] [cursor=pointer]:
+            - /url: /best
+            - text: Best Casinos
+            - img [ref=e15] [cursor=pointer]
+          - link "Bonuses Hot" [ref=e18] [cursor=pointer]:
+            - /url: /bonuses
+            - text: Bonuses
+            - generic [ref=e19] [cursor=pointer]: Hot
+            - img [ref=e20] [cursor=pointer]
+          - link "Games" [ref=e23] [cursor=pointer]:
+            - /url: /games
+            - text: Games
+            - img [ref=e24] [cursor=pointer]
+          - link "Guides" [ref=e27] [cursor=pointer]:
+            - /url: /guides
+            - text: Guides
+            - img [ref=e28] [cursor=pointer]
+          - link "Regions" [ref=e31] [cursor=pointer]:
+            - /url: /regions
+            - text: Regions
+            - img [ref=e32] [cursor=pointer]
+  - navigation [ref=e34]:
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - link "Home" [ref=e38] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e39]:
+        - img [ref=e40]
+        - link "Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e43]:
+        - img [ref=e44]
+        - link "Legal Information" [ref=e46] [cursor=pointer]:
+          - /url: /legal
+      - listitem [ref=e47]:
+        - img [ref=e48]
+        - generic [ref=e50]: About Us
+  - main [ref=e51]:
+    - main [ref=e52]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - heading "🏢 About Casino Portal" [level=1] [ref=e58]
+          - paragraph [ref=e59]: Your trusted independent casino comparison and review platform, dedicated to transparency and player safety.
+        - generic [ref=e60]:
+          - img [ref=e61]
+          - generic [ref=e63]: 🛡️ Independent Reviews • ⚖️ Transparent Ratings • 🎯 Player-Focused • 💯 Honest Analysis
+      - generic [ref=e65]:
+        - generic [ref=e68]:
+          - generic [ref=e69]: 🎯
+          - heading "Who We Are" [level=2] [ref=e70]
+          - paragraph [ref=e71]: We are an independent online casino comparison site dedicated to providing honest, transparent casino reviews and rankings. We do not operate casinos ourselves - our role is to serve as an unbiased source of information for players.
+          - paragraph [ref=e72]: Our mission is to help players make informed decisions about where to play online by providing comprehensive reviews, transparent ratings, and up-to-date information about bonuses, games, and casino features.
+        - generic [ref=e73]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: 🎯
+            - heading "Our Mission" [level=3] [ref=e78]
+            - paragraph [ref=e79]: To provide transparent, honest casino reviews that help players find safe and enjoyable gaming experiences.
+          - generic [ref=e82]:
+            - generic [ref=e83]: ⚖️
+            - heading "Our Values" [level=3] [ref=e84]
+            - paragraph [ref=e85]: Independence, transparency, player safety, and honest reviews based on thorough research and analysis.
+  - contentinfo [ref=e86]:
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]: 🎰 BestCasinoPortal
+          - paragraph [ref=e91]: Expert casino reviews and ratings you can trust.
+          - generic [ref=e92]: "Updated: September 2025"
+        - generic [ref=e93]:
+          - heading "Best Casinos" [level=3] [ref=e94]
+          - list [ref=e95]:
+            - listitem [ref=e96]:
+              - link "All Best Casinos" [ref=e97] [cursor=pointer]:
+                - /url: /best
+            - listitem [ref=e98]:
+              - link "Real Money Casinos" [ref=e99] [cursor=pointer]:
+                - /url: /best/real-money
+            - listitem [ref=e100]:
+              - link "Fast Withdrawal Casinos" [ref=e101] [cursor=pointer]:
+                - /url: /best/fast-withdrawals
+            - listitem [ref=e102]:
+              - link "Mobile Casinos" [ref=e103] [cursor=pointer]:
+                - /url: /best/mobile
+            - listitem [ref=e104]:
+              - link "Live Dealer Casinos" [ref=e105] [cursor=pointer]:
+                - /url: /best/live-dealer
+        - generic [ref=e106]:
+          - heading "Games & Bonuses" [level=3] [ref=e107]
+          - list [ref=e108]:
+            - listitem [ref=e109]:
+              - link "Casino Games" [ref=e110] [cursor=pointer]:
+                - /url: /games
+            - listitem [ref=e111]:
+              - link "Slots" [ref=e112] [cursor=pointer]:
+                - /url: /slots
+            - listitem [ref=e113]:
+              - link "Free Games" [ref=e114] [cursor=pointer]:
+                - /url: /free-games
+            - listitem [ref=e115]:
+              - link "Casino Bonuses" [ref=e116] [cursor=pointer]:
+                - /url: /bonuses
+            - listitem [ref=e117]:
+              - link "Bonus Codes" [ref=e118] [cursor=pointer]:
+                - /url: /bonus
+            - listitem [ref=e119]:
+              - link "Live Dealer Games" [ref=e120] [cursor=pointer]:
+                - /url: /live-dealer
+        - generic [ref=e121]:
+          - heading "Reviews & Guides" [level=3] [ref=e122]
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - link "Casino Reviews" [ref=e125] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e126]:
+              - link "Casino Guides" [ref=e127] [cursor=pointer]:
+                - /url: /guides
+            - listitem [ref=e128]:
+              - link "How We Rate Casinos" [ref=e129] [cursor=pointer]:
+                - /url: /guides/how-we-rate
+            - listitem [ref=e130]:
+              - link "Payment Methods" [ref=e131] [cursor=pointer]:
+                - /url: /payments
+            - listitem [ref=e132]:
+              - link "Mobile Gaming Guide" [ref=e133] [cursor=pointer]:
+                - /url: /mobile
+        - generic [ref=e134]:
+          - heading "Regions" [level=3] [ref=e135]
+          - list [ref=e136]:
+            - listitem [ref=e137]:
+              - link "All Regions" [ref=e138] [cursor=pointer]:
+                - /url: /regions
+            - listitem [ref=e139]:
+              - link "Ontario Casinos" [ref=e140] [cursor=pointer]:
+                - /url: /regions/ontario
+            - listitem [ref=e141]:
+              - link "Alberta Casinos" [ref=e142] [cursor=pointer]:
+                - /url: /regions/alberta
+            - listitem [ref=e143]:
+              - link "BC Casinos" [ref=e144] [cursor=pointer]:
+                - /url: /regions/british-columbia
+        - generic [ref=e145]:
+          - heading "Legal & Support" [level=3] [ref=e146]
+          - list [ref=e147]:
+            - listitem [ref=e148]:
+              - link "Terms of Service" [ref=e149] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=e150]:
+              - link "Privacy Policy" [ref=e151] [cursor=pointer]:
+                - /url: /legal/privacy
+            - listitem [ref=e152]:
+              - link "About Us" [ref=e153] [cursor=pointer]:
+                - /url: /legal/about
+            - listitem [ref=e154]:
+              - link "Responsible Gambling" [ref=e155] [cursor=pointer]:
+                - /url: /guides/responsible-gambling
+      - generic [ref=e156]:
+        - paragraph [ref=e157]:
+          - strong [ref=e158]: "Affiliate Disclosure:"
+          - text: This site contains affiliate links. We may earn a commission if you click through and make a deposit. This doesn't affect our recommendations or reviews.
+        - paragraph [ref=e159]: © 2025 BestCasinoPortal. All rights reserved. | 18+ only. Gamble responsibly.
+```

@@ -1,0 +1,1030 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "🎰 Casino Portal" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - link "Reviews" [ref=e10] [cursor=pointer]:
+            - /url: /reviews
+            - text: Reviews
+            - img [ref=e11] [cursor=pointer]
+          - link "Best Casinos" [ref=e14] [cursor=pointer]:
+            - /url: /best
+            - text: Best Casinos
+            - img [ref=e15] [cursor=pointer]
+          - link "Bonuses Hot" [ref=e18] [cursor=pointer]:
+            - /url: /bonuses
+            - text: Bonuses
+            - generic [ref=e19] [cursor=pointer]: Hot
+            - img [ref=e20] [cursor=pointer]
+          - link "Games" [ref=e23] [cursor=pointer]:
+            - /url: /games
+            - text: Games
+            - img [ref=e24] [cursor=pointer]
+          - link "Guides" [ref=e27] [cursor=pointer]:
+            - /url: /guides
+            - text: Guides
+            - img [ref=e28] [cursor=pointer]
+          - link "Regions" [ref=e31] [cursor=pointer]:
+            - /url: /regions
+            - text: Regions
+            - img [ref=e32] [cursor=pointer]
+  - navigation [ref=e34]:
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - link "Home" [ref=e38] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e39]:
+        - img [ref=e40]
+        - link "Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e43]:
+        - img [ref=e44]
+        - link "Regional Casinos" [ref=e46] [cursor=pointer]:
+          - /url: /regions
+      - listitem [ref=e47]:
+        - img [ref=e48]
+        - generic [ref=e50]: Alberta Casinos
+  - main [ref=e51]:
+    - main [ref=e52]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - heading "🇨🇦 Alberta Online Casinos 2025" [level=1] [ref=e58]
+          - paragraph [ref=e59]: Discover the best online casinos for Alberta players. CAD currency, safe banking, and exclusive bonuses for Canadian residents.
+        - generic [ref=e60]:
+          - link "View top Alberta casinos" [ref=e61] [cursor=pointer]:
+            - /url: "#alberta-casinos"
+            - text: View Alberta Casinos
+            - img [ref=e62] [cursor=pointer]
+          - link "Alberta Gaming Info" [ref=e64] [cursor=pointer]:
+            - /url: "#gambling-info"
+            - text: Alberta Gaming Info
+            - img [ref=e65] [cursor=pointer]
+        - generic [ref=e67]:
+          - img [ref=e68]
+          - generic [ref=e70]: 💵 CAD Currency • 🏦 Canadian Banking • 🇨🇦 Alberta Legal • 🔒 Safe & Licensed
+      - generic [ref=e71]:
+        - generic [ref=e74]:
+          - heading "Top Casinos for Alberta Players" [level=2] [ref=e75]
+          - paragraph [ref=e76]: These casinos welcome Alberta players with CAD currency support, Canadian banking methods, and compliance with local regulations.
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: 💵
+              - heading "CAD Currency" [level=3] [ref=e80]
+              - paragraph [ref=e81]: Play in Canadian Dollars
+            - generic [ref=e82]:
+              - generic [ref=e83]: 🏦
+              - heading "Canadian Banking" [level=3] [ref=e84]
+              - paragraph [ref=e85]: Interac, Credit Cards & More
+            - generic [ref=e86]:
+              - generic [ref=e87]: 🔒
+              - heading "Licensed & Safe" [level=3] [ref=e88]
+              - paragraph [ref=e89]: Internationally Licensed
+          - generic [ref=e90]:
+            - generic [ref=e93]:
+              - generic [ref=e94]: Featured
+              - generic [ref=e95]:
+                - generic [ref=e96]:
+                  - img "SpellWin logo" [ref=e98]
+                  - generic [ref=e99]:
+                    - heading "SpellWin" [level=3] [ref=e100]
+                    - generic [ref=e101]:
+                      - generic [ref=e103]:
+                        - generic [ref=e104]: "9.6"
+                        - generic [ref=e105]:
+                          - img [ref=e106]
+                          - img [ref=e108]
+                          - img [ref=e110]
+                          - img [ref=e112]
+                          - generic [ref=e114]:
+                            - img [ref=e115]
+                            - img [ref=e118]
+                      - generic [ref=e120]: Est. 2020
+                    - generic [ref=e121]:
+                      - generic [ref=e122]:
+                        - img [ref=e124]
+                        - generic [ref=e126]: Malta Gaming Authority
+                      - generic [ref=e127]:
+                        - img [ref=e129]
+                        - generic [ref=e131]: SSL
+                      - generic [ref=e132]:
+                        - img [ref=e134]
+                        - generic [ref=e136]: 18+
+                - generic [ref=e138]:
+                  - generic [ref=e139]:
+                    - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e141]:
+                      - text: 🎁 Welcome Bonus
+                      - generic [ref=e142]: Match Bonus
+                    - generic [ref=e143]:
+                      - text: €600 + 120 FS
+                      - generic [ref=e144]: Match
+                    - generic [ref=e146]: "• Wagering: 35x"
+                  - link "Claim Bonus" [ref=e147] [cursor=pointer]:
+                    - /url: /go/spellwin
+                  - generic [ref=e148]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                - generic [ref=e149]:
+                  - generic [ref=e150]:
+                    - generic [ref=e151]:
+                      - img [ref=e152]
+                      - text: 1000+ Games
+                    - generic [ref=e154]:
+                      - img [ref=e155]
+                      - text: "Min: C$10"
+                    - generic [ref=e157]:
+                      - img [ref=e158]
+                      - text: 24h-24h
+                    - generic [ref=e160]:
+                      - img [ref=e161]
+                      - text: 1 Languages
+                  - generic [ref=e164]:
+                    - generic [ref=e165]:
+                      - generic [ref=e166]: 🇨🇦
+                      - text: CAD Accepted
+                    - generic [ref=e167]:
+                      - generic [ref=e168]: 🎰
+                      - text: Alberta Friendly
+                    - generic [ref=e169]:
+                      - generic [ref=e170]: 🔒
+                      - text: Licensed & Safe
+                - generic [ref=e171]:
+                  - link "Read Review" [ref=e172] [cursor=pointer]:
+                    - /url: /reviews/spellwin
+                  - link "Play Now" [ref=e173] [cursor=pointer]:
+                    - /url: /go/spellwin
+                - generic [ref=e174]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e177]:
+              - generic [ref=e178]: Featured
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - img "Winit.Bet logo" [ref=e182]
+                  - generic [ref=e183]:
+                    - heading "Winit.Bet" [level=3] [ref=e184]
+                    - generic [ref=e185]:
+                      - generic [ref=e187]:
+                        - generic [ref=e188]: "9.6"
+                        - generic [ref=e189]:
+                          - img [ref=e190]
+                          - img [ref=e192]
+                          - img [ref=e194]
+                          - img [ref=e196]
+                          - generic [ref=e198]:
+                            - img [ref=e199]
+                            - img [ref=e202]
+                      - generic [ref=e204]: Est. 2020
+                    - generic [ref=e205]:
+                      - generic [ref=e206]:
+                        - img [ref=e208]
+                        - generic [ref=e210]: Malta Gaming Authority
+                      - generic [ref=e211]:
+                        - img [ref=e213]
+                        - generic [ref=e215]: SSL
+                      - generic [ref=e216]:
+                        - img [ref=e218]
+                        - generic [ref=e220]: 18+
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e225]:
+                      - text: 🎁 Welcome Bonus
+                      - generic [ref=e226]: Match Bonus
+                    - generic [ref=e227]:
+                      - text: €1000 + 150 FS
+                      - generic [ref=e228]: Match
+                    - generic [ref=e230]: "• Wagering: 35x"
+                  - link "Claim Bonus" [ref=e231] [cursor=pointer]:
+                    - /url: /go/winitbet
+                  - generic [ref=e232]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                - generic [ref=e233]:
+                  - generic [ref=e234]:
+                    - generic [ref=e235]:
+                      - img [ref=e236]
+                      - text: 1000+ Games
+                    - generic [ref=e238]:
+                      - img [ref=e239]
+                      - text: "Min: C$10"
+                    - generic [ref=e241]:
+                      - img [ref=e242]
+                      - text: 24h-24h
+                    - generic [ref=e244]:
+                      - img [ref=e245]
+                      - text: 1 Languages
+                  - generic [ref=e248]:
+                    - generic [ref=e249]:
+                      - generic [ref=e250]: 🇨🇦
+                      - text: CAD Accepted
+                    - generic [ref=e251]:
+                      - generic [ref=e252]: 🎰
+                      - text: Alberta Friendly
+                    - generic [ref=e253]:
+                      - generic [ref=e254]: 🔒
+                      - text: Licensed & Safe
+                - generic [ref=e255]:
+                  - link "Read Review" [ref=e256] [cursor=pointer]:
+                    - /url: /reviews/winitbet
+                  - link "Play Now" [ref=e257] [cursor=pointer]:
+                    - /url: /go/winitbet
+                - generic [ref=e258]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e261]:
+              - generic [ref=e262]: Featured
+              - generic [ref=e263]:
+                - generic [ref=e264]:
+                  - img "UnlimLuck logo" [ref=e266]
+                  - generic [ref=e267]:
+                    - heading "UnlimLuck" [level=3] [ref=e268]
+                    - generic [ref=e269]:
+                      - generic [ref=e271]:
+                        - generic [ref=e272]: "9.6"
+                        - generic [ref=e273]:
+                          - img [ref=e274]
+                          - img [ref=e276]
+                          - img [ref=e278]
+                          - img [ref=e280]
+                          - generic [ref=e282]:
+                            - img [ref=e283]
+                            - img [ref=e286]
+                      - generic [ref=e288]: Est. 2020
+                    - generic [ref=e289]:
+                      - generic [ref=e290]:
+                        - img [ref=e292]
+                        - generic [ref=e294]: Malta Gaming Authority
+                      - generic [ref=e295]:
+                        - img [ref=e297]
+                        - generic [ref=e299]: SSL
+                      - generic [ref=e300]:
+                        - img [ref=e302]
+                        - generic [ref=e304]: 18+
+                - generic [ref=e306]:
+                  - generic [ref=e307]:
+                    - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e309]:
+                      - text: 🎁 Welcome Bonus
+                      - generic [ref=e310]: Match Bonus
+                    - generic [ref=e311]:
+                      - text: €1200 + 250 FS
+                      - generic [ref=e312]: Match
+                    - generic [ref=e314]: "• Wagering: 30x"
+                  - link "Claim Bonus" [ref=e315] [cursor=pointer]:
+                    - /url: /go/unlimluck
+                  - generic [ref=e316]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                - generic [ref=e317]:
+                  - generic [ref=e318]:
+                    - generic [ref=e319]:
+                      - img [ref=e320]
+                      - text: 1000+ Games
+                    - generic [ref=e322]:
+                      - img [ref=e323]
+                      - text: "Min: C$10"
+                    - generic [ref=e325]:
+                      - img [ref=e326]
+                      - text: 24h-24h
+                    - generic [ref=e328]:
+                      - img [ref=e329]
+                      - text: 1 Languages
+                  - generic [ref=e332]:
+                    - generic [ref=e333]:
+                      - generic [ref=e334]: 🇨🇦
+                      - text: CAD Accepted
+                    - generic [ref=e335]:
+                      - generic [ref=e336]: 🎰
+                      - text: Alberta Friendly
+                    - generic [ref=e337]:
+                      - generic [ref=e338]: 🔒
+                      - text: Licensed & Safe
+                - generic [ref=e339]:
+                  - link "Read Review" [ref=e340] [cursor=pointer]:
+                    - /url: /reviews/unlimluck
+                  - link "Play Now" [ref=e341] [cursor=pointer]:
+                    - /url: /go/unlimluck
+                - generic [ref=e342]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e346]:
+              - generic [ref=e347]:
+                - img "Mr Pacho logo" [ref=e349]
+                - generic [ref=e350]:
+                  - heading "Mr Pacho" [level=3] [ref=e351]
+                  - generic [ref=e352]:
+                    - generic [ref=e354]:
+                      - generic [ref=e355]: "9.5"
+                      - generic [ref=e356]:
+                        - img [ref=e357]
+                        - img [ref=e359]
+                        - img [ref=e361]
+                        - img [ref=e363]
+                        - generic [ref=e365]:
+                          - img [ref=e366]
+                          - img [ref=e369]
+                    - generic [ref=e371]: Est. 2020
+                  - generic [ref=e372]:
+                    - generic [ref=e373]:
+                      - img [ref=e375]
+                      - generic [ref=e377]: Malta Gaming Authority
+                    - generic [ref=e378]:
+                      - img [ref=e380]
+                      - generic [ref=e382]: SSL
+                    - generic [ref=e383]:
+                      - img [ref=e385]
+                      - generic [ref=e387]: 18+
+              - generic [ref=e389]:
+                - generic [ref=e390]:
+                  - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e392]:
+                    - text: 🎁 Welcome Bonus
+                    - generic [ref=e393]: Match Bonus
+                  - generic [ref=e394]:
+                    - text: €300 + 50 FS
+                    - generic [ref=e395]: Match
+                  - generic [ref=e397]: "• Wagering: 30x"
+                - link "Claim Bonus" [ref=e398] [cursor=pointer]:
+                  - /url: /go/mr-pacho
+                - generic [ref=e399]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+              - generic [ref=e400]:
+                - generic [ref=e401]:
+                  - generic [ref=e402]:
+                    - img [ref=e403]
+                    - text: 1000+ Games
+                  - generic [ref=e405]:
+                    - img [ref=e406]
+                    - text: "Min: C$10"
+                  - generic [ref=e408]:
+                    - img [ref=e409]
+                    - text: 24h-24h
+                  - generic [ref=e411]:
+                    - img [ref=e412]
+                    - text: 1 Languages
+                - generic [ref=e415]:
+                  - generic [ref=e416]:
+                    - generic [ref=e417]: 🇨🇦
+                    - text: CAD Accepted
+                  - generic [ref=e418]:
+                    - generic [ref=e419]: 🎰
+                    - text: Alberta Friendly
+                  - generic [ref=e420]:
+                    - generic [ref=e421]: 🔒
+                    - text: Licensed & Safe
+              - generic [ref=e422]:
+                - link "Read Review" [ref=e423] [cursor=pointer]:
+                  - /url: /reviews/mr-pacho
+                - link "Play Now" [ref=e424] [cursor=pointer]:
+                  - /url: /go/mr-pacho
+              - generic [ref=e425]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e429]:
+              - generic [ref=e430]:
+                - img "Slotlair logo" [ref=e432]
+                - generic [ref=e433]:
+                  - heading "Slotlair" [level=3] [ref=e434]
+                  - generic [ref=e435]:
+                    - generic [ref=e437]:
+                      - generic [ref=e438]: "9.4"
+                      - generic [ref=e439]:
+                        - img [ref=e440]
+                        - img [ref=e442]
+                        - img [ref=e444]
+                        - img [ref=e446]
+                        - generic [ref=e448]:
+                          - img [ref=e449]
+                          - img [ref=e452]
+                    - generic [ref=e454]: Est. 2020
+                  - generic [ref=e455]:
+                    - generic [ref=e456]:
+                      - img [ref=e458]
+                      - generic [ref=e460]: UK Gaming Authority
+                    - generic [ref=e461]:
+                      - img [ref=e463]
+                      - generic [ref=e465]: SSL
+                    - generic [ref=e466]:
+                      - img [ref=e468]
+                      - generic [ref=e470]: 18+
+              - generic [ref=e472]:
+                - generic [ref=e473]:
+                  - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e475]:
+                    - text: 🎁 Welcome Bonus
+                    - generic [ref=e476]: Match Bonus
+                  - generic [ref=e477]:
+                    - text: £300 + 50 FS
+                    - generic [ref=e478]: Match
+                  - generic [ref=e480]: "• Wagering: 35x"
+                - link "Claim Bonus" [ref=e481] [cursor=pointer]:
+                  - /url: /go/slotlair
+                - generic [ref=e482]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+              - generic [ref=e483]:
+                - generic [ref=e484]:
+                  - generic [ref=e485]:
+                    - img [ref=e486]
+                    - text: 1000+ Games
+                  - generic [ref=e488]:
+                    - img [ref=e489]
+                    - text: "Min: C$10"
+                  - generic [ref=e491]:
+                    - img [ref=e492]
+                    - text: 24h-24h
+                  - generic [ref=e494]:
+                    - img [ref=e495]
+                    - text: 1 Languages
+                - generic [ref=e498]:
+                  - generic [ref=e499]:
+                    - generic [ref=e500]: 🇨🇦
+                    - text: CAD Accepted
+                  - generic [ref=e501]:
+                    - generic [ref=e502]: 🎰
+                    - text: Alberta Friendly
+                  - generic [ref=e503]:
+                    - generic [ref=e504]: 🔒
+                    - text: Licensed & Safe
+              - generic [ref=e505]:
+                - link "Read Review" [ref=e506] [cursor=pointer]:
+                  - /url: /reviews/slotlair
+                - link "Play Now" [ref=e507] [cursor=pointer]:
+                  - /url: /go/slotlair
+              - generic [ref=e508]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e512]:
+              - generic [ref=e513]:
+                - img "SagaSpins logo" [ref=e515]
+                - generic [ref=e516]:
+                  - heading "SagaSpins" [level=3] [ref=e517]
+                  - generic [ref=e518]:
+                    - generic [ref=e520]:
+                      - generic [ref=e521]: "9.4"
+                      - generic [ref=e522]:
+                        - img [ref=e523]
+                        - img [ref=e525]
+                        - img [ref=e527]
+                        - img [ref=e529]
+                        - generic [ref=e531]:
+                          - img [ref=e532]
+                          - img [ref=e535]
+                    - generic [ref=e537]: Est. 2020
+                  - generic [ref=e538]:
+                    - generic [ref=e539]:
+                      - img [ref=e541]
+                      - generic [ref=e543]: UK Gaming Authority
+                    - generic [ref=e544]:
+                      - img [ref=e546]
+                      - generic [ref=e548]: SSL
+                    - generic [ref=e549]:
+                      - img [ref=e551]
+                      - generic [ref=e553]: 18+
+              - generic [ref=e555]:
+                - generic [ref=e556]:
+                  - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e558]:
+                    - text: 🎁 Welcome Bonus
+                    - generic [ref=e559]: Match Bonus
+                  - generic [ref=e560]:
+                    - text: £200 + 50 FS
+                    - generic [ref=e561]: Match
+                  - generic [ref=e563]: "• Wagering: 35x"
+                - link "Claim Bonus" [ref=e564] [cursor=pointer]:
+                  - /url: /go/sagaspins
+                - generic [ref=e565]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+              - generic [ref=e566]:
+                - generic [ref=e567]:
+                  - generic [ref=e568]:
+                    - img [ref=e569]
+                    - text: 1000+ Games
+                  - generic [ref=e571]:
+                    - img [ref=e572]
+                    - text: "Min: C$10"
+                  - generic [ref=e574]:
+                    - img [ref=e575]
+                    - text: 24h-24h
+                  - generic [ref=e577]:
+                    - img [ref=e578]
+                    - text: 1 Languages
+                - generic [ref=e581]:
+                  - generic [ref=e582]:
+                    - generic [ref=e583]: 🇨🇦
+                    - text: CAD Accepted
+                  - generic [ref=e584]:
+                    - generic [ref=e585]: 🎰
+                    - text: Alberta Friendly
+                  - generic [ref=e586]:
+                    - generic [ref=e587]: 🔒
+                    - text: Licensed & Safe
+              - generic [ref=e588]:
+                - link "Read Review" [ref=e589] [cursor=pointer]:
+                  - /url: /reviews/sagaspins
+                - link "Play Now" [ref=e590] [cursor=pointer]:
+                  - /url: /go/sagaspins
+              - generic [ref=e591]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e595]:
+              - generic [ref=e596]:
+                - img "Samba Slots logo" [ref=e598]
+                - generic [ref=e599]:
+                  - heading "Samba Slots" [level=3] [ref=e600]
+                  - generic [ref=e601]:
+                    - generic [ref=e603]:
+                      - generic [ref=e604]: "9.4"
+                      - generic [ref=e605]:
+                        - img [ref=e606]
+                        - img [ref=e608]
+                        - img [ref=e610]
+                        - img [ref=e612]
+                        - generic [ref=e614]:
+                          - img [ref=e615]
+                          - img [ref=e618]
+                    - generic [ref=e620]: Est. 2020
+                  - generic [ref=e621]:
+                    - generic [ref=e622]:
+                      - img [ref=e624]
+                      - generic [ref=e626]: Malta Gaming Authority
+                    - generic [ref=e627]:
+                      - img [ref=e629]
+                      - generic [ref=e631]: SSL
+                    - generic [ref=e632]:
+                      - img [ref=e634]
+                      - generic [ref=e636]: 18+
+              - generic [ref=e638]:
+                - generic [ref=e639]:
+                  - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e641]:
+                    - text: 🎁 Welcome Bonus
+                    - generic [ref=e642]: Match Bonus
+                  - generic [ref=e643]:
+                    - text: €300 + 200 FS
+                    - generic [ref=e644]: Match
+                  - generic [ref=e646]: "• Wagering: 35x"
+                - link "Claim Bonus" [ref=e647] [cursor=pointer]:
+                  - /url: /go/samba
+                - generic [ref=e648]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+              - generic [ref=e649]:
+                - generic [ref=e650]:
+                  - generic [ref=e651]:
+                    - img [ref=e652]
+                    - text: 1000+ Games
+                  - generic [ref=e654]:
+                    - img [ref=e655]
+                    - text: "Min: C$10"
+                  - generic [ref=e657]:
+                    - img [ref=e658]
+                    - text: 24h-48h
+                  - generic [ref=e660]:
+                    - img [ref=e661]
+                    - text: 1 Languages
+                - generic [ref=e664]:
+                  - generic [ref=e665]:
+                    - generic [ref=e666]: 🇨🇦
+                    - text: CAD Accepted
+                  - generic [ref=e667]:
+                    - generic [ref=e668]: 🎰
+                    - text: Alberta Friendly
+                  - generic [ref=e669]:
+                    - generic [ref=e670]: 🔒
+                    - text: Licensed & Safe
+              - generic [ref=e671]:
+                - link "Read Review" [ref=e672] [cursor=pointer]:
+                  - /url: /reviews/samba
+                - link "Play Now" [ref=e673] [cursor=pointer]:
+                  - /url: /go/samba
+              - generic [ref=e674]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e678]:
+              - generic [ref=e679]:
+                - img "Willdsino logo" [ref=e681]
+                - generic [ref=e682]:
+                  - heading "Willdsino" [level=3] [ref=e683]
+                  - generic [ref=e684]:
+                    - generic [ref=e686]:
+                      - generic [ref=e687]: "9.4"
+                      - generic [ref=e688]:
+                        - img [ref=e689]
+                        - img [ref=e691]
+                        - img [ref=e693]
+                        - img [ref=e695]
+                        - generic [ref=e697]:
+                          - img [ref=e698]
+                          - img [ref=e701]
+                    - generic [ref=e703]: Est. 2020
+                  - generic [ref=e704]:
+                    - generic [ref=e705]:
+                      - img [ref=e707]
+                      - generic [ref=e709]: Malta Gaming Authority
+                    - generic [ref=e710]:
+                      - img [ref=e712]
+                      - generic [ref=e714]: SSL
+                    - generic [ref=e715]:
+                      - img [ref=e717]
+                      - generic [ref=e719]: 18+
+              - generic [ref=e721]:
+                - generic [ref=e722]:
+                  - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e724]:
+                    - text: 🎁 Welcome Bonus
+                    - generic [ref=e725]: Match Bonus
+                  - generic [ref=e726]:
+                    - text: 100% up to €200
+                    - generic [ref=e727]: Match
+                  - generic [ref=e729]: "• Wagering: 30x"
+                - link "Claim Bonus" [ref=e730] [cursor=pointer]:
+                  - /url: /go/willdsino
+                - generic [ref=e731]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+              - generic [ref=e732]:
+                - generic [ref=e733]:
+                  - generic [ref=e734]:
+                    - img [ref=e735]
+                    - text: 1000+ Games
+                  - generic [ref=e737]:
+                    - img [ref=e738]
+                    - text: "Min: C$10"
+                  - generic [ref=e740]:
+                    - img [ref=e741]
+                    - text: 24h-24h
+                  - generic [ref=e743]:
+                    - img [ref=e744]
+                    - text: 1 Languages
+                - generic [ref=e747]:
+                  - generic [ref=e748]:
+                    - generic [ref=e749]: 🇨🇦
+                    - text: CAD Accepted
+                  - generic [ref=e750]:
+                    - generic [ref=e751]: 🎰
+                    - text: Alberta Friendly
+                  - generic [ref=e752]:
+                    - generic [ref=e753]: 🔒
+                    - text: Licensed & Safe
+              - generic [ref=e754]:
+                - link "Read Review" [ref=e755] [cursor=pointer]:
+                  - /url: /reviews/willdsino
+                - link "Play Now" [ref=e756] [cursor=pointer]:
+                  - /url: /go/willdsino
+              - generic [ref=e757]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e761]:
+              - generic [ref=e762]:
+                - img "Trino logo" [ref=e764]
+                - generic [ref=e765]:
+                  - heading "Trino" [level=3] [ref=e766]
+                  - generic [ref=e767]:
+                    - generic [ref=e769]:
+                      - generic [ref=e770]: "9.4"
+                      - generic [ref=e771]:
+                        - img [ref=e772]
+                        - img [ref=e774]
+                        - img [ref=e776]
+                        - img [ref=e778]
+                        - generic [ref=e780]:
+                          - img [ref=e781]
+                          - img [ref=e784]
+                    - generic [ref=e786]: Est. 2020
+                  - generic [ref=e787]:
+                    - generic [ref=e788]:
+                      - img [ref=e790]
+                      - generic [ref=e792]: Malta Gaming Authority
+                    - generic [ref=e793]:
+                      - img [ref=e795]
+                      - generic [ref=e797]: SSL
+                    - generic [ref=e798]:
+                      - img [ref=e800]
+                      - generic [ref=e802]: 18+
+              - generic [ref=e804]:
+                - generic [ref=e805]:
+                  - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e807]:
+                    - text: 🎁 Welcome Bonus
+                    - generic [ref=e808]: Match Bonus
+                  - generic [ref=e809]:
+                    - text: €1000 + 150 FS
+                    - generic [ref=e810]: Match
+                  - generic [ref=e812]: "• Wagering: 35x"
+                - link "Claim Bonus" [ref=e813] [cursor=pointer]:
+                  - /url: /go/trino
+                - generic [ref=e814]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+              - generic [ref=e815]:
+                - generic [ref=e816]:
+                  - generic [ref=e817]:
+                    - img [ref=e818]
+                    - text: 1000+ Games
+                  - generic [ref=e820]:
+                    - img [ref=e821]
+                    - text: "Min: C$10"
+                  - generic [ref=e823]:
+                    - img [ref=e824]
+                    - text: 24h-24h
+                  - generic [ref=e826]:
+                    - img [ref=e827]
+                    - text: 1 Languages
+                - generic [ref=e830]:
+                  - generic [ref=e831]:
+                    - generic [ref=e832]: 🇨🇦
+                    - text: CAD Accepted
+                  - generic [ref=e833]:
+                    - generic [ref=e834]: 🎰
+                    - text: Alberta Friendly
+                  - generic [ref=e835]:
+                    - generic [ref=e836]: 🔒
+                    - text: Licensed & Safe
+              - generic [ref=e837]:
+                - link "Read Review" [ref=e838] [cursor=pointer]:
+                  - /url: /reviews/trino
+                - link "Play Now" [ref=e839] [cursor=pointer]:
+                  - /url: /go/trino
+              - generic [ref=e840]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e844]:
+              - generic [ref=e845]:
+                - img "SkyHills logo" [ref=e847]
+                - generic [ref=e848]:
+                  - heading "SkyHills" [level=3] [ref=e849]
+                  - generic [ref=e850]:
+                    - generic [ref=e852]:
+                      - generic [ref=e853]: "9.3"
+                      - generic [ref=e854]:
+                        - img [ref=e855]
+                        - img [ref=e857]
+                        - img [ref=e859]
+                        - img [ref=e861]
+                        - generic [ref=e863]:
+                          - img [ref=e864]
+                          - img [ref=e867]
+                    - generic [ref=e869]: Est. 2020
+                  - generic [ref=e870]:
+                    - generic [ref=e871]:
+                      - img [ref=e873]
+                      - generic [ref=e875]: Kansspelautoriteit Gaming Authority
+                    - generic [ref=e876]:
+                      - img [ref=e878]
+                      - generic [ref=e880]: SSL
+                    - generic [ref=e881]:
+                      - img [ref=e883]
+                      - generic [ref=e885]: 18+
+              - generic [ref=e887]:
+                - generic [ref=e888]:
+                  - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e890]:
+                    - text: 🎁 Welcome Bonus
+                    - generic [ref=e891]: Match Bonus
+                  - generic [ref=e892]:
+                    - text: €500 + 150 FS
+                    - generic [ref=e893]: Match
+                  - generic [ref=e895]: "• Wagering: 30x"
+                - link "Claim Bonus" [ref=e896] [cursor=pointer]:
+                  - /url: /go/skyhills
+                - generic [ref=e897]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+              - generic [ref=e898]:
+                - generic [ref=e899]:
+                  - generic [ref=e900]:
+                    - img [ref=e901]
+                    - text: 1000+ Games
+                  - generic [ref=e903]:
+                    - img [ref=e904]
+                    - text: "Min: C$10"
+                  - generic [ref=e906]:
+                    - img [ref=e907]
+                    - text: 24h-24h
+                  - generic [ref=e909]:
+                    - img [ref=e910]
+                    - text: 1 Languages
+                - generic [ref=e913]:
+                  - generic [ref=e914]:
+                    - generic [ref=e915]: 🇨🇦
+                    - text: CAD Accepted
+                  - generic [ref=e916]:
+                    - generic [ref=e917]: 🎰
+                    - text: Alberta Friendly
+                  - generic [ref=e918]:
+                    - generic [ref=e919]: 🔒
+                    - text: Licensed & Safe
+              - generic [ref=e920]:
+                - link "Read Review" [ref=e921] [cursor=pointer]:
+                  - /url: /reviews/skyhills
+                - link "Play Now" [ref=e922] [cursor=pointer]:
+                  - /url: /go/skyhills
+              - generic [ref=e923]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e927]:
+              - generic [ref=e928]:
+                - img "Lucky Hunter logo" [ref=e930]
+                - generic [ref=e931]:
+                  - heading "Lucky Hunter" [level=3] [ref=e932]
+                  - generic [ref=e933]:
+                    - generic [ref=e935]:
+                      - generic [ref=e936]: "9.3"
+                      - generic [ref=e937]:
+                        - img [ref=e938]
+                        - img [ref=e940]
+                        - img [ref=e942]
+                        - img [ref=e944]
+                        - generic [ref=e946]:
+                          - img [ref=e947]
+                          - img [ref=e950]
+                    - generic [ref=e952]: Est. 2020
+                  - generic [ref=e953]:
+                    - generic [ref=e954]:
+                      - img [ref=e956]
+                      - generic [ref=e958]: Curacao Gaming Authority
+                    - generic [ref=e959]:
+                      - img [ref=e961]
+                      - generic [ref=e963]: SSL
+                    - generic [ref=e964]:
+                      - img [ref=e966]
+                      - generic [ref=e968]: 18+
+              - generic [ref=e970]:
+                - generic [ref=e971]:
+                  - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e973]:
+                    - text: 🎁 Welcome Bonus
+                    - generic [ref=e974]: Match Bonus
+                  - generic [ref=e975]:
+                    - text: 1.5 BTC + 200 FS
+                    - generic [ref=e976]: Match
+                  - generic [ref=e978]: "• Wagering: 40x"
+                - link "Claim Bonus" [ref=e979] [cursor=pointer]:
+                  - /url: /go/hunter
+                - generic [ref=e980]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+              - generic [ref=e981]:
+                - generic [ref=e982]:
+                  - generic [ref=e983]:
+                    - img [ref=e984]
+                    - text: 1000+ Games
+                  - generic [ref=e986]:
+                    - img [ref=e987]
+                    - text: "Min: C$10"
+                  - generic [ref=e989]:
+                    - img [ref=e990]
+                    - text: 24h-24h
+                  - generic [ref=e992]:
+                    - img [ref=e993]
+                    - text: 1 Languages
+                - generic [ref=e996]:
+                  - generic [ref=e997]:
+                    - generic [ref=e998]: 🇨🇦
+                    - text: CAD Accepted
+                  - generic [ref=e999]:
+                    - generic [ref=e1000]: 🎰
+                    - text: Alberta Friendly
+                  - generic [ref=e1001]:
+                    - generic [ref=e1002]: 🔒
+                    - text: Licensed & Safe
+              - generic [ref=e1003]:
+                - link "Read Review" [ref=e1004] [cursor=pointer]:
+                  - /url: /reviews/hunter
+                - link "Play Now" [ref=e1005] [cursor=pointer]:
+                  - /url: /go/hunter
+              - generic [ref=e1006]: 18+ • T&Cs Apply • BeGambleAware.org
+            - generic [ref=e1010]:
+              - generic [ref=e1011]:
+                - img "Rizz Casino logo" [ref=e1013]
+                - generic [ref=e1014]:
+                  - heading "Rizz Casino" [level=3] [ref=e1015]
+                  - generic [ref=e1016]:
+                    - generic [ref=e1018]:
+                      - generic [ref=e1019]: "9.2"
+                      - generic [ref=e1020]:
+                        - img [ref=e1021]
+                        - img [ref=e1023]
+                        - img [ref=e1025]
+                        - img [ref=e1027]
+                        - generic [ref=e1029]:
+                          - img [ref=e1030]
+                          - img [ref=e1033]
+                    - generic [ref=e1035]: Est. 2020
+                  - generic [ref=e1036]:
+                    - generic [ref=e1037]:
+                      - img [ref=e1039]
+                      - generic [ref=e1041]: Malta Gaming Authority
+                    - generic [ref=e1042]:
+                      - img [ref=e1044]
+                      - generic [ref=e1046]: SSL
+                    - generic [ref=e1047]:
+                      - img [ref=e1049]
+                      - generic [ref=e1051]: 18+
+              - generic [ref=e1053]:
+                - generic [ref=e1054]:
+                  - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e1056]:
+                    - text: 🎁 Welcome Bonus
+                    - generic [ref=e1057]: Match Bonus
+                  - generic [ref=e1058]:
+                    - text: €1000 + 150 FS
+                    - generic [ref=e1059]: Match
+                  - generic [ref=e1061]: "• Wagering: 35x"
+                - link "Claim Bonus" [ref=e1062] [cursor=pointer]:
+                  - /url: /go/rizz
+                - generic [ref=e1063]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+              - generic [ref=e1064]:
+                - generic [ref=e1065]:
+                  - generic [ref=e1066]:
+                    - img [ref=e1067]
+                    - text: 1000+ Games
+                  - generic [ref=e1069]:
+                    - img [ref=e1070]
+                    - text: "Min: C$10"
+                  - generic [ref=e1072]:
+                    - img [ref=e1073]
+                    - text: 24h-36h
+                  - generic [ref=e1075]:
+                    - img [ref=e1076]
+                    - text: 1 Languages
+                - generic [ref=e1079]:
+                  - generic [ref=e1080]:
+                    - generic [ref=e1081]: 🇨🇦
+                    - text: CAD Accepted
+                  - generic [ref=e1082]:
+                    - generic [ref=e1083]: 🎰
+                    - text: Alberta Friendly
+                  - generic [ref=e1084]:
+                    - generic [ref=e1085]: 🔒
+                    - text: Licensed & Safe
+              - generic [ref=e1086]:
+                - link "Read Review" [ref=e1087] [cursor=pointer]:
+                  - /url: /reviews/rizz
+                - link "Play Now" [ref=e1088] [cursor=pointer]:
+                  - /url: /go/rizz
+              - generic [ref=e1089]: 18+ • T&Cs Apply • BeGambleAware.org
+        - generic [ref=e1090]:
+          - heading "Alberta Online Gambling Information" [level=2] [ref=e1091]
+          - generic [ref=e1092]:
+            - generic [ref=e1093]:
+              - heading "⚖️ Legal Status" [level=3] [ref=e1094]
+              - paragraph [ref=e1095]: Online gambling is legal for Alberta residents when playing at internationally licensed casinos. AGLC oversees local gambling operations.
+            - generic [ref=e1096]:
+              - heading "💳 Payment Methods" [level=3] [ref=e1097]
+              - paragraph [ref=e1098]: Popular options include Interac e-Transfer, credit cards, and e-wallets like PayPal and Skrill for Canadian players.
+  - contentinfo [ref=e1099]:
+    - generic [ref=e1100]:
+      - generic [ref=e1101]:
+        - generic [ref=e1102]:
+          - generic [ref=e1103]: 🎰 BestCasinoPortal
+          - paragraph [ref=e1104]: Expert casino reviews and ratings you can trust.
+          - generic [ref=e1105]: "Updated: September 2025"
+        - generic [ref=e1106]:
+          - heading "Best Casinos" [level=3] [ref=e1107]
+          - list [ref=e1108]:
+            - listitem [ref=e1109]:
+              - link "All Best Casinos" [ref=e1110] [cursor=pointer]:
+                - /url: /best
+            - listitem [ref=e1111]:
+              - link "Real Money Casinos" [ref=e1112] [cursor=pointer]:
+                - /url: /best/real-money
+            - listitem [ref=e1113]:
+              - link "Fast Withdrawal Casinos" [ref=e1114] [cursor=pointer]:
+                - /url: /best/fast-withdrawals
+            - listitem [ref=e1115]:
+              - link "Mobile Casinos" [ref=e1116] [cursor=pointer]:
+                - /url: /best/mobile
+            - listitem [ref=e1117]:
+              - link "Live Dealer Casinos" [ref=e1118] [cursor=pointer]:
+                - /url: /best/live-dealer
+        - generic [ref=e1119]:
+          - heading "Games & Bonuses" [level=3] [ref=e1120]
+          - list [ref=e1121]:
+            - listitem [ref=e1122]:
+              - link "Casino Games" [ref=e1123] [cursor=pointer]:
+                - /url: /games
+            - listitem [ref=e1124]:
+              - link "Slots" [ref=e1125] [cursor=pointer]:
+                - /url: /slots
+            - listitem [ref=e1126]:
+              - link "Free Games" [ref=e1127] [cursor=pointer]:
+                - /url: /free-games
+            - listitem [ref=e1128]:
+              - link "Casino Bonuses" [ref=e1129] [cursor=pointer]:
+                - /url: /bonuses
+            - listitem [ref=e1130]:
+              - link "Bonus Codes" [ref=e1131] [cursor=pointer]:
+                - /url: /bonus
+            - listitem [ref=e1132]:
+              - link "Live Dealer Games" [ref=e1133] [cursor=pointer]:
+                - /url: /live-dealer
+        - generic [ref=e1134]:
+          - heading "Reviews & Guides" [level=3] [ref=e1135]
+          - list [ref=e1136]:
+            - listitem [ref=e1137]:
+              - link "Casino Reviews" [ref=e1138] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e1139]:
+              - link "Casino Guides" [ref=e1140] [cursor=pointer]:
+                - /url: /guides
+            - listitem [ref=e1141]:
+              - link "How We Rate Casinos" [ref=e1142] [cursor=pointer]:
+                - /url: /guides/how-we-rate
+            - listitem [ref=e1143]:
+              - link "Payment Methods" [ref=e1144] [cursor=pointer]:
+                - /url: /payments
+            - listitem [ref=e1145]:
+              - link "Mobile Gaming Guide" [ref=e1146] [cursor=pointer]:
+                - /url: /mobile
+        - generic [ref=e1147]:
+          - heading "Regions" [level=3] [ref=e1148]
+          - list [ref=e1149]:
+            - listitem [ref=e1150]:
+              - link "All Regions" [ref=e1151] [cursor=pointer]:
+                - /url: /regions
+            - listitem [ref=e1152]:
+              - link "Ontario Casinos" [ref=e1153] [cursor=pointer]:
+                - /url: /regions/ontario
+            - listitem [ref=e1154]:
+              - link "Alberta Casinos" [ref=e1155] [cursor=pointer]:
+                - /url: /regions/alberta
+            - listitem [ref=e1156]:
+              - link "BC Casinos" [ref=e1157] [cursor=pointer]:
+                - /url: /regions/british-columbia
+        - generic [ref=e1158]:
+          - heading "Legal & Support" [level=3] [ref=e1159]
+          - list [ref=e1160]:
+            - listitem [ref=e1161]:
+              - link "Terms of Service" [ref=e1162] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=e1163]:
+              - link "Privacy Policy" [ref=e1164] [cursor=pointer]:
+                - /url: /legal/privacy
+            - listitem [ref=e1165]:
+              - link "About Us" [ref=e1166] [cursor=pointer]:
+                - /url: /legal/about
+            - listitem [ref=e1167]:
+              - link "Responsible Gambling" [ref=e1168] [cursor=pointer]:
+                - /url: /guides/responsible-gambling
+      - generic [ref=e1169]:
+        - paragraph [ref=e1170]:
+          - strong [ref=e1171]: "Affiliate Disclosure:"
+          - text: This site contains affiliate links. We may earn a commission if you click through and make a deposit. This doesn't affect our recommendations or reviews.
+        - paragraph [ref=e1172]: © 2025 BestCasinoPortal. All rights reserved. | 18+ only. Gamble responsibly.
+```

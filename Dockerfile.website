@@ -1,0 +1,60 @@
+# Optimized Website-Only Dockerfile
+# Casino Portal - Static Website Build
+# Size Optimized: ~30MB vs ~200MB+
+
+# Stage 1: Dependencies
+FROM node:20-alpine AS deps
+WORKDIR /app
+
+# Copy package files
+COPY package.json package-lock.json ./
+RUN npm ci --only=production --ignore-scripts && \
+    npm cache clean --force
+
+# Stage 2: Builder
+FROM node:20-alpine AS builder
+WORKDIR /app
+
+# Copy package files
+COPY package.json package-lock.json ./
+RUN npm ci --ignore-scripts
+
+# Copy only website-specific files
+COPY src/ ./src/
+COPY public/ ./public/
+COPY data/ ./data/
+COPY astro.config.mjs ./
+COPY tailwind.config.cjs ./
+COPY tsconfig.json ./
+COPY postcss.config.cjs ./
+
+# Build static site
+RUN npm run build
+
+# Stage 3: Production
+FROM nginx:alpine AS production
+
+# Install curl for health checks
+RUN apk add --no-cache curl
+
+# Copy built files
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+# Copy data files for runtime access
+COPY --from=builder /app/data /usr/share/nginx/html/data
+
+# Copy nginx config
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Create version info
+RUN echo "Casino Portal Website - Optimized Build" > /usr/share/nginx/html/version.txt
+
+# Set permissions
+RUN chown -R nginx:nginx /usr/share/nginx/html
+
+EXPOSE 80
+
+HEALTHCHECK --interval=10s --timeout=3s --start-period=5s --retries=3 \
+    CMD curl -f http://localhost/ || exit 1
+
+CMD ["nginx", "-g", "daemon off;"]

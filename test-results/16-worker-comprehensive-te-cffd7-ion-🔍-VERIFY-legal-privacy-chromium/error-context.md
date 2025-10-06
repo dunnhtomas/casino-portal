@@ -1,0 +1,187 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "🎰 Casino Portal" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - link "Reviews" [ref=e10] [cursor=pointer]:
+            - /url: /reviews
+            - text: Reviews
+            - img [ref=e11] [cursor=pointer]
+          - link "Best Casinos" [ref=e14] [cursor=pointer]:
+            - /url: /best
+            - text: Best Casinos
+            - img [ref=e15] [cursor=pointer]
+          - link "Bonuses Hot" [ref=e18] [cursor=pointer]:
+            - /url: /bonuses
+            - text: Bonuses
+            - generic [ref=e19] [cursor=pointer]: Hot
+            - img [ref=e20] [cursor=pointer]
+          - link "Games" [ref=e23] [cursor=pointer]:
+            - /url: /games
+            - text: Games
+            - img [ref=e24] [cursor=pointer]
+          - link "Guides" [ref=e27] [cursor=pointer]:
+            - /url: /guides
+            - text: Guides
+            - img [ref=e28] [cursor=pointer]
+          - link "Regions" [ref=e31] [cursor=pointer]:
+            - /url: /regions
+            - text: Regions
+            - img [ref=e32] [cursor=pointer]
+  - navigation [ref=e34]:
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - link "Home" [ref=e38] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e39]:
+        - img [ref=e40]
+        - link "Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e43]:
+        - img [ref=e44]
+        - link "Legal Information" [ref=e46] [cursor=pointer]:
+          - /url: /legal
+      - listitem [ref=e47]:
+        - img [ref=e48]
+        - generic [ref=e50]: Privacy Policy
+  - main [ref=e51]:
+    - main [ref=e52]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - heading "🛡️ Privacy Policy" [level=1] [ref=e58]
+          - paragraph [ref=e59]: Your privacy matters to us. Learn how we protect your data and respect your privacy while providing transparent casino reviews.
+        - generic [ref=e60]:
+          - img [ref=e61]
+          - generic [ref=e63]: 🔒 Minimal Data Collection • 🚫 No Personal Info Required • 🎯 Anonymous Analytics • 🛡️ Privacy First
+      - generic [ref=e67]:
+        - heading "Our Commitment to Privacy" [level=2] [ref=e68]
+        - paragraph [ref=e69]: We are committed to protecting your privacy and collecting minimal data necessary to provide our services. Your privacy is important to us.
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]:
+              - generic [ref=e73]: 🛡️
+              - heading "Data Collection" [level=3] [ref=e74]
+              - paragraph [ref=e75]: "We collect minimal data to provide our casino comparison services. This may include:"
+              - list [ref=e76]:
+                - listitem [ref=e77]: Basic analytics to understand how visitors use our site
+                - listitem [ref=e78]: Optional performance logging (anonymized)
+                - listitem [ref=e79]: No personal information is required to browse our reviews
+            - generic [ref=e80]:
+              - generic [ref=e81]: 📊
+              - heading "Analytics & Tracking" [level=3] [ref=e82]
+              - paragraph [ref=e83]: We use anonymized analytics to understand how our site is used and to improve our services. Performance logging is optional and fully anonymized.
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - generic [ref=e86]: 🔗
+              - heading "External Links" [level=3] [ref=e87]
+              - paragraph [ref=e88]: Our site contains links to external casino websites. We are not responsible for the privacy practices of these external sites. Please review their privacy policies before providing any personal information.
+            - generic [ref=e89]:
+              - generic [ref=e90]: 📧
+              - heading "Contact" [level=3] [ref=e91]
+              - paragraph [ref=e92]: If you have questions about this privacy policy or our data practices, please contact us through our website.
+        - paragraph [ref=e94]: "📅 Last updated: September 2025. We may update this privacy policy from time to time. Please check this page periodically for changes."
+  - contentinfo [ref=e95]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - generic [ref=e99]: 🎰 BestCasinoPortal
+          - paragraph [ref=e100]: Expert casino reviews and ratings you can trust.
+          - generic [ref=e101]: "Updated: September 2025"
+        - generic [ref=e102]:
+          - heading "Best Casinos" [level=3] [ref=e103]
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - link "All Best Casinos" [ref=e106] [cursor=pointer]:
+                - /url: /best
+            - listitem [ref=e107]:
+              - link "Real Money Casinos" [ref=e108] [cursor=pointer]:
+                - /url: /best/real-money
+            - listitem [ref=e109]:
+              - link "Fast Withdrawal Casinos" [ref=e110] [cursor=pointer]:
+                - /url: /best/fast-withdrawals
+            - listitem [ref=e111]:
+              - link "Mobile Casinos" [ref=e112] [cursor=pointer]:
+                - /url: /best/mobile
+            - listitem [ref=e113]:
+              - link "Live Dealer Casinos" [ref=e114] [cursor=pointer]:
+                - /url: /best/live-dealer
+        - generic [ref=e115]:
+          - heading "Games & Bonuses" [level=3] [ref=e116]
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - link "Casino Games" [ref=e119] [cursor=pointer]:
+                - /url: /games
+            - listitem [ref=e120]:
+              - link "Slots" [ref=e121] [cursor=pointer]:
+                - /url: /slots
+            - listitem [ref=e122]:
+              - link "Free Games" [ref=e123] [cursor=pointer]:
+                - /url: /free-games
+            - listitem [ref=e124]:
+              - link "Casino Bonuses" [ref=e125] [cursor=pointer]:
+                - /url: /bonuses
+            - listitem [ref=e126]:
+              - link "Bonus Codes" [ref=e127] [cursor=pointer]:
+                - /url: /bonus
+            - listitem [ref=e128]:
+              - link "Live Dealer Games" [ref=e129] [cursor=pointer]:
+                - /url: /live-dealer
+        - generic [ref=e130]:
+          - heading "Reviews & Guides" [level=3] [ref=e131]
+          - list [ref=e132]:
+            - listitem [ref=e133]:
+              - link "Casino Reviews" [ref=e134] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e135]:
+              - link "Casino Guides" [ref=e136] [cursor=pointer]:
+                - /url: /guides
+            - listitem [ref=e137]:
+              - link "How We Rate Casinos" [ref=e138] [cursor=pointer]:
+                - /url: /guides/how-we-rate
+            - listitem [ref=e139]:
+              - link "Payment Methods" [ref=e140] [cursor=pointer]:
+                - /url: /payments
+            - listitem [ref=e141]:
+              - link "Mobile Gaming Guide" [ref=e142] [cursor=pointer]:
+                - /url: /mobile
+        - generic [ref=e143]:
+          - heading "Regions" [level=3] [ref=e144]
+          - list [ref=e145]:
+            - listitem [ref=e146]:
+              - link "All Regions" [ref=e147] [cursor=pointer]:
+                - /url: /regions
+            - listitem [ref=e148]:
+              - link "Ontario Casinos" [ref=e149] [cursor=pointer]:
+                - /url: /regions/ontario
+            - listitem [ref=e150]:
+              - link "Alberta Casinos" [ref=e151] [cursor=pointer]:
+                - /url: /regions/alberta
+            - listitem [ref=e152]:
+              - link "BC Casinos" [ref=e153] [cursor=pointer]:
+                - /url: /regions/british-columbia
+        - generic [ref=e154]:
+          - heading "Legal & Support" [level=3] [ref=e155]
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "Terms of Service" [ref=e158] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=e159]:
+              - link "Privacy Policy" [ref=e160] [cursor=pointer]:
+                - /url: /legal/privacy
+            - listitem [ref=e161]:
+              - link "About Us" [ref=e162] [cursor=pointer]:
+                - /url: /legal/about
+            - listitem [ref=e163]:
+              - link "Responsible Gambling" [ref=e164] [cursor=pointer]:
+                - /url: /guides/responsible-gambling
+      - generic [ref=e165]:
+        - paragraph [ref=e166]:
+          - strong [ref=e167]: "Affiliate Disclosure:"
+          - text: This site contains affiliate links. We may earn a commission if you click through and make a deposit. This doesn't affect our recommendations or reviews.
+        - paragraph [ref=e168]: © 2025 BestCasinoPortal. All rights reserved. | 18+ only. Gamble responsibly.
+```

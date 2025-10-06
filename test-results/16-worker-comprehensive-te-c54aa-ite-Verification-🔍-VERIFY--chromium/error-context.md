@@ -1,0 +1,2734 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "🎰 Casino Portal" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - link "Reviews" [ref=e10] [cursor=pointer]:
+            - /url: /reviews
+            - text: Reviews
+            - img [ref=e11] [cursor=pointer]
+          - link "Best Casinos" [ref=e14] [cursor=pointer]:
+            - /url: /best
+            - text: Best Casinos
+            - img [ref=e15] [cursor=pointer]
+          - link "Bonuses Hot" [ref=e18] [cursor=pointer]:
+            - /url: /bonuses
+            - text: Bonuses
+            - generic [ref=e19] [cursor=pointer]: Hot
+            - img [ref=e20] [cursor=pointer]
+          - link "Games" [ref=e23] [cursor=pointer]:
+            - /url: /games
+            - text: Games
+            - img [ref=e24] [cursor=pointer]
+          - link "Guides" [ref=e27] [cursor=pointer]:
+            - /url: /guides
+            - text: Guides
+            - img [ref=e28] [cursor=pointer]
+          - link "Regions" [ref=e31] [cursor=pointer]:
+            - /url: /regions
+            - text: Regions
+            - img [ref=e32] [cursor=pointer]
+  - main [ref=e34]:
+    - generic [ref=e35]:
+      - button "Toggle dark mode" [ref=e37] [cursor=pointer]:
+        - img [ref=e38] [cursor=pointer]
+        - img [ref=e40] [cursor=pointer]
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - heading "Best Online Casinos 2025 - Expert Reviews & Trusted Ratings" [level=1] [ref=e54]:
+            - generic [ref=e55]: Best Online Casinos 2025
+            - generic [ref=e56]: "- Expert Reviews & Trusted Ratings"
+          - paragraph [ref=e57]: Discover the top-rated online casinos with our comprehensive reviews. Compare bonuses, games, and payout speeds from 79+ licensed casino sites. Find your perfect casino with fast withdrawals and fair play guarantees.
+        - generic [ref=e58]:
+          - link "View our top-rated casino recommendations" [ref=e59] [cursor=pointer]:
+            - /url: "#top-three"
+            - text: View Top Casinos
+            - img [ref=e60] [cursor=pointer]
+          - link "Compare all casino reviews side by side" [ref=e62] [cursor=pointer]:
+            - /url: "#comparison-table"
+            - text: Read Expert Reviews
+            - img [ref=e63] [cursor=pointer]
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - generic [ref=e69]: Verified Safe
+          - generic [ref=e71]: 🏆 79+ Casinos Reviewed • ⚡ Fast Payout Verified • 🛡️ Licensed & Safe • Updated Daily
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - img [ref=e75]
+            - paragraph [ref=e77]: Licensed & Safe
+          - generic [ref=e78]:
+            - img [ref=e80]
+            - paragraph [ref=e82]: Fast Payouts
+          - generic [ref=e83]:
+            - img [ref=e85]
+            - paragraph [ref=e87]: Expert Verified
+          - generic [ref=e88]:
+            - img [ref=e90]
+            - paragraph [ref=e92]: Top Bonuses
+      - generic [ref=e94] [cursor=pointer]:
+        - generic [ref=e95] [cursor=pointer]: Discover More
+        - img [ref=e96] [cursor=pointer]
+    - region "Why Trust Our Casino Reviews?" [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - heading "Why Trust Our Casino Reviews?" [level=2] [ref=e101]
+          - paragraph [ref=e102]: We provide transparent, unbiased casino reviews backed by rigorous testing and expert analysis to help you find safe, trustworthy gaming sites.
+        - list "Casino review benefits" [ref=e103]:
+          - listitem [ref=e104]:
+            - img [ref=e106]
+            - generic [ref=e108]:
+              - heading "Licensed & Secure" [level=3] [ref=e109]
+              - paragraph [ref=e110]: MGA, UKGC & Curacao licensed casinos with SSL encryption
+          - listitem [ref=e111]:
+            - img [ref=e113]
+            - generic [ref=e115]:
+              - heading "Fast Payouts Verified" [level=3] [ref=e116]
+              - paragraph [ref=e117]: 0-24h withdrawals tested and verified by our experts
+          - listitem [ref=e118]:
+            - img [ref=e120]
+            - generic [ref=e122]:
+              - heading "Mobile Optimized" [level=3] [ref=e123]
+              - paragraph [ref=e124]: Play anywhere with responsive design and mobile apps
+          - listitem [ref=e125]:
+            - img [ref=e127]
+            - generic [ref=e129]:
+              - heading "Expert Reviews" [level=3] [ref=e130]
+              - paragraph [ref=e131]: Professional analysis with transparent rating methodology
+          - listitem [ref=e132]:
+            - img [ref=e134]
+            - generic [ref=e136]:
+              - heading "24/7 Support" [level=3] [ref=e137]
+              - paragraph [ref=e138]: Live chat, email and phone support availability verified
+        - complementary "Trust metrics and statistics" [ref=e139]:
+          - heading "Trust metrics and statistics" [level=3] [ref=e140]
+          - generic [ref=e143]:
+            - strong [ref=e144]: "79"
+            - generic [ref=e145]: Casinos Reviewed
+          - generic [ref=e148]:
+            - strong [ref=e149]: "18"
+            - generic [ref=e150]: License Types Verified
+          - generic [ref=e153]:
+            - strong [ref=e154]: "43"
+            - generic [ref=e155]: Game Providers Tested
+          - generic [ref=e158]:
+            - generic [ref=e159]: Updated
+            - strong [ref=e160]: Daily
+    - region "🏆 Top 10 Casino Recommendations" [ref=e161]:
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - heading "🏆 Top 10 Casino Recommendations" [level=2] [ref=e164]
+          - paragraph [ref=e165]: Our highest-rated casinos based on expert analysis and player reviews
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - article [ref=e169]:
+              - generic [ref=e171]:
+                - generic [ref=e172]: Featured
+                - generic [ref=e173]: 🔥 Popular
+                - generic [ref=e174]: "1"
+                - generic [ref=e175]:
+                  - generic [ref=e176]:
+                    - img "SpellWin logo" [ref=e178]
+                    - generic [ref=e179]:
+                      - heading "SpellWin" [level=3] [ref=e180]
+                      - generic [ref=e181]:
+                        - generic [ref=e183]:
+                          - generic [ref=e184]: "9.6"
+                          - generic [ref=e185]:
+                            - img [ref=e186]
+                            - img [ref=e188]
+                            - img [ref=e190]
+                            - img [ref=e192]
+                            - generic [ref=e194]:
+                              - img [ref=e195]
+                              - img [ref=e198]
+                        - generic [ref=e200]: Est. 2021
+                      - generic [ref=e201]:
+                        - generic [ref=e202]:
+                          - img [ref=e204]
+                          - generic [ref=e206]: Trusted
+                        - generic [ref=e207]:
+                          - img [ref=e209]
+                          - generic [ref=e211]: Malta
+                        - generic [ref=e212]:
+                          - img [ref=e214]
+                          - generic [ref=e216]: SSL
+                        - generic [ref=e217]:
+                          - img [ref=e219]
+                          - generic [ref=e221]: 18+
+                  - generic [ref=e223]:
+                    - generic [ref=e224]:
+                      - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e226]:
+                        - text: 🎁 Welcome Bonus
+                        - generic [ref=e227]: Match Bonus
+                      - generic [ref=e228]:
+                        - text: €600 + 120 FS
+                        - generic [ref=e229]: Match
+                      - generic [ref=e230]:
+                        - generic [ref=e231]: "• Wagering: 35x"
+                        - generic [ref=e232]: "• Max Win: €600"
+                    - link "Claim Bonus" [ref=e233] [cursor=pointer]:
+                      - /url: /go/spellwin
+                    - generic [ref=e234]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                  - generic [ref=e235]:
+                    - generic [ref=e236]:
+                      - generic [ref=e237]:
+                        - img [ref=e238]
+                        - text: 2000+ Games
+                      - generic [ref=e240]:
+                        - img [ref=e241]
+                        - text: "Min: $10"
+                      - generic [ref=e243]:
+                        - img [ref=e244]
+                        - text: 24h-48h
+                      - generic [ref=e246]:
+                        - img [ref=e247]
+                        - text: 2 Languages
+                    - generic [ref=e250]:
+                      - generic [ref=e251]:
+                        - generic [ref=e252]: ⚡
+                        - text: Fast payouts
+                      - generic [ref=e253]:
+                        - generic [ref=e254]: 🎮
+                        - text: Premium license
+                      - generic [ref=e255]:
+                        - generic [ref=e256]: 🎮
+                        - text: Great game variety
+                  - generic [ref=e257]:
+                    - link "Read Review" [ref=e258] [cursor=pointer]:
+                      - /url: /reviews/spellwin
+                    - link "Play Now" [ref=e259] [cursor=pointer]:
+                      - /url: /go/spellwin
+                  - generic [ref=e260]: 18+ • T&Cs Apply • BeGambleAware.org
+            - article [ref=e261]:
+              - generic [ref=e263]:
+                - generic [ref=e264]: "2"
+                - generic [ref=e265]:
+                  - generic [ref=e266]:
+                    - img "Winit.Bet logo" [ref=e268]
+                    - generic [ref=e269]:
+                      - heading "Winit.Bet" [level=3] [ref=e270]
+                      - generic [ref=e271]:
+                        - generic [ref=e273]:
+                          - generic [ref=e274]: "9.6"
+                          - generic [ref=e275]:
+                            - img [ref=e276]
+                            - img [ref=e278]
+                            - img [ref=e280]
+                            - img [ref=e282]
+                            - generic [ref=e284]:
+                              - img [ref=e285]
+                              - img [ref=e288]
+                        - generic [ref=e290]: Est. 2021
+                      - generic [ref=e291]:
+                        - generic [ref=e292]:
+                          - img [ref=e294]
+                          - generic [ref=e296]: Trusted
+                        - generic [ref=e297]:
+                          - img [ref=e299]
+                          - generic [ref=e301]: Malta
+                        - generic [ref=e302]:
+                          - img [ref=e304]
+                          - generic [ref=e306]: SSL
+                        - generic [ref=e307]:
+                          - img [ref=e309]
+                          - generic [ref=e311]: 18+
+                  - generic [ref=e313]:
+                    - generic [ref=e314]:
+                      - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e316]:
+                        - text: 🎁 Welcome Bonus
+                        - generic [ref=e317]: Match Bonus
+                      - generic [ref=e318]:
+                        - text: €1000 + 150 FS
+                        - generic [ref=e319]: Match
+                      - generic [ref=e320]:
+                        - generic [ref=e321]: "• Wagering: 35x"
+                        - generic [ref=e322]: "• Max Win: €1000"
+                    - link "Claim Bonus" [ref=e323] [cursor=pointer]:
+                      - /url: /go/winitbet
+                    - generic [ref=e324]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                  - generic [ref=e325]:
+                    - generic [ref=e326]:
+                      - generic [ref=e327]:
+                        - img [ref=e328]
+                        - text: 2000+ Games
+                      - generic [ref=e330]:
+                        - img [ref=e331]
+                        - text: "Min: $10"
+                      - generic [ref=e333]:
+                        - img [ref=e334]
+                        - text: 24h-48h
+                      - generic [ref=e336]:
+                        - img [ref=e337]
+                        - text: 2 Languages
+                    - generic [ref=e340]:
+                      - generic [ref=e341]:
+                        - generic [ref=e342]: 🎮
+                        - text: Instant payouts
+                      - generic [ref=e343]:
+                        - generic [ref=e344]: 🎮
+                        - text: Premium license
+                      - generic [ref=e345]:
+                        - generic [ref=e346]: 🎮
+                        - text: Great game variety
+                  - generic [ref=e347]:
+                    - link "Read Review" [ref=e348] [cursor=pointer]:
+                      - /url: /reviews/winitbet
+                    - link "Play Now" [ref=e349] [cursor=pointer]:
+                      - /url: /go/winitbet
+                  - generic [ref=e350]: 18+ • T&Cs Apply • BeGambleAware.org
+            - article [ref=e351]:
+              - generic [ref=e353]:
+                - generic [ref=e354]: "3"
+                - generic [ref=e355]:
+                  - generic [ref=e356]:
+                    - img "UnlimLuck logo" [ref=e358]
+                    - generic [ref=e359]:
+                      - heading "UnlimLuck" [level=3] [ref=e360]
+                      - generic [ref=e361]:
+                        - generic [ref=e363]:
+                          - generic [ref=e364]: "9.5"
+                          - generic [ref=e365]:
+                            - img [ref=e366]
+                            - img [ref=e368]
+                            - img [ref=e370]
+                            - img [ref=e372]
+                            - generic [ref=e374]:
+                              - img [ref=e375]
+                              - img [ref=e378]
+                        - generic [ref=e380]: Est. 2022
+                      - generic [ref=e381]:
+                        - generic [ref=e382]:
+                          - img [ref=e384]
+                          - generic [ref=e386]: Trusted
+                        - generic [ref=e387]:
+                          - img [ref=e389]
+                          - generic [ref=e391]: Malta
+                        - generic [ref=e392]:
+                          - img [ref=e394]
+                          - generic [ref=e396]: SSL
+                        - generic [ref=e397]:
+                          - img [ref=e399]
+                          - generic [ref=e401]: 18+
+                  - generic [ref=e403]:
+                    - generic [ref=e404]:
+                      - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e406]:
+                        - text: 🎁 Welcome Bonus
+                        - generic [ref=e407]: Match Bonus
+                      - generic [ref=e408]:
+                        - text: €1200 + 250 FS
+                        - generic [ref=e409]: Match
+                      - generic [ref=e410]:
+                        - generic [ref=e411]: "• Wagering: 30x"
+                        - generic [ref=e412]: "• Max Win: €1200"
+                    - link "Claim Bonus" [ref=e413] [cursor=pointer]:
+                      - /url: /go/unlimluck
+                    - generic [ref=e414]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                  - generic [ref=e415]:
+                    - generic [ref=e416]:
+                      - generic [ref=e417]:
+                        - img [ref=e418]
+                        - text: 2000+ Games
+                      - generic [ref=e420]:
+                        - img [ref=e421]
+                        - text: "Min: $10"
+                      - generic [ref=e423]:
+                        - img [ref=e424]
+                        - text: 24h-48h
+                      - generic [ref=e426]:
+                        - img [ref=e427]
+                        - text: 2 Languages
+                    - generic [ref=e430]:
+                      - generic [ref=e431]:
+                        - generic [ref=e432]: ⚡
+                        - text: Fast payouts
+                      - generic [ref=e433]:
+                        - generic [ref=e434]: 🎮
+                        - text: Premium license
+                      - generic [ref=e435]:
+                        - generic [ref=e436]: 🎮
+                        - text: Massive game selection
+                  - generic [ref=e437]:
+                    - link "Read Review" [ref=e438] [cursor=pointer]:
+                      - /url: /reviews/unlimluck
+                    - link "Play Now" [ref=e439] [cursor=pointer]:
+                      - /url: /go/unlimluck
+                  - generic [ref=e440]: 18+ • T&Cs Apply • BeGambleAware.org
+            - article [ref=e441]:
+              - generic [ref=e443]:
+                - generic [ref=e444]: "4"
+                - generic [ref=e445]:
+                  - generic [ref=e446]:
+                    - img "Mr Pacho logo" [ref=e448]
+                    - generic [ref=e449]:
+                      - heading "Mr Pacho" [level=3] [ref=e450]
+                      - generic [ref=e451]:
+                        - generic [ref=e453]:
+                          - generic [ref=e454]: "9.5"
+                          - generic [ref=e455]:
+                            - img [ref=e456]
+                            - img [ref=e458]
+                            - img [ref=e460]
+                            - img [ref=e462]
+                            - generic [ref=e464]:
+                              - img [ref=e465]
+                              - img [ref=e468]
+                        - generic [ref=e470]: Est. 2022
+                      - generic [ref=e471]:
+                        - generic [ref=e472]:
+                          - img [ref=e474]
+                          - generic [ref=e476]: Trusted
+                        - generic [ref=e477]:
+                          - img [ref=e479]
+                          - generic [ref=e481]: Malta
+                        - generic [ref=e482]:
+                          - img [ref=e484]
+                          - generic [ref=e486]: SSL
+                        - generic [ref=e487]:
+                          - img [ref=e489]
+                          - generic [ref=e491]: 18+
+                  - generic [ref=e493]:
+                    - generic [ref=e494]:
+                      - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e496]:
+                        - text: 🎁 Welcome Bonus
+                        - generic [ref=e497]: Match Bonus
+                      - generic [ref=e498]:
+                        - text: €300 + 50 FS
+                        - generic [ref=e499]: Match
+                      - generic [ref=e500]:
+                        - generic [ref=e501]: "• Wagering: 30x"
+                        - generic [ref=e502]: "• Max Win: €300"
+                    - link "Claim Bonus" [ref=e503] [cursor=pointer]:
+                      - /url: /go/mr-pacho
+                    - generic [ref=e504]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                  - generic [ref=e505]:
+                    - generic [ref=e506]:
+                      - generic [ref=e507]:
+                        - img [ref=e508]
+                        - text: 2000+ Games
+                      - generic [ref=e510]:
+                        - img [ref=e511]
+                        - text: "Min: $10"
+                      - generic [ref=e513]:
+                        - img [ref=e514]
+                        - text: 24h-48h
+                      - generic [ref=e516]:
+                        - img [ref=e517]
+                        - text: 2 Languages
+                    - generic [ref=e520]:
+                      - generic [ref=e521]:
+                        - generic [ref=e522]: ⚡
+                        - text: Fast payouts
+                      - generic [ref=e523]:
+                        - generic [ref=e524]: 🎮
+                        - text: Premium license
+                      - generic [ref=e525]:
+                        - generic [ref=e526]: 🎮
+                        - text: Mobile app
+                  - generic [ref=e527]:
+                    - link "Read Review" [ref=e528] [cursor=pointer]:
+                      - /url: /reviews/mr-pacho
+                    - link "Play Now" [ref=e529] [cursor=pointer]:
+                      - /url: /go/mr-pacho
+                  - generic [ref=e530]: 18+ • T&Cs Apply • BeGambleAware.org
+            - article [ref=e531]:
+              - generic [ref=e533]:
+                - generic [ref=e534]: "5"
+                - generic [ref=e535]:
+                  - generic [ref=e536]:
+                    - img "Larabet logo" [ref=e538]
+                    - generic [ref=e539]:
+                      - heading "Larabet" [level=3] [ref=e540]
+                      - generic [ref=e541]:
+                        - generic [ref=e543]:
+                          - generic [ref=e544]: "9.4"
+                          - generic [ref=e545]:
+                            - img [ref=e546]
+                            - img [ref=e548]
+                            - img [ref=e550]
+                            - img [ref=e552]
+                            - generic [ref=e554]:
+                              - img [ref=e555]
+                              - img [ref=e558]
+                        - generic [ref=e560]: Est. 2019
+                      - generic [ref=e561]:
+                        - generic [ref=e562]:
+                          - generic [ref=e563]:
+                            - img
+                          - generic [ref=e565]: Trusted
+                        - generic [ref=e566]:
+                          - generic [ref=e567]:
+                            - img
+                          - generic [ref=e569]: Swedish Gambling Authority (Spelinspektionen)
+                        - generic [ref=e570]:
+                          - generic [ref=e571]:
+                            - img
+                          - generic [ref=e573]: SSL
+                        - generic [ref=e574]:
+                          - generic [ref=e575]:
+                            - img
+                          - generic [ref=e577]: 18+
+                  - generic [ref=e579]:
+                    - generic [ref=e580]:
+                      - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e582]:
+                        - text: 🎁 Welcome Bonus
+                        - generic [ref=e583]: Match Bonus
+                      - generic [ref=e584]:
+                        - text: 2000 SEK
+                        - generic [ref=e585]: Match
+                      - generic [ref=e586]:
+                        - generic [ref=e587]: "• Wagering: 25x"
+                        - generic [ref=e588]: "• Max Win: €2000"
+                    - link "Claim Bonus" [ref=e589] [cursor=pointer]:
+                      - /url: /go/larabet
+                    - generic [ref=e590]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                  - generic [ref=e591]:
+                    - generic [ref=e592]:
+                      - generic [ref=e593]:
+                        - img [ref=e594]
+                        - text: 2000+ Games
+                      - generic [ref=e596]:
+                        - img [ref=e597]
+                        - text: "Min: $10"
+                      - generic [ref=e599]:
+                        - img [ref=e600]
+                        - text: 24h-48h
+                      - generic [ref=e602]:
+                        - img [ref=e603]
+                        - text: 2 Languages
+                    - generic [ref=e606]:
+                      - generic [ref=e607]:
+                        - generic [ref=e608]: 🎮
+                        - text: Instant payouts
+                      - generic [ref=e609]:
+                        - generic [ref=e610]: 🎮
+                        - text: Live dealer games
+                      - generic [ref=e611]:
+                        - generic [ref=e612]: 🎮
+                        - text: Mobile-optimized
+                  - generic [ref=e613]:
+                    - link "Read Review" [ref=e614] [cursor=pointer]:
+                      - /url: /reviews/larabet
+                    - link "Play Now" [ref=e615] [cursor=pointer]:
+                      - /url: /go/larabet
+                  - generic [ref=e616]: 18+ • T&Cs Apply • BeGambleAware.org
+            - article [ref=e617]:
+              - generic [ref=e619]:
+                - generic [ref=e620]: "6"
+                - generic [ref=e621]:
+                  - generic [ref=e622]:
+                    - img "Slotlair logo" [ref=e624]
+                    - generic [ref=e625]:
+                      - heading "Slotlair" [level=3] [ref=e626]
+                      - generic [ref=e627]:
+                        - generic [ref=e629]:
+                          - generic [ref=e630]: "9.4"
+                          - generic [ref=e631]:
+                            - img [ref=e632]
+                            - img [ref=e634]
+                            - img [ref=e636]
+                            - img [ref=e638]
+                            - generic [ref=e640]:
+                              - img [ref=e641]
+                              - img [ref=e644]
+                        - generic [ref=e646]: Est. 2020
+                      - generic [ref=e647]:
+                        - generic [ref=e648]:
+                          - img [ref=e650]
+                          - generic [ref=e652]: Trusted
+                        - generic [ref=e653]:
+                          - img [ref=e655]
+                          - generic [ref=e657]: UK
+                        - generic [ref=e658]:
+                          - img [ref=e660]
+                          - generic [ref=e662]: SSL
+                        - generic [ref=e663]:
+                          - img [ref=e665]
+                          - generic [ref=e667]: 18+
+                  - generic [ref=e669]:
+                    - generic [ref=e670]:
+                      - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e672]:
+                        - text: 🎁 Welcome Bonus
+                        - generic [ref=e673]: Match Bonus
+                      - generic [ref=e674]:
+                        - text: £300 + 50 FS
+                        - generic [ref=e675]: Match
+                      - generic [ref=e676]:
+                        - generic [ref=e677]: "• Wagering: 35x"
+                        - generic [ref=e678]: "• Max Win: €300"
+                    - link "Claim Bonus" [ref=e679] [cursor=pointer]:
+                      - /url: /go/slotlair
+                    - generic [ref=e680]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                  - generic [ref=e681]:
+                    - generic [ref=e682]:
+                      - generic [ref=e683]:
+                        - img [ref=e684]
+                        - text: 2000+ Games
+                      - generic [ref=e686]:
+                        - img [ref=e687]
+                        - text: "Min: $10"
+                      - generic [ref=e689]:
+                        - img [ref=e690]
+                        - text: 24h-48h
+                      - generic [ref=e692]:
+                        - img [ref=e693]
+                        - text: 2 Languages
+                    - generic [ref=e696]:
+                      - generic [ref=e697]:
+                        - generic [ref=e698]: ⚡
+                        - text: Fast payouts
+                      - generic [ref=e699]:
+                        - generic [ref=e700]: 🎮
+                        - text: Premium license
+                      - generic [ref=e701]:
+                        - generic [ref=e702]: 🎮
+                        - text: Mobile app
+                  - generic [ref=e703]:
+                    - link "Read Review" [ref=e704] [cursor=pointer]:
+                      - /url: /reviews/slotlair
+                    - link "Play Now" [ref=e705] [cursor=pointer]:
+                      - /url: /go/slotlair
+                  - generic [ref=e706]: 18+ • T&Cs Apply • BeGambleAware.org
+            - article [ref=e707]:
+              - generic [ref=e709]:
+                - generic [ref=e710]: "7"
+                - generic [ref=e711]:
+                  - generic [ref=e712]:
+                    - img "Willdsino logo" [ref=e714]
+                    - generic [ref=e715]:
+                      - heading "Willdsino" [level=3] [ref=e716]
+                      - generic [ref=e717]:
+                        - generic [ref=e719]:
+                          - generic [ref=e720]: "9.4"
+                          - generic [ref=e721]:
+                            - img [ref=e722]
+                            - img [ref=e724]
+                            - img [ref=e726]
+                            - img [ref=e728]
+                            - generic [ref=e730]:
+                              - img [ref=e731]
+                              - img [ref=e734]
+                        - generic [ref=e736]: Est. 2023
+                      - generic [ref=e737]:
+                        - generic [ref=e738]:
+                          - img [ref=e740]
+                          - generic [ref=e742]: Trusted
+                        - generic [ref=e743]:
+                          - img [ref=e745]
+                          - generic [ref=e747]: Malta
+                        - generic [ref=e748]:
+                          - img [ref=e750]
+                          - generic [ref=e752]: SSL
+                        - generic [ref=e753]:
+                          - img [ref=e755]
+                          - generic [ref=e757]: 18+
+                  - generic [ref=e759]:
+                    - generic [ref=e760]:
+                      - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e762]:
+                        - text: 🎁 Welcome Bonus
+                        - generic [ref=e763]: Match Bonus
+                      - generic [ref=e764]:
+                        - text: 100% up to €200
+                        - generic [ref=e765]: Match
+                      - generic [ref=e766]:
+                        - generic [ref=e767]: "• Wagering: 30x"
+                        - generic [ref=e768]: "• Max Win: €200"
+                    - link "Claim Bonus" [ref=e769] [cursor=pointer]:
+                      - /url: /go/willdsino
+                    - generic [ref=e770]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                  - generic [ref=e771]:
+                    - generic [ref=e772]:
+                      - generic [ref=e773]:
+                        - img [ref=e774]
+                        - text: 2000+ Games
+                      - generic [ref=e776]:
+                        - img [ref=e777]
+                        - text: "Min: $10"
+                      - generic [ref=e779]:
+                        - img [ref=e780]
+                        - text: 24h-48h
+                      - generic [ref=e782]:
+                        - img [ref=e783]
+                        - text: 2 Languages
+                    - generic [ref=e786]:
+                      - generic [ref=e787]:
+                        - generic [ref=e788]: 🎮
+                        - text: Instant payouts
+                      - generic [ref=e789]:
+                        - generic [ref=e790]: 🎮
+                        - text: Premium license
+                      - generic [ref=e791]:
+                        - generic [ref=e792]: 🎮
+                        - text: Mobile app
+                  - generic [ref=e793]:
+                    - link "Read Review" [ref=e794] [cursor=pointer]:
+                      - /url: /reviews/willdsino
+                    - link "Play Now" [ref=e795] [cursor=pointer]:
+                      - /url: /go/willdsino
+                  - generic [ref=e796]: 18+ • T&Cs Apply • BeGambleAware.org
+            - article [ref=e797]:
+              - generic [ref=e799]:
+                - generic [ref=e800]: "8"
+                - generic [ref=e801]:
+                  - generic [ref=e802]:
+                    - img "Trino logo" [ref=e804]
+                    - generic [ref=e805]:
+                      - heading "Trino" [level=3] [ref=e806]
+                      - generic [ref=e807]:
+                        - generic [ref=e809]:
+                          - generic [ref=e810]: "9.4"
+                          - generic [ref=e811]:
+                            - img [ref=e812]
+                            - img [ref=e814]
+                            - img [ref=e816]
+                            - img [ref=e818]
+                            - generic [ref=e820]:
+                              - img [ref=e821]
+                              - img [ref=e824]
+                        - generic [ref=e826]: Est. 2021
+                      - generic [ref=e827]:
+                        - generic [ref=e828]:
+                          - img [ref=e830]
+                          - generic [ref=e832]: Trusted
+                        - generic [ref=e833]:
+                          - img [ref=e835]
+                          - generic [ref=e837]: Malta
+                        - generic [ref=e838]:
+                          - img [ref=e840]
+                          - generic [ref=e842]: SSL
+                        - generic [ref=e843]:
+                          - img [ref=e845]
+                          - generic [ref=e847]: 18+
+                  - generic [ref=e849]:
+                    - generic [ref=e850]:
+                      - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e852]:
+                        - text: 🎁 Welcome Bonus
+                        - generic [ref=e853]: Match Bonus
+                      - generic [ref=e854]:
+                        - text: €1000 + 150 FS
+                        - generic [ref=e855]: Match
+                      - generic [ref=e856]:
+                        - generic [ref=e857]: "• Wagering: 35x"
+                        - generic [ref=e858]: "• Max Win: €1000"
+                    - link "Claim Bonus" [ref=e859] [cursor=pointer]:
+                      - /url: /go/trino
+                    - generic [ref=e860]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                  - generic [ref=e861]:
+                    - generic [ref=e862]:
+                      - generic [ref=e863]:
+                        - img [ref=e864]
+                        - text: 2000+ Games
+                      - generic [ref=e866]:
+                        - img [ref=e867]
+                        - text: "Min: $10"
+                      - generic [ref=e869]:
+                        - img [ref=e870]
+                        - text: 24h-48h
+                      - generic [ref=e872]:
+                        - img [ref=e873]
+                        - text: 2 Languages
+                    - generic [ref=e876]:
+                      - generic [ref=e877]:
+                        - generic [ref=e878]: ⚡
+                        - text: Fast payouts
+                      - generic [ref=e879]:
+                        - generic [ref=e880]: 🎮
+                        - text: Premium license
+                      - generic [ref=e881]:
+                        - generic [ref=e882]: 🎮
+                        - text: Great game variety
+                  - generic [ref=e883]:
+                    - link "Read Review" [ref=e884] [cursor=pointer]:
+                      - /url: /reviews/trino
+                    - link "Play Now" [ref=e885] [cursor=pointer]:
+                      - /url: /go/trino
+                  - generic [ref=e886]: 18+ • T&Cs Apply • BeGambleAware.org
+            - article [ref=e887]:
+              - generic [ref=e889]:
+                - generic [ref=e890]: "9"
+                - generic [ref=e891]:
+                  - generic [ref=e892]:
+                    - img "SkyHills logo" [ref=e894]
+                    - generic [ref=e895]:
+                      - heading "SkyHills" [level=3] [ref=e896]
+                      - generic [ref=e897]:
+                        - generic [ref=e899]:
+                          - generic [ref=e900]: "9.4"
+                          - generic [ref=e901]:
+                            - img [ref=e902]
+                            - img [ref=e904]
+                            - img [ref=e906]
+                            - img [ref=e908]
+                            - generic [ref=e910]:
+                              - img [ref=e911]
+                              - img [ref=e914]
+                        - generic [ref=e916]: Est. 2022
+                      - generic [ref=e917]:
+                        - generic [ref=e918]:
+                          - generic [ref=e919]:
+                            - img
+                          - generic [ref=e921]: Trusted
+                        - generic [ref=e922]:
+                          - generic [ref=e923]:
+                            - img
+                          - generic [ref=e925]: Kansspelautoriteit
+                        - generic [ref=e926]:
+                          - generic [ref=e927]:
+                            - img
+                          - generic [ref=e929]: SSL
+                        - generic [ref=e930]:
+                          - generic [ref=e931]:
+                            - img
+                          - generic [ref=e933]: 18+
+                  - generic [ref=e935]:
+                    - generic [ref=e936]:
+                      - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e938]:
+                        - text: 🎁 Welcome Bonus
+                        - generic [ref=e939]: Match Bonus
+                      - generic [ref=e940]:
+                        - text: €500 + 150 FS
+                        - generic [ref=e941]: Match
+                      - generic [ref=e942]:
+                        - generic [ref=e943]: "• Wagering: 30x"
+                        - generic [ref=e944]: "• Max Win: €500"
+                    - link "Claim Bonus" [ref=e945] [cursor=pointer]:
+                      - /url: /go/skyhills
+                    - generic [ref=e946]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                  - generic [ref=e947]:
+                    - generic [ref=e948]:
+                      - generic [ref=e949]:
+                        - img [ref=e950]
+                        - text: 2000+ Games
+                      - generic [ref=e952]:
+                        - img [ref=e953]
+                        - text: "Min: $10"
+                      - generic [ref=e955]:
+                        - img [ref=e956]
+                        - text: 24h-48h
+                      - generic [ref=e958]:
+                        - img [ref=e959]
+                        - text: 2 Languages
+                    - generic [ref=e962]:
+                      - generic [ref=e963]:
+                        - generic [ref=e964]: ⚡
+                        - text: Fast payouts
+                      - generic [ref=e965]:
+                        - generic [ref=e966]: 🎮
+                        - text: Mobile app
+                      - generic [ref=e967]:
+                        - generic [ref=e968]: 🎮
+                        - text: VIP program
+                  - generic [ref=e969]:
+                    - link "Read Review" [ref=e970] [cursor=pointer]:
+                      - /url: /reviews/skyhills
+                    - link "Play Now" [ref=e971] [cursor=pointer]:
+                      - /url: /go/skyhills
+                  - generic [ref=e972]: 18+ • T&Cs Apply • BeGambleAware.org
+            - article [ref=e973]:
+              - generic [ref=e975]:
+                - generic [ref=e976]: "10"
+                - generic [ref=e977]:
+                  - generic [ref=e978]:
+                    - img "WonThere logo" [ref=e980]
+                    - generic [ref=e981]:
+                      - heading "WonThere" [level=3] [ref=e982]
+                      - generic [ref=e983]:
+                        - generic [ref=e985]:
+                          - generic [ref=e986]: "9.4"
+                          - generic [ref=e987]:
+                            - img [ref=e988]
+                            - img [ref=e990]
+                            - img [ref=e992]
+                            - img [ref=e994]
+                            - generic [ref=e996]:
+                              - img [ref=e997]
+                              - img [ref=e1000]
+                        - generic [ref=e1002]: Est. 2024
+                      - generic [ref=e1003]:
+                        - generic [ref=e1004]:
+                          - img [ref=e1006]
+                          - generic [ref=e1008]: Trusted
+                        - generic [ref=e1009]:
+                          - img [ref=e1011]
+                          - generic [ref=e1013]: UK
+                        - generic [ref=e1014]:
+                          - img [ref=e1016]
+                          - generic [ref=e1018]: SSL
+                        - generic [ref=e1019]:
+                          - img [ref=e1021]
+                          - generic [ref=e1023]: 18+
+                  - generic [ref=e1025]:
+                    - generic [ref=e1026]:
+                      - heading "🎁 Welcome Bonus Match Bonus" [level=4] [ref=e1028]:
+                        - text: 🎁 Welcome Bonus
+                        - generic [ref=e1029]: Match Bonus
+                      - generic [ref=e1030]:
+                        - text: £300 + 100 FS
+                        - generic [ref=e1031]: Match
+                      - generic [ref=e1032]:
+                        - generic [ref=e1033]: "• Wagering: 25x"
+                        - generic [ref=e1034]: "• Max Win: €300"
+                    - link "Claim Bonus" [ref=e1035] [cursor=pointer]:
+                      - /url: /go/wonthere
+                    - generic [ref=e1036]: 18+ • Terms & Conditions Apply • BeGambleAware.org
+                  - generic [ref=e1037]:
+                    - generic [ref=e1038]:
+                      - generic [ref=e1039]:
+                        - img [ref=e1040]
+                        - text: 2000+ Games
+                      - generic [ref=e1042]:
+                        - img [ref=e1043]
+                        - text: "Min: $10"
+                      - generic [ref=e1045]:
+                        - img [ref=e1046]
+                        - text: 48h-96h
+                      - generic [ref=e1048]:
+                        - img [ref=e1049]
+                        - text: 2 Languages
+                    - generic [ref=e1052]:
+                      - generic [ref=e1053]:
+                        - generic [ref=e1054]: 🎮
+                        - text: Quick withdrawals
+                      - generic [ref=e1055]:
+                        - generic [ref=e1056]: 🎮
+                        - text: Premium license
+                      - generic [ref=e1057]:
+                        - generic [ref=e1058]: 🎮
+                        - text: Great game variety
+                  - generic [ref=e1059]:
+                    - link "Read Review" [ref=e1060] [cursor=pointer]:
+                      - /url: /reviews/wonthere
+                    - link "Play Now" [ref=e1061] [cursor=pointer]:
+                      - /url: /go/wonthere
+                  - generic [ref=e1062]: 18+ • T&Cs Apply • BeGambleAware.org
+          - generic [ref=e1064]:
+            - paragraph [ref=e1065]:
+              - generic [ref=e1066]: "79"
+              - text: expertly reviewed casinos
+            - link "Explore All Casinos" [ref=e1067] [cursor=pointer]:
+              - /url: /best
+              - generic [ref=e1069] [cursor=pointer]:
+                - img [ref=e1070] [cursor=pointer]
+                - generic [ref=e1072] [cursor=pointer]: Explore All Casinos
+                - img [ref=e1073] [cursor=pointer]
+            - paragraph [ref=e1075]: Updated daily with the latest offers
+        - generic [ref=e1076]:
+          - paragraph [ref=e1077]: 🎯 Our recommendations are based on rigorous testing and expert analysis
+          - generic [ref=e1078]:
+            - generic [ref=e1079]: ✅ Licensed & Regulated
+            - generic [ref=e1080]: 🛡️ SSL Secured
+            - generic [ref=e1081]: ⚡ Fast Payouts
+            - generic [ref=e1082]: 🎮 Premium Games
+    - generic [ref=e1084]:
+      - generic [ref=e1085]:
+        - heading "🔍 Quick Casino Finder" [level=2] [ref=e1086]
+        - paragraph [ref=e1087]: Find your ideal casino instantly with our smart filters. Click any category to see curated recommendations.
+      - generic [ref=e1088]:
+        - link "⚡ Fast Withdrawals Get paid in 24h or less" [ref=e1089] [cursor=pointer]:
+          - /url: /best/fast-withdrawals
+          - generic [ref=e1091] [cursor=pointer]:
+            - generic [ref=e1092] [cursor=pointer]: ⚡
+            - heading "Fast Withdrawals" [level=3] [ref=e1093] [cursor=pointer]
+            - paragraph [ref=e1094] [cursor=pointer]: Get paid in 24h or less
+        - link "🎁 Welcome Bonuses Up to $1000+ bonus" [ref=e1095] [cursor=pointer]:
+          - /url: /bonuses/welcome
+          - generic [ref=e1097] [cursor=pointer]:
+            - generic [ref=e1098] [cursor=pointer]: 🎁
+            - heading "Welcome Bonuses" [level=3] [ref=e1099] [cursor=pointer]
+            - paragraph [ref=e1100] [cursor=pointer]: Up to $1000+ bonus
+        - link "📱 Mobile Casinos Play on your phone" [ref=e1101] [cursor=pointer]:
+          - /url: /best/mobile
+          - generic [ref=e1103] [cursor=pointer]:
+            - generic [ref=e1104] [cursor=pointer]: 📱
+            - heading "Mobile Casinos" [level=3] [ref=e1105] [cursor=pointer]
+            - paragraph [ref=e1106] [cursor=pointer]: Play on your phone
+        - link "🎰 Live Dealer Real dealers, real time" [ref=e1107] [cursor=pointer]:
+          - /url: /best/live-dealer
+          - generic [ref=e1109] [cursor=pointer]:
+            - generic [ref=e1110] [cursor=pointer]: 🎰
+            - heading "Live Dealer" [level=3] [ref=e1111] [cursor=pointer]
+            - paragraph [ref=e1112] [cursor=pointer]: Real dealers, real time
+        - link "🎯 High RTP Slots Best return rates" [ref=e1113] [cursor=pointer]:
+          - /url: /games/high-rtp
+          - generic [ref=e1115] [cursor=pointer]:
+            - generic [ref=e1116] [cursor=pointer]: 🎯
+            - heading "High RTP Slots" [level=3] [ref=e1117] [cursor=pointer]
+            - paragraph [ref=e1118] [cursor=pointer]: Best return rates
+        - link "₿ Crypto Casinos Bitcoin & crypto" [ref=e1119] [cursor=pointer]:
+          - /url: /best/cryptocurrency
+          - generic [ref=e1121] [cursor=pointer]:
+            - generic [ref=e1122] [cursor=pointer]: ₿
+            - heading "Crypto Casinos" [level=3] [ref=e1123] [cursor=pointer]
+            - paragraph [ref=e1124] [cursor=pointer]: Bitcoin & crypto
+        - link "🆓 No Deposit Free bonus money" [ref=e1125] [cursor=pointer]:
+          - /url: /bonuses/no-deposit
+          - generic [ref=e1127] [cursor=pointer]:
+            - generic [ref=e1128] [cursor=pointer]: 🆓
+            - heading "No Deposit" [level=3] [ref=e1129] [cursor=pointer]
+            - paragraph [ref=e1130] [cursor=pointer]: Free bonus money
+        - link "🍁 Canadian Sites CAD & Interac" [ref=e1131] [cursor=pointer]:
+          - /url: /regions
+          - generic [ref=e1133] [cursor=pointer]:
+            - generic [ref=e1134] [cursor=pointer]: 🍁
+            - heading "Canadian Sites" [level=3] [ref=e1135] [cursor=pointer]
+            - paragraph [ref=e1136] [cursor=pointer]: CAD & Interac
+      - generic [ref=e1137]:
+        - heading "🔥 Popular Right Now" [level=3] [ref=e1138]
+        - generic [ref=e1139]:
+          - generic [ref=e1140] [cursor=pointer]: No Deposit Bonuses
+          - generic [ref=e1141] [cursor=pointer]: Instant Payouts
+          - generic [ref=e1142] [cursor=pointer]: Mobile Apps
+          - generic [ref=e1143] [cursor=pointer]: Live Blackjack
+    - generic [ref=e1145]:
+      - generic [ref=e1146]:
+        - heading "🏅 Compare Top Online Casinos" [level=2] [ref=e1147]
+        - paragraph [ref=e1148]: Our highest-rated casino sites ranked by expert analysis
+      - region "Scrollable content" [ref=e1150]:
+        - table [ref=e1151]:
+          - rowgroup [ref=e1152]:
+            - row "🏆 Rank 🎰 Casino ⭐ Rating ⚡ Payout 💰 Bonus 🎯 Action" [ref=e1153]:
+              - cell "🏆 Rank" [ref=e1154]
+              - cell "🎰 Casino" [ref=e1155]
+              - cell "⭐ Rating" [ref=e1156]
+              - cell "⚡ Payout" [ref=e1157]
+              - cell "💰 Bonus" [ref=e1158]
+              - cell "🎯 Action" [ref=e1159]
+          - rowgroup
+      - paragraph [ref=e1161]: "Last updated: 10/6/2025"
+    - generic [ref=e1163]:
+      - generic [ref=e1164]:
+        - heading "🎯 Find Your Perfect Casino Type" [level=2] [ref=e1165]
+        - paragraph [ref=e1166]: Discover casinos tailored to your gaming preferences. From fast payouts to high-roller VIP treatment, find exactly what you're looking for.
+      - generic [ref=e1168]:
+        - 'link "💰 Best Real Money Highest-rated casinos for real money play with verified payouts and fair gaming Features: Verified payouts High RTP games Secure banking Popularity 95% Explore Now" [ref=e1169] [cursor=pointer]':
+          - /url: /best/real-money
+          - generic [ref=e1170] [cursor=pointer]:
+            - generic [ref=e1173] [cursor=pointer]:
+              - generic [ref=e1174] [cursor=pointer]: 💰
+              - heading "Best Real Money" [level=3] [ref=e1175] [cursor=pointer]
+            - generic [ref=e1176] [cursor=pointer]:
+              - paragraph [ref=e1177] [cursor=pointer]: Highest-rated casinos for real money play with verified payouts and fair gaming
+              - generic [ref=e1178] [cursor=pointer]:
+                - heading "Features:" [level=4] [ref=e1179] [cursor=pointer]
+                - generic [ref=e1180] [cursor=pointer]:
+                  - generic [ref=e1181] [cursor=pointer]:
+                    - img [ref=e1182] [cursor=pointer]
+                    - text: Verified payouts
+                  - generic [ref=e1184] [cursor=pointer]:
+                    - img [ref=e1185] [cursor=pointer]
+                    - text: High RTP games
+                  - generic [ref=e1187] [cursor=pointer]:
+                    - img [ref=e1188] [cursor=pointer]
+                    - text: Secure banking
+              - generic [ref=e1191] [cursor=pointer]:
+                - generic [ref=e1192] [cursor=pointer]: Popularity
+                - generic [ref=e1193] [cursor=pointer]: 95%
+              - generic [ref=e1196] [cursor=pointer]:
+                - text: Explore Now
+                - img [ref=e1197] [cursor=pointer]
+        - 'link "⚡ Fast Withdrawals Get your winnings quickly with instant and same-day payouts from trusted casinos Features: 0-24h payouts Multiple methods No delays Popularity 92% Explore Now" [ref=e1199] [cursor=pointer]':
+          - /url: /best/fast-withdrawals
+          - generic [ref=e1200] [cursor=pointer]:
+            - generic [ref=e1203] [cursor=pointer]:
+              - generic [ref=e1204] [cursor=pointer]: ⚡
+              - heading "Fast Withdrawals" [level=3] [ref=e1205] [cursor=pointer]
+            - generic [ref=e1206] [cursor=pointer]:
+              - paragraph [ref=e1207] [cursor=pointer]: Get your winnings quickly with instant and same-day payouts from trusted casinos
+              - generic [ref=e1208] [cursor=pointer]:
+                - heading "Features:" [level=4] [ref=e1209] [cursor=pointer]
+                - generic [ref=e1210] [cursor=pointer]:
+                  - generic [ref=e1211] [cursor=pointer]:
+                    - img [ref=e1212] [cursor=pointer]
+                    - text: 0-24h payouts
+                  - generic [ref=e1214] [cursor=pointer]:
+                    - img [ref=e1215] [cursor=pointer]
+                    - text: Multiple methods
+                  - generic [ref=e1217] [cursor=pointer]:
+                    - img [ref=e1218] [cursor=pointer]
+                    - text: No delays
+              - generic [ref=e1221] [cursor=pointer]:
+                - generic [ref=e1222] [cursor=pointer]: Popularity
+                - generic [ref=e1223] [cursor=pointer]: 92%
+              - generic [ref=e1226] [cursor=pointer]:
+                - text: Explore Now
+                - img [ref=e1227] [cursor=pointer]
+        - 'link "🎁 Welcome Bonuses Massive welcome packages with free spins and bonus funds for new players Features: Up to $1000+ Free spins Fair terms Popularity 90% Explore Now" [ref=e1229] [cursor=pointer]':
+          - /url: /bonuses/welcome
+          - generic [ref=e1230] [cursor=pointer]:
+            - generic [ref=e1233] [cursor=pointer]:
+              - generic [ref=e1234] [cursor=pointer]: 🎁
+              - heading "Welcome Bonuses" [level=3] [ref=e1235] [cursor=pointer]
+            - generic [ref=e1236] [cursor=pointer]:
+              - paragraph [ref=e1237] [cursor=pointer]: Massive welcome packages with free spins and bonus funds for new players
+              - generic [ref=e1238] [cursor=pointer]:
+                - heading "Features:" [level=4] [ref=e1239] [cursor=pointer]
+                - generic [ref=e1240] [cursor=pointer]:
+                  - generic [ref=e1241] [cursor=pointer]:
+                    - img [ref=e1242] [cursor=pointer]
+                    - text: Up to $1000+
+                  - generic [ref=e1244] [cursor=pointer]:
+                    - img [ref=e1245] [cursor=pointer]
+                    - text: Free spins
+                  - generic [ref=e1247] [cursor=pointer]:
+                    - img [ref=e1248] [cursor=pointer]
+                    - text: Fair terms
+              - generic [ref=e1251] [cursor=pointer]:
+                - generic [ref=e1252] [cursor=pointer]: Popularity
+                - generic [ref=e1253] [cursor=pointer]: 90%
+              - generic [ref=e1256] [cursor=pointer]:
+                - text: Explore Now
+                - img [ref=e1257] [cursor=pointer]
+        - 'link "📱 Mobile Casinos Play anywhere with responsive mobile sites and dedicated casino apps Features: Native apps Touch optimized Full game library Popularity 88% Explore Now" [ref=e1259] [cursor=pointer]':
+          - /url: /best/mobile
+          - generic [ref=e1260] [cursor=pointer]:
+            - generic [ref=e1263] [cursor=pointer]:
+              - generic [ref=e1264] [cursor=pointer]: 📱
+              - heading "Mobile Casinos" [level=3] [ref=e1265] [cursor=pointer]
+            - generic [ref=e1266] [cursor=pointer]:
+              - paragraph [ref=e1267] [cursor=pointer]: Play anywhere with responsive mobile sites and dedicated casino apps
+              - generic [ref=e1268] [cursor=pointer]:
+                - heading "Features:" [level=4] [ref=e1269] [cursor=pointer]
+                - generic [ref=e1270] [cursor=pointer]:
+                  - generic [ref=e1271] [cursor=pointer]:
+                    - img [ref=e1272] [cursor=pointer]
+                    - text: Native apps
+                  - generic [ref=e1274] [cursor=pointer]:
+                    - img [ref=e1275] [cursor=pointer]
+                    - text: Touch optimized
+                  - generic [ref=e1277] [cursor=pointer]:
+                    - img [ref=e1278] [cursor=pointer]
+                    - text: Full game library
+              - generic [ref=e1281] [cursor=pointer]:
+                - generic [ref=e1282] [cursor=pointer]: Popularity
+                - generic [ref=e1283] [cursor=pointer]: 88%
+              - generic [ref=e1286] [cursor=pointer]:
+                - text: Explore Now
+                - img [ref=e1287] [cursor=pointer]
+        - 'link "� Live Dealer Real dealers, real-time action with HD streaming and professional croupiers Features: HD streaming Real dealers 24/7 tables Popularity 85% Explore Now" [ref=e1289] [cursor=pointer]':
+          - /url: /best/live-dealer
+          - generic [ref=e1290] [cursor=pointer]:
+            - generic [ref=e1293] [cursor=pointer]:
+              - generic [ref=e1294] [cursor=pointer]: �
+              - heading "Live Dealer" [level=3] [ref=e1295] [cursor=pointer]
+            - generic [ref=e1296] [cursor=pointer]:
+              - paragraph [ref=e1297] [cursor=pointer]: Real dealers, real-time action with HD streaming and professional croupiers
+              - generic [ref=e1298] [cursor=pointer]:
+                - heading "Features:" [level=4] [ref=e1299] [cursor=pointer]
+                - generic [ref=e1300] [cursor=pointer]:
+                  - generic [ref=e1301] [cursor=pointer]:
+                    - img [ref=e1302] [cursor=pointer]
+                    - text: HD streaming
+                  - generic [ref=e1304] [cursor=pointer]:
+                    - img [ref=e1305] [cursor=pointer]
+                    - text: Real dealers
+                  - generic [ref=e1307] [cursor=pointer]:
+                    - img [ref=e1308] [cursor=pointer]
+                    - text: 24/7 tables
+              - generic [ref=e1311] [cursor=pointer]:
+                - generic [ref=e1312] [cursor=pointer]: Popularity
+                - generic [ref=e1313] [cursor=pointer]: 85%
+              - generic [ref=e1316] [cursor=pointer]:
+                - text: Explore Now
+                - img [ref=e1317] [cursor=pointer]
+        - link "👑 High Roller VIP treatment and high limits for serious players with exclusive rewards Explore Now" [ref=e1319] [cursor=pointer]:
+          - /url: /best/real-money
+          - generic [ref=e1320] [cursor=pointer]:
+            - generic [ref=e1323] [cursor=pointer]:
+              - generic [ref=e1324] [cursor=pointer]: 👑
+              - heading "High Roller" [level=3] [ref=e1325] [cursor=pointer]
+            - generic [ref=e1326] [cursor=pointer]:
+              - paragraph [ref=e1327] [cursor=pointer]: VIP treatment and high limits for serious players with exclusive rewards
+              - generic [ref=e1328] [cursor=pointer]:
+                - text: Explore Now
+                - img [ref=e1329] [cursor=pointer]
+        - link "📱 Mobile Casinos Optimized for mobile play with dedicated apps and touch interfaces Explore Now" [ref=e1331] [cursor=pointer]:
+          - /url: /best/mobile
+          - generic [ref=e1332] [cursor=pointer]:
+            - generic [ref=e1335] [cursor=pointer]:
+              - generic [ref=e1336] [cursor=pointer]: 📱
+              - heading "Mobile Casinos" [level=3] [ref=e1337] [cursor=pointer]
+            - generic [ref=e1338] [cursor=pointer]:
+              - paragraph [ref=e1339] [cursor=pointer]: Optimized for mobile play with dedicated apps and touch interfaces
+              - generic [ref=e1340] [cursor=pointer]:
+                - text: Explore Now
+                - img [ref=e1341] [cursor=pointer]
+        - link "🎰 Live Dealer Real dealers streaming live for authentic casino experience Explore Now" [ref=e1343] [cursor=pointer]:
+          - /url: /best/live-dealer
+          - generic [ref=e1344] [cursor=pointer]:
+            - generic [ref=e1347] [cursor=pointer]:
+              - generic [ref=e1348] [cursor=pointer]: 🎰
+              - heading "Live Dealer" [level=3] [ref=e1349] [cursor=pointer]
+            - generic [ref=e1350] [cursor=pointer]:
+              - paragraph [ref=e1351] [cursor=pointer]: Real dealers streaming live for authentic casino experience
+              - generic [ref=e1352] [cursor=pointer]:
+                - text: Explore Now
+                - img [ref=e1353] [cursor=pointer]
+      - generic [ref=e1356]:
+        - heading "Not sure which type suits you?" [level=3] [ref=e1357]
+        - paragraph [ref=e1358]: Take our quick quiz to find your perfect casino match
+        - button "🎯 Find My Casino" [ref=e1359] [cursor=pointer]
+    - generic [ref=e1364]:
+      - generic [ref=e1365]:
+        - heading "Why We Recommend These Casinos" [level=2] [ref=e1366]
+        - paragraph [ref=e1367]: Our transparent rating methodology based on what matters most to players
+      - generic [ref=e1368]:
+        - generic [ref=e1371]:
+          - heading "Our Rating Methodology" [level=3] [ref=e1372]
+          - generic [ref=e1373]:
+            - generic [ref=e1374]:
+              - generic [ref=e1376]: 20%
+              - generic [ref=e1377]:
+                - heading "Security & Fairness" [level=4] [ref=e1378]
+                - paragraph [ref=e1379]: Licences, T&Cs clarity, RNG audits
+            - generic [ref=e1380]:
+              - generic [ref=e1382]: 20%
+              - generic [ref=e1383]:
+                - heading "Payout Speed" [level=4] [ref=e1384]
+                - paragraph [ref=e1385]: Avg hours, fees, limits
+            - generic [ref=e1386]:
+              - generic [ref=e1388]: 15%
+              - generic [ref=e1389]:
+                - heading "Bonus Value" [level=4] [ref=e1390]
+                - paragraph [ref=e1391]: Wagering, caps, fairness
+            - generic [ref=e1392]:
+              - generic [ref=e1394]: 15%
+              - generic [ref=e1395]:
+                - heading "Games" [level=4] [ref=e1396]
+                - paragraph [ref=e1397]: Top providers, variety
+            - generic [ref=e1398]:
+              - generic [ref=e1400]: 10%
+              - generic [ref=e1401]:
+                - heading "Mobile" [level=4] [ref=e1402]
+                - paragraph [ref=e1403]: Core flows usable on mobile
+            - generic [ref=e1404]:
+              - generic [ref=e1406]: 10%
+              - generic [ref=e1407]:
+                - heading "Support" [level=4] [ref=e1408]
+                - paragraph [ref=e1409]: Chat hours, quality
+            - generic [ref=e1410]:
+              - generic [ref=e1412]: 10%
+              - generic [ref=e1413]:
+                - heading "Reputation" [level=4] [ref=e1414]
+                - paragraph [ref=e1415]: Complaint ratios & resolutions
+          - generic [ref=e1417]:
+            - img [ref=e1419]
+            - paragraph [ref=e1422]:
+              - strong [ref=e1423]: "Transparency Promise:"
+              - text: We publish our exact rating weights and methodology. No casino can pay for better ratings – our scores are based purely on player benefit factors.
+        - generic [ref=e1426]:
+          - heading "What Makes a Top Casino" [level=3] [ref=e1427]
+          - list [ref=e1428]:
+            - listitem [ref=e1429]:
+              - img [ref=e1431]
+              - generic [ref=e1433]: Licensed by reputable authorities (MGA, UKGC, etc.)
+            - listitem [ref=e1434]:
+              - img [ref=e1436]
+              - generic [ref=e1438]: Fast payouts (24-72 hours typical)
+            - listitem [ref=e1439]:
+              - img [ref=e1441]
+              - generic [ref=e1443]: Fair bonus terms with reasonable wagering
+            - listitem [ref=e1444]:
+              - img [ref=e1446]
+              - generic [ref=e1448]: High RTP games from trusted providers
+            - listitem [ref=e1449]:
+              - img [ref=e1451]
+              - generic [ref=e1453]: 24/7 customer support in multiple languages
+            - listitem [ref=e1454]:
+              - img [ref=e1456]
+              - generic [ref=e1458]: Positive player feedback and complaint resolution
+      - link "Read Full Methodology" [ref=e1460] [cursor=pointer]:
+        - /url: /guides/how-we-rate
+        - img [ref=e1461] [cursor=pointer]
+        - text: Read Full Methodology
+        - img [ref=e1463] [cursor=pointer]
+    - generic [ref=e1469]:
+      - generic [ref=e1470]:
+        - generic [ref=e1471]:
+          - img [ref=e1472]
+          - text: FASTEST PAYOUTS
+        - heading "⚡ Lightning-Fast Withdrawals" [level=2] [ref=e1474]
+        - paragraph [ref=e1475]: Get your winnings in hours, not days. These casinos prioritize quick payouts with verified processing times.
+      - generic [ref=e1476]:
+        - generic [ref=e1477]:
+          - generic [ref=e1479]:
+            - generic [ref=e1480]:
+              - generic [ref=e1482]: "#1"
+              - heading "Jet4Bet" [level=3] [ref=e1483]
+            - generic [ref=e1484]:
+              - generic [ref=e1485]: 2h
+              - paragraph [ref=e1486]: Avg. Speed
+          - generic [ref=e1487]:
+            - generic [ref=e1488]:
+              - generic [ref=e1489]:
+                - img [ref=e1490]
+                - generic [ref=e1492]: Payout Speed
+              - generic [ref=e1493]: 2 hours
+            - generic [ref=e1494]:
+              - generic [ref=e1495]:
+                - img [ref=e1496]
+                - generic [ref=e1498]: Banking Methods
+              - generic [ref=e1499]: 7 options
+            - generic [ref=e1500]:
+              - generic [ref=e1501]: "Best Methods:"
+              - generic [ref=e1502]: Visa, Mastercard
+          - generic [ref=e1503]:
+            - paragraph [ref=e1504]: Fast payouts • Premium license • Mobile app
+            - link "Play Now" [ref=e1505] [cursor=pointer]:
+              - /url: /reviews/jet4bet
+        - generic [ref=e1506]:
+          - generic [ref=e1508]:
+            - generic [ref=e1509]:
+              - generic [ref=e1511]: "#2"
+              - heading "Aerobet" [level=3] [ref=e1512]
+            - generic [ref=e1513]:
+              - generic [ref=e1514]: 18h
+              - paragraph [ref=e1515]: Avg. Speed
+          - generic [ref=e1516]:
+            - generic [ref=e1517]:
+              - generic [ref=e1518]:
+                - img [ref=e1519]
+                - generic [ref=e1521]: Payout Speed
+              - generic [ref=e1522]: 18 hours
+            - generic [ref=e1523]:
+              - generic [ref=e1524]:
+                - img [ref=e1525]
+                - generic [ref=e1527]: Banking Methods
+              - generic [ref=e1528]: 7 options
+            - generic [ref=e1529]:
+              - generic [ref=e1530]: "Best Methods:"
+              - generic [ref=e1531]: Visa, Mastercard
+          - generic [ref=e1532]:
+            - paragraph [ref=e1533]: Fast payouts • Premium license • Great game variety
+            - link "Play Now" [ref=e1534] [cursor=pointer]:
+              - /url: /reviews/aerobet
+        - generic [ref=e1535]:
+          - generic [ref=e1537]:
+            - generic [ref=e1538]:
+              - generic [ref=e1540]: "#3"
+              - heading "WildRobin Casino" [level=3] [ref=e1541]
+            - generic [ref=e1542]:
+              - generic [ref=e1543]: 18h
+              - paragraph [ref=e1544]: Avg. Speed
+          - generic [ref=e1545]:
+            - generic [ref=e1546]:
+              - generic [ref=e1547]:
+                - img [ref=e1548]
+                - generic [ref=e1550]: Payout Speed
+              - generic [ref=e1551]: 18 hours
+            - generic [ref=e1552]:
+              - generic [ref=e1553]:
+                - img [ref=e1554]
+                - generic [ref=e1556]: Banking Methods
+              - generic [ref=e1557]: 8 options
+            - generic [ref=e1558]:
+              - generic [ref=e1559]: "Best Methods:"
+              - generic [ref=e1560]: Visa, Mastercard
+          - generic [ref=e1561]:
+            - paragraph [ref=e1562]: Fast payouts • Great game variety • Live dealer games
+            - link "Play Now" [ref=e1563] [cursor=pointer]:
+              - /url: /reviews/wildrobin
+        - generic [ref=e1564]:
+          - generic [ref=e1566]:
+            - generic [ref=e1567]:
+              - generic [ref=e1569]: "#4"
+              - heading "Joker Ace's" [level=3] [ref=e1570]
+            - generic [ref=e1571]:
+              - generic [ref=e1572]: 18h
+              - paragraph [ref=e1573]: Avg. Speed
+          - generic [ref=e1574]:
+            - generic [ref=e1575]:
+              - generic [ref=e1576]:
+                - img [ref=e1577]
+                - generic [ref=e1579]: Payout Speed
+              - generic [ref=e1580]: 18 hours
+            - generic [ref=e1581]:
+              - generic [ref=e1582]:
+                - img [ref=e1583]
+                - generic [ref=e1585]: Banking Methods
+              - generic [ref=e1586]: 7 options
+            - generic [ref=e1587]:
+              - generic [ref=e1588]: "Best Methods:"
+              - generic [ref=e1589]: Visa, Mastercard
+          - generic [ref=e1590]:
+            - paragraph [ref=e1591]: Fast payouts • Massive game selection • Live dealer games
+            - link "Play Now" [ref=e1592] [cursor=pointer]:
+              - /url: /reviews/joker
+        - generic [ref=e1593]:
+          - generic [ref=e1595]:
+            - generic [ref=e1596]:
+              - generic [ref=e1598]: "#5"
+              - heading "Instant Casino" [level=3] [ref=e1599]
+            - generic [ref=e1600]:
+              - generic [ref=e1601]: 18h
+              - paragraph [ref=e1602]: Avg. Speed
+          - generic [ref=e1603]:
+            - generic [ref=e1604]:
+              - generic [ref=e1605]:
+                - img [ref=e1606]
+                - generic [ref=e1608]: Payout Speed
+              - generic [ref=e1609]: 18 hours
+            - generic [ref=e1610]:
+              - generic [ref=e1611]:
+                - img [ref=e1612]
+                - generic [ref=e1614]: Banking Methods
+              - generic [ref=e1615]: 7 options
+            - generic [ref=e1616]:
+              - generic [ref=e1617]: "Best Methods:"
+              - generic [ref=e1618]: Visa, Mastercard
+          - generic [ref=e1619]:
+            - paragraph [ref=e1620]: Fast payouts • Premium license • Mobile-optimized
+            - link "Play Now" [ref=e1621] [cursor=pointer]:
+              - /url: /reviews/instant
+        - generic [ref=e1622]:
+          - generic [ref=e1624]:
+            - generic [ref=e1625]:
+              - generic [ref=e1627]: "#6"
+              - heading "SpellWin" [level=3] [ref=e1628]
+            - generic [ref=e1629]:
+              - generic [ref=e1630]: 24h
+              - paragraph [ref=e1631]: Avg. Speed
+          - generic [ref=e1632]:
+            - generic [ref=e1633]:
+              - generic [ref=e1634]:
+                - img [ref=e1635]
+                - generic [ref=e1637]: Payout Speed
+              - generic [ref=e1638]: 24 hours
+            - generic [ref=e1639]:
+              - generic [ref=e1640]:
+                - img [ref=e1641]
+                - generic [ref=e1643]: Banking Methods
+              - generic [ref=e1644]: 6 options
+            - generic [ref=e1645]:
+              - generic [ref=e1646]: "Best Methods:"
+              - generic [ref=e1647]: Visa, Mastercard
+          - generic [ref=e1648]:
+            - paragraph [ref=e1649]: Fast payouts • Premium license • Great game variety
+            - link "Play Now" [ref=e1650] [cursor=pointer]:
+              - /url: /reviews/spellwin
+      - link "View All Fast Payout Casinos" [ref=e1652] [cursor=pointer]:
+        - /url: /best/fast-withdrawals
+        - text: View All Fast Payout Casinos
+        - img [ref=e1653] [cursor=pointer]
+    - generic [ref=e1659]:
+      - generic [ref=e1660]:
+        - generic [ref=e1661]:
+          - img [ref=e1662]
+          - text: CANADIAN PROVINCES
+        - heading "🇨🇦 Provincial Casino Hubs" [level=2] [ref=e1664]
+        - paragraph [ref=e1665]: Find casinos tailored to your local regulations, banking methods, and provincial preferences across Canada.
+      - generic [ref=e1666]:
+        - link "🏢 Ontario Fully Legal Licensed casinos regulated by iGaming Ontario with local payment methods and provincial protections iGaming Ontario regulated Local banking options CAD currency support View Ontario Casinos" [ref=e1667] [cursor=pointer]:
+          - /url: /regions/ontario
+          - generic [ref=e1668] [cursor=pointer]:
+            - generic [ref=e1670] [cursor=pointer]:
+              - generic [ref=e1671] [cursor=pointer]: 🏢
+              - heading "Ontario" [level=3] [ref=e1672] [cursor=pointer]
+              - generic [ref=e1675] [cursor=pointer]: Fully Legal
+            - paragraph [ref=e1676] [cursor=pointer]: Licensed casinos regulated by iGaming Ontario with local payment methods and provincial protections
+            - generic [ref=e1677] [cursor=pointer]:
+              - generic [ref=e1678] [cursor=pointer]:
+                - img [ref=e1680] [cursor=pointer]
+                - generic [ref=e1682] [cursor=pointer]: iGaming Ontario regulated
+              - generic [ref=e1683] [cursor=pointer]:
+                - img [ref=e1685] [cursor=pointer]
+                - generic [ref=e1687] [cursor=pointer]: Local banking options
+              - generic [ref=e1688] [cursor=pointer]:
+                - img [ref=e1690] [cursor=pointer]
+                - generic [ref=e1692] [cursor=pointer]: CAD currency support
+            - generic [ref=e1694] [cursor=pointer]:
+              - text: View Ontario Casinos
+              - img [ref=e1695] [cursor=pointer]
+        - link "🏔️ Alberta Provincial Options Best online casinos available to Alberta residents with provincial banking and Mountain Time support 18+ age requirement Interac e-Transfer Mountain Time support View Alberta Casinos" [ref=e1697] [cursor=pointer]:
+          - /url: /regions/alberta
+          - generic [ref=e1698] [cursor=pointer]:
+            - generic [ref=e1700] [cursor=pointer]:
+              - generic [ref=e1701] [cursor=pointer]: 🏔️
+              - heading "Alberta" [level=3] [ref=e1702] [cursor=pointer]
+              - generic [ref=e1705] [cursor=pointer]: Provincial Options
+            - paragraph [ref=e1706] [cursor=pointer]: Best online casinos available to Alberta residents with provincial banking and Mountain Time support
+            - generic [ref=e1707] [cursor=pointer]:
+              - generic [ref=e1708] [cursor=pointer]:
+                - img [ref=e1710] [cursor=pointer]
+                - generic [ref=e1712] [cursor=pointer]: 18+ age requirement
+              - generic [ref=e1713] [cursor=pointer]:
+                - img [ref=e1715] [cursor=pointer]
+                - generic [ref=e1717] [cursor=pointer]: Interac e-Transfer
+              - generic [ref=e1718] [cursor=pointer]:
+                - img [ref=e1720] [cursor=pointer]
+                - generic [ref=e1722] [cursor=pointer]: Mountain Time support
+            - generic [ref=e1724] [cursor=pointer]:
+              - text: View Alberta Casinos
+              - img [ref=e1725] [cursor=pointer]
+        - link "🌲 British Columbia Provincial Framework BC-friendly casinos with appropriate licensing, Pacific Time support, and local banking integration Pacific Time support BCLC guidelines Local payment methods View British Columbia Casinos" [ref=e1727] [cursor=pointer]:
+          - /url: /regions/british-columbia
+          - generic [ref=e1728] [cursor=pointer]:
+            - generic [ref=e1730] [cursor=pointer]:
+              - generic [ref=e1731] [cursor=pointer]: 🌲
+              - heading "British Columbia" [level=3] [ref=e1732] [cursor=pointer]
+              - generic [ref=e1735] [cursor=pointer]: Provincial Framework
+            - paragraph [ref=e1736] [cursor=pointer]: BC-friendly casinos with appropriate licensing, Pacific Time support, and local banking integration
+            - generic [ref=e1737] [cursor=pointer]:
+              - generic [ref=e1738] [cursor=pointer]:
+                - img [ref=e1740] [cursor=pointer]
+                - generic [ref=e1742] [cursor=pointer]: Pacific Time support
+              - generic [ref=e1743] [cursor=pointer]:
+                - img [ref=e1745] [cursor=pointer]
+                - generic [ref=e1747] [cursor=pointer]: BCLC guidelines
+              - generic [ref=e1748] [cursor=pointer]:
+                - img [ref=e1750] [cursor=pointer]
+                - generic [ref=e1752] [cursor=pointer]: Local payment methods
+            - generic [ref=e1754] [cursor=pointer]:
+              - text: View British Columbia Casinos
+              - img [ref=e1755] [cursor=pointer]
+      - generic [ref=e1758]:
+        - generic [ref=e1759]:
+          - generic [ref=e1760]: 🍁
+          - generic [ref=e1761]: 3 Covered
+          - generic [ref=e1762]: Canadian Provinces
+        - generic [ref=e1763]:
+          - generic [ref=e1764]: 👥
+          - generic [ref=e1765]: 25.5M+
+          - generic [ref=e1766]: Total Population
+        - generic [ref=e1767]:
+          - generic [ref=e1768]: 🏛️
+          - generic [ref=e1769]: Provincial
+          - generic [ref=e1770]: Regulatory Bodies
+        - generic [ref=e1771]:
+          - generic [ref=e1772]: 💳
+          - generic [ref=e1773]: 15+ Options
+          - generic [ref=e1774]: Payment Methods
+      - link "Explore All Canadian Provinces" [ref=e1776] [cursor=pointer]:
+        - /url: /regions
+        - img [ref=e1777] [cursor=pointer]
+        - text: Explore All Canadian Provinces
+        - img [ref=e1779] [cursor=pointer]
+    - generic [ref=e1782]:
+      - generic [ref=e1783]:
+        - heading "🎰 Most Popular Online Slot Games" [level=2] [ref=e1784]
+        - paragraph [ref=e1785]:
+          - text: Experience the most popular slot games available at our
+          - link "top-rated casino sites" [ref=e1786] [cursor=pointer]:
+            - /url: "#top-three"
+          - text: . All games feature certified RNG, high RTP rates, and exciting bonus features.
+      - generic [ref=e1788]:
+        - generic [ref=e1789]:
+          - generic [ref=e1790]: 🎯
+          - heading "Certified Fair Play" [level=3] [ref=e1791]
+          - paragraph [ref=e1792]: All games use certified RNG technology for guaranteed fairness
+        - generic [ref=e1793]:
+          - generic [ref=e1794]: 📱
+          - heading "Mobile Optimized" [level=3] [ref=e1795]
+          - paragraph [ref=e1796]: Play seamlessly on desktop, tablet, or mobile devices
+        - generic [ref=e1797]:
+          - generic [ref=e1798]: 🎁
+          - heading "Bonus Features" [level=3] [ref=e1799]
+          - paragraph [ref=e1800]: Free spins, multipliers, and special features in every game
+        - generic [ref=e1801]:
+          - generic [ref=e1802]: 💰
+          - heading "Real Money Play" [level=3] [ref=e1803]
+          - paragraph [ref=e1804]: Available for both free demo and real money at top casinos
+      - generic [ref=e1805]:
+        - generic [ref=e1806]:
+          - generic [ref=e1808]:
+            - generic [ref=e1809]:
+              - generic [ref=e1810]: ✨
+              - heading "Starburst" [level=3] [ref=e1811]
+              - paragraph [ref=e1812]: NetEnt
+            - generic [ref=e1813]:
+              - generic [ref=e1814]: RTP
+              - generic [ref=e1815]: 96.09%
+          - generic [ref=e1816]:
+            - paragraph [ref=e1817]: The iconic expanding wilds slot
+            - generic [ref=e1818]:
+              - generic [ref=e1819]:
+                - generic [ref=e1820]: "Theme:"
+                - generic [ref=e1821]: Space Gems
+              - generic [ref=e1822]:
+                - generic [ref=e1823]: "Volatility:"
+                - generic [ref=e1824]: Low
+              - generic [ref=e1825]:
+                - generic [ref=e1826]: "Max Win:"
+                - generic [ref=e1827]: x500
+            - generic [ref=e1829]:
+              - heading "Features:" [level=4] [ref=e1830]
+              - generic [ref=e1831]:
+                - generic [ref=e1832]: Expanding Wilds
+                - generic [ref=e1833]: Both Ways Pay
+            - generic [ref=e1835]:
+              - generic [ref=e1836]: Popularity
+              - generic [ref=e1837]: 95%
+            - generic [ref=e1840]:
+              - button "Play Now" [ref=e1841] [cursor=pointer]
+              - button "Demo" [ref=e1842] [cursor=pointer]
+        - generic [ref=e1843]:
+          - generic [ref=e1845]:
+            - generic [ref=e1846]:
+              - generic [ref=e1847]: 🗿
+              - heading "Gonzo's Quest" [level=3] [ref=e1848]
+              - paragraph [ref=e1849]: NetEnt
+            - generic [ref=e1850]:
+              - generic [ref=e1851]: RTP
+              - generic [ref=e1852]: 95.97%
+          - generic [ref=e1853]:
+            - paragraph [ref=e1854]: Adventure quest with avalanche reels
+            - generic [ref=e1855]:
+              - generic [ref=e1856]:
+                - generic [ref=e1857]: "Theme:"
+                - generic [ref=e1858]: Adventure
+              - generic [ref=e1859]:
+                - generic [ref=e1860]: "Volatility:"
+                - generic [ref=e1861]: Medium
+              - generic [ref=e1862]:
+                - generic [ref=e1863]: "Max Win:"
+                - generic [ref=e1864]: x2,500
+            - generic [ref=e1866]:
+              - heading "Features:" [level=4] [ref=e1867]
+              - generic [ref=e1868]:
+                - generic [ref=e1869]: Avalanche Reels
+                - generic [ref=e1870]: Multipliers
+            - generic [ref=e1872]:
+              - generic [ref=e1873]: Popularity
+              - generic [ref=e1874]: 92%
+            - generic [ref=e1877]:
+              - button "Play Now" [ref=e1878] [cursor=pointer]
+              - button "Demo" [ref=e1879] [cursor=pointer]
+        - generic [ref=e1880]:
+          - generic [ref=e1882]:
+            - generic [ref=e1883]:
+              - generic [ref=e1884]: 📚
+              - heading "Book of Dead" [level=3] [ref=e1885]
+              - paragraph [ref=e1886]: Play'n GO
+            - generic [ref=e1887]:
+              - generic [ref=e1888]: RTP
+              - generic [ref=e1889]: 94.25%
+          - generic [ref=e1890]:
+            - paragraph [ref=e1891]: Egyptian adventure with Rich Wilde
+            - generic [ref=e1892]:
+              - generic [ref=e1893]:
+                - generic [ref=e1894]: "Theme:"
+                - generic [ref=e1895]: Ancient Egypt
+              - generic [ref=e1896]:
+                - generic [ref=e1897]: "Volatility:"
+                - generic [ref=e1898]: High
+              - generic [ref=e1899]:
+                - generic [ref=e1900]: "Max Win:"
+                - generic [ref=e1901]: x5,000
+            - generic [ref=e1903]:
+              - heading "Features:" [level=4] [ref=e1904]
+              - generic [ref=e1905]:
+                - generic [ref=e1906]: Free Spins
+                - generic [ref=e1907]: Expanding Symbols
+            - generic [ref=e1909]:
+              - generic [ref=e1910]: Popularity
+              - generic [ref=e1911]: 90%
+            - generic [ref=e1914]:
+              - button "Play Now" [ref=e1915] [cursor=pointer]
+              - button "Demo" [ref=e1916] [cursor=pointer]
+        - generic [ref=e1917]:
+          - generic [ref=e1919]:
+            - generic [ref=e1920]:
+              - generic [ref=e1921]: 🍭
+              - heading "Sweet Bonanza" [level=3] [ref=e1922]
+              - paragraph [ref=e1923]: Pragmatic Play
+            - generic [ref=e1924]:
+              - generic [ref=e1925]: RTP
+              - generic [ref=e1926]: 96.48%
+          - generic [ref=e1927]:
+            - paragraph [ref=e1928]: Sweet cluster pays with multipliers
+            - generic [ref=e1929]:
+              - generic [ref=e1930]:
+                - generic [ref=e1931]: "Theme:"
+                - generic [ref=e1932]: Candy
+              - generic [ref=e1933]:
+                - generic [ref=e1934]: "Volatility:"
+                - generic [ref=e1935]: High
+              - generic [ref=e1936]:
+                - generic [ref=e1937]: "Max Win:"
+                - generic [ref=e1938]: x21,100
+            - generic [ref=e1940]:
+              - heading "Features:" [level=4] [ref=e1941]
+              - generic [ref=e1942]:
+                - generic [ref=e1943]: Tumble Feature
+                - generic [ref=e1944]: Multipliers
+            - generic [ref=e1946]:
+              - generic [ref=e1947]: Popularity
+              - generic [ref=e1948]: 88%
+            - generic [ref=e1951]:
+              - button "Play Now" [ref=e1952] [cursor=pointer]
+              - button "Demo" [ref=e1953] [cursor=pointer]
+        - generic [ref=e1954]:
+          - generic [ref=e1956]:
+            - generic [ref=e1957]:
+              - generic [ref=e1958]: ⚡
+              - heading "Gates of Olympus" [level=3] [ref=e1959]
+              - paragraph [ref=e1960]: Pragmatic Play
+            - generic [ref=e1961]:
+              - generic [ref=e1962]: RTP
+              - generic [ref=e1963]: 96.5%
+          - generic [ref=e1964]:
+            - paragraph [ref=e1965]: Zeus-powered tumbling reels
+            - generic [ref=e1966]:
+              - generic [ref=e1967]:
+                - generic [ref=e1968]: "Theme:"
+                - generic [ref=e1969]: Greek Mythology
+              - generic [ref=e1970]:
+                - generic [ref=e1971]: "Volatility:"
+                - generic [ref=e1972]: High
+              - generic [ref=e1973]:
+                - generic [ref=e1974]: "Max Win:"
+                - generic [ref=e1975]: x5,000
+            - generic [ref=e1977]:
+              - heading "Features:" [level=4] [ref=e1978]
+              - generic [ref=e1979]:
+                - generic [ref=e1980]: Tumbling Reels
+                - generic [ref=e1981]: Multipliers
+            - generic [ref=e1983]:
+              - generic [ref=e1984]: Popularity
+              - generic [ref=e1985]: 85%
+            - generic [ref=e1988]:
+              - button "Play Now" [ref=e1989] [cursor=pointer]
+              - button "Demo" [ref=e1990] [cursor=pointer]
+        - generic [ref=e1991]:
+          - generic [ref=e1993]:
+            - generic [ref=e1994]:
+              - generic [ref=e1995]: 🎣
+              - heading "Big Bass Splash" [level=3] [ref=e1996]
+              - paragraph [ref=e1997]: Pragmatic Play
+            - generic [ref=e1998]:
+              - generic [ref=e1999]: RTP
+              - generic [ref=e2000]: 96.71%
+          - generic [ref=e2001]:
+            - paragraph [ref=e2002]: Fishing adventure with bonus rounds
+            - generic [ref=e2003]:
+              - generic [ref=e2004]:
+                - generic [ref=e2005]: "Theme:"
+                - generic [ref=e2006]: Fishing
+              - generic [ref=e2007]:
+                - generic [ref=e2008]: "Volatility:"
+                - generic [ref=e2009]: High
+              - generic [ref=e2010]:
+                - generic [ref=e2011]: "Max Win:"
+                - generic [ref=e2012]: x2,100
+            - generic [ref=e2014]:
+              - heading "Features:" [level=4] [ref=e2015]
+              - generic [ref=e2016]:
+                - generic [ref=e2017]: Free Spins
+                - generic [ref=e2018]: Money Collect
+            - generic [ref=e2020]:
+              - generic [ref=e2021]: Popularity
+              - generic [ref=e2022]: 82%
+            - generic [ref=e2025]:
+              - button "Play Now" [ref=e2026] [cursor=pointer]
+              - button "Demo" [ref=e2027] [cursor=pointer]
+      - generic [ref=e2029]:
+        - heading "🎲 Ready to Spin the Reels?" [level=3] [ref=e2030]
+        - paragraph [ref=e2031]: All these popular slots are available at our top-rated casinos with welcome bonuses and free spins offers.
+        - generic [ref=e2032]:
+          - link "Claim Free Spins" [ref=e2033] [cursor=pointer]:
+            - /url: "#top-three"
+          - link "View All Slots" [ref=e2034] [cursor=pointer]:
+            - /url: /games/slots
+      - generic [ref=e2035]:
+        - generic [ref=e2036]: 🎯 RNG Certified
+        - generic [ref=e2037]: 📱 Mobile Ready
+        - generic [ref=e2038]: 💰 Real Money
+        - generic [ref=e2039]: 🆓 Free Demos
+    - generic [ref=e2042]:
+      - heading "🎮 Try Free Casino Games" [level=2] [ref=e2043]
+      - paragraph [ref=e2044]: Play thousands of slots, table games, and more in demo mode. No registration required.
+      - generic [ref=e2045]:
+        - generic [ref=e2046]:
+          - generic [ref=e2047]: 🎰
+          - heading "Slot Machines" [level=3] [ref=e2048]
+          - paragraph [ref=e2049]: 3000+ free slots from top providers
+          - link "Browse Slots →" [ref=e2050] [cursor=pointer]:
+            - /url: /games/slots
+        - generic [ref=e2051]:
+          - generic [ref=e2052]: 🃏
+          - heading "Table Games" [level=3] [ref=e2053]
+          - paragraph [ref=e2054]: Blackjack, Roulette, Baccarat & more
+          - link "Browse Tables →" [ref=e2055] [cursor=pointer]:
+            - /url: /games/table-games
+        - generic [ref=e2056]:
+          - generic [ref=e2057]: 🎲
+          - heading "Live Dealer" [level=3] [ref=e2058]
+          - paragraph [ref=e2059]: Real dealers, real-time action
+          - link "Find Live Casinos →" [ref=e2060] [cursor=pointer]:
+            - /url: /best/live-dealer
+      - link "Explore All Free Games" [ref=e2061] [cursor=pointer]:
+        - /url: /games
+        - text: Explore All Free Games
+        - img [ref=e2062] [cursor=pointer]
+      - paragraph [ref=e2064]: 💡 Practice for free before playing with real money
+    - generic [ref=e2067]:
+      - generic [ref=e2068]:
+        - heading "💰 Trusted Payment Methods at Top Casinos" [level=2] [ref=e2069]
+        - paragraph [ref=e2070]:
+          - text: Choose from secure, fast, and reliable payment options. All methods are tested and verified at our
+          - link "recommended casino sites" [ref=e2071] [cursor=pointer]:
+            - /url: "#top-three"
+          - text: for Canadian players.
+      - generic [ref=e2073]:
+        - generic [ref=e2074]:
+          - generic [ref=e2075]: 🛡️
+          - heading "Bank-Level Security" [level=3] [ref=e2076]
+          - paragraph [ref=e2077]: All payment methods use SSL encryption and fraud protection
+        - generic [ref=e2078]:
+          - generic [ref=e2079]: ⚡
+          - heading "Fast Processing" [level=3] [ref=e2080]
+          - paragraph [ref=e2081]: Most deposits are instant, withdrawals processed within 24-72 hours
+        - generic [ref=e2082]:
+          - generic [ref=e2083]: 🔄
+          - heading "Multiple Options" [level=3] [ref=e2084]
+          - paragraph [ref=e2085]: Choose from traditional banking, e-wallets, and cryptocurrencies
+        - generic [ref=e2086]:
+          - generic [ref=e2087]: 💳
+          - heading "Low Fees" [level=3] [ref=e2088]
+          - paragraph [ref=e2089]: Many methods have no fees or very competitive rates
+      - generic [ref=e2090]:
+        - generic [ref=e2091]:
+          - generic [ref=e2093]:
+            - generic [ref=e2094]:
+              - generic [ref=e2095]: 💳
+              - heading "Visa" [level=3] [ref=e2096]
+            - generic [ref=e2097]:
+              - generic [ref=e2098]: Processing
+              - generic [ref=e2099]: 1-3 days
+          - generic [ref=e2100]:
+            - paragraph [ref=e2101]: Most widely accepted credit card worldwide
+            - generic [ref=e2102]:
+              - generic [ref=e2103]:
+                - generic [ref=e2104]: "Min Deposit:"
+                - generic [ref=e2105]: $10
+              - generic [ref=e2106]:
+                - generic [ref=e2107]: "Max Withdrawal:"
+                - generic [ref=e2108]: $5,000
+              - generic [ref=e2109]:
+                - generic [ref=e2110]: "Fees:"
+                - generic [ref=e2111]: No fees
+              - generic [ref=e2112]:
+                - generic [ref=e2113]: "Security:"
+                - generic [ref=e2114]: SSL + 3D Secure
+            - generic [ref=e2116]:
+              - img [ref=e2117]
+              - text: 99% of casinos
+        - generic [ref=e2119]:
+          - generic [ref=e2121]:
+            - generic [ref=e2122]:
+              - generic [ref=e2123]: 🇨🇦
+              - heading "Interac" [level=3] [ref=e2124]
+            - generic [ref=e2125]:
+              - generic [ref=e2126]: Processing
+              - generic [ref=e2127]: 24-48h
+          - generic [ref=e2128]:
+            - paragraph [ref=e2129]: Canada's trusted banking network
+            - generic [ref=e2130]:
+              - generic [ref=e2131]:
+                - generic [ref=e2132]: "Min Deposit:"
+                - generic [ref=e2133]: $10
+              - generic [ref=e2134]:
+                - generic [ref=e2135]: "Max Withdrawal:"
+                - generic [ref=e2136]: $3,000
+              - generic [ref=e2137]:
+                - generic [ref=e2138]: "Fees:"
+                - generic [ref=e2139]: Usually free
+              - generic [ref=e2140]:
+                - generic [ref=e2141]: "Security:"
+                - generic [ref=e2142]: Bank-level encryption
+            - generic [ref=e2144]:
+              - img [ref=e2145]
+              - text: 85% of Canadian casinos
+        - generic [ref=e2147]:
+          - generic [ref=e2149]:
+            - generic [ref=e2150]:
+              - generic [ref=e2151]: 🅿️
+              - heading "PayPal" [level=3] [ref=e2152]
+            - generic [ref=e2153]:
+              - generic [ref=e2154]: Processing
+              - generic [ref=e2155]: 0-24h
+          - generic [ref=e2156]:
+            - paragraph [ref=e2157]: Global digital wallet leader
+            - generic [ref=e2158]:
+              - generic [ref=e2159]:
+                - generic [ref=e2160]: "Min Deposit:"
+                - generic [ref=e2161]: $5
+              - generic [ref=e2162]:
+                - generic [ref=e2163]: "Max Withdrawal:"
+                - generic [ref=e2164]: $10,000
+              - generic [ref=e2165]:
+                - generic [ref=e2166]: "Fees:"
+                - generic [ref=e2167]: No deposit fees
+              - generic [ref=e2168]:
+                - generic [ref=e2169]: "Security:"
+                - generic [ref=e2170]: Buyer protection
+            - generic [ref=e2172]:
+              - img [ref=e2173]
+              - text: 60% of casinos
+        - generic [ref=e2175]:
+          - generic [ref=e2177]:
+            - generic [ref=e2178]:
+              - generic [ref=e2179]: ₿
+              - heading "Bitcoin" [level=3] [ref=e2180]
+            - generic [ref=e2181]:
+              - generic [ref=e2182]: Processing
+              - generic [ref=e2183]: Instant
+          - generic [ref=e2184]:
+            - paragraph [ref=e2185]: Leading cryptocurrency option
+            - generic [ref=e2186]:
+              - generic [ref=e2187]:
+                - generic [ref=e2188]: "Min Deposit:"
+                - generic [ref=e2189]: $20
+              - generic [ref=e2190]:
+                - generic [ref=e2191]: "Max Withdrawal:"
+                - generic [ref=e2192]: No limit
+              - generic [ref=e2193]:
+                - generic [ref=e2194]: "Fees:"
+                - generic [ref=e2195]: Network fees only
+              - generic [ref=e2196]:
+                - generic [ref=e2197]: "Security:"
+                - generic [ref=e2198]: Blockchain secured
+            - generic [ref=e2200]:
+              - img [ref=e2201]
+              - text: 40% of casinos
+        - generic [ref=e2203]:
+          - generic [ref=e2205]:
+            - generic [ref=e2206]:
+              - generic [ref=e2207]: 🌟
+              - heading "Skrill" [level=3] [ref=e2208]
+            - generic [ref=e2209]:
+              - generic [ref=e2210]: Processing
+              - generic [ref=e2211]: Instant
+          - generic [ref=e2212]:
+            - paragraph [ref=e2213]: Digital wallet for gaming
+            - generic [ref=e2214]:
+              - generic [ref=e2215]:
+                - generic [ref=e2216]: "Min Deposit:"
+                - generic [ref=e2217]: $10
+              - generic [ref=e2218]:
+                - generic [ref=e2219]: "Max Withdrawal:"
+                - generic [ref=e2220]: $20,000
+              - generic [ref=e2221]:
+                - generic [ref=e2222]: "Fees:"
+                - generic [ref=e2223]: Low fees
+              - generic [ref=e2224]:
+                - generic [ref=e2225]: "Security:"
+                - generic [ref=e2226]: Two-factor auth
+            - generic [ref=e2228]:
+              - img [ref=e2229]
+              - text: 70% of casinos
+        - generic [ref=e2231]:
+          - generic [ref=e2233]:
+            - generic [ref=e2234]:
+              - generic [ref=e2235]: 💰
+              - heading "Neteller" [level=3] [ref=e2236]
+            - generic [ref=e2237]:
+              - generic [ref=e2238]: Processing
+              - generic [ref=e2239]: Instant
+          - generic [ref=e2240]:
+            - paragraph [ref=e2241]: Professional e-wallet service
+            - generic [ref=e2242]:
+              - generic [ref=e2243]:
+                - generic [ref=e2244]: "Min Deposit:"
+                - generic [ref=e2245]: $10
+              - generic [ref=e2246]:
+                - generic [ref=e2247]: "Max Withdrawal:"
+                - generic [ref=e2248]: $15,000
+              - generic [ref=e2249]:
+                - generic [ref=e2250]: "Fees:"
+                - generic [ref=e2251]: Competitive rates
+              - generic [ref=e2252]:
+                - generic [ref=e2253]: "Security:"
+                - generic [ref=e2254]: Advanced encryption
+            - generic [ref=e2256]:
+              - img [ref=e2257]
+              - text: 65% of casinos
+        - generic [ref=e2259]:
+          - generic [ref=e2261]:
+            - generic [ref=e2262]:
+              - generic [ref=e2263]: 🔴
+              - heading "Mastercard" [level=3] [ref=e2264]
+            - generic [ref=e2265]:
+              - generic [ref=e2266]: Processing
+              - generic [ref=e2267]: 1-3 days
+          - generic [ref=e2268]:
+            - paragraph [ref=e2269]: Global payment network
+            - generic [ref=e2270]:
+              - generic [ref=e2271]:
+                - generic [ref=e2272]: "Min Deposit:"
+                - generic [ref=e2273]: $10
+              - generic [ref=e2274]:
+                - generic [ref=e2275]: "Max Withdrawal:"
+                - generic [ref=e2276]: $5,000
+              - generic [ref=e2277]:
+                - generic [ref=e2278]: "Fees:"
+                - generic [ref=e2279]: Usually no fees
+              - generic [ref=e2280]:
+                - generic [ref=e2281]: "Security:"
+                - generic [ref=e2282]: SecureCode protection
+            - generic [ref=e2284]:
+              - img [ref=e2285]
+              - text: 95% of casinos
+        - generic [ref=e2287]:
+          - generic [ref=e2289]:
+            - generic [ref=e2290]:
+              - generic [ref=e2291]: ⟠
+              - heading "Ethereum" [level=3] [ref=e2292]
+            - generic [ref=e2293]:
+              - generic [ref=e2294]: Processing
+              - generic [ref=e2295]: 5-15 mins
+          - generic [ref=e2296]:
+            - paragraph [ref=e2297]: Smart contract cryptocurrency
+            - generic [ref=e2298]:
+              - generic [ref=e2299]:
+                - generic [ref=e2300]: "Min Deposit:"
+                - generic [ref=e2301]: $25
+              - generic [ref=e2302]:
+                - generic [ref=e2303]: "Max Withdrawal:"
+                - generic [ref=e2304]: No limit
+              - generic [ref=e2305]:
+                - generic [ref=e2306]: "Fees:"
+                - generic [ref=e2307]: Gas fees apply
+              - generic [ref=e2308]:
+                - generic [ref=e2309]: "Security:"
+                - generic [ref=e2310]: Decentralized
+            - generic [ref=e2312]:
+              - img [ref=e2313]
+              - text: 30% of casinos
+      - generic [ref=e2316]:
+        - heading "🚀 Ready to Play at Top-Rated Casinos?" [level=3] [ref=e2317]
+        - paragraph [ref=e2318]: All payment methods above are available at our recommended casinos with guaranteed security and fast processing.
+        - generic [ref=e2319]:
+          - link "View Top Casinos" [ref=e2320] [cursor=pointer]:
+            - /url: "#top-three"
+          - link "Banking Guide" [ref=e2321] [cursor=pointer]:
+            - /url: /guides/banking
+      - generic [ref=e2322]:
+        - generic [ref=e2323]: 🔒 SSL Encrypted
+        - generic [ref=e2324]: 🛡️ Fraud Protected
+        - generic [ref=e2325]: ⚡ Fast Processing
+        - generic [ref=e2326]: 🏆 Casino Verified
+    - generic [ref=e2328]:
+      - generic [ref=e2329]:
+        - heading "🎁 Understanding Casino Bonuses" [level=2] [ref=e2330]
+        - paragraph [ref=e2331]: Know your bonuses before you claim. Here's what each type means for your bankroll.
+      - generic [ref=e2332]:
+        - generic [ref=e2333]:
+          - generic [ref=e2334]: 💰
+          - heading "Match Bonus" [level=3] [ref=e2335]
+          - paragraph [ref=e2336]: Casino matches your deposit by a percentage (e.g., 100% up to $500).
+          - generic [ref=e2337]:
+            - generic [ref=e2338]: "Example:"
+            - generic [ref=e2339]: Deposit $100 → Get $100 bonus
+        - generic [ref=e2340]:
+          - generic [ref=e2341]: 🎰
+          - heading "Free Spins" [level=3] [ref=e2342]
+          - paragraph [ref=e2343]: Bonus spins on specific slot games. Check wagering requirements on winnings.
+          - generic [ref=e2344]:
+            - generic [ref=e2345]: "Common:"
+            - generic [ref=e2346]: 50-200 spins @ $0.10-$0.25
+        - generic [ref=e2347]:
+          - generic [ref=e2348]: 🎉
+          - heading "No Deposit" [level=3] [ref=e2349]
+          - paragraph [ref=e2350]: Free bonus just for signing up. No deposit required, but has wagering rules.
+          - generic [ref=e2351]:
+            - generic [ref=e2352]: "Typical:"
+            - generic [ref=e2353]: $10-$50 or 10-50 free spins
+        - generic [ref=e2354]:
+          - generic [ref=e2355]: 💵
+          - heading "Cashback" [level=3] [ref=e2356]
+          - paragraph [ref=e2357]: Get a percentage of losses returned. Usually weekly or monthly.
+          - generic [ref=e2358]:
+            - generic [ref=e2359]: "Typical:"
+            - generic [ref=e2360]: 5-20% of net losses
+      - generic [ref=e2362]:
+        - generic [ref=e2363]: ⚠️
+        - generic [ref=e2364]:
+          - heading "Always Read the Terms" [level=3] [ref=e2365]
+          - list [ref=e2366]:
+            - listitem [ref=e2367]:
+              - text: •
+              - strong [ref=e2368]: "Wagering Requirements:"
+              - text: How many times you must play through the bonus (e.g., 35x)
+            - listitem [ref=e2369]:
+              - text: •
+              - strong [ref=e2370]: "Max Cashout:"
+              - text: Maximum amount you can withdraw from bonus winnings
+            - listitem [ref=e2371]:
+              - text: •
+              - strong [ref=e2372]: "Game Restrictions:"
+              - text: Which games count towards wagering (slots usually 100%)
+            - listitem [ref=e2373]:
+              - text: •
+              - strong [ref=e2374]: "Time Limits:"
+              - text: How long you have to meet requirements (usually 7-30 days)
+      - link "Compare Bonus Offers" [ref=e2376] [cursor=pointer]:
+        - /url: "#top-three"
+        - text: Compare Bonus Offers
+        - img [ref=e2377] [cursor=pointer]
+    - generic [ref=e2381]:
+      - generic [ref=e2382]:
+        - heading "🛡️ Safety & Complaint Awareness" [level=2] [ref=e2383]
+        - paragraph [ref=e2384]: How we evaluate casino safety and why complaint history matters in our ratings.
+      - generic [ref=e2385]:
+        - generic [ref=e2386]:
+          - heading "✅ What We Check" [level=3] [ref=e2387]:
+            - generic [ref=e2388]: ✅
+            - text: What We Check
+          - generic [ref=e2389]:
+            - generic [ref=e2390]:
+              - generic [ref=e2391]: 🔐
+              - generic [ref=e2392]:
+                - heading "Valid Licensing" [level=4] [ref=e2393]
+                - paragraph [ref=e2394]: MGA, UKGC, Curaçao, Kahnawake - verified jurisdictions
+            - generic [ref=e2395]:
+              - generic [ref=e2396]: 🎲
+              - generic [ref=e2397]:
+                - heading "RNG Certification" [level=4] [ref=e2398]
+                - paragraph [ref=e2399]: Games tested by eCOGRA, iTech Labs, or GLI
+            - generic [ref=e2400]:
+              - generic [ref=e2401]: 📄
+              - generic [ref=e2402]:
+                - heading "Clear Terms" [level=4] [ref=e2403]
+                - paragraph [ref=e2404]: Transparent bonus T&Cs, withdrawal policies, and limits
+            - generic [ref=e2405]:
+              - generic [ref=e2406]: 🔒
+              - generic [ref=e2407]:
+                - heading "SSL Encryption" [level=4] [ref=e2408]
+                - paragraph [ref=e2409]: Bank-level security for all transactions
+            - generic [ref=e2410]:
+              - generic [ref=e2411]: 👥
+              - generic [ref=e2412]:
+                - heading "Ownership History" [level=4] [ref=e2413]
+                - paragraph [ref=e2414]: Years in operation and parent company reputation
+        - generic [ref=e2415]:
+          - heading "⚖️ Complaint Signals" [level=3] [ref=e2416]:
+            - generic [ref=e2417]: ⚖️
+            - text: Complaint Signals
+          - generic [ref=e2418]:
+            - paragraph [ref=e2419]: We consider complaint patterns when evaluating casinos, though we don't operate a complaint center ourselves.
+            - generic [ref=e2420]:
+              - generic [ref=e2421]: 📊
+              - generic [ref=e2422]:
+                - heading "Complaint Ratio" [level=4] [ref=e2423]
+                - paragraph [ref=e2424]: Number of complaints relative to player base size
+            - generic [ref=e2425]:
+              - generic [ref=e2426]: ✔️
+              - generic [ref=e2427]:
+                - heading "Resolution Rate" [level=4] [ref=e2428]
+                - paragraph [ref=e2429]: How many disputes are resolved fairly
+            - generic [ref=e2430]:
+              - generic [ref=e2431]: ⏱️
+              - generic [ref=e2432]:
+                - heading "Response Time" [level=4] [ref=e2433]
+                - paragraph [ref=e2434]: How quickly casinos address player issues
+            - generic [ref=e2435]:
+              - generic [ref=e2436]: 🔍
+              - generic [ref=e2437]:
+                - heading "Issue Patterns" [level=4] [ref=e2438]
+                - paragraph [ref=e2439]: Common problem types (payment delays, bonus disputes, etc.)
+      - generic [ref=e2441]:
+        - generic [ref=e2442]: 🎯
+        - generic [ref=e2443]:
+          - heading "How This Affects Our Ratings" [level=3] [ref=e2444]
+          - generic [ref=e2445]:
+            - paragraph [ref=e2447]:
+              - strong [ref=e2448]: "Security & Fairness (20%):"
+              - text: Valid licenses, RNG certification, terms transparency
+            - paragraph [ref=e2450]:
+              - strong [ref=e2451]: "Reputation Signals (10%):"
+              - text: Complaint ratios, resolution rates, industry standing
+          - link "Read Our Full Rating Methodology" [ref=e2453] [cursor=pointer]:
+            - /url: /guides/how-we-rate
+            - text: Read Our Full Rating Methodology
+            - img [ref=e2454] [cursor=pointer]
+      - generic [ref=e2456]:
+        - paragraph [ref=e2457]: "Casinos we recommend must meet these standards:"
+        - generic [ref=e2458]:
+          - generic [ref=e2459]: ✓ Licensed & Regulated
+          - generic [ref=e2460]: ✓ RNG Certified
+          - generic [ref=e2461]: ✓ Fair T&Cs
+          - generic [ref=e2462]: ✓ Secure Payments
+          - generic [ref=e2463]: ✓ Responsive Support
+    - generic [ref=e2465]:
+      - generic [ref=e2466]:
+        - heading "Our Expert Review Team" [level=2] [ref=e2467]
+        - paragraph [ref=e2468]: Industry professionals with decades of combined experience
+      - generic [ref=e2469]:
+        - generic [ref=e2470]:
+          - generic [ref=e2472]: SJ
+          - heading "Sarah Johnson" [level=3] [ref=e2473]
+          - paragraph [ref=e2474]: Senior Casino Analyst
+          - paragraph [ref=e2475]: 8 years experience
+          - paragraph [ref=e2476]: Bonus terms & game analysis
+        - generic [ref=e2477]:
+          - generic [ref=e2479]: MC
+          - heading "Michael Chen" [level=3] [ref=e2480]
+          - paragraph [ref=e2481]: Payment Systems Expert
+          - paragraph [ref=e2482]: 12 years experience
+          - paragraph [ref=e2483]: Banking & security verification
+        - generic [ref=e2484]:
+          - generic [ref=e2486]: ER
+          - heading "Emma Rodriguez" [level=3] [ref=e2487]
+          - paragraph [ref=e2488]: Compliance Specialist
+          - paragraph [ref=e2489]: 10 years experience
+          - paragraph [ref=e2490]: Licensing & regulatory compliance
+    - generic [ref=e2492]:
+      - generic [ref=e2493]:
+        - heading "🏆 24/7 Expert Casino Support" [level=2] [ref=e2494]
+        - paragraph [ref=e2495]:
+          - text: Get professional help from certified casino experts. Multiple contact methods available with
+          - generic [ref=e2496]: guaranteed response times
+          - text: and multilingual support.
+      - generic [ref=e2498]:
+        - generic [ref=e2499]:
+          - generic [ref=e2500]: ⭐
+          - generic [ref=e2501]: 4.8/5
+          - generic [ref=e2502]: Average Rating
+        - generic [ref=e2503]:
+          - generic [ref=e2504]: ⚡
+          - generic [ref=e2505]: < 2 min
+          - generic [ref=e2506]: Avg Response
+        - generic [ref=e2507]:
+          - generic [ref=e2508]: 🌍
+          - generic [ref=e2509]: 6+ Supported
+          - generic [ref=e2510]: Languages
+        - generic [ref=e2511]:
+          - generic [ref=e2512]: 👥
+          - generic [ref=e2513]: 50+ Specialists
+          - generic [ref=e2514]: Expert Staff
+      - generic [ref=e2515]:
+        - generic [ref=e2516]:
+          - generic [ref=e2518]:
+            - generic [ref=e2519]:
+              - generic [ref=e2520]: 💬
+              - heading "Live Chat Support" [level=3] [ref=e2521]
+            - generic [ref=e2522]:
+              - generic [ref=e2523]: Rating
+              - generic [ref=e2524]: 4.9★
+          - generic [ref=e2525]:
+            - paragraph [ref=e2526]: Instant help from casino experts 24/7. Average response time under 60 seconds.
+            - generic [ref=e2527]:
+              - generic [ref=e2528]:
+                - generic [ref=e2529]: "Availability:"
+                - generic [ref=e2530]: 24/7
+              - generic [ref=e2531]:
+                - generic [ref=e2532]: "Response Time:"
+                - generic [ref=e2533]: < 60 seconds
+              - generic [ref=e2534]:
+                - generic [ref=e2535]: "Languages:"
+                - generic [ref=e2536]: "2"
+            - generic [ref=e2537]:
+              - heading "Supported Languages:" [level=4] [ref=e2538]
+              - generic [ref=e2539]:
+                - generic [ref=e2540]: English
+                - generic [ref=e2541]: French
+            - button "Contact Now" [ref=e2543] [cursor=pointer]
+        - generic [ref=e2544]:
+          - generic [ref=e2546]:
+            - generic [ref=e2547]:
+              - generic [ref=e2548]: 📧
+              - heading "Email Support" [level=3] [ref=e2549]
+            - generic [ref=e2550]:
+              - generic [ref=e2551]: Rating
+              - generic [ref=e2552]: 4.8★
+          - generic [ref=e2553]:
+            - paragraph [ref=e2554]: Detailed assistance for complex inquiries. Professional responses from certified experts.
+            - generic [ref=e2555]:
+              - generic [ref=e2556]:
+                - generic [ref=e2557]: "Availability:"
+                - generic [ref=e2558]: 24/7
+              - generic [ref=e2559]:
+                - generic [ref=e2560]: "Response Time:"
+                - generic [ref=e2561]: < 2 hours
+              - generic [ref=e2562]:
+                - generic [ref=e2563]: "Languages:"
+                - generic [ref=e2564]: "3"
+            - generic [ref=e2565]:
+              - heading "Supported Languages:" [level=4] [ref=e2566]
+              - generic [ref=e2567]:
+                - generic [ref=e2568]: English
+                - generic [ref=e2569]: French
+                - generic [ref=e2570]: Spanish
+            - button "Contact Now" [ref=e2572] [cursor=pointer]
+        - generic [ref=e2573]:
+          - generic [ref=e2575]:
+            - generic [ref=e2576]:
+              - generic [ref=e2577]: 📞
+              - heading "Phone Support" [level=3] [ref=e2578]
+            - generic [ref=e2579]:
+              - generic [ref=e2580]: Rating
+              - generic [ref=e2581]: 4.7★
+          - generic [ref=e2582]:
+            - paragraph [ref=e2583]: Direct line to casino specialists. Immediate assistance for urgent casino issues.
+            - generic [ref=e2584]:
+              - generic [ref=e2585]:
+                - generic [ref=e2586]: "Availability:"
+                - generic [ref=e2587]: 24/7
+              - generic [ref=e2588]:
+                - generic [ref=e2589]: "Response Time:"
+                - generic [ref=e2590]: Immediate
+              - generic [ref=e2591]:
+                - generic [ref=e2592]: "Languages:"
+                - generic [ref=e2593]: "2"
+            - generic [ref=e2594]:
+              - heading "Supported Languages:" [level=4] [ref=e2595]
+              - generic [ref=e2596]:
+                - generic [ref=e2597]: English
+                - generic [ref=e2598]: French
+            - button "Contact Now" [ref=e2600] [cursor=pointer]
+        - generic [ref=e2601]:
+          - generic [ref=e2603]:
+            - generic [ref=e2604]:
+              - generic [ref=e2605]: ❓
+              - heading "FAQ Database" [level=3] [ref=e2606]
+            - generic [ref=e2607]:
+              - generic [ref=e2608]: Rating
+              - generic [ref=e2609]: 4.6★
+          - generic [ref=e2610]:
+            - paragraph [ref=e2611]: Comprehensive answers to common questions. Self-service help available instantly.
+            - generic [ref=e2612]:
+              - generic [ref=e2613]:
+                - generic [ref=e2614]: "Availability:"
+                - generic [ref=e2615]: 24/7
+              - generic [ref=e2616]:
+                - generic [ref=e2617]: "Response Time:"
+                - generic [ref=e2618]: Instant
+              - generic [ref=e2619]:
+                - generic [ref=e2620]: "Languages:"
+                - generic [ref=e2621]: "4"
+            - generic [ref=e2622]:
+              - heading "Supported Languages:" [level=4] [ref=e2623]
+              - generic [ref=e2624]:
+                - generic [ref=e2625]: English
+                - generic [ref=e2626]: French
+                - generic [ref=e2627]: Spanish
+                - generic [ref=e2628]: German
+            - button "Contact Now" [ref=e2630] [cursor=pointer]
+        - generic [ref=e2631]:
+          - generic [ref=e2633]:
+            - generic [ref=e2634]:
+              - generic [ref=e2635]: 🎯
+              - heading "Casino Guidance" [level=3] [ref=e2636]
+            - generic [ref=e2637]:
+              - generic [ref=e2638]: Rating
+              - generic [ref=e2639]: 4.9★
+          - generic [ref=e2640]:
+            - paragraph [ref=e2641]: Expert advice on game selection, bonuses, and responsible gambling practices.
+            - generic [ref=e2642]:
+              - generic [ref=e2643]:
+                - generic [ref=e2644]: "Availability:"
+                - generic [ref=e2645]: 24/7
+              - generic [ref=e2646]:
+                - generic [ref=e2647]: "Response Time:"
+                - generic [ref=e2648]: < 5 minutes
+              - generic [ref=e2649]:
+                - generic [ref=e2650]: "Languages:"
+                - generic [ref=e2651]: "2"
+            - generic [ref=e2652]:
+              - heading "Supported Languages:" [level=4] [ref=e2653]
+              - generic [ref=e2654]:
+                - generic [ref=e2655]: English
+                - generic [ref=e2656]: French
+            - button "Contact Now" [ref=e2658] [cursor=pointer]
+        - generic [ref=e2659]:
+          - generic [ref=e2661]:
+            - generic [ref=e2662]:
+              - generic [ref=e2663]: 🛡️
+              - heading "Security Support" [level=3] [ref=e2664]
+            - generic [ref=e2665]:
+              - generic [ref=e2666]: Rating
+              - generic [ref=e2667]: 4.8★
+          - generic [ref=e2668]:
+            - paragraph [ref=e2669]: Account security, verification help, and fraud protection assistance.
+            - generic [ref=e2670]:
+              - generic [ref=e2671]:
+                - generic [ref=e2672]: "Availability:"
+                - generic [ref=e2673]: 24/7
+              - generic [ref=e2674]:
+                - generic [ref=e2675]: "Response Time:"
+                - generic [ref=e2676]: < 30 minutes
+              - generic [ref=e2677]:
+                - generic [ref=e2678]: "Languages:"
+                - generic [ref=e2679]: "2"
+            - generic [ref=e2680]:
+              - heading "Supported Languages:" [level=4] [ref=e2681]
+              - generic [ref=e2682]:
+                - generic [ref=e2683]: English
+                - generic [ref=e2684]: French
+            - button "Contact Now" [ref=e2686] [cursor=pointer]
+      - generic [ref=e2688]:
+        - heading "🚀 Need Help Choosing a Casino?" [level=3] [ref=e2689]
+        - paragraph [ref=e2690]: Our expert team is ready to help you find the perfect casino based on your preferences, budget, and gaming style.
+        - generic [ref=e2691]:
+          - button "💬 Chat with Expert" [ref=e2692] [cursor=pointer]
+          - link "View Top Casinos" [ref=e2693] [cursor=pointer]:
+            - /url: "#top-three"
+      - generic [ref=e2694]:
+        - generic [ref=e2695]: 🎓 Certified Experts
+        - generic [ref=e2696]: 🔒 Confidential Help
+        - generic [ref=e2697]: ⚡ Fast Response
+        - generic [ref=e2698]: 🌍 Multilingual
+    - generic [ref=e2701]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e2702]
+      - region "Frequently asked questions" [ref=e2704]:
+        - heading "Frequently asked questions" [level=2] [ref=e2705]
+        - generic [ref=e2706]:
+          - group [ref=e2707]
+          - group [ref=e2709]
+          - group [ref=e2711]
+    - generic [ref=e2715]:
+      - generic [ref=e2716]:
+        - generic [ref=e2717]: 🛑
+        - heading "Gamble Responsibly" [level=2] [ref=e2718]
+        - paragraph [ref=e2719]: Gambling should be fun. If it's not, we're here to help.
+      - generic [ref=e2720]:
+        - generic [ref=e2721]:
+          - generic [ref=e2722]: ⏰
+          - heading "Set Limits" [level=3] [ref=e2723]
+          - paragraph [ref=e2724]: Set deposit, loss, and time limits before you play. All our recommended casinos offer limit-setting tools.
+        - generic [ref=e2725]:
+          - generic [ref=e2726]: ⚠️
+          - heading "Know the Signs" [level=3] [ref=e2727]
+          - paragraph [ref=e2728]: Chasing losses, hiding gambling habits, or neglecting responsibilities? These are warning signs.
+        - generic [ref=e2729]:
+          - generic [ref=e2730]: 🤝
+          - heading "Get Help" [level=3] [ref=e2731]
+          - paragraph [ref=e2732]: Free, confidential support is available 24/7. You're not alone.
+      - generic [ref=e2733]:
+        - heading "Support Organizations" [level=3] [ref=e2734]
+        - generic [ref=e2735]:
+          - generic [ref=e2736]:
+            - generic [ref=e2737]:
+              - generic [ref=e2738]: 🇨🇦
+              - generic [ref=e2739]:
+                - heading "Canada" [level=4] [ref=e2740]
+                - link "Responsible Gambling Council" [ref=e2741] [cursor=pointer]:
+                  - /url: https://www.responsiblegambling.org
+            - generic [ref=e2742]:
+              - generic [ref=e2743]: 🇺🇸
+              - generic [ref=e2744]:
+                - heading "USA" [level=4] [ref=e2745]
+                - link "National Council on Problem Gambling" [ref=e2746] [cursor=pointer]:
+                  - /url: https://www.ncpgambling.org
+            - generic [ref=e2747]:
+              - generic [ref=e2748]: 🇬🇧
+              - generic [ref=e2749]:
+                - heading "UK" [level=4] [ref=e2750]
+                - link "BeGambleAware" [ref=e2751] [cursor=pointer]:
+                  - /url: https://www.begambleaware.org
+          - generic [ref=e2752]:
+            - generic [ref=e2753]:
+              - generic [ref=e2754]: 🌍
+              - generic [ref=e2755]:
+                - heading "International" [level=4] [ref=e2756]
+                - link "Gamblers Anonymous" [ref=e2757] [cursor=pointer]:
+                  - /url: https://www.gamblersanonymous.org
+            - generic [ref=e2758]:
+              - generic [ref=e2759]: 🔒
+              - generic [ref=e2760]:
+                - heading "Self-Exclusion" [level=4] [ref=e2761]
+                - link "GamStop (UK)" [ref=e2762] [cursor=pointer]:
+                  - /url: https://www.gamstop.co.uk
+            - generic [ref=e2763]:
+              - generic [ref=e2764]: 📞
+              - generic [ref=e2765]:
+                - heading "24/7 Helpline" [level=4] [ref=e2766]
+                - link "1-800-522-4700" [ref=e2767] [cursor=pointer]:
+                  - /url: tel:1-800-522-4700
+      - generic [ref=e2768]:
+        - heading "Remember:" [level=3] [ref=e2769]
+        - list [ref=e2770]:
+          - listitem [ref=e2771]:
+            - generic [ref=e2772]: ✓
+            - generic [ref=e2773]: Gambling is entertainment, not a way to make money
+          - listitem [ref=e2774]:
+            - generic [ref=e2775]: ✓
+            - generic [ref=e2776]: Never gamble with money you can't afford to lose
+          - listitem [ref=e2777]:
+            - generic [ref=e2778]: ✓
+            - generic [ref=e2779]: Set a budget and stick to it
+          - listitem [ref=e2780]:
+            - generic [ref=e2781]: ✓
+            - generic [ref=e2782]: Take regular breaks
+          - listitem [ref=e2783]:
+            - generic [ref=e2784]: ✓
+            - generic [ref=e2785]: Never chase losses
+          - listitem [ref=e2786]:
+            - generic [ref=e2787]: ✓
+            - generic [ref=e2788]: Don't gamble when upset or under the influence
+      - generic [ref=e2789]:
+        - paragraph [ref=e2790]: 🔞 You must be 18+ or 19+ (depending on region) to gamble
+        - paragraph [ref=e2791]: Underage gambling is illegal and harmful
+    - generic [ref=e2794]:
+      - generic [ref=e2795]:
+        - generic [ref=e2796]:
+          - generic [ref=e2797]: 📢
+          - generic [ref=e2798]:
+            - heading "Affiliate Disclosure" [level=2] [ref=e2799]
+            - paragraph [ref=e2800]: "Updated: January 2025"
+        - generic [ref=e2801]:
+          - paragraph [ref=e2802]:
+            - strong [ref=e2803]: We are an independent comparison service.
+            - text: We are not a gambling operator, nor do we own any of the casinos listed on this site.
+          - paragraph [ref=e2804]: This website contains affiliate links. When you click a "Play Now" button or casino link and register at that casino, we may receive a commission from the operator. This comes at no extra cost to you.
+          - generic [ref=e2805]:
+            - heading "Our Editorial Independence" [level=3] [ref=e2806]:
+              - img [ref=e2807]
+              - text: Our Editorial Independence
+            - paragraph [ref=e2809]: Affiliate partnerships do not influence our ratings or recommendations. All casinos are evaluated using our transparent rating methodology, which considers security, fairness, payout speed, bonuses, games, and support quality.
+          - generic [ref=e2810]:
+            - generic [ref=e2811]:
+              - heading "What We Promise:" [level=3] [ref=e2812]
+              - list [ref=e2813]:
+                - listitem [ref=e2814]:
+                  - generic [ref=e2815]: ✓
+                  - generic [ref=e2816]: Honest, unbiased reviews based on our methodology
+                - listitem [ref=e2817]:
+                  - generic [ref=e2818]: ✓
+                  - generic [ref=e2819]: Transparent rating weights published publicly
+                - listitem [ref=e2820]:
+                  - generic [ref=e2821]: ✓
+                  - generic [ref=e2822]: Regular updates to casino information
+                - listitem [ref=e2823]:
+                  - generic [ref=e2824]: ✓
+                  - generic [ref=e2825]: Clear disclosure of affiliate relationships
+            - generic [ref=e2826]:
+              - heading "How We Make Money:" [level=3] [ref=e2827]
+              - list [ref=e2828]:
+                - listitem [ref=e2829]:
+                  - generic [ref=e2830]: •
+                  - generic [ref=e2831]: Commissions when users sign up at casinos via our links
+                - listitem [ref=e2832]:
+                  - generic [ref=e2833]: •
+                  - generic [ref=e2834]: Revenue share based on player activity (not losses)
+                - listitem [ref=e2835]:
+                  - generic [ref=e2836]: •
+                  - generic [ref=e2837]: Fixed fees for featured placements (clearly marked)
+          - generic [ref=e2838]:
+            - heading "Important Legal Information:" [level=3] [ref=e2839]
+            - list [ref=e2840]:
+              - listitem [ref=e2841]:
+                - generic [ref=e2842]: ⚠️
+                - generic [ref=e2843]:
+                  - strong [ref=e2844]: We are not a gambling operator.
+                  - text: We do not accept deposits, process payments, or provide gambling services.
+              - listitem [ref=e2845]:
+                - generic [ref=e2846]: ⚠️
+                - generic [ref=e2847]:
+                  - strong [ref=e2848]: "Responsibility:"
+                  - text: When you click through to a casino, you enter into a direct relationship with that operator. We are not responsible for their actions, terms, or services.
+              - listitem [ref=e2849]:
+                - generic [ref=e2850]: ⚠️
+                - generic [ref=e2851]:
+                  - strong [ref=e2852]: "Regional Restrictions:"
+                  - text: Online gambling laws vary by jurisdiction. It is your responsibility to ensure gambling is legal in your location.
+              - listitem [ref=e2853]:
+                - generic [ref=e2854]: ⚠️
+                - generic [ref=e2855]:
+                  - strong [ref=e2856]: "Age Restriction:"
+                  - text: You must be 18+ or 19+ (depending on your region) to gamble. Underage gambling is illegal.
+          - paragraph [ref=e2858]:
+            - text: All outbound links to casinos are marked with
+            - code [ref=e2859]: rel="nofollow sponsored"
+            - text: attributes in compliance with search engine guidelines. Our affiliate relationships are disclosed in accordance with FTC guidelines and applicable regional regulations.
+          - generic [ref=e2860]:
+            - link "Our Rating Methodology" [ref=e2861] [cursor=pointer]:
+              - /url: /guides/how-we-rate
+              - img [ref=e2862] [cursor=pointer]
+              - text: Our Rating Methodology
+            - link "Terms & Conditions" [ref=e2864] [cursor=pointer]:
+              - /url: /legal/terms
+              - img [ref=e2865] [cursor=pointer]
+              - text: Terms & Conditions
+            - link "Privacy Policy" [ref=e2867] [cursor=pointer]:
+              - /url: /legal/privacy
+              - img [ref=e2868] [cursor=pointer]
+              - text: Privacy Policy
+      - paragraph [ref=e2870]:
+        - text: Questions about our affiliate practices? Contact us at
+        - link "disclosure@example.com" [ref=e2871] [cursor=pointer]:
+          - /url: mailto:disclosure@example.com
+    - generic [ref=e2873]:
+      - generic [ref=e2874]:
+        - heading "Trusted by Players at Top Casinos" [level=2] [ref=e2875]
+        - paragraph [ref=e2876]: Licensed operators we recommend
+      - generic [ref=e2878]:
+        - generic [ref=e2881]: SpinCasino
+        - generic [ref=e2884]: LuckySlots
+        - generic [ref=e2887]: MegaWin
+        - generic [ref=e2890]: RoyalBet
+        - generic [ref=e2893]: AceCasino
+        - generic [ref=e2896]: VegasOnline
+        - generic [ref=e2899]: GoldStrike
+        - generic [ref=e2902]: DiamondPlay
+      - generic [ref=e2903]:
+        - generic [ref=e2904]:
+          - img [ref=e2905]
+          - generic [ref=e2907]: All Licensed & Regulated
+        - generic [ref=e2908]:
+          - img [ref=e2909]
+          - generic [ref=e2911]: SSL Secured
+        - generic [ref=e2912]:
+          - img [ref=e2913]
+          - generic [ref=e2915]: Independently Reviewed
+        - generic [ref=e2916]:
+          - img [ref=e2917]
+          - generic [ref=e2919]: Fast Payouts
+      - paragraph [ref=e2921]:
+        - text: Brand logos are used for informational purposes only. Their display does not imply endorsement by the trademark holders. All casinos listed are independently operated and licensed. We are an affiliate comparison service and receive commissions from featured operators.
+        - link "Learn more" [ref=e2922] [cursor=pointer]:
+          - /url: "#disclosure"
+    - generic [ref=e2925]:
+      - generic [ref=e2926]:
+        - generic [ref=e2927]: 📧
+        - heading "Stay Updated" [level=2] [ref=e2928]
+        - paragraph [ref=e2929]: Get exclusive casino bonuses, new reviews, and industry news delivered to your inbox.
+      - generic [ref=e2930]:
+        - generic [ref=e2931]:
+          - generic [ref=e2932]:
+            - generic [ref=e2933]:
+              - generic [ref=e2934]: Email Address *
+              - textbox "Email Address *" [ref=e2935]
+            - generic [ref=e2936]:
+              - generic [ref=e2937]: Name (Optional)
+              - textbox "Name (Optional)" [ref=e2938]
+          - generic [ref=e2939]:
+            - generic [ref=e2940]: What interests you? (Optional)
+            - generic [ref=e2941]:
+              - generic [ref=e2942]:
+                - checkbox "Bonuses" [ref=e2943]
+                - generic [ref=e2944]: Bonuses
+              - generic [ref=e2945]:
+                - checkbox "New Casinos" [ref=e2946]
+                - generic [ref=e2947]: New Casinos
+              - generic [ref=e2948]:
+                - checkbox "Slot Games" [ref=e2949]
+                - generic [ref=e2950]: Slot Games
+              - generic [ref=e2951]:
+                - checkbox "Crypto" [ref=e2952]
+                - generic [ref=e2953]: Crypto
+          - generic [ref=e2954]:
+            - checkbox "I agree to receive email updates from BestCasinoPortal. You can unsubscribe at any time. Privacy Policy" [ref=e2955]
+            - generic [ref=e2956]:
+              - text: I agree to receive email updates from BestCasinoPortal. You can unsubscribe at any time.
+              - link "Privacy Policy" [ref=e2957] [cursor=pointer]:
+                - /url: /legal/privacy
+          - button "Subscribe for Free" [ref=e2958] [cursor=pointer]:
+            - img [ref=e2959] [cursor=pointer]
+            - text: Subscribe for Free
+        - generic [ref=e2961]:
+          - generic [ref=e2962]:
+            - img [ref=e2963]
+            - text: No spam, ever
+          - generic [ref=e2965]:
+            - img [ref=e2966]
+            - text: Unsubscribe anytime
+          - generic [ref=e2968]:
+            - img [ref=e2969]
+            - text: Weekly updates only
+      - paragraph [ref=e2971]: 📈 Join 10,000+ players staying ahead of the game
+  - contentinfo [ref=e2972]:
+    - generic [ref=e2973]:
+      - generic [ref=e2974]:
+        - generic [ref=e2975]:
+          - generic [ref=e2976]: 🎰 BestCasinoPortal
+          - paragraph [ref=e2977]: Expert casino reviews and ratings you can trust.
+          - generic [ref=e2978]: "Updated: September 2025"
+        - generic [ref=e2979]:
+          - heading "Best Casinos" [level=3] [ref=e2980]
+          - list [ref=e2981]:
+            - listitem [ref=e2982]:
+              - link "All Best Casinos" [ref=e2983] [cursor=pointer]:
+                - /url: /best
+            - listitem [ref=e2984]:
+              - link "Real Money Casinos" [ref=e2985] [cursor=pointer]:
+                - /url: /best/real-money
+            - listitem [ref=e2986]:
+              - link "Fast Withdrawal Casinos" [ref=e2987] [cursor=pointer]:
+                - /url: /best/fast-withdrawals
+            - listitem [ref=e2988]:
+              - link "Mobile Casinos" [ref=e2989] [cursor=pointer]:
+                - /url: /best/mobile
+            - listitem [ref=e2990]:
+              - link "Live Dealer Casinos" [ref=e2991] [cursor=pointer]:
+                - /url: /best/live-dealer
+        - generic [ref=e2992]:
+          - heading "Games & Bonuses" [level=3] [ref=e2993]
+          - list [ref=e2994]:
+            - listitem [ref=e2995]:
+              - link "Casino Games" [ref=e2996] [cursor=pointer]:
+                - /url: /games
+            - listitem [ref=e2997]:
+              - link "Slots" [ref=e2998] [cursor=pointer]:
+                - /url: /slots
+            - listitem [ref=e2999]:
+              - link "Free Games" [ref=e3000] [cursor=pointer]:
+                - /url: /free-games
+            - listitem [ref=e3001]:
+              - link "Casino Bonuses" [ref=e3002] [cursor=pointer]:
+                - /url: /bonuses
+            - listitem [ref=e3003]:
+              - link "Bonus Codes" [ref=e3004] [cursor=pointer]:
+                - /url: /bonus
+            - listitem [ref=e3005]:
+              - link "Live Dealer Games" [ref=e3006] [cursor=pointer]:
+                - /url: /live-dealer
+        - generic [ref=e3007]:
+          - heading "Reviews & Guides" [level=3] [ref=e3008]
+          - list [ref=e3009]:
+            - listitem [ref=e3010]:
+              - link "Casino Reviews" [ref=e3011] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e3012]:
+              - link "Casino Guides" [ref=e3013] [cursor=pointer]:
+                - /url: /guides
+            - listitem [ref=e3014]:
+              - link "How We Rate Casinos" [ref=e3015] [cursor=pointer]:
+                - /url: /guides/how-we-rate
+            - listitem [ref=e3016]:
+              - link "Payment Methods" [ref=e3017] [cursor=pointer]:
+                - /url: /payments
+            - listitem [ref=e3018]:
+              - link "Mobile Gaming Guide" [ref=e3019] [cursor=pointer]:
+                - /url: /mobile
+        - generic [ref=e3020]:
+          - heading "Regions" [level=3] [ref=e3021]
+          - list [ref=e3022]:
+            - listitem [ref=e3023]:
+              - link "All Regions" [ref=e3024] [cursor=pointer]:
+                - /url: /regions
+            - listitem [ref=e3025]:
+              - link "Ontario Casinos" [ref=e3026] [cursor=pointer]:
+                - /url: /regions/ontario
+            - listitem [ref=e3027]:
+              - link "Alberta Casinos" [ref=e3028] [cursor=pointer]:
+                - /url: /regions/alberta
+            - listitem [ref=e3029]:
+              - link "BC Casinos" [ref=e3030] [cursor=pointer]:
+                - /url: /regions/british-columbia
+        - generic [ref=e3031]:
+          - heading "Legal & Support" [level=3] [ref=e3032]
+          - list [ref=e3033]:
+            - listitem [ref=e3034]:
+              - link "Terms of Service" [ref=e3035] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=e3036]:
+              - link "Privacy Policy" [ref=e3037] [cursor=pointer]:
+                - /url: /legal/privacy
+            - listitem [ref=e3038]:
+              - link "About Us" [ref=e3039] [cursor=pointer]:
+                - /url: /legal/about
+            - listitem [ref=e3040]:
+              - link "Responsible Gambling" [ref=e3041] [cursor=pointer]:
+                - /url: /guides/responsible-gambling
+      - generic [ref=e3042]:
+        - paragraph [ref=e3043]:
+          - strong [ref=e3044]: "Affiliate Disclosure:"
+          - text: "[object Object]"
+        - paragraph [ref=e3045]: © 2025 BestCasinoPortal. All rights reserved. | 18+ only. Gamble responsibly.
+```

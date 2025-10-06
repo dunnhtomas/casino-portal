@@ -1,0 +1,302 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "🎰 Casino Portal" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - link "Reviews" [ref=e10] [cursor=pointer]:
+            - /url: /reviews
+            - text: Reviews
+            - img [ref=e11] [cursor=pointer]
+          - link "Best Casinos" [ref=e14] [cursor=pointer]:
+            - /url: /best
+            - text: Best Casinos
+            - img [ref=e15] [cursor=pointer]
+          - link "Bonuses Hot" [ref=e18] [cursor=pointer]:
+            - /url: /bonuses
+            - text: Bonuses
+            - generic [ref=e19] [cursor=pointer]: Hot
+            - img [ref=e20] [cursor=pointer]
+          - link "Games" [ref=e23] [cursor=pointer]:
+            - /url: /games
+            - text: Games
+            - img [ref=e24] [cursor=pointer]
+          - link "Guides" [ref=e27] [cursor=pointer]:
+            - /url: /guides
+            - text: Guides
+            - img [ref=e28] [cursor=pointer]
+          - link "Regions" [ref=e31] [cursor=pointer]:
+            - /url: /regions
+            - text: Regions
+            - img [ref=e32] [cursor=pointer]
+  - navigation [ref=e34]:
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - link "Home" [ref=e38] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e39]:
+        - img [ref=e40]
+        - link "Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e43]:
+        - img [ref=e44]
+        - link "Casino Reviews" [ref=e46] [cursor=pointer]:
+          - /url: /reviews
+      - listitem [ref=e47]:
+        - img [ref=e48]
+        - generic [ref=e50]: Winitbet
+  - main [ref=e51]:
+    - main [ref=e52]:
+      - article [ref=e53]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - img "Winit.Bet logo" [ref=e58]
+            - generic [ref=e59]:
+              - heading "Winit.Bet" [level=1] [ref=e60]
+              - paragraph [ref=e61]: Comprehensive Expert Review & Analysis
+              - generic [ref=e62]:
+                - generic [ref=e63]: Instant payouts
+                - generic [ref=e64]: Premium license
+                - generic [ref=e65]: Great game variety
+          - generic [ref=e66]:
+            - generic [ref=e68]:
+              - img [ref=e69]
+              - generic [ref=e71]: "9.6"
+            - paragraph [ref=e72]: Excellent Rating
+            - paragraph [ref=e73]: Overall Rating
+        - generic [ref=e74]:
+          - heading "Quick Facts & Overview" [level=2] [ref=e75]
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: 🛡️
+              - heading "Safety & Security" [level=3] [ref=e79]
+              - generic [ref=e80]:
+                - generic [ref=e81]:
+                  - generic [ref=e82]: License
+                  - generic [ref=e83]: Malta
+                - generic [ref=e84]:
+                  - generic [ref=e85]: Years Online
+                  - generic [ref=e86]: "4"
+                - generic [ref=e87]:
+                  - generic [ref=e88]: Security Score
+                  - generic [ref=e89]: 10/10
+            - generic [ref=e90]:
+              - generic [ref=e91]: 💳
+              - heading "Banking & Payments" [level=3] [ref=e92]
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Payment Methods
+                  - generic [ref=e96]: "8"
+                - generic [ref=e97]:
+                  - generic [ref=e98]: Payout Speed
+                  - generic [ref=e99]: 24h
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Payout Rating
+                  - generic [ref=e102]: 9.5/10
+            - generic [ref=e103]:
+              - generic [ref=e104]: 🎲
+              - heading "Games & Software" [level=3] [ref=e105]
+              - generic [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Game Providers
+                  - generic [ref=e109]: "5"
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Games Rating
+                  - generic [ref=e112]: 10/10
+                - generic [ref=e113]:
+                  - generic [ref=e114]: Live Dealer
+                  - generic [ref=e115]: "Yes"
+            - generic [ref=e116]:
+              - generic [ref=e117]: 🎁
+              - heading "Bonuses & Promotions" [level=3] [ref=e118]
+              - generic [ref=e119]:
+                - generic [ref=e120]:
+                  - generic [ref=e121]: Welcome Bonus
+                  - generic [ref=e122]: Available
+                - generic [ref=e123]:
+                  - generic [ref=e124]: Wagering
+                  - generic [ref=e125]: 35x
+                - generic [ref=e126]:
+                  - generic [ref=e127]: Bonus Rating
+                  - generic [ref=e128]: 9/10
+        - generic [ref=e129]:
+          - heading "Detailed Review Analysis" [level=2] [ref=e130]
+          - generic [ref=e131]:
+            - paragraph [ref=e132]: Our expert review team has thoroughly analyzed Winit.Bet to provide you with comprehensive insights about this online casino. Licensed under Malta, this casino offers a secure gaming environment with 5 game providers and 8 payment methods.
+            - generic [ref=e133]:
+              - heading "Welcome Bonus" [level=3] [ref=e134]:
+                - img [ref=e135]
+                - text: Welcome Bonus
+              - paragraph [ref=e137]: New players can enjoy €1000 + 150 FS with 35x wagering requirements.
+            - generic [ref=e138]:
+              - heading "Game Providers" [level=3] [ref=e139]
+              - generic [ref=e140]:
+                - generic [ref=e141]: Microgaming
+                - generic [ref=e142]: Evolution Gaming
+                - generic [ref=e143]: Red Tiger
+                - generic [ref=e144]: Quickspin
+                - generic [ref=e145]: ELK Studios
+        - generic [ref=e146]:
+          - heading "Rating Breakdown" [level=2] [ref=e147]
+          - generic [ref=e148]:
+            - paragraph [ref=e149]: Our comprehensive rating methodology evaluates multiple factors
+            - link "How We Rate →" [ref=e150] [cursor=pointer]:
+              - /url: /guides/how-we-rate
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - heading "security" [level=4] [ref=e153]
+              - generic [ref=e154]: 10/10
+              - generic [ref=e157]: Excellent
+            - generic [ref=e158]:
+              - heading "fairness" [level=4] [ref=e159]
+              - generic [ref=e160]: 9.9/10
+              - generic [ref=e163]: Excellent
+            - generic [ref=e164]:
+              - heading "payout" [level=4] [ref=e165]
+              - generic [ref=e166]: 9.5/10
+              - generic [ref=e169]: Excellent
+            - generic [ref=e170]:
+              - heading "Bonus Value" [level=4] [ref=e171]
+              - generic [ref=e172]: 9/10
+              - generic [ref=e175]: Excellent
+            - generic [ref=e176]:
+              - heading "games" [level=4] [ref=e177]
+              - generic [ref=e178]: 10/10
+              - generic [ref=e181]: Excellent
+            - generic [ref=e182]:
+              - heading "support" [level=4] [ref=e183]
+              - generic [ref=e184]: 9/10
+              - generic [ref=e187]: Excellent
+            - generic [ref=e188]:
+              - heading "reputation" [level=4] [ref=e189]
+              - generic [ref=e190]: 9.6/10
+              - generic [ref=e193]: Excellent
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e196]: 🎆
+            - heading "Ready to Play at Winit.Bet?" [level=3] [ref=e197]
+            - paragraph [ref=e198]: Join thousands of players enjoying great games and bonuses!
+          - generic [ref=e199]:
+            - link "Visit Winit.Bet →" [ref=e200] [cursor=pointer]:
+              - /url: https://trk.bestcasinoportal.com/winitbet-uk-au-ca-casino-bonus-review-bl
+              - img [ref=e201] [cursor=pointer]
+              - text: Visit Winit.Bet →
+              - img [ref=e203] [cursor=pointer]
+            - link "Compare More Casinos" [ref=e205] [cursor=pointer]:
+              - /url: /reviews
+              - img [ref=e206] [cursor=pointer]
+              - text: Compare More Casinos
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - img [ref=e211]
+              - generic [ref=e213]: Licensed & Regulated
+            - generic [ref=e214]:
+              - img [ref=e215]
+              - generic [ref=e217]: Secure Gaming
+            - generic [ref=e218]:
+              - img [ref=e219]
+              - generic [ref=e221]: Fair Play Certified
+  - contentinfo [ref=e222]:
+    - generic [ref=e223]:
+      - generic [ref=e224]:
+        - generic [ref=e225]:
+          - generic [ref=e226]: 🎰 BestCasinoPortal
+          - paragraph [ref=e227]: Expert casino reviews and ratings you can trust.
+          - generic [ref=e228]: "Updated: September 2025"
+        - generic [ref=e229]:
+          - heading "Best Casinos" [level=3] [ref=e230]
+          - list [ref=e231]:
+            - listitem [ref=e232]:
+              - link "All Best Casinos" [ref=e233] [cursor=pointer]:
+                - /url: /best
+            - listitem [ref=e234]:
+              - link "Real Money Casinos" [ref=e235] [cursor=pointer]:
+                - /url: /best/real-money
+            - listitem [ref=e236]:
+              - link "Fast Withdrawal Casinos" [ref=e237] [cursor=pointer]:
+                - /url: /best/fast-withdrawals
+            - listitem [ref=e238]:
+              - link "Mobile Casinos" [ref=e239] [cursor=pointer]:
+                - /url: /best/mobile
+            - listitem [ref=e240]:
+              - link "Live Dealer Casinos" [ref=e241] [cursor=pointer]:
+                - /url: /best/live-dealer
+        - generic [ref=e242]:
+          - heading "Games & Bonuses" [level=3] [ref=e243]
+          - list [ref=e244]:
+            - listitem [ref=e245]:
+              - link "Casino Games" [ref=e246] [cursor=pointer]:
+                - /url: /games
+            - listitem [ref=e247]:
+              - link "Slots" [ref=e248] [cursor=pointer]:
+                - /url: /slots
+            - listitem [ref=e249]:
+              - link "Free Games" [ref=e250] [cursor=pointer]:
+                - /url: /free-games
+            - listitem [ref=e251]:
+              - link "Casino Bonuses" [ref=e252] [cursor=pointer]:
+                - /url: /bonuses
+            - listitem [ref=e253]:
+              - link "Bonus Codes" [ref=e254] [cursor=pointer]:
+                - /url: /bonus
+            - listitem [ref=e255]:
+              - link "Live Dealer Games" [ref=e256] [cursor=pointer]:
+                - /url: /live-dealer
+        - generic [ref=e257]:
+          - heading "Reviews & Guides" [level=3] [ref=e258]
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "Casino Reviews" [ref=e261] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e262]:
+              - link "Casino Guides" [ref=e263] [cursor=pointer]:
+                - /url: /guides
+            - listitem [ref=e264]:
+              - link "How We Rate Casinos" [ref=e265] [cursor=pointer]:
+                - /url: /guides/how-we-rate
+            - listitem [ref=e266]:
+              - link "Payment Methods" [ref=e267] [cursor=pointer]:
+                - /url: /payments
+            - listitem [ref=e268]:
+              - link "Mobile Gaming Guide" [ref=e269] [cursor=pointer]:
+                - /url: /mobile
+        - generic [ref=e270]:
+          - heading "Regions" [level=3] [ref=e271]
+          - list [ref=e272]:
+            - listitem [ref=e273]:
+              - link "All Regions" [ref=e274] [cursor=pointer]:
+                - /url: /regions
+            - listitem [ref=e275]:
+              - link "Ontario Casinos" [ref=e276] [cursor=pointer]:
+                - /url: /regions/ontario
+            - listitem [ref=e277]:
+              - link "Alberta Casinos" [ref=e278] [cursor=pointer]:
+                - /url: /regions/alberta
+            - listitem [ref=e279]:
+              - link "BC Casinos" [ref=e280] [cursor=pointer]:
+                - /url: /regions/british-columbia
+        - generic [ref=e281]:
+          - heading "Legal & Support" [level=3] [ref=e282]
+          - list [ref=e283]:
+            - listitem [ref=e284]:
+              - link "Terms of Service" [ref=e285] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=e286]:
+              - link "Privacy Policy" [ref=e287] [cursor=pointer]:
+                - /url: /legal/privacy
+            - listitem [ref=e288]:
+              - link "About Us" [ref=e289] [cursor=pointer]:
+                - /url: /legal/about
+            - listitem [ref=e290]:
+              - link "Responsible Gambling" [ref=e291] [cursor=pointer]:
+                - /url: /guides/responsible-gambling
+      - generic [ref=e292]:
+        - paragraph [ref=e293]:
+          - strong [ref=e294]: "Affiliate Disclosure:"
+          - text: This site contains affiliate links. We may earn a commission if you click through and make a deposit. This doesn't affect our recommendations or reviews.
+        - paragraph [ref=e295]: © 2025 BestCasinoPortal. All rights reserved. | 18+ only. Gamble responsibly.
+```

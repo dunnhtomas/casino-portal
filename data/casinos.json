@@ -220,34 +220,24 @@
       "Massive game selection"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/unlimluck.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
-      "domain": "unlimluck.com",
-      "originalUrl": "/images/casinos/unlimluck.png",
-      "originalSource": "local-fallback",
-      "updatedAt": "2025-09-30T09:40:55.019Z",
+      "url": "/images/casinos/unlimluck.png",
+      "source": "local",
+      "slug": "unlimluck",
+      "updatedAt": "2025-10-05T21:03:15.000Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/unlimluck.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
-        },
-        {
-          "url": "https://cdn.brandfetch.io/unlimluck.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
-        },
-        {
           "url": "/images/casinos/unlimluck.png",
-          "source": "local-fallback",
-          "description": "Original local fallback image"
+          "source": "local-primary",
+          "description": "Local optimized logo"
         },
         {
           "url": "/images/casinos/default-casino.png",
           "source": "generic-fallback",
           "description": "Generic casino icon"
         }
-      ]
+      ],
+      "originalUrl": "https://cdn.brandfetch.io/unlimluck.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "originalSource": "brandfetch-api"
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/unlimluck-hb-casino-bonus-review-k6hz-v2",
@@ -473,7 +463,7 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://slotlair.co.uk/wp-content/uploads/2025/06/slot-lair-banner.png",
+      "url": "/images/casinos/slotlair.png",
       "source": "geo-aware-smart",
       "quality": "high",
       "dimensions": "274x80",
@@ -548,7 +538,7 @@
       "Mobile-optimized"
     ],
     "logo": {
-      "url": "https://sagaspins22.com/static/logo-F55pWukx.svg",
+      "url": "/images/casinos/sagaspins.png",
       "source": "direct",
       "quality": "high",
       "dimensions": "79x44",
@@ -625,7 +615,7 @@
       "Massive game selection"
     ],
     "logo": {
-      "url": "https://www.sambaslots.com/wp-content/uploads/2025/08/logo-sambaslots.svg",
+      "url": "/images/casinos/sambaslots.png",
       "source": "geo-aware-smart",
       "quality": "high",
       "dimensions": "100x46",
@@ -701,34 +691,24 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/willdsino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
-      "domain": "willdsino.com",
-      "originalUrl": "/images/casinos/willdsino.png",
-      "originalSource": "local-fallback",
-      "updatedAt": "2025-09-30T09:40:55.021Z",
+      "url": "/images/casinos/willdsino.png",
+      "source": "local",
+      "slug": "willdsino",
+      "updatedAt": "2025-10-05T21:03:15.000Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/willdsino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
-        },
-        {
-          "url": "https://cdn.brandfetch.io/willdsino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
-        },
-        {
           "url": "/images/casinos/willdsino.png",
-          "source": "local-fallback",
-          "description": "Original local fallback image"
+          "source": "local-primary",
+          "description": "Local optimized logo"
         },
         {
           "url": "/images/casinos/default-casino.png",
           "source": "generic-fallback",
           "description": "Generic casino icon"
         }
-      ]
+      ],
+      "originalUrl": "https://cdn.brandfetch.io/willdsino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "originalSource": "brandfetch-api"
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/willdsino-fr-es-it-da-casino-bonus-review-2c99-v2",
@@ -875,7 +855,7 @@
       "VIP program"
     ],
     "logo": {
-      "url": "https://www.skyhills.com/cdn/system/logos/c281faa8-1491-47f3-8d4d-6be43cb96db9.png?ts=1732544235339",
+      "url": "/images/casinos/skyhills.png",
       "source": "geo-aware-smart",
       "quality": "high",
       "dimensions": "800x800",
@@ -948,34 +928,24 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/wonthere.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
-      "domain": "wonthere.co.uk",
-      "originalUrl": "/images/casinos/wonthere.png",
-      "originalSource": "local-fallback",
-      "updatedAt": "2025-09-30T09:40:55.021Z",
+      "url": "/images/casinos/wonthere.png",
+      "source": "local",
+      "slug": "wonthere",
+      "updatedAt": "2025-10-05T21:03:15.000Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/wonthere.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
-        },
-        {
-          "url": "https://cdn.brandfetch.io/wonthere.co.uk?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
-        },
-        {
           "url": "/images/casinos/wonthere.png",
-          "source": "local-fallback",
-          "description": "Original local fallback image"
+          "source": "local-primary",
+          "description": "Local optimized logo"
         },
         {
           "url": "/images/casinos/default-casino.png",
           "source": "generic-fallback",
           "description": "Generic casino icon"
         }
-      ]
+      ],
+      "originalUrl": "https://cdn.brandfetch.io/wonthere.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
+      "originalSource": "brandfetch-api"
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/wonthere-uk-casino-bonus-review-8ry2-v2",
@@ -1444,13 +1414,29 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://logo.clearbit.com/myempire.com",
-      "source": "clearbit-api",
-      "quality": "medium",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "/images/casinos/my-empire.png",
+      "source": "local",
+      "domain": "myempire.com",
+      "originalUrl": "https://angryslots.com/wp-content/uploads/2023/08/My-Empire-Casino-Logo-Welcome-Offer-Angry-Slots.jpg",
+      "originalSource": "angryslots-direct",
+      "updatedAt": "2025-10-05T21:22:07.023Z",
+      "fallbackChain": [
+        {
+          "url": "/images/casinos/my-empire.png",
+          "source": "local",
+          "description": "Local My Empire logo"
+        },
+        {
+          "url": "https://angryslots.com/wp-content/uploads/2023/08/My-Empire-Casino-Logo-Welcome-Offer-Angry-Slots.jpg",
+          "source": "angryslots-direct",
+          "description": "Angryslots direct logo"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/my-empire-casino-es-it-fr-casino-bonus-review-0w",
@@ -1601,13 +1587,29 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://spincastle.com/wp-content/uploads/2025/03/SPINCASTLEE-unscreen.gif",
-      "source": "geo-aware-smart",
-      "quality": "high",
-      "dimensions": "400x225",
-      "geoAware": true,
-      "country": "CA",
-      "brandRelevance": 15
+      "url": "/images/casinos/spincastle.png",
+      "source": "local",
+      "domain": "spincastle.com",
+      "originalUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGcL13LI3FcorbGtG8kDbHjtiL7-NejrOeQ&s",
+      "originalSource": "google-images-direct",
+      "updatedAt": "2025-10-05T21:22:15.000Z",
+      "fallbackChain": [
+        {
+          "url": "/images/casinos/spincastle.png",
+          "source": "local",
+          "description": "Local SpinCastle logo"
+        },
+        {
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBGcL13LI3FcorbGtG8kDbHjtiL7-NejrOeQ&s",
+          "source": "google-images-direct",
+          "description": "Google Images direct logo"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/spincastle-uk-casino-bonus-review-kg3s-v2",
@@ -1678,22 +1680,22 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/romancasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/roman.png",
+      "source": "local",
       "domain": "romancasino.com",
-      "originalUrl": "https://www.google.com/s2/favicons?domain=romancasino.com&sz=64",
-      "originalSource": "google-favicon-fallback",
-      "updatedAt": "2025-09-30T09:40:55.023Z",
+      "originalUrl": "https://www.playcasino.com/img/casinos/roman-casino-logo_102_760.png",
+      "originalSource": "playcasino-direct",
+      "updatedAt": "2025-10-05T21:09:17.264Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/romancasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
+          "url": "/images/casinos/roman.png",
+          "source": "local",
+          "description": "Local Roman Casino logo"
         },
         {
-          "url": "https://cdn.brandfetch.io/romancasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "https://www.playcasino.com/img/casinos/roman-casino-logo_102_760.png",
+          "source": "playcasino-direct",
+          "description": "Playcasino direct logo"
         },
         {
           "url": "/images/casinos/default-casino.png",
@@ -1844,22 +1846,22 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/rollxo.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/rollxo.png",
+      "source": "local",
       "domain": "rollxo.com",
-      "originalUrl": "https://www.google.com/s2/favicons?domain=rollxo.com&sz=64",
-      "originalSource": "google-favicon-fallback",
-      "updatedAt": "2025-09-30T09:40:55.024Z",
+      "originalUrl": "https://s3-eu-west-1.amazonaws.com/tpd/logos/6616537f25b2c4f337b2a1ea/0x0.png",
+      "originalSource": "tpd-aws-direct",
+      "updatedAt": "2025-10-05T21:06:22.427Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/rollxo.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
+          "url": "/images/casinos/rollxo.png",
+          "source": "local",
+          "description": "Local RollXO logo"
         },
         {
-          "url": "https://cdn.brandfetch.io/rollxo.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "https://s3-eu-west-1.amazonaws.com/tpd/logos/6616537f25b2c4f337b2a1ea/0x0.png",
+          "source": "tpd-aws-direct",
+          "description": "TPD AWS direct logo"
         },
         {
           "url": "/images/casinos/default-casino.png",
@@ -2099,13 +2101,29 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://logo.clearbit.com/malinacasino.com",
-      "source": "clearbit-api",
-      "quality": "medium",
-      "dimensions": "unknown",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "/images/casinos/malina.png",
+      "source": "local",
+      "domain": "malinacasino.com",
+      "originalUrl": "https://www.aussiecasinos.com/storage/1201/conversions/Malina-Casino-Logo-preview.jpg",
+      "originalSource": "aussiecasinos-direct",
+      "updatedAt": "2025-10-05T21:22:19.220Z",
+      "fallbackChain": [
+        {
+          "url": "/images/casinos/malina.png",
+          "source": "local",
+          "description": "Local Malina Casino logo"
+        },
+        {
+          "url": "https://www.aussiecasinos.com/storage/1201/conversions/Malina-Casino-Logo-preview.jpg",
+          "source": "aussiecasinos-direct",
+          "description": "Aussie Casinos direct logo"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/malina-casino-es-de-gr-casino-bonus-review-yo",
@@ -2254,22 +2272,22 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/jet4bet.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/jet4bet.png",
+      "source": "local",
       "domain": "jet4bet.co.uk",
-      "originalUrl": "https://www.google.com/s2/favicons?domain=jet4bet.co.uk&sz=64",
-      "originalSource": "google-favicon-fallback",
-      "updatedAt": "2025-09-30T09:40:55.025Z",
+      "originalUrl": "https://cdn.irishluck.ie/filters:format(webp)/fit-in/259x259/1739269602/jet4bet-logo.png",
+      "originalSource": "irishluck-cdn-direct",
+      "updatedAt": "2025-10-05T21:06:26.759Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/jet4bet.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
+          "url": "/images/casinos/jet4bet.png",
+          "source": "local",
+          "description": "Local Jet4Bet logo"
         },
         {
-          "url": "https://cdn.brandfetch.io/jet4bet.co.uk?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "https://cdn.irishluck.ie/filters:format(webp)/fit-in/259x259/1739269602/jet4bet-logo.png",
+          "source": "irishluck-cdn-direct",
+          "description": "Irish Luck CDN direct logo"
         },
         {
           "url": "/images/casinos/default-casino.png",
@@ -2667,22 +2685,22 @@
       "Great game variety"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/londoncasino.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/london.png",
+      "source": "local",
       "domain": "londoncasino.co.uk",
-      "originalUrl": "https://www.google.com/s2/favicons?domain=londoncasino.co.uk&sz=64",
-      "originalSource": "google-favicon-fallback",
-      "updatedAt": "2025-09-30T09:40:55.028Z",
+      "originalUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTT-zsvZodOpu6hlRUSVt0vACNrwVZPuMOmw&s",
+      "originalSource": "google-images-direct",
+      "updatedAt": "2025-10-05T21:10:40.000Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/londoncasino.co.uk?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
+          "url": "/images/casinos/london.png",
+          "source": "local",
+          "description": "Local London Casino logo"
         },
         {
-          "url": "https://cdn.brandfetch.io/londoncasino.co.uk?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTT-zsvZodOpu6hlRUSVt0vACNrwVZPuMOmw&s",
+          "source": "google-images-direct",
+          "description": "Google Images direct logo"
         },
         {
           "url": "/images/casinos/default-casino.png",
@@ -2758,7 +2776,7 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://cms-cdn.vegasnova-tec.com/vegasnova-cms/logo_M_4663880080_7a0e345a9f.svg",
+      "url": "/images/casinos/vegasnova.png",
       "source": "geo-aware-smart",
       "quality": "high",
       "dimensions": "168x40",
@@ -2833,22 +2851,22 @@
       "Mobile app"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/winshark.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/winshark.png",
+      "source": "local",
       "domain": "winshark.com",
-      "originalUrl": "https://www.google.com/s2/favicons?domain=winshark.com&sz=64",
-      "originalSource": "google-favicon-fallback",
-      "updatedAt": "2025-09-30T09:40:55.028Z",
+      "originalUrl": "https://winshark.com/assets/images/logo-bg.png",
+      "originalSource": "winshark-direct",
+      "updatedAt": "2025-10-05T21:06:30.503Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/winshark.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
+          "url": "/images/casinos/winshark.png",
+          "source": "local",
+          "description": "Local Winshark logo"
         },
         {
-          "url": "https://cdn.brandfetch.io/winshark.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "https://winshark.com/assets/images/logo-bg.png",
+          "source": "winshark-direct",
+          "description": "Winshark direct logo"
         },
         {
           "url": "/images/casinos/default-casino.png",
@@ -3555,22 +3573,22 @@
       "VIP program"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/se.needforspeedcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/needforspin.png",
+      "source": "local",
       "domain": "se.needforspeedcasino.com",
-      "originalUrl": "/images/casinos/needforspin-se.png",
-      "originalSource": "local-fallback",
-      "updatedAt": "2025-09-30T09:40:55.03Z",
+      "originalUrl": "https://s3-eu-west-1.amazonaws.com/tpd/logos/63ff6433e156a2c5d7f0bd70/0x0.png",
+      "originalSource": "tpd-aws-direct",
+      "updatedAt": "2025-10-05T21:10:33.952Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/se.needforspeedcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
+          "url": "/images/casinos/needforspin.png",
+          "source": "local",
+          "description": "Local Need For Spin logo"
         },
         {
-          "url": "https://cdn.brandfetch.io/se.needforspeedcasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "https://s3-eu-west-1.amazonaws.com/tpd/logos/63ff6433e156a2c5d7f0bd70/0x0.png",
+          "source": "tpd-aws-direct",
+          "description": "TPD AWS direct logo"
         },
         {
           "url": "/images/casinos/needforspin-se.png",
@@ -3884,22 +3902,22 @@
       "Mobile-optimized"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/posido.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/posido.png",
+      "source": "local",
       "domain": "posido.com",
-      "originalUrl": "https://www.google.com/s2/favicons?domain=posido.com&sz=64",
-      "originalSource": "google-favicon-fallback",
-      "updatedAt": "2025-09-30T09:40:55.033Z",
+      "originalUrl": "https://posido.com/assets/images/logo.png",
+      "originalSource": "posido-direct",
+      "updatedAt": "2025-10-05T21:06:34.435Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/posido.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
+          "url": "/images/casinos/posido.png",
+          "source": "local",
+          "description": "Local Posido logo"
         },
         {
-          "url": "https://cdn.brandfetch.io/posido.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "https://posido.com/assets/images/logo.png",
+          "source": "posido-direct",
+          "description": "Posido direct logo"
         },
         {
           "url": "/images/casinos/default-casino.png",
@@ -3970,22 +3988,22 @@
       "Mobile-optimized"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/luckywandcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/wand.png",
+      "source": "local",
       "domain": "luckywandcasino.com",
-      "originalUrl": "/images/casinos/lucky-wand.png",
-      "originalSource": "local-fallback",
-      "updatedAt": "2025-09-30T09:40:55.033Z",
+      "originalUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaTkwkfBXQBpkCrNlfAzfFOxln1CRaswSHOA&s",
+      "originalSource": "google-images-direct",
+      "updatedAt": "2025-10-05T21:16:45.000Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/luckywandcasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
+          "url": "/images/casinos/wand.png",
+          "source": "local",
+          "description": "Local Lucky Wand logo"
         },
         {
-          "url": "https://cdn.brandfetch.io/luckywandcasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaTkwkfBXQBpkCrNlfAzfFOxln1CRaswSHOA&s",
+          "source": "google-images-direct",
+          "description": "Google Images direct logo"
         },
         {
           "url": "/images/casinos/lucky-wand.png",
@@ -4145,22 +4163,22 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/klikkicasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/klikki.png",
+      "source": "local",
       "domain": "klikkicasino.com",
       "originalUrl": "https://www.google.com/s2/favicons?domain=klikkicasino.com&sz=64",
       "originalSource": "google-favicon-fallback",
-      "updatedAt": "2025-09-30T09:40:55.035Z",
+      "updatedAt": "2025-10-05T21:17:00.000Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/klikkicasino.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
+          "url": "/images/casinos/klikki.png",
+          "source": "local",
+          "description": "Local Klikki Casino logo"
         },
         {
-          "url": "https://cdn.brandfetch.io/klikkicasino.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "https://www.google.com/s2/favicons?domain=klikkicasino.com&sz=64",
+          "source": "google-favicon-fallback",
+          "description": "Google favicon fallback"
         },
         {
           "url": "/images/casinos/default-casino.png",
@@ -4388,7 +4406,7 @@
       "Mobile-optimized"
     ],
     "logo": {
-      "url": "https://www.spinsdeluxe.com/images/spinsdeluxe//logo.png",
+      "url": "/images/casinos/spinsdeluxe.png",
       "source": "direct",
       "quality": "high",
       "dimensions": "600x218",
@@ -4693,22 +4711,17 @@
       "Live dealer games"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/ultimluck.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/ultimluck.png",
+      "source": "local",
       "domain": "ultimluck.com",
       "originalUrl": "/images/casinos/ultimluck-casino.png",
       "originalSource": "local-fallback",
-      "updatedAt": "2025-09-30T09:40:55.036Z",
+      "updatedAt": "2025-10-05T21:17:15.000Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/ultimluck.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
-        },
-        {
-          "url": "https://cdn.brandfetch.io/ultimluck.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "/images/casinos/ultimluck.png",
+          "source": "local",
+          "description": "Local Ultimluck Casino logo"
         },
         {
           "url": "/images/casinos/ultimluck-casino.png",
@@ -4789,13 +4802,29 @@
       "Crypto-friendly"
     ],
     "logo": {
-      "url": "https://d3tmpsuhcgf0q8.cloudfront.net/Slots%20Islands/logo/Slots%20Islands%20animation.gif",
-      "source": "direct",
-      "quality": "high",
-      "dimensions": "606x260",
-      "geoAware": false,
-      "country": "unknown",
-      "brandRelevance": 0
+      "url": "/images/casinos/slots.png",
+      "source": "local",
+      "domain": "slotsislands.com",
+      "originalUrl": "https://d3tmpsuhcgf0q8.cloudfront.net/Slots%20Islands/logo/Slots%20Islands%20animation.gif",
+      "originalSource": "cloudfront-direct",
+      "updatedAt": "2025-10-05T21:22:45.000Z",
+      "fallbackChain": [
+        {
+          "url": "/images/casinos/slots.png",
+          "source": "local",
+          "description": "Local Slots Islands logo"
+        },
+        {
+          "url": "https://d3tmpsuhcgf0q8.cloudfront.net/Slots%20Islands/logo/Slots%20Islands%20animation.gif",
+          "source": "cloudfront-direct",
+          "description": "CloudFront direct logo"
+        },
+        {
+          "url": "/images/casinos/default-casino.png",
+          "source": "generic-fallback",
+          "description": "Generic casino icon"
+        }
+      ]
     },
     "affiliate": {
       "link": "https://trk.bestcasinoportal.com/slots-islands-uk-de-fr-casino-bonus-review-26",
@@ -4864,22 +4893,22 @@
       "Crypto-friendly"
     ],
     "logo": {
-      "url": "https://cdn.brandfetch.io/richroyal.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-      "source": "brandfetch-api",
+      "url": "/images/casinos/royal.png",
+      "source": "local",
       "domain": "richroyal.com",
       "originalUrl": "https://www.google.com/s2/favicons?domain=richroyal.com&sz=64",
       "originalSource": "google-favicon-fallback",
-      "updatedAt": "2025-09-30T09:40:55.036Z",
+      "updatedAt": "2025-10-05T21:17:30.000Z",
       "fallbackChain": [
         {
-          "url": "https://cdn.brandfetch.io/richroyal.com?c=1idIddY-Tpnlw76kxJR&fallback=transparent&w=128&h=64",
-          "source": "brandfetch-api",
-          "description": "Primary Brandfetch logo"
+          "url": "/images/casinos/royal.png",
+          "source": "local",
+          "description": "Local Rich Royal logo"
         },
         {
-          "url": "https://cdn.brandfetch.io/richroyal.com?c=1idIddY-Tpnlw76kxJR&type=icon&fallback=lettermark&w=128&h=64",
-          "source": "brandfetch-lettermark",
-          "description": "Brandfetch lettermark fallback"
+          "url": "https://www.google.com/s2/favicons?domain=richroyal.com&sz=64",
+          "source": "google-favicon-fallback",
+          "description": "Google favicon fallback"
         },
         {
           "url": "/images/casinos/default-casino.png",

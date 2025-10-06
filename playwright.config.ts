@@ -1,49 +1,49 @@
 import { defineConfig, devices } from '@playwright/test';
 
 /**
- * Advanced Playwright Configuration for Casino Portal
- * Features: 20 workers, smart error handling, comprehensive reporting
+ * Smart Playwright Configuration for 2000+ Page Testing
+ * Features: 16 workers, max 5 failures fail-fast, comprehensive Astro+Tailwind verification
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
-  /* OPTIMIZED parallel workers for Docker - 6 workers */
-  workers: process.env.CI ? 4 : 6,
-  /* Increased timeout for Docker warmup - 45s per test */
-  timeout: 45000,
-  /* Global timeout - 15 minutes total */
-  globalTimeout: 900000,
-  /* Fast assertion timeout - 10s */
-  expect: { timeout: 10000 },
+  /* 16 workers for maximum parallel execution as requested */
+  workers: 16,
+  /* 60 second timeout per test for thorough verification */
+  timeout: 60000,
+  /* Global timeout - 30 minutes total */
+  globalTimeout: 30 * 60 * 1000,
+  /* Fast assertion timeout - 15s */
+  expect: { timeout: 15000 },
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
-  /* NO RETRIES for speed - fail fast */
-  retries: 0,
-  /* MAX FAILURES - Stop after 5 failures */
+  /* Retry only on CI */
+  retries: process.env.CI ? 2 : 0,
+  /* MAX FAILURES - Stop after 5 failures as requested */
   maxFailures: 5,
-  /* FAST reporter configuration */
+  /* Comprehensive reporter configuration */
   reporter: [
-    ['list'], // Simple console output
-    ['json', { outputFile: 'test-results/smart-audit.json' }],
+    ['list'], // Real-time console output
+    ['json', { outputFile: 'test-results/comprehensive-audit.json' }],
     ['html', { outputFolder: 'test-results/html-report', open: 'never' }]
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: 'http://localhost:3000',
-    /* NO trace for speed */
-    trace: 'off',
-    /* Take screenshot on failure only */
+    /* Base URL for live website testing */
+    baseURL: 'https://bestcasinopo.vps.webdock.cloud',
+    /* Collect trace when retrying the failed test */
+    trace: 'on-first-retry',
+    /* Take screenshot on failure */
     screenshot: 'only-on-failure',
-    /* NO video for speed */
-    video: 'off',
-    /* FAST timeouts - BALANCED for Docker */
-    actionTimeout: 10000,
-    navigationTimeout: 30000, // Increased for Docker container warmup
+    /* Video recording for failures */
+    video: 'retain-on-failure',
+    /* Balanced timeouts for live website testing */
+    actionTimeout: 30000,
+    navigationTimeout: 60000,
     /* Enhanced user agent for testing */
-    userAgent: 'CasinoPortal-TestBot/1.0 Playwright'
+    userAgent: 'CasinoPortal-SmartBot/1.0 Playwright-16Workers'
   },
 
   /* Configure projects for major browsers */
@@ -52,40 +52,18 @@ export default defineConfig({
       name: 'chromium',
       use: { 
         ...devices['Desktop Chrome'],
-        /* SPEED OPTIMIZATIONS */
+        /* Performance optimizations for live testing */
         launchOptions: {
-          args: ['--disable-dev-shm-usage', '--disable-blink-features=AutomationControlled']
+          args: [
+            '--disable-dev-shm-usage', 
+            '--disable-blink-features=AutomationControlled',
+            '--no-first-run',
+            '--disable-background-timer-throttling',
+            '--disable-backgrounding-occluded-windows',
+            '--disable-renderer-backgrounding'
+          ]
         }
       },
     },
-
-    /* Disabled for speed - uncomment if needed
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
-
-    {
-      name: 'Mobile Chrome',
-      use: { ...devices['Pixel 5'] },
-    },
-    {
-      name: 'Mobile Safari',
-      use: { ...devices['iPhone 12'] },
-    },
-    */
   ],
-
-  /* Run your local dev server before starting the tests */
-  // webServer: {
-  //   command: 'npm run dev',
-  //   url: 'http://localhost:3000',
-  //   reuseExistingServer: !process.env.CI,
-  //   timeout: 120000,
-  // },
 });

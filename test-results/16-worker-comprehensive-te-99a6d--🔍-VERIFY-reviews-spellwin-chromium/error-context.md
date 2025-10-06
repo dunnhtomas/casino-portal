@@ -1,0 +1,303 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "🎰 Casino Portal" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - link "Reviews" [ref=e10] [cursor=pointer]:
+            - /url: /reviews
+            - text: Reviews
+            - img [ref=e11] [cursor=pointer]
+          - link "Best Casinos" [ref=e14] [cursor=pointer]:
+            - /url: /best
+            - text: Best Casinos
+            - img [ref=e15] [cursor=pointer]
+          - link "Bonuses Hot" [ref=e18] [cursor=pointer]:
+            - /url: /bonuses
+            - text: Bonuses
+            - generic [ref=e19] [cursor=pointer]: Hot
+            - img [ref=e20] [cursor=pointer]
+          - link "Games" [ref=e23] [cursor=pointer]:
+            - /url: /games
+            - text: Games
+            - img [ref=e24] [cursor=pointer]
+          - link "Guides" [ref=e27] [cursor=pointer]:
+            - /url: /guides
+            - text: Guides
+            - img [ref=e28] [cursor=pointer]
+          - link "Regions" [ref=e31] [cursor=pointer]:
+            - /url: /regions
+            - text: Regions
+            - img [ref=e32] [cursor=pointer]
+  - navigation [ref=e34]:
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - link "Home" [ref=e38] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e39]:
+        - img [ref=e40]
+        - link "Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e43]:
+        - img [ref=e44]
+        - link "Casino Reviews" [ref=e46] [cursor=pointer]:
+          - /url: /reviews
+      - listitem [ref=e47]:
+        - img [ref=e48]
+        - generic [ref=e50]: Spellwin
+  - main [ref=e51]:
+    - main [ref=e52]:
+      - article [ref=e53]:
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - img "SpellWin logo" [ref=e58]
+            - generic [ref=e59]:
+              - heading "SpellWin" [level=1] [ref=e60]
+              - paragraph [ref=e61]: Comprehensive Expert Review & Analysis
+              - generic [ref=e62]:
+                - generic [ref=e63]: Fast payouts
+                - generic [ref=e64]: Premium license
+                - generic [ref=e65]: Great game variety
+          - generic [ref=e66]:
+            - generic [ref=e68]:
+              - img [ref=e69]
+              - generic [ref=e71]: "9.6"
+            - paragraph [ref=e72]: Excellent Rating
+            - paragraph [ref=e73]: Overall Rating
+        - generic [ref=e74]:
+          - heading "Quick Facts & Overview" [level=2] [ref=e75]
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: 🛡️
+              - heading "Safety & Security" [level=3] [ref=e79]
+              - generic [ref=e80]:
+                - generic [ref=e81]:
+                  - generic [ref=e82]: License
+                  - generic [ref=e83]: Malta
+                - generic [ref=e84]:
+                  - generic [ref=e85]: Years Online
+                  - generic [ref=e86]: "4"
+                - generic [ref=e87]:
+                  - generic [ref=e88]: Security Score
+                  - generic [ref=e89]: 10/10
+            - generic [ref=e90]:
+              - generic [ref=e91]: 💳
+              - heading "Banking & Payments" [level=3] [ref=e92]
+              - generic [ref=e93]:
+                - generic [ref=e94]:
+                  - generic [ref=e95]: Payment Methods
+                  - generic [ref=e96]: "6"
+                - generic [ref=e97]:
+                  - generic [ref=e98]: Payout Speed
+                  - generic [ref=e99]: 24h
+                - generic [ref=e100]:
+                  - generic [ref=e101]: Payout Rating
+                  - generic [ref=e102]: 9.5/10
+            - generic [ref=e103]:
+              - generic [ref=e104]: 🎲
+              - heading "Games & Software" [level=3] [ref=e105]
+              - generic [ref=e106]:
+                - generic [ref=e107]:
+                  - generic [ref=e108]: Game Providers
+                  - generic [ref=e109]: "6"
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Games Rating
+                  - generic [ref=e112]: 10/10
+                - generic [ref=e113]:
+                  - generic [ref=e114]: Live Dealer
+                  - generic [ref=e115]: "Yes"
+            - generic [ref=e116]:
+              - generic [ref=e117]: 🎁
+              - heading "Bonuses & Promotions" [level=3] [ref=e118]
+              - generic [ref=e119]:
+                - generic [ref=e120]:
+                  - generic [ref=e121]: Welcome Bonus
+                  - generic [ref=e122]: Available
+                - generic [ref=e123]:
+                  - generic [ref=e124]: Wagering
+                  - generic [ref=e125]: 35x
+                - generic [ref=e126]:
+                  - generic [ref=e127]: Bonus Rating
+                  - generic [ref=e128]: 9/10
+        - generic [ref=e129]:
+          - heading "Detailed Review Analysis" [level=2] [ref=e130]
+          - generic [ref=e131]:
+            - paragraph [ref=e132]: Our expert review team has thoroughly analyzed SpellWin to provide you with comprehensive insights about this online casino. Licensed under Malta, this casino offers a secure gaming environment with 6 game providers and 6 payment methods.
+            - generic [ref=e133]:
+              - heading "Welcome Bonus" [level=3] [ref=e134]:
+                - img [ref=e135]
+                - text: Welcome Bonus
+              - paragraph [ref=e137]: New players can enjoy €600 + 120 FS with 35x wagering requirements.
+            - generic [ref=e138]:
+              - heading "Game Providers" [level=3] [ref=e139]
+              - generic [ref=e140]:
+                - generic [ref=e141]: NetEnt
+                - generic [ref=e142]: Microgaming
+                - generic [ref=e143]: Evolution Gaming
+                - generic [ref=e144]: Play'n GO
+                - generic [ref=e145]: Pragmatic Play
+                - generic [ref=e146]: Quickspin
+        - generic [ref=e147]:
+          - heading "Rating Breakdown" [level=2] [ref=e148]
+          - generic [ref=e149]:
+            - paragraph [ref=e150]: Our comprehensive rating methodology evaluates multiple factors
+            - link "How We Rate →" [ref=e151] [cursor=pointer]:
+              - /url: /guides/how-we-rate
+          - generic [ref=e152]:
+            - generic [ref=e153]:
+              - heading "security" [level=4] [ref=e154]
+              - generic [ref=e155]: 10/10
+              - generic [ref=e158]: Excellent
+            - generic [ref=e159]:
+              - heading "fairness" [level=4] [ref=e160]
+              - generic [ref=e161]: 9.9/10
+              - generic [ref=e164]: Excellent
+            - generic [ref=e165]:
+              - heading "payout" [level=4] [ref=e166]
+              - generic [ref=e167]: 9.5/10
+              - generic [ref=e170]: Excellent
+            - generic [ref=e171]:
+              - heading "Bonus Value" [level=4] [ref=e172]
+              - generic [ref=e173]: 9/10
+              - generic [ref=e176]: Excellent
+            - generic [ref=e177]:
+              - heading "games" [level=4] [ref=e178]
+              - generic [ref=e179]: 10/10
+              - generic [ref=e182]: Excellent
+            - generic [ref=e183]:
+              - heading "support" [level=4] [ref=e184]
+              - generic [ref=e185]: 9/10
+              - generic [ref=e188]: Excellent
+            - generic [ref=e189]:
+              - heading "reputation" [level=4] [ref=e190]
+              - generic [ref=e191]: 9.7/10
+              - generic [ref=e194]: Excellent
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - generic [ref=e197]: 🎆
+            - heading "Ready to Play at SpellWin?" [level=3] [ref=e198]
+            - paragraph [ref=e199]: Join thousands of players enjoying great games and bonuses!
+          - generic [ref=e200]:
+            - link "Visit SpellWin →" [ref=e201] [cursor=pointer]:
+              - /url: https://trk.bestcasinoportal.com/spellwin-de-casino-bonus-review-gs3e-v2
+              - img [ref=e202] [cursor=pointer]
+              - text: Visit SpellWin →
+              - img [ref=e204] [cursor=pointer]
+            - link "Compare More Casinos" [ref=e206] [cursor=pointer]:
+              - /url: /reviews
+              - img [ref=e207] [cursor=pointer]
+              - text: Compare More Casinos
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - img [ref=e212]
+              - generic [ref=e214]: Licensed & Regulated
+            - generic [ref=e215]:
+              - img [ref=e216]
+              - generic [ref=e218]: Secure Gaming
+            - generic [ref=e219]:
+              - img [ref=e220]
+              - generic [ref=e222]: Fair Play Certified
+  - contentinfo [ref=e223]:
+    - generic [ref=e224]:
+      - generic [ref=e225]:
+        - generic [ref=e226]:
+          - generic [ref=e227]: 🎰 BestCasinoPortal
+          - paragraph [ref=e228]: Expert casino reviews and ratings you can trust.
+          - generic [ref=e229]: "Updated: September 2025"
+        - generic [ref=e230]:
+          - heading "Best Casinos" [level=3] [ref=e231]
+          - list [ref=e232]:
+            - listitem [ref=e233]:
+              - link "All Best Casinos" [ref=e234] [cursor=pointer]:
+                - /url: /best
+            - listitem [ref=e235]:
+              - link "Real Money Casinos" [ref=e236] [cursor=pointer]:
+                - /url: /best/real-money
+            - listitem [ref=e237]:
+              - link "Fast Withdrawal Casinos" [ref=e238] [cursor=pointer]:
+                - /url: /best/fast-withdrawals
+            - listitem [ref=e239]:
+              - link "Mobile Casinos" [ref=e240] [cursor=pointer]:
+                - /url: /best/mobile
+            - listitem [ref=e241]:
+              - link "Live Dealer Casinos" [ref=e242] [cursor=pointer]:
+                - /url: /best/live-dealer
+        - generic [ref=e243]:
+          - heading "Games & Bonuses" [level=3] [ref=e244]
+          - list [ref=e245]:
+            - listitem [ref=e246]:
+              - link "Casino Games" [ref=e247] [cursor=pointer]:
+                - /url: /games
+            - listitem [ref=e248]:
+              - link "Slots" [ref=e249] [cursor=pointer]:
+                - /url: /slots
+            - listitem [ref=e250]:
+              - link "Free Games" [ref=e251] [cursor=pointer]:
+                - /url: /free-games
+            - listitem [ref=e252]:
+              - link "Casino Bonuses" [ref=e253] [cursor=pointer]:
+                - /url: /bonuses
+            - listitem [ref=e254]:
+              - link "Bonus Codes" [ref=e255] [cursor=pointer]:
+                - /url: /bonus
+            - listitem [ref=e256]:
+              - link "Live Dealer Games" [ref=e257] [cursor=pointer]:
+                - /url: /live-dealer
+        - generic [ref=e258]:
+          - heading "Reviews & Guides" [level=3] [ref=e259]
+          - list [ref=e260]:
+            - listitem [ref=e261]:
+              - link "Casino Reviews" [ref=e262] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e263]:
+              - link "Casino Guides" [ref=e264] [cursor=pointer]:
+                - /url: /guides
+            - listitem [ref=e265]:
+              - link "How We Rate Casinos" [ref=e266] [cursor=pointer]:
+                - /url: /guides/how-we-rate
+            - listitem [ref=e267]:
+              - link "Payment Methods" [ref=e268] [cursor=pointer]:
+                - /url: /payments
+            - listitem [ref=e269]:
+              - link "Mobile Gaming Guide" [ref=e270] [cursor=pointer]:
+                - /url: /mobile
+        - generic [ref=e271]:
+          - heading "Regions" [level=3] [ref=e272]
+          - list [ref=e273]:
+            - listitem [ref=e274]:
+              - link "All Regions" [ref=e275] [cursor=pointer]:
+                - /url: /regions
+            - listitem [ref=e276]:
+              - link "Ontario Casinos" [ref=e277] [cursor=pointer]:
+                - /url: /regions/ontario
+            - listitem [ref=e278]:
+              - link "Alberta Casinos" [ref=e279] [cursor=pointer]:
+                - /url: /regions/alberta
+            - listitem [ref=e280]:
+              - link "BC Casinos" [ref=e281] [cursor=pointer]:
+                - /url: /regions/british-columbia
+        - generic [ref=e282]:
+          - heading "Legal & Support" [level=3] [ref=e283]
+          - list [ref=e284]:
+            - listitem [ref=e285]:
+              - link "Terms of Service" [ref=e286] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=e287]:
+              - link "Privacy Policy" [ref=e288] [cursor=pointer]:
+                - /url: /legal/privacy
+            - listitem [ref=e289]:
+              - link "About Us" [ref=e290] [cursor=pointer]:
+                - /url: /legal/about
+            - listitem [ref=e291]:
+              - link "Responsible Gambling" [ref=e292] [cursor=pointer]:
+                - /url: /guides/responsible-gambling
+      - generic [ref=e293]:
+        - paragraph [ref=e294]:
+          - strong [ref=e295]: "Affiliate Disclosure:"
+          - text: This site contains affiliate links. We may earn a commission if you click through and make a deposit. This doesn't affect our recommendations or reviews.
+        - paragraph [ref=e296]: © 2025 BestCasinoPortal. All rights reserved. | 18+ only. Gamble responsibly.
+```

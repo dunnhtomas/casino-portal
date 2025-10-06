@@ -1,0 +1,207 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "🎰 Casino Portal" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - link "Reviews" [ref=e10] [cursor=pointer]:
+            - /url: /reviews
+            - text: Reviews
+            - img [ref=e11] [cursor=pointer]
+          - link "Best Casinos" [ref=e14] [cursor=pointer]:
+            - /url: /best
+            - text: Best Casinos
+            - img [ref=e15] [cursor=pointer]
+          - link "Bonuses Hot" [ref=e18] [cursor=pointer]:
+            - /url: /bonuses
+            - text: Bonuses
+            - generic [ref=e19] [cursor=pointer]: Hot
+            - img [ref=e20] [cursor=pointer]
+          - link "Games" [ref=e23] [cursor=pointer]:
+            - /url: /games
+            - text: Games
+            - img [ref=e24] [cursor=pointer]
+          - link "Guides" [ref=e27] [cursor=pointer]:
+            - /url: /guides
+            - text: Guides
+            - img [ref=e28] [cursor=pointer]
+          - link "Regions" [ref=e31] [cursor=pointer]:
+            - /url: /regions
+            - text: Regions
+            - img [ref=e32] [cursor=pointer]
+  - navigation [ref=e34]:
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - link "Home" [ref=e38] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e39]:
+        - img [ref=e40]
+        - link "Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e43]:
+        - img [ref=e44]
+        - link "Casino Guides" [ref=e46] [cursor=pointer]:
+          - /url: /guides
+      - listitem [ref=e47]:
+        - img [ref=e48]
+        - generic [ref=e50]: Responsible Gambling
+  - main [ref=e51]:
+    - main [ref=e52]:
+      - generic [ref=e54]:
+        - heading "Responsible Gambling" [level=1] [ref=e55]
+        - paragraph [ref=e56]: Your safety and wellbeing are our top priority. Learn how to gamble responsibly.
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - heading "Gambling Should Be Fun" [level=2] [ref=e60]
+          - paragraph [ref=e61]: We encourage responsible play and believe that gambling should always remain an entertaining activity, not a way to make money or solve financial problems.
+          - paragraph [ref=e62]: If you or someone you know has a gambling problem, seek help through local hotlines and support groups.
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: 💰
+            - heading "Set Deposit Limits" [level=3] [ref=e66]
+            - paragraph [ref=e67]: Decide on a budget before you start playing and stick to it. Only gamble with money you can afford to lose.
+          - generic [ref=e68]:
+            - generic [ref=e69]: ⏰
+            - heading "Take Regular Breaks" [level=3] [ref=e70]
+            - paragraph [ref=e71]: Set time limits for your gaming sessions and take regular breaks to maintain perspective.
+          - generic [ref=e72]:
+            - generic [ref=e73]: 🚫
+            - heading "Never Chase Losses" [level=3] [ref=e74]
+            - paragraph [ref=e75]: Accept that losses are part of gambling. Never increase your bets to try to win back money you've lost.
+          - generic [ref=e76]:
+            - generic [ref=e77]: 👥
+            - heading "Seek Support" [level=3] [ref=e78]
+            - paragraph [ref=e79]: If gambling stops being fun, talk to friends, family, or professional counselors who can help.
+        - generic [ref=e80]:
+          - heading "⚠️ Warning Signs of Problem Gambling" [level=3] [ref=e81]
+          - list [ref=e82]:
+            - listitem [ref=e83]: • Gambling more than you can afford
+            - listitem [ref=e84]: • Lying about gambling activities
+            - listitem [ref=e85]: • Neglecting work, family, or responsibilities
+            - listitem [ref=e86]: • Borrowing money to gamble
+            - listitem [ref=e87]: • Feeling anxious or depressed about gambling
+            - listitem [ref=e88]: • Unable to stop despite wanting to
+        - generic [ref=e89]:
+          - heading "🆘 Get Help" [level=3] [ref=e90]
+          - paragraph [ref=e91]: "If you need help with gambling problems, these organizations provide confidential support:"
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - text: •
+              - strong [ref=e94]: "National Problem Gambling Helpline:"
+              - text: 1-800-522-4700
+            - listitem [ref=e95]:
+              - text: •
+              - strong [ref=e96]: "Gamblers Anonymous:"
+              - text: ga.org
+            - listitem [ref=e97]:
+              - text: •
+              - strong [ref=e98]: "National Council on Problem Gambling:"
+              - text: ncpgambling.org
+            - listitem [ref=e99]:
+              - text: •
+              - strong [ref=e100]: "Canada Problem Gambling:"
+              - text: problemgambling.ca
+  - contentinfo [ref=e101]:
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - generic [ref=e105]: 🎰 BestCasinoPortal
+          - paragraph [ref=e106]: Expert casino reviews and ratings you can trust.
+          - generic [ref=e107]: "Updated: September 2025"
+        - generic [ref=e108]:
+          - heading "Best Casinos" [level=3] [ref=e109]
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - link "All Best Casinos" [ref=e112] [cursor=pointer]:
+                - /url: /best
+            - listitem [ref=e113]:
+              - link "Real Money Casinos" [ref=e114] [cursor=pointer]:
+                - /url: /best/real-money
+            - listitem [ref=e115]:
+              - link "Fast Withdrawal Casinos" [ref=e116] [cursor=pointer]:
+                - /url: /best/fast-withdrawals
+            - listitem [ref=e117]:
+              - link "Mobile Casinos" [ref=e118] [cursor=pointer]:
+                - /url: /best/mobile
+            - listitem [ref=e119]:
+              - link "Live Dealer Casinos" [ref=e120] [cursor=pointer]:
+                - /url: /best/live-dealer
+        - generic [ref=e121]:
+          - heading "Games & Bonuses" [level=3] [ref=e122]
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - link "Casino Games" [ref=e125] [cursor=pointer]:
+                - /url: /games
+            - listitem [ref=e126]:
+              - link "Slots" [ref=e127] [cursor=pointer]:
+                - /url: /slots
+            - listitem [ref=e128]:
+              - link "Free Games" [ref=e129] [cursor=pointer]:
+                - /url: /free-games
+            - listitem [ref=e130]:
+              - link "Casino Bonuses" [ref=e131] [cursor=pointer]:
+                - /url: /bonuses
+            - listitem [ref=e132]:
+              - link "Bonus Codes" [ref=e133] [cursor=pointer]:
+                - /url: /bonus
+            - listitem [ref=e134]:
+              - link "Live Dealer Games" [ref=e135] [cursor=pointer]:
+                - /url: /live-dealer
+        - generic [ref=e136]:
+          - heading "Reviews & Guides" [level=3] [ref=e137]
+          - list [ref=e138]:
+            - listitem [ref=e139]:
+              - link "Casino Reviews" [ref=e140] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e141]:
+              - link "Casino Guides" [ref=e142] [cursor=pointer]:
+                - /url: /guides
+            - listitem [ref=e143]:
+              - link "How We Rate Casinos" [ref=e144] [cursor=pointer]:
+                - /url: /guides/how-we-rate
+            - listitem [ref=e145]:
+              - link "Payment Methods" [ref=e146] [cursor=pointer]:
+                - /url: /payments
+            - listitem [ref=e147]:
+              - link "Mobile Gaming Guide" [ref=e148] [cursor=pointer]:
+                - /url: /mobile
+        - generic [ref=e149]:
+          - heading "Regions" [level=3] [ref=e150]
+          - list [ref=e151]:
+            - listitem [ref=e152]:
+              - link "All Regions" [ref=e153] [cursor=pointer]:
+                - /url: /regions
+            - listitem [ref=e154]:
+              - link "Ontario Casinos" [ref=e155] [cursor=pointer]:
+                - /url: /regions/ontario
+            - listitem [ref=e156]:
+              - link "Alberta Casinos" [ref=e157] [cursor=pointer]:
+                - /url: /regions/alberta
+            - listitem [ref=e158]:
+              - link "BC Casinos" [ref=e159] [cursor=pointer]:
+                - /url: /regions/british-columbia
+        - generic [ref=e160]:
+          - heading "Legal & Support" [level=3] [ref=e161]
+          - list [ref=e162]:
+            - listitem [ref=e163]:
+              - link "Terms of Service" [ref=e164] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=e165]:
+              - link "Privacy Policy" [ref=e166] [cursor=pointer]:
+                - /url: /legal/privacy
+            - listitem [ref=e167]:
+              - link "About Us" [ref=e168] [cursor=pointer]:
+                - /url: /legal/about
+            - listitem [ref=e169]:
+              - link "Responsible Gambling" [ref=e170] [cursor=pointer]:
+                - /url: /guides/responsible-gambling
+      - generic [ref=e171]:
+        - paragraph [ref=e172]:
+          - strong [ref=e173]: "Affiliate Disclosure:"
+          - text: This site contains affiliate links. We may earn a commission if you click through and make a deposit. This doesn't affect our recommendations or reviews.
+        - paragraph [ref=e174]: © 2025 BestCasinoPortal. All rights reserved. | 18+ only. Gamble responsibly.
+```

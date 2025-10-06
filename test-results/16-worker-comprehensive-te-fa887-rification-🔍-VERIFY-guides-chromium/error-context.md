@@ -1,0 +1,173 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "🎰 Casino Portal" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e8]:
+          - link "Reviews" [ref=e10] [cursor=pointer]:
+            - /url: /reviews
+            - text: Reviews
+            - img [ref=e11] [cursor=pointer]
+          - link "Best Casinos" [ref=e14] [cursor=pointer]:
+            - /url: /best
+            - text: Best Casinos
+            - img [ref=e15] [cursor=pointer]
+          - link "Bonuses Hot" [ref=e18] [cursor=pointer]:
+            - /url: /bonuses
+            - text: Bonuses
+            - generic [ref=e19] [cursor=pointer]: Hot
+            - img [ref=e20] [cursor=pointer]
+          - link "Games" [ref=e23] [cursor=pointer]:
+            - /url: /games
+            - text: Games
+            - img [ref=e24] [cursor=pointer]
+          - link "Guides" [ref=e27] [cursor=pointer]:
+            - /url: /guides
+            - text: Guides
+            - img [ref=e28] [cursor=pointer]
+          - link "Regions" [ref=e31] [cursor=pointer]:
+            - /url: /regions
+            - text: Regions
+            - img [ref=e32] [cursor=pointer]
+  - navigation [ref=e34]:
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - link "Home" [ref=e38] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e39]:
+        - img [ref=e40]
+        - link "Home" [ref=e42] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e43]:
+        - img [ref=e44]
+        - generic [ref=e46]: Casino Guides
+  - main [ref=e47]:
+    - main [ref=e48]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - heading "🎓 Casino Expert Guides" [level=1] [ref=e54]
+          - paragraph [ref=e55]: Comprehensive expert guides to help you navigate the world of online casinos with confidence and knowledge.
+        - generic [ref=e56]:
+          - img [ref=e57]
+          - generic [ref=e59]: 📚 Expert Knowledge • 🛡️ Safety First • ⚖️ Transparent Methods • 🎯 Practical Tips
+      - generic [ref=e61]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: ⚖️
+          - heading "How We Rate Casinos" [level=2] [ref=e66]
+          - paragraph [ref=e67]: Discover our transparent, expert methodology for rating online casinos, including our comprehensive scoring system and detailed criteria.
+          - link "Learn Our Process" [ref=e68] [cursor=pointer]:
+            - /url: /guides/how-we-rate
+            - text: Learn Our Process
+            - img [ref=e69] [cursor=pointer]
+        - generic [ref=e73]:
+          - generic [ref=e74]: 🛡️
+          - heading "Responsible Gambling" [level=2] [ref=e75]
+          - paragraph [ref=e76]: Essential information about gambling responsibly, setting limits, recognizing problem gambling, and accessing help when needed.
+          - link "Stay Safe" [ref=e77] [cursor=pointer]:
+            - /url: /guides/responsible-gambling
+            - text: Stay Safe
+            - img [ref=e78] [cursor=pointer]
+  - contentinfo [ref=e80]:
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]: 🎰 BestCasinoPortal
+          - paragraph [ref=e85]: Expert casino reviews and ratings you can trust.
+          - generic [ref=e86]: "Updated: September 2025"
+        - generic [ref=e87]:
+          - heading "Best Casinos" [level=3] [ref=e88]
+          - list [ref=e89]:
+            - listitem [ref=e90]:
+              - link "All Best Casinos" [ref=e91] [cursor=pointer]:
+                - /url: /best
+            - listitem [ref=e92]:
+              - link "Real Money Casinos" [ref=e93] [cursor=pointer]:
+                - /url: /best/real-money
+            - listitem [ref=e94]:
+              - link "Fast Withdrawal Casinos" [ref=e95] [cursor=pointer]:
+                - /url: /best/fast-withdrawals
+            - listitem [ref=e96]:
+              - link "Mobile Casinos" [ref=e97] [cursor=pointer]:
+                - /url: /best/mobile
+            - listitem [ref=e98]:
+              - link "Live Dealer Casinos" [ref=e99] [cursor=pointer]:
+                - /url: /best/live-dealer
+        - generic [ref=e100]:
+          - heading "Games & Bonuses" [level=3] [ref=e101]
+          - list [ref=e102]:
+            - listitem [ref=e103]:
+              - link "Casino Games" [ref=e104] [cursor=pointer]:
+                - /url: /games
+            - listitem [ref=e105]:
+              - link "Slots" [ref=e106] [cursor=pointer]:
+                - /url: /slots
+            - listitem [ref=e107]:
+              - link "Free Games" [ref=e108] [cursor=pointer]:
+                - /url: /free-games
+            - listitem [ref=e109]:
+              - link "Casino Bonuses" [ref=e110] [cursor=pointer]:
+                - /url: /bonuses
+            - listitem [ref=e111]:
+              - link "Bonus Codes" [ref=e112] [cursor=pointer]:
+                - /url: /bonus
+            - listitem [ref=e113]:
+              - link "Live Dealer Games" [ref=e114] [cursor=pointer]:
+                - /url: /live-dealer
+        - generic [ref=e115]:
+          - heading "Reviews & Guides" [level=3] [ref=e116]
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - link "Casino Reviews" [ref=e119] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=e120]:
+              - link "Casino Guides" [ref=e121] [cursor=pointer]:
+                - /url: /guides
+            - listitem [ref=e122]:
+              - link "How We Rate Casinos" [ref=e123] [cursor=pointer]:
+                - /url: /guides/how-we-rate
+            - listitem [ref=e124]:
+              - link "Payment Methods" [ref=e125] [cursor=pointer]:
+                - /url: /payments
+            - listitem [ref=e126]:
+              - link "Mobile Gaming Guide" [ref=e127] [cursor=pointer]:
+                - /url: /mobile
+        - generic [ref=e128]:
+          - heading "Regions" [level=3] [ref=e129]
+          - list [ref=e130]:
+            - listitem [ref=e131]:
+              - link "All Regions" [ref=e132] [cursor=pointer]:
+                - /url: /regions
+            - listitem [ref=e133]:
+              - link "Ontario Casinos" [ref=e134] [cursor=pointer]:
+                - /url: /regions/ontario
+            - listitem [ref=e135]:
+              - link "Alberta Casinos" [ref=e136] [cursor=pointer]:
+                - /url: /regions/alberta
+            - listitem [ref=e137]:
+              - link "BC Casinos" [ref=e138] [cursor=pointer]:
+                - /url: /regions/british-columbia
+        - generic [ref=e139]:
+          - heading "Legal & Support" [level=3] [ref=e140]
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - link "Terms of Service" [ref=e143] [cursor=pointer]:
+                - /url: /legal/terms
+            - listitem [ref=e144]:
+              - link "Privacy Policy" [ref=e145] [cursor=pointer]:
+                - /url: /legal/privacy
+            - listitem [ref=e146]:
+              - link "About Us" [ref=e147] [cursor=pointer]:
+                - /url: /legal/about
+            - listitem [ref=e148]:
+              - link "Responsible Gambling" [ref=e149] [cursor=pointer]:
+                - /url: /guides/responsible-gambling
+      - generic [ref=e150]:
+        - paragraph [ref=e151]:
+          - strong [ref=e152]: "Affiliate Disclosure:"
+          - text: This site contains affiliate links. We may earn a commission if you click through and make a deposit. This doesn't affect our recommendations or reviews.
+        - paragraph [ref=e153]: © 2025 BestCasinoPortal. All rights reserved. | 18+ only. Gamble responsibly.
+```
