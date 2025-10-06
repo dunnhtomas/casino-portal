@@ -135,3 +135,37 @@ const heroContent = {
     </div>
   </div>
 </section>
+
+<style>
+  /* Astro scoped styles to ensure data-astro-cid generation */
+  #hero {
+    /* Ensure proper gradient rendering */
+    background-attachment: fixed;
+  }
+  
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+  
+  /* Hero content optimizations */
+  .hero-content {
+    z-index: 10;
+    position: relative;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 640px) {
+    #hero {
+      min-height: 100vh;
+    }
+  }
+  
+  /* Performance optimizations */
+  .hero-bg {
+    will-change: transform;
+  }
+</style>

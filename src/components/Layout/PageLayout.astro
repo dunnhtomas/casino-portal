@@ -52,3 +52,28 @@ const { seoMetadata, schemaMarkup, navigation, affiliateDisclosure } = Astro.pro
     <script src="/js/accessibility.js" is:inline></script>
   </body>
 </html>
+
+<style>
+  /* Astro scoped styles to ensure data-astro-cid generation */
+  .page-layout-body {
+    /* Ensure proper layout structure */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  /* Responsive typography base */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+</style>

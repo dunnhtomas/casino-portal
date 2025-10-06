@@ -92,3 +92,85 @@ const affiliateDisclosure = "This site contains affiliate links. We may earn a c
     <FooterSection footerSections={footerSections} affiliateDisclosure={affiliateDisclosure} />
   </body>
 </html>
+
+<style>
+  /* Astro scoped styles to ensure data-astro-cid generation */
+  .page-layout-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  /* Breadcrumbs styling */
+  .breadcrumbs-nav {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+  }
+  
+  .breadcrumbs-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .breadcrumbs-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 0.5rem;
+  }
+  
+  .breadcrumbs-home-link {
+    color: #6b7280;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .breadcrumbs-home-link:hover {
+    color: #1f2937;
+  }
+  
+  .breadcrumbs-separator {
+    width: 1rem;
+    height: 1rem;
+    color: #9ca3af;
+    margin: 0 0.25rem;
+  }
+  
+  .breadcrumbs-link {
+    color: #6b7280;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .breadcrumbs-link:hover {
+    color: #1f2937;
+  }
+  
+  .breadcrumbs-active {
+    color: #1f2937;
+    font-weight: 600;
+  }
+  
+  /* Responsive design */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+</style>

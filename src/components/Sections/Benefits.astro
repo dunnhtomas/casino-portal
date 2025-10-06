@@ -196,6 +196,34 @@ const jsonLd = {
   </div>
 </section>
 
+<style>
+  /* Astro scoped styles for Benefits component */
+  .benefits-section {
+    /* Component isolation */
+    contain: layout style;
+  }
+  
+  .benefit-card {
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+  }
+  
+  .benefit-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .benefit-icon {
+    will-change: transform;
+  }
+  
+  /* Responsive grid adjustments */
+  @media (max-width: 768px) {
+    .benefits-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
 <!-- Mobile-First Styles for Benefits Component -->
 <style>
   /* Component-specific optimizations */

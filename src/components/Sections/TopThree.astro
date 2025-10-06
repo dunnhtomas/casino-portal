@@ -110,6 +110,32 @@ const jsonLd = seoManager.generateJsonLd(enhancedCasinos);
 </section>
 
 <style>
+  /* Astro scoped styles for TopThree component */
+  .top-three-section {
+    /* Ensure proper styling isolation */
+    contain: layout style;
+  }
+  
+  .casino-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .casino-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* Badge styling */
+  .recommended-badge {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+  }
+  
+  /* Rating display */
+  .rating-display {
+    font-variant-numeric: tabular-nums;
+  }
+</style>
+
+<style>
   /* Professional 3-column grid styling */
   .casino-card-enhanced { 
     will-change: transform; 
