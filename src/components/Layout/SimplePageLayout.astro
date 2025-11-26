@@ -1,11 +1,32 @@
 ---
 import type { Breadcrumb } from '../../core/interfaces/DataServiceInterfaces';
-import { NavigationCoordinator } from '../../coordinators/NavigationCoordinator';
-import HeaderNavigation from './HeaderNavigation.astro';
+import SmartHeader from './SmartHeader.astro';
 import FooterSection from './FooterSection.astro';
+import BreadcrumbNavigation from './BreadcrumbNavigation.astro';
+import AnalyticsHead from './AnalyticsHead.astro';
 
 // Import main CSS
 import '../../styles/main.css';
+import '../../styles/force-dark-mode.css';
+
+/**
+ * Content Security Policy for static builds
+ * This meta tag serves as a fallback when middleware CSP headers aren't applied
+ */
+const CSP_META_CONTENT = [
+  "default-src 'self'",
+  "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.jsdelivr.net https://static.cloudflareinsights.com",
+  "script-src-elem 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://cdn.jsdelivr.net https://static.cloudflareinsights.com",
+  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+  "img-src 'self' data: https: http:",
+  "font-src 'self' https://fonts.gstatic.com data:",
+  "connect-src 'self' https://www.google-analytics.com https://api.brandfetch.com https://cloudflareinsights.com",
+  "frame-src 'self' https://playin.games https://game-providers.com",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "upgrade-insecure-requests"
+].join('; ');
 
 interface Props {
   title: string;
@@ -14,29 +35,37 @@ interface Props {
 }
 
 const { title, description, breadcrumbs } = Astro.props;
-
-// Initialize navigation
-const navigationCoordinator = new NavigationCoordinator();
-const footerSections = navigationCoordinator.generateFooterSections();
-const affiliateDisclosure = "This site contains affiliate links. We may earn a commission if you click through and make a deposit. This doesn't affect our recommendations or reviews.";
 ---
 
 <!DOCTYPE html>
 <html lang="en" class="overflow-x-hidden">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    
+
+    <!-- Content Security Policy (Meta Tag Fallback for Static Builds) -->
+    <!-- Primary CSP is enforced via HTTP headers in middleware for SSR/Hybrid builds -->
+    <meta http-equiv="Content-Security-Policy" content={CSP_META_CONTENT} />
+
     <!-- Navigation port fix for development -->
     <script is:inline src="/js/navigation-fix.js"></script>
-    
+
+    <!-- Development warnings suppressor -->
+    <script is:inline src="/js/dev-warnings-suppressor.js"></script>
+
+    <!-- Rating and progress bar handler -->
+    <script is:inline src="/js/rating-handler.js"></script>
+
+    <!-- Google Analytics and Search Console integration - ALWAYS include, not just in PROD -->
+    <AnalyticsHead />
+
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/images/favicon.svg" />
-    
+    <link rel="apple-touch-icon" href="/assets/favicon.svg" />
+
     <!-- Additional meta tags for SEO -->
     <meta name="robots" content="index, follow" />
     <meta property="og:title" content={title} />
@@ -45,132 +74,36 @@ const affiliateDisclosure = "This site contains affiliate links. We may earn a c
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    
+
     <!-- Additional head content -->
     <slot name="head" />
   </head>
-  
-  <body class="page-layout-body">
-    <!-- Header Navigation -->
-    <HeaderNavigation />
-    
-    <!-- Breadcrumbs -->
-    {breadcrumbs && breadcrumbs.length > 0 && (
-      <nav class="breadcrumbs-nav">
-        <div class="breadcrumbs-container">
-          <ol class="breadcrumbs-list">
-            <li>
-              <a href="/" class="breadcrumbs-home-link">
-                Home
-              </a>
-            </li>
-            {breadcrumbs.map((crumb, index) => (
-              <li class="flex items-center">
-                <svg class="breadcrumbs-separator" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                </svg>
-                {index === breadcrumbs.length - 1 ? (
-                  <span class="breadcrumbs-active">{crumb.label}</span>
-                ) : (
-                  <a href={crumb.href} class="breadcrumbs-link">
-                    {crumb.label}
-                  </a>
-                )}
-              </li>
-            ))}
-          </ol>
-        </div>
-      </nav>
-    )}
-    
-    <!-- Main Content -->
-    <main class="min-h-screen">
-      <slot />
+
+  <body class="smart-page-layout">
+    <!-- Smart Header Component -->
+    <SmartHeader />
+
+    <!-- Smart Breadcrumb Navigation -->
+    <BreadcrumbNavigation breadcrumbs={breadcrumbs} />
+
+    <!-- Main Content Area -->
+    <main id="main-content" class="smart-main-content vegas-bg-premium" role="main">
+      <!-- Vegas Animated Gradient Background -->
+      <div class="vegas-animated-blobs">
+        <div class="vegas-blob vegas-blob-gold"></div>
+        <div class="vegas-blob vegas-blob-red"></div>
+        <div class="vegas-blob vegas-blob-purple"></div>
+      </div>
+
+      <!-- Content Slot -->
+      <div class="content-wrapper">
+        <slot />
+      </div>
     </main>
-    
-    <!-- Footer -->
-    <FooterSection footerSections={footerSections} affiliateDisclosure={affiliateDisclosure} />
+
+    <!-- Comprehensive Footer Component -->
+    <FooterSection />
   </body>
 </html>
 
-<style>
-  /* Astro scoped styles to ensure data-astro-cid generation */
-  .page-layout-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  main {
-    flex-grow: 1;
-  }
-  
-  /* Breadcrumbs styling */
-  .breadcrumbs-nav {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem 0;
-  }
-  
-  .breadcrumbs-container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-  }
-  
-  .breadcrumbs-list {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 0.5rem;
-  }
-  
-  .breadcrumbs-home-link {
-    color: #6b7280;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s ease;
-  }
-  
-  .breadcrumbs-home-link:hover {
-    color: #1f2937;
-  }
-  
-  .breadcrumbs-separator {
-    width: 1rem;
-    height: 1rem;
-    color: #9ca3af;
-    margin: 0 0.25rem;
-  }
-  
-  .breadcrumbs-link {
-    color: #6b7280;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s ease;
-  }
-  
-  .breadcrumbs-link:hover {
-    color: #1f2937;
-  }
-  
-  .breadcrumbs-active {
-    color: #1f2937;
-    font-weight: 600;
-  }
-  
-  /* Responsive design */
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  @media (prefers-reduced-motion: reduce) {
-    html {
-      scroll-behavior: auto;
-    }
-  }
-</style>
+<!-- Styles moved to src/styles/components/simple-page-layout.css -->
