@@ -1,13 +1,11 @@
 ---
-import type { Breadcrumb } from '../../core/interfaces/DataServiceInterfaces';
-import SmartHeader from './SmartHeader.astro';
+import HeaderNavigation from './HeaderNavigation.astro';
 import FooterSection from './FooterSection.astro';
 import BreadcrumbNavigation from './BreadcrumbNavigation.astro';
 import AnalyticsHead from './AnalyticsHead.astro';
 
 // Import main CSS
 import '../../styles/main.css';
-import '../../styles/force-dark-mode.css';
 
 /**
  * Content Security Policy for static builds
@@ -80,8 +78,8 @@ const { title, description, breadcrumbs } = Astro.props;
   </head>
 
   <body class="smart-page-layout">
-    <!-- Smart Header Component -->
-    <SmartHeader />
+    <!-- Header Navigation Component -->
+    <HeaderNavigation />
 
     <!-- Smart Breadcrumb Navigation -->
     <BreadcrumbNavigation breadcrumbs={breadcrumbs} />
