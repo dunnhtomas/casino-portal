@@ -1,12 +1,14 @@
 ---
+// Modified PageLayout to ensure analytics runs on all pages
 import type { SEOMetadata } from '../../managers/SEOManager';
 import type { SchemaMarkup } from '../../managers/SchemaMarkupManager';
 import type { NavigationItem, FooterSection as FooterSectionData } from '../../legacy/NavigationCoordinator';
 import HeadMeta from './HeadMeta.astro';
 import HeaderNavigation from './HeaderNavigation.astro';
 import FooterSection from './FooterSection.astro';
+import AnalyticsHead from './AnalyticsHead.astro';
 
-// Import main CSS
+// Import Tailwind CSS properly for Astro
 import '../../styles/main.css';
 
 interface Props {
@@ -19,7 +21,7 @@ interface Props {
   };
   navigation: {
     main: NavigationItem[];
-    footer: FooterSectionData[];
+    footer?: FooterSectionData[];
   };
   affiliateDisclosure: string;
 }
@@ -31,49 +33,73 @@ const { seoMetadata, schemaMarkup, navigation, affiliateDisclosure } = Astro.pro
 <html lang="en" class="overflow-x-hidden">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+    <!-- Note: viewport meta tag is defined in HeadMeta.astro with enhanced mobile settings -->
+
+    <!-- Preload critical logo to prevent CLS -->
+    <link rel="preload" href="/assets/logos/bcp-logo.png" as="image" />
+
     <!-- Navigation port fix for development -->
     <script is:inline src="/js/navigation-fix.js"></script>
-    
+
+    <!-- Development warnings suppressor -->
+    <script is:inline src="/js/dev-warnings-suppressor.js"></script>
+
+    <!-- Google Analytics and Search Console integration - ALWAYS include, not just in PROD -->
+    <AnalyticsHead />
+
     <HeadMeta seoMetadata={seoMetadata} schemaMarkup={schemaMarkup} />
   </head>
-  
+
   <body class="page-layout-body">
     <HeaderNavigation navigationItems={navigation.main} />
-    
-    <main class="min-h-screen">
+
+    <main id="main-content" class="min-h-screen vegas-bg-premium">
+      <!-- Vegas Animated Gradient Blobs -->
+      <div class="vegas-animated-blobs">
+        <div class="vegas-blob vegas-blob-gold"></div>
+        <div class="vegas-blob vegas-blob-red"></div>
+        <div class="vegas-blob vegas-blob-purple"></div>
+      </div>
+
       <slot />
     </main>
-    
-    <FooterSection footerSections={navigation.footer} affiliateDisclosure={affiliateDisclosure} />
-    
+
+    <FooterSection affiliateDisclosure={affiliateDisclosure} />
+
     <!-- Accessibility and Interactive Enhancements -->
     <script src="/js/accessibility.js" is:inline></script>
+
+    <!-- Storage and Resource Cleanup -->
+    <script>
+      // Initialize storage cleanup for analytics and performance data
+      import { initStorageCleanup } from '../../utils/storageCleanup';
+      initStorageCleanup();
+    </script>
+
+    <!-- Analytics verification script that runs after page load -->
+    <script is:inline>
+      window.addEventListener('load', function() {
+        // Check if analytics is properly initialized
+        if (!window.analyticsInitialized || typeof gtag !== 'function') {
+          console.warn('Analytics not properly initialized, attempting recovery...');
+
+          // Create gtag script element
+          var gtagScript = document.createElement('script');
+          gtagScript.async = true;
+          gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-ZWTXVFS09T';
+          document.head.appendChild(gtagScript);
+
+          // Reinitialize dataLayer and gtag
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZWTXVFS09T');
+
+          console.log('Analytics recovery attempt complete');
+        }
+      });
+    </script>
   </body>
 </html>
 
-<style>
-  /* Astro scoped styles to ensure data-astro-cid generation */
-  .page-layout-body {
-    /* Ensure proper layout structure */
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  main {
-    flex-grow: 1;
-  }
-  
-  /* Responsive typography base */
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  @media (prefers-reduced-motion: reduce) {
-    html {
-      scroll-behavior: auto;
-    }
-  }
-</style>
+<!-- Styles moved to src/styles/components/page-layout.css -->
